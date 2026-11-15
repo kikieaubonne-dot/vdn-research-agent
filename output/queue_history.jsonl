@@ -82,3 +82,7 @@
 {"utc": "2026-11-15T20:12:27+00:00", "event": "done", "key": "33e1798bfba05b1c", "query": "night forest lighting", "result": {"returned": 12, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 3, "updated": 0, "notes": [], "followups": [], "errors": 0}}
 {"utc": "2026-11-15T20:12:27+00:00", "event": "started", "key": "3d6dbac63e2e91e9", "query": "foliage SurfaceAppearance transparency"}
 {"utc": "2026-11-15T20:12:38+00:00", "event": "done", "key": "3d6dbac63e2e91e9", "query": "foliage SurfaceAppearance transparency", "result": {"returned": 12, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 3, "updated": 0, "notes": [], "followups": [], "errors": 0}}
+{"utc": "2026-11-15T20:15:09+00:00", "event": "started", "key": "3f271eab6bf88710", "query": "tree foliage cards"}
+{"utc": "2026-11-15T20:15:22+00:00", "event": "done", "key": "3f271eab6bf88710", "query": "tree foliage cards", "result": {"returned": 9, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 0, "updated": 0, "notes": [], "followups": [], "errors": 0}}
+{"utc": "2026-11-15T20:15:22+00:00", "event": "started", "key": "76d4593c78a99f5f", "query": "flashlight shadows forest"}
+{"utc": "2026-11-15T20:15:34+00:00", "event": "done", "key": "76d4593c78a99f5f", "query": "flashlight shadows forest", "result": {"returned": 8, "fetched": 7, "created": 0, "rejected": 7, "duplicates": 1, "updated": 0, "notes": [], "followups": [], "errors": 0}}

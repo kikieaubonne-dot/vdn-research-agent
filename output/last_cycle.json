@@ -1,67 +1,67 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-15T20:12:16+00:00",
-  "finished": "2026-11-15T20:12:38+00:00",
+  "started": "2026-11-15T20:15:09+00:00",
+  "finished": "2026-11-15T20:15:34+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "night forest lighting",
-      "topic": "forest",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "foliage SurfaceAppearance transparency",
+      "query": "tree foliage cards",
       "topic": "spruce",
       "depth": 0,
       "origin": "seed",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 3,
+      "duplicates": 0,
       "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "flashlight shadows forest",
+      "topic": "forest",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 0,
+      "rejected": 7,
+      "duplicates": 1,
+      "fetched": 7,
       "notes": [],
       "followups": []
     }
   ],
   "created": 0,
-  "fetched": 16,
-  "rejected": 16,
+  "fetched": 15,
+  "rejected": 15,
   "followups_added": 0,
-  "seeded": 80,
+  "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 78,
+      "pending": 76,
       "running": 0,
-      "done": 2,
+      "done": 4,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-15",
-      "items": 2,
-      "fetch": 16
+      "items": 4,
+      "fetch": 31
     },
     "next": [
       {
-        "query": "tree foliage cards",
+        "query": "tree wind bones",
         "topic": "spruce",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "flashlight shadows forest",
+        "query": "forest streaming trees",
         "topic": "forest",
         "priority": 10.0,
         "depth": 0,
