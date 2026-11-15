@@ -228,3 +228,11 @@ La publication de la branche et de la pull request dépend de l'accès GitHub
 en écriture ; l'authentification disponible au début de mission était invalide.
 L'état final de publication est indiqué dans la livraison, sans prétendre qu'une
 PR existe si sa création n'a pas abouti.
+
+### État de publication constaté
+
+Le commit d'implémentation est `0f13b9a`. Le push de `codex/autonomy-v7` a été
+tenté et a échoué : Git n'a pas d'identité HTTPS utilisable pour github.com.
+`gh auth status` signalait également un jeton invalide. La branche n'est donc
+pas publiée et **aucune pull request n'a été créée**. La connexion GitHub est
+nécessaire pour terminer ce livrable ; aucune fusion dans `main` n'a eu lieu.
