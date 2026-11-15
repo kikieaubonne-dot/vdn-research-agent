@@ -74,7 +74,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
     reg = knowledge.Registry(root)
     journal, rejected_log = [], []
     st = {"started_utc": utcnow(), "version": "5.0", "queries": 0, "trials": 0, "returned": 0, "fetched": 0, "accepted": 0,
-          "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [], "created_notes": [],
+          "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [], "created_notes": [], "rejected_candidates": [],
           "providers": list(provs)}
     fetched_total = 0
     plan_items = planned if planned is not None else planner.plan(state, root, max_queries, followups)
@@ -136,6 +136,9 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                     for r in a.get("reasons", []) or ["doublon de contenu"]:
                         k = r.split("(")[0].strip()
                         st["rejection_reasons"][k] = st["rejection_reasons"].get(k, 0) + 1
+                    st["rejected_candidates"].append({"topical": a["topical"], "technical": a["technical"],
+                                                       "roblox": a["roblox"], "noise": a["noise"],
+                                                       "reasons": a.get("reasons", [])})
                     rejected_log.append({"utc": st["started_utc"], "url": providers.canonical_url(url), "query": query,
                                          "provider": reader.name, "reasons": a.get("reasons"), "topical": a["topical"],
                                          "technical": a["technical"]})

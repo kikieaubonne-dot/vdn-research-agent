@@ -18,6 +18,7 @@ from pathlib import Path
 
 from agent import knowledge, meta, rag
 from agent.followup_rules import followups_for_note, missing_info
+from agent.recursive_gaps import propose
 from agent.research_queue import ResearchQueue, iso, load_config, now_ts, today
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -195,6 +196,18 @@ def _run_item(root: Path, q: ResearchQueue, it: dict, cfg: dict, provs, research
             target = q.best_topic(f["query"], it["topic"])
             ok, why = q.add(target, f["query"], priority=it["priority"] - 0.5, origin="relance",
                             depth=it["depth"] + 1, parent=it["key"], reason=f["reason"])
+            if ok:
+                follow.append({**f, "topic": target})
+                summary["followups_added"] += 1
+    # V6 : les sources pertinentes mais insuffisantes peuvent declencher une recherche
+    # plus precise, meme si aucune fiche n'a ete creee. Aucune fiche faible n'est publiee.
+    if it["depth"] < cfg["queue"]["max_depth"]:
+        for f in propose(it["query"], st.get("rejected_candidates", []),
+                         cfg["queue"].get("max_children_per_note", 3)):
+            target = q.best_topic(f["query"], it["topic"])
+            ok, why = q.add(target, f["query"], priority=it["priority"] - 0.5,
+                            origin="relance_lacune", depth=it["depth"] + 1,
+                            parent=it["key"], reason=f["reason"])
             if ok:
                 follow.append({**f, "topic": target})
                 summary["followups_added"] += 1
