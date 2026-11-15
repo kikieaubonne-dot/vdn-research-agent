@@ -1,0 +1,8 @@
+{
+  "_comment": "Cas synthetiques : mesure uniquement la conservation de la facette cible apres raccourcissement. Ce n'est pas une annotation de pertinence semantique ni une preuve de verite.",
+  "cases": [
+    {"query": "tree foliage cards", "candidate": {"topical": 0.8, "technical": 0.04, "roblox": true, "noise": []}, "facet": "tutorial"},
+    {"query": "tree foliage cards", "candidate": {"topical": 0.8, "technical": 0.3, "roblox": false, "noise": []}, "facet": "compatibility"},
+    {"query": "flashlight shadows forest", "candidate": {"topical": 0.8, "technical": 0.3, "roblox": true, "noise": []}, "facet": "settings"}
+  ]
+}

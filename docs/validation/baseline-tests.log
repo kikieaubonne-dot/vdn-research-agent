@@ -1,0 +1,210 @@
+/workspace/work/vdn-research-agent/agent/v3.py:40: SyntaxWarning: invalid escape sequence '\`'
+  line=re.sub(r'\s+',' ',line).strip().replace('`','\`').replace('<','&lt;')
+test_allowlist (test_analyzer.AnalyzerTests.test_allowlist) ... ok
+test_enrich (test_analyzer.AnalyzerTests.test_enrich) ... ok
+test_extract (test_analyzer.AnalyzerTests.test_extract) ... ok
+test_followup (test_analyzer.AnalyzerTests.test_followup) ... ok
+test_html (test_analyzer.AnalyzerTests.test_html) ... ok
+test_existing_note_never_rewritten (test_autonomy.CycleDemoTests.test_existing_note_never_rewritten) ... ok
+test_full_autonomous_cycle (test_autonomy.CycleDemoTests.test_full_autonomous_cycle)
+Demarre, choisit, cherche, filtre, sauvegarde, memorise, prepare la suite. ... ok
+test_second_cycle_continues_without_repeating (test_autonomy.CycleDemoTests.test_second_cycle_continues_without_repeating) ... ok
+test_followups_from_note (test_autonomy.FollowupRuleTests.test_followups_from_note) ... ok
+test_corrupt_queue_file_kept_aside (test_autonomy.SafetyTests.test_corrupt_queue_file_kept_aside) ... ok
+test_daily_quota (test_autonomy.SafetyTests.test_daily_quota) ... ok
+test_depth_limit (test_autonomy.SafetyTests.test_depth_limit) ... ok
+test_error_logged_and_retried_not_fatal (test_autonomy.SafetyTests.test_error_logged_and_retried_not_fatal) ... ok
+test_excluded_topics_refused (test_autonomy.SafetyTests.test_excluded_topics_refused) ... ok
+test_followup_routed_to_best_topic (test_autonomy.SafetyTests.test_followup_routed_to_best_topic) ... ok
+test_followups_stop_at_max_depth (test_autonomy.SafetyTests.test_followups_stop_at_max_depth) ... ok
+test_gives_up_after_max_attempts (test_autonomy.SafetyTests.test_gives_up_after_max_attempts) ... ok
+test_lock_blocks_concurrent_cycle (test_autonomy.SafetyTests.test_lock_blocks_concurrent_cycle) ... ok
+test_queue_size_cap (test_autonomy.SafetyTests.test_queue_size_cap) ... ok
+test_resume_after_interruption (test_autonomy.SafetyTests.test_resume_after_interruption) ... ok
+test_same_query_never_queued_under_two_topics (test_autonomy.SafetyTests.test_same_query_never_queued_under_two_topics) ... ok
+test_semantic_duplicate (test_autonomy.SafetyTests.test_semantic_duplicate) ... ok
+test_stale_lock_taken_over (test_autonomy.SafetyTests.test_stale_lock_taken_over) ... ok
+test_time_budget (test_autonomy.SafetyTests.test_time_budget) ... ok
+test_unknown_topic_refused (test_autonomy.SafetyTests.test_unknown_topic_refused) ... ok
+test_clean (test_core.CoreTests.test_clean) ... ok
+test_dedup (test_core.CoreTests.test_dedup) ... ok
+test_score (test_core.CoreTests.test_score) ... ok
+test_url (test_core.CoreTests.test_url) ... ok
+test_empty_description_preserved (test_github_v53.GitHubRankingTests.test_empty_description_preserved) ... ok
+test_no_generic_roblox_fallback (test_github_v53.GitHubRankingTests.test_no_generic_roblox_fallback) ... ok
+test_relevant_repo_first (test_github_v53.GitHubRankingTests.test_relevant_repo_first) ... ok
+test_specific_keyword_beats_generic_keyword (test_github_v53.GitHubRankingTests.test_specific_keyword_beats_generic_keyword) ... ok
+test_empty_does_not_reward (test_meta.MetaTests.test_empty_does_not_reward) ... ok
+test_explore_before_exploit (test_meta.MetaTests.test_explore_before_exploit) ... ok
+test_irrelevant_spruce (test_meta.MetaTests.test_irrelevant_spruce) ... ok
+test_relevant_spruce (test_meta.MetaTests.test_relevant_spruce) ... ok
+test_empty_session_counted (test_meta_diagnostics.DiagnosticsTests.test_empty_session_counted) ... ok
+test_metrics_distinguish_no_results (test_meta_diagnostics.DiagnosticsTests.test_metrics_distinguish_no_results) ... ok
+test_metrics_distinguish_rejected (test_meta_diagnostics.DiagnosticsTests.test_metrics_distinguish_rejected) ... ok
+test_nonempty_session_counted (test_meta_diagnostics.DiagnosticsTests.test_nonempty_session_counted) ... ok
+test_extract_action_and_object (test_procedure_analysis.ProcedureAnalysisTests.test_extract_action_and_object) ... ok
+test_reject_outline (test_procedure_analysis.ProcedureAnalysisTests.test_reject_outline) ... ok
+test_documented_with_action_evidence (test_procedure_quality.ProcedureQualityTests.test_documented_with_action_evidence) ... ok
+test_explicit_instruction (test_procedure_quality.ProcedureQualityTests.test_explicit_instruction) ... ok
+test_no_documented_status_for_outline (test_procedure_quality.ProcedureQualityTests.test_no_documented_status_for_outline) ... ok
+test_not_claiming_tutorial (test_procedure_quality.ProcedureQualityTests.test_not_claiming_tutorial) ... ok
+test_toc_not_procedure (test_procedure_quality.ProcedureQualityTests.test_toc_not_procedure) ... ok
+test_complete_instruction_documents_source_not_tutorial (test_procedure_v52.ProcedureV52Tests.test_complete_instruction_documents_source_not_tutorial) ... ok
+test_complete_setting (test_procedure_v52.ProcedureV52Tests.test_complete_setting) ... ok
+test_cut_off_at_of (test_procedure_v52.ProcedureV52Tests.test_cut_off_at_of) ... ok
+test_cut_off_at_to (test_procedure_v52.ProcedureV52Tests.test_cut_off_at_to) ... ok
+test_headings_not_actions (test_procedure_v52.ProcedureV52Tests.test_headings_not_actions) ... ok
+test_recommendation_use (test_procedure_v52.ProcedureV52Tests.test_recommendation_use) ... ok
+test_truncated_does_not_document (test_procedure_v52.ProcedureV52Tests.test_truncated_does_not_document) ... ok
+test_rejected_results_enqueue_followups (test_recursive_gaps.CycleIntegrationTests.test_rejected_results_enqueue_followups) ... ok
+test_depth_bounded_elsewhere_and_max_children (test_recursive_gaps.GapTests.test_depth_bounded_elsewhere_and_max_children) ... ok
+test_insufficient_technical_generates_specific_followup (test_recursive_gaps.GapTests.test_insufficient_technical_generates_specific_followup) ... ok
+test_irrelevant_or_noise_does_not_spawn (test_recursive_gaps.GapTests.test_irrelevant_or_noise_does_not_spawn) ... ok
+test_code_attached_to_preceding_list_item (test_structure.CodeBlockTests.test_code_attached_to_preceding_list_item) ... ok
+test_code_preserved_verbatim (test_structure.CodeBlockTests.test_code_preserved_verbatim) ... ok
+test_heading_like_line_inside_code_is_not_heading (test_structure.CodeBlockTests.test_heading_like_line_inside_code_is_not_heading) ... ok
+test_indented_fence_inside_list (test_structure.CodeBlockTests.test_indented_fence_inside_list) ... ok
+test_unclosed_fence_flagged (test_structure.CodeBlockTests.test_unclosed_fence_flagged) ... ok
+test_front_matter_title_not_a_block (test_structure.HeadingTests.test_front_matter_title_not_a_block) ... ok
+test_nested_heading_paths (test_structure.HeadingTests.test_nested_heading_paths) ... ok
+test_setext_headings (test_structure.HeadingTests.test_setext_headings) ... ok
+test_sibling_heading_resets_path (test_structure.HeadingTests.test_sibling_heading_resets_path) ... ok
+test_api_ref_without_backticks (test_structure.InlineCleaningTests.test_api_ref_without_backticks) ... ok
+test_api_refs_keep_full_name (test_structure.InlineCleaningTests.test_api_refs_keep_full_name) ... ok
+test_links_and_emphasis (test_structure.InlineCleaningTests.test_links_and_emphasis) ... ok
+test_roblox_ref_with_label (test_structure.InlineCleaningTests.test_roblox_ref_with_label) ... ok
+test_roblox_ref_without_label_keeps_last_name (test_structure.InlineCleaningTests.test_roblox_ref_without_label_keeps_last_name) ... ok
+test_slug (test_structure.InlineCleaningTests.test_slug) ... ok
+test_item_continuation_line (test_structure.ListTests.test_item_continuation_line) ... ok
+test_item_reference_points_to_section (test_structure.ListTests.test_item_reference_points_to_section) ... ok
+test_lazy_one_numbering_kept_as_written (test_structure.ListTests.test_lazy_one_numbering_kept_as_written) ... ok
+test_list_resumed_after_code_is_linked_not_renumbered (test_structure.ListTests.test_list_resumed_after_code_is_linked_not_renumbered) ... ok
+test_loose_list_with_blank_lines (test_structure.ListTests.test_loose_list_with_blank_lines) ... ok
+test_nested_bullets_depth_and_parent (test_structure.ListTests.test_nested_bullets_depth_and_parent) ... ok
+test_no_completeness_verdict (test_structure.ListTests.test_no_completeness_verdict) ... ok
+test_no_continuation_across_headings (test_structure.ListTests.test_no_continuation_across_headings) ... ok
+test_numbered_list_order_and_numbers (test_structure.ListTests.test_numbered_list_order_and_numbers) ... ok
+test_callout_quote (test_structure.OtherBlockTests.test_callout_quote) ... ok
+test_html_tag_lines_skipped (test_structure.OtherBlockTests.test_html_tag_lines_skipped) ... ok
+test_image_alt_kept (test_structure.OtherBlockTests.test_image_alt_kept) ... ok
+test_paragraph_kept_whole_not_split_in_sentences (test_structure.OtherBlockTests.test_paragraph_kept_whole_not_split_in_sentences) ... ok
+test_table_cells_do_not_split_on_roblox_pipe (test_structure.OtherBlockTests.test_table_cells_do_not_split_on_roblox_pipe) ... ok
+test_crlf_and_accents (test_structure.SchemaTests.test_crlf_and_accents) ... ok
+test_empty_input (test_structure.SchemaTests.test_empty_input) ... ok
+test_json_round_trip (test_structure.SchemaTests.test_json_round_trip) ... ok
+test_nothing_invented (test_structure.SchemaTests.test_nothing_invented) ... ok
+test_order_follows_source_lines (test_structure.SchemaTests.test_order_follows_source_lines) ... ok
+test_parse_text_for_forum (test_structure.SchemaTests.test_parse_text_for_forum) ... ok
+test_schema_and_stable_keys (test_structure.SchemaTests.test_schema_and_stable_keys) ... ok
+test_section_blocks (test_structure.SchemaTests.test_section_blocks) ... ok
+test_wrong_schema_rejected (test_structure.SchemaTests.test_wrong_schema_rejected) ... ok
+test_excerpts (test_v3.V3Tests.test_excerpts) ... ok
+test_no_empty_enrichment (test_v3.V3Tests.test_no_empty_enrichment) ... ok
+test_real_extraction (test_v3.V3Tests.test_real_extraction) ... ok
+test_full_chain (test_v5.EndToEndTests.test_full_chain) ... ok
+test_provider_error_is_reported_not_hidden (test_v5.EndToEndTests.test_provider_error_is_reported_not_hidden) ... ok
+test_dedup_by_canonical_url (test_v5.KnowledgeTests.test_dedup_by_canonical_url) ... ok
+test_frontmatter_roundtrip (test_v5.KnowledgeTests.test_frontmatter_roundtrip) ... ok
+test_migration_keeps_every_file (test_v5.KnowledgeTests.test_migration_keeps_every_file) ... ok
+test_migration_loses_no_field_and_no_line (test_v5.KnowledgeTests.test_migration_loses_no_field_and_no_line) ... ok
+test_note_schema_and_never_validated (test_v5.KnowledgeTests.test_note_schema_and_never_validated) ... ok
+test_drops_unsupported_numbers_and_bad_refs (test_v5.LlmGroundingTests.test_drops_unsupported_numbers_and_bad_refs) ... ok
+test_enrich_writes_section_only_from_grounded (test_v5.LlmGroundingTests.test_enrich_writes_section_only_from_grounded) ... ok
+test_unavailable_means_no_analysis (test_v5.LlmGroundingTests.test_unavailable_means_no_analysis) ... ok
+test_protocol (test_v5.McpTests.test_protocol) ... ok
+test_tool_call_readonly (test_v5.McpTests.test_tool_call_readonly) ... ok
+test_followups_capped (test_v5.PlannerMetaTests.test_followups_capped) ... ok
+test_regression_fallback (test_v5.PlannerMetaTests.test_regression_fallback) ... ok
+test_reward_explicable (test_v5.PlannerMetaTests.test_reward_explicable) ... ok
+test_variants_are_short (test_v5.PlannerMetaTests.test_variants_are_short) ... ok
+test_canonical_url (test_v5.ProviderTests.test_canonical_url) ... ok
+test_devforum_search_is_refused (test_v5.ProviderTests.test_devforum_search_is_refused) ... ok
+test_devforum_sitemap_and_topic (test_v5.ProviderTests.test_devforum_sitemap_and_topic) ... ok
+test_docs_index_and_search (test_v5.ProviderTests.test_docs_index_and_search) ... ok
+test_github_short_query (test_v5.ProviderTests.test_github_short_query) ... ok
+test_unknown_host_refused (test_v5.ProviderTests.test_unknown_host_refused) ... ok
+test_incremental_update (test_v5.RagTests.test_incremental_update) ... ok
+test_read_and_index (test_v5.RagTests.test_read_and_index) ... ok
+test_search_budget_and_french (test_v5.RagTests.test_search_budget_and_french) ... ok
+test_accepts_technical_roblox_source (test_v5.RelevanceTests.test_accepts_technical_roblox_source) ... ok
+test_query_text_cannot_make_itself_relevant (test_v5.RelevanceTests.test_query_text_cannot_make_itself_relevant) ... ok
+test_rejects_noise_with_reason (test_v5.RelevanceTests.test_rejects_noise_with_reason) ... ok
+test_rejects_off_topic (test_v5.RelevanceTests.test_rejects_off_topic) ... ok
+test_bm25_orders (test_v5.TextTests.test_bm25_orders) ... ok
+test_french_synonyms (test_v5.TextTests.test_french_synonyms) ... ok
+test_tokens_fold_and_stem (test_v5.TextTests.test_tokens_fold_and_stem) ... ok
+test_no_steps_not_a_tutorial (test_v54_procedures.V54ProcedureTests.test_no_steps_not_a_tutorial) ... ok
+test_steps_in_main_section (test_v54_procedures.V54ProcedureTests.test_steps_in_main_section) ... ok
+
+----------------------------------------------------------------------
+Ran 134 tests in 0.756s
+
+OK
+{
+  "started_utc": "2026-11-15T23:03:16+00:00",
+  "queries": 1,
+  "discovered": 1,
+  "errors": [],
+  "sources": {
+    "devforum": 0,
+    "github": 1
+  },
+  "strategy_trials": [
+    {
+      "provider": "devforum",
+      "topic": "tree",
+      "strategy": "terms",
+      "query": "tree",
+      "results": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "new": 0,
+      "avg_relevance": null
+    },
+    {
+      "provider": "github",
+      "topic": "tree",
+      "strategy": "terms",
+      "query": "tree",
+      "results": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "new": 1,
+      "avg_relevance": 1.0
+    }
+  ]
+}
+{
+  "started_utc": "2026-11-15T23:03:16+00:00",
+  "queries": 1,
+  "discovered": 0,
+  "errors": [],
+  "sources": {
+    "devforum": 0,
+    "github": 1
+  },
+  "strategy_trials": [
+    {
+      "provider": "devforum",
+      "topic": "tree",
+      "strategy": "synonyms",
+      "query": "spruce",
+      "results": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "new": 0,
+      "avg_relevance": null
+    },
+    {
+      "provider": "github",
+      "topic": "tree",
+      "strategy": "synonyms",
+      "query": "spruce",
+      "results": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "new": 0,
+      "avg_relevance": 1.0
+    }
+  ]
+}

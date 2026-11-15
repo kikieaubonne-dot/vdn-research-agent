@@ -1,0 +1,20 @@
+{
+  "_comment": "Hypotheses de decomposition du domaine, pas des connaissances verifiees. Ordre topologique : requires doit nommer un noeud precedent. Autres domaines : ajouter des profils apres evaluation locale.",
+  "profiles": [{
+    "id": "snowy_tree",
+    "triggers": ["sapin", "epicea", "spruce", "pine", "tree", "arbre"],
+    "nodes": [
+      {"id": "trunk", "query": "tree trunk geometry", "requires": [], "reason": "geometrie de base manquante"},
+      {"id": "branches", "query": "tree branch structure", "requires": ["trunk"], "reason": "branches dependantes de la geometrie du tronc"},
+      {"id": "needles", "query": "pine needles geometry", "requires": ["branches"], "reason": "choisir la representation des aiguilles"},
+      {"id": "alpha", "query": "foliage alpha cards", "requires": ["needles"], "reason": "representation performante du feuillage"},
+      {"id": "uv", "query": "foliage UV atlas", "requires": ["alpha"], "reason": "UV necessaires aux textures du feuillage"},
+      {"id": "pbr", "query": "SurfaceAppearance PBR textures", "requires": ["uv"], "reason": "materiaux et contraintes moteur a documenter"},
+      {"id": "snow", "query": "snow accumulation mesh", "requires": ["branches", "pbr"], "reason": "neige sur les surfaces de branches"},
+      {"id": "lod", "query": "foliage LOD performance", "requires": ["alpha"], "reason": "budget de rendu et niveaux de detail"},
+      {"id": "wind", "query": "tree wind bones", "requires": ["branches"], "reason": "animation du vent et rig de branches"},
+      {"id": "lighting", "query": "night forest lighting", "requires": ["pbr"], "reason": "tester le rendu des materiaux sous eclairage nocturne"},
+      {"id": "export", "query": "Blender Roblox fbx export", "requires": ["uv"], "reason": "compatibilite du pipeline Blender vers Roblox"}
+    ]
+  }]
+}

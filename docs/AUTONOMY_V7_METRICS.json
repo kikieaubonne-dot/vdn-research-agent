@@ -1,0 +1,368 @@
+{
+  "baseline_commit": "728235577c27deeb274195fc3534feffa8537afe",
+  "before": {
+    "utc": "2026-11-15T23:03:53+00:00",
+    "fingerprint": "5af458231264",
+    "relevance": {
+      "cases": 54,
+      "tp": 8,
+      "fp": 4,
+      "fn": 1,
+      "tn": 41,
+      "precision": 0.667,
+      "recall": 0.889,
+      "f1": 0.762,
+      "errors": [
+        {
+          "type": "faux négatif",
+          "title": "Feature Request: Bone Scaling & Deformation Support",
+          "reasons": [
+            "hors sujet (pertinence 0.375 < 0.5)"
+          ],
+          "note": "limite : demande de fonctionnalité, utile pour os/vent"
+        },
+        {
+          "type": "faux positif",
+          "title": "Colosseum build",
+          "note": ""
+        },
+        {
+          "type": "faux positif",
+          "title": "leonisbel/night-hunt",
+          "note": "limite : jeu d'horreur nocturne, code non ciblé"
+        },
+        {
+          "type": "faux positif",
+          "title": "Feedback on this horror house interior",
+          "note": "limite : retours d'apparence, peu technique"
+        },
+        {
+          "type": "faux positif",
+          "title": "nightcycle/quick-part",
+          "note": ""
+        }
+      ]
+    },
+    "rag": {
+      "queries": 10,
+      "hit_at_1": 0.9,
+      "hit_at_3": 1.0,
+      "mrr": 0.933,
+      "avg_tokens": 1171,
+      "max_tokens": 1484,
+      "negatives_clean": 1.0,
+      "misses": []
+    },
+    "planner": {
+      "ok": true,
+      "bad": []
+    },
+    "metrics": {
+      "relevance_f1": 0.762,
+      "relevance_precision": 0.667,
+      "rag_hit_at_3": 1.0,
+      "rag_mrr": 0.933,
+      "negatives_clean": 1.0,
+      "planner_ok": 1.0
+    },
+    "regressions": []
+  },
+  "after": {
+    "utc": "2026-11-15T23:19:32+00:00",
+    "fingerprint": "5af458231264",
+    "relevance": {
+      "cases": 54,
+      "tp": 8,
+      "fp": 4,
+      "fn": 1,
+      "tn": 41,
+      "precision": 0.667,
+      "recall": 0.889,
+      "f1": 0.762,
+      "errors": [
+        {
+          "type": "faux négatif",
+          "title": "Feature Request: Bone Scaling & Deformation Support",
+          "reasons": [
+            "hors sujet (pertinence 0.375 < 0.5)"
+          ],
+          "note": "limite : demande de fonctionnalité, utile pour os/vent"
+        },
+        {
+          "type": "faux positif",
+          "title": "Colosseum build",
+          "note": ""
+        },
+        {
+          "type": "faux positif",
+          "title": "leonisbel/night-hunt",
+          "note": "limite : jeu d'horreur nocturne, code non ciblé"
+        },
+        {
+          "type": "faux positif",
+          "title": "Feedback on this horror house interior",
+          "note": "limite : retours d'apparence, peu technique"
+        },
+        {
+          "type": "faux positif",
+          "title": "nightcycle/quick-part",
+          "note": ""
+        }
+      ]
+    },
+    "rag": {
+      "queries": 10,
+      "hit_at_1": 0.9,
+      "hit_at_3": 1.0,
+      "mrr": 0.933,
+      "avg_tokens": 1171,
+      "max_tokens": 1484,
+      "negatives_clean": 1.0,
+      "misses": []
+    },
+    "planner": {
+      "ok": true,
+      "bad": []
+    },
+    "metrics": {
+      "relevance_f1": 0.762,
+      "relevance_precision": 0.667,
+      "rag_hit_at_3": 1.0,
+      "rag_mrr": 0.933,
+      "negatives_clean": 1.0,
+      "planner_ok": 1.0
+    },
+    "regressions": []
+  },
+  "gap_before": {
+    "cases": 3,
+    "retained": 1,
+    "fraction": 0.3333333333333333,
+    "details": [
+      {
+        "query": "tree foliage cards",
+        "expected_facet": "tutorial",
+        "planned": [
+          "tree foliage cards step"
+        ],
+        "retained": false
+      },
+      {
+        "query": "tree foliage cards",
+        "expected_facet": "compatibility",
+        "planned": [
+          "tree foliage cards compatibility"
+        ],
+        "retained": true
+      },
+      {
+        "query": "flashlight shadows forest",
+        "expected_facet": "settings",
+        "planned": [
+          "flashlight shadows forest exact"
+        ],
+        "retained": false
+      }
+    ]
+  },
+  "gap_after": {
+    "cases": 3,
+    "retained": 3,
+    "fraction": 1.0,
+    "details": [
+      {
+        "query": "tree foliage cards",
+        "expected_facet": "tutorial",
+        "planned": [
+          "tree foliage cards tutorial"
+        ],
+        "retained": true
+      },
+      {
+        "query": "tree foliage cards",
+        "expected_facet": "compatibility",
+        "planned": [
+          "tree foliage cards compatibility"
+        ],
+        "retained": true
+      },
+      {
+        "query": "flashlight shadows forest",
+        "expected_facet": "settings",
+        "planned": [
+          "flashlight shadows forest settings"
+        ],
+        "retained": true
+      }
+    ]
+  },
+  "knowledge_files_unchanged": 100,
+  "publication_main_commit": "9abf775e89ca9830caaf150642bd5cdd197d8338",
+  "publication_baseline_current_corpus": {
+    "utc": "2026-11-15T23:30:43+00:00",
+    "fingerprint": "5af458231264",
+    "relevance": {
+      "cases": 54,
+      "tp": 8,
+      "fp": 4,
+      "fn": 1,
+      "tn": 41,
+      "precision": 0.667,
+      "recall": 0.889,
+      "f1": 0.762,
+      "errors": [
+        {
+          "type": "faux négatif",
+          "title": "Feature Request: Bone Scaling & Deformation Support",
+          "reasons": [
+            "hors sujet (pertinence 0.375 < 0.5)"
+          ],
+          "note": "limite : demande de fonctionnalité, utile pour os/vent"
+        },
+        {
+          "type": "faux positif",
+          "title": "Colosseum build",
+          "note": ""
+        },
+        {
+          "type": "faux positif",
+          "title": "leonisbel/night-hunt",
+          "note": "limite : jeu d'horreur nocturne, code non ciblé"
+        },
+        {
+          "type": "faux positif",
+          "title": "Feedback on this horror house interior",
+          "note": "limite : retours d'apparence, peu technique"
+        },
+        {
+          "type": "faux positif",
+          "title": "nightcycle/quick-part",
+          "note": ""
+        }
+      ]
+    },
+    "rag": {
+      "queries": 10,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9,
+      "mrr": 0.925,
+      "avg_tokens": 1111,
+      "max_tokens": 1491,
+      "negatives_clean": 1.0,
+      "misses": [
+        {
+          "q": "importer un squelette personnalisé, os qui buguent",
+          "rank": 4,
+          "got": [
+            "vdn-564f653d5fbf",
+            "vdn-5aa463725976",
+            "vdn-326d0bf06b35"
+          ]
+        }
+      ]
+    },
+    "planner": {
+      "ok": true,
+      "bad": []
+    },
+    "metrics": {
+      "relevance_f1": 0.762,
+      "relevance_precision": 0.667,
+      "rag_hit_at_3": 0.9,
+      "rag_mrr": 0.925,
+      "negatives_clean": 1.0,
+      "planner_ok": 1.0
+    },
+    "regressions": [
+      {
+        "metric": "rag_hit_at_3",
+        "now": 0.9,
+        "best": 1.0
+      }
+    ]
+  },
+  "publication_v7_current_corpus": {
+    "utc": "2026-11-15T23:30:22+00:00",
+    "fingerprint": "5af458231264",
+    "relevance": {
+      "cases": 54,
+      "tp": 8,
+      "fp": 4,
+      "fn": 1,
+      "tn": 41,
+      "precision": 0.667,
+      "recall": 0.889,
+      "f1": 0.762,
+      "errors": [
+        {
+          "type": "faux négatif",
+          "title": "Feature Request: Bone Scaling & Deformation Support",
+          "reasons": [
+            "hors sujet (pertinence 0.375 < 0.5)"
+          ],
+          "note": "limite : demande de fonctionnalité, utile pour os/vent"
+        },
+        {
+          "type": "faux positif",
+          "title": "Colosseum build",
+          "note": ""
+        },
+        {
+          "type": "faux positif",
+          "title": "leonisbel/night-hunt",
+          "note": "limite : jeu d'horreur nocturne, code non ciblé"
+        },
+        {
+          "type": "faux positif",
+          "title": "Feedback on this horror house interior",
+          "note": "limite : retours d'apparence, peu technique"
+        },
+        {
+          "type": "faux positif",
+          "title": "nightcycle/quick-part",
+          "note": ""
+        }
+      ]
+    },
+    "rag": {
+      "queries": 10,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9,
+      "mrr": 0.925,
+      "avg_tokens": 1111,
+      "max_tokens": 1491,
+      "negatives_clean": 1.0,
+      "misses": [
+        {
+          "q": "importer un squelette personnalisé, os qui buguent",
+          "rank": 4,
+          "got": [
+            "vdn-564f653d5fbf",
+            "vdn-5aa463725976",
+            "vdn-326d0bf06b35"
+          ]
+        }
+      ]
+    },
+    "planner": {
+      "ok": true,
+      "bad": []
+    },
+    "metrics": {
+      "relevance_f1": 0.762,
+      "relevance_precision": 0.667,
+      "rag_hit_at_3": 0.9,
+      "rag_mrr": 0.925,
+      "negatives_clean": 1.0,
+      "planner_ok": 1.0
+    },
+    "regressions": [
+      {
+        "metric": "rag_hit_at_3",
+        "now": 0.9,
+        "best": 1.0
+      }
+    ]
+  },
+  "publication_knowledge_files_identical_to_main": 106
+}

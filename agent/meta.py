@@ -13,6 +13,7 @@ import datetime as dt
 import json
 import math
 from pathlib import Path
+from agent.storage import atomic_write
 
 ROOT = Path(__file__).resolve().parents[1]
 STRATEGIES = ("terms", "synonyms", "facet")
@@ -21,10 +22,7 @@ LEGACY = ("baseline", "focused", "site_specific")
 
 def save_json(path, obj):
     path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    tmp.replace(path)
+    atomic_write(path, json.dumps(obj, ensure_ascii=False, indent=2) + "\n")
 
 
 def reward_of(m: dict) -> float:

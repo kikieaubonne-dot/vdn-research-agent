@@ -1,0 +1,77 @@
+test_attempt_charged_before_interrupted_research (tests.test_v7_safety.SafetyV7Tests.test_attempt_charged_before_interrupted_research) ... FAIL
+test_corrupt_archives_are_not_overwritten (tests.test_v7_safety.SafetyV7Tests.test_corrupt_archives_are_not_overwritten) ... FAIL
+test_failed_fetches_consume_fetch_budget (tests.test_v7_safety.SafetyV7Tests.test_failed_fetches_consume_fetch_budget) ... FAIL
+test_partial_new_lock_is_busy (tests.test_v7_safety.SafetyV7Tests.test_partial_new_lock_is_busy) ... FAIL
+test_queue_status_is_read_only_during_active_cycle (tests.test_v7_safety.SafetyV7Tests.test_queue_status_is_read_only_during_active_cycle) ... FAIL
+test_registry_reconstructed_after_note_committed_before_registry (tests.test_v7_safety.SafetyV7Tests.test_registry_reconstructed_after_note_committed_before_registry) ... FAIL
+test_remaining_daily_fetch_is_passed_to_research (tests.test_v7_safety.SafetyV7Tests.test_remaining_daily_fetch_is_passed_to_research) ... FAIL
+
+======================================================================
+FAIL: test_attempt_charged_before_interrupted_research (tests.test_v7_safety.SafetyV7Tests.test_attempt_charged_before_interrupted_research)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 51, in test_attempt_charged_before_interrupted_research
+    self.assertEqual(q.daily()['items'], 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_corrupt_archives_are_not_overwritten (tests.test_v7_safety.SafetyV7Tests.test_corrupt_archives_are_not_overwritten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 88, in test_corrupt_archives_are_not_overwritten
+    self.assertCountEqual(archived, ['{first', '{second'])
+AssertionError: Element counts were not equal:
+First has 0, Second has 1:  '{first'
+
+======================================================================
+FAIL: test_failed_fetches_consume_fetch_budget (tests.test_v7_safety.SafetyV7Tests.test_failed_fetches_consume_fetch_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 43, in test_failed_fetches_consume_fetch_budget
+    self.assertEqual(p.calls, 1)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_partial_new_lock_is_busy (tests.test_v7_safety.SafetyV7Tests.test_partial_new_lock_is_busy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 65, in test_partial_new_lock_is_busy
+    with self.assertRaises(autonomy.Busy):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Busy not raised
+
+======================================================================
+FAIL: test_queue_status_is_read_only_during_active_cycle (tests.test_v7_safety.SafetyV7Tests.test_queue_status_is_read_only_during_active_cycle)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 77, in test_queue_status_is_read_only_during_active_cycle
+    self.assertEqual(status['counts']['running'], 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_registry_reconstructed_after_note_committed_before_registry (tests.test_v7_safety.SafetyV7Tests.test_registry_reconstructed_after_note_committed_before_registry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 59, in test_registry_reconstructed_after_note_committed_before_registry
+    self.assertIsNotNone(reg.find('https://github.com/a/tree'))
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_remaining_daily_fetch_is_passed_to_research (tests.test_v7_safety.SafetyV7Tests.test_remaining_daily_fetch_is_passed_to_research)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v7_safety.py", line 27, in test_remaining_daily_fetch_is_passed_to_research
+    self.assertEqual(seen, [1])
+AssertionError: Lists differ: [8] != [1]
+
+First differing element 0:
+8
+1
+
+- [8]
++ [1]
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.058s
+
+FAILED (failures=7)

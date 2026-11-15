@@ -4,6 +4,7 @@ Une relance est une QUESTION de recherche, jamais une fiche de connaissance.
 Les pages manifestement hors sujet/bruitees ne produisent pas de relances.
 """
 from __future__ import annotations
+from agent.planner import short
 
 
 def propose(query: str, candidates: list[dict], max_children: int = 2) -> list[dict]:
@@ -14,11 +15,11 @@ def propose(query: str, candidates: list[dict], max_children: int = 2) -> list[d
     out = []
     def add(suffix, reason):
         if len(out) < max_children:
-            out.append({'query': f'{query} {suffix}', 'reason': reason})
+            out.append({'query': f'{short(query, 3)} {suffix}', 'reason': reason})
     if any(c.get('technical', 0) < 0.15 for c in eligible):
-        add('step by step implementation tutorial code', 'sources pertinentes mais sans etapes techniques suffisantes')
+        add('tutorial', 'sources pertinentes mais sans etapes techniques suffisantes')
     if any(not c.get('roblox') for c in eligible):
-        add('Roblox Studio implementation compatibility', 'compatibilite Roblox non etablie')
+        add('compatibility', 'compatibilite Roblox non etablie')
     if not out:
-        add('exact settings limitations examples', 'approfondir les details des sources rejetees')
+        add('settings', 'approfondir les details des sources rejetees')
     return out
