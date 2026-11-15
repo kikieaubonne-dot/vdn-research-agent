@@ -1,0 +1,99 @@
+{
+  "attempts": {
+    "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md": 1,
+    "knowledge/spruce/030e47b1915a4bee4fae-diyorfayz-skills.md": 1,
+    "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md": 1,
+    "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md": 1,
+    "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md": 1,
+    "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md": 1,
+    "knowledge/spruce/0aaa704c0c2d9a1b94c5-sigmalordmaster69-super-smart-idea-im-about-t.md": 1,
+    "knowledge/traversal/651a9c7996852903fc2e-perixtar-tech-oa-interview-questions.md": 1,
+    "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md": 1,
+    "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md": 1,
+    "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md": 1,
+    "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md": 1
+  },
+  "insufficient": {
+    "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:34.818248+00:00"
+    },
+    "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:37.328271+00:00"
+    },
+    "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:39.763876+00:00"
+    },
+    "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:40.950444+00:00"
+    },
+    "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:45.859601+00:00"
+    },
+    "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T15:52:47.251460+00:00"
+    }
+  },
+  "questions": {
+    "1119e3a391205360": {
+      "query": "spruce Roblox transparent implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/DiyorFayz/skills",
+      "status": "open"
+    },
+    "18c4ae00afe4a0f0": {
+      "query": "spruce Roblox animation implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/DiyorFayz/skills",
+      "status": "open"
+    },
+    "2ceb783f4adeea40": {
+      "query": "spruce Roblox texture implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/DiyorFayz/skills",
+      "status": "open"
+    },
+    "de457ff4a3e7f119": {
+      "query": "character Roblox fbx implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://github.com/DeepMotion/Animate-3D-REST-API",
+      "status": "open"
+    },
+    "6c079eaff7230724": {
+      "query": "character Roblox animation implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://github.com/DeepMotion/Animate-3D-REST-API",
+      "status": "open"
+    },
+    "07d14381329f1804": {
+      "query": "spruce Roblox lighting implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/SigmaLordMaster69/super-smart-idea-im-about-to-have",
+      "status": "open"
+    },
+    "4ae7eaecc469d4b2": {
+      "query": "character Roblox texture implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://devforum.roblox.com/t/apexgen-terminator/413017",
+      "status": "open"
+    },
+    "c1270ea4908d35cc": {
+      "query": "spruce Roblox transparency implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371",
+      "status": "open"
+    },
+    "17004327243c684f": {
+      "query": "spruce Roblox render implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371",
+      "status": "open"
+    }
+  },
+  "rotation": 1
+}

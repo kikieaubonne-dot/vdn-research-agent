@@ -65,3 +65,26 @@ collected_utc: "2026-11-15T15:38:51+00:00"
 - Les expériences Blender/Roblox Player restent à effectuer.
 
 - Les extraits sont des indices, pas des instructions garanties.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/apexgen-terminator/413017  
+**Contenu :** DevForum  
+**Passages candidats :** 1
+
+### Passages et paramètres repérés
+
+- (A texture set refers to a set images that contai
+
+### Questions de recherche complémentaires
+
+- character Roblox texture implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

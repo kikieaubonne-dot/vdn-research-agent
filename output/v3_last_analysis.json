@@ -1,0 +1,74 @@
+{
+  "processed": 12,
+  "evidence_extracted": 5,
+  "insufficient": 6,
+  "errors": 1,
+  "open_questions": 9,
+  "results": [
+    {
+      "file": "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/spruce/030e47b1915a4bee4fae-diyorfayz-skills.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/spruce/0aaa704c0c2d9a1b94c5-sigmalordmaster69-super-smart-idea-im-about-t.md",
+      "status": "evidence_extracted",
+      "excerpts": 4,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/traversal/651a9c7996852903fc2e-perixtar-tech-oa-interview-questions.md",
+      "status": "read_error",
+      "error": "ValueError: README too large"
+    },
+    {
+      "file": "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md",
+      "status": "evidence_extracted",
+      "excerpts": 1,
+      "questions": 1
+    },
+    {
+      "file": "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md",
+      "status": "insufficient_source",
+      "provider": "GitHub README"
+    },
+    {
+      "file": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+      "status": "evidence_extracted",
+      "excerpts": 2,
+      "questions": 2
+    }
+  ]
+}

@@ -29,3 +29,28 @@ Foliage meshes using SurfaceAppearances with "Transparency" AlphaMode will rende
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371  
+**Contenu :** DevForum  
+**Passages candidats :** 2
+
+### Passages et paramètres repérés
+
+- The transparency change appears to happen gradually with distance from the camera.
+- I tested each render fidelity setting, it had no impact.
+
+### Questions de recherche complémentaires
+
+- spruce Roblox transparency implementation limitations troubleshooting
+- spruce Roblox render implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance
