@@ -2,6 +2,30 @@
 
 Agent de **veille et découverte** de ressources techniques Roblox/Blender pour *Le Voisin de Noël*. Python standard library uniquement. **Aucune clé API, aucun LLM, aucun abonnement requis.**
 
+## Évolution V7 — recherche bornée et diagnostics de preuves
+
+Les commandes du workflow existant restent utilisables. V7 renforce les budgets,
+la conservation des fiches, les relances et leur classement explicable. Un premier
+profil configurable décompose le cas du sapin enneigé avec ses prérequis :
+
+```sh
+python -m agent.run plan --topic spruce "Comment créer un sapin enneigé réaliste et performant dans Roblox ?"
+python -m agent.run queue
+python -m agent.run cycle
+python -m agent.run evaluate
+python bench/evaluate_v7.py --repo .
+```
+
+`plan` et `evaluate` ne font aucun appel réseau. `cycle` et `refresh` partagent
+le quota HTTP quotidien de `config/autonomy.json`. Les diagnostics ne prouvent
+pas l'exactitude d'une technique. Les commandes historiques `research`, `enrich`
+et les appels directs aux fournisseurs restent des outils manuels ; utiliser
+`cycle` pour la boucle autonome avec ses quotas persistants.
+
+Voir [le rapport V7](docs/AUTONOMY_V7_REPORT.md),
+[l'audit initial](docs/AUTONOMY_AUDIT.md) et
+[la roadmap](docs/AUTONOMY_V7_ROADMAP.md).
+
 ## Ce que cette V1 fait vraiment
 
 - Chaque session choisit les questions les moins explorées, pondérées par la priorité du sujet.

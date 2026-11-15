@@ -14,6 +14,7 @@ Corrections V4.1 :
 """
 from __future__ import annotations
 import gzip
+import io
 import json
 import os
 import re
@@ -23,9 +24,11 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlparse, urlunparse
-from urllib.request import Request, urlopen
+from urllib.request import Request, build_opener, HTTPRedirectHandler
 
 from agent.text import BM25, tokens, fold, vocabulary, stem
+from agent import budget
+from agent.storage import atomic_write
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "VDNResearchAgent/5.0 (+https://github.com/kikieaubonne-dot/vdn-research-agent; non-commercial research)"
@@ -39,6 +42,33 @@ DEVFORUM_ALLOWED = re.compile(r"^/(t/[^/]+/\d+(?:\.json)?|t/\d+\.json|sitemap[^/
 
 class FetchError(Exception):
     pass
+
+
+def validate_url(url, extra_hosts=()):
+    p = urlparse(url)
+    host = (p.hostname or '').lower()
+    if p.scheme != 'https' or host not in ALLOWED_HOSTS | set(extra_hosts) or p.username or p.password or p.port not in (None, 443):
+        raise FetchError(f'hote ou URL non autorise : {host}')
+    if host == 'devforum.roblox.com' and not DEVFORUM_ALLOWED.match(p.path):
+        raise FetchError(f'chemin DevForum non autorisé (robots.txt) : {p.path}')
+    return host
+
+
+class CheckedRedirect(HTTPRedirectHandler):
+    """Validate before following, strip credentials across origins, charge retries."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        extra = getattr(req, 'vdn_extra_hosts', ())
+        validate_url(newurl, extra)
+        req.timeout = budget.request(getattr(req, 'timeout', 20))
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None:
+            new.vdn_extra_hosts = extra
+            if urlparse(req.full_url).netloc != urlparse(newurl).netloc:
+                new.remove_header('Authorization')
+        return new
+
+
+urlopen = build_opener(CheckedRedirect()).open
 
 
 def canonical_url(url: str) -> str:
@@ -61,12 +91,7 @@ def canonical_url(url: str) -> str:
 
 def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries: int = 2, extra_headers=None,
              allow_extra_hosts=()) -> str:
-    p = urlparse(url)
-    host = (p.hostname or "").lower()
-    if p.scheme != "https" or host not in ALLOWED_HOSTS | set(allow_extra_hosts):
-        raise FetchError(f"hôte non autorisé : {host}")
-    if host == "devforum.roblox.com" and not DEVFORUM_ALLOWED.match(p.path):
-        raise FetchError(f"chemin DevForum non autorisé (robots.txt) : {p.path}")
+    host = validate_url(url, allow_extra_hosts)
     headers = {"User-Agent": USER_AGENT, "Accept": accept}
     if host == "api.github.com" and os.getenv("GITHUB_TOKEN"):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
@@ -74,7 +99,10 @@ def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries:
     last = None
     for attempt in range(retries + 1):
         try:
-            with urlopen(Request(url, headers=headers), timeout=20) as r:
+            timeout = budget.request(20)
+            req = Request(url, headers=headers)
+            req.vdn_extra_hosts = allow_extra_hosts
+            with urlopen(req, timeout=timeout) as r:
                 final = (urlparse(r.geturl()).hostname or "").lower()
                 if final not in ALLOWED_HOSTS | set(allow_extra_hosts):
                     raise FetchError(f"redirection hors liste : {final}")
@@ -82,19 +110,22 @@ def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries:
                 if len(raw) > max_bytes:
                     raise FetchError("réponse trop grande")
                 if r.headers.get("Content-Encoding") == "gzip" or raw[:2] == b"\x1f\x8b":
-                    raw = gzip.decompress(raw)
+                    with gzip.GzipFile(fileobj=io.BytesIO(raw)) as gz:
+                        raw = gz.read(max_bytes + 1)
+                    if len(raw) > max_bytes:
+                        raise FetchError('reponse decompressee trop grande')
                 return raw.decode("utf-8", "replace")
         except HTTPError as e:
             last = e
             if e.code in (429, 502, 503, 504) and attempt < retries:
                 wait = int(e.headers.get("Retry-After", "0") or 0) or 3 * (attempt + 1)
-                time.sleep(min(wait, 30))
+                budget.pause(min(wait, 30))
                 continue
             raise FetchError(f"HTTP {e.code} sur {host}") from e
         except (URLError, TimeoutError) as e:
             last = e
             if attempt < retries:
-                time.sleep(2 * (attempt + 1))
+                budget.pause(2 * (attempt + 1))
                 continue
             raise FetchError(f"réseau : {type(e).__name__} sur {host}") from e
     raise FetchError(str(last))
@@ -172,7 +203,7 @@ class RobloxDocs:
         entries = parse_llms_index(self.get(DOCS_INDEX_URL, accept="text/markdown,text/plain"))
         if len(entries) < 50:
             raise FetchError(f"index officiel suspect ({len(entries)} entrées) : cache conservé")
-        self.path.write_text(json.dumps({"fetched": int(time.time()), "entries": entries}, ensure_ascii=False), encoding="utf-8")
+        atomic_write(self.path, json.dumps({"fetched": int(time.time()), "entries": entries}, ensure_ascii=False))
         self._entries = None
         return len(entries)
 
@@ -247,9 +278,9 @@ class DevForum:
             if "recent" not in url:
                 prog.setdefault("done", []).append(url)
             read += 1
-            time.sleep(self.pause)
-        self.index_path.write_text(json.dumps({"topics": sorted(topics.values(), key=lambda t: t["id"])}, ensure_ascii=False), encoding="utf-8")
-        self.progress_path.write_text(json.dumps(prog), encoding="utf-8")
+            budget.pause(self.pause)
+        atomic_write(self.index_path, json.dumps({"topics": sorted(topics.values(), key=lambda t: t["id"])}, ensure_ascii=False))
+        atomic_write(self.progress_path, json.dumps(prog))
         self._topics = None
         return {"sitemap_pages_read": read, "topics_indexed": len(topics), "pending": len(prog["pending"])}
 
@@ -436,7 +467,7 @@ def _local_get(url: str) -> str:
     """Accès HTTP au seul localhost (SearXNG / Ollama sur le PC)."""
     if (urlparse(url).hostname or "") not in ("localhost", "127.0.0.1"):
         raise FetchError("seul localhost est autorisé en http")
-    with urlopen(Request(url, headers={"User-Agent": USER_AGENT}), timeout=30) as r:
+    with urlopen(Request(url, headers={"User-Agent": USER_AGENT}), timeout=budget.request(30)) as r:
         return r.read(MAX_BYTES).decode("utf-8", "replace")
 
 

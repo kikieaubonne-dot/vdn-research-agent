@@ -22,6 +22,7 @@ import time
 from pathlib import Path
 
 from agent import knowledge, meta, planner, providers, rag, relevance
+from agent import budget
 from agent.text import tokens, concepts
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,33 +59,53 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
     mstate = load_json(meta_path, {})
     followups = [f for f in load_json(root / "output/followups.json", {"items": []})["items"] if f.get("status") == "open"]
     setup_errors = []
+    setup_stop = None
     if provs is None:
         provs = active_providers(root)
         # premier lancement : sans index local, la doc officielle et le DevForum ne peuvent rien trouver
         if not provs["roblox_docs"].path.exists():
             try:
                 provs["roblox_docs"].refresh()
+            except budget.BudgetExhausted as e:
+                setup_stop = str(e)
             except Exception as e:
                 setup_errors.append(f"index officiel indisponible (la doc Roblox ne sera pas interrogée) : {e}")
-        if not provs["devforum"].index_path.exists():
+        if setup_stop is None and not provs["devforum"].index_path.exists():
             try:
                 provs["devforum"].refresh(2)
+            except budget.BudgetExhausted as e:
+                setup_stop = str(e)
             except Exception as e:
                 setup_errors.append(f"sitemap DevForum indisponible (le DevForum ne sera pas interrogé) : {e}")
     reg = knowledge.Registry(root)
     journal, rejected_log = [], []
     st = {"started_utc": utcnow(), "version": "5.0", "queries": 0, "trials": 0, "returned": 0, "fetched": 0, "accepted": 0,
           "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [], "created_notes": [], "rejected_candidates": [],
-          "providers": list(provs)}
+          "providers": list(provs), "fetch_attempts": 0, "stop_reason": setup_stop, 'known_notes': []}
+
+    def stopped():
+        if st['stop_reason']:
+            return True
+        try:
+            budget.check()
+        except budget.BudgetExhausted as e:
+            st['stop_reason'] = str(e)
+            return True
+        return False
+
     fetched_total = 0
     plan_items = planned if planned is not None else planner.plan(state, root, max_queries, followups)
     if planned is not None:
         followups = []  # la file autonome gere elle-meme ses relances
     for topic, query, origin in plan_items:
+        if stopped() or st['queries'] >= max_queries:
+            break
         st["queries"] += 1
         state["query_runs"][query] = state["query_runs"].get(query, 0) + 1
         topic_concepts = concepts(tokens(" ".join([topic.get("title", "")] + topic.get("subtopics", []))))
         for pname, prov in provs.items():
+            if stopped():
+                break
             strategy = meta.choose(mstate, pname, topic["id"], journal)
             q = planner.variants(query)[strategy]
             m = {"returned": 0, "accepted": 0, "new": 0, "updated": 0, "offtopic": 0, "duplicates": 0, "error": None, "technical": []}
@@ -92,6 +113,9 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
             st["trials"] += 1
             try:
                 results = prov.search(q, per_source)
+            except budget.BudgetExhausted as e:
+                st['stop_reason'] = str(e)
+                break
             except Exception as e:
                 m["error"] = f"{type(e).__name__}: {str(e)[:150]}"
                 st["errors"].append(f"{pname} / {q} : {m['error']}")
@@ -99,8 +123,11 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
             m["returned"] = len(results)
             st["returned"] += len(results)
             for item in results:
+                if stopped():
+                    break
                 url = item.get("url", "")
-                if reg.find(url):
+                existing = reg.find(url)
+                if existing:
                     if touch_existing:
                         res = knowledge.write_note(root, reg, topic, query, item, {}, {"accepted": True})
                     else:
@@ -108,16 +135,25 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                     key = "updated" if res["action"] == "updated" else "duplicates"
                     m[key] += 1
                     st[key] += 1
+                    path = root / existing['path']
+                    if path.exists() and existing['id'] not in {n['id'] for n in st['known_notes']}:
+                        existing_meta, _ = knowledge.parse_note(path.read_text(encoding='utf-8'))
+                        st['known_notes'].append({**existing, 'status': existing_meta.get('status')})
                     continue
                 if fetched_total >= max_fetch:
                     break
                 reader = providers.provider_for(url, provs) or prov
                 try:
+                    budget.fetch_attempt()
+                    fetched_total += 1
+                    st['fetch_attempts'] += 1
                     doc = reader.fetch(url)
+                except budget.BudgetExhausted as e:
+                    st['stop_reason'] = str(e)
+                    break
                 except Exception as e:
                     st["errors"].append(f"lecture {url} : {type(e).__name__}: {str(e)[:120]}")
                     continue
-                fetched_total += 1
                 st["fetched"] += 1
                 src = {**item, "provider": reader.name, "tier": 1 if doc.get("official") and reader.name == "devforum" else reader.tier}
                 a = relevance.assess(query, doc.get("title") or item.get("title", ""), doc.get("text", ""), reader.name, topic_concepts)
@@ -143,7 +179,11 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                                          "provider": reader.name, "reasons": a.get("reasons"), "topical": a["topical"],
                                          "technical": a["technical"]})
                 if pause:
-                    time.sleep(pause)
+                    try:
+                        budget.pause(pause)
+                    except budget.BudgetExhausted as e:
+                        st['stop_reason'] = str(e)
+                        break
             m["technical_mean"] = round(sum(m["technical"]) / len(m["technical"]), 3) if m["technical"] else 0.0
             m["duration_s"] = round(time.time() - t0, 2)
             reward = meta.record_trial(mstate, pname, topic["id"], strategy, m)
@@ -185,14 +225,33 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
 
 
 def refresh(root: Path = ROOT, devforum_pages: int = 3) -> dict:
+    from agent.autonomy import Lock
+    from agent.research_queue import ResearchQueue, load_config
+    root = Path(root)
+    cfg = load_config(root)
     out = {}
-    p = active_providers(Path(root))
-    for name, fn in (("roblox_docs", lambda: p["roblox_docs"].refresh()), ("devforum", lambda: p["devforum"].refresh(devforum_pages))):
-        try:
-            out[name] = fn()
-        except Exception as e:
-            out[name] = f"erreur : {type(e).__name__}: {str(e)[:150]} (cache précédent conservé)"
-    meta.save_json(Path(root) / "output/last_refresh.json", {"utc": utcnow(), **{k: v for k, v in out.items()}})
+    with Lock(root, cfg['lock']['stale_after_s']):
+        q = ResearchQueue(root, cfg)
+        daily = q.daily()
+        def checkpoint(resource):
+            if daily['http_calls'] >= cfg['daily']['max_http_calls']:
+                raise budget.BudgetExhausted('quota quotidien HTTP atteint')
+            daily['http_calls'] += 1
+            q.save()
+        guard = budget.Budget(cfg['cycle']['time_budget_s'], min(cfg['cycle']['max_http_calls'],
+                              max(0, cfg['daily']['max_http_calls'] - daily['http_calls'])), checkpoint)
+        with budget.using(guard):
+            p = active_providers(root)
+            for name, fn in (("roblox_docs", lambda: p["roblox_docs"].refresh()), ("devforum", lambda: p["devforum"].refresh(devforum_pages))):
+                try:
+                    out[name] = fn()
+                except budget.BudgetExhausted as e:
+                    out['stop_reason'] = str(e)
+                    break
+                except Exception as e:
+                    out[name] = f"erreur : {type(e).__name__}: {str(e)[:150]} (cache précédent conservé)"
+        out['http_calls'] = guard.http_calls
+        meta.save_json(root / "output/last_refresh.json", {"utc": utcnow(), **out})
     return out
 
 
@@ -238,6 +297,10 @@ def main(argv=None):
     c.add_argument("--max-items", type=int, default=None)
     c.add_argument("--time-budget", type=float, default=None)
     sub.add_parser("queue", help="etat de la file autonome")
+    p = sub.add_parser('plan', help='decomposer une question en recherches avec prerequis, sans reseau')
+    p.add_argument('question')
+    p.add_argument('--topic', required=True)
+    sub.add_parser('evaluate', help='diagnostic des fiches, sans modifier leurs statuts')
     k = sub.add_parser("ask")
     k.add_argument("query")
     k.add_argument("--top-k", type=int, default=5)
@@ -266,6 +329,16 @@ def main(argv=None):
     elif a.cmd == "queue":
         from agent import autonomy
         out = autonomy.queue_status(ROOT)
+    elif a.cmd == 'plan':
+        from agent.autonomy import Lock
+        from agent.research_queue import load_config
+        from agent.decomposition import plan
+        with Lock(ROOT, load_config(ROOT)['lock']['stale_after_s']):
+            out = plan(ROOT, a.question, a.topic)
+    elif a.cmd == 'evaluate':
+        from agent.evaluation import evaluate_library
+        out = evaluate_library(ROOT)
+        meta.save_json(ROOT / 'output' / 'knowledge_evaluation.json', out)
     elif a.cmd == "bench":
         from agent import benchmark
         out = benchmark.run(ROOT, online=a.online)

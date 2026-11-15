@@ -19,7 +19,7 @@ from agent.text import tokens
 
 GAP_MARKERS = (
     ("Aucun paramètre chiffré trouvé", "settings", "aucun parametre chiffre dans la source"),
-    ("Aucune limite explicite trouvée", "limitations", "aucune limite Roblox citee"),
+    ("Aucune limite explicite trouvée", "constraints", "aucune limite Roblox citee"),
     ("Aucune instruction complete identifiee", "tutorial", "aucune etape exploitable"),
 )
 

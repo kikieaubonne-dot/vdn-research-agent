@@ -14,8 +14,9 @@ import re
 from pathlib import Path
 
 from agent.text import fold, tokens
-from agent.providers import canonical_url
+from agent.providers import canonical_url, validate_url
 from agent.procedure import actionable_excerpts
+from agent.storage import atomic_write
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUSES = ["candidat", "documente", "reproduit", "valide", "rejete", "obsolete"]
@@ -119,7 +120,21 @@ class Registry:
         self.path = self.root / "output" / "registry.json"
         data = json.loads(self.path.read_text(encoding="utf-8")) if self.path.exists() else {}
         self.urls: dict = data.get("urls", {})
+        self.urls = {url: entry for url, entry in self.urls.items() if
+                     (self.root / entry['path']).is_file() and
+                     (self.root / entry['path']).resolve().is_relative_to((self.root / 'knowledge').resolve())}
         self.fingerprints: dict = data.get("fingerprints", {})
+        # Notes are authoritative: recover a crash between note and registry commit.
+        for path in sorted((self.root / 'knowledge').rglob('*.md')):
+            if path.name.startswith('_'):
+                continue
+            meta, body = parse_note(path.read_text(encoding='utf-8'))
+            if not meta.get('id'):
+                continue
+            for url in meta.get('sources', []):
+                self.add(url, meta['id'], path)
+            for excerpt in re.findall(r'^>\s*«\s*(.+?)\s*»\s*$', body, re.M):
+                self.excerpt_seen(excerpt, meta['id'])
 
     def find(self, url: str):
         return self.urls.get(canonical_url(url))
@@ -137,10 +152,7 @@ class Registry:
         return False
 
     def save(self):
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        tmp = self.path.with_suffix(".tmp")
-        tmp.write_text(json.dumps({"urls": self.urls, "fingerprints": self.fingerprints}, ensure_ascii=False, indent=1), encoding="utf-8")
-        tmp.replace(self.path)
+        atomic_write(self.path, json.dumps({"urls": self.urls, "fingerprints": self.fingerprints}, ensure_ascii=False, indent=1))
 
 
 # ------------------------------------------------------------------ règles de statut et de confiance
@@ -207,6 +219,7 @@ def build_body(title: str, query: str, topic: dict, assessment: dict, src: dict,
 def write_note(root: Path, registry: Registry, topic: dict, query: str, src: dict, doc: dict, assessment: dict) -> dict:
     """Crée ou met à jour la fiche d'une source. Retourne {'action': created|updated|duplicate, 'id', 'path', 'status'}."""
     root = Path(root)
+    validate_url(src['url'])
     canon = canonical_url(src["url"])
     existing = registry.find(canon)
     accessed = today()
@@ -218,7 +231,7 @@ def write_note(root: Path, registry: Registry, topic: dict, query: str, src: dic
             if query not in qs:
                 meta["queries"] = qs + [query]
                 meta["updated"] = accessed
-                path.write_text(dump_frontmatter(meta) + "\n" + body, encoding="utf-8")
+                atomic_write(path, dump_frontmatter(meta) + "\n" + body)
                 return {"action": "updated", "id": existing["id"], "path": existing["path"], "status": meta.get("status")}
         return {"action": "duplicate", "id": existing["id"], "path": existing["path"], "status": None}
     nid = note_id(canon)
@@ -247,7 +260,7 @@ def write_note(root: Path, registry: Registry, topic: dict, query: str, src: dic
     path = folder / f"{nid[4:]}-{slugify(title, 50)}.md"
     src = {**src, "provider_label": {"roblox_docs": "Documentation Roblox", "devforum": "Roblox DevForum",
                                      "github": "GitHub", "searxng": "Web"}.get(src["provider"], src["provider"])}
-    path.write_text(dump_frontmatter(meta) + "\n" + build_body(title, query, topic, assessment, src, accessed, status), encoding="utf-8")
+    atomic_write(path, dump_frontmatter(meta) + "\n" + build_body(title, query, topic, assessment, src, accessed, status), create_only=True)
     registry.add(canon, nid, path)
     return {"action": "created", "id": nid, "path": str(path.relative_to(root)).replace("\\", "/"), "status": status}
 
@@ -321,7 +334,7 @@ def migrate_legacy(root: Path = ROOT, assess_fn=None) -> dict:
             new_meta["rejection_reason"] = "; ".join(a.get("reasons", []))
         banner = (f"> **{STATUS_LABEL[status]}** (reclassement V5 du {today()}) · {why}\n"
                   "> Le contenu historique ci-dessous est conservé tel quel.\n\n")
-        path.write_text(dump_frontmatter(new_meta) + "\n" + banner + body, encoding="utf-8")
+        atomic_write(path, dump_frontmatter(new_meta) + "\n" + banner + body)
         if canon:
             reg.add(canon, nid, path)
         report["migrated"] += 1
@@ -396,7 +409,7 @@ def build_indexes(root: Path = ROOT) -> dict:
             lines.append("")
         d = root / "knowledge" / domain
         d.mkdir(parents=True, exist_ok=True)
-        (d / "_index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        atomic_write(d / "_index.md", "\n".join(lines) + "\n")
     general += ["", f"Total : {len(notes)} fiches. Mis à jour le {today()}.", ""]
-    (root / "knowledge" / "_index.md").write_text("\n".join(general), encoding="utf-8")
+    atomic_write(root / "knowledge" / "_index.md", "\n".join(general))
     return stats
