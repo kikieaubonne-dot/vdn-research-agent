@@ -1,27 +1,27 @@
 {
-  "started_utc": "2026-11-15T22:40:44+00:00",
+  "started_utc": "2026-11-15T23:24:18+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 1,
-  "created": 1,
+  "accepted": 2,
+  "created": 2,
   "updated": 0,
   "duplicates": 0,
-  "rejected": 7,
+  "rejected": 6,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 7,
-    "pas assez de contenu technique": 1
+    "hors sujet": 3,
+    "pas assez de contenu technique": 5
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "forest",
+      "topic": "fps_camera",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "forest streaming trees settings",
+      "strategy": "terms",
+      "query": "camera bobbing CFrame",
       "returned": 4,
       "accepted": 1,
       "new": 1,
@@ -29,33 +29,33 @@
       "duplicates": 0,
       "offtopic": 3,
       "error": null,
-      "technical_mean": 0.77,
-      "duration_s": 4.61,
-      "reward": 0.308
+      "technical_mean": 0.14,
+      "duration_s": 4.7,
+      "reward": 0.056
     },
     {
       "provider": "devforum",
-      "topic": "forest",
+      "topic": "fps_camera",
       "origin": "seed",
       "strategy": "terms",
-      "query": "forest streaming trees",
+      "query": "camera bobbing CFrame",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 4,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.34,
-      "duration_s": 4.92,
-      "reward": 0.0
+      "technical_mean": 0.09,
+      "duration_s": 5.07,
+      "reward": 0.036
     },
     {
       "provider": "github",
-      "topic": "forest",
+      "topic": "fps_camera",
       "origin": "seed",
       "strategy": "terms",
-      "query": "forest streaming trees",
+      "query": "camera bobbing CFrame",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -64,82 +64,82 @@
       "offtopic": 0,
       "error": null,
       "technical_mean": 0.0,
-      "duration_s": 1.12,
+      "duration_s": 0.95,
       "reward": 0.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-a97042f85138",
-      "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
-      "status": "documente",
-      "topic": "forest",
-      "query": "forest streaming trees",
-      "url": "https://create.roblox.com/docs/workspace/streaming/frustum"
+      "id": "vdn-eb19a9fed396",
+      "path": "knowledge/gameplay/eb19a9fed396-class-camera.md",
+      "status": "candidat",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame",
+      "url": "https://create.roblox.com/docs/reference/engine/classes/Camera"
+    },
+    {
+      "id": "vdn-3fe122d267fa",
+      "path": "knowledge/gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer.md",
+      "status": "candidat",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame",
+      "url": "https://devforum.roblox.com/t/1196972"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.333,
-      "technical": 1.0,
+      "topical": 0.417,
+      "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
+        "hors sujet (pertinence 0.417 < 0.5)",
+        "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.083,
+      "topical": 0.583,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.167,
       "technical": 0.2,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.083 < 0.5)"
+        "hors sujet (pertinence 0.167 < 0.5)"
       ]
     },
     {
-      "topical": 0.333,
-      "technical": 1.0,
+      "topical": 0.583,
+      "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
+        "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.417,
-      "technical": 0.4,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.76,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
+      "topical": 0.583,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)",
         "pas assez de contenu technique (0.04)"
       ]
     }
@@ -149,5 +149,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-15T22:40:54+00:00"
+  "finished_utc": "2026-11-15T23:24:29+00:00"
 }

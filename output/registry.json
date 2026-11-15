@@ -355,6 +355,26 @@
   "https://create.roblox.com/docs/workspace/streaming/frustum": {
    "id": "vdn-a97042f85138",
    "path": "knowledge/forest/a97042f85138-frustum-streaming.md"
+  },
+  "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox": {
+   "id": "vdn-d5dda0d02f6d",
+   "path": "knowledge/vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox.md"
+  },
+  "https://create.roblox.com/docs/environment/atmosphere": {
+   "id": "vdn-6055d2f0bb67",
+   "path": "knowledge/forest/6055d2f0bb67-atmospheric-effects.md"
+  },
+  "https://github.com/victorzakharov/dark-strands": {
+   "id": "vdn-9be57b985b77",
+   "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Camera": {
+   "id": "vdn-eb19a9fed396",
+   "path": "knowledge/gameplay/eb19a9fed396-class-camera.md"
+  },
+  "https://devforum.roblox.com/t/1196972": {
+   "id": "vdn-3fe122d267fa",
+   "path": "knowledge/gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer.md"
   }
  },
  "fingerprints": {
@@ -723,6 +743,33 @@
   "c48cfe15fc96ebd8": "vdn-c74d3aac90c0",
   "35850ed42232be10": "vdn-c74d3aac90c0",
   "e598fd5713cd03ac": "vdn-c74d3aac90c0",
-  "1ce12d1effc837b9": "vdn-c74d3aac90c0"
+  "1ce12d1effc837b9": "vdn-c74d3aac90c0",
+  "48e102dcef357a23": "vdn-d5dda0d02f6d",
+  "0dff3b1a62a7a811": "vdn-d5dda0d02f6d",
+  "b7fb460e20d4264c": "vdn-d5dda0d02f6d",
+  "90057d45a29e3d24": "vdn-d5dda0d02f6d",
+  "ec195cbed467119a": "vdn-d5dda0d02f6d",
+  "e0da65e571e1c311": "vdn-d5dda0d02f6d",
+  "eb75faf46a960e46": "vdn-d5dda0d02f6d",
+  "ffebf43dff37f793": "vdn-d5dda0d02f6d",
+  "1b74e1e844d0e714": "vdn-0f5084bd4c8f",
+  "5f01f249963ae9a6": "vdn-0f5084bd4c8f",
+  "1c84a14ce624901b": "vdn-0f5084bd4c8f",
+  "7cc1f7e5997f3376": "vdn-0f5084bd4c8f",
+  "1b334d3390e94711": "vdn-0f5084bd4c8f",
+  "2859ce309ba20147": "vdn-6055d2f0bb67",
+  "9dd13bf449c5b8f0": "vdn-6055d2f0bb67",
+  "5fde0a26b9cd7a93": "vdn-6055d2f0bb67",
+  "91fdd3d7c1fa58b0": "vdn-6055d2f0bb67",
+  "dc9f5cf90d1fc653": "vdn-6055d2f0bb67",
+  "7f65fdf2da3fbfd0": "vdn-6055d2f0bb67",
+  "db3203c0e25632e4": "vdn-6055d2f0bb67",
+  "25bc184d5cdafc6e": "vdn-6055d2f0bb67",
+  "c093d7d23e326398": "vdn-9be57b985b77",
+  "84fc77dba0519865": "vdn-9be57b985b77",
+  "b9cb23d5482a4504": "vdn-0060f15fa7ef",
+  "b38ea5dc7265370a": "vdn-eb19a9fed396",
+  "e54a042d87bff4b7": "vdn-3fe122d267fa",
+  "c8a8df2dc14be4a3": "vdn-3fe122d267fa"
  }
 }

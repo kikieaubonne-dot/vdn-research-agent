@@ -307,7 +307,7 @@
     "foliage SurfaceAppearance transparency": 2,
     "tree foliage cards": 2,
     "night forest lighting": 2,
-    "forest atmosphere fog": 1,
+    "forest atmosphere fog": 2,
     "snow terrain material": 2,
     "snow footprints decal": 1,
     "Future lighting night": 2,
@@ -315,7 +315,7 @@
     "large forest performance": 1,
     "flashlight shadows forest": 2,
     "snowfall particles": 1,
-    "snow MaterialVariant": 1,
+    "snow MaterialVariant": 2,
     "Atmosphere density haze": 1,
     "ColorCorrection horror": 1,
     "terrain MaterialVariant custom": 1,
@@ -334,9 +334,11 @@
     "skinned mesh facial animation": 1,
     "modular building kit": 1,
     "tree wind bones": 1,
-    "forest streaming trees": 1
+    "forest streaming trees": 1,
+    "foliage alpha distance": 1,
+    "camera bobbing CFrame": 1
   },
-  "runs": 15,
+  "runs": 19,
   "errors": [],
   "rotation": 4
 }
