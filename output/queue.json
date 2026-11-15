@@ -79,11 +79,28 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T23:24:05+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-d5dda0d02f6d"
+        ],
+        "followups": [
+          "foliage alpha distance settings",
+          "foliage alpha distance tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794785034.0015264,
+      "finished_ts": 1794785045.5103066
     },
     "bf9e1d7a66f6f03f": {
       "key": "bf9e1d7a66f6f03f",
@@ -193,11 +210,33 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T23:24:18+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-6055d2f0bb67",
+          "vdn-9be57b985b77"
+        ],
+        "followups": [
+          "Atmosphere Haze",
+          "Atmosphere Density",
+          "Atmosphere Offset",
+          "forest atmosphere fog settings",
+          "forest atmosphere fog tutorial",
+          "forest atmosphere fog step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794785045.5122778,
+      "finished_ts": 1794785058.0010662
     },
     "c482fcd060522414": {
       "key": "c482fcd060522414",
@@ -342,11 +381,23 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T23:24:18+00:00",
+      "result": {
+        "returned": 1,
+        "fetched": 0,
+        "created": 0,
+        "rejected": 0,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794785058.004798,
+      "finished_ts": 1794785058.3235352
     },
     "229b64e9399ff504": {
       "key": "229b64e9399ff504",
@@ -882,11 +933,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T23:24:29+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-eb19a9fed396",
+          "vdn-3fe122d267fa"
+        ],
+        "followups": [
+          "camera bobbing CFrame settings",
+          "camera bobbing CFrame tutorial",
+          "camera bobbing CFrame step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794785058.3254392,
+      "finished_ts": 1794785069.054231
     },
     "969d6a82cbe10bef": {
       "key": "969d6a82cbe10bef",
@@ -1307,11 +1377,176 @@
       "created": "2026-11-15T22:40:54+00:00",
       "updated": "2026-11-15T22:40:54+00:00",
       "result": null
+    },
+    "60fc9d585d6a367b": {
+      "key": "60fc9d585d6a367b",
+      "topic": "spruce",
+      "query": "foliage alpha distance settings",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9c482cd07099182c",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-d5dda0d02f6d)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:05+00:00",
+      "updated": "2026-11-15T23:24:05+00:00",
+      "result": null
+    },
+    "880ae21f1a72e18a": {
+      "key": "880ae21f1a72e18a",
+      "topic": "spruce",
+      "query": "foliage alpha distance tutorial",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9c482cd07099182c",
+      "reason": "lacune : aucune etape exploitable (vdn-d5dda0d02f6d)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:05+00:00",
+      "updated": "2026-11-15T23:24:05+00:00",
+      "result": null
+    },
+    "c9b001cca2a23bb2": {
+      "key": "c9b001cca2a23bb2",
+      "topic": "lighting",
+      "query": "Atmosphere Haze",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "API citee par la source : Atmosphere.Haze (vdn-6055d2f0bb67)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:17+00:00",
+      "updated": "2026-11-15T23:24:17+00:00",
+      "result": null
+    },
+    "7d80e83e4696cf1a": {
+      "key": "7d80e83e4696cf1a",
+      "topic": "lighting",
+      "query": "Atmosphere Density",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "API citee par la source : Atmosphere.Density (vdn-6055d2f0bb67)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:17+00:00",
+      "updated": "2026-11-15T23:24:17+00:00",
+      "result": null
+    },
+    "2e6e6175393c8c16": {
+      "key": "2e6e6175393c8c16",
+      "topic": "forest",
+      "query": "Atmosphere Offset",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "API citee par la source : Atmosphere.Offset (vdn-6055d2f0bb67)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:17+00:00",
+      "updated": "2026-11-15T23:24:17+00:00",
+      "result": null
+    },
+    "afc374ed09840c9c": {
+      "key": "afc374ed09840c9c",
+      "topic": "forest",
+      "query": "forest atmosphere fog settings",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-9be57b985b77)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:18+00:00",
+      "updated": "2026-11-15T23:24:18+00:00",
+      "result": null
+    },
+    "7c2cc9819381b163": {
+      "key": "7c2cc9819381b163",
+      "topic": "forest",
+      "query": "forest atmosphere fog tutorial",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "lacune : aucune etape exploitable (vdn-9be57b985b77)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:18+00:00",
+      "updated": "2026-11-15T23:24:18+00:00",
+      "result": null
+    },
+    "29090f33648fdd07": {
+      "key": "29090f33648fdd07",
+      "topic": "forest",
+      "query": "forest atmosphere fog step by step implementation tutorial code",
+      "priority": 9.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "9d342eeb76b809f1",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:18+00:00",
+      "updated": "2026-11-15T23:24:18+00:00",
+      "result": null
+    },
+    "d3363902d660e57f": {
+      "key": "d3363902d660e57f",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "3909733dfcfef203",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-eb19a9fed396)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:29+00:00",
+      "updated": "2026-11-15T23:24:29+00:00",
+      "result": null
+    },
+    "1171a056ceef0437": {
+      "key": "1171a056ceef0437",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "3909733dfcfef203",
+      "reason": "lacune : aucune etape exploitable (vdn-eb19a9fed396)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:29+00:00",
+      "updated": "2026-11-15T23:24:29+00:00",
+      "result": null
+    },
+    "657bbd0375c4cb2d": {
+      "key": "657bbd0375c4cb2d",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "3909733dfcfef203",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T23:24:29+00:00",
+      "updated": "2026-11-15T23:24:29+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-15",
-    "items": 6,
-    "fetch": 47
+    "items": 10,
+    "fetch": 71
   }
 }

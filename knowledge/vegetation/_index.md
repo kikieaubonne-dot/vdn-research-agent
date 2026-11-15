@@ -9,8 +9,9 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend|SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts]] — niv. 2 · conf. faible
 - [[spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-|Texture Atlases - Creating Foliage Texture and Meshes]] — niv. 2 · conf. faible
 
-## Candidat (1)
+## Candidat (2)
 
+- [[vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox|Manage level of detail settings on Roblox]] — niv. 1 · conf. faible — « ## Manage level of detail settings on Roblox: Introduction to LOD ([0:00](https://www.youtube.com/watch?v=Wwj8EkMWFhI&t=0s)) »
 - [[spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part|nightcycle/quick-part]] — niv. 3 · conf. faible
 
 ## Rejetées / obsolètes (4)

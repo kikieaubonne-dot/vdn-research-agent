@@ -2,8 +2,9 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (7)
+## Documenté (8)
 
+- [[forest/6055d2f0bb67-atmospheric-effects|Atmospheric effects]] — niv. 1 · conf. moyenne — « Every property of the `Class.Atmosphere` object inside the `Class.Lighting` service works together to support the overall vision, themes, an… »
 - [[forest/a27deff12d34-class-lighting|Class: Lighting]] — niv. 1 · conf. moyenne — « It includes a range of adjustable properties that you can use to change how lighting appears and interacts with other objects." »
 - [[forest/f733f0e60339-enhance-indoor-environments-with-realistic-lightin|Enhance indoor environments with realistic lighting]] — niv. 1 · conf. moyenne — « url: /docs/en-us/tutorials/use-case-tutorials/lighting/enhance-indoor-environments »
 - [[forest/85f4cbd2e11c-enhance-outdoor-environments-with-realistic-lighti|Enhance outdoor environments with realistic lighting]] — niv. 1 · conf. moyenne — « url: /docs/en-us/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments »
@@ -12,9 +13,10 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[forest/7f5fd0196f65-important-shadow-rendering-problem|Important shadow rendering problem]] — niv. 2 · conf. faible — « ShadowMap Shadows Only Render When Close Building Support »
 - [[forest/a374396f6529-lighting-problems|Lighting problems]] — niv. 2 · conf. faible — « You can try setting it to night, but this will make it a bit darker, but you can up the brightness with color correction. »
 
-## Candidat (2)
+## Candidat (3)
 
 - [[forest/0df57a89fa73-design-for-performance|Design for performance]] — niv. 1 · conf. faible — « - If you want to support lower-end devices, choose at least one "baseline" device, [test your game on it](/docs/en-us/performance-optimizati… »
+- [[forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering|VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa]] — niv. 3 · conf. faible — « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine grove… »
 - [[forest/713de5a2c6e6644d3390-leonisbel-night-hunt|leonisbel/night-hunt]] — niv. 3 · conf. faible
 
 ## Rejetées / obsolètes (12)
