@@ -319,7 +319,10 @@ class GitHub:
             add([words[0], words[-1]])
             add(words[:2])
         elif len(words) == 2:
-            add(words[:1])
+            # Ne pas ?largir ? un terme g?n?rique unique.
+            # Exemple : "roblox SurfaceAppearance" ne doit
+            # jamais devenir simplement "roblox".
+            pass
 
         for q in variants[:3]:
             url = (
