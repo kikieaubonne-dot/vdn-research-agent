@@ -23,6 +23,8 @@ jobs:
         run: python -m agent.core --max-queries 8 --per-source 3
       - name: Analyze evidence and create followup questions
         run: python -m agent.v3 --max-notes 12 --pause 1
+      - name: Summarize strategy learning
+        run: python -m agent.meta
       - name: Run automated tests
         run: python -m unittest discover -s tests -v
       - name: Commit research and state
