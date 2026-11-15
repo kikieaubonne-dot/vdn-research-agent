@@ -1,0 +1,121 @@
+{
+  "seen": {
+    "c20177c2856493a2bece": {
+      "url": "https://devforum.roblox.com/t/surfaceappearance-alphamodetransparency-renders-in-bands-on-opaque-meshparts/4822477",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "7de7a1a415ccdf51b0fe": {
+      "url": "https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "416e116697cfeae6caad": {
+      "url": "https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "4c4e9e4faa27af447c21": {
+      "url": "https://github.com/scenario-labs/skills",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "4b3e4c63ddab358ee1df": {
+      "url": "https://github.com/nightcycle/quick-part",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "030e47b1915a4bee4fae": {
+      "url": "https://github.com/DiyorFayz/skills",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "4792b2ff46f59814399a": {
+      "url": "https://devforum.roblox.com/t/class-ideas-for-horror-game/1928259",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "bacef24c5251333f5c84": {
+      "url": "https://devforum.roblox.com/t/what-makes-a-roblox-horror-game-actually-scary/889158",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "93c5104f8fb0976c0abf": {
+      "url": "https://github.com/hakkkk5/warfront-systemsroblox",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "f3e53f98202ffaaa8202": {
+      "url": "https://github.com/maximefitbit9-star/ForestSurvival",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "e5d4560e92bdac0d5bab": {
+      "url": "https://github.com/OreoSSD/WEB-Link-Official-2",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "1c8f4e34fab34bc36ecf": {
+      "url": "https://devforum.roblox.com/t/programmer-builder-and-modeller-qipaoist-8y-experience/4988026",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "311de3f44e2360ceea30": {
+      "url": "https://devforum.roblox.com/t/stunning-portfolio-seven-years-in-the-creation-ugc-creator/1081198",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "c1dd1a712b8688c9f811": {
+      "url": "https://github.com/Frank-ZY-Dou/awesome-ai-3d-modeling-robotics",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "8ab2da92840577263663": {
+      "url": "https://github.com/coolbat/awesome-opus-5.5-usecase",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "713de5a2c6e6644d3390": {
+      "url": "https://github.com/leonisbel/night-hunt",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "b5b20f5a22d418ff7394": {
+      "url": "https://github.com/Gnrpflpferd19/skapidap",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "0aaa704c0c2d9a1b94c5": {
+      "url": "https://github.com/SigmaLordMaster69/super-smart-idea-im-about-to-have",
+      "topic": "spruce",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "81efd37897cce6558935": {
+      "url": "https://devforum.roblox.com/t/terrain-artist-level-desginer/3877421",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "44f7f759e468c9bb3eb9": {
+      "url": "https://github.com/champagnet04/roblox-lumberjack",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    },
+    "fee07d6291e573431df1": {
+      "url": "https://github.com/zqh7y/RollPetsRNG",
+      "topic": "forest",
+      "date": "2026-11-15T12:15:20+00:00"
+    }
+  },
+  "query_runs": {
+    "Blender spruce branch atlas baking Roblox": 1,
+    "Roblox SurfaceAppearance transparency foliage": 1,
+    "Roblox flashlight forest shadows": 1,
+    "Roblox realistic night forest lighting fog": 1,
+    "Roblox realistic spruce foliage alpha cards normals": 1,
+    "Roblox snow covered pine trees performance": 1,
+    "Roblox snowy forest terrain optimization": 1,
+    "Roblox ledge shimmy system": 1
+  },
+  "runs": 1,
+  "errors": []
+}

@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-11-15T12:15:20+00:00",
+  "queries": 8,
+  "discovered": 21,
+  "errors": [],
+  "sources": {
+    "devforum": 8,
+    "github": 15
+  }
+}
