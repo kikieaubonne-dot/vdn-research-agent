@@ -33,6 +33,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add knowledge/ output/
           if ! git diff --cached --quiet; then
-            git commit -m 'research: evidence-first V3 update'
+            git commit -m 'research: V4.1 diagnostics update'
             git push
           fi
