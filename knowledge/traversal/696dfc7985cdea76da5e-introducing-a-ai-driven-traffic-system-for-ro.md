@@ -29,3 +29,26 @@ Update: v0.01 Release & Feature Additions + Bug Fixes Hey everyone! Quick update
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/introducing-a-ai-driven-traffic-system-for-roblox/4694062  
+**Contenu :** DevForum  
+**Passages candidats :** 1
+
+### Passages et paramètres repérés
+
+- CarAI The main control: follows waypoints, uses smooth braking, yields at intersections, and performs collision checks.
+
+### Questions de recherche complémentaires
+
+- traversal Roblox collision implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

@@ -287,8 +287,16 @@
     "Roblox skinned mesh facial animation": 1,
     "Blender trim sheet modular environment Roblox": 1,
     "Roblox interior horror lighting": 1,
-    "Roblox realistic Victorian mansion modular kit": 1
+    "Roblox realistic Victorian mansion modular kit": 1,
+    "spruce Roblox animation implementation limitations troubleshooting": 1,
+    "spruce Roblox lighting implementation limitations troubleshooting": 1,
+    "spruce Roblox render implementation limitations troubleshooting": 1,
+    "spruce Roblox texture implementation limitations troubleshooting": 1,
+    "spruce Roblox transparency implementation limitations troubleshooting": 1,
+    "spruce Roblox transparent implementation limitations troubleshooting": 1,
+    "character Roblox animation implementation limitations troubleshooting": 1,
+    "character Roblox fbx implementation limitations troubleshooting": 1
   },
-  "runs": 3,
+  "runs": 4,
   "errors": []
 }

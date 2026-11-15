@@ -29,3 +29,32 @@ using editable meshes to create roblox part handles that look identical, but can
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://github.com/nightcycle/quick-part  
+**Contenu :** GitHub README  
+**Passages candidats :** 5
+
+### Passages et paramètres repérés
+
+- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.
+- Use Play, not the server-only Run mode, for the client animation.
+- -- SurfaceAppearance = anExistingSurfaceAppearance,
+- A \`PartHandle\` has \`Id: number\` (monotonically increasing integer, treat as read-only), \`Size\`, \`CFrame\`, \`PivotOffset\`, \`Color\`, and \`Transparency\`.
+- This is an application allowance: Roblox does not expose remaining device EditableMesh memory or a conversion between triangle count and bytes.
+
+### Questions de recherche complémentaires
+
+- spruce Roblox transparent implementation limitations troubleshooting
+- spruce Roblox animation implementation limitations troubleshooting
+- spruce Roblox surfaceappearance implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

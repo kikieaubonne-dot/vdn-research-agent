@@ -11,7 +11,19 @@
     "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md": 1,
     "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md": 1,
     "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md": 1,
-    "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md": 1
+    "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md": 1,
+    "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md": 1,
+    "knowledge/traversal/696dfc7985cdea76da5e-introducing-a-ai-driven-traffic-system-for-ro.md": 1,
+    "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md": 1,
+    "knowledge/manor/31d4988647f9d82803b9-looking-for-a-3d-modeler-for-my-roblox-horror.md": 1,
+    "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md": 1,
+    "knowledge/spruce/4c4e9e4faa27af447c21-scenario-labs-skills.md": 1,
+    "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md": 1,
+    "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md": 1,
+    "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md": 1,
+    "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md": 1,
+    "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md": 1,
+    "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md": 1
   },
   "insufficient": {
     "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md": {
@@ -37,6 +49,18 @@
     "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md": {
       "reason": "no actionable excerpt",
       "last_attempt": "2026-11-15T15:52:47.251460+00:00"
+    },
+    "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:16:53.315842+00:00"
+    },
+    "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:16:56.160082+00:00"
+    },
+    "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:16:59.117565+00:00"
     }
   },
   "questions": {
@@ -93,7 +117,61 @@
       "topic": "spruce",
       "source": "https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371",
       "status": "open"
+    },
+    "1f7ef61457affa88": {
+      "query": "spruce Roblox surfaceappearance implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/nightcycle/quick-part",
+      "status": "open"
+    },
+    "16b28449ff3c8a44": {
+      "query": "traversal Roblox collision implementation limitations troubleshooting",
+      "topic": "traversal",
+      "source": "https://devforum.roblox.com/t/introducing-a-ai-driven-traffic-system-for-roblox/4694062",
+      "status": "open"
+    },
+    "da1cd899e4ca67bc": {
+      "query": "character Roblox vertices implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://devforum.roblox.com/t/ugc-portfolio-bankbend-ugc-portfolio-3d-artist/1447286",
+      "status": "open"
+    },
+    "a3c6fabc29a155e7": {
+      "query": "manor Roblox lighting implementation limitations troubleshooting",
+      "topic": "manor",
+      "source": "https://devforum.roblox.com/t/looking-for-a-3d-modeler-for-my-roblox-horror-game/4990984",
+      "status": "open"
+    },
+    "58eaba05f0d959d5": {
+      "query": "forest Roblox shadow implementation limitations troubleshooting",
+      "topic": "forest",
+      "source": "https://github.com/leonisbel/night-hunt",
+      "status": "open"
+    },
+    "e455418f3b6d916e": {
+      "query": "forest Roblox foliage implementation limitations troubleshooting",
+      "topic": "forest",
+      "source": "https://github.com/leonisbel/night-hunt",
+      "status": "open"
+    },
+    "e343247e8e3d95af": {
+      "query": "forest Roblox material implementation limitations troubleshooting",
+      "topic": "forest",
+      "source": "https://github.com/leonisbel/night-hunt",
+      "status": "open"
+    },
+    "39e233f671c88bbd": {
+      "query": "spruce Roblox foliage implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224",
+      "status": "open"
+    },
+    "2db69cc8600881d4": {
+      "query": "traversal Roblox animation implementation limitations troubleshooting",
+      "topic": "traversal",
+      "source": "https://devforum.roblox.com/t/building-a-parkour-system-cuz-im-boreddevlog/4073003",
+      "status": "open"
     }
   },
-  "rotation": 1
+  "rotation": 2
 }

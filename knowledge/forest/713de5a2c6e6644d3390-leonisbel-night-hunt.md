@@ -29,3 +29,32 @@ Night Hunt - fan-made multiplayer monster survival game
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://github.com/leonisbel/night-hunt  
+**Contenu :** GitHub README  
+**Passages candidats :** 5
+
+### Passages et paramètres repérés
+
+- - **Volumetric fog and god rays:** moonlight shafts through the trees use the shadow map, and your flashlight beam lights the fog, with its own shadows.
+- - **Dense foliage:** trees are rebuilt from alpha-card leaves and needles cut from plant scans.
+- - **PBR surfaces on every monster:** each body part is mapped to a real material: animatronic teddy fur and rusted endoskeletons, scaly reptile hide with pale-belly countershading, wet glossy shark and sea-monster skin with clearcoat, slick Demogorgon skin, weathered gargoyle stone, dried Siren Head flesh, rubbery Cartoon Cat ink, see-through wing membranes and glossy eyes.
+- - **Lighting:** a moonlit environment map adds reflections and specular highlights.
+- - **Better anatomy:** smoother, curved (PN-triangle) silhouettes and smooth normals on the CC0 dinosaurs, sharks and dragons, and rounded joints on every limb.
+
+### Questions de recherche complémentaires
+
+- forest Roblox shadow implementation limitations troubleshooting
+- forest Roblox foliage implementation limitations troubleshooting
+- forest Roblox material implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

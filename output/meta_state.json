@@ -1,0 +1,52 @@
+{
+  "arms": {
+    "devforum:spruce": {
+      "baseline": {
+        "n": 2,
+        "reward": 0.0
+      },
+      "focused": {
+        "n": 2,
+        "reward": 0.0
+      },
+      "site_specific": {
+        "n": 2,
+        "reward": 0.0
+      }
+    },
+    "github:spruce": {
+      "baseline": {
+        "n": 2,
+        "reward": 0.0
+      },
+      "focused": {
+        "n": 2,
+        "reward": 0.0
+      },
+      "site_specific": {
+        "n": 2,
+        "reward": 0.0
+      }
+    },
+    "devforum:character": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0
+      }
+    },
+    "github:character": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0
+      }
+    }
+  }
+}
