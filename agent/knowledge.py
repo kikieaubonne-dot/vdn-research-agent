@@ -154,7 +154,7 @@ def decide_status(assessment: dict, tier: int, official: bool) -> tuple[str, str
         conf = "moyenne" if (tier == 1 or official) and n >= 3 else "faible"
         why = (f"{n} passages techniques dont {len(steps)} avec action et objet identifiables, source de niveau {tier}"
                + (" (réponse du personnel Roblox / doc officielle)" if official else "")
-               + " ; aucun test dans Roblox Studio.")
+               + " ; indice technique seulement, procédure complète non garantie ; aucun test dans Roblox Studio.")
         return "documente", conf, why
     return "candidat", "faible", f"{n} passage(s) technique(s), {len(steps)} instruction(s) explicite(s) repérée(s), source de niveau {tier} ; procédure à approfondir et à tester."
 
@@ -176,7 +176,7 @@ def build_body(title: str, query: str, topic: dict, assessment: dict, src: dict,
              "## Objectif", "", f"Répondre à : *{query}* (sujet : {topic.get('title', topic.get('id'))}).", "",
              "## Description technique", "", "À rédiger à partir des extraits ci-dessous (analyse humaine ou Ollama). "
              "Rien n'est affirmé ici sans source.", "",
-             "## Étapes reproductibles", "", "À extraire de la source ; non disponibles automatiquement.", "",
+             "## Étapes reproductibles", "", "À extraire de la source ; non disponibles automatiquement. Les indices d’action ci-dessous ne constituent pas un tutoriel complet.", "",
              "## Paramètres (sourcés)", ""]
     lines += [f"- « {p} » — {link}" for p in params] or ["Aucun paramètre chiffré trouvé dans les extraits."]
     lines += ["", "## Limites connues de Roblox", ""]
