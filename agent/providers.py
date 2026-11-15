@@ -328,7 +328,7 @@ class GitHub:
             url = (
                 "https://api.github.com/search/repositories?q="
                 + quote(q)
-                + f"&sort=best-match&per_page={limit}"
+                + f"&sort=best-match&per_page={min(100, max(20, limit))}"
             )
 
             data = json.loads(
@@ -341,7 +341,7 @@ class GitHub:
                 continue
 
             out = []
-            for x in items[:limit]:
+            for x in items[:min(100, max(20, limit))]:
                 out.append({
                     "url": x.get("html_url", ""),
                     "title": (
@@ -380,7 +380,7 @@ class GitHub:
                 return score
 
             out.sort(key=quick_score, reverse=True)
-            return out
+            return out[:limit]
 
         return []
 
