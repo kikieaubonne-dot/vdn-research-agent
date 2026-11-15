@@ -1,11 +1,11 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-15T20:15:09+00:00",
-  "finished": "2026-11-15T20:15:34+00:00",
+  "started": "2026-11-15T22:40:32+00:00",
+  "finished": "2026-11-15T22:40:54+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "tree foliage cards",
+      "query": "tree wind bones",
       "topic": "spruce",
       "depth": 0,
       "origin": "seed",
@@ -18,23 +18,46 @@
       "followups": []
     },
     {
-      "query": "flashlight shadows forest",
+      "query": "forest streaming trees",
       "topic": "forest",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 0,
+      "created": 1,
       "rejected": 7,
-      "duplicates": 1,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-a97042f85138",
+          "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+          "status": "documente",
+          "topic": "forest",
+          "query": "forest streaming trees",
+          "url": "https://create.roblox.com/docs/workspace/streaming/frustum",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Player settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-a97042f85138)",
+          "topic": "forest"
+        },
+        {
+          "query": "Player FrustumStreaming",
+          "reason": "API citee par la source : Player.FrustumStreaming (vdn-a97042f85138)",
+          "topic": "forest"
+        }
+      ]
     }
   ],
-  "created": 0,
-  "fetched": 15,
+  "created": 1,
+  "fetched": 16,
   "rejected": 15,
-  "followups_added": 0,
+  "followups_added": 2,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -43,25 +66,25 @@
     "counts": {
       "pending": 76,
       "running": 0,
-      "done": 4,
+      "done": 6,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-15",
-      "items": 4,
-      "fetch": 31
+      "items": 6,
+      "fetch": 47
     },
     "next": [
       {
-        "query": "tree wind bones",
+        "query": "foliage alpha distance",
         "topic": "spruce",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "forest streaming trees",
+        "query": "forest atmosphere fog",
         "topic": "forest",
         "priority": 10.0,
         "depth": 0,

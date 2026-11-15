@@ -86,3 +86,9 @@
 {"utc": "2026-11-15T20:15:22+00:00", "event": "done", "key": "3f271eab6bf88710", "query": "tree foliage cards", "result": {"returned": 9, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 0, "updated": 0, "notes": [], "followups": [], "errors": 0}}
 {"utc": "2026-11-15T20:15:22+00:00", "event": "started", "key": "76d4593c78a99f5f", "query": "flashlight shadows forest"}
 {"utc": "2026-11-15T20:15:34+00:00", "event": "done", "key": "76d4593c78a99f5f", "query": "flashlight shadows forest", "result": {"returned": 8, "fetched": 7, "created": 0, "rejected": 7, "duplicates": 1, "updated": 0, "notes": [], "followups": [], "errors": 0}}
+{"utc": "2026-11-15T22:40:32+00:00", "event": "started", "key": "484ffbb7bb678639", "query": "tree wind bones"}
+{"utc": "2026-11-15T22:40:44+00:00", "event": "done", "key": "484ffbb7bb678639", "query": "tree wind bones", "result": {"returned": 11, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 0, "updated": 0, "notes": [], "followups": [], "errors": 0}}
+{"utc": "2026-11-15T22:40:44+00:00", "event": "started", "key": "93d093b7a44d6d90", "query": "forest streaming trees"}
+{"utc": "2026-11-15T22:40:54+00:00", "event": "added", "key": "5b57235144b127ef", "query": "Player settings", "topic": "forest", "origin": "relance", "depth": 1, "parent": "93d093b7a44d6d90"}
+{"utc": "2026-11-15T22:40:54+00:00", "event": "added", "key": "e8be5cb91d09e23a", "query": "Player FrustumStreaming", "topic": "forest", "origin": "relance", "depth": 1, "parent": "93d093b7a44d6d90"}
+{"utc": "2026-11-15T22:40:54+00:00", "event": "done", "key": "93d093b7a44d6d90", "query": "forest streaming trees", "result": {"returned": 12, "fetched": 8, "created": 1, "rejected": 7, "duplicates": 0, "updated": 0, "notes": ["vdn-a97042f85138"], "followups": ["Player settings", "Player FrustumStreaming"], "errors": 0}}

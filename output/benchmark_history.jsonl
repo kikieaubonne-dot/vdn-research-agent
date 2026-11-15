@@ -9,3 +9,4 @@
 {"utc": "2026-11-15T18:55:27+00:00", "fingerprint": "88d0c7762598", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 1.0, "rag_mrr": 0.933, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-15T20:12:38+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 1.0, "rag_mrr": 0.933, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-15T20:15:34+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 1.0, "rag_mrr": 0.933, "negatives_clean": 1.0, "planner_ok": 1.0}}
+{"utc": "2026-11-15T22:40:55+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 1.0, "rag_mrr": 0.933, "negatives_clean": 1.0, "planner_ok": 1.0}}

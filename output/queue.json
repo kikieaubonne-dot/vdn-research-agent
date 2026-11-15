@@ -109,11 +109,23 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T22:40:44+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794782432.377946,
+      "finished_ts": 1794782444.2415025
     },
     "dfa72d0b0747a3e4": {
       "key": "dfa72d0b0747a3e4",
@@ -238,11 +250,28 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-15T22:40:54+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-a97042f85138"
+        ],
+        "followups": [
+          "Player settings",
+          "Player FrustumStreaming"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794782444.2435546,
+      "finished_ts": 1794782454.9113927
     },
     "bda31c5ed4418069": {
       "key": "bda31c5ed4418069",
@@ -1248,11 +1277,41 @@
       "created": "2026-11-15T20:12:16+00:00",
       "updated": "2026-11-15T20:12:16+00:00",
       "result": null
+    },
+    "5b57235144b127ef": {
+      "key": "5b57235144b127ef",
+      "topic": "forest",
+      "query": "Player settings",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "93d093b7a44d6d90",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-a97042f85138)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T22:40:54+00:00",
+      "updated": "2026-11-15T22:40:54+00:00",
+      "result": null
+    },
+    "e8be5cb91d09e23a": {
+      "key": "e8be5cb91d09e23a",
+      "topic": "forest",
+      "query": "Player FrustumStreaming",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "93d093b7a44d6d90",
+      "reason": "API citee par la source : Player.FrustumStreaming (vdn-a97042f85138)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-15T22:40:54+00:00",
+      "updated": "2026-11-15T22:40:54+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-15",
-    "items": 4,
-    "fetch": 31
+    "items": 6,
+    "fetch": 47
   }
 }

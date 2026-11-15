@@ -1,62 +1,44 @@
 {
-  "started_utc": "2026-11-15T20:15:22+00:00",
+  "started_utc": "2026-11-15T22:40:44+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 8,
-  "fetched": 7,
-  "accepted": 0,
-  "created": 0,
+  "returned": 12,
+  "fetched": 8,
+  "accepted": 1,
+  "created": 1,
   "updated": 0,
-  "duplicates": 1,
+  "duplicates": 0,
   "rejected": 7,
   "errors": [],
   "rejection_reasons": {
     "hors sujet": 7,
-    "pas assez de contenu technique": 5,
-    "aucun lien avec Roblox ou la chaîne Blender": 4
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
       "topic": "forest",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "flashlight shadows forest",
-      "returned": 0,
-      "accepted": 0,
-      "new": 0,
+      "strategy": "facet",
+      "query": "forest streaming trees settings",
+      "returned": 4,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.02,
-      "reward": 0.0
+      "technical_mean": 0.77,
+      "duration_s": 4.61,
+      "reward": 0.308
     },
     {
       "provider": "devforum",
       "topic": "forest",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "flashlight shadows forest performance",
-      "returned": 4,
-      "accepted": 0,
-      "new": 0,
-      "updated": 0,
-      "duplicates": 1,
-      "offtopic": 3,
-      "error": null,
-      "technical_mean": 0.147,
-      "duration_s": 3.82,
-      "reward": 0.0
-    },
-    {
-      "provider": "github",
-      "topic": "forest",
-      "origin": "seed",
-      "strategy": "facet",
-      "query": "flashlight shadows forest performance",
+      "strategy": "terms",
+      "query": "forest streaming trees",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -64,16 +46,108 @@
       "duplicates": 0,
       "offtopic": 4,
       "error": null,
-      "technical_mean": 0.07,
-      "duration_s": 7.76,
+      "technical_mean": 0.34,
+      "duration_s": 4.92,
+      "reward": 0.0
+    },
+    {
+      "provider": "github",
+      "topic": "forest",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "forest streaming trees",
+      "returned": 4,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 0.0,
+      "duration_s": 1.12,
       "reward": 0.0
     }
   ],
-  "created_notes": [],
+  "created_notes": [
+    {
+      "id": "vdn-a97042f85138",
+      "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+      "status": "documente",
+      "topic": "forest",
+      "query": "forest streaming trees",
+      "url": "https://create.roblox.com/docs/workspace/streaming/frustum"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "topical": 0.333,
+      "technical": 1.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.083,
+      "technical": 0.2,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.083 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 1.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.4,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.16,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.76,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    }
+  ],
   "providers": [
     "roblox_docs",
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-15T20:15:34+00:00"
+  "finished_utc": "2026-11-15T22:40:54+00:00"
 }

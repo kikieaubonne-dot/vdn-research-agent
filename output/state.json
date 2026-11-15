@@ -332,9 +332,11 @@
     "MicroProfiler rendering": 1,
     "photogrammetry rock import": 1,
     "skinned mesh facial animation": 1,
-    "modular building kit": 1
+    "modular building kit": 1,
+    "tree wind bones": 1,
+    "forest streaming trees": 1
   },
-  "runs": 13,
+  "runs": 15,
   "errors": [],
   "rotation": 4
 }
