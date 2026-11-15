@@ -297,16 +297,65 @@ class GitHub:
         self.root, self.get = Path(root), getter
 
     def search(self, query: str, limit: int = 5) -> list[dict]:
-        q = " ".join(dict.fromkeys(tokens(query)[:4] + ["roblox"]))
-        data = json.loads(self.get("https://api.github.com/search/repositories?q=" + quote(q) + f"&sort=best-match&per_page={limit}",
-                                   accept="application/vnd.github+json"))
-        out = []
-        for x in data.get("items", [])[:limit]:
-            out.append({"url": x.get("html_url", ""), "title": f"{x.get('full_name', '')} — {x.get('description') or ''}".strip(" —"),
-                        "snippet": " ".join(x.get("topics", [])[:10]), "provider": self.name, "tier": self.tier,
-                        "stars": x.get("stargazers_count", 0), "pushed": str(x.get("pushed_at", ""))[:10],
-                        "license": (x.get("license") or {}).get("spdx_id")})
-        return out
+        """Recherche GitHub adaptative, avec requ?tes de secours."""
+        words = list(dict.fromkeys(
+            w.lower() for w in re.findall(r"[A-Za-z][A-Za-z0-9_-]*", query)
+            if len(w) >= 2
+        ))
+
+        if not words:
+            return []
+
+        variants = []
+
+        def add(words):
+            candidate = " ".join(words[:4])
+            if candidate and candidate not in variants:
+                variants.append(candidate)
+
+        add(words)
+
+        if len(words) >= 3:
+            add([words[0], words[-1]])
+            add(words[:2])
+        elif len(words) == 2:
+            add(words[:1])
+
+        for q in variants[:3]:
+            url = (
+                "https://api.github.com/search/repositories?q="
+                + quote(q)
+                + f"&sort=best-match&per_page={limit}"
+            )
+
+            data = json.loads(
+                self.get(url, accept="application/vnd.github+json")
+            )
+
+            items = data.get("items", [])
+
+            if not items:
+                continue
+
+            out = []
+            for x in items[:limit]:
+                out.append({
+                    "url": x.get("html_url", ""),
+                    "title": (
+                        f"{x.get('full_name', '')} ? "
+                        f"{x.get('description') or ''}"
+                    ).strip(" ?"),
+                    "snippet": " ".join(x.get("topics", [])[:10]),
+                    "provider": self.name,
+                    "tier": self.tier,
+                    "stars": x.get("stargazers_count", 0),
+                    "pushed": str(x.get("pushed_at", ""))[:10],
+                    "license": (x.get("license") or {}).get("spdx_id")
+                })
+
+            return out
+
+        return []
 
     def fetch(self, url: str) -> dict:
         m = re.match(r"^/([\w.-]{1,100})/([\w.-]{1,100})", urlparse(url).path)
