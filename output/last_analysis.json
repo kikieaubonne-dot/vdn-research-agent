@@ -1,0 +1,21 @@
+{
+  "processed": 4,
+  "results": [
+    {
+      "file": "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md",
+      "result": "enriched"
+    },
+    {
+      "file": "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md",
+      "result": "enriched"
+    },
+    {
+      "file": "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md",
+      "result": "enriched"
+    },
+    {
+      "file": "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md",
+      "result": "enriched"
+    }
+  ]
+}
