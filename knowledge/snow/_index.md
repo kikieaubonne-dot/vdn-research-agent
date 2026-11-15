@@ -11,3 +11,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/8fceb3f4c379-materials|Materials]] — niv. 1 · conf. moyenne — « When you set the material of a part or terrain, Roblox simulates its physical material properties to make this behavior just work. »
 - [[snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate|[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements]] — niv. 1 · conf. moyenne — « As of today (10/27), the performance improvements are only available in Studio. »
 
+## Candidat (1)
+
+- [[snow/fe4c577081af-collisions-on-meshs|Collisions On Meshs]] — niv. 2 · conf. faible — « You can get polygon perfect collisions by setting the “collision fidelity” option to Precise Convex Decomposition »
+

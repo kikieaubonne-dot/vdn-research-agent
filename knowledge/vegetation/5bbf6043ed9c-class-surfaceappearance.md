@@ -16,6 +16,7 @@ sources:
 accessed: "2026-11-15"
 queries:
   - "foliage SurfaceAppearance transparency"
+  - "rock mesh SurfaceAppearance"
 created: "2026-11-15"
 updated: "2026-11-15"
 tags:

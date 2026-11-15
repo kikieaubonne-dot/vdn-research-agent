@@ -2,6 +2,10 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
+## Documenté (1)
+
+- [[lighting/0c907f49b2f4-light-sources|Light sources]] — niv. 1 · conf. moyenne — « By using the different types of light sources instead of just general global lighting through the `Class.Lighting` service, you can create i… »
+
 ## Candidat (2)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »

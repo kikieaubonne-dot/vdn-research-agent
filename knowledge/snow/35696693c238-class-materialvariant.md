@@ -17,6 +17,7 @@ accessed: "2026-11-15"
 queries:
   - "snow MaterialVariant"
   - "terrain MaterialVariant custom"
+  - "terrain heightmap import"
 created: "2026-11-15"
 updated: "2026-11-15"
 tags:

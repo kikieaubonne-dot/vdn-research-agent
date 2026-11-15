@@ -16,6 +16,7 @@ sources:
 accessed: "2026-11-15"
 queries:
   - "flashlight shadows forest"
+  - "light shadows performance"
 created: "2026-11-15"
 updated: "2026-11-15"
 tags:

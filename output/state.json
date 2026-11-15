@@ -308,7 +308,7 @@
     "tree foliage cards": 1,
     "night forest lighting": 1,
     "forest atmosphere fog": 1,
-    "snow terrain material": 1,
+    "snow terrain material": 2,
     "snow footprints decal": 1,
     "Future lighting night": 1,
     "flashlight SpotLight shadows": 1,
@@ -319,9 +319,16 @@
     "Atmosphere density haze": 1,
     "ColorCorrection horror": 1,
     "terrain MaterialVariant custom": 1,
-    "SurfaceAppearance PBR textures": 1
+    "SurfaceAppearance PBR textures": 1,
+    "snow accumulation mesh": 1,
+    "light shadows performance": 1,
+    "ambient exposure night": 1,
+    "terrain heightmap import": 1,
+    "MeshPart RenderFidelity": 1,
+    "instance streaming level detail": 1,
+    "rock mesh SurfaceAppearance": 1
   },
-  "runs": 7,
+  "runs": 8,
   "errors": [],
-  "rotation": 2
+  "rotation": 3
 }
