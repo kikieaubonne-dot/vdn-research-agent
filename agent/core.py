@@ -140,6 +140,20 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
     for topic in cfg["topics"]:
         for query in topic["queries"]:
             candidates.append((int(state["query_runs"].get(query, 0)), -int(topic["priority"]), topic, query))
+    # V3: follow-up queries generated from evidence, bounded and deduplicated.
+    qpath = root / "output/v3_state.json"
+    if qpath.exists():
+        try:
+            qstate = json.loads(qpath.read_text(encoding="utf-8"))
+            by_id = {t["id"]: t for t in cfg["topics"]}
+            for q in qstate.get("questions", {}).values():
+                if q.get("status") != "open" or q.get("topic") not in by_id:
+                    continue
+                query = str(q.get("query", ""))[:180]
+                if query:
+                    candidates.append((int(state["query_runs"].get(query, 0)), -int(by_id[q["topic"]]["priority"]), by_id[q["topic"]], query))
+        except (OSError, ValueError, TypeError):
+            pass
     candidates.sort(key=lambda x: (x[0], x[1], x[3]))
     picked = candidates[:max_queries]
     stats = {"started_utc": now, "queries": 0, "discovered": 0, "errors": [], "sources": {}}
