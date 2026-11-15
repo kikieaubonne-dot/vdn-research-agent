@@ -110,6 +110,21 @@
         "reward": 0.0,
         "empty": 1,
         "returned": 0
+      },
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "github:character": {
@@ -126,6 +141,21 @@
         "reward": 0.0,
         "empty": 0,
         "returned": 3
+      },
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "devforum:forest": {
@@ -537,19 +567,21 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 1,
-        "reward": 0.0,
-        "returned": 2,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 0,
+        "n": 3,
+        "reward": 0.749,
+        "returned": 8,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.0
+          0.0,
+          0.485,
+          0.264
         ],
-        "best_mean": 0.0
+        "best_mean": 0.24966666666666668
       },
       "facet": {
         "n": 2,
@@ -602,25 +634,27 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 2,
-        "reward": 0.06,
-        "returned": 8,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 3,
+        "n": 4,
+        "reward": 0.36,
+        "returned": 16,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.06,
+          0.0,
+          0.3,
           0.0
         ],
-        "best_mean": 0.06
+        "best_mean": 0.12
       }
     },
     "github:lighting": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
         "returned": 0,
         "accepted": 0,
@@ -628,15 +662,16 @@
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
-        "empty": 2,
+        "empty": 3,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
         "returned": 0,
         "accepted": 0,
@@ -644,8 +679,9 @@
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
-        "empty": 2,
+        "empty": 3,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -698,6 +734,21 @@
           0.2682
         ],
         "best_mean": 0.2682
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.5618,
+        "returned": 4,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 1,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.5618
+        ],
+        "best_mean": 0.5618
       }
     },
     "devforum:terrain": {
@@ -730,6 +781,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.096,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.096
+        ],
+        "best_mean": 0.096
       }
     },
     "github:terrain": {
@@ -749,6 +815,21 @@
         "best_mean": 0.0
       },
       "synonyms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      },
+      "facet": {
         "n": 1,
         "reward": 0.0,
         "returned": 0,
@@ -794,6 +875,21 @@
           0.1328
         ],
         "best_mean": 0.1328
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.79,
+        "returned": 4,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.79
+        ],
+        "best_mean": 0.79
       }
     },
     "devforum:rendering": {
@@ -826,6 +922,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.952,
+        "returned": 4,
+        "accepted": 4,
+        "new": 4,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.952
+        ],
+        "best_mean": 0.952
       }
     },
     "github:rendering": {
@@ -858,6 +969,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "roblox_docs:performance": {
@@ -875,6 +1001,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.342,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 1,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.342
+        ],
+        "best_mean": 0.342
       }
     },
     "devforum:performance": {
@@ -892,6 +1033,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.4602,
+        "returned": 4,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 1,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.4602
+        ],
+        "best_mean": 0.4602
       }
     },
     "github:performance": {
@@ -909,6 +1065,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.18,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 1,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.18
+        ],
+        "best_mean": 0.18
       }
     },
     "roblox_docs:rocks": {
@@ -926,6 +1097,21 @@
           0.045
         ],
         "best_mean": 0.045
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "devforum:rocks": {
@@ -943,9 +1129,107 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "github:rocks": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      },
+      "synonyms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "roblox_docs:character": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "roblox_docs:manor": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "devforum:manor": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "github:manor": {
       "terms": {
         "n": 1,
         "reward": 0.0,

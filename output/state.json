@@ -310,8 +310,8 @@
     "forest atmosphere fog": 1,
     "snow terrain material": 2,
     "snow footprints decal": 1,
-    "Future lighting night": 1,
-    "flashlight SpotLight shadows": 1,
+    "Future lighting night": 2,
+    "flashlight SpotLight shadows": 2,
     "large forest performance": 1,
     "flashlight shadows forest": 1,
     "snowfall particles": 1,
@@ -326,9 +326,15 @@
     "terrain heightmap import": 1,
     "MeshPart RenderFidelity": 1,
     "instance streaming level detail": 1,
-    "rock mesh SurfaceAppearance": 1
+    "rock mesh SurfaceAppearance": 1,
+    "terrain decoration grass": 1,
+    "Blender export Roblox fbx": 1,
+    "MicroProfiler rendering": 1,
+    "photogrammetry rock import": 1,
+    "skinned mesh facial animation": 1,
+    "modular building kit": 1
   },
-  "runs": 8,
+  "runs": 9,
   "errors": [],
-  "rotation": 3
+  "rotation": 4
 }

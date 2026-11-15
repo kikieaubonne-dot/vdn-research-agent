@@ -16,6 +16,7 @@ sources:
 accessed: "2026-11-15"
 queries:
   - "night forest lighting"
+  - "Future lighting night"
 created: "2026-11-15"
 updated: "2026-11-15"
 tags:

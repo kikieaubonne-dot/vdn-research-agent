@@ -287,6 +287,70 @@
   "https://create.roblox.com/docs/effects/light-sources": {
    "id": "vdn-0c907f49b2f4",
    "path": "knowledge/lighting/0c907f49b2f4-light-sources.md"
+  },
+  "https://devforum.roblox.com/t/1152865": {
+   "id": "vdn-5d6828741270",
+   "path": "knowledge/lighting/5d6828741270-future-lighting-not-working.md"
+  },
+  "https://devforum.roblox.com/t/1152409": {
+   "id": "vdn-09d38d132c8f",
+   "path": "knowledge/lighting/09d38d132c8f-do-mobile-devices-get-future-lighting.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/SpotLight": {
+   "id": "vdn-a4893023e7c3",
+   "path": "knowledge/lighting/a4893023e7c3-class-spotlight.md"
+  },
+  "https://create.roblox.com/docs/parts/terrain": {
+   "id": "vdn-5cf4b27a9a3e",
+   "path": "knowledge/terrain/5cf4b27a9a3e-environmental-terrain.md"
+  },
+  "https://create.roblox.com/docs/studio/terrain-editor": {
+   "id": "vdn-086c1f6e4a3b",
+   "path": "knowledge/terrain/086c1f6e4a3b-terrain-editor.md"
+  },
+  "https://devforum.roblox.com/t/4989282": {
+   "id": "vdn-3e6f3194acb0",
+   "path": "knowledge/terrain/3e6f3194acb0-some-grass-doesn-t-load-while-using-expanded-terra.md"
+  },
+  "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting": {
+   "id": "vdn-326d0bf06b35",
+   "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md"
+  },
+  "https://create.roblox.com/docs/art/characters/creating/export-textures": {
+   "id": "vdn-1fe0732cf23a",
+   "path": "knowledge/rendering/1fe0732cf23a-export-textures.md"
+  },
+  "https://devforum.roblox.com/t/1159486": {
+   "id": "vdn-564f653d5fbf",
+   "path": "knowledge/rendering/564f653d5fbf-error-when-exporting-as-fbx-from-blender.md"
+  },
+  "https://devforum.roblox.com/t/1195366": {
+   "id": "vdn-c73ed30815b8",
+   "path": "knowledge/rendering/c73ed30815b8-how-do-i-export-objects-separately-in-blender.md"
+  },
+  "https://devforum.roblox.com/t/1175137": {
+   "id": "vdn-bbea6ee659d1",
+   "path": "knowledge/rendering/bbea6ee659d1-export-pbr-textures-from-blender-water.md"
+  },
+  "https://devforum.roblox.com/t/1162127": {
+   "id": "vdn-f7dfa278922f",
+   "path": "knowledge/rendering/f7dfa278922f-how-would-i-export-this-texture.md"
+  },
+  "https://create.roblox.com/docs/production/analytics/performance": {
+   "id": "vdn-ecfc9381818e",
+   "path": "knowledge/performance/ecfc9381818e-performance.md"
+  },
+  "https://devforum.roblox.com/t/1195981": {
+   "id": "vdn-2736f67dee2b",
+   "path": "knowledge/performance/2736f67dee2b-i-need-help-about-rendering-distance.md"
+  },
+  "https://devforum.roblox.com/t/4058077": {
+   "id": "vdn-429655fffbe0",
+   "path": "knowledge/performance/429655fffbe0-foveated-vr-rendering.md"
+  },
+  "https://github.com/srendpty/roblox": {
+   "id": "vdn-4a6402c8990e",
+   "path": "knowledge/performance/4a6402c8990e-srendpty-roblox-roblox-optimizer-suite-v1-3-enhanc.md"
   }
  },
  "fingerprints": {
@@ -518,6 +582,81 @@
   "20abe569ae184d72": "vdn-eb5f36ddbccb",
   "90e519d724d1cc1a": "vdn-eb5f36ddbccb",
   "7b37757695b6176f": "vdn-eb5f36ddbccb",
-  "f4e32c88e5c6fd97": "vdn-eb5f36ddbccb"
+  "f4e32c88e5c6fd97": "vdn-eb5f36ddbccb",
+  "1fca22b121b6c821": "vdn-5d6828741270",
+  "a70d7e3a887d4e9c": "vdn-5d6828741270",
+  "fa6a1143f364a20e": "vdn-5d6828741270",
+  "c66a087c8cc480a2": "vdn-09d38d132c8f",
+  "71022429c2fbd4f4": "vdn-09d38d132c8f",
+  "00d64a924a297272": "vdn-09d38d132c8f",
+  "438f1b3b27952a87": "vdn-a4893023e7c3",
+  "adcb5de1c49c7377": "vdn-a4893023e7c3",
+  "c7bf6a07322ef7c0": "vdn-5cf4b27a9a3e",
+  "d1b9f66c4c928e8c": "vdn-5cf4b27a9a3e",
+  "d3c24b5fc5391ed7": "vdn-5cf4b27a9a3e",
+  "419b17709abdfb96": "vdn-5cf4b27a9a3e",
+  "46aa2c85fec50ed1": "vdn-5cf4b27a9a3e",
+  "317a48ea872ba5a7": "vdn-5cf4b27a9a3e",
+  "11da085fde4a3240": "vdn-5cf4b27a9a3e",
+  "16a0a775431bc364": "vdn-5cf4b27a9a3e",
+  "0fc8646c2f18ee1c": "vdn-086c1f6e4a3b",
+  "7e397d5a182ebc80": "vdn-086c1f6e4a3b",
+  "67af466fc14e8957": "vdn-086c1f6e4a3b",
+  "a0acebce769ffcc7": "vdn-086c1f6e4a3b",
+  "7639b671ebde8d41": "vdn-086c1f6e4a3b",
+  "cd7fe58ed544c4cb": "vdn-086c1f6e4a3b",
+  "1a0f6e22e0fb5a77": "vdn-086c1f6e4a3b",
+  "a6697c59d432a1d5": "vdn-086c1f6e4a3b",
+  "5eb6f907e928e7ac": "vdn-3e6f3194acb0",
+  "667b742ff80bc127": "vdn-326d0bf06b35",
+  "92e77e85fcb5e9c0": "vdn-326d0bf06b35",
+  "889f539cb49f6309": "vdn-326d0bf06b35",
+  "e69cb2a48160d3eb": "vdn-326d0bf06b35",
+  "d9a3695bb34426df": "vdn-326d0bf06b35",
+  "dc057cfef6fb7bea": "vdn-326d0bf06b35",
+  "bc6b287f83dedc81": "vdn-326d0bf06b35",
+  "b7c2df26208e3315": "vdn-1fe0732cf23a",
+  "a811793832cd4fbb": "vdn-1fe0732cf23a",
+  "0115c8a05232bfe0": "vdn-1fe0732cf23a",
+  "8facfbe4b7f5ba1b": "vdn-1fe0732cf23a",
+  "441cd174a35a6c79": "vdn-1fe0732cf23a",
+  "ea6a9a10e2e20583": "vdn-1fe0732cf23a",
+  "9540af9ecabcf5b0": "vdn-1fe0732cf23a",
+  "aa4b765123249a49": "vdn-1fe0732cf23a",
+  "ce47deb18cda53a0": "vdn-564f653d5fbf",
+  "79b4a08bf90decf9": "vdn-564f653d5fbf",
+  "29a7967cccf8b14f": "vdn-564f653d5fbf",
+  "1245edc69df9ce23": "vdn-564f653d5fbf",
+  "ec2d3168e1a160e2": "vdn-564f653d5fbf",
+  "f614ee8ae6231637": "vdn-c73ed30815b8",
+  "1a490354c25d2d22": "vdn-c73ed30815b8",
+  "79f374b8091f1dbe": "vdn-c73ed30815b8",
+  "6b202d575e4da722": "vdn-c73ed30815b8",
+  "d5ed68245296abcc": "vdn-c73ed30815b8",
+  "4df92a22cc561916": "vdn-c73ed30815b8",
+  "f40888e3026538b8": "vdn-c73ed30815b8",
+  "82cd92373ce439ab": "vdn-c73ed30815b8",
+  "9cedcf30fe9fa283": "vdn-bbea6ee659d1",
+  "b3e634d3417c1118": "vdn-bbea6ee659d1",
+  "75ec40988e885e6c": "vdn-bbea6ee659d1",
+  "aa9588e51ef573a8": "vdn-bbea6ee659d1",
+  "a1d318940cf1bce8": "vdn-bbea6ee659d1",
+  "2bb9dff2dd475cb5": "vdn-bbea6ee659d1",
+  "f702109263238506": "vdn-bbea6ee659d1",
+  "1565bf88e5398970": "vdn-f7dfa278922f",
+  "d2de9ec4f4402edd": "vdn-f7dfa278922f",
+  "01721fe460e3de9d": "vdn-f7dfa278922f",
+  "740f56f896fd6bb1": "vdn-f7dfa278922f",
+  "ff67efe6ebaf7c6d": "vdn-ecfc9381818e",
+  "19abb0a785324193": "vdn-ecfc9381818e",
+  "92013b81b6af40a5": "vdn-ecfc9381818e",
+  "d51cde52f853226c": "vdn-2736f67dee2b",
+  "70d0ee147d1a5fd0": "vdn-429655fffbe0",
+  "a3d7e0770564df0f": "vdn-429655fffbe0",
+  "066b167df65b6983": "vdn-429655fffbe0",
+  "3f497732f301c9ed": "vdn-429655fffbe0",
+  "0cc72b280c3b95f1": "vdn-429655fffbe0",
+  "2ed6184e8014092f": "vdn-429655fffbe0",
+  "69dafb6a92fe93ce": "vdn-4a6402c8990e"
  }
 }
