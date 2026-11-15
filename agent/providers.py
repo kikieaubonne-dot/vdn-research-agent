@@ -356,6 +356,30 @@ class GitHub:
                     "license": (x.get("license") or {}).get("spdx_id")
                 })
 
+            # Pr?classement l?ger : titre, description et tags.
+            # On conserve les d?p?ts sans description pour examen ult?rieur.
+            query_terms = set(tokens(query)) - {"roblox"}
+
+            def quick_score(item):
+                title = item.get("title", "")
+                snippet = item.get("snippet", "")
+                matched = set(tokens(title + " " + snippet))
+
+                # Les mots qui d?finissent le probl?me priment
+                # sur les noms g?n?riques des logiciels.
+                generic = {
+                    "roblox", "blender", "unreal",
+                    "studio", "engine", "plugin",
+                    "tool", "tools", "addon"
+                }
+
+                score = 0
+                for term in query_terms & matched:
+                    score += 1 if term in generic else 3
+
+                return score
+
+            out.sort(key=quick_score, reverse=True)
             return out
 
         return []
