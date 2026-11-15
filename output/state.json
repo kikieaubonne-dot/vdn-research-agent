@@ -304,9 +304,9 @@
     "traversal Roblox animation implementation limitations troubleshooting": 1,
     "traversal Roblox collision implementation limitations troubleshooting": 1,
     "character Roblox texture implementation limitations troubleshooting": 1,
-    "foliage SurfaceAppearance transparency": 1,
+    "foliage SurfaceAppearance transparency": 2,
     "tree foliage cards": 1,
-    "night forest lighting": 1,
+    "night forest lighting": 2,
     "forest atmosphere fog": 1,
     "snow terrain material": 2,
     "snow footprints decal": 1,
@@ -334,7 +334,7 @@
     "skinned mesh facial animation": 1,
     "modular building kit": 1
   },
-  "runs": 9,
+  "runs": 11,
   "errors": [],
   "rotation": 4
 }

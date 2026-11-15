@@ -1,0 +1,93 @@
+{
+  "schema": "vdn.cycle/1",
+  "started": "2026-11-15T20:12:16+00:00",
+  "finished": "2026-11-15T20:12:38+00:00",
+  "stop_reason": "cycle termine",
+  "items": [
+    {
+      "query": "night forest lighting",
+      "topic": "forest",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "foliage SurfaceAppearance transparency",
+      "topic": "spruce",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    }
+  ],
+  "created": 0,
+  "fetched": 16,
+  "rejected": 16,
+  "followups_added": 0,
+  "seeded": 80,
+  "recovered": 0,
+  "errors": [],
+  "lock_taken_over": false,
+  "queue": {
+    "counts": {
+      "pending": 78,
+      "running": 0,
+      "done": 2,
+      "failed": 0,
+      "skipped": 0
+    },
+    "daily": {
+      "date": "2026-11-15",
+      "items": 2,
+      "fetch": 16
+    },
+    "next": [
+      {
+        "query": "tree foliage cards",
+        "topic": "spruce",
+        "priority": 10.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "flashlight shadows forest",
+        "topic": "forest",
+        "priority": 10.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "snow MaterialVariant",
+        "topic": "snow",
+        "priority": 9.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "camera bobbing CFrame",
+        "topic": "fps_camera",
+        "priority": 9.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "ambient exposure night",
+        "topic": "lighting",
+        "priority": 9.0,
+        "depth": 0,
+        "origin": "seed"
+      }
+    ]
+  }
+}

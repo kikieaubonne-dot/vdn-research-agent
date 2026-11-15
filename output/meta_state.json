@@ -46,6 +46,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 4,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     },
     "github:spruce": {
@@ -94,6 +109,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.09,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 3,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.09
+        ],
+        "best_mean": 0.09
       }
     },
     "devforum:character": {
@@ -194,16 +224,17 @@
         "best_mean": 0.12
       },
       "synonyms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
-        "offtopic": 4,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0
@@ -260,16 +291,17 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 0,
+        "returned": 4,
         "accepted": 0,
         "new": 0,
-        "offtopic": 0,
+        "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0
@@ -348,6 +380,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.062,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 1,
+        "duplicates": 3,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.062
+        ],
+        "best_mean": 0.062
       }
     },
     "roblox_docs:forest": {
@@ -383,17 +430,18 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 1,
-        "reward": 0.448,
-        "returned": 4,
+        "n": 2,
+        "reward": 0.798,
+        "returned": 8,
         "accepted": 2,
         "new": 2,
-        "offtopic": 2,
-        "duplicates": 0,
+        "offtopic": 3,
+        "duplicates": 3,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.448
+          0.448,
+          0.35
         ],
         "best_mean": 0.448
       }

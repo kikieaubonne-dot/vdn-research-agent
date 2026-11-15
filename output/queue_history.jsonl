@@ -1,0 +1,84 @@
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "3d6dbac63e2e91e9", "query": "foliage SurfaceAppearance transparency", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "3f271eab6bf88710", "query": "tree foliage cards", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ce838405c1fe8039", "query": "pine tree mesh optimization", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "9c482cd07099182c", "query": "foliage alpha distance", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "bf9e1d7a66f6f03f", "query": "spruce branch atlas", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "484ffbb7bb678639", "query": "tree wind bones", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "dfa72d0b0747a3e4", "query": "foliage normal map", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "a5bb3a3e65ec5689", "query": "tree leaves texture", "topic": "spruce", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "33e1798bfba05b1c", "query": "night forest lighting", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "9d342eeb76b809f1", "query": "forest atmosphere fog", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "c482fcd060522414", "query": "large forest performance", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "76d4593c78a99f5f", "query": "flashlight shadows forest", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "93d093b7a44d6d90", "query": "forest streaming trees", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "bda31c5ed4418069", "query": "dense forest optimization", "topic": "forest", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "6ff082c5288b5032", "query": "snow terrain material", "topic": "snow", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "b194a61a4d147c60", "query": "snow footprints decal", "topic": "snow", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "706f4ce105f136dc", "query": "snowfall particles", "topic": "snow", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "112b264e87ab7e01", "query": "snow MaterialVariant", "topic": "snow", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "229b64e9399ff504", "query": "snow accumulation mesh", "topic": "snow", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "86c3ffd38ee265dc", "query": "Future lighting night", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "7add448f671e6e27", "query": "flashlight SpotLight shadows", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "c822d6de5ef20240", "query": "Atmosphere density haze", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "5ac24bf9fb1061b7", "query": "ColorCorrection horror", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "68a09d5f4792831d", "query": "light shadows performance", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "5a3acdef17dc70e6", "query": "ambient exposure night", "topic": "lighting", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "431384b3280bdab2", "query": "terrain MaterialVariant custom", "topic": "terrain", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "81f23bb09d9de9a5", "query": "terrain heightmap import", "topic": "terrain", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "e9bbb564405d01c5", "query": "terrain decoration grass", "topic": "terrain", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ced05002fb282f60", "query": "terrain texture realistic", "topic": "terrain", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "e488da8cd88abdb1", "query": "rock mesh SurfaceAppearance", "topic": "rocks", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "6db08ce50bd09eed", "query": "photogrammetry rock import", "topic": "rocks", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "b45fcc7ff474e91f", "query": "rock scatter performance", "topic": "rocks", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "e1149e4177ccdd55", "query": "SurfaceAppearance PBR textures", "topic": "rendering", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "fa55108933f4501e", "query": "MeshPart RenderFidelity", "topic": "rendering", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "bd0fccb725190e36", "query": "Blender export Roblox fbx", "topic": "rendering", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "50050bd6dff60982", "query": "texture resolution limit", "topic": "rendering", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "b5b8432e62745841", "query": "normal map baking Blender", "topic": "rendering", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "d9e7846fb1a3799d", "query": "instance streaming level detail", "topic": "performance", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "a731a4bdaf945fb2", "query": "MicroProfiler rendering", "topic": "performance", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "4220ef7674bfaeca", "query": "triangle count performance", "topic": "performance", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ae35f28ec3968555", "query": "draw calls instancing", "topic": "performance", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "dc7f783368a90c35", "query": "mobile graphics performance", "topic": "performance", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "02fc5d6a6303ed65", "query": "skinned mesh facial animation", "topic": "character", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "06d28f06ed66c5ea", "query": "realistic skin SurfaceAppearance", "topic": "character", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "80d63d038f648700", "query": "hair cards alpha", "topic": "character", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "e3f890fd94ede93e", "query": "dynamic heads FACS", "topic": "character", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "bc67a52713cb4f3f", "query": "modular building kit", "topic": "manor", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "6160814d75eb12a0", "query": "trim sheet modular", "topic": "manor", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ffa8072c98b32c05", "query": "interior horror lighting", "topic": "manor", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ec38bd72d51387fb", "query": "ledge shimmy system", "topic": "traversal", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "f2520511d21bddb4", "query": "parkour climbing animation", "topic": "traversal", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "d58395f22c394508", "query": "IK foot placement", "topic": "traversal", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "b8df3720537dcf96", "query": "first person camera", "topic": "fps_camera", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "3909733dfcfef203", "query": "camera bobbing CFrame", "topic": "fps_camera", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "969d6a82cbe10bef", "query": "viewmodel arms camera", "topic": "fps_camera", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "dfc37f98415f61fa", "query": "camera sway mouse", "topic": "fps_camera", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "d0e4428b919a818d", "query": "custom character controller", "topic": "movement", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "9a7dbdf69f016311", "query": "crouch sprint stamina", "topic": "movement", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ee4bfdf6484967d2", "query": "vault mantle system", "topic": "movement", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ae45aee36b28d726", "query": "Humanoid WalkSpeed smoothing", "topic": "movement", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "f266a170010bde36", "query": "first person arms rig", "topic": "fp_hands", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "54fe7778a47312b7", "query": "viewmodel animation", "topic": "fp_hands", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "0e24a017125fd352", "query": "hands flashlight animation", "topic": "fp_hands", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "2db072073b5322ec", "query": "arms Motor6D viewmodel", "topic": "fp_hands", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "039742376eb01a03", "query": "Blender animation export Roblox", "topic": "blender_animation", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "a12910e1f9d69453", "query": "Animation Editor import fbx", "topic": "blender_animation", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "618a5caa07ac3daf", "query": "animation priority blending", "topic": "blender_animation", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "abcdc6487f350b33", "query": "KeyframeSequence import", "topic": "blender_animation", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "617f4a9ba92674d7", "query": "skinned mesh rig", "topic": "rigging", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "4e355a35b67cd229", "query": "Blender rig R15 export", "topic": "rigging", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "7070f44295c6a080", "query": "bones weight painting", "topic": "rigging", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "c1b087c9e615c1d5", "query": "custom rig Motor6D", "topic": "rigging", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "8165a9226ba5d8ec", "query": "spatial audio emitter", "topic": "spatial_audio", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "182dd5540cfcc38f", "query": "AudioEmitter AudioListener", "topic": "spatial_audio", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "4a0637a018f4a6b2", "query": "Sound RollOff distance", "topic": "spatial_audio", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "c344d15bf596cdc7", "query": "reverb SoundService ambient", "topic": "spatial_audio", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "ba59d43c374560fa", "query": "stealth detection system", "topic": "immersive_gameplay", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "0c46cc140587d496", "query": "AI hearing noise", "topic": "immersive_gameplay", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "30252af6d8bbc1c3", "query": "interaction prompt immersive", "topic": "immersive_gameplay", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "added", "key": "e5b25e7d9ba2298e", "query": "door interaction physics", "topic": "immersive_gameplay", "origin": "seed", "depth": 0, "parent": null}
+{"utc": "2026-11-15T20:12:16+00:00", "event": "started", "key": "33e1798bfba05b1c", "query": "night forest lighting"}
+{"utc": "2026-11-15T20:12:27+00:00", "event": "done", "key": "33e1798bfba05b1c", "query": "night forest lighting", "result": {"returned": 12, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 3, "updated": 0, "notes": [], "followups": [], "errors": 0}}
+{"utc": "2026-11-15T20:12:27+00:00", "event": "started", "key": "3d6dbac63e2e91e9", "query": "foliage SurfaceAppearance transparency"}
+{"utc": "2026-11-15T20:12:38+00:00", "event": "done", "key": "3d6dbac63e2e91e9", "query": "foliage SurfaceAppearance transparency", "result": {"returned": 12, "fetched": 8, "created": 0, "rejected": 8, "duplicates": 3, "updated": 0, "notes": [], "followups": [], "errors": 0}}
