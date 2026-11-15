@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "GitHub repositories"
-topic: "spruce"
-score_heuristique: 35
-collected_utc: "2026-11-15T12:15:20+00:00"
+id: "vdn-4c4e9e4faa27"
+title: "scenario-labs/skills"
+domain: "vegetation"
+subdomain: "spruce"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.167 < 0.5); bruit : titre : « skills »"
+engine_version: "inconnue"
+source_tier: 3
+provider: "github"
+official: false
+sources:
+  - "https://github.com/scenario-labs/skills"
+accessed: "2026-11-15"
+queries:
+  - "Roblox SurfaceAppearance transparency foliage"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "vegetation"
+  - "spruce"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "GitHub repositories"
+legacy_topic: "spruce"
+legacy_score_heuristique: 35
+legacy_collected_utc: "2026-11-15T12:15:20+00:00"
+rejection_reason: "hors sujet (pertinence 0.167 < 0.5); bruit : titre : « skills »"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.167 < 0.5); bruit : titre : « skills »
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # scenario-labs/skills
 

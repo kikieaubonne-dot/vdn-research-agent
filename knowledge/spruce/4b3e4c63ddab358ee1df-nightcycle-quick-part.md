@@ -1,10 +1,38 @@
 ---
-status: a_verifier
-source_type: "GitHub repositories"
-topic: "spruce"
-score_heuristique: 45
-collected_utc: "2026-11-15T12:15:20+00:00"
+id: "vdn-4b3e4c63ddab"
+title: "nightcycle/quick-part"
+domain: "vegetation"
+subdomain: "spruce"
+status: "candidat"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : 3 passage(s) technique(s), source de niveau 3 ; à approfondir et à tester."
+engine_version: "inconnue"
+source_tier: 3
+provider: "github"
+official: false
+sources:
+  - "https://github.com/nightcycle/quick-part"
+accessed: "2026-11-15"
+queries:
+  - "Roblox SurfaceAppearance transparency foliage"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "vegetation"
+  - "spruce"
+  - "candidat"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "GitHub repositories"
+legacy_topic: "spruce"
+legacy_score_heuristique: 45
+legacy_collected_utc: "2026-11-15T12:15:20+00:00"
 ---
+
+> **Candidat** (reclassement V5 du 2026-11-15) · 3 passage(s) technique(s), source de niveau 3 ; à approfondir et à tester.
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # nightcycle/quick-part
 

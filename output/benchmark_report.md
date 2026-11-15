@@ -1,0 +1,25 @@
+# Benchmark VDN
+
+_2026-11-15T16:47:13+00:00 · jeux de test 88d0c7762598_
+
+| Indicateur | Valeur |
+|---|---:|
+| relevance_f1 | 0.762 |
+| relevance_precision | 0.667 |
+| rag_hit_at_3 | 1.0 |
+| rag_mrr | 1.0 |
+| negatives_clean | 1.0 |
+| planner_ok | 1.0 |
+
+Filtre de pertinence sur 54 cas réels étiquetés à la main : VP 8, FP 4, FN 1, VN 41.
+
+- faux négatif : Feature Request: Bone Scaling & Deformation Support (limite : demande de fonctionnalité, utile pour os/vent)
+- faux positif : Colosseum build 
+- faux positif : leonisbel/night-hunt (limite : jeu d'horreur nocturne, code non ciblé)
+- faux positif : Feedback on this horror house interior (limite : retours d'apparence, peu technique)
+- faux positif : nightcycle/quick-part 
+
+RAG : 10 questions (FR/EN), réussite@1 1.0, réussite@3 1.0, MRR 1.0, tokens moyens 1168 (max 1474), questions négatives propres 1.0.
+
+
+Limites : étiquettes posées par une seule personne (Claude) ; petit échantillon ; mesure le tri et la récupération, PAS la justesse des techniques ni leur rendu dans Roblox.

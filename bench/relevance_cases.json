@@ -1,0 +1,491 @@
+{
+ "_comment": "Cas réels (fiches V1–V4), étiquetés à la main. label 1 = utile, 0 = hors sujet/bruit. Les cas 'limite' sont discutables.",
+ "cases": [
+  {
+   "id": "vdn-ca8a4f7f5fe4",
+   "title": "DeepMotion/Animate-3D-REST-API",
+   "query": "Roblox skinned mesh facial animation",
+   "provider": "github",
+   "evidence": "The Animate 3D REST API can be used to create 3D animations, download FBX, BVH, and other formats, and much more.\n\n\n\n### Passages techniques repérés (citations à contrôler dans la source)\n\nAucun passage technique précis extrait automatiquement.\n\n### Passages et paramètres repérés\n\n- \"params\": [ \"config=configDefault\",\"formats=bvh,fbx,mp4\",\"model=your_model_id_string\" ]\n- For static pose, png/jpg can be included in the formats parameter, like: formats=bvh,fbx,png (to output rendered image instead of rendered video)\n- For example, if your input video speed moves at 1/2 speed, then set the speed multiplier to 2x to improve animation quality\n- **render.bgColor=0,177,64,0** (RGBA color code in the range of 0-255 for each channel, please note, the last channel (alpha) value is not in effect )\n- For example, if a processor outputs both bvh and fbx files, then the download link object will look like:",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-9b7ec2ee95cd",
+   "title": "Apexgen Terminator",
+   "query": "Roblox SurfaceAppearance realistic skin",
+   "provider": "devforum",
+   "evidence": "\"Originally, the Apex series robots were designed to replace workers in dangerous environments. After automation took over the planetary system, the algorithm decided that regions where we populated were considered dangerous environments and the algorithm gave its constructs the tools of destruct...\n\n\n\n### Passages techniques repérés (citations à contrôler dans la source)\n\n- Because of this (and IP reasons) we’ve agreed to drop the name “Protogen” from the model’s identity entirely and go with Apexgen, which is suitable considering the definition of “Apex” basically means peak performance, which you can only have through automation and materials that don’t wear away like organic material does… and As for the “gen” at the end, gen just sounded better then leaving it with “Apex”.\n\n- “Mesh deformation” Custom PBR SurfaceAppearances (“custom materials”) New physics components for more stable and realistic characters Improved mesh and animation importers And more… image 1047×831 64.9 KB I had to do it, I had to go all out on this model.\n\n- Baked bevels for an extra layer of detail, and exported the model + baked normal map inside of Blender to Substance Painter and began working on the textures.\n\n- Now I was a bit lazy for doing this, but because I now have the intention to render this model before exporting it to Roblox, I went ahead and put the Legs, Arms, Head, Torso and Tail on their own respective texture sets.\n\n- (A texture set refers to a set images that contai\n\n### Passages et paramètres repérés\n\n- (A texture set refers to a set images that contai",
+   "label": 1,
+   "note": "limite : vitrine avec détails PBR/déformation"
+  },
+  {
+   "id": "vdn-2f7562841365",
+   "title": "[UGC Portfolio] BankBend UGC Portfolio - 3D Artist",
+   "query": "Blender hair cards Roblox alpha",
+   "provider": "devforum",
+   "evidence": "BankBendBanner THIS POST IS OUTDATED. AT THE TIME OF WRITING THIS, I'M WORKING ON MY UGC APPLICATION, MIGHT START UPDATING THIS PORTFOLIO IN THE FUTURE! :sweat_smile: About2 Hello! My name is BankBend and I am a 3d artist and UGC concepter. I have almost 2 years of experience working in blender a...\n\n\n\n### Passages techniques repérés (citations à contrôler dans la source)\n\n- I have almost 2 years of experience working in blender and I have skills such as modeling, sculpting, UV-unwrapping and texturing.\n\n- All of them are under 1,200 verts and has a 256X256px texture size.\n\n- Vertices: 1,143 Tris: 2,150 Texture size: 256x256px BrainInJar1 571×535 128 KB BrainInJar2 512×513 44.7 KB BrainInJar3 627×627 282 KB BrainInJar4 550×551 211 KB Hamster Home Backpack Hamster Home Backpack I wanted to do a concept with animals and thought to myself?\n\n- Vertices: 1,184 Tris: 1,961 Texture size: 256x256px Hamster 1079×1078 680 KB Hamster1 616×725 309 KB Hamster2 561×707 258 KB Hamster3 722×709 44.7 KB Watermelon Backpack Watermelon Backpack I usually texture my concepts in Substance Painter, but for this one I wanted to try out a more “soft” look and not realistic.\n\n- Vertices: 969 Tris: 1,708 Texture size: 256x256px MelonBP1 1078×1078 35.2 KB MelonBP3 808×807 40 KB MelonBP4 749×750 375 KB Big Nosed Man Big Nosed Man Vertices: 1,169 Tris: 2,334 Texture size: 256x256px Thi\n\n### Passages et paramètres repérés\n\n- Steampunk1.1 1920×1080 73.4 KB Steampunk2.2 1920×1080 73.5 KB hat 1080×1080 897 KB mask 1080×1080 764 KB jetpack 1080×1080 1 MB belt 1080×1080 680 KB In Game: InGame1 1080×1080 44.9 KB InGame2 1080×1080 45.6 KB InGame3 1080×1080 42.3 KB Tree Stump Hat Tree Stump Hat Vertices: 1,188 Render6 1920×1080 58.8 KB Christmas Backpack Christmas Backpack This concept is published!\n- Vertices: 1,143 Tris: 2,150 Texture size: 256x256px BrainInJar1 571×535 128 KB BrainInJar2 512×513 44.7 KB BrainInJar3 627×627 282 KB BrainInJar4 550×551 211 KB Hamster Home Backpack Hamster Home Backpack I wanted to do a concept with animals and thought to myself?\n- Vertices: 1,184 Tris: 1,961 Texture size: 256x256px Hamster 1079×1078 680 KB Hamster1 616×725 309 KB Hamster2 561×707 258 KB Hamster3 722×709 44.7 KB Watermelon Backpack Watermelon Backpack I usually texture my concepts in Substance Painter, but for this one I wanted to try out a more “soft” look and not realistic.\n- Vertices: 969 Tris: 1,708 Texture size: 256x256px MelonBP1 1078×1078 35.2 KB MelonBP3 808×807 40 KB MelonBP4 749×750 375 KB Big Nosed Man Big Nosed Man Vertices: 1,169 Tris: 2,334 Texture size: 256x256px Thi",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-04a984ace531",
+   "title": "mikeroyal/Game-Console-Dev-Guide",
+   "query": "Blender hair cards Roblox alpha",
+   "provider": "github",
+   "evidence": "Game Console Dev Guide. Learn to develop games for Xbox Series X|S, PlayStation 5, Nintendo Switch, Steam Deck, and Apple Silicon. Developing with Unreal Engine 5, Unity, Godot Engine, and Blender.\n\n\n\n### Passages techniques repérés (citations à contrôler dans la source)\n\nAucun passage technique précis extrait automatiquement.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-2c57eb047b10",
+   "title": "Introducing the \"Avatar Evolution\" Studio Beta Build!",
+   "query": "Roblox SurfaceAppearance realistic skin",
+   "provider": "devforum",
+   "evidence": "https://roblox.github.io/avatar-evolution/ Avatar Evolution https://roblox.github.io/avatar-evolution/ Avatar Evolution Building the future of Roblox avatars and more! This past year a lot of us have been dedicated to a massive cross-team effort to build a whole suite of new features to help deve...",
+   "label": 0,
+   "note": "limite : annonce d'outil"
+  },
+  {
+   "id": "vdn-1290b940c378",
+   "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+   "query": "Roblox skinned mesh facial animation",
+   "provider": "devforum",
+   "evidence": "About Me Hello! I am working on a custom character rig in Blender that uses multiple meshes bound to a single Armature. I have applied all transforms in Blender before exporting, but I am running into two persistent issues when importing the FBX into Roblox Studio using the 3D Importer. The Issue...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- The Issues Issue 1: RootPart Displacement (Geometry Offset from Collision) The Problem: The RootPart behavior is broken.\n- All transforms ( Ctrl + A → All Transforms) were applied to both the meshes and the armature in Blender prior to export.\n- Issue 2: Eye Bones / Visual Bug with Face Rigging The Problem: I cannot animate the eyes because the eye bones or their associated geometry are glitching/not showing up correctly after import.",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-f445dc2e7a92",
+   "title": "EasyE3232/Claude",
+   "query": "Roblox SurfaceAppearance realistic skin",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- **Best quality: a rigged model.** In Studio, import the FBX, run\n- Motion is procedural and runs on every client, with no uploaded animation assets:\n- * **Procedural animation:** set \\`Motor6D.Transform\\` / \\`AnimationConstraint.Transform\\`\n- [DevForum: Animation overriding Motor6D.Transform](https://devforum.roblox.com/t/animation-overriding-motor6dtransform/3630180))\n- ([DevForum list](https://devforum.roblox.com/t/list-of-the-default-r15-animation-ids/140425)).",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-97b68ca9aa66",
+   "title": "Feature Request: Bone Scaling & Deformation Support",
+   "query": "Roblox skinned mesh facial animation",
+   "provider": "devforum",
+   "evidence": "Feature Request: Bone Scaling & Advanced Bone Deformation Support I'd love to see Roblox support bone scaling (and, if possible, more advanced bone deformation such as Blender's Bendy Bones) for skinned meshes. At the moment, bones only support translation and rotation. Since they're currently de...",
+   "label": 1,
+   "note": "limite : demande de fonctionnalité, utile pour os/vent"
+  },
+  {
+   "id": "vdn-acbf7dc7123e",
+   "title": "meshula/LabRCSF",
+   "query": "Roblox skinned mesh facial animation",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-bfc015864eaa",
+   "title": "Bricklayer - an all-in-one editor for AI-assisted Roblox dev (Studio + terminal + AI chat)",
+   "query": "Roblox skinned mesh facial animation",
+   "provider": "devforum",
+   "evidence": "Update: animation suite is out Bricklayer can now make character animations. You describe the move (\"two-second wave with the right hand\", \"idle breathing loop\", \"3-hit punch combo\") and the AI writes it, checks it and shows it to you, all inside the editor. Demo of it in action: https://youtu.be...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-126c74e5f9ad",
+   "title": "Colosseum build",
+   "query": "Roblox SurfaceAppearance realistic skin",
+   "provider": "devforum",
+   "evidence": "Well, with features like AvatarEvolution slate would look amazing as it would be kind of 3d looking, or at least in my opinion, I do understand though. If you don't know what AvatarEvolution is here's an article. This includes SurfaceAppearances, which make textures very realistic. https://devfor...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-eb583242d4f2",
+   "title": "rakazenmun/roblox-skills",
+   "query": "Roblox SurfaceAppearance realistic skin",
+   "provider": "github",
+   "evidence": "roblox skills for claude",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-c7d48faaff15",
+   "title": "Programmer, Builder, and Modeller, @qipaoist [8y+ Experience]",
+   "query": "Roblox realistic night forest lighting fog",
+   "provider": "devforum",
+   "evidence": "Brief Background Roblox development has been a long-standing passion of mine since childhood. Since beginning my journey in 2018, I have continuously developed my skills and expanded my experience across programming, 3D modelling, and game development. Today, I bring the same passion I had when I...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-4aabdc882bd5",
+   "title": "Stunning Portfolio | Seven years in the creation | UGC Creator",
+   "query": "Roblox realistic night forest lighting fog",
+   "provider": "devforum",
+   "evidence": "About me, AerialsAbove Hello, I am AerialsAbove! This portfolio is a small collection of my work, experiences, and art. I am a showcase creator, I primarily model in Blender now, but highly talented studio builder, artist, and small time UGC content creator since June. I am the owner of Roblox Ar...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-44f7f759e468",
+   "title": "champagnet04/roblox-lumberjack",
+   "query": "Roblox snowy forest terrain optimization",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-972ed8284e59",
+   "title": "Class ideas for horror game",
+   "query": "Roblox flashlight forest shadows",
+   "provider": "devforum",
+   "evidence": "Hi there! I have come up with some ideas for the 8 players that will be within my new horror game, 'Vermiculus'. For context, please https://devforum.roblox.com/t/horror-game-idea/1926073 read here to get some more info about the game. Player 1 - Flashlight Bearer This player is responsible for k...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-713de5a2c6e6",
+   "title": "leonisbel/night-hunt",
+   "query": "Roblox realistic night forest lighting fog",
+   "provider": "github",
+   "evidence": "Night Hunt - fan-made multiplayer monster survival game\n\n\n\n\n\n### Passages et paramètres repérés\n\n- - **Volumetric fog and god rays:** moonlight shafts through the trees use the shadow map, and your flashlight beam lights the fog, with its own shadows.\n- - **Dense foliage:** trees are rebuilt from alpha-card leaves and needles cut from plant scans.\n- - **PBR surfaces on every monster:** each body part is mapped to a real material: animatronic teddy fur and rusted endoskeletons, scaly reptile hide with pale-belly countershading, wet glossy shark and sea-monster skin with clearcoat, slick Demogorgon skin, weathered gargoyle stone, dried Siren Head flesh, rubbery Cartoon Cat ink, see-through wing membranes and glossy eyes.\n- - **Lighting:** a moonlit environment map adds reflections and specular highlights.\n- - **Better anatomy:** smoother, curved (PN-triangle) silhouettes and smooth normals on the CC0 dinosaurs, sharks and dragons, and rounded joints on every limb.",
+   "label": 0,
+   "note": "limite : jeu d'horreur nocturne, code non ciblé"
+  },
+  {
+   "id": "vdn-09834fe6b97a",
+   "title": "Terrain Artist & Level Desginer",
+   "query": "Roblox snowy forest terrain optimization",
+   "provider": "devforum",
+   "evidence": "About Me Hi there! :waving_hand: I'm a Terrain Artist & Level Desgin specializing in immersive map design and world-building on maps. I focus on crafting landscapes for a variety of genres, including Star Wars, Halo, SCP Foundation , and more. I combine technical terrain sculpting, biome creation...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-8ab2da928405",
+   "title": "coolbat/awesome-opus-5.5-usecase",
+   "query": "Roblox realistic night forest lighting fog",
+   "provider": "github",
+   "evidence": "Awesome list of Claude Opus 5.5 demos — games, 3D, films, agents — curated from GitHub, X, and HN.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- - [Knosp Sellar Atlas](https://x.com/poyraz_dr/status/2104574432467648766) — A free interactive 3D lesson on the Knosp classification of pituitary adenomas, showing the sella, cavernous sinus, carotid siphon and cranial nerves III–VI on a coronal section from grade 0 to 4, credited to Claude Opus 5.5 by its author.\n- **[Live demo](https://opisthion06.github.io/knosp-sellar-atlas/)**\n- - [Invisible Cities, an atlas](https://github.com/stared/invisible-cities-opus-5.5) — A three.js atlas of all 55 cities in Italo Calvino's Invisible Cities as animated dioramas on the Khan's chessboard, which Piotr Migdał's write-up says Claude Opus 5.5 one-shot in Claude Code in 1 hour 25 minutes with six parallel subagents for about $74 in API tokens (0★).",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-93c5104f8fb0",
+   "title": "hakkkk5/warfront-systemsroblox",
+   "query": "Roblox flashlight forest shadows",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-1d05d7f618fd",
+   "title": "What makes a roblox horror game actually scary?",
+   "query": "Roblox flashlight forest shadows",
+   "provider": "devforum",
+   "evidence": "What makes horror games scary in general comes in many different factors such as ambience, lighting, sound and gameplay. Good Horror games usually have an ambience to suit the setting of the game. Usually most horror games have the classics such as a dark ambient inside a creepy or withered build...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-5961cde72df1",
+   "title": "Frank-ZY-Dou/awesome-ai-3d-modeling-robotics",
+   "query": "Roblox realistic night forest lighting fog",
+   "provider": "github",
+   "evidence": "Source-linked examples of AI models used for 3D modeling, industrial design and CAD, and robot control, with archived media and the model named for every case",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-9557732b0671",
+   "title": "OreoSSD/WEB-Link-Official-2",
+   "query": "Roblox flashlight forest shadows",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-3357f4d8325d",
+   "title": "maximefitbit9-star/ForestSurvival",
+   "query": "Roblox flashlight forest shadows",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-75d0f4933e29",
+   "title": "zqh7y/RollPetsRNG",
+   "query": "Roblox snowy forest terrain optimization",
+   "provider": "github",
+   "evidence": "Roblox studio incremental game",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-9f79ade870d7",
+   "title": "Aotrou's Portfolio (Commissions Closed)",
+   "query": "Blender trim sheet modular environment Roblox",
+   "provider": "devforum",
+   "evidence": "About Me Hello, thank you for your interest in my portfolio! You can also find my ArtStation portfolio here: https://www.artstation.com/shawn_in_3d Notable experience and skills: https://www.roblox.com/games/2727067538/FREE-LIMITED-World-Zero World//Zero Art Lead (2022-2023) https://www.roblox.co...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-75c120801a3d",
+   "title": "What are you working on currently? (2019)",
+   "query": "Blender trim sheet modular environment Roblox",
+   "provider": "devforum",
+   "evidence": "Modular sidewalk piece, trim-sheet designed in Substance Designer and Modeled in Blender. PBR Is going to raise the bar for game art and environment standards RobloxScreenShot20191218_190329171 It is also extremely modular too, all I need to do to change the color is edit the gradient in Substanc...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-f41ab3b0434e",
+   "title": "Looking for a 3D modeler for my Roblox Horror game",
+   "query": "Roblox interior horror lighting",
+   "provider": "devforum",
+   "evidence": "# Looking for a 3D Modeler – Realistic Roblox Horror Game ## About Us Hello! I'm an independent Roblox developer currently working on a realistic horror game. My goal is to create an immersive and terrifying experience with highly detailed environments, realistic assets, atmospheric lighting, and...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- My goal is to create an immersive and terrifying experience with highly detailed environments, realistic assets, atmospheric lighting, and high-quality 3D models.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-4e9fd68819b9",
+   "title": "naeemsan/robloxgame",
+   "query": "Roblox interior horror lighting",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-a447a0419a5c",
+   "title": "[$7.99] 540+ Christmas assets",
+   "query": "Roblox interior horror lighting",
+   "provider": "devforum",
+   "evidence": "Ola people! I've been working on a few horror games lately, trying out lots of ideas and themes. One of them was a Christmas game that we decided to take in a completely different direction. It's not scrapped, it's just a different concept now. Since we're changing direction, we're selling the as...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-b115f1d5583b",
+   "title": "Feedback on this horror house interior",
+   "query": "Roblox interior horror lighting",
+   "provider": "devforum",
+   "evidence": "Hey Roblox DevForum community! I've been working on a house design for my horror game and would love to get your feedback. It's a modern-style house from the 2000s and some cozy furniture, but I'm not sure if the lighting and layout are hitting the mark. Here's a screenshot: image image image ima...",
+   "label": 0,
+   "note": "limite : retours d'apparence, peu technique"
+  },
+  {
+   "id": "vdn-f1b00ab6e469",
+   "title": "3D Artist | Looking for Freelance Work",
+   "query": "Blender trim sheet modular environment Roblox",
+   "provider": "devforum",
+   "evidence": "Introduction I'm currently a student from the UK and have been active on ROBLOX for over 11 years especially during 2013-2017. I originally started out making free models for the public whilst I was on ROBLOX however, I wanted to take that to another level. Over the past few years, I have been fo...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-de6f2bc26e17",
+   "title": "bagusmibr/evilsoft-blox",
+   "query": "Roblox interior horror lighting",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-9af61356c759",
+   "title": "EL4CTEO/blender-skills",
+   "query": "Blender trim sheet modular environment Roblox",
+   "provider": "github",
+   "evidence": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-a01ddb1cb020",
+   "title": "Claudeblox/claudeblox",
+   "query": "Roblox interior horror lighting",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-826f5cb25829",
+   "title": "DiyorFayz/skills",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- | [scenario-text-overlay](skills/scenario-text-overlay/SKILL.md) | Letter-perfect text overlays: templated transparent PNG cards (taglines, CTAs, legal supers, rich cards) to composite |\n- | [scenario-sprite-animation](skills/scenario-sprite-animation/SKILL.md) | Walk cycles, idle loops, VFX sprites, and animation sheets from one prompt: GIF vs sprite sheet output, frame slicing, pixel cleanup |\n- | [scenario-side-view-game-kit](skills/scenario-side-view-game-kit/SKILL.md) | Side-scroller and platformer art: side-view pixel sprite strips for a hero and enemies (run, walk, attack, hurt, poses), parallax layers, seamless wall texture, platform strip, props |\n- | [scenario-blender-2d-animation](skills/scenario-blender-2d-animation/SKILL.md) | A side-scroller shot animated in Blender from Scenario pictures: a concept frame that locks the look, parallax layers, props and a hero run cycle on its reference, flat image cards with an orthographic camera, keyed jumps and rigid-body props, and a whole new look by swapping the pictures |\n- | [scenario-skyboxes](skills/scenario-skyboxes/SKILL.md) | 360 equirectangular panoramas and skyboxes, seam-safe upscaling, engine export |",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-c7374200c125",
+   "title": "SigmaLordMaster69/super-smart-idea-im-about-to-have",
+   "query": "Roblox snow covered pine trees performance",
+   "provider": "github",
+   "evidence": "yup\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Roblox will look better: real lighting, water, smooth terrain and actual 3D trees.\n- The place is already set up (streaming off, Future lighting, spawn platform).\n- - Lighting.Technology = Future (recommended).\n- - Then the road corridor is applied: cuts and embankments with slopes that suit the material, tunnel voids with an arched profile (plus cut-and-cover where the rock is thin), and natural ground left under bridges.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-9f9338e2736f",
+   "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "devforum",
+   "evidence": "Foliage meshes using SurfaceAppearances with \"Transparency\" AlphaMode will render correctly in Roblox Studio regardless of Editor Quality Level, but become incorrectly transparent when viewed from a distance in the Roblox Player. In studio the leaves in my scene appear dense and opaque, as expect...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- The transparency change appears to happen gradually with distance from the camera.\n- I tested each render fidelity setting, it had no impact.",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-4b3e4c63ddab",
+   "title": "nightcycle/quick-part",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "github",
+   "evidence": "using editable meshes to create roblox part handles that look identical, but can be redrawn much quicker. Made with GPT-6 Astra.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance = anExistingSurfaceAppearance,\n- A \\`PartHandle\\` has \\`Id: number\\` (monotonically increasing integer, treat as read-only), \\`Size\\`, \\`CFrame\\`, \\`PivotOffset\\`, \\`Color\\`, and \\`Transparency\\`.\n- This is an application allowance: Roblox does not expose remaining device EditableMesh memory or a conversion between triangle count and bytes.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-4c4e9e4faa27",
+   "title": "scenario-labs/skills",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "github",
+   "evidence": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- | [scenario-text-overlay](skills/scenario-text-overlay/SKILL.md) | Letter-perfect text overlays: templated transparent PNG cards (taglines, CTAs, legal supers, rich cards) to composite |\n- | [scenario-sprite-animation](skills/scenario-sprite-animation/SKILL.md) | Walk cycles, idle loops, VFX sprites, and animation sheets from one prompt: GIF vs sprite sheet output, frame slicing, pixel cleanup |\n- | [scenario-side-view-game-kit](skills/scenario-side-view-game-kit/SKILL.md) | Side-scroller and platformer art: side-view pixel sprite strips for a hero and enemies (run, walk, attack, hurt, poses), parallax layers, seamless wall texture, platform strip, props |\n- | [scenario-blender-2d-animation](skills/scenario-blender-2d-animation/SKILL.md) | A side-scroller shot animated in Blender from Scenario pictures: a concept frame that locks the look, parallax layers, props and a hero run cycle on its reference, flat image cards with an orthographic camera, keyed jumps and rigid-body props, and a whole new look by swapping the pictures |\n- | [scenario-skyboxes](skills/scenario-skyboxes/SKILL.md) | 360 equirectangular panoramas and skyboxes, seam-safe upscaling, engine export |",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-93c1fa214202",
+   "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "devforum",
+   "evidence": "Introduction Good day creators and readers - today we are going to learn about creating foliage for games! Foliage and vegetation are a great way to increase the detail fidelity, improve the art style, and bring a natural believability to your worlds. With a few simple principles, creating foliag...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Other types of textures can include: Trim textures, also known as trim sheets, are textures that combine multiple various elements of an object into a single texture, you can reuse trim textures for furniture, walls, and other similarly themed decor.\n- See How to Create Tiling Textures for a primer on creating this common texture type.\n- When creating foliage for games, the first order of business is to understand the components that come together to create these assets; Textures and Meshes.\n- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-86aae1f76625",
+   "title": "Gnrpflpferd19/skapidap",
+   "query": "Roblox snow covered pine trees performance",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Where appropriate, use PBR texture workflows.\n- Export using a Roblox-compatible format such as FBX or OBJ.\n- Use Roblox Lighting, Atmosphere, ColorCorrectionEffect, BloomEffect and other suitable effects.\n- Use light sources carefully to avoid excessive performance costs.\n- Smoothly adjust lighting, sky, atmosphere and ambient colors.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-319f4403f590",
+   "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+   "query": "Roblox SurfaceAppearance transparency foliage",
+   "provider": "devforum",
+   "evidence": "Alpha gradients in a SurfaceAppearance ColorMap render as hard bands instead of a smooth falloff when the MeshPart is fully opaque. Anywhere the alpha channel ramps from opaque to transparent you get visible stepping and a jittery, unstable transition rather than a clean gradient. Examples Two th...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Examples 1098×1117 56.3 KB Two things narrow this down a lot: It does not happen on Decal or Texture .\n- At Transparency = 0.011 it renders correctly.\n- This looks like a blend-mode or sort-order selection issue rather than a hardware or texture-format limitation, which means it’s solvable.\n- The 0.011 transparency trick is not a usable workaround.\n- Impact This rules out a large amount of what AlphaMode.Transparency is supposed to enable for in-game assets: soft edges, dissolves, fades, foliage cards, glass falloff, wear and decay effects, and layered surface detail.",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-1a910695f70a",
+   "title": "How do I create a ledge climbing system?",
+   "query": "Roblox parkour climbing animation",
+   "provider": "devforum",
+   "evidence": "So as the title suggests, I need to create a Ledge Climbing System, like it's there in a game called Rogue Lineage for my next Parkour Game, and am not understanding how to. Would love some help please thank you! But without changing any orientation as in the same axis as the wall, no animations....",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-2477308f5882",
+   "title": "perixtar/Tech-OA-Interview-Questions",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "github",
+   "evidence": "Daily updated list of Tech Company OAs and Interview Problems. Save your time from finding them all over the internet.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-2b0c80761168",
+   "title": "Introducing a AI-Driven Traffic System for Roblox",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "devforum",
+   "evidence": "Update: v0.01 Release & Feature Additions + Bug Fixes Hey everyone! Quick update on the AI Traffic System. I've been working on stabilizing the core simulation and adding some quality-of-life features. What's New in v0.01 Core Features Implemented: Multi-lane road network with intelligent interse...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- CarAI The main control: follows waypoints, uses smooth braking, yields at intersections, and performs collision checks.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-0fdeffe8b131",
+   "title": "mmfoodchicks/Roblox",
+   "query": "Roblox parkour climbing animation",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-52524d1837c3",
+   "title": "Building a parkour system cuz i'm bored(devlog)",
+   "query": "Roblox parkour climbing animation",
+   "provider": "devforum",
+   "evidence": "OPEN SOURCED NOW!! https://devforum.roblox.com/t/building-a-parkour-system-cuz-im-boreddevlog/4073003/56 PROGRESS DOCUMENTED DOWN BELOW(Pls rate after reading all of em btw) ok so im trying to make a parkour system that is SATISFYING for fun! i'm not that good at them, the parkour game i'm workin...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- non human i would say like the hand is bending loll, but i will fix the animations dw, mechanic over animation first, when we got it working then we got it looking good(draw it first you can improve it later type stuff loll) now at last we got a little map test i did to see how it will play in a actual map(this is just blocks rn but ion know building i only know scripting, i maybe will get one of my friends to make a test map) PROGRESS #4 Max: UPDATE!\n- : ) PROGRESS #7 Max: PROGRESS #7 I got like 45-55 minutes and i discovered a micro-stutter bug so i tried fixing it, but i mostly made the system feel a bit faster(i like fast games) Soo yeah The next progress is prob gonna be at the 29th(or later, before the end of the month tho) PROGRESS #8 Max: PROGRESS #8 TYSM TO @Timuryhic for helping me with the animation and figuring out ALOT of bugs that ill fix with the next progress After tests ended, i finnialy made a ledge climb im kinda happy with..",
+   "label": 1,
+   "note": "limite : journal de développement"
+  },
+  {
+   "id": "vdn-2624c1a8b069",
+   "title": "Improving our A* (Part 2)",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "devforum",
+   "evidence": "Optimizing our A* In the https://devforum.roblox.com/t/how-2-make-a-pathfinding/2714504 previous part , we delved into the basics of the A* algorithm, an essential tool in pathfinding and graph traversal. This section will be dedicated to optimizing our A* algorithm for greatly improved performan...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-aefb4953667e",
+   "title": "Creating an advanced ledge climbing system",
+   "query": "Roblox parkour climbing animation",
+   "provider": "devforum",
+   "evidence": "I want to make a Ledge Climbing System for my game I don't want someone to just make a system for me as I prefer to actually understand things, but I just want someone to help me start because I have no clue where to even begin in making system like this. I have animations finished already. I've ...\n\n\n\n\n\n### Passages et paramètres repérés\n\n- Here’s what I did: Create a LocalScript in StarterCharacterScripts Raycast from the front of the character down.",
+   "label": 1,
+   "note": ""
+  },
+  {
+   "id": "vdn-bf73aaac3e3c",
+   "title": "DevChpL/2d-parkour-framework",
+   "query": "Roblox parkour climbing animation",
+   "provider": "github",
+   "evidence": "Aucun extrait disponible.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-c2a1fda76f09",
+   "title": "killop/anything_about_game",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "github",
+   "evidence": "A wonderful list of Game Development resources.",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-831662fd57d2",
+   "title": "PathfindingService can't find a path if destination is under a collidable part",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "devforum",
+   "evidence": "Have you tried messing with the agent parameters of PathfindingService:CreatePath() ? AgentRadius Humanoid radius. Used to determine the minimum separation from obstacles. AgentHeight Humanoid height. Empty space smaller than this value will be marked as non-traversable, for instance the space un...",
+   "label": 0,
+   "note": ""
+  },
+  {
+   "id": "vdn-c1bf82d424b2",
+   "title": "JakeHukari/Sp3arParvus",
+   "query": "Roblox obstacle traversal collision",
+   "provider": "github",
+   "evidence": "Universal Aim Client and other developer tools",
+   "label": 0,
+   "note": ""
+  }
+ ]
+}

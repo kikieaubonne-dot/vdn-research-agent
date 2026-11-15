@@ -1,0 +1,5 @@
+{"title":"Foliage using SurfaceAppearance become highly transparent at distance","created_at":"2026-03-01T10:00:00Z","last_posted_at":"2026-03-05T10:00:00Z",
+ "post_stream":{"posts":[
+  {"cooked":"<p>Foliage meshes using SurfaceAppearance with AlphaMode Transparency render correctly in Studio but become transparent at distance in the Roblox Player at graphics level 9.</p><p>Setting RenderFidelity to Precise did not fix it.</p>","staff":false},
+  {"cooked":"<p>This is a known issue: transparency on MeshParts uses dithering beyond 200 studs on some quality levels. As a workaround, set AlphaMode to Overlay for distant LOD meshes.</p>","staff":true,"accepted_answer":true}
+ ]}}

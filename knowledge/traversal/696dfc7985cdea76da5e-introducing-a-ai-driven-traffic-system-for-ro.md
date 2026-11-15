@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "traversal"
-score_heuristique: 43
-collected_utc: "2026-11-15T15:38:51+00:00"
+id: "vdn-2b0c80761168"
+title: "Introducing a AI-Driven Traffic System for Roblox"
+domain: "animation"
+subdomain: "traversal"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.333 < 0.5); pas assez de contenu technique (0.04)"
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/4694062"
+accessed: "2026-11-15"
+queries:
+  - "Roblox obstacle traversal collision"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "animation"
+  - "traversal"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "traversal"
+legacy_score_heuristique: 43
+legacy_collected_utc: "2026-11-15T15:38:51+00:00"
+rejection_reason: "hors sujet (pertinence 0.333 < 0.5); pas assez de contenu technique (0.04)"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.333 < 0.5); pas assez de contenu technique (0.04)
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # Introducing a AI-Driven Traffic System for Roblox
 

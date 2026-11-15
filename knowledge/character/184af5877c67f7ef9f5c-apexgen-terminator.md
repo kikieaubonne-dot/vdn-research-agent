@@ -1,10 +1,38 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "character"
-score_heuristique: 31
-collected_utc: "2026-11-15T15:38:51+00:00"
+id: "vdn-9b7ec2ee95cd"
+title: "Apexgen Terminator"
+domain: "characters"
+subdomain: "character"
+status: "documente"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : 3 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio."
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/413017"
+accessed: "2026-11-15"
+queries:
+  - "Roblox SurfaceAppearance realistic skin"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "characters"
+  - "character"
+  - "documente"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "character"
+legacy_score_heuristique: 31
+legacy_collected_utc: "2026-11-15T15:38:51+00:00"
 ---
+
+> **Documenté** (reclassement V5 du 2026-11-15) · 3 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # Apexgen Terminator
 

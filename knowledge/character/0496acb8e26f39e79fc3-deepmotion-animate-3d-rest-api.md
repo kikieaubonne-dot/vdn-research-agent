@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "GitHub repositories"
-topic: "character"
-score_heuristique: 41
-collected_utc: "2026-11-15T15:38:51+00:00"
+id: "vdn-ca8a4f7f5fe4"
+title: "DeepMotion/Animate-3D-REST-API"
+domain: "characters"
+subdomain: "character"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.375 < 0.5); aucun lien avec Roblox ou la chaîne Blender"
+engine_version: "inconnue"
+source_tier: 3
+provider: "github"
+official: false
+sources:
+  - "https://github.com/deepmotion/animate-3d-rest-api"
+accessed: "2026-11-15"
+queries:
+  - "Roblox skinned mesh facial animation"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "characters"
+  - "character"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "GitHub repositories"
+legacy_topic: "character"
+legacy_score_heuristique: 41
+legacy_collected_utc: "2026-11-15T15:38:51+00:00"
+rejection_reason: "hors sujet (pertinence 0.375 < 0.5); aucun lien avec Roblox ou la chaîne Blender"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.375 < 0.5); aucun lien avec Roblox ou la chaîne Blender
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # DeepMotion/Animate-3D-REST-API
 

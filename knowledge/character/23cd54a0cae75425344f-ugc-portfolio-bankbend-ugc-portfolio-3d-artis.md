@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "character"
-score_heuristique: 41
-collected_utc: "2026-11-15T15:38:51+00:00"
+id: "vdn-2f7562841365"
+title: "[UGC Portfolio] BankBend UGC Portfolio - 3D Artist"
+domain: "characters"
+subdomain: "character"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.125 < 0.5); bruit : titre : « portfolio »"
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/1447286"
+accessed: "2026-11-15"
+queries:
+  - "Blender hair cards Roblox alpha"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "characters"
+  - "character"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "character"
+legacy_score_heuristique: 41
+legacy_collected_utc: "2026-11-15T15:38:51+00:00"
+rejection_reason: "hors sujet (pertinence 0.125 < 0.5); bruit : titre : « portfolio »"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.125 < 0.5); bruit : titre : « portfolio »
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # \[UGC Portfolio\] BankBend UGC Portfolio - 3D Artist
 

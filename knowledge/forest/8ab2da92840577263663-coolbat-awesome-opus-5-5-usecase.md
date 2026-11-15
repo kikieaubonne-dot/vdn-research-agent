@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "GitHub repositories"
-topic: "forest"
-score_heuristique: 35
-collected_utc: "2026-11-15T12:15:20+00:00"
+id: "vdn-8ab2da928405"
+title: "coolbat/awesome-opus-5.5-usecase"
+domain: "forest"
+subdomain: "forest"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.0 < 0.5); aucun lien avec Roblox ou la chaîne Blender; pas assez de contenu technique (0.04)"
+engine_version: "inconnue"
+source_tier: 3
+provider: "github"
+official: false
+sources:
+  - "https://github.com/coolbat/awesome-opus-5.5-usecase"
+accessed: "2026-11-15"
+queries:
+  - "Roblox realistic night forest lighting fog"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "forest"
+  - "forest"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "GitHub repositories"
+legacy_topic: "forest"
+legacy_score_heuristique: 35
+legacy_collected_utc: "2026-11-15T12:15:20+00:00"
+rejection_reason: "hors sujet (pertinence 0.0 < 0.5); aucun lien avec Roblox ou la chaîne Blender; pas assez de contenu technique (0.04)"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.0 < 0.5); aucun lien avec Roblox ou la chaîne Blender; pas assez de contenu technique (0.04)
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # coolbat/awesome-opus-5.5-usecase
 
@@ -29,3 +58,30 @@ Awesome list of Claude Opus 5.5 demos — games, 3D, films, agents — curated f
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://github.com/coolbat/awesome-opus-5.5-usecase  
+**Contenu :** GitHub README  
+**Passages candidats :** 3
+
+### Passages et paramètres repérés
+
+- - [Knosp Sellar Atlas](https://x.com/poyraz_dr/status/2104574432467648766) — A free interactive 3D lesson on the Knosp classification of pituitary adenomas, showing the sella, cavernous sinus, carotid siphon and cranial nerves III–VI on a coronal section from grade 0 to 4, credited to Claude Opus 5.5 by its author.
+- **[Live demo](https://opisthion06.github.io/knosp-sellar-atlas/)**
+- - [Invisible Cities, an atlas](https://github.com/stared/invisible-cities-opus-5.5) — A three.js atlas of all 55 cities in Italo Calvino's Invisible Cities as animated dioramas on the Khan's chessboard, which Piotr Migdał's write-up says Claude Opus 5.5 one-shot in Claude Code in 1 hour 25 minutes with six parallel subagents for about $74 in API tokens (0★).
+
+### Questions de recherche complémentaires
+
+- forest Roblox atlas implementation limitations troubleshooting
+- forest Roblox atlas implementation limitations troubleshooting
+- forest Roblox atlas implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

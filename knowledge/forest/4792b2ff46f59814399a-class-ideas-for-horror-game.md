@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "forest"
-score_heuristique: 55
-collected_utc: "2026-11-15T12:15:20+00:00"
+id: "vdn-972ed8284e59"
+title: "Class ideas for horror game"
+domain: "forest"
+subdomain: "forest"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : hors sujet (pertinence 0.417 < 0.5); pas assez de contenu technique (0.0)"
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/1928259"
+accessed: "2026-11-15"
+queries:
+  - "Roblox flashlight forest shadows"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "forest"
+  - "forest"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "forest"
+legacy_score_heuristique: 55
+legacy_collected_utc: "2026-11-15T12:15:20+00:00"
+rejection_reason: "hors sujet (pertinence 0.417 < 0.5); pas assez de contenu technique (0.0)"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · hors sujet (pertinence 0.417 < 0.5); pas assez de contenu technique (0.0)
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # Class ideas for horror game
 

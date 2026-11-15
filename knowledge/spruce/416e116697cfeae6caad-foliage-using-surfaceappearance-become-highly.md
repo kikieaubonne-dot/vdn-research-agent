@@ -1,10 +1,38 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "spruce"
-score_heuristique: 75
-collected_utc: "2026-11-15T12:15:20+00:00"
+id: "vdn-9f9338e2736f"
+title: "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio"
+domain: "vegetation"
+subdomain: "spruce"
+status: "documente"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio."
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/4525371"
+accessed: "2026-11-15"
+queries:
+  - "Roblox SurfaceAppearance transparency foliage"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "vegetation"
+  - "spruce"
+  - "documente"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "spruce"
+legacy_score_heuristique: 75
+legacy_collected_utc: "2026-11-15T12:15:20+00:00"
 ---
+
+> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio
 

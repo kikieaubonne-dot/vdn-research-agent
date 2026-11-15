@@ -1,0 +1,19 @@
+{
+  "_comment": "Questions de test du RAG : la fiche attendue doit sortir dans les premiers résultats. Questions en anglais ET en français (la bibliothèque est surtout en anglais). Ajouter une question à chaque fiche validée.",
+  "queries": [
+    {"q": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player", "expected": ["vdn-9f9338e2736f"]},
+    {"q": "feuillage transparent de loin dans le Player", "expected": ["vdn-9f9338e2736f"]},
+    {"q": "AlphaMode Transparency renders in bands", "expected": ["vdn-319f4403f590"]},
+    {"q": "transparence en bandes sur un MeshPart opaque", "expected": ["vdn-319f4403f590"]},
+    {"q": "texture atlas foliage meshes", "expected": ["vdn-93c1fa214202"]},
+    {"q": "atlas de textures pour le feuillage", "expected": ["vdn-93c1fa214202"]},
+    {"q": "custom rig import RootPart offset bone glitch", "expected": ["vdn-1290b940c378"]},
+    {"q": "importer un squelette personnalisé, os qui buguent", "expected": ["vdn-1290b940c378"]},
+    {"q": "ledge climbing system", "expected": ["vdn-aefb4953667e", "vdn-1a910695f70a"]},
+    {"q": "système d'escalade de rebord", "expected": ["vdn-aefb4953667e", "vdn-1a910695f70a"]}
+  ],
+  "negatives": [
+    {"q": "portfolio commissions 3D artist", "must_not_return": ["vdn-9f79ade870d7", "vdn-2f7562841365", "vdn-4aabdc882bd5"]},
+    {"q": "pets RNG simulator", "must_not_return": ["vdn-75d0f4933e29"]}
+  ]
+}

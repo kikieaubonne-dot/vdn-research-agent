@@ -1,10 +1,39 @@
 ---
-status: a_verifier
-source_type: "Roblox DevForum"
-topic: "manor"
-score_heuristique: 59
-collected_utc: "2026-11-15T15:38:51+00:00"
+id: "vdn-f41ab3b0434e"
+title: "Looking for a 3D modeler for my Roblox Horror game"
+domain: "architecture"
+subdomain: "manor"
+status: "rejete"
+tested_in_studio: "non"
+confidence: "faible"
+confidence_reason: "Ancienne fiche V1–V4 reclassée automatiquement : bruit : titre : « looking for »"
+engine_version: "inconnue"
+source_tier: 2
+provider: "devforum"
+official: false
+sources:
+  - "https://devforum.roblox.com/t/4990984"
+accessed: "2026-11-15"
+queries:
+  - "Roblox interior horror lighting"
+created: "2026-11-15"
+updated: "2026-11-15"
+tags:
+  - "vdn"
+  - "architecture"
+  - "manor"
+  - "rejete"
+  - "migre-v5"
+legacy_status: "a_verifier"
+legacy_source_type: "Roblox DevForum"
+legacy_topic: "manor"
+legacy_score_heuristique: 59
+legacy_collected_utc: "2026-11-15T15:38:51+00:00"
+rejection_reason: "bruit : titre : « looking for »"
 ---
+
+> **Rejeté** (reclassement V5 du 2026-11-15) · bruit : titre : « looking for »
+> Le contenu historique ci-dessous est conservé tel quel.
 
 # Looking for a 3D modeler for my Roblox Horror game
 

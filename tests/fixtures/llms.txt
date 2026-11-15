@@ -1,0 +1,15 @@
+<!-- last updated: 2026-11-10 -->
+# Roblox Creator Documentation
+> Documentation for building experiences on Roblox.
+
+## Art
+- [Surface appearance](/docs/en-us/art/modeling/surface-appearance.md): PBR textures on MeshParts with SurfaceAppearance.
+- [Texture specifications](https://create.roblox.com/docs/en-us/art/modeling/texture-specifications.md): Size limits for textures.
+
+## Environment
+- [Atmosphere](/docs/en-us/environment/atmosphere.md): Density, haze and glare.
+- [Global wind](/docs/en-us/environment/global-wind.md): Wind for grass, particles and clouds.
+- [Lighting](/docs/en-us/environment/lighting.md): Global lighting and technologies.
+
+## Engine API
+- [SurfaceAppearance](/docs/en-us/reference/engine/classes/SurfaceAppearance.md): Class reference.

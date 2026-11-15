@@ -1,10 +1,10 @@
 # Rapport de recherche VDN V3
 
 Fiches examinées : 12
-Fiches avec extraits techniques candidats : 8
-Sources insuffisantes : 3
-Erreurs de lecture : 1
-Questions ouvertes : 18
+Fiches avec extraits techniques candidats : 6
+Sources insuffisantes : 6
+Erreurs de lecture : 0
+Questions ouvertes : 24
 
 ## Questions ouvertes
 
@@ -26,3 +26,9 @@ Questions ouvertes : 18
 - **forest** : forest Roblox material implementation limitations troubleshooting — https://github.com/leonisbel/night-hunt
 - **spruce** : spruce Roblox foliage implementation limitations troubleshooting — https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224
 - **traversal** : traversal Roblox animation implementation limitations troubleshooting — https://devforum.roblox.com/t/building-a-parkour-system-cuz-im-boreddevlog/4073003
+- **spruce** : spruce Roblox export implementation limitations troubleshooting — https://github.com/Gnrpflpferd19/skapidap
+- **traversal** : traversal Roblox raycast implementation limitations troubleshooting — https://devforum.roblox.com/t/creating-an-advanced-ledge-climbing-system/2166426
+- **character** : character Roblox collision implementation limitations troubleshooting — https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045
+- **character** : character Roblox export implementation limitations troubleshooting — https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045
+- **character** : character Roblox bones implementation limitations troubleshooting — https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045
+- **forest** : forest Roblox atlas implementation limitations troubleshooting — https://github.com/coolbat/awesome-opus-5.5-usecase
