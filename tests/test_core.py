@@ -17,7 +17,7 @@ class CoreTests(unittest.TestCase):
             root = Path(d)
             (root/'config').mkdir()
             (root/'config/topics.json').write_text('{"topics":[{"id":"tree","title":"Tree","priority":5,"queries":["Roblox tree"]}]}')
-            example = [{'title':'Foliage guide','url':'https://github.com/example/foliage','excerpt':'cards','source':'GitHub'}]
+            example = [{'title':'Roblox tree foliage guide','url':'https://github.com/example/foliage','excerpt':'Roblox tree cards','source':'GitHub'}]
             with patch('agent.core.search_github', return_value=example), patch('agent.core.search_devforum', return_value=[]):
                 first = run(root, max_queries=1, per_source=1, pause=0)
                 second = run(root, max_queries=1, per_source=1, pause=0)
