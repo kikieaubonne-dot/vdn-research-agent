@@ -1,0 +1,32 @@
+name: VDN Research Agent
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: vdn-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect public research leads
+        run: python -m agent.core --max-queries 8 --per-source 3
+      - name: Commit research and state
+        run: |
+          git config user.name 'vdn-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add knowledge/ output/
+          if ! git diff --cached --quiet; then
+            git commit -m 'research: hourly discovery update'
+            git push
+          fi

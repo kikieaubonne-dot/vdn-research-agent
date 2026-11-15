@@ -1,0 +1,10 @@
+{
+  "project": "Le Voisin de Noël",
+  "topics": [
+    {"id":"spruce","title":"Épicéa enneigé réaliste","priority":10,"queries":["Roblox realistic spruce foliage alpha cards normals","Blender spruce branch atlas baking Roblox","Roblox snow covered pine trees performance","Roblox SurfaceAppearance transparency foliage"],"subtopics":["silhouette","bark","foliage cards","snow accumulation","wind rigging","UV atlas","normal maps","performance"]},
+    {"id":"forest","title":"Forêt nocturne enneigée","priority":10,"queries":["Roblox realistic night forest lighting fog","Roblox snowy forest terrain optimization","Roblox flashlight forest shadows"],"subtopics":["terrain","atmosphere","lighting","visibility","sound","vegetation"]},
+    {"id":"character","title":"Personnages réalistes Roblox","priority":8,"queries":["Roblox skinned mesh facial animation","Roblox SurfaceAppearance realistic skin","Blender hair cards Roblox alpha"],"subtopics":["face rig","skin","eyes","hair","animation","lip sync"]},
+    {"id":"manor","title":"Manoir victorien horreur","priority":7,"queries":["Roblox realistic Victorian mansion modular kit","Blender trim sheet modular environment Roblox","Roblox interior horror lighting"],"subtopics":["modular architecture","materials","lighting","props","performance"]},
+    {"id":"traversal","title":"Parkour et obstacles forestiers","priority":9,"queries":["Roblox ledge shimmy system","Roblox parkour climbing animation","Roblox obstacle traversal collision"],"subtopics":["ledge shimmy","backjump","climbing","camera","collision","tutorial"]}
+  ]
+}
