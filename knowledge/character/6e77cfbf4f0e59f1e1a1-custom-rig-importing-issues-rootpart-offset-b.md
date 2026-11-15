@@ -29,3 +29,30 @@ About Me Hello! I am working on a custom character rig in Blender that uses mult
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045  
+**Contenu :** DevForum  
+**Passages candidats :** 3
+
+### Passages et paramètres repérés
+
+- The Issues Issue 1: RootPart Displacement (Geometry Offset from Collision) The Problem: The RootPart behavior is broken.
+- All transforms ( Ctrl + A → All Transforms) were applied to both the meshes and the armature in Blender prior to export.
+- Issue 2: Eye Bones / Visual Bug with Face Rigging The Problem: I cannot animate the eyes because the eye bones or their associated geometry are glitching/not showing up correctly after import.
+
+### Questions de recherche complémentaires
+
+- character Roblox collision implementation limitations troubleshooting
+- character Roblox export implementation limitations troubleshooting
+- character Roblox bones implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

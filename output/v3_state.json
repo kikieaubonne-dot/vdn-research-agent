@@ -23,7 +23,19 @@
     "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md": 1,
     "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md": 1,
     "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md": 1,
-    "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md": 1
+    "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md": 1,
+    "knowledge/traversal/8736aa383b0747a2eb58-improving-our-a-part-2.md": 1,
+    "knowledge/character/5563d7edddb928a8c603-introducing-the-avatar-evolution-studio-beta-.md": 1,
+    "knowledge/manor/90b619176531c8447a6b-7-99-540-christmas-assets.md": 1,
+    "knowledge/forest/81efd37897cce6558935-terrain-artist-level-desginer.md": 1,
+    "knowledge/spruce/b5b20f5a22d418ff7394-gnrpflpferd19-skapidap.md": 1,
+    "knowledge/traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system.md": 1,
+    "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md": 1,
+    "knowledge/manor/a34902205b6bb5b6afb4-feedback-on-this-horror-house-interior.md": 1,
+    "knowledge/forest/8ab2da92840577263663-coolbat-awesome-opus-5-5-usecase.md": 1,
+    "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md": 1,
+    "knowledge/traversal/a3e499fcfaee5316a7a2-devchpl-2d-parkour-framework.md": 1,
+    "knowledge/character/7c9148230c0c5d987aa5-easye3232-claude.md": 1
   },
   "insufficient": {
     "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md": {
@@ -61,6 +73,30 @@
     "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md": {
       "reason": "no actionable excerpt",
       "last_attempt": "2026-11-15T16:16:59.117565+00:00"
+    },
+    "knowledge/traversal/8736aa383b0747a2eb58-improving-our-a-part-2.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:22:59.073265+00:00"
+    },
+    "knowledge/character/5563d7edddb928a8c603-introducing-the-avatar-evolution-studio-beta-.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:23:00.607398+00:00"
+    },
+    "knowledge/manor/90b619176531c8447a6b-7-99-540-christmas-assets.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:23:01.859475+00:00"
+    },
+    "knowledge/forest/81efd37897cce6558935-terrain-artist-level-desginer.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:23:03.068956+00:00"
+    },
+    "knowledge/manor/a34902205b6bb5b6afb4-feedback-on-this-horror-house-interior.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:23:08.111683+00:00"
+    },
+    "knowledge/traversal/a3e499fcfaee5316a7a2-devchpl-2d-parkour-framework.md": {
+      "reason": "no actionable excerpt",
+      "last_attempt": "2026-11-15T16:23:11.960536+00:00"
     }
   },
   "questions": {
@@ -171,7 +207,43 @@
       "topic": "traversal",
       "source": "https://devforum.roblox.com/t/building-a-parkour-system-cuz-im-boreddevlog/4073003",
       "status": "open"
+    },
+    "eaa946e6dc594785": {
+      "query": "spruce Roblox export implementation limitations troubleshooting",
+      "topic": "spruce",
+      "source": "https://github.com/Gnrpflpferd19/skapidap",
+      "status": "open"
+    },
+    "6b962a1d92ad646d": {
+      "query": "traversal Roblox raycast implementation limitations troubleshooting",
+      "topic": "traversal",
+      "source": "https://devforum.roblox.com/t/creating-an-advanced-ledge-climbing-system/2166426",
+      "status": "open"
+    },
+    "64611ae21ff3983b": {
+      "query": "character Roblox collision implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045",
+      "status": "open"
+    },
+    "4abca97359a431b1": {
+      "query": "character Roblox export implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045",
+      "status": "open"
+    },
+    "a61acefdef2c37f8": {
+      "query": "character Roblox bones implementation limitations troubleshooting",
+      "topic": "character",
+      "source": "https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045",
+      "status": "open"
+    },
+    "e8ea3870d430ee97": {
+      "query": "forest Roblox atlas implementation limitations troubleshooting",
+      "topic": "forest",
+      "source": "https://github.com/coolbat/awesome-opus-5.5-usecase",
+      "status": "open"
     }
   },
-  "rotation": 2
+  "rotation": 3
 }

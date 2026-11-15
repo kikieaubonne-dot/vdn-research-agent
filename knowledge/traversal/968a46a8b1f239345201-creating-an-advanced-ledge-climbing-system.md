@@ -29,3 +29,26 @@ I want to make a Ledge Climbing System for my game I don't want someone to just 
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/creating-an-advanced-ledge-climbing-system/2166426  
+**Contenu :** DevForum  
+**Passages candidats :** 1
+
+### Passages et paramètres repérés
+
+- Here’s what I did: Create a LocalScript in StarterCharacterScripts Raycast from the front of the character down.
+
+### Questions de recherche complémentaires
+
+- traversal Roblox raycast implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

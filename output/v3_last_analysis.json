@@ -1,77 +1,75 @@
 {
   "processed": 12,
-  "evidence_extracted": 8,
-  "insufficient": 3,
-  "errors": 1,
-  "open_questions": 18,
+  "evidence_extracted": 6,
+  "insufficient": 6,
+  "errors": 0,
+  "open_questions": 24,
   "results": [
     {
-      "file": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
-      "status": "evidence_extracted",
-      "excerpts": 5,
-      "questions": 3
-    },
-    {
-      "file": "knowledge/traversal/696dfc7985cdea76da5e-introducing-a-ai-driven-traffic-system-for-ro.md",
-      "status": "evidence_extracted",
-      "excerpts": 1,
-      "questions": 1
-    },
-    {
-      "file": "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md",
-      "status": "evidence_extracted",
-      "excerpts": 4,
-      "questions": 3
-    },
-    {
-      "file": "knowledge/manor/31d4988647f9d82803b9-looking-for-a-3d-modeler-for-my-roblox-horror.md",
-      "status": "evidence_extracted",
-      "excerpts": 1,
-      "questions": 1
-    },
-    {
-      "file": "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md",
+      "file": "knowledge/traversal/8736aa383b0747a2eb58-improving-our-a-part-2.md",
       "status": "insufficient_source",
       "provider": "DevForum"
     },
     {
-      "file": "knowledge/spruce/4c4e9e4faa27af447c21-scenario-labs-skills.md",
+      "file": "knowledge/character/5563d7edddb928a8c603-introducing-the-avatar-evolution-studio-beta-.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/manor/90b619176531c8447a6b-7-99-540-christmas-assets.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/forest/81efd37897cce6558935-terrain-artist-level-desginer.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/spruce/b5b20f5a22d418ff7394-gnrpflpferd19-skapidap.md",
       "status": "evidence_extracted",
       "excerpts": 5,
       "questions": 3
     },
     {
-      "file": "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md",
+      "file": "knowledge/traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system.md",
+      "status": "evidence_extracted",
+      "excerpts": 1,
+      "questions": 1
+    },
+    {
+      "file": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+      "status": "evidence_extracted",
+      "excerpts": 3,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/manor/a34902205b6bb5b6afb4-feedback-on-this-horror-house-interior.md",
+      "status": "insufficient_source",
+      "provider": "DevForum"
+    },
+    {
+      "file": "knowledge/forest/8ab2da92840577263663-coolbat-awesome-opus-5-5-usecase.md",
+      "status": "evidence_extracted",
+      "excerpts": 3,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/traversal/a3e499fcfaee5316a7a2-devchpl-2d-parkour-framework.md",
       "status": "insufficient_source",
       "provider": "GitHub README"
     },
     {
-      "file": "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md",
-      "status": "read_error",
-      "error": "ValueError: README too large"
-    },
-    {
-      "file": "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md",
-      "status": "insufficient_source",
-      "provider": "GitHub README"
-    },
-    {
-      "file": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+      "file": "knowledge/character/7c9148230c0c5d987aa5-easye3232-claude.md",
       "status": "evidence_extracted",
       "excerpts": 5,
       "questions": 3
-    },
-    {
-      "file": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
-      "status": "evidence_extracted",
-      "excerpts": 5,
-      "questions": 3
-    },
-    {
-      "file": "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md",
-      "status": "evidence_extracted",
-      "excerpts": 2,
-      "questions": 2
     }
   ]
 }

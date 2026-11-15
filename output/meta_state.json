@@ -2,12 +2,16 @@
   "arms": {
     "devforum:spruce": {
       "baseline": {
-        "n": 2,
-        "reward": 0.0
+        "n": 3,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
       },
       "focused": {
-        "n": 2,
-        "reward": 0.0
+        "n": 3,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
       },
       "site_specific": {
         "n": 2,
@@ -16,12 +20,16 @@
     },
     "github:spruce": {
       "baseline": {
-        "n": 2,
-        "reward": 0.0
+        "n": 3,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
       },
       "focused": {
-        "n": 2,
-        "reward": 0.0
+        "n": 3,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
       },
       "site_specific": {
         "n": 2,
@@ -36,6 +44,12 @@
       "focused": {
         "n": 1,
         "reward": 0.0
+      },
+      "site_specific": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
       }
     },
     "github:character": {
@@ -46,6 +60,80 @@
       "focused": {
         "n": 1,
         "reward": 0.0
+      },
+      "site_specific": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 3
+      }
+    },
+    "devforum:forest": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
+      },
+      "site_specific": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
+      }
+    },
+    "github:forest": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 1
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 3
+      },
+      "site_specific": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 3
+      }
+    },
+    "devforum:traversal": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 1,
+        "returned": 0
+      }
+    },
+    "github:traversal": {
+      "baseline": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 3
+      },
+      "focused": {
+        "n": 1,
+        "reward": 0.0,
+        "empty": 0,
+        "returned": 3
       }
     }
   }

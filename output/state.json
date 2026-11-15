@@ -295,8 +295,16 @@
     "spruce Roblox transparency implementation limitations troubleshooting": 1,
     "spruce Roblox transparent implementation limitations troubleshooting": 1,
     "character Roblox animation implementation limitations troubleshooting": 1,
-    "character Roblox fbx implementation limitations troubleshooting": 1
+    "character Roblox fbx implementation limitations troubleshooting": 1,
+    "forest Roblox foliage implementation limitations troubleshooting": 1,
+    "forest Roblox material implementation limitations troubleshooting": 1,
+    "forest Roblox shadow implementation limitations troubleshooting": 1,
+    "spruce Roblox foliage implementation limitations troubleshooting": 1,
+    "spruce Roblox surfaceappearance implementation limitations troubleshooting": 1,
+    "traversal Roblox animation implementation limitations troubleshooting": 1,
+    "traversal Roblox collision implementation limitations troubleshooting": 1,
+    "character Roblox texture implementation limitations troubleshooting": 1
   },
-  "runs": 4,
+  "runs": 5,
   "errors": []
 }
