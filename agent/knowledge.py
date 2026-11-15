@@ -176,14 +176,15 @@ def build_body(title: str, query: str, topic: dict, assessment: dict, src: dict,
              "## Objectif", "", f"Répondre à : *{query}* (sujet : {topic.get('title', topic.get('id'))}).", "",
              "## Description technique", "", "À rédiger à partir des extraits ci-dessous (analyse humaine ou Ollama). "
              "Rien n'est affirmé ici sans source.", "",
-             "## Étapes reproductibles", "", "À extraire de la source ; non disponibles automatiquement. Les indices d’action ci-dessous ne constituent pas un tutoriel complet.", "",
-             "## Paramètres (sourcés)", ""]
+             "## Étapes reproductibles", "", "Instructions extraites automatiquement : procedure partielle, ordre et fonctionnement non verifies.", ""]
+    steps = actionable_excerpts(ex)
+    lines += [f"{i}. {e} -- {link}" for i, e in enumerate(steps, 1)] or [
+        "Aucune instruction complete identifiee. Consulter la source."
+    ]
+    lines += ["", "## Paramètres (sourcés)", ""]
     lines += [f"- « {p} » — {link}" for p in params] or ["Aucun paramètre chiffré trouvé dans les extraits."]
     lines += ["", "## Limites connues de Roblox", ""]
     lines += [f"- « {l} » — {link}" for l in limits] or ["Aucune limite explicite trouvée dans les extraits."]
-    lines += ["", "## Indices de procédure (non vérifiés)", ""]
-    steps = actionable_excerpts(ex)
-    lines += [f"- « {e} » — {link}" for e in steps] or ["Aucune instruction explicite identifiée dans les extraits. Ne pas présenter cette fiche comme un tutoriel."]
     lines += ["", "## Extraits justificatifs", ""]
     lines += [f"> « {e} »\n> — {link}, consulté le {accessed}\n" for e in ex] or ["Aucun extrait technique."]
     lines += ["", "## Problèmes connus", "", "À compléter.", "", "## Alternatives", "", "À compléter.", "",
