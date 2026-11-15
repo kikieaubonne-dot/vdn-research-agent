@@ -1,8 +1,14 @@
-name: VDN Research Agent
+name: VDN Research Agent V5
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 * * * *'     # recherche toutes les heures
+    - cron: '23 3 * * *'     # rafraîchissement quotidien : index officiel Roblox + pages de sitemap DevForum
   workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Rafraîchir aussi les index de sources'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -11,7 +17,10 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # quota de l'API GitHub plus élevé (gratuit)
+      PYTHONUTF8: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,20 +28,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect public research leads
-        run: python -m agent.core --max-queries 8 --per-source 3
-      - name: Analyze evidence and create followup questions
-        run: python -m agent.v3 --max-notes 12 --pause 1
-      - name: Summarize strategy learning
-        run: python -m agent.meta
-      - name: Run automated tests
-        run: python -m unittest discover -s tests -v
-      - name: Commit research and state
+      - name: Tests (avant toute écriture)
+        run: python -m unittest discover -s tests
+      - name: Rafraîchir les index de sources
+        if: github.event.schedule == '23 3 * * *' || inputs.refresh
+        run: python -m agent.run refresh --devforum-pages 4
+      - name: Recherche
+        if: github.event.schedule != '23 3 * * *'
+        run: python -m agent.run research --max-queries 8 --per-source 4 --max-fetch 30 --pause 1
+      - name: Benchmark (rapport ; une régression est signalée sans bloquer la sauvegarde)
+        continue-on-error: true
+        run: python -m agent.run bench
+      - name: Sauvegarder la bibliothèque et l'état
         run: |
           git config user.name 'vdn-research-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add knowledge/ output/
           if ! git diff --cached --quiet; then
-            git commit -m 'research: V4.1 diagnostics update'
+            git commit -m "research: V5 $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
