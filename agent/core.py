@@ -168,11 +168,15 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
                 strategy = meta.choose(meta_state, name, topic["id"])
                 adapted_query = meta.queries(query, name)[strategy]
                 items = search(adapted_query, per_source)
-                evaluated, items = meta.assess(items, query, topic["id"])
+                evaluated, accepted = meta.assess(items, query, topic["id"])
                 meta.record(meta_state, name, topic["id"], strategy, [x["relevance"] for x in evaluated])
-                stats.setdefault("strategy_trials", []).append({"provider": name, "topic": topic["id"], "strategy": strategy, "query": adapted_query, "results": len(evaluated), "accepted": len(items)})
-                stats["sources"][name] = stats["sources"].get(name, 0) + len(items)
-                for item in items:
+                trial = {"provider": name, "topic": topic["id"], "strategy": strategy,
+                         "query": adapted_query, "results": len(evaluated), "accepted": len(accepted),
+                         "rejected": len(evaluated)-len(accepted), "new": 0,
+                         "avg_relevance": round(sum(x['relevance'] for x in evaluated)/len(evaluated),4) if evaluated else None}
+                stats.setdefault("strategy_trials", []).append(trial)
+                stats["sources"][name] = stats["sources"].get(name, 0) + len(accepted)
+                for item in accepted:
                     url = item.get("url", "")
                     if not valid_url(url):
                         continue
@@ -186,6 +190,7 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
                     (folder / filename).write_text(note(item, topic, query, now), encoding="utf-8")
                     state["seen"][key] = {"url": url, "topic": topic["id"], "date": now}
                     stats["discovered"] += 1
+                    trial["new"] += 1
             except Exception as exc:
                 stats["errors"].append(f"{name} / {query}: {type(exc).__name__}: {str(exc)[:150]}")
             if pause:
@@ -194,8 +199,8 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
     state["errors"] = stats["errors"][-20:]
     save_json(state_path, state)
     save_json(meta_path, meta_state)
-    meta.report(root)
     save_json(root / "output/last_run.json", stats)
+    meta.report(root)
     report = (f"# Rapport VDN — {now}\n\nRecherches : {stats['queries']}  \n"
               f"Nouvelles fiches : {stats['discovered']}  \n"
               f"Erreurs : {len(stats['errors'])}\n\n"
