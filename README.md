@@ -60,3 +60,27 @@ Modifier `config/topics.json` pour ajouter des sujets, priorités et requêtes. 
 - **V3** : banc de test Blender/Roblox assisté, validation humaine et rapports de performance.
 
 **Sécurité** : ne jamais exécuter automatiquement des scripts téléchargés depuis les résultats ; conserver les citations et vérifier manuellement avant d'appliquer des méthodes au projet.
+
+## V2 — Analyse technique partielle, sans API payante
+
+Après la collecte, le workflow exécute `python -m agent.analyzer --max-notes 4`.
+Il lit les premières publications publiques des sujets DevForum via leur endpoint JSON
+et les métadonnées publiques des dépôts GitHub via l'API officielle. Il ajoute une section
+**Analyse V2** aux fiches Markdown, avec des passages techniques repérés, des questions
+à approfondir et les limites de vérification. Les pages ne sont **pas** exécutées et
+leur texte est traité comme une donnée non fiable.
+
+**Limites honnêtes :** cette V2 n'est pas une IA de raisonnement et ne fait pas de
+fine-tuning ; elle ne vérifie pas les techniques dans Roblox, ne lit pas toutes les
+réponses d'un long fil, ne résume pas automatiquement les vidéos et ne garantit pas
+une analyse complète. Les quotas gratuits GitHub/DevForum et les politiques d'accès
+peuvent bloquer des requêtes. Les fiches restent non validées jusqu'à un test réel.
+
+### Installation V2 sur le dépôt existant
+
+Copier uniquement les nouveaux fichiers `agent/analyzer.py`, `tests/test_analyzer.py`,
+le `README.md` mis à jour et `.github/workflows/research.yml` dans le dossier du dépôt
+cloné, en conservant `knowledge/` et `output/` déjà présents. **Ne pas écraser les
+fiches ni la mémoire déjà produites.** Dans GitHub Desktop, faire Commit puis Push.
+Le prochain lancement dans Actions déclenchera l'enrichissement. Une fiche analysée
+contiendra la section `## Analyse V2`.
