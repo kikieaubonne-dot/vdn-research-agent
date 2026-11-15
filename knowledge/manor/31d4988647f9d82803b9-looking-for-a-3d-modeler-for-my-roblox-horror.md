@@ -29,3 +29,26 @@ collected_utc: "2026-11-15T15:38:51+00:00"
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/looking-for-a-3d-modeler-for-my-roblox-horror-game/4990984  
+**Contenu :** DevForum  
+**Passages candidats :** 1
+
+### Passages et paramètres repérés
+
+- My goal is to create an immersive and terrifying experience with highly detailed environments, realistic assets, atmospheric lighting, and high-quality 3D models.
+
+### Questions de recherche complémentaires
+
+- manor Roblox lighting implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

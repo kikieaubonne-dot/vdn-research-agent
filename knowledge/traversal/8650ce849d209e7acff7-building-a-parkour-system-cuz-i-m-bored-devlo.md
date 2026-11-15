@@ -29,3 +29,28 @@ OPEN SOURCED NOW!! https://devforum.roblox.com/t/building-a-parkour-system-cuz-i
 ## Résultat du test
 
 À compléter après expérimentation.
+
+## Analyse V3 — éléments techniques à vérifier
+
+**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.
+
+**Source lue :** https://devforum.roblox.com/t/building-a-parkour-system-cuz-im-boreddevlog/4073003  
+**Contenu :** DevForum  
+**Passages candidats :** 2
+
+### Passages et paramètres repérés
+
+- non human i would say like the hand is bending loll, but i will fix the animations dw, mechanic over animation first, when we got it working then we got it looking good(draw it first you can improve it later type stuff loll) now at last we got a little map test i did to see how it will play in a actual map(this is just blocks rn but ion know building i only know scripting, i maybe will get one of my friends to make a test map) PROGRESS #4 Max: UPDATE!
+- : ) PROGRESS #7 Max: PROGRESS #7 I got like 45-55 minutes and i discovered a micro-stutter bug so i tried fixing it, but i mostly made the system feel a bit faster(i like fast games) Soo yeah The next progress is prob gonna be at the 29th(or later, before the end of the month tho) PROGRESS #8 Max: PROGRESS #8 TYSM TO @Timuryhic for helping me with the animation and figuring out ALOT of bugs that ill fix with the next progress After tests ended, i finnialy made a ledge climb im kinda happy with..
+
+### Questions de recherche complémentaires
+
+- traversal Roblox animation implementation limitations troubleshooting
+- traversal Roblox animation implementation limitations troubleshooting
+
+### Validation requise
+
+- [ ] Vérifier chaque passage dans la source complète
+- [ ] Confirmer les limitations Roblox actuelles
+- [ ] Tester dans Roblox Studio ET Roblox Player
+- [ ] Mesurer qualité et performance

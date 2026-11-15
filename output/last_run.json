@@ -1,10 +1,140 @@
 {
-  "started_utc": "2026-11-15T15:51:54+00:00",
+  "started_utc": "2026-11-15T16:16:01+00:00",
   "queries": 8,
   "discovered": 0,
   "errors": [],
   "sources": {
-    "devforum": 8,
-    "github": 15
-  }
+    "devforum": 0,
+    "github": 0
+  },
+  "strategy_trials": [
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "baseline",
+      "query": "spruce Roblox animation implementation limitations troubleshooting",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "baseline",
+      "query": "spruce Roblox animation implementation limitations troubleshooting",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "focused",
+      "query": "spruce Roblox lighting implementation limitations troubleshooting workaround settings",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "focused",
+      "query": "spruce Roblox lighting implementation limitations troubleshooting Roblox example implementation",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "site_specific",
+      "query": "spruce Roblox render implementation limitations troubleshooting SurfaceAppearance MeshPart",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "site_specific",
+      "query": "spruce Roblox render implementation limitations troubleshooting language:Python",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "baseline",
+      "query": "spruce Roblox texture implementation limitations troubleshooting",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "baseline",
+      "query": "spruce Roblox texture implementation limitations troubleshooting",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "focused",
+      "query": "spruce Roblox transparency implementation limitations troubleshooting workaround settings",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "focused",
+      "query": "spruce Roblox transparency implementation limitations troubleshooting Roblox example implementation",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "spruce",
+      "strategy": "site_specific",
+      "query": "spruce Roblox transparent implementation limitations troubleshooting SurfaceAppearance MeshPart",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "spruce",
+      "strategy": "site_specific",
+      "query": "spruce Roblox transparent implementation limitations troubleshooting language:Python",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "character",
+      "strategy": "baseline",
+      "query": "character Roblox animation implementation limitations troubleshooting",
+      "results": 2,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "character",
+      "strategy": "baseline",
+      "query": "character Roblox animation implementation limitations troubleshooting",
+      "results": 3,
+      "accepted": 0
+    },
+    {
+      "provider": "devforum",
+      "topic": "character",
+      "strategy": "focused",
+      "query": "character Roblox fbx implementation limitations troubleshooting workaround settings",
+      "results": 0,
+      "accepted": 0
+    },
+    {
+      "provider": "github",
+      "topic": "character",
+      "strategy": "focused",
+      "query": "character Roblox fbx implementation limitations troubleshooting Roblox example implementation",
+      "results": 3,
+      "accepted": 0
+    }
+  ]
 }

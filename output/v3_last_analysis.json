@@ -1,71 +1,74 @@
 {
   "processed": 12,
-  "evidence_extracted": 5,
-  "insufficient": 6,
+  "evidence_extracted": 8,
+  "insufficient": 3,
   "errors": 1,
-  "open_questions": 9,
+  "open_questions": 18,
   "results": [
     {
-      "file": "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md",
-      "status": "insufficient_source",
-      "provider": "DevForum"
-    },
-    {
-      "file": "knowledge/spruce/030e47b1915a4bee4fae-diyorfayz-skills.md",
+      "file": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
       "status": "evidence_extracted",
       "excerpts": 5,
       "questions": 3
     },
     {
-      "file": "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md",
-      "status": "insufficient_source",
-      "provider": "DevForum"
-    },
-    {
-      "file": "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md",
-      "status": "evidence_extracted",
-      "excerpts": 5,
-      "questions": 3
-    },
-    {
-      "file": "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md",
-      "status": "insufficient_source",
-      "provider": "DevForum"
-    },
-    {
-      "file": "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md",
-      "status": "insufficient_source",
-      "provider": "DevForum"
-    },
-    {
-      "file": "knowledge/spruce/0aaa704c0c2d9a1b94c5-sigmalordmaster69-super-smart-idea-im-about-t.md",
-      "status": "evidence_extracted",
-      "excerpts": 4,
-      "questions": 3
-    },
-    {
-      "file": "knowledge/traversal/651a9c7996852903fc2e-perixtar-tech-oa-interview-questions.md",
-      "status": "read_error",
-      "error": "ValueError: README too large"
-    },
-    {
-      "file": "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md",
+      "file": "knowledge/traversal/696dfc7985cdea76da5e-introducing-a-ai-driven-traffic-system-for-ro.md",
       "status": "evidence_extracted",
       "excerpts": 1,
       "questions": 1
     },
     {
-      "file": "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md",
+      "file": "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md",
+      "status": "evidence_extracted",
+      "excerpts": 4,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/manor/31d4988647f9d82803b9-looking-for-a-3d-modeler-for-my-roblox-horror.md",
+      "status": "evidence_extracted",
+      "excerpts": 1,
+      "questions": 1
+    },
+    {
+      "file": "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md",
       "status": "insufficient_source",
       "provider": "DevForum"
     },
     {
-      "file": "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md",
+      "file": "knowledge/spruce/4c4e9e4faa27af447c21-scenario-labs-skills.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md",
       "status": "insufficient_source",
       "provider": "GitHub README"
     },
     {
-      "file": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+      "file": "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md",
+      "status": "read_error",
+      "error": "ValueError: README too large"
+    },
+    {
+      "file": "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md",
+      "status": "insufficient_source",
+      "provider": "GitHub README"
+    },
+    {
+      "file": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+      "status": "evidence_extracted",
+      "excerpts": 5,
+      "questions": 3
+    },
+    {
+      "file": "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md",
       "status": "evidence_extracted",
       "excerpts": 2,
       "questions": 2
