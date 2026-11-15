@@ -303,8 +303,17 @@
     "spruce Roblox surfaceappearance implementation limitations troubleshooting": 1,
     "traversal Roblox animation implementation limitations troubleshooting": 1,
     "traversal Roblox collision implementation limitations troubleshooting": 1,
-    "character Roblox texture implementation limitations troubleshooting": 1
+    "character Roblox texture implementation limitations troubleshooting": 1,
+    "foliage SurfaceAppearance transparency": 1,
+    "tree foliage cards": 1,
+    "night forest lighting": 1,
+    "forest atmosphere fog": 1,
+    "snow terrain material": 1,
+    "snow footprints decal": 1,
+    "Future lighting night": 1,
+    "flashlight SpotLight shadows": 1
   },
-  "runs": 5,
-  "errors": []
+  "runs": 6,
+  "errors": [],
+  "rotation": 1
 }

@@ -1,7 +1,7 @@
-# Rapport VDN — 2026-11-15T16:22:15+00:00
+# Rapport VDN V5 — 2026-11-15T17:10:52+00:00
 
-Recherches : 8  
-Nouvelles fiches : 0  
-Erreurs : 0
+Requêtes : 8 · essais : 24 · renvoyés : 50 · lus : 30 · acceptés : 10
 
-Les fiches sont des pistes à vérifier, **pas** des techniques validées.
+Fiches créées : 10 · mises à jour : 0 · rejetées : 20 · erreurs : 0
+
+Détails : `meta_report.md`. Les fiches sont des pistes **non testées dans Roblox Studio**.

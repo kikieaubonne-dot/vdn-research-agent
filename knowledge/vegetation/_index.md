@@ -2,8 +2,9 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (3)
+## Documenté (4)
 
+- [[vegetation/5bbf6043ed9c-class-surfaceappearance|Class: SurfaceAppearance]] — niv. 1 · conf. moyenne — « set of **Physically‑Based Rendering** (PBR) texture images, or maps, on a »
 - [[spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly|Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio]] — niv. 2 · conf. faible
 - [[spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend|SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts]] — niv. 2 · conf. faible
 - [[spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-|Texture Atlases - Creating Foliage Texture and Meshes]] — niv. 2 · conf. faible
