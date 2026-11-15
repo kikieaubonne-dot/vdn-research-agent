@@ -135,6 +135,9 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
     cfg = json.loads((root / "config/topics.json").read_text(encoding="utf-8"))
     state_path = root / "output/state.json"
     state = load_state(state_path)
+    from agent import meta
+    meta_path = root / "output/meta_state.json"
+    meta_state = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
     now = utcnow()
     candidates = []
     for topic in cfg["topics"]:
@@ -162,7 +165,12 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
         state["query_runs"][query] = int(state["query_runs"].get(query, 0)) + 1
         for name, search in (("devforum", search_devforum), ("github", search_github)):
             try:
-                items = search(query, per_source)
+                strategy = meta.choose(meta_state, name, topic["id"])
+                adapted_query = meta.queries(query, name)[strategy]
+                items = search(adapted_query, per_source)
+                evaluated, items = meta.assess(items, query, topic["id"])
+                meta.record(meta_state, name, topic["id"], strategy, [x["relevance"] for x in evaluated])
+                stats.setdefault("strategy_trials", []).append({"provider": name, "topic": topic["id"], "strategy": strategy, "query": adapted_query, "results": len(evaluated), "accepted": len(items)})
                 stats["sources"][name] = stats["sources"].get(name, 0) + len(items)
                 for item in items:
                     url = item.get("url", "")
@@ -185,6 +193,8 @@ def run(root=ROOT, max_queries=8, per_source=3, pause=2.0):
     state["runs"] = int(state.get("runs", 0)) + 1
     state["errors"] = stats["errors"][-20:]
     save_json(state_path, state)
+    save_json(meta_path, meta_state)
+    meta.report(root)
     save_json(root / "output/last_run.json", stats)
     report = (f"# Rapport VDN — {now}\n\nRecherches : {stats['queries']}  \n"
               f"Nouvelles fiches : {stats['discovered']}  \n"
