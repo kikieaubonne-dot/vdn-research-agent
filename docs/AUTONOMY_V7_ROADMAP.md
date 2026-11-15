@@ -43,6 +43,10 @@ validation humaine des modifications de code avant déploiement.
    scripts tiers uniquement après revue humaine.
 2. Améliorer les quatre faux positifs et le faux négatif du filtre existant avec
    un jeu de développement séparé du benchmark, pour éviter son surapprentissage.
+   Corriger également la régression RAG préexistante sur le corpus du commit
+   `9abf775` : la requête « importer un squelette personnalisé, os qui buguent »
+   retrouve la fiche attendue au rang 4, abaissant hit@3 à 0,9. Le code initial
+   et V7 donnent le même résultat ; conserver ce cas dans l'évaluation future.
 3. Tester la déduplication de paraphrases et synonymes : mesurer faux doublons
    et doublons manqués avant toute fusion de recherches. Ne jamais fusionner ou
    supprimer automatiquement les fiches historiques.

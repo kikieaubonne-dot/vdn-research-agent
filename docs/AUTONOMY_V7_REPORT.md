@@ -14,6 +14,9 @@ ou gratuite. Les **100 fichiers de `knowledge/`** présents au départ sont iden
 octet par octet après travaux, par comparaison SHA-256 de chaque fichier.
 Aucune migration, recherche réelle ou réindexation n'a été lancée dans cette
 bibliothèque de travail ; les benchmarks utilisent une copie temporaire.
+Ces chiffres décrivent la validation initiale sur la base auditée. La validation
+de publication ci-dessous utilise ensuite le dernier `main`, dont le robot a
+enrichi la bibliothèque pendant la mission.
 
 ## Phase A — audit et baseline
 
@@ -231,8 +234,35 @@ PR existe si sa création n'a pas abouti.
 
 ### État de publication constaté
 
-Le commit d'implémentation est `0f13b9a`. Le push de `codex/autonomy-v7` a été
-tenté et a échoué : Git n'a pas d'identité HTTPS utilisable pour github.com.
-`gh auth status` signalait également un jeton invalide. La branche n'est donc
-pas publiée et **aucune pull request n'a été créée**. La connexion GitHub est
-nécessaire pour terminer ce livrable ; aucune fusion dans `main` n'a eu lieu.
+Le commit d'implémentation est `0f13b9a`. Le premier push avait échoué faute
+d'authentification. Après connexion du plugin GitHub, la branche dédiée a été
+publiée et la [pull request #1](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/1)
+est ouverte vers `main`. Aucune fusion ni aucun auto-merge n'ont été effectués.
+
+### Validation après intégration du dernier main
+
+Le robot a publié `9abf775e89ca9830caaf150642bd5cdd197d8338` pendant les travaux :
+cinq nouvelles fiches et un index de domaine supplémentaire, soit **106 fichiers**
+actuels dans `knowledge/`. Ce commit a été intégré sur la branche V7 avant
+publication, sans modifier `main`. Les arbres Git de `knowledge/` sont exactement
+identiques entre V7 et ce `main` : `e46fb73b3efc4284acdf5a2a1863ab13e9d5c06b`.
+La PR n'a aucun changement dans `knowledge/`, `output/` ou les workflows.
+
+Les **177 tests passent à nouveau** avec les connexions socket interdites
+(`docs/validation/publication-tests.log`). Le benchmark a été exécuté sur copies
+du corpus actualisé avec le code initial, puis le code V7 :
+
+| Mesure sur le corpus actualisé | Code initial | V7 |
+|---|---:|---:|
+| F1 pertinence | 0,762 | 0,762 |
+| RAG hit@3 | 0,9 | 0,9 |
+| RAG MRR | 0,925 | 0,925 |
+| Négatifs propres | 1,0 | 1,0 |
+
+**Régression préexistante sur ce nouveau corpus :** le RAG hit@3 a baissé de
+1,0 à 0,9 par rapport à l'historique. Pour « importer un squelette personnalisé,
+os qui buguent », la fiche attendue est maintenant au rang 4. Le défaut se
+reproduit avec le code initial ; il n'est pas introduit par V7 et reste à corriger.
+Les mesures brutes des deux exécutions sont ajoutées à `AUTONOMY_V7_METRICS.json`.
+La stabilité annoncée sur le corpus initial ne doit pas masquer cette limite
+de classement lorsque la bibliothèque s'enrichit.
