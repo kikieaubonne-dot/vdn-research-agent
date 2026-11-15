@@ -16,6 +16,7 @@ sources:
 accessed: "2026-11-15"
 queries:
   - "snow terrain material"
+  - "terrain MaterialVariant custom"
 created: "2026-11-15"
 updated: "2026-11-15"
 tags:

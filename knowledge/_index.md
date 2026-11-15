@@ -7,8 +7,9 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[animation/_index|animation]] | 0 | 0 | 0 | 3 | 8 |
 | [[architecture/_index|architecture]] | 0 | 0 | 0 | 1 | 9 |
 | [[characters/_index|characters]] | 0 | 0 | 2 | 1 | 9 |
-| [[forest/_index|forest]] | 0 | 0 | 4 | 1 | 12 |
-| [[snow/_index|snow]] | 0 | 0 | 5 | 0 | 0 |
+| [[forest/_index|forest]] | 0 | 0 | 6 | 2 | 12 |
+| [[lighting/_index|lighting]] | 0 | 0 | 0 | 2 | 0 |
+| [[snow/_index|snow]] | 0 | 0 | 6 | 0 | 0 |
 | [[vegetation/_index|vegetation]] | 0 | 0 | 4 | 1 | 4 |
 
-Total : 64 fiches. Mis à jour le 2026-11-15.
+Total : 70 fiches. Mis à jour le 2026-11-15.

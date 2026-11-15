@@ -311,9 +311,17 @@
     "snow terrain material": 1,
     "snow footprints decal": 1,
     "Future lighting night": 1,
-    "flashlight SpotLight shadows": 1
+    "flashlight SpotLight shadows": 1,
+    "large forest performance": 1,
+    "flashlight shadows forest": 1,
+    "snowfall particles": 1,
+    "snow MaterialVariant": 1,
+    "Atmosphere density haze": 1,
+    "ColorCorrection horror": 1,
+    "terrain MaterialVariant custom": 1,
+    "SurfaceAppearance PBR textures": 1
   },
-  "runs": 6,
+  "runs": 7,
   "errors": [],
-  "rotation": 1
+  "rotation": 2
 }

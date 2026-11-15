@@ -2,8 +2,9 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (5)
+## Documenté (6)
 
+- [[snow/35696693c238-class-materialvariant|Class: MaterialVariant]] — niv. 1 · conf. moyenne — « built-in material, or set in the [BasePart.MaterialVariant](/docs/reference/engine/classes/BasePart.md) property to »
 - [[snow/a857c603de78-class-terrain|Class: Terrain]] — niv. 1 · conf. moyenne — « summary: "`Terrain` lets you to create dynamically morphable environments." »
 - [[snow/6b1965d3e366-custom-terrain-materials|Custom terrain materials]] — niv. 1 · conf. moyenne — « description: "Enable Expanded Terrain to paint up to 62 custom materials onto terrain and take advantage of terrain performance improvements… »
 - [[snow/9758995985bd-material|Material]] — niv. 1 · conf. moyenne — « | `Wood` | 512 | Applies to [BasePart](/docs/reference/engine/classes/BasePart.md) only. »

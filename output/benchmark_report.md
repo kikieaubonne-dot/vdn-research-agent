@@ -1,6 +1,6 @@
 # Benchmark VDN
 
-_2026-11-15T17:11:31+00:00 · jeux de test 88d0c7762598_
+_2026-11-15T17:37:30+00:00 · jeux de test 88d0c7762598_
 
 | Indicateur | Valeur |
 |---|---:|
@@ -19,7 +19,7 @@ Filtre de pertinence sur 54 cas réels étiquetés à la main : VP 8, FP 4, FN 1
 - faux positif : Feedback on this horror house interior (limite : retours d'apparence, peu technique)
 - faux positif : nightcycle/quick-part 
 
-RAG : 10 questions (FR/EN), réussite@1 1.0, réussite@3 1.0, MRR 1.0, tokens moyens 1201 (max 1450), questions négatives propres 1.0.
+RAG : 10 questions (FR/EN), réussite@1 1.0, réussite@3 1.0, MRR 1.0, tokens moyens 1204 (max 1470), questions négatives propres 1.0.
 
 
 Limites : étiquettes posées par une seule personne (Claude) ; petit échantillon ; mesure le tri et la récupération, PAS la justesse des techniques ni leur rendu dans Roblox.

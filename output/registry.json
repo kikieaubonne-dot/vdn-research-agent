@@ -255,6 +255,30 @@
   "https://devforum.roblox.com/t/4950620": {
    "id": "vdn-56797d0952ca",
    "path": "knowledge/snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate.md"
+  },
+  "https://create.roblox.com/docs/performance-optimization/design": {
+   "id": "vdn-0df57a89fa73",
+   "path": "knowledge/forest/0df57a89fa73-design-for-performance.md"
+  },
+  "https://create.roblox.com/docs/performance-optimization/improve": {
+   "id": "vdn-5aa463725976",
+   "path": "knowledge/forest/5aa463725976-improve-performance.md"
+  },
+  "https://devforum.roblox.com/t/1200354": {
+   "id": "vdn-7f5fd0196f65",
+   "path": "knowledge/forest/7f5fd0196f65-important-shadow-rendering-problem.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/MaterialVariant": {
+   "id": "vdn-35696693c238",
+   "path": "knowledge/snow/35696693c238-class-materialvariant.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Atmosphere": {
+   "id": "vdn-862f8f5abfce",
+   "path": "knowledge/lighting/862f8f5abfce-class-atmosphere.md"
+  },
+  "https://devforum.roblox.com/t/1189774": {
+   "id": "vdn-179abb099a56",
+   "path": "knowledge/lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that.md"
   }
  },
  "fingerprints": {
@@ -357,6 +381,68 @@
   "adff432fca63c3d4": "vdn-14f415164625",
   "d55e5ee38a3538a3": "vdn-14f415164625",
   "4147994d261c3a9a": "vdn-14f415164625",
-  "48dec256f3777689": "vdn-14f415164625"
+  "48dec256f3777689": "vdn-14f415164625",
+  "59397196822b37ec": "vdn-390b00a59e4b",
+  "59c03fd471c78829": "vdn-0df57a89fa73",
+  "6843202ca89ec079": "vdn-0df57a89fa73",
+  "82b571bba1c49b97": "vdn-0df57a89fa73",
+  "18b111d81d86dd45": "vdn-0df57a89fa73",
+  "e7938daec71dd160": "vdn-0df57a89fa73",
+  "c4a2008e47565478": "vdn-0df57a89fa73",
+  "374997e0308cb7b5": "vdn-0df57a89fa73",
+  "6067178b6fc21f5f": "vdn-0df57a89fa73",
+  "3de47340f5e22455": "vdn-5aa463725976",
+  "e172fe0cfcf09d78": "vdn-5aa463725976",
+  "262a3178a0422726": "vdn-5aa463725976",
+  "f716ebbaf76af699": "vdn-5aa463725976",
+  "d0af8066294633f3": "vdn-5aa463725976",
+  "56ee4b313b63c3b2": "vdn-5aa463725976",
+  "456e75db4177f3d7": "vdn-5aa463725976",
+  "164d6ad0f38fae0c": "vdn-5aa463725976",
+  "285fdd0be3cb3dfe": "vdn-0aa088fc9149",
+  "a56db7f070a64ad6": "vdn-0aa088fc9149",
+  "ab78299809679dbc": "vdn-179abb099a56",
+  "22f25b03f79808db": "vdn-179abb099a56",
+  "d38ffc438d8d967a": "vdn-39a235fcb2b9",
+  "fcb36f6aabebdc19": "vdn-912b2624f88d",
+  "37a285cbfcc78ad2": "vdn-912b2624f88d",
+  "6762b71c43c2f1a0": "vdn-912b2624f88d",
+  "b57b220f668b5d9a": "vdn-912b2624f88d",
+  "c3d1274d886f57f0": "vdn-7f5fd0196f65",
+  "a51917493f886277": "vdn-7f5fd0196f65",
+  "7f3c7e688386c452": "vdn-4a7c0af49306",
+  "82a733d35c682b56": "vdn-4a7c0af49306",
+  "09a2d10370cf9f84": "vdn-0ffae478d5f9",
+  "0fe387c8545df91f": "vdn-0ffae478d5f9",
+  "5b1c272c7ee920ea": "vdn-0ffae478d5f9",
+  "82febd3309585647": "vdn-0ffae478d5f9",
+  "944143ee32e586ae": "vdn-0ffae478d5f9",
+  "9f8f0565a258cbed": "vdn-0ffae478d5f9",
+  "02db08389b07f306": "vdn-0ffae478d5f9",
+  "fc225556ea3b4bb3": "vdn-0ffae478d5f9",
+  "e4ff802131d37ff0": "vdn-970627ec9c81",
+  "ac4e601187a6cb66": "vdn-970627ec9c81",
+  "d3806869ea7aa69a": "vdn-e89d5338408e",
+  "34c9d18e8bd51092": "vdn-e89d5338408e",
+  "19058f84e2029756": "vdn-e89d5338408e",
+  "2de3a742839646c0": "vdn-9a9d0d324200",
+  "deba0e81c401a839": "vdn-9a9d0d324200",
+  "dce9b27c1de6ae02": "vdn-9a9d0d324200",
+  "be2dd2aee81a056c": "vdn-35696693c238",
+  "f8ecf877e5ce3191": "vdn-35696693c238",
+  "486dfbe7a9ce55ae": "vdn-35696693c238",
+  "1ad7e2d20338b3fe": "vdn-35696693c238",
+  "3e3e739aa27a0ced": "vdn-35696693c238",
+  "1fc2e5bf2a75c332": "vdn-862f8f5abfce",
+  "ef081dda4fbdd977": "vdn-862f8f5abfce",
+  "f67a5aa0cd81367b": "vdn-862f8f5abfce",
+  "126cad7b2c522f8c": "vdn-240a9f115b98",
+  "73bb592dc0d2fc49": "vdn-240a9f115b98",
+  "054fe5b409ea52e5": "vdn-240a9f115b98",
+  "85446994cc3c59a4": "vdn-240a9f115b98",
+  "61d4164dc44df0fe": "vdn-240a9f115b98",
+  "17a6ab498ad8be2b": "vdn-240a9f115b98",
+  "3e03707b2148dd8b": "vdn-240a9f115b98",
+  "894086b826e3bc8d": "vdn-240a9f115b98"
  }
 }
