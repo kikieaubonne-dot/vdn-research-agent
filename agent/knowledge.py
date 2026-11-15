@@ -15,6 +15,7 @@ from pathlib import Path
 
 from agent.text import fold, tokens
 from agent.providers import canonical_url
+from agent.procedure import actionable_excerpts
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUSES = ["candidat", "documente", "reproduit", "valide", "rejete", "obsolete"]
@@ -148,13 +149,14 @@ def decide_status(assessment: dict, tier: int, official: bool) -> tuple[str, str
     n = len(assessment.get("excerpts", []))
     if not assessment.get("accepted"):
         return "rejete", "faible", "; ".join(assessment.get("reasons", []))
-    if n >= 2 and (tier <= 2 or official):
+    steps = actionable_excerpts(assessment.get("excerpts", []))
+    if n >= 2 and steps and (tier <= 2 or official):
         conf = "moyenne" if (tier == 1 or official) and n >= 3 else "faible"
-        why = (f"{n} passages techniques extraits d'une source de niveau {tier}"
+        why = (f"{n} passages techniques dont {len(steps)} avec action et objet identifiables, source de niveau {tier}"
                + (" (réponse du personnel Roblox / doc officielle)" if official else "")
                + " ; aucun test dans Roblox Studio.")
         return "documente", conf, why
-    return "candidat", "faible", f"{n} passage(s) technique(s), source de niveau {tier} ; à approfondir et à tester."
+    return "candidat", "faible", f"{n} passage(s) technique(s), {len(steps)} instruction(s) explicite(s) repérée(s), source de niveau {tier} ; procédure à approfondir et à tester."
 
 
 _PARAM = re.compile(r"(?i)(\b\d+(?:[.,]\d+)?\s*(?:px|k|kb|mb|studs?|tris|triangles?|vertices|bones?|%|°)\b|\b[A-Z][a-zA-Z]+\s*=\s*[\w.\"]+|"
@@ -179,6 +181,9 @@ def build_body(title: str, query: str, topic: dict, assessment: dict, src: dict,
     lines += [f"- « {p} » — {link}" for p in params] or ["Aucun paramètre chiffré trouvé dans les extraits."]
     lines += ["", "## Limites connues de Roblox", ""]
     lines += [f"- « {l} » — {link}" for l in limits] or ["Aucune limite explicite trouvée dans les extraits."]
+    lines += ["", "## Indices de procédure (non vérifiés)", ""]
+    steps = actionable_excerpts(ex)
+    lines += [f"- « {e} » — {link}" for e in steps] or ["Aucune instruction explicite identifiée dans les extraits. Ne pas présenter cette fiche comme un tutoriel."]
     lines += ["", "## Extraits justificatifs", ""]
     lines += [f"> « {e} »\n> — {link}, consulté le {accessed}\n" for e in ex] or ["Aucun extrait technique."]
     lines += ["", "## Problèmes connus", "", "À compléter.", "", "## Alternatives", "", "À compléter.", "",
