@@ -47,7 +47,11 @@ def active_providers(root: Path, getter=None) -> dict:
     return out
 
 
-def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_fetch: int = 30, pause: float = 1.0, provs=None) -> dict:
+def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_fetch: int = 30, pause: float = 1.0, provs=None,
+             planned=None, finalize: bool = True, touch_existing: bool = True) -> dict:
+    """Un cycle de recherche. ``planned`` = [(topic, requete, origine)] impose le plan (file autonome V5.5) ;
+    ``finalize=False`` saute la reconstruction des index (faite une seule fois en fin de cycle autonome) ;
+    ``touch_existing=False`` ne modifie jamais une fiche deja creee (une source connue compte comme doublon)."""
     root = Path(root)
     state_path, meta_path = root / "output/state.json", root / "output/meta_state.json"
     state = load_json(state_path, {"seen": {}, "query_runs": {}, "runs": 0, "errors": []})
@@ -70,10 +74,13 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
     reg = knowledge.Registry(root)
     journal, rejected_log = [], []
     st = {"started_utc": utcnow(), "version": "5.0", "queries": 0, "trials": 0, "returned": 0, "fetched": 0, "accepted": 0,
-          "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [],
+          "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [], "created_notes": [],
           "providers": list(provs)}
     fetched_total = 0
-    for topic, query, origin in planner.plan(state, root, max_queries, followups):
+    plan_items = planned if planned is not None else planner.plan(state, root, max_queries, followups)
+    if planned is not None:
+        followups = []  # la file autonome gere elle-meme ses relances
+    for topic, query, origin in plan_items:
         st["queries"] += 1
         state["query_runs"][query] = state["query_runs"].get(query, 0) + 1
         topic_concepts = concepts(tokens(" ".join([topic.get("title", "")] + topic.get("subtopics", []))))
@@ -94,7 +101,10 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
             for item in results:
                 url = item.get("url", "")
                 if reg.find(url):
-                    res = knowledge.write_note(root, reg, topic, query, item, {}, {"accepted": True})
+                    if touch_existing:
+                        res = knowledge.write_note(root, reg, topic, query, item, {}, {"accepted": True})
+                    else:
+                        res = {"action": "duplicate"}
                     key = "updated" if res["action"] == "updated" else "duplicates"
                     m[key] += 1
                     st[key] += 1
@@ -118,6 +128,8 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                     m["accepted"] += 1
                     st["accepted"] += 1
                     st["created"] += 1
+                    st["created_notes"].append({"id": res["id"], "path": res["path"], "status": res["status"],
+                                                "topic": topic["id"], "query": query, "url": providers.canonical_url(url)})
                 else:
                     m["offtopic"] += 1
                     st["rejected"] += 1
@@ -156,6 +168,8 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
     st["finished_utc"] = utcnow()
     meta.save_json(root / "output/last_run.json", st)
+    if not finalize:
+        return st
     meta.report(root)
     knowledge.build_indexes(root)
     rag.update_index(root)
@@ -217,6 +231,10 @@ def main(argv=None):
     b = sub.add_parser("bench")
     b.add_argument("--online", action="store_true")
     b.add_argument("--no-fail", action="store_true", help="ne pas renvoyer d'erreur en cas de régression")
+    c = sub.add_parser("cycle", help="un cycle autonome borne (V5.5)")
+    c.add_argument("--max-items", type=int, default=None)
+    c.add_argument("--time-budget", type=float, default=None)
+    sub.add_parser("queue", help="etat de la file autonome")
     k = sub.add_parser("ask")
     k.add_argument("query")
     k.add_argument("--top-k", type=int, default=5)
@@ -237,6 +255,14 @@ def main(argv=None):
         out = {"domains": knowledge.build_indexes(ROOT), "rag": rag.update_index(ROOT)}
     elif a.cmd == "enrich":
         out = enrich(ROOT, a.max_notes)
+    elif a.cmd == "cycle":
+        from agent import autonomy
+        if a.max_items is not None and not 1 <= a.max_items <= 20:
+            ap.error("limite : max-items 1..20")
+        out = autonomy.cycle(ROOT, max_items=a.max_items, time_budget_s=a.time_budget)
+    elif a.cmd == "queue":
+        from agent import autonomy
+        out = autonomy.queue_status(ROOT)
     elif a.cmd == "bench":
         from agent import benchmark
         out = benchmark.run(ROOT, online=a.online)

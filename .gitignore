@@ -10,3 +10,8 @@ output/knowledge.db
 output/knowledge.db-*
 *.tmp
 __pycache__/
+
+# V5.5 : verrou du cycle autonome (jamais versionne)
+output/vdn.lock
+# Parametres personnels Obsidian (locaux, jamais publies)
+knowledge/.obsidian/

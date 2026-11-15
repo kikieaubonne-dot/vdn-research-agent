@@ -1,50 +1,118 @@
-name: VDN Research Agent V5
+name: VDN Research Agent V5.5
+# Eponge de connaissances : un cycle autonome borne toutes les heures, sans IA payante ni token Claude/OpenAI.
+# Quotas : config/autonomy.json (4 recherches par cycle, 40 par jour, profondeur 2, file de 400 au plus).
+# PAUSE : variable de depot VDN_PAUSE = 1 (Settings > Secrets and variables > Actions > Variables).
+#         Les executions planifiees s'arretent ; le lancement manuel reste possible pour tester.
 on:
   schedule:
-    - cron: '17 * * * *'     # recherche toutes les heures
-    - cron: '23 3 * * *'     # rafraîchissement quotidien : index officiel Roblox + pages de sitemap DevForum
+    - cron: '17 * * * *'     # cycle autonome toutes les heures
+    - cron: '23 3 * * *'     # rafraichissement quotidien : index officiel Roblox + pages de sitemap DevForum
   workflow_dispatch:
     inputs:
       refresh:
-        description: 'Rafraîchir aussi les index de sources'
+        description: 'Rafraichir aussi les index de sources'
         type: boolean
         default: false
+      max_items:
+        description: 'Recherches pour ce cycle (1 a 4 ; vide = valeur de config/autonomy.json)'
+        type: string
+        default: '2'
 permissions:
-  contents: write
+  contents: write            # seul droit necessaire : committer knowledge/ et output/
 concurrency:
-  group: vdn-research
+  group: vdn-research        # jamais deux executions en meme temps
   cancel-in-progress: false
 jobs:
   research:
+    if: github.event_name == 'workflow_dispatch' || vars.VDN_PAUSE != '1'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 25      # le cycle s'arrete seul apres 1 200 s (config/autonomy.json)
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # quota de l'API GitHub plus élevé (gratuit)
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # jeton temporaire fourni par GitHub, jamais ecrit sur disque
       PYTHONUTF8: '1'
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Tests (avant toute écriture)
+      - name: Tests (avant toute ecriture)
         run: python -m unittest discover -s tests
-      - name: Rafraîchir les index de sources
+      - name: Rafraichir les index de sources
         if: github.event.schedule == '23 3 * * *' || inputs.refresh
         run: python -m agent.run refresh --devforum-pages 4
-      - name: Recherche
+      - name: Cycle autonome V5.5
         if: github.event.schedule != '23 3 * * *'
-        run: python -m agent.run research --max-queries 8 --per-source 4 --max-fetch 30 --pause 1
-      - name: Benchmark (rapport ; une régression est signalée sans bloquer la sauvegarde)
+        env:
+          MAX_ITEMS: ${{ inputs.max_items }}
+        run: |
+          case "$MAX_ITEMS" in
+            "") python -m agent.run cycle ;;
+            1|2|3|4) python -m agent.run cycle --max-items "$MAX_ITEMS" ;;
+            *) echo "max_items invalide : $MAX_ITEMS (1 a 4)"; exit 1 ;;
+          esac
+      - name: Benchmark (rapport ; une regression est signalee sans bloquer la sauvegarde)
         continue-on-error: true
         run: python -m agent.run bench
-      - name: Sauvegarder la bibliothèque et l'état
+      - name: Controle anti-secret (bloque le commit si un jeton apparait)
+        run: |
+          git add -- knowledge/ output/
+          # Parametres Obsidian personnels : ignores par .gitignore ; s'ils arrivaient quand meme dans l'index, on bloque.
+          if git diff --cached --name-only | grep -q '^knowledge/\.obsidian/'; then
+            echo "Parametres Obsidian dans l'index : sauvegarde annulee."
+            git reset -q
+            exit 1
+          fi
+          leak=0
+          git diff --cached -U0 | grep -E -q '(ghp_|gho_|ghs_|ghu_|ghr_|github_pat_)[A-Za-z0-9_]{30,}' && leak=1
+          [ -n "$GITHUB_TOKEN" ] && git diff --cached -U0 | grep -F -q "$GITHUB_TOKEN" && leak=1
+          if [ "$leak" = 1 ]; then
+            echo "Jeton detecte dans les fichiers a committer : sauvegarde annulee."
+            git reset -q
+            exit 1
+          fi
+      - name: Sauvegarder la bibliotheque et l'etat (file, historique, rapports)
         run: |
           git config user.name 'vdn-research-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add knowledge/ output/
-          if ! git diff --cached --quiet; then
-            git commit -m "research: V5 $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau a sauvegarder."
+            exit 0
           fi
+          git commit -q -m "research: V5.5 cycle $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push -q; then echo "Sauvegarde poussee (essai $attempt)."; exit 0; fi
+            echo "Push refuse (quelqu'un a pousse entre-temps) : integration puis nouvel essai."
+            if ! git pull -q --rebase; then
+              git rebase --abort || true
+              echo "Conflit Git : rien n'est ecrase, la sauvegarde de ce cycle est abandonnee."
+              exit 1
+            fi
+            sleep $((attempt * 10))
+          done
+          echo "Push impossible apres 3 essais."
+          exit 1
+      - name: Resume visible dans l'onglet Actions
+        if: always()
+        run: |
+          {
+            echo "## VDN - cycle du $(date -u +'%Y-%m-%d %H:%M') UTC"
+            if [ -f output/last_cycle.json ]; then
+              python - <<'PY'
+          import json
+          s = json.load(open("output/last_cycle.json", encoding="utf-8"))
+          q = s.get("queue", {})
+          print(f"- Fin : {s.get('stop_reason')} - recherches : {len(s.get('items', []))} - fiches creees : {s.get('created')} "
+                f"- relances : {s.get('followups_added')} - erreurs : {len(s.get('errors', []))}")
+          print(f"- File : {q.get('counts', {}).get('pending')} en attente, {q.get('counts', {}).get('done')} faites, "
+                f"aujourd'hui : {q.get('daily', {}).get('items')}")
+          for it in s.get("items", []):
+              print(f"- `{it['query']}` ({it['topic']}) : {it.get('status')}, fiches {it.get('created', 0)}")
+          print("- Prochaines : " + " / ".join(n["query"] for n in q.get("next", [])))
+          PY
+            fi
+            r="output/reports/$(date -u +%Y-%m-%d).md"
+            [ -f "$r" ] && echo && echo "Rapport du jour : \`$r\`"
+          } >> "$GITHUB_STEP_SUMMARY"

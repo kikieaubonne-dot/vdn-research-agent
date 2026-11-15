@@ -40,6 +40,27 @@
      "subtopics": ["modular architecture", "materials", "lighting", "props", "performance"]},
     {"id": "traversal", "domain": "animation", "title": "Parkour et obstacles forestiers", "priority": 5,
      "queries": ["ledge shimmy system", "parkour climbing animation", "IK foot placement"],
-     "subtopics": ["ledge shimmy", "backjump", "climbing", "camera", "collision", "tutorial"]}
+     "subtopics": ["ledge shimmy", "backjump", "climbing", "camera", "collision", "tutorial"]},
+    {"id": "fps_camera", "domain": "gameplay", "title": "Caméra première personne immersive", "priority": 9,
+     "queries": ["first person camera", "camera bobbing CFrame", "viewmodel arms camera", "camera sway mouse"],
+     "subtopics": ["first person", "camera", "viewmodel", "head bob", "sway", "CFrame"]},
+    {"id": "movement", "domain": "gameplay", "title": "Mouvements et contrôleur de personnage", "priority": 8,
+     "queries": ["custom character controller", "crouch sprint stamina", "vault mantle system", "Humanoid WalkSpeed smoothing"],
+     "subtopics": ["crouch", "sprint", "vault", "mantle", "Humanoid", "controller"]},
+    {"id": "fp_hands", "domain": "animation", "title": "Mains et bras en vue FPS", "priority": 8,
+     "queries": ["first person arms rig", "viewmodel animation", "hands flashlight animation", "arms Motor6D viewmodel"],
+     "subtopics": ["arms", "hands", "viewmodel", "Motor6D", "flashlight"]},
+    {"id": "blender_animation", "domain": "animation", "title": "Animations Blender vers Roblox", "priority": 8,
+     "queries": ["Blender animation export Roblox", "Animation Editor import fbx", "animation priority blending", "KeyframeSequence import"],
+     "subtopics": ["Blender", "fbx", "Animation Editor", "keyframe", "priority", "AnimationTrack"]},
+    {"id": "rigging", "domain": "animation", "title": "Rigging et skinning", "priority": 7,
+     "queries": ["skinned mesh rig", "Blender rig R15 export", "bones weight painting", "custom rig Motor6D"],
+     "subtopics": ["bones", "skinning", "weights", "R15", "Motor6D", "rig"]},
+    {"id": "spatial_audio", "domain": "audio", "title": "Sons spatialisés et ambiance", "priority": 7,
+     "queries": ["spatial audio emitter", "AudioEmitter AudioListener", "Sound RollOff distance", "reverb SoundService ambient"],
+     "subtopics": ["AudioEmitter", "AudioListener", "RollOff", "reverb", "ambient", "footsteps"]},
+    {"id": "immersive_gameplay", "domain": "gameplay", "title": "Gameplay immersif et infiltration", "priority": 7,
+     "queries": ["stealth detection system", "AI hearing noise", "interaction prompt immersive", "door interaction physics"],
+     "subtopics": ["stealth", "detection", "noise", "interaction", "ProximityPrompt", "AI"]}
   ]
 }
