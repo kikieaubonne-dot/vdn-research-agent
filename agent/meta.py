@@ -38,9 +38,19 @@ def choose(state,provider,topic):
     total=sum(arms[x]['n'] for x in STRATEGIES)
     return max(STRATEGIES,key=lambda x:(arms[x]['reward']/arms[x]['n']+0.65*math.sqrt(math.log(total)/arms[x]['n']),-STRATEGIES.index(x)))
 
+def trial_metrics(evaluated, accepted, new_count=0, error=None):
+    """Diagnostics observables; never equate relevance with factual verification."""
+    scores=[float(x.get('relevance',0)) for x in evaluated]
+    return {'returned':len(evaluated), 'accepted':len(accepted),
+            'rejected':len(evaluated)-len(accepted),
+            'new':new_count, 'avg_relevance':round(sum(scores)/len(scores),4) if scores else None,
+            'error':str(error)[:200] if error else None}
+
 def record(state,provider,topic,strategy,rewards):
     key=f'{provider}:{topic}'; arm=state.setdefault('arms',{}).setdefault(key,{}).setdefault(strategy,{'n':0,'reward':0.0})
     arm['n']+=1; arm['reward']+=sum(rewards)/max(1,len(rewards))
+    arm['empty'] = arm.get('empty',0) + (1 if not rewards else 0)
+    arm['returned'] = arm.get('returned',0) + len(rewards)
 
 def assess(items,query,topic,threshold=0.40):
     evaluated=[{'title':i.get('title',''),'url':i.get('url',''),'relevance':relevance(i,query,topic)} for i in items]
@@ -50,11 +60,25 @@ def report(root=ROOT):
     root=Path(root); p=root/'output/meta_state.json'; state=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
     lines=['# VDN — Rapport méta-recherche','',
            'Ces scores mesurent la pertinence apparente des résultats, **pas** la véracité des techniques.','',
-           '| Source et sujet | Stratégie | Sessions | Récompense moyenne |','|---|---|---:|---:|']
+           '| Source et sujet | Stratégie | Sessions | Résultats | Sessions vides | Récompense moyenne |','|---|---|---:|---:|---:|---:|']
     for key,arms in sorted(state.get('arms',{}).items()):
         for name,values in sorted(arms.items()):
-            n=values['n'];lines.append(f'| {key} | {name} | {n} | {values["reward"]/n:.2f} |')
-    lines+=['','## Sécurité et limites','',
+            n=values['n'];lines.append(f'| {key} | {name} | {n} | {values.get("returned","?")} | {values.get("empty","?")} | {values["reward"]/n:.2f} |')
+    last=root/'output/last_run.json'
+    if last.exists():
+        try:
+            run=json.loads(last.read_text(encoding='utf-8'))
+            lines+=['','## Diagnostic dernière exécution','',
+                    f'- Requêtes : {run.get("queries", "?")}',
+                    f'- Nouvelles fiches : {run.get("discovered", "?")}',
+                    f'- Erreurs : {len(run.get("errors",[]))}',
+                    '', '| Fournisseur | Sujet | Stratégie | Retournés | Acceptés | Nouveaux | Pertinence moyenne |',
+                    '|---|---|---|---:|---:|---:|---:|']
+            for trial in run.get('strategy_trials',[]):
+                avg=trial.get('avg_relevance')
+                lines.append(f'| {trial.get("provider")} | {trial.get("topic")} | {trial.get("strategy")} | {trial.get("results",0)} | {trial.get("accepted",0)} | {trial.get("new",0)} | {avg if avg is not None else "N/A"} |')
+        except (ValueError,OSError): pass
+    lines+=['','## Sécurité et limites' ,'',
             '- Aucune modification automatique de code ni exécution de code provenant du web.',
             '- Les sources ne sont pas des instructions ; les résultats doivent être vérifiés.',
             '- Les stratégies changent seulement les requêtes ; retour arrière possible en supprimant meta_state.json.',
