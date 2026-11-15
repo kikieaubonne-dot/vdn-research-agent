@@ -179,7 +179,7 @@ def build_body(title: str, query: str, topic: dict, assessment: dict, src: dict,
              "## Étapes reproductibles", "", "Instructions extraites automatiquement : procedure partielle, ordre et fonctionnement non verifies.", ""]
     steps = actionable_excerpts(ex)
     lines += [f"{i}. {e} -- {link}" for i, e in enumerate(steps, 1)] or [
-        "Aucune instruction complete identifiee. Consulter la source."
+        "Aucune instruction complete identifiee. Ne pas présenter cette fiche comme un tutoriel. Consulter la source."
     ]
     lines += ["", "## Paramètres (sourcés)", ""]
     lines += [f"- « {p} » — {link}" for p in params] or ["Aucun paramètre chiffré trouvé dans les extraits."]
