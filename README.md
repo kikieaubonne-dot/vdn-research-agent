@@ -1,5 +1,30 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V8 — moteur local de connaissances pour Claude
+
+V8 réutilise les fiches et le SQLite existants : recherche FR/EN, lecture complète,
+instructions candidates sourcées, plan hors ligne et retours d'expérience séparés.
+Aucune dépendance pip, aucun service payant obligatoire et aucune exécution graphique.
+
+```sh
+python -m agent.local search "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?"
+python -m agent.local procedures "créer un sapin enneigé réaliste pour Roblox"
+python -m agent.local plan "Je veux refaire entièrement la forêt enneigée de mon jeu d'horreur Roblox."
+python vdn_mcp.py
+python -m tests.offline
+```
+
+Le serveur MCP V8 utilise stdio, sans port réseau ; les écritures d'expérience
+sont désactivées par défaut. Les commandes V7 et le serveur historique restent
+disponibles. Le benchmark historique passe à hit@3 = 1,0 et MRR = 1,0 sur son petit
+corpus ; ce résultat ne valide pas les techniques dans Roblox.
+
+[Installation Windows](docs/WINDOWS_V8_SETUP.md) ·
+[Claude Desktop/MCP](docs/CLAUDE_DESKTOP_V8.md) ·
+[Rapport V8](docs/AUTONOMY_V8_REPORT.md) ·
+[Benchmark](docs/AUTONOMY_V8_RAG_REPORT.md) ·
+[Démonstrations](docs/demos/v8/README.md)
+
 Agent de **veille et découverte** de ressources techniques Roblox/Blender pour *Le Voisin de Noël*. Python standard library uniquement. **Aucune clé API, aucun LLM, aucun abonnement requis.**
 
 ## Évolution V7 — recherche bornée et diagnostics de preuves

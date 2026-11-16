@@ -1,0 +1,17 @@
+{
+  "description": "Development queries authored from source titles/content before choosing a ranking policy. Disjoint queries from rag_queries.json; one engineer, small sample, no claim of independent semantic labels.",
+  "queries": [
+    {"q": "armature imported eyes glitch", "expected": ["vdn-1290b940c378"]},
+    {"q": "decalage RootPart apres importation FBX", "expected": ["vdn-1290b940c378"]},
+    {"q": "bone rig visual glitches", "expected": ["vdn-1290b940c378"]},
+    {"q": "foliage mesh atlas workflow", "expected": ["vdn-93c1fa214202"]},
+    {"q": "texture feuillage atlas creation", "expected": ["vdn-93c1fa214202"]},
+    {"q": "opaque MeshPart AlphaMode banding", "expected": ["vdn-319f4403f590"]},
+    {"q": "leaf transparency Player distance", "expected": ["vdn-9f9338e2736f"]},
+    {"q": "attacher articulations personnage camera", "expected": ["vdn-3fe122d267fa"]},
+    {"q": "RenderFidelity LevelOfDetail streaming trees", "expected": ["vdn-d5dda0d02f6d", "vdn-5aa463725976"]},
+    {"q": "Atmosphere Density Haze fog", "expected": ["vdn-6055d2f0bb67"]},
+    {"q": "Blender FBX export erreur", "expected": ["vdn-564f653d5fbf"]},
+    {"q": "night atmospheric effects forest", "expected": ["vdn-6055d2f0bb67"]}
+  ]
+}

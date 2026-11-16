@@ -1,0 +1,2868 @@
+{
+  "schema": "vdn.demonstration/8",
+  "scenario": "snowy_tree",
+  "input": "Comment créer un sapin enneigé extrêmement réaliste pour Roblox ?",
+  "search": {
+    "schema": "vdn.search/8",
+    "query": "Comment créer un sapin enneigé extrêmement réaliste pour Roblox ?",
+    "results": [
+      {
+        "id": "vdn-5bbf6043ed9c",
+        "title": "Class: SurfaceAppearance",
+        "excerpt": "Répondre à : *foliage SurfaceAppearance transparency* (sujet : Épicéa enneigé réaliste).",
+        "heading": "Objectif",
+        "relevance_score": 17.8973,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 17.897258970757047,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/vegetation/5bbf6043ed9c-class-surfaceappearance.md",
+        "domain": "vegetation",
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-d5dda0d02f6d",
+        "title": "Manage level of detail settings on Roblox",
+        "excerpt": "Répondre à : *foliage alpha distance* (sujet : Épicéa enneigé réaliste).",
+        "heading": "Objectif",
+        "relevance_score": 16.822,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 16.821955053291887,
+          "source_prior": 0.9000000000000001
+        },
+        "path": "knowledge/vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox.md",
+        "domain": "vegetation",
+        "sources": [
+          "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-93c1fa214202",
+        "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+        "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Texture Atlases - Creating Foliage Texture and Meshes\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+        "heading": "_intro",
+        "relevance_score": 10.0555,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 10.05545159531208,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+        "domain": "vegetation",
+        "sources": [
+          "https://devforum.roblox.com/t/3171224"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified.",
+          "affirmations sans extraits attribuables : non verifiees"
+        ]
+      },
+      {
+        "id": "vdn-319f4403f590",
+        "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+        "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 4 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/surfaceappearance-alphamodetransparency-renders-in-bands-on-opaque-meshparts/4822477)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+        "heading": "_intro",
+        "relevance_score": 9.7068,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 9.706835459157036,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+        "domain": "vegetation",
+        "sources": [
+          "https://devforum.roblox.com/t/4822477"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified.",
+          "affirmations sans extraits attribuables : non verifiees"
+        ]
+      },
+      {
+        "id": "vdn-9f9338e2736f",
+        "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+        "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+        "heading": "_intro",
+        "relevance_score": 8.1287,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 8.12866728757944,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+        "domain": "vegetation",
+        "sources": [
+          "https://devforum.roblox.com/t/4525371"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified.",
+          "affirmations sans extraits attribuables : non verifiees"
+        ]
+      }
+    ],
+    "index_diagnostics": [],
+    "selection_policy": "explicit Roblox tasks prefer Roblox-scoped sources; then query coverage, title coverage, text BM25; evidence reported separately",
+    "tokens_estimated_passages": 2272,
+    "untrusted_data": true
+  },
+  "procedures": {
+    "schema": "vdn.procedures/8",
+    "task": "Comment créer un sapin enneigé extrêmement réaliste pour Roblox ?",
+    "procedures": [
+      {
+        "note_id": "vdn-5bbf6043ed9c",
+        "title": "Class: SurfaceAppearance",
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+        ],
+        "candidate_steps": [
+          {
+            "text": "[MeshPart.Transparency](/docs/reference/engine/classes/MeshPart.md) is set to at least `0.02`, a different",
+            "source_note": "vdn-5bbf6043ed9c",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « Note that most [SurfaceAppearance](/docs/reference/engine/classes/SurfaceAppearance.md) properties cannot be modified by » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)"
+        ],
+        "parameters": [
+          "- « ### Property: SurfaceAppearance.AlphaMode » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « When set to [Transparency](/docs/reference/engine/enums/AlphaMode.md) and the » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « ### Property: SurfaceAppearance.ColorMap » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « [SurfaceAppearance.AlphaMode](/docs/reference/engine/classes/SurfaceAppearance.md) setting. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)"
+        ],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 17.897258970757047,
+          "source_prior": 1.5812499999999998
+        }
+      },
+      {
+        "note_id": "vdn-d5dda0d02f6d",
+        "title": "Manage level of detail settings on Roblox",
+        "sources": [
+          "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox"
+        ],
+        "candidate_steps": [],
+        "prerequisites": [],
+        "constraints": [
+          "- « I personally can't tell the difference between automatic and precise at this size and resolution and against the skybox, but maybe your mesh is more complex or your background less busy. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/videos/manage-level-of-detail-settings-on-roblox.md)"
+        ],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "insufficient_evidence",
+        "needs_verification": [
+          "actionable_steps",
+          "parameters",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 16.821955053291887,
+          "source_prior": 0.9000000000000001
+        }
+      },
+      {
+        "note_id": "vdn-93c1fa214202",
+        "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+        "sources": [
+          "https://devforum.roblox.com/t/3171224"
+        ],
+        "candidate_steps": [
+          {
+            "text": "Other types of textures can include: Trim textures, also known as trim sheets, are textures that combine multiple various elements of an object into a single texture, you can reuse trim textures for furniture, walls, and other similarly themed decor.",
+            "source_note": "vdn-93c1fa214202",
+            "source_urls": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "verified": false
+          },
+          {
+            "text": "See How to Create Tiling Textures for a primer on creating this common texture type.",
+            "source_note": "vdn-93c1fa214202",
+            "source_urls": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "verified": false
+          },
+          {
+            "text": "When creating foliage for games, the first order of business is to understand the components that come together to create these assets; Textures and Meshes.",
+            "source_note": "vdn-93c1fa214202",
+            "source_urls": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.",
+            "source_note": "vdn-93c1fa214202",
+            "source_urls": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 10.05545159531208,
+          "source_prior": 1.1385
+        }
+      },
+      {
+        "note_id": "vdn-319f4403f590",
+        "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+        "sources": [
+          "https://devforum.roblox.com/t/4822477"
+        ],
+        "candidate_steps": [
+          {
+            "text": "Impact This rules out a large amount of what AlphaMode.Transparency is supposed to enable for in-game assets: soft edges, dissolves, fades, foliage cards, glass falloff, wear and decay effects, and layered surface detail.",
+            "source_note": "vdn-319f4403f590",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 9.706835459157036,
+          "source_prior": 1.1385
+        }
+      },
+      {
+        "note_id": "vdn-9f9338e2736f",
+        "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+        "sources": [
+          "https://devforum.roblox.com/t/4525371"
+        ],
+        "candidate_steps": [
+          {
+            "text": "The transparency change appears to happen gradually with distance from the camera.",
+            "source_note": "vdn-9f9338e2736f",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4525371"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "sapin",
+            "enneige",
+            "realiste"
+          ],
+          "title_matched": [],
+          "coverage": 0.6,
+          "title_coverage": 0.0,
+          "text_bm25": 8.12866728757944,
+          "source_prior": 1.1385
+        }
+      }
+    ],
+    "complementary_sources": [
+      "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance",
+      "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox",
+      "https://devforum.roblox.com/t/3171224",
+      "https://devforum.roblox.com/t/4822477",
+      "https://devforum.roblox.com/t/4525371"
+    ],
+    "warning": "Extracted instructions are candidates; sources are not an executable or validated end-to-end tutorial."
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Comment créer un sapin enneigé extrêmement réaliste pour Roblox ?",
+    "profile": "snowy_tree",
+    "nodes": [
+      {
+        "id": "trunk",
+        "query": "tree trunk geometry",
+        "requires": [],
+        "reason": "geometrie de base manquante",
+        "references": [
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 17.2871,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "geometry"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 17.287112026196464,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 8.7013,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "trunk"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 8.70129634716779,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox texture…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 7.7075,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "geometry"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 7.7075172911857885,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "branches",
+        "query": "tree branch structure",
+        "requires": [
+          "trunk"
+        ],
+        "reason": "branches dependantes de la geometrie du tronc",
+        "references": [
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox texture…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 15.2061,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "branch"
+              ],
+              "title_matched": [
+                "branch"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 15.206120837670507,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-9f9338e2736f",
+            "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371  \n**Contenu :** DevForum  \n**Passages candidats :** 2\n\n### Passages et paramètres repérés\n\n- The transparency change appears to happen gradually with distance from the camera.\n- I tested each render fidelity setting, it had no impact.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox transparency implementation limitations troubleshooting\n- spruce Roblox render implementation limitations troubleshooting\n\n###…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 8.68,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "branch"
+              ],
+              "title_matched": [
+                "branch"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 8.6799958446835,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4525371"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-5bbf6043ed9c",
+            "title": "Class: SurfaceAppearance",
+            "excerpt": "Répondre à : *foliage SurfaceAppearance transparency* (sujet : Épicéa enneigé réaliste).",
+            "heading": "Objectif",
+            "relevance_score": 10.9957,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree",
+                "branch"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 10.99569074932576,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/vegetation/5bbf6043ed9c-class-surfaceappearance.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trunk"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "needles",
+        "query": "pine needles geometry",
+        "requires": [
+          "branches"
+        ],
+        "reason": "choisir la representation des aiguilles",
+        "references": [
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox texture…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 18.1214,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "needle",
+                "geometry"
+              ],
+              "title_matched": [
+                "needle"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 18.121430893292228,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 25.1074,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "needle",
+                "geometry"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 25.107404653632226,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-9f9338e2736f",
+            "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://devforum.roblox.com/t/foliage-using-surfaceappearance-become-highly-transparent-at-distance-in-roblox-player-graphics-9-but-renders-correctly-in-studio/4525371  \n**Contenu :** DevForum  \n**Passages candidats :** 2\n\n### Passages et paramètres repérés\n\n- The transparency change appears to happen gradually with distance from the camera.\n- I tested each render fidelity setting, it had no impact.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox transparency implementation limitations troubleshooting\n- spruce Roblox render implementation limitations troubleshooting\n\n###…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 8.68,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "needle"
+              ],
+              "title_matched": [
+                "needle"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 8.6799958446835,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4525371"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "branches"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "alpha",
+        "query": "foliage alpha cards",
+        "requires": [
+          "needles"
+        ],
+        "reason": "representation performante du feuillage",
+        "references": [
+          {
+            "id": "vdn-319f4403f590",
+            "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://devforum.roblox.com/t/surfaceappearance-alphamodetransparency-renders-in-bands-on-opaque-meshparts/4822477  \n**Contenu :** DevForum  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Examples 1098×1117 56.3 KB Two things narrow this down a lot: It does not happen on Decal or Texture .\n- At Transparency = 0.011 it renders correctly.\n- This looks like a blend-mode or sort-order selection issue rather than a hardware or texture-format limitation, which means it’s solvable.\n- The 0.011 transparency trick is not a usable workaround.\n- Impact This rules out a large amount…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 15.364,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "alpha",
+                "card"
+              ],
+              "title_matched": [
+                "alpha"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 15.363982787632956,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 15.7908,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "alpha",
+                "card"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 15.79077131375626,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-713de5a2c6e6",
+            "title": "leonisbel/night-hunt",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/leonisbel/night-hunt  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- - **Volumetric fog and god rays:** moonlight shafts through the trees use the shadow map, and your flashlight beam lights the fog, with its own shadows.\n- - **Dense foliage:** trees are rebuilt from alpha-card leaves and needles cut from plant scans.\n- - **PBR surfaces on every monster:** each body part is mapped to a real material: animatronic teddy fur and rusted endoskeletons, scaly reptile hide with pale-belly countershading, wet glossy shark and…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 14.2283,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "alpha",
+                "card"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 14.228324466277167,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/leonisbel/night-hunt"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "unknown",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox compatibility is not established by the available source excerpts."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "needles"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "uv",
+        "query": "foliage UV atlas",
+        "requires": [
+          "alpha"
+        ],
+        "reason": "UV necessaires aux textures du feuillage",
+        "references": [
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox texture…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 24.4537,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "atla"
+              ],
+              "title_matched": [
+                "foliage",
+                "atla"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 24.453710880808238,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 7.8203,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "atla"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 7.8202926274357605,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-9758995985bd",
+            "title": "Material",
+            "excerpt": "> « | `Wood` | 512 | Applies to [BasePart](/docs/reference/engine/classes/BasePart.md) only. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/enums/Material.md), consulté le 2026-11-15\n\n> « | `ForceField` | 1584 | Must be used on a [MeshPart](/docs/reference/engine/classes/MeshPart.md) with UVs laid out to cover much of the 0:1 UV space or more (larger is better). »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/enums/Material.md), consulté le 2026-11-15\n\n> « The [MeshPart](/docs/reference/engine/classes/MeshPart.md) must also have a texture applied to its [TextureID](/docs/reference/engine/classes/MeshPart.md), and that…",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 5.6733,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "uv",
+                "atla"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 5.673284686593092,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/snow/9758995985bd-material.md",
+            "domain": "snow",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/enums/Material"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "alpha"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "pbr",
+        "query": "SurfaceAppearance PBR textures",
+        "requires": [
+          "uv"
+        ],
+        "reason": "materiaux et contraintes moteur a documenter",
+        "references": [
+          {
+            "id": "vdn-bbea6ee659d1",
+            "title": "Export PBR textures from Blender (Water)",
+            "excerpt": "- « I also didn’t use the ColorMap property. » — [Roblox DevForum](https://devforum.roblox.com/t/export-pbr-textures-from-blender-water/1175137)\n- « really good job w those texture maps and use of lighting properties » — [Roblox DevForum](https://devforum.roblox.com/t/export-pbr-textures-from-blender-water/1175137)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 12.0347,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 12.034655436793585,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/bbea6ee659d1-export-pbr-textures-from-blender-water.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1175137"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Texture Atlases - Creating Foliage Texture and Meshes\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 15.752,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 15.752018797049828,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-f7dfa278922f",
+            "title": "How would I export this texture?",
+            "excerpt": "Répondre à : *Blender export Roblox fbx* (sujet : Rendu PBR et maillages).",
+            "heading": "Objectif",
+            "relevance_score": 9.7975,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 9.797541216674052,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/f7dfa278922f-how-would-i-export-this-texture.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1162127"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "uv"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "snow",
+        "query": "snow accumulation mesh",
+        "requires": [
+          "branches",
+          "pbr"
+        ],
+        "reason": "neige sur les surfaces de branches",
+        "references": [
+          {
+            "id": "vdn-fe4c577081af",
+            "title": "Collisions On Meshs",
+            "excerpt": "Répondre à : *snow accumulation mesh* (sujet : Neige, givre et traces).",
+            "heading": "Objectif",
+            "relevance_score": 24.6932,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "accumulation",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 24.693202450482904,
+              "source_prior": 0.7920000000000001
+            },
+            "path": "knowledge/snow/fe4c577081af-collisions-on-meshs.md",
+            "domain": "snow",
+            "sources": [
+              "https://devforum.roblox.com/t/1193996"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Texture Atlases - Creating Foliage Texture and Meshes\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 9.5958,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 9.59577339529071,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-319f4403f590",
+            "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 4 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/surfaceappearance-alphamodetransparency-renders-in-bands-on-opaque-meshparts/4822477)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 3.3018,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 3.3017639416366893,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "branches",
+          "pbr"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "lod",
+        "query": "foliage LOD performance",
+        "requires": [
+          "alpha"
+        ],
+        "reason": "budget de rendu et niveaux de detail",
+        "references": [
+          {
+            "id": "vdn-9f9338e2736f",
+            "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+            "excerpt": "- [ ] Mesurer qualité et performance",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 13.5908,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "lod",
+                "performance"
+              ],
+              "title_matched": [
+                "foliage",
+                "lod"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 13.590769094140743,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4525371"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-086c1f6e4a3b",
+            "title": "Terrain Editor",
+            "excerpt": "- Quelles limites Roblox (performances, rendu à distance, appareils) pour « terrain decoration grass » ?\n- Le résultat tient-il de nuit, à la lampe torche, sur mobile ?",
+            "heading": "Questions ouvertes",
+            "relevance_score": 10.109,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "foliage",
+                "lod",
+                "performance"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 10.108967479637625,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/terrain/086c1f6e4a3b-terrain-editor.md",
+            "domain": "terrain",
+            "sources": [
+              "https://create.roblox.com/docs/studio/terrain-editor"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-0df57a89fa73",
+            "title": "Design for performance",
+            "excerpt": "> « Or you could examine the **Developer Console** (`F9`) and note that memory usage is a bit high unless you enable [streaming](/docs/en-us/workspace/streaming.md). »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « - To preview your game at different quality levels in Studio, open [Studio Settings](/docs/en-us/studio/setup.md#customization), select **Rendering**, and change **Editor Quality Level**. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « Check your [streaming](/docs/en-us/workspace/streaming.md)…",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 11.6832,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "lod",
+                "performance"
+              ],
+              "title_matched": [
+                "performance"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 11.683231340833657,
+              "source_prior": 0.9000000000000001
+            },
+            "path": "knowledge/forest/0df57a89fa73-design-for-performance.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "alpha"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "wind",
+        "query": "tree wind bones",
+        "requires": [
+          "branches"
+        ],
+        "reason": "animation du vent et rig de branches",
+        "references": [
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "excerpt": "- character Roblox export implementation limitations troubleshooting\n- character Roblox bones implementation limitations troubleshooting\n\n### Validation requise\n\n- [ ] Vérifier chaque passage dans la source complète\n- [ ] Confirmer les limitations Roblox actuelles\n- [ ] Tester dans Roblox Studio ET Roblox Player\n- [ ] Mesurer qualité et performance",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 12.1059,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "bone"
+              ],
+              "title_matched": [
+                "bone"
+              ],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 12.10589922699966,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+            "domain": "characters",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 13.7824,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 13.782379691749117,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 8.7013,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 8.70129634716779,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "branches"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "lighting",
+        "query": "night forest lighting",
+        "requires": [
+          "pbr"
+        ],
+        "reason": "tester le rendu des materiaux sous eclairage nocturne",
+        "references": [
+          {
+            "id": "vdn-a27deff12d34",
+            "title": "Class: Lighting",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 22.4744,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 22.474416186560035,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/a27deff12d34-class-lighting.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-a374396f6529",
+            "title": "Lighting problems",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 22.4744,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 22.474416186560035,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/forest/a374396f6529-lighting-problems.md",
+            "domain": "forest",
+            "sources": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-85f4cbd2e11c",
+            "title": "Enhance outdoor environments with realistic lighting",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 21.5015,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 21.501529141822306,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/85f4cbd2e11c-enhance-outdoor-environments-with-realistic-lighti.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "pbr"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "export",
+        "query": "Blender Roblox fbx export",
+        "requires": [
+          "uv"
+        ],
+        "reason": "compatibilite du pipeline Blender vers Roblox",
+        "references": [
+          {
+            "id": "vdn-564f653d5fbf",
+            "title": "Error When Exporting as fbx from Blender",
+            "excerpt": "- « I’m getting an error every time I try to export some meshes from Blender. » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « Also, have you attempted to export it as any other file type other than FBX? » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « The last option is exporting it as a .obj, importing and exporting the import as fbx again. » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « I haven’t, but I like exporting as an fbx file so I can bulk import into studio » — [Roblox…",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 23.1593,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 23.159327079332087,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/564f653d5fbf-error-when-exporting-as-fbx-from-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1159486"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "excerpt": "- « If you run into scaling issues on import, see [Blender FBX scaling](/docs/en-us/art/blender.md#adjust-scale-fbx) for alternative approaches. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 17.2322,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 17.23220178512299,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-c73ed30815b8",
+            "title": "How do I export objects separately in blender?",
+            "excerpt": "> « You can export objects that you’ve selected by checking the “Selected Objects” box when exporting; this will allow you to export objects separately instead of the entire mesh: »\n> — [Roblox DevForum](https://devforum.roblox.com/t/how-do-i-export-objects-separately-in-blender/1195366), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 12.2604,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 12.260381911184744,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/c73ed30815b8-how-do-i-export-objects-separately-in-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1195366"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "uv"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false
+      }
+    ],
+    "construction_order": [
+      "trunk",
+      "branches",
+      "needles",
+      "alpha",
+      "uv",
+      "pbr",
+      "snow",
+      "lod",
+      "wind",
+      "lighting",
+      "export"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    }
+  },
+  "executed_in_blender": false,
+  "executed_in_roblox": false,
+  "connected_to_claude": false
+}

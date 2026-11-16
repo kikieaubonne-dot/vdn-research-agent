@@ -14,5 +14,8 @@ __pycache__/
 # V5.5 : verrou du cycle autonome (jamais versionne)
 output/vdn.lock
 output/vdn.guard
+
+# V8: local, unverified experiment reports are user data, never source code.
+experiments/
 # Parametres personnels Obsidian (locaux, jamais publies)
 knowledge/.obsidian/

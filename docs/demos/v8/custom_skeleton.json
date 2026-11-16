@@ -1,0 +1,999 @@
+{
+  "schema": "vdn.demonstration/8",
+  "scenario": "custom_skeleton",
+  "input": "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?",
+  "search": {
+    "schema": "vdn.search/8",
+    "query": "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?",
+    "results": [
+      {
+        "id": "vdn-1290b940c378",
+        "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+        "excerpt": "À compléter après expérimentation.",
+        "heading": "Résultat du test",
+        "relevance_score": 48.6308,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "os",
+            "squelette",
+            "personnalise",
+            "bugguent",
+            "apre",
+            "importation"
+          ],
+          "title_matched": [
+            "os",
+            "squelette",
+            "personnalise",
+            "bugguent",
+            "importation"
+          ],
+          "coverage": 0.75,
+          "title_coverage": 0.625,
+          "text_bm25": 48.630767280347214,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+        "domain": "characters",
+        "sources": [
+          "https://devforum.roblox.com/t/4747045"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified.",
+          "affirmations sans extraits attribuables : non verifiees"
+        ]
+      },
+      {
+        "id": "vdn-326d0bf06b35",
+        "title": "Export from Blender",
+        "excerpt": "- « If you run into scaling issues on import, see [Blender FBX scaling](/docs/en-us/art/blender.md#adjust-scale-fbx) for alternative approaches. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)",
+        "heading": "Indices de procédure (non vérifiés)",
+        "relevance_score": 8.2312,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "bugguent",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 8.231201457316185,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md",
+        "domain": "rendering",
+        "sources": [
+          "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-0df57a89fa73",
+        "title": "Design for performance",
+        "excerpt": "> « - Built-in materials use far less memory than custom textures, but might not match your artistic vision. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « Try to use materials whenever possible in order to conserve memory budget for the textures that are central to your game. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « - When you add meshes and textures, use and reuse them rather than importing duplicate copies. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté…",
+        "heading": "Extraits justificatifs",
+        "relevance_score": 4.6014,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 4.601448792961979,
+          "source_prior": 0.9000000000000001
+        },
+        "path": "knowledge/forest/0df57a89fa73-design-for-performance.md",
+        "domain": "forest",
+        "sources": [
+          "https://create.roblox.com/docs/performance-optimization/design"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-9b7ec2ee95cd",
+        "title": "Apexgen Terminator",
+        "excerpt": "**Statut :** extrait source consulté ; conclusions non validées dans Roblox.\n\n**Contenu accessible :** DevForum ; 5 publication(s) examinée(s).\n\n### Passages techniques repérés (citations à contrôler dans la source)\n\n- Because of this (and IP reasons) we’ve agreed to drop the name “Protogen” from the model’s identity entirely and go with Apexgen, which is suitable considering the definition of “Apex” basically means peak performance, which you can only have through automation and materials that don’t wear away like organic material does… and As for the “gen” at the end, gen just sounded better then leaving it with “Apex”.\n\n- “Mesh deformation” Custom PBR SurfaceAppearances (“custom…",
+        "heading": "Analyse V2 — lecture partielle de la source",
+        "relevance_score": 2.4987,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 2.4986786495254343,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md",
+        "domain": "characters",
+        "sources": [
+          "https://devforum.roblox.com/t/413017"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified.",
+          "affirmations sans extraits attribuables : non verifiees"
+        ]
+      },
+      {
+        "id": "vdn-6b1965d3e366",
+        "title": "Custom terrain materials",
+        "excerpt": "À compléter.",
+        "heading": "Alternatives",
+        "relevance_score": 5.9106,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise"
+          ],
+          "title_matched": [
+            "personnalise"
+          ],
+          "coverage": 0.125,
+          "title_coverage": 0.125,
+          "text_bm25": 5.910598832914887,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/snow/6b1965d3e366-custom-terrain-materials.md",
+        "domain": "snow",
+        "sources": [
+          "https://create.roblox.com/docs/parts/custom-terrain-materials"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      }
+    ],
+    "index_diagnostics": [],
+    "selection_policy": "explicit Roblox tasks prefer Roblox-scoped sources; then query coverage, title coverage, text BM25; evidence reported separately",
+    "tokens_estimated_passages": 2454,
+    "untrusted_data": true
+  },
+  "procedures": {
+    "schema": "vdn.procedures/8",
+    "task": "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?",
+    "procedures": [
+      {
+        "note_id": "vdn-1290b940c378",
+        "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+        "sources": [
+          "https://devforum.roblox.com/t/4747045"
+        ],
+        "candidate_steps": [
+          {
+            "text": "All transforms ( Ctrl + A → All Transforms) were applied to both the meshes and the armature in Blender prior to export.",
+            "source_note": "vdn-1290b940c378",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Issue 2: Eye Bones / Visual Bug with Face Rigging The Problem: I cannot animate the eyes because the eye bones or their associated geometry are glitching/not showing up correctly after import.",
+            "source_note": "vdn-1290b940c378",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "os",
+            "squelette",
+            "personnalise",
+            "bugguent",
+            "apre",
+            "importation"
+          ],
+          "title_matched": [
+            "os",
+            "squelette",
+            "personnalise",
+            "bugguent",
+            "importation"
+          ],
+          "coverage": 0.75,
+          "title_coverage": 0.625,
+          "text_bm25": 48.630767280347214,
+          "source_prior": 1.1385
+        }
+      },
+      {
+        "note_id": "vdn-326d0bf06b35",
+        "title": "Export from Blender",
+        "sources": [
+          "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+        ],
+        "candidate_steps": [
+          {
+            "text": "description: \"Use Blender's .fbx exporter with the correct settings to create a Studio-ready asset.\"",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "In the topbar, click **File** > **Export** > **FBX (.fbx)**.",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "On the right-hand side, set **Path Mode** to **Copy**, then toggle the **Embed Textures** button.",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "In the **Transform** section, set **Apply Scalings** to **FBX Unit Scale**.",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "If you run into scaling issues on import, see [Blender FBX scaling](/docs/en-us/art/blender.md#adjust-scale-fbx) for alternative approaches.",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « > **Warning:** If you are creating your own accessory object, it's important to clean up your project, which can involve deleting or removing any extra objects, such as lights, cameras, or mannequins, to ensure you only export the accessory mesh, and applying any modifiers to your mesh object. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)"
+        ],
+        "parameters": [],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "parameters",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "bugguent",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 8.231201457316185,
+          "source_prior": 1.5812499999999998
+        }
+      },
+      {
+        "note_id": "vdn-0df57a89fa73",
+        "title": "Design for performance",
+        "sources": [
+          "https://create.roblox.com/docs/performance-optimization/design"
+        ],
+        "candidate_steps": [
+          {
+            "text": "- If you want to support lower-end devices, choose at least one \"baseline\" device, [test your game on it](/docs/en-us/performance-optimization/test-on-hardware.md) throughout the development process, and pay close attention to frame rate and memory usage.",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Or you could examine the **Developer Console** (`F9`) and note that memory usage is a bit high unless you enable [streaming](/docs/en-us/workspace/streaming.md).",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Check your [streaming](/docs/en-us/workspace/streaming.md) `Class.Workspace.StreamingTargetRadius|StreamingTargetRadius` setting.",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          },
+          {
+            "text": "- Built-in materials use far less memory than custom textures, but might not match your artistic vision.",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Try to use materials whenever possible in order to conserve memory budget for the textures that are central to your game.",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          },
+          {
+            "text": "- When you add meshes and textures, use and reuse them rather than importing duplicate copies.",
+            "source_note": "vdn-0df57a89fa73",
+            "source_urls": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [
+          "- « If the frame rate starts to drop in a particularly cluttered area, you could examine the **Draw (scene)** numbers and determine that you need to stay below 1,000 draw calls and 1,000,000 triangles for the game to run well on your baseline device. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md)"
+        ],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 4.601448792961979,
+          "source_prior": 0.9000000000000001
+        }
+      },
+      {
+        "note_id": "vdn-9b7ec2ee95cd",
+        "title": "Apexgen Terminator",
+        "sources": [
+          "https://devforum.roblox.com/t/413017"
+        ],
+        "candidate_steps": [
+          {
+            "text": "(A texture set refers to a set images that contai",
+            "source_note": "vdn-9b7ec2ee95cd",
+            "source_urls": [
+              "https://devforum.roblox.com/t/413017"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [
+            "affirmations sans extraits attribuables : non verifiees"
+          ],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise",
+            "importation"
+          ],
+          "title_matched": [],
+          "coverage": 0.25,
+          "title_coverage": 0.0,
+          "text_bm25": 2.4986786495254343,
+          "source_prior": 1.1385
+        }
+      },
+      {
+        "note_id": "vdn-6b1965d3e366",
+        "title": "Custom terrain materials",
+        "sources": [
+          "https://create.roblox.com/docs/parts/custom-terrain-materials"
+        ],
+        "candidate_steps": [
+          {
+            "text": "description: \"Enable Expanded Terrain to paint up to 62 custom materials onto terrain and take advantage of terrain performance improvements.\"",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Each material can use a custom color and an optional `Class.MaterialVariant` for custom textures.",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Enabling it swaps the terrain backend, so the place must reopen for the change to take effect.",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          },
+          {
+            "text": "If you edited a place with custom terrain materials during the Early Access program, you still need to set **Expanded Terrain** to **Enabled** on `Class.Workspace`.",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          },
+          {
+            "text": "In the [Properties](/docs/en-us/studio/properties.md) window, set **Expanded Terrain** to **Enabled**.",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Click the **+** icon to create a new terrain material.",
+            "source_note": "vdn-6b1965d3e366",
+            "source_urls": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [
+          "- « Each material can use a custom color and an optional `Class.MaterialVariant` for custom textures. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/parts/custom-terrain-materials.md)"
+        ],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "personnalise"
+          ],
+          "title_matched": [
+            "personnalise"
+          ],
+          "coverage": 0.125,
+          "title_coverage": 0.125,
+          "text_bm25": 5.910598832914887,
+          "source_prior": 1.5812499999999998
+        }
+      }
+    ],
+    "complementary_sources": [
+      "https://devforum.roblox.com/t/4747045",
+      "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+      "https://create.roblox.com/docs/performance-optimization/design",
+      "https://devforum.roblox.com/t/413017",
+      "https://create.roblox.com/docs/parts/custom-terrain-materials"
+    ],
+    "warning": "Extracted instructions are candidates; sources are not an executable or validated end-to-end tutorial."
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?",
+    "profile": null,
+    "nodes": [
+      {
+        "id": "question",
+        "query": "Pourquoi les os de mon squelette personnalisé bugguent-ils après importation dans Roblox ?",
+        "requires": [],
+        "reason": "question utilisateur",
+        "references": [
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "excerpt": "À compléter après expérimentation.",
+            "heading": "Résultat du test",
+            "relevance_score": 48.6308,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "os",
+                "squelette",
+                "personnalise",
+                "bugguent",
+                "apre",
+                "importation"
+              ],
+              "title_matched": [
+                "os",
+                "squelette",
+                "personnalise",
+                "bugguent",
+                "importation"
+              ],
+              "coverage": 0.75,
+              "title_coverage": 0.625,
+              "text_bm25": 48.630767280347214,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+            "domain": "characters",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "excerpt": "- « If you run into scaling issues on import, see [Blender FBX scaling](/docs/en-us/art/blender.md#adjust-scale-fbx) for alternative approaches. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 8.2312,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "bugguent",
+                "importation"
+              ],
+              "title_matched": [],
+              "coverage": 0.25,
+              "title_coverage": 0.0,
+              "text_bm25": 8.231201457316185,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-0df57a89fa73",
+            "title": "Design for performance",
+            "excerpt": "> « - Built-in materials use far less memory than custom textures, but might not match your artistic vision. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « Try to use materials whenever possible in order to conserve memory budget for the textures that are central to your game. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté le 2026-11-15\n\n> « - When you add meshes and textures, use and reuse them rather than importing duplicate copies. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/design.md), consulté…",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 4.6014,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "personnalise",
+                "importation"
+              ],
+              "title_matched": [],
+              "coverage": 0.25,
+              "title_coverage": 0.0,
+              "text_bm25": 4.601448792961979,
+              "source_prior": 0.9000000000000001
+            },
+            "path": "knowledge/forest/0df57a89fa73-design-for-performance.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      }
+    ],
+    "construction_order": [
+      "question"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    }
+  },
+  "executed_in_blender": false,
+  "executed_in_roblox": false,
+  "connected_to_claude": false
+}

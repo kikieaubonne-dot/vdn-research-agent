@@ -1,0 +1,1252 @@
+{
+  "schema": "vdn.rag-experiment/8",
+  "corpus": {
+    "knowledge/_index.md": "7f1e53922b214077fdc7e7b1473e941a0db7ee00447743241609e34ffa57825b",
+    "knowledge/animation/_index.md": "a887eefdc5b5282567944577fdd2688fa37a1d53d5a9ff46781891283afc51e2",
+    "knowledge/architecture/_index.md": "b323b8f253301254ceece39bae5d7b65118e3271ea684a5de105f2baf48e8f2d",
+    "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md": "f671da98d77ba997f986f8190c41f01e99bbc0788ced0c20b4e26495bd7dca69",
+    "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md": "f509d25faef4f4da7f44f36e702b63062123ca6351c5c700011b00b3af18a517",
+    "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md": "185bde2db8294629ae304c6b25b8f95d6cd018f17544f2dd75a9f1871a88c50f",
+    "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md": "6f965d6bf97800b5dffa12e1c6a69b0787d3efd71ab16dd3b0e231b2bfa962a9",
+    "knowledge/character/5563d7edddb928a8c603-introducing-the-avatar-evolution-studio-beta-.md": "bded4c5a05b20588a1d9c57cd46c9050f0fa03f2842130013c786d671cc1fdc8",
+    "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md": "81f1b81eaac2135053320f915dc7044ba8d0b3c5f2e2bdb240783ed8264ebbc7",
+    "knowledge/character/7c9148230c0c5d987aa5-easye3232-claude.md": "6b430d8c724ec5fa84ae6c10cc2e45a8bb40005d62652a605edb7e07b3853c07",
+    "knowledge/character/a7bbf30f7bd8bb213ab4-feature-request-bone-scaling-deformation-supp.md": "1cca160d8cd4106ac121b2902ba555fd23d8d8b1103130684f81903b3e25caf8",
+    "knowledge/character/cd36b4ab508c94142b62-meshula-labrcsf.md": "c037eb501371dbb59068dcabd6a4f0fce8746a3b0e83dc888d841c1f2d88f92b",
+    "knowledge/character/e5b19e9e416f5dc43289-bricklayer-an-all-in-one-editor-for-ai-assist.md": "c2ac4438f79b835c64a6b7b5d07edcfba3d544c2f4b6f8dcd57f0ad372a66df1",
+    "knowledge/character/e89c3407eecec9e33b00-colosseum-build.md": "5571d3bc433d8d93a5148d7c98fc2361c679e7fd85751d06ac4e23990265d90e",
+    "knowledge/character/eb583242d4f2d273b855-rakazenmun-roblox-skills.md": "2944556911935cff75660a25051ac5077f2f1f7615ac5318d8c542844e5d48c9",
+    "knowledge/characters/_index.md": "a08b7dc7bd2107576063621064aa729fade49fd8c4fc3e77fcb04335940da604",
+    "knowledge/forest/0df57a89fa73-design-for-performance.md": "1cda5818e750916d52d3ee375892c46c3a1a5889d2d2df0752dc3b98530fa1cb",
+    "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md": "e791a1cfc97d8b8bb0f810b01bc66b66a93204fde368d0fc92cad886fad5124a",
+    "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md": "1467f606e5a671b6b87398fd2d5331b33081446ec57b3f2ff3368bce5aece6bf",
+    "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md": "b1df8948eea8aa3e1d2dbe979836506d0c475c2308da183829c18c6eb87ad592",
+    "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md": "3a6ab4375512a292d90f9c672b36aa1583932430ab43b8e73b0d52e701c15b06",
+    "knowledge/forest/5aa463725976-improve-performance.md": "301e5387bfce103800e7e47a6be34216484bd82b26fb4c729d690599dea62f0a",
+    "knowledge/forest/6055d2f0bb67-atmospheric-effects.md": "223f615594ef6e32259e6b50fb8896b17dac92db59031a74679e89b7c24e31c4",
+    "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md": "82e0d6c77f4a36567b0dbf887edf84bf12e7bba4d12c38545f9890003106d42f",
+    "knowledge/forest/7f5fd0196f65-important-shadow-rendering-problem.md": "3e2a08c797da4ab4921df2be9b6c3055904acd2c8e7c55ccf7c3bcba395f6bde",
+    "knowledge/forest/81efd37897cce6558935-terrain-artist-level-desginer.md": "4625b6f154da8bb417a28f98082ccad9997b536fb0ee1aca4b97c2817c222d19",
+    "knowledge/forest/85f4cbd2e11c-enhance-outdoor-environments-with-realistic-lighti.md": "c63e00d87239948cea44692a9b1d0032f471a1db377642278027473266afb4af",
+    "knowledge/forest/8ab2da92840577263663-coolbat-awesome-opus-5-5-usecase.md": "01816eda45f7e78c5e80db8227ba5f6e2c5169f40cc215c1232c0036f4059fa6",
+    "knowledge/forest/93c5104f8fb0976c0abf-hakkkk5-warfront-systemsroblox.md": "3702143623078ae19c2443be6e67ec3a38582b7456727f380e332747557a4eb8",
+    "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md": "edbbb06d453a6dfac53ba4fafc5346926e79d347b4b5b9c050ce607aeaf3d51f",
+    "knowledge/forest/_index.md": "798c0cf7595804f233c0819e250218ba538a2cd9ea190a3791552ae84ec5458a",
+    "knowledge/forest/a27deff12d34-class-lighting.md": "81f02ef0120a93f65e35bf69f1ec66460d0e2380ef4fdd556ebe24ad5e76f263",
+    "knowledge/forest/a374396f6529-lighting-problems.md": "ceb045b748ef8ea0f2cd4040f621727e736895407f0f8541d913033598afb841",
+    "knowledge/forest/a97042f85138-frustum-streaming.md": "5eb35f3323d4e054b944d9d512360f86cc27f42ae0e084a92646418302becd7c",
+    "knowledge/forest/bacef24c5251333f5c84-what-makes-a-roblox-horror-game-actually-scar.md": "058544fa2886e70c2b18f66caec909b622b7644f4bba5df1574f20bfce28946c",
+    "knowledge/forest/c1dd1a712b8688c9f811-frank-zy-dou-awesome-ai-3d-modeling-robotics.md": "83377860faa69cef2ab34d0e60730ff2c67df3b81ebfc77a9b7a986b5ed27621",
+    "knowledge/forest/e5d4560e92bdac0d5bab-oreossd-web-link-official-2.md": "e316fcc3b6c6be61551f44d68027967bc1f0e8b37566cff6a275aed281b9c5f6",
+    "knowledge/forest/f3e53f98202ffaaa8202-maximefitbit9-star-forestsurvival.md": "fe37c700c01f3f483da8f253d1a2fc074c4c9a1f4afd58884431e23c522225ac",
+    "knowledge/forest/f733f0e60339-enhance-indoor-environments-with-realistic-lightin.md": "40a59bf86d537dab8695142966d14908842fb3ce30b00786219ec1b52112150c",
+    "knowledge/forest/fee07d6291e573431df1-zqh7y-rollpetsrng.md": "d3253fc452bd5535454ee07a3931884944f30970e325e9e0b8bcb492f634af28",
+    "knowledge/gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer.md": "421c6636d3813bf3da64833b6f222847e66547bf3acb61c1866c2deef04acfd8",
+    "knowledge/gameplay/_index.md": "887f840c9223d54435bc100f21ff9457cec6388cefdc42b5e783275efcf39df2",
+    "knowledge/gameplay/eb19a9fed396-class-camera.md": "ee60e4eee56fd323fdc651f427af9634185ebaec8dd57a7b90c2da206f4d2e2c",
+    "knowledge/lighting/09d38d132c8f-do-mobile-devices-get-future-lighting.md": "d6ccc09d3355e0441ca307a7348c694e3eafec35f531fe687b6db34e79900c38",
+    "knowledge/lighting/0c907f49b2f4-light-sources.md": "cf7d2dc925459fc3cdf45c5fed2d12404e99a87bd9c1d1c47aeaa010f3d39d68",
+    "knowledge/lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that.md": "4b135746f9cda532d7c8137fcfe78db6e1e0b96527cbd58a5740c34fbd45ad9e",
+    "knowledge/lighting/5d6828741270-future-lighting-not-working.md": "068512064973ff779b044f0e9abd8d9bb4b579d9596b0de7d4891eb3217a3f05",
+    "knowledge/lighting/862f8f5abfce-class-atmosphere.md": "d332df0bf71ecc8097a213793902a63d226bf0da896628e40042b4f78857dcb9",
+    "knowledge/lighting/_index.md": "f5de8eb24db5998a27c3f7524ad5e27c0f8dccb4847dcfd4ded90ee84b60469d",
+    "knowledge/lighting/a4893023e7c3-class-spotlight.md": "71a70c949eca243364e174b8130f361c9df6a7a679898e06d7b1c88240996f95",
+    "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md": "7a795bbd39926d0cac113c98354cf47b9d027a05b3df3fba97f6a05e15a6c993",
+    "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md": "328b5bd34bea1f251b7c9d7407d960c7e32b2f253847092266302b8e659d5118",
+    "knowledge/manor/31d4988647f9d82803b9-looking-for-a-3d-modeler-for-my-roblox-horror.md": "59ecb6c863d2b60f25ceeaaa5c0ea79bcfb6808521622389c27c22b3e3a13799",
+    "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md": "e84a7c61c2a8b3648c522eb1dc370b8905cec6c41334f7fd005d862aa2a070f6",
+    "knowledge/manor/90b619176531c8447a6b-7-99-540-christmas-assets.md": "4858ef65af6ac69495dbefb02a3db5f1e671d89a57215a8d5547434fde5d16d5",
+    "knowledge/manor/a34902205b6bb5b6afb4-feedback-on-this-horror-house-interior.md": "2e3d2b64db9a12130c6a2ea2b747bf79e30c06dc4315b8f0c0fdc18213b1906b",
+    "knowledge/manor/aa84dcf1901bf9f0badf-3d-artist-looking-for-freelance-work.md": "3e313825a73c625400ae6ba1d3bde81e6d7664780ecef4e5f92f8c0595d6c36d",
+    "knowledge/manor/de6f2bc26e17bd48d480-bagusmibr-evilsoft-blox.md": "d9384f56c6de8aeb26554eb16da34e6a5f4d18815fec2eadfebacf5be5f4f7ba",
+    "knowledge/manor/f6b62732236c571e97bc-el4cteo-blender-skills.md": "7b00b00f0fea8b0d8e357dfe0487482c952130a6172e513f3a9b59cafce1acd3",
+    "knowledge/manor/fdbbf0e7c40128e3a8c4-claudeblox-claudeblox.md": "be005e03a657cf183989bafe5bdb043868435e9eba5700771af56fac65416df9",
+    "knowledge/performance/2736f67dee2b-i-need-help-about-rendering-distance.md": "56e6486dfa81d628a462e01f698d98ad61c4b998fabaafdc58016b9f56b80bcc",
+    "knowledge/performance/429655fffbe0-foveated-vr-rendering.md": "9e877858598431f209e9c72ee972f4fe0bfe0afffe4802ee3e98c482cdd09058",
+    "knowledge/performance/4a6402c8990e-srendpty-roblox-roblox-optimizer-suite-v1-3-enhanc.md": "12f2bf62aa9238ed689bd08791debf921fedc84325a11287cd2326acf0e19f9c",
+    "knowledge/performance/_index.md": "e2f525686291b2a9ae67bd6e85a16d982121b1d3197b62f1f01d58974fae187e",
+    "knowledge/performance/ecfc9381818e-performance.md": "ed844b71a4154b2c90b8b29d4d158ded06d8cbb9542a026c8bfd695ee16295fb",
+    "knowledge/rendering/1fe0732cf23a-export-textures.md": "0fa34d4eb3d11143edb2eb5e5708d30d187b9905f7bf8a3b7994db2c3234c115",
+    "knowledge/rendering/326d0bf06b35-export-from-blender.md": "647cbd59712493b4f21326dd51305504033ebe7448ebc28be7a2f532febddc85",
+    "knowledge/rendering/564f653d5fbf-error-when-exporting-as-fbx-from-blender.md": "cdef02ef9860f5ffffc8161f2a052db6baadb3c808b61486ca416d00b01ca157",
+    "knowledge/rendering/_index.md": "806bf1cc37079b481110d7b3c9d27a4970a7a0bd3adbcf51a039fa50fdb0bb0a",
+    "knowledge/rendering/bbea6ee659d1-export-pbr-textures-from-blender-water.md": "5264ea549ecb8691c00ba5313647abb3334b2f27bc2ff9db893c40136e8a9f1b",
+    "knowledge/rendering/c73ed30815b8-how-do-i-export-objects-separately-in-blender.md": "3b8a4d54e0b9b21f0d57c2078647bd55395436d5d50a6bb6e4c31cc135712308",
+    "knowledge/rendering/f7dfa278922f-how-would-i-export-this-texture.md": "98d47701fdc9cf75638a951509b2bcf713b845dcc31e93f47ba874b794347c25",
+    "knowledge/snow/35696693c238-class-materialvariant.md": "88de832fda2071d941b476ff7770dcfaf665a0371f1b8d7028cb3a916a2df4c0",
+    "knowledge/snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate.md": "6008421814b22fa9574b4d1df4709f2739b7c728904c90fb9fab775422e03643",
+    "knowledge/snow/6b1965d3e366-custom-terrain-materials.md": "e5f3dd0d4f9d701ee2521ceb668d32c0d3f7d6d760d9e96f969affa938229e3f",
+    "knowledge/snow/8fceb3f4c379-materials.md": "7abe39796b5f05e090066453a090450b727871160b3b9517551e12a14f7690c4",
+    "knowledge/snow/9758995985bd-material.md": "fa54baa859515f4b8acf57f45e6774391ba4b01f44310f143330a0bbae773d87",
+    "knowledge/snow/_index.md": "49f72c1d56beb7922e4cee40539d758f3bb1e52a0b9bf5120bcb2ebb3c2d3c44",
+    "knowledge/snow/a857c603de78-class-terrain.md": "a2f73b469cf7dd83c6c494a3044f835950944932d608f7b645d4935996deed36",
+    "knowledge/snow/fe4c577081af-collisions-on-meshs.md": "0890be24e7136a8a53359537d58818a889c13438f49443c0e75fa1a94ab307dc",
+    "knowledge/spruce/030e47b1915a4bee4fae-diyorfayz-skills.md": "0f5b8c05b8a371f71bf8425debff26e54df8141784d0de321f48566d33bb233f",
+    "knowledge/spruce/0aaa704c0c2d9a1b94c5-sigmalordmaster69-super-smart-idea-im-about-t.md": "7f0221bc4711656e7ce37befcd34110770c9d697edbcb02360cc64c68df8e86d",
+    "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md": "ae65dcb983ef97a4b4b3284fb889418ac459e79c0551d7d020c705c42c929d08",
+    "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md": "8f6b48c3a777ad498f1819cd564e1e34c3d02919338ee9dea99216edc348a5f9",
+    "knowledge/spruce/4c4e9e4faa27af447c21-scenario-labs-skills.md": "fc6f167f69b0a98d7b88d7744e2cd0adfab6407f2947ae214486b9914d1a596b",
+    "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md": "24ae1183e1a311bac04f8da95be18ac533ec5293beda594b638c087ab88ce713",
+    "knowledge/spruce/b5b20f5a22d418ff7394-gnrpflpferd19-skapidap.md": "8d0b058204b289640dc22542677e6fdd96fbcfa8411384beaf18f8785a86865e",
+    "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md": "0d8cc3196700f9c270c9c18bc6cd4f3685461da9b82680e60b3204aa2c249fef",
+    "knowledge/terrain/086c1f6e4a3b-terrain-editor.md": "628f2c2f952c1ac0f6ccd28db14158313bfba890672192cf460ee3b5c6f438fa",
+    "knowledge/terrain/3e6f3194acb0-some-grass-doesn-t-load-while-using-expanded-terra.md": "8e146654a72e7a87c3b4ad486266498863fbdcb8dd62b8cf5c7c72b11f9df58f",
+    "knowledge/terrain/5cf4b27a9a3e-environmental-terrain.md": "0b6c9b233f3178df588c34a35444f0e0c436aea207c0e38c7ba0a05d34b1b000",
+    "knowledge/terrain/_index.md": "67de23eddc6fc348ebe1c1458a9a51781f557d2cb493d4b8c167bb926e9b3a66",
+    "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md": "7ba8236bb132fd788ff5b425c94ad1ab86427f88e5c60d690e32f857d7891fa7",
+    "knowledge/traversal/651a9c7996852903fc2e-perixtar-tech-oa-interview-questions.md": "9044db2beb5e6e4dd9e4c5ed8f5800d5525cab0c81ad046ca4063e8829144175",
+    "knowledge/traversal/696dfc7985cdea76da5e-introducing-a-ai-driven-traffic-system-for-ro.md": "59e97cde07cd1c5bef047544eeda794f7303b2b7790e8d809c7af6cd71131a9b",
+    "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md": "1683c844c11eefd3dbdb4ae1ee4da58a668db0dbfcea205e2c39d24bb1ddfe78",
+    "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md": "3627d4d778b36b4381829eed2f61910e87f88b0d058f7e3b25ac37eb6c647218",
+    "knowledge/traversal/8736aa383b0747a2eb58-improving-our-a-part-2.md": "1f2ce1adb7c6cfb0d01e4bfd32d473be7198777fc0225edcbd8320721094ee48",
+    "knowledge/traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system.md": "5c1c1a32a01ed4e3386dd47c8731f5ee7be8047052e81ae016a8fcb592357937",
+    "knowledge/traversal/a3e499fcfaee5316a7a2-devchpl-2d-parkour-framework.md": "2eea57f097bf9ad2167c9ba71631ac2992a465133dc85ddc6b35c822b6c28915",
+    "knowledge/traversal/c2a1fda76f09f1698d52-killop-anything-about-game.md": "4c4f1c3de289bf8011a7439d777f10adc447a7c0ac54089927905b557073214d",
+    "knowledge/traversal/c43c9cf14ff30c74f32c-pathfindingservice-can-t-find-a-path-if-desti.md": "d06e5bea76cdbef623fd2cbf7b2bd803c62224ad8b87c1073719d61804846407",
+    "knowledge/traversal/c8bac074297e404f9d70-jakehukari-sp3arparvus.md": "4c19bd1eb23fad549bd15a477d3f5fee128ede04d0bd4574284cc2561be232bb",
+    "knowledge/vegetation/5bbf6043ed9c-class-surfaceappearance.md": "2f20b2c15d40fa0030a774492bc6dc28765282c761653203f9be588687068423",
+    "knowledge/vegetation/_index.md": "af52fd10daeb365332e3a2af5cd4572ae3346c582e1b9dd3f48303d793cd319a",
+    "knowledge/vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox.md": "9fbae90c0b4089c17b5ba265d33e13eebe5e2cbad9a5bded2cda8f053df900b1"
+  },
+  "index": {
+    "added": 94,
+    "changed": 0,
+    "removed": 0,
+    "notes": 94,
+    "diagnostics": []
+  },
+  "index_cold_ms": 77.8920080001626,
+  "index_incremental_ms": 33.032249999905616,
+  "incremental": {
+    "added": 0,
+    "changed": 0,
+    "removed": 0,
+    "notes": 94,
+    "diagnostics": []
+  },
+  "policies": {
+    "legacy": {
+      "development": {
+        "queries": 12,
+        "hit_at_1": 0.75,
+        "hit_at_3": 0.9166666666666666,
+        "hit_at_5": 1.0,
+        "mrr": 0.8222222222222223,
+        "latency_median_ms": 4.204560500056687,
+        "latency_p95_ms": 8.352455000022019,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "armature imported eyes glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-429655fffbe0"
+            ]
+          },
+          {
+            "q": "decalage RootPart apres importation FBX",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-5aa463725976",
+              "vdn-326d0bf06b35",
+              "vdn-1fe0732cf23a"
+            ]
+          },
+          {
+            "q": "bone rig visual glitches",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-5cf4b27a9a3e",
+              "vdn-52524d1837c3",
+              "vdn-d5dda0d02f6d",
+              "vdn-3fe122d267fa"
+            ]
+          },
+          {
+            "q": "foliage mesh atlas workflow",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9f9338e2736f",
+              "vdn-5cf4b27a9a3e",
+              "vdn-086c1f6e4a3b",
+              "vdn-5bbf6043ed9c"
+            ]
+          },
+          {
+            "q": "texture feuillage atlas creation",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-f7dfa278922f",
+              "vdn-713de5a2c6e6"
+            ]
+          },
+          {
+            "q": "opaque MeshPart AlphaMode banding",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-5bbf6043ed9c",
+              "vdn-564f653d5fbf",
+              "vdn-5aa463725976",
+              "vdn-326d0bf06b35"
+            ]
+          },
+          {
+            "q": "leaf transparency Player distance",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-93c1fa214202",
+              "vdn-086c1f6e4a3b",
+              "vdn-319f4403f590"
+            ]
+          },
+          {
+            "q": "attacher articulations personnage camera",
+            "rank": 3,
+            "ids": [
+              "vdn-eb19a9fed396",
+              "vdn-a97042f85138",
+              "vdn-3fe122d267fa",
+              "vdn-6055d2f0bb67",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "RenderFidelity LevelOfDetail streaming trees",
+            "rank": 5,
+            "ids": [
+              "vdn-a97042f85138",
+              "vdn-9f9338e2736f",
+              "vdn-8fceb3f4c379",
+              "vdn-086c1f6e4a3b",
+              "vdn-5aa463725976"
+            ]
+          },
+          {
+            "q": "Atmosphere Density Haze fog",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-862f8f5abfce",
+              "vdn-179abb099a56",
+              "vdn-9be57b985b77",
+              "vdn-f733f0e60339"
+            ]
+          },
+          {
+            "q": "Blender FBX export erreur",
+            "rank": 3,
+            "ids": [
+              "vdn-326d0bf06b35",
+              "vdn-1fe0732cf23a",
+              "vdn-564f653d5fbf",
+              "vdn-1290b940c378",
+              "vdn-f7dfa278922f"
+            ]
+          },
+          {
+            "q": "night atmospheric effects forest",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-a27deff12d34",
+              "vdn-85f4cbd2e11c",
+              "vdn-f733f0e60339",
+              "vdn-a374396f6529"
+            ]
+          }
+        ]
+      },
+      "historical": {
+        "queries": 10,
+        "hit_at_1": 0.9,
+        "hit_at_3": 0.9,
+        "hit_at_5": 1.0,
+        "mrr": 0.925,
+        "latency_median_ms": 4.246889499881945,
+        "latency_p95_ms": 10.41038999983357,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-93c1fa214202",
+              "vdn-086c1f6e4a3b",
+              "vdn-319f4403f590"
+            ]
+          },
+          {
+            "q": "feuillage transparent de loin dans le Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-93c1fa214202",
+              "vdn-5cf4b27a9a3e",
+              "vdn-086c1f6e4a3b",
+              "vdn-5bbf6043ed9c"
+            ]
+          },
+          {
+            "q": "AlphaMode Transparency renders in bands",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-d5dda0d02f6d",
+              "vdn-7f5fd0196f65"
+            ]
+          },
+          {
+            "q": "transparence en bandes sur un MeshPart opaque",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-5bbf6043ed9c",
+              "vdn-9f9338e2736f",
+              "vdn-5aa463725976",
+              "vdn-9758995985bd"
+            ]
+          },
+          {
+            "q": "texture atlas foliage meshes",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-5bbf6043ed9c",
+              "vdn-9f9338e2736f",
+              "vdn-f7dfa278922f",
+              "vdn-1fe0732cf23a"
+            ]
+          },
+          {
+            "q": "atlas de textures pour le feuillage",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-f7dfa278922f",
+              "vdn-1fe0732cf23a",
+              "vdn-9758995985bd",
+              "vdn-319f4403f590"
+            ]
+          },
+          {
+            "q": "custom rig import RootPart offset bone glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-5aa463725976",
+              "vdn-9758995985bd",
+              "vdn-5bbf6043ed9c",
+              "vdn-f7dfa278922f"
+            ]
+          },
+          {
+            "q": "importer un squelette personnalisé, os qui buguent",
+            "rank": 4,
+            "ids": [
+              "vdn-564f653d5fbf",
+              "vdn-5aa463725976",
+              "vdn-326d0bf06b35",
+              "vdn-1290b940c378",
+              "vdn-1fe0732cf23a"
+            ]
+          },
+          {
+            "q": "ledge climbing system",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a"
+            ]
+          },
+          {
+            "q": "système d'escalade de rebord",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3"
+            ]
+          }
+        ]
+      }
+    },
+    "balanced": {
+      "development": {
+        "queries": 12,
+        "hit_at_1": 0.75,
+        "hit_at_3": 0.9166666666666666,
+        "hit_at_5": 1.0,
+        "mrr": 0.8541666666666666,
+        "latency_median_ms": 6.076986000152829,
+        "latency_p95_ms": 9.407086999999592,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "armature imported eyes glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-429655fffbe0",
+              "vdn-3e6f3194acb0",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "decalage RootPart apres importation FBX",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-f7dfa278922f",
+              "vdn-5aa463725976",
+              "vdn-326d0bf06b35"
+            ]
+          },
+          {
+            "q": "bone rig visual glitches",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-3e6f3194acb0",
+              "vdn-52524d1837c3",
+              "vdn-326d0bf06b35",
+              "vdn-d5dda0d02f6d"
+            ]
+          },
+          {
+            "q": "foliage mesh atlas workflow",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-f7dfa278922f",
+              "vdn-564f653d5fbf",
+              "vdn-9f9338e2736f",
+              "vdn-1290b940c378"
+            ]
+          },
+          {
+            "q": "texture feuillage atlas creation",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9f9338e2736f",
+              "vdn-4b3e4c63ddab",
+              "vdn-713de5a2c6e6",
+              "vdn-9be57b985b77"
+            ]
+          },
+          {
+            "q": "opaque MeshPart AlphaMode banding",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-564f653d5fbf",
+              "vdn-1290b940c378"
+            ]
+          },
+          {
+            "q": "leaf transparency Player distance",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab",
+              "vdn-93c1fa214202"
+            ]
+          },
+          {
+            "q": "attacher articulations personnage camera",
+            "rank": 2,
+            "ids": [
+              "vdn-eb19a9fed396",
+              "vdn-3fe122d267fa",
+              "vdn-a97042f85138",
+              "vdn-6055d2f0bb67",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "RenderFidelity LevelOfDetail streaming trees",
+            "rank": 4,
+            "ids": [
+              "vdn-a97042f85138",
+              "vdn-9be57b985b77",
+              "vdn-9f9338e2736f",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "Atmosphere Density Haze fog",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-862f8f5abfce",
+              "vdn-179abb099a56",
+              "vdn-9be57b985b77",
+              "vdn-713de5a2c6e6"
+            ]
+          },
+          {
+            "q": "Blender FBX export erreur",
+            "rank": 2,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-326d0bf06b35",
+              "vdn-1fe0732cf23a",
+              "vdn-c73ed30815b8"
+            ]
+          },
+          {
+            "q": "night atmospheric effects forest",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-a27deff12d34",
+              "vdn-a374396f6529",
+              "vdn-85f4cbd2e11c",
+              "vdn-f733f0e60339"
+            ]
+          }
+        ]
+      },
+      "historical": {
+        "queries": 10,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_median_ms": 5.937425500178506,
+        "latency_p95_ms": 10.688260000279115,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-5bbf6043ed9c",
+              "vdn-93c1fa214202",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "feuillage transparent de loin dans le Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab",
+              "vdn-93c1fa214202"
+            ]
+          },
+          {
+            "q": "AlphaMode Transparency renders in bands",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-d5dda0d02f6d",
+              "vdn-eb19a9fed396"
+            ]
+          },
+          {
+            "q": "transparence en bandes sur un MeshPart opaque",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-564f653d5fbf",
+              "vdn-1290b940c378"
+            ]
+          },
+          {
+            "q": "texture atlas foliage meshes",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-f7dfa278922f",
+              "vdn-564f653d5fbf",
+              "vdn-9f9338e2736f",
+              "vdn-1290b940c378"
+            ]
+          },
+          {
+            "q": "atlas de textures pour le feuillage",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9f9338e2736f",
+              "vdn-4b3e4c63ddab",
+              "vdn-713de5a2c6e6",
+              "vdn-9be57b985b77"
+            ]
+          },
+          {
+            "q": "custom rig import RootPart offset bone glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-3e6f3194acb0",
+              "vdn-6b1965d3e366",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "importer un squelette personnalisé, os qui buguent",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-3e6f3194acb0",
+              "vdn-6b1965d3e366",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "ledge climbing system",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3",
+              "vdn-9b7ec2ee95cd",
+              "vdn-56797d0952ca"
+            ]
+          },
+          {
+            "q": "système d'escalade de rebord",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3"
+            ]
+          }
+        ]
+      }
+    },
+    "coverage": {
+      "development": {
+        "queries": 12,
+        "hit_at_1": 0.75,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 0.8472222222222222,
+        "latency_median_ms": 5.8639940000375645,
+        "latency_p95_ms": 8.812578999823018,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "armature imported eyes glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-429655fffbe0",
+              "vdn-3e6f3194acb0",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "decalage RootPart apres importation FBX",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-93c1fa214202",
+              "vdn-f7dfa278922f",
+              "vdn-326d0bf06b35"
+            ]
+          },
+          {
+            "q": "bone rig visual glitches",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-3e6f3194acb0",
+              "vdn-52524d1837c3",
+              "vdn-326d0bf06b35",
+              "vdn-d5dda0d02f6d"
+            ]
+          },
+          {
+            "q": "foliage mesh atlas workflow",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-1fe0732cf23a",
+              "vdn-319f4403f590",
+              "vdn-f7dfa278922f",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "texture feuillage atlas creation",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9be57b985b77",
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-3e6f3194acb0"
+            ]
+          },
+          {
+            "q": "opaque MeshPart AlphaMode banding",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-93c1fa214202",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "leaf transparency Player distance",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "attacher articulations personnage camera",
+            "rank": 2,
+            "ids": [
+              "vdn-eb19a9fed396",
+              "vdn-3fe122d267fa",
+              "vdn-a97042f85138",
+              "vdn-6055d2f0bb67",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "RenderFidelity LevelOfDetail streaming trees",
+            "rank": 3,
+            "ids": [
+              "vdn-a97042f85138",
+              "vdn-9f9338e2736f",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab",
+              "vdn-93c1fa214202"
+            ]
+          },
+          {
+            "q": "Atmosphere Density Haze fog",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-862f8f5abfce",
+              "vdn-179abb099a56",
+              "vdn-9be57b985b77",
+              "vdn-713de5a2c6e6"
+            ]
+          },
+          {
+            "q": "Blender FBX export erreur",
+            "rank": 3,
+            "ids": [
+              "vdn-326d0bf06b35",
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-c73ed30815b8",
+              "vdn-bbea6ee659d1"
+            ]
+          },
+          {
+            "q": "night atmospheric effects forest",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-9be57b985b77",
+              "vdn-a27deff12d34",
+              "vdn-a374396f6529",
+              "vdn-85f4cbd2e11c"
+            ]
+          }
+        ]
+      },
+      "historical": {
+        "queries": 10,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_median_ms": 6.159074999914083,
+        "latency_p95_ms": 11.506254000323679,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-4b3e4c63ddab",
+              "vdn-5bbf6043ed9c"
+            ]
+          },
+          {
+            "q": "feuillage transparent de loin dans le Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "AlphaMode Transparency renders in bands",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-d5dda0d02f6d",
+              "vdn-eb19a9fed396"
+            ]
+          },
+          {
+            "q": "transparence en bandes sur un MeshPart opaque",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-93c1fa214202",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "texture atlas foliage meshes",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-319f4403f590",
+              "vdn-f7dfa278922f",
+              "vdn-9f9338e2736f",
+              "vdn-1fe0732cf23a"
+            ]
+          },
+          {
+            "q": "atlas de textures pour le feuillage",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9be57b985b77",
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-3e6f3194acb0"
+            ]
+          },
+          {
+            "q": "custom rig import RootPart offset bone glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-0df57a89fa73",
+              "vdn-9b7ec2ee95cd",
+              "vdn-6b1965d3e366"
+            ]
+          },
+          {
+            "q": "importer un squelette personnalisé, os qui buguent",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-0df57a89fa73",
+              "vdn-9b7ec2ee95cd",
+              "vdn-6b1965d3e366"
+            ]
+          },
+          {
+            "q": "ledge climbing system",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3",
+              "vdn-9b7ec2ee95cd",
+              "vdn-56797d0952ca"
+            ]
+          },
+          {
+            "q": "système d'escalade de rebord",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3"
+            ]
+          }
+        ]
+      }
+    },
+    "coverage_prior": {
+      "development": {
+        "queries": 12,
+        "hit_at_1": 0.75,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 0.8333333333333334,
+        "latency_median_ms": 5.868926000175634,
+        "latency_p95_ms": 9.054483999989316,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "armature imported eyes glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-086c1f6e4a3b",
+              "vdn-564f653d5fbf",
+              "vdn-1fe0732cf23a"
+            ]
+          },
+          {
+            "q": "decalage RootPart apres importation FBX",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-564f653d5fbf",
+              "vdn-326d0bf06b35",
+              "vdn-1fe0732cf23a",
+              "vdn-f7dfa278922f"
+            ]
+          },
+          {
+            "q": "bone rig visual glitches",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-3e6f3194acb0",
+              "vdn-52524d1837c3",
+              "vdn-d5dda0d02f6d"
+            ]
+          },
+          {
+            "q": "foliage mesh atlas workflow",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-1fe0732cf23a",
+              "vdn-319f4403f590",
+              "vdn-f7dfa278922f",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "texture feuillage atlas creation",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9be57b985b77",
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5cf4b27a9a3e"
+            ]
+          },
+          {
+            "q": "opaque MeshPart AlphaMode banding",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-5bbf6043ed9c",
+              "vdn-9f9338e2736f",
+              "vdn-93c1fa214202",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "leaf transparency Player distance",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "attacher articulations personnage camera",
+            "rank": 3,
+            "ids": [
+              "vdn-eb19a9fed396",
+              "vdn-a97042f85138",
+              "vdn-3fe122d267fa",
+              "vdn-6055d2f0bb67",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "RenderFidelity LevelOfDetail streaming trees",
+            "rank": 3,
+            "ids": [
+              "vdn-a97042f85138",
+              "vdn-9f9338e2736f",
+              "vdn-d5dda0d02f6d",
+              "vdn-93c1fa214202",
+              "vdn-319f4403f590"
+            ]
+          },
+          {
+            "q": "Atmosphere Density Haze fog",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-862f8f5abfce",
+              "vdn-179abb099a56",
+              "vdn-9be57b985b77",
+              "vdn-f733f0e60339"
+            ]
+          },
+          {
+            "q": "Blender FBX export erreur",
+            "rank": 3,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-564f653d5fbf",
+              "vdn-1fe0732cf23a",
+              "vdn-c73ed30815b8"
+            ]
+          },
+          {
+            "q": "night atmospheric effects forest",
+            "rank": 1,
+            "ids": [
+              "vdn-6055d2f0bb67",
+              "vdn-9be57b985b77",
+              "vdn-a27deff12d34",
+              "vdn-85f4cbd2e11c",
+              "vdn-f733f0e60339"
+            ]
+          }
+        ]
+      },
+      "historical": {
+        "queries": 10,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_median_ms": 5.590541999936249,
+        "latency_p95_ms": 11.009064999598195,
+        "negatives_clean": true,
+        "details": [
+          {
+            "q": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-4b3e4c63ddab",
+              "vdn-5bbf6043ed9c"
+            ]
+          },
+          {
+            "q": "feuillage transparent de loin dans le Player",
+            "rank": 1,
+            "ids": [
+              "vdn-9f9338e2736f",
+              "vdn-319f4403f590",
+              "vdn-93c1fa214202",
+              "vdn-d5dda0d02f6d",
+              "vdn-4b3e4c63ddab"
+            ]
+          },
+          {
+            "q": "AlphaMode Transparency renders in bands",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5bbf6043ed9c",
+              "vdn-d5dda0d02f6d",
+              "vdn-7f5fd0196f65"
+            ]
+          },
+          {
+            "q": "transparence en bandes sur un MeshPart opaque",
+            "rank": 1,
+            "ids": [
+              "vdn-319f4403f590",
+              "vdn-5bbf6043ed9c",
+              "vdn-9f9338e2736f",
+              "vdn-93c1fa214202",
+              "vdn-564f653d5fbf"
+            ]
+          },
+          {
+            "q": "texture atlas foliage meshes",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-319f4403f590",
+              "vdn-1fe0732cf23a",
+              "vdn-f7dfa278922f",
+              "vdn-9f9338e2736f"
+            ]
+          },
+          {
+            "q": "atlas de textures pour le feuillage",
+            "rank": 1,
+            "ids": [
+              "vdn-93c1fa214202",
+              "vdn-9be57b985b77",
+              "vdn-319f4403f590",
+              "vdn-9f9338e2736f",
+              "vdn-5cf4b27a9a3e"
+            ]
+          },
+          {
+            "q": "custom rig import RootPart offset bone glitch",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-0df57a89fa73",
+              "vdn-9b7ec2ee95cd",
+              "vdn-6b1965d3e366"
+            ]
+          },
+          {
+            "q": "importer un squelette personnalisé, os qui buguent",
+            "rank": 1,
+            "ids": [
+              "vdn-1290b940c378",
+              "vdn-326d0bf06b35",
+              "vdn-0df57a89fa73",
+              "vdn-9b7ec2ee95cd",
+              "vdn-6b1965d3e366"
+            ]
+          },
+          {
+            "q": "ledge climbing system",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3",
+              "vdn-9b7ec2ee95cd",
+              "vdn-56797d0952ca"
+            ]
+          },
+          {
+            "q": "système d'escalade de rebord",
+            "rank": 1,
+            "ids": [
+              "vdn-aefb4953667e",
+              "vdn-1a910695f70a",
+              "vdn-52524d1837c3"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "index_before_v7": {
+    "implementation": "V7 f5cb699",
+    "corpus_commit": "9abf775",
+    "runs": 5,
+    "cold_ms": [
+      67.09439799988104,
+      51.702623999972275,
+      51.542694000090705,
+      57.720348999737325,
+      56.127019000086875
+    ],
+    "incremental_ms": [
+      18.66729799985478,
+      17.612325999834866,
+      16.84344500017687,
+      18.589271999644552,
+      16.283163000025525
+    ],
+    "median_cold_ms": 56.127019000086875,
+    "median_incremental_ms": 17.612325999834866
+  },
+  "index_after_v8": {
+    "implementation": "V8",
+    "runs": 5,
+    "cold_ms": [
+      94.0966009998192,
+      74.5008889998644,
+      73.525767999854,
+      71.94770600017364,
+      67.84276100006537
+    ],
+    "incremental_ms": [
+      33.013721000315854,
+      32.04274500012616,
+      35.82821899999544,
+      30.701301000135572,
+      32.376179000038974
+    ],
+    "median_cold_ms": 73.525767999854,
+    "median_incremental_ms": 32.376179000038974
+  },
+  "original_baseline": {
+    "queries": 10,
+    "hit_at_1": 0.9,
+    "hit_at_3": 0.9,
+    "mrr": 0.925,
+    "avg_tokens": 1111,
+    "max_tokens": 1491,
+    "negatives_clean": 1.0,
+    "misses": [
+      {
+        "q": "importer un squelette personnalisé, os qui buguent",
+        "rank": 4,
+        "got": [
+          "vdn-564f653d5fbf",
+          "vdn-5aa463725976",
+          "vdn-326d0bf06b35"
+        ]
+      }
+    ]
+  },
+  "corpus_commit": "9abf775e89ca9830caaf150642bd5cdd197d8338",
+  "v7_base_commit": "f5cb6999f2bd5af95f841ebe8582473e53faff74",
+  "chosen_policy": "coverage",
+  "knowledge_files_unchanged": 106
+}

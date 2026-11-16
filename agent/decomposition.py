@@ -9,16 +9,28 @@ from agent.research_queue import ResearchQueue, item_key, excluded_term
 from agent.text import fold, tokens
 
 
+def describe(root: Path, question: str) -> dict:
+    """Pure plan preview shared with the persistent planner; never opens the queue."""
+    import re
+    path = Path(root) / 'config' / 'research_domains.json'
+    profiles = json.loads(path.read_text(encoding='utf-8'))['profiles'] if path.exists() else []
+    words = set(re.findall(r'[a-z0-9]+', fold(question)))
+    profile = next((p for p in profiles if words & set(p['triggers'])), None)
+    nodes = profile['nodes'] if profile and len(words) >= 6 else []
+    seen = set()
+    for node in nodes:
+        if node['id'] in seen or any(d not in seen for d in node.get('requires', [])):
+            raise ValueError('profil invalide : prerequis cycliques ou inconnus')
+        seen.add(node['id'])
+    return {'profile': profile['id'] if nodes else None, 'nodes': nodes}
+
+
 def plan(root: Path, question: str, topic: str) -> dict:
     q = ResearchQueue(root)
     if topic not in q.topics:
         raise ValueError('sujet non autorise')
-    path = Path(root) / 'config' / 'research_domains.json'
-    profiles = json.loads(path.read_text(encoding='utf-8'))['profiles'] if path.exists() else []
-    words = set(fold(question).replace('?', '').split())
-    profile = next((p for p in profiles if words & set(p['triggers'])), None)
-    # Simple questions retain the existing queue engine.
-    nodes = profile['nodes'] if profile and len(words) >= 6 else []
+    preview = describe(root, question)
+    nodes = preview['nodes']
     if nodes and (q.cfg['queue']['max_depth'] < 1 or len(nodes) > q.cfg['queue']['max_plan_nodes'] or
                   len(nodes) > q.cfg['queue']['max_size'] - q.pending_count()):
         raise ValueError('plan refuse : profondeur ou capacite de file insuffisante')
@@ -56,7 +68,7 @@ def plan(root: Path, question: str, topic: str) -> dict:
     for event, payload in events:
         log(event, payload)
     result = {'schema': 'vdn.plan/1', 'question': question, 'root': parent['key'],
-              'profile': profile['id'] if nodes else None, 'added': sum(n['added'] for n in out) if nodes else 1,
+              'profile': preview['profile'], 'added': sum(n['added'] for n in out) if nodes else 1,
               'nodes': out, 'limits': q.cfg['queue']}
     meta.save_json(Path(root) / 'output' / 'research_plans' / (parent['key'] + '.json'), result)
     return result

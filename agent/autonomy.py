@@ -11,6 +11,7 @@ et ne reecrit pas les fiches existantes (il cree des fiches ou ajoute une requet
 from __future__ import annotations
 
 import json
+import math
 import os
 import time
 import traceback
@@ -188,6 +189,8 @@ def cycle(root: Path = ROOT, provs=None, max_items: int | None = None, time_budg
     c = cfg["cycle"]
     max_items = max(0, min(int(max_items if max_items is not None else c["max_items"]), c['max_items']))
     budget = min(float(time_budget_s if time_budget_s is not None else c["time_budget_s"]), c['time_budget_s'])
+    if time_budget_s is not None and not math.isfinite(float(time_budget_s)):
+        raise ValueError('time_budget_s must be finite')
     t0 = now_ts()
     monotonic_start = time.monotonic()
     summary = {"schema": "vdn.cycle/1", "started": iso(t0), "finished": None, "stop_reason": "", "items": [],

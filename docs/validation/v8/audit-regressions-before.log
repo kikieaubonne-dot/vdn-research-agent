@@ -1,0 +1,59 @@
+test_bool_top_k_rejected_not_coerced (v8boundaries.BoundaryTests.test_bool_top_k_rejected_not_coerced) ... FAIL
+test_first_passage_does_not_exceed_tiny_token_budget (v8boundaries.BoundaryTests.test_first_passage_does_not_exceed_tiny_token_budget) ... FAIL
+test_general_index_symlink_cannot_escape (v8boundaries.BoundaryTests.test_general_index_symlink_cannot_escape) ... FAIL
+test_non_object_mcp_message_is_invalid_request (v8boundaries.BoundaryTests.test_non_object_mcp_message_is_invalid_request) ... ERROR
+test_partially_corrupt_library_is_indexed_with_diagnostics (v8boundaries.BoundaryTests.test_partially_corrupt_library_is_indexed_with_diagnostics) ... ERROR
+
+======================================================================
+ERROR: test_non_object_mcp_message_is_invalid_request (v8boundaries.BoundaryTests.test_non_object_mcp_message_is_invalid_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v8_boundaries.py", line 15, in test_non_object_mcp_message_is_invalid_request
+    result = mcp_server.handle([])
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/v8-baseline-checkout/agent/mcp_server.py", line 58, in handle
+    method, mid = msg.get("method"), msg.get("id")
+                  ^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+
+======================================================================
+ERROR: test_partially_corrupt_library_is_indexed_with_diagnostics (v8boundaries.BoundaryTests.test_partially_corrupt_library_is_indexed_with_diagnostics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v8_boundaries.py", line 45, in test_partially_corrupt_library_is_indexed_with_diagnostics
+    result = rag.update_index(self.root)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/v8-baseline-checkout/agent/rag.py", line 89, in update_index
+    str(n.get("confidence", "")), int(n.get("source_tier", 4) or 4), str(n.get("updated", "")), h))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'bad'
+
+======================================================================
+FAIL: test_bool_top_k_rejected_not_coerced (v8boundaries.BoundaryTests.test_bool_top_k_rejected_not_coerced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v8_boundaries.py", line 22, in test_bool_top_k_rejected_not_coerced
+    self.assertTrue(result.get('error') or result.get('result', {}).get('isError'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_first_passage_does_not_exceed_tiny_token_budget (v8boundaries.BoundaryTests.test_first_passage_does_not_exceed_tiny_token_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v8_boundaries.py", line 39, in test_first_passage_does_not_exceed_tiny_token_budget
+    self.assertLessEqual(result['tokens_estimated'], 1)
+AssertionError: 133 not less than or equal to 1
+
+======================================================================
+FAIL: test_general_index_symlink_cannot_escape (v8boundaries.BoundaryTests.test_general_index_symlink_cannot_escape)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v8_boundaries.py", line 30, in test_general_index_symlink_cannot_escape
+    self.assertIn('error', result)
+AssertionError: 'error' not found in {'topic': 'index', 'index': 'OUTSIDE LIBRARY'}
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.033s
+
+FAILED (failures=3, errors=2)
+Failures: 3 Errors: 2
