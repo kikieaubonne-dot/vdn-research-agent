@@ -345,17 +345,8 @@ def migrate_legacy(root: Path = ROOT, assess_fn=None) -> dict:
 
 # ------------------------------------------------------------------ index Obsidian (général + par domaine)
 def load_notes(root: Path = ROOT) -> list[dict]:
-    out = []
-    for path in sorted((Path(root) / "knowledge").rglob("*.md")):
-        if path.name.startswith("_"):
-            continue
-        meta, body = parse_note(path.read_text(encoding="utf-8"))
-        if not meta.get("id"):
-            continue
-        meta["_path"] = str(path.relative_to(root)).replace("\\", "/")
-        meta["_body"] = body
-        out.append(meta)
-    return out
+    from agent.corpus import scan_notes
+    return scan_notes(root)
 
 
 def summary_line(meta: dict) -> str:

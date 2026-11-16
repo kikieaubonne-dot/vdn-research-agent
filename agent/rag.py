@@ -5,9 +5,10 @@ API (lecture seule) :
     read_knowledge(note_id, token_budget=3000)           -> une fiche (tronquée au budget)
     get_topic_index(topic)                               -> l'index Obsidian d'un domaine
 
-Classement final = BM25 (titres pondérés) × poids du statut × poids de la confiance × poids du niveau de source
-× fraîcheur. Les fiches « rejetées » sont exclues par défaut. Recherche progressive : tous les termes (ET),
-puis n'importe lequel (OU), puis préfixes.
+V8 : couverture des concepts bilingues, couverture du titre, puis BM25 textuel.
+Les indices de fiabilité déclarés restent séparés. Les politiques historiques
+restent disponibles pour la comparaison reproductible, sans second index RAG.
+Les fiches rejetées sont exclues par défaut ; recherche ET, OU, puis préfixes.
 """
 from __future__ import annotations
 import datetime as dt
@@ -19,6 +20,8 @@ from pathlib import Path
 
 from agent.knowledge import load_notes, sections, parse_note
 from agent.text import tokens, approx_tokens, fold, expand
+from agent import retrieval
+from agent.corpus import scan_notes, read_text as safe_read
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUS_W = {"valide": 1.6, "reproduit": 1.4, "documente": 1.15, "candidat": 0.8, "obsolete": 0.3, "rejete": 0.0}
@@ -75,9 +78,18 @@ def _chunks(body: str, max_chars: int = 900) -> list[tuple[str, str]]:
 def update_index(root: Path = ROOT) -> dict:
     """Mise à jour incrémentale : seules les fiches modifiées (empreinte du contenu) sont réindexées."""
     con = connect(root)
+    try:
+        with con:
+            return _update_index(con, root)
+    finally:
+        con.close()
+
+
+def _update_index(con, root):
+    diagnostics = []
     known = {r[0]: r[1] for r in con.execute("SELECT id, hash FROM notes")}
     seen, added, changed = set(), 0, 0
-    for n in load_notes(root):
+    for n in scan_notes(root, diagnostics):
         nid = str(n["id"])
         seen.add(nid)
         h = hashlib.sha256((json.dumps({k: v for k, v in n.items() if k != "_body"}, sort_keys=True, default=str) + n["_body"]).encode()).hexdigest()
@@ -97,10 +109,8 @@ def update_index(root: Path = ROOT) -> dict:
     for nid in removed:
         con.execute("DELETE FROM passages WHERE note_id=?", (nid,))
         con.execute("DELETE FROM notes WHERE id=?", (nid,))
-    con.commit()
     total = con.execute("SELECT COUNT(*) FROM notes").fetchone()[0]
-    con.close()
-    return {"added": added, "changed": changed, "removed": len(removed), "notes": total}
+    return {"added": added, "changed": changed, "removed": len(removed), "notes": total, 'diagnostics': diagnostics}
 
 
 def _fts_query(words: list[str], mode: str) -> str:
@@ -124,11 +134,21 @@ def _freshness(updated: str) -> float:
 
 
 def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root: Path = ROOT,
-                     include_rejected: bool = False, domain: str | None = None) -> dict:
+                     include_rejected: bool = False, domain: str | None = None, ranking: str = 'coverage') -> dict:
+    if not isinstance(query, str) or not query.strip() or len(query) > 2000:
+        raise ValueError('query must be a nonempty string of at most 2000 characters')
+    if type(top_k) is not int or not 1 <= top_k <= 10 or type(token_budget) is not int or not 1 <= token_budget <= 12000:
+        raise ValueError('invalid top_k or token_budget')
+    if type(include_rejected) is not bool or (domain is not None and not isinstance(domain, str)):
+        raise ValueError('invalid search filters')
+    if ranking not in ('legacy', 'balanced', 'coverage', 'coverage_prior'):
+        raise ValueError('unknown ranking policy')
     con = connect(root)
     raw = [fold(w) for w in re.findall(r"[\wÀ-ÿ]+", query) if len(w) > 1]
     words = [w for w in dict.fromkeys(tokens(query))]
-    expanded = list(dict.fromkeys(words + [fold(s) for w in words for s in expand(w)][:12]))
+    expanded = (list(dict.fromkeys(words + [fold(s) for w in words for s in expand(w)][:12]))
+                if ranking == 'legacy' else retrieval.expanded(query))
+    query_groups = retrieval.groups(query)
     rows, mode_used, best_rows, best_mode = [], None, [], None
     for mode, terms in (("and", words), ("or", expanded), ("prefix", raw)):
         q = _fts_query(terms, mode)
@@ -155,7 +175,8 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
         # une étape plus large ne doit jamais effacer les résultats d'une étape plus précise
         if len({r[0] for r in rows}) > len({r[0] for r in best_rows}):
             best_rows, best_mode = rows, mode
-        if len({r[0] for r in best_rows}) >= min(top_k, 2):
+        enough = len({r[0] for r in best_rows}) >= min(top_k, 2)
+        if enough and (mode != 'and' or ranking == 'legacy'):
             break
     rows, mode_used = best_rows, best_mode
     con.close()
@@ -163,10 +184,13 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
     for nid, heading, body, s, title, status, conf, tier, updated, path, dom in rows:
         relevance = -float(s) if s is not None else 0.0  # bm25() de SQLite : plus petit = meilleur
         w = STATUS_W.get(status, 0.8) * CONF_W.get(conf, 1.0) * TIER_W.get(int(tier or 4), 0.85) * _freshness(updated)
-        scored.append((relevance * w, nid, heading, body, title, status, conf, tier, path, dom))
-    scored.sort(key=lambda x: -x[0])
+        match = retrieval.coverage(query_groups, title, body)
+        # Evidence reliability is returned separately, never multiplied into V8 text relevance.
+        scored.append((relevance * w if ranking in ('legacy','coverage_prior') else relevance, nid, heading, body, title, status, conf, tier, path, dom, {**match,'text_bm25':relevance,'source_prior':w}))
+    scored.sort(key=lambda x: (-(x[10]['coverage'] if ranking.startswith('coverage') else 0),
+                              -(x[10]['title_coverage'] if ranking == 'coverage' else 0), -x[0], x[1], x[2]))
     results, used, per_note = [], 0, {}
-    for sc, nid, heading, body, title, status, conf, tier, path, dom in scored:
+    for sc, nid, heading, body, title, status, conf, tier, path, dom, match in scored:
         if per_note.get(nid, 0) >= 2:
             continue  # au plus 2 passages par fiche : favorise la diversité
         if len({r["note_id"] for r in results}) >= top_k and nid not in per_note:
@@ -176,13 +200,18 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
         cost = approx_tokens(header + "\n" + text)
         if used + cost > token_budget:
             if not results:  # garantit au moins un passage, tronqué au budget
-                room = max(60, int((token_budget - approx_tokens(header)) * 3.6) - 10)
-                text = text[:room].rsplit(" ", 1)[0] + "…"
+                room = max(0, int(token_budget * 3.6) - len(header) - 2)
+                if room == 0:
+                    continue
+                text = text[:room]
                 cost = approx_tokens(header + "\n" + text)
+                if cost > token_budget:
+                    continue
             else:
                 continue
         results.append({"note_id": nid, "title": title, "heading": heading, "text": text, "status": status,
-                        "confidence": conf, "tier": tier, "path": path, "domain": dom, "score": round(sc, 4)})
+                        "confidence": conf, "tier": tier, "path": path, "domain": dom, "score": round(sc, 4),
+                        'ranking': {'policy': ranking, **match}})
         used += cost
         per_note[nid] = per_note.get(nid, 0) + 1
         if used >= token_budget:
@@ -192,15 +221,17 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
 
 
 def read_knowledge(note_id: str, token_budget: int = 3000, root: Path = ROOT) -> dict:
+    if not isinstance(note_id, str) or type(token_budget) is not int or not 1 <= token_budget <= 12000:
+        raise ValueError('invalid note_id or token_budget')
     con = connect(root)
     row = con.execute("SELECT path FROM notes WHERE id=?", (note_id,)).fetchone()
     con.close()
     if not row:
         return {"error": f"fiche inconnue : {note_id}"}
-    path = (Path(root) / row[0]).resolve()
-    if Path(root).resolve() / "knowledge" not in path.parents:
-        return {"error": "chemin hors de la bibliothèque"}
-    text = path.read_text(encoding="utf-8")
+    try:
+        text = safe_read(root, row[0])
+    except (ValueError, OSError, UnicodeError) as e:
+        return {'error': str(e)}
     meta, body = parse_note(text)
     limit = int(token_budget * 3.6)
     truncated = len(body) > limit
@@ -209,16 +240,23 @@ def read_knowledge(note_id: str, token_budget: int = 3000, root: Path = ROOT) ->
 
 
 def get_topic_index(topic: str, root: Path = ROOT, token_budget: int = 2500) -> dict:
+    if not isinstance(topic, str) or not re.fullmatch(r'[a-z0-9_-]{1,80}', fold(topic)):
+        return {'error': 'domaine invalide'}
+    if type(token_budget) is not int or not 1 <= token_budget <= 8000:
+        raise ValueError('invalid token_budget')
     base = (Path(root) / "knowledge").resolve()
     name = re.sub(r"[^a-z0-9_-]", "", fold(topic))
     if not name or name in ("index", "general"):
         p = base / "_index.md"
     else:
         p = (base / name / "_index.md").resolve()
-    if base not in p.parents and p != base / "_index.md":
-        return {"error": "domaine invalide"}
+    try:
+        from agent.corpus import library_path
+        p = library_path(root, p.relative_to(Path(root).resolve()).as_posix())
+    except ValueError:
+        return {'error': 'domaine invalide'}
     if not p.exists():
-        domains = sorted(d.name for d in base.iterdir() if d.is_dir() and (d / "_index.md").exists())
+        domains = sorted(d.name for d in base.iterdir() if d.is_dir() and not d.is_symlink() and (d / "_index.md").exists()) if base.exists() else []
         return {"error": f"pas d'index pour « {topic} »", "domains": domains}
     text = p.read_text(encoding="utf-8")
     limit = int(token_budget * 3.6)

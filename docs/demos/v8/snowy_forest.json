@@ -1,0 +1,2826 @@
+{
+  "schema": "vdn.demonstration/8",
+  "scenario": "snowy_forest",
+  "input": "Je veux refaire entièrement la forêt enneigée de mon jeu d'horreur Roblox.",
+  "search": {
+    "schema": "vdn.search/8",
+    "query": "Je veux refaire entièrement la forêt enneigée de mon jeu d'horreur Roblox.",
+    "results": [
+      {
+        "id": "vdn-5aa463725976",
+        "title": "Improve performance",
+        "excerpt": "Répondre à : *large forest performance* (sujet : Forêt nocturne enneigée).",
+        "heading": "Objectif",
+        "relevance_score": 14.1518,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/forest/5aa463725976-improve-performance.md",
+        "domain": "forest",
+        "sources": [
+          "https://create.roblox.com/docs/performance-optimization/improve"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "actionable_steps",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-6055d2f0bb67",
+        "title": "Atmospheric effects",
+        "excerpt": "Répondre à : *forest atmosphere fog* (sujet : Forêt nocturne enneigée).",
+        "heading": "Objectif",
+        "relevance_score": 14.1518,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/forest/6055d2f0bb67-atmospheric-effects.md",
+        "domain": "forest",
+        "sources": [
+          "https://create.roblox.com/docs/environment/atmosphere"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-a27deff12d34",
+        "title": "Class: Lighting",
+        "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+        "heading": "Objectif",
+        "relevance_score": 14.1518,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/forest/a27deff12d34-class-lighting.md",
+        "domain": "forest",
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-a374396f6529",
+        "title": "Lighting problems",
+        "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+        "heading": "Objectif",
+        "relevance_score": 14.1518,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.1385
+        },
+        "path": "knowledge/forest/a374396f6529-lighting-problems.md",
+        "domain": "forest",
+        "sources": [
+          "https://devforum.roblox.com/t/1183833"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      },
+      {
+        "id": "vdn-a97042f85138",
+        "title": "Frustum Streaming",
+        "excerpt": "Répondre à : *forest streaming trees* (sujet : Forêt nocturne enneigée).",
+        "heading": "Objectif",
+        "relevance_score": 14.1518,
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        },
+        "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+        "domain": "forest",
+        "sources": [
+          "https://create.roblox.com/docs/workspace/streaming/frustum"
+        ],
+        "updated": "2026-11-15",
+        "engine_version": "inconnue",
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "uncertainties": [
+          "Technical accuracy has not been independently verified."
+        ]
+      }
+    ],
+    "index_diagnostics": [],
+    "selection_policy": "explicit Roblox tasks prefer Roblox-scoped sources; then query coverage, title coverage, text BM25; evidence reported separately",
+    "tokens_estimated_passages": 1293,
+    "untrusted_data": true
+  },
+  "procedures": {
+    "schema": "vdn.procedures/8",
+    "task": "Je veux refaire entièrement la forêt enneigée de mon jeu d'horreur Roblox.",
+    "procedures": [
+      {
+        "note_id": "vdn-5aa463725976",
+        "title": "Improve performance",
+        "sources": [
+          "https://create.roblox.com/docs/performance-optimization/improve"
+        ],
+        "candidate_steps": [],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [
+          "- « - **Overly precise collision detection** - Mesh parts have a `Class.MeshPart.CollisionFidelity|CollisionFidelity` property for detecting collision which offers a variety of modes with different levels of performance impact. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)\n- « Alternatively, you can apply the `CollisionFidelity=PreciseConvexDecomposition` filter to the [Explorer](/docs/en-us/studio/explorer.md#property-filters) which shows a count of all mesh parts with the precise fidelity and allows you to easily select them. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)\n- « - For an in-depth walkthrough on how to choose a collision fidelity option that balances your precision and performance requirements, see [Set physics and rendering parameters](/docs/en-us/tutorials/curriculums/environmental-art/assemble-an-asset-library.md#collisionfidelity). » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)\n- « Mesh parts have a `Class.MeshPart.CollisionFidelity|CollisionFidelity` property that determines the approach that's used to evaluate the collision bounds of the mesh. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)\n- « - Reduce fidelity of collisions using the `Class.MeshPart.CollisionFidelity|CollisionFidelity` setting. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)\n- « - It's generally safe to set any small anchored part's collision fidelity to `Enum.CollisionFidelity.Box|Box`. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md)"
+        ],
+        "evidence": {
+          "level": "a_verifier",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "actionable_steps",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "insufficient_evidence",
+        "needs_verification": [
+          "actionable_steps",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        }
+      },
+      {
+        "note_id": "vdn-6055d2f0bb67",
+        "title": "Atmospheric effects",
+        "sources": [
+          "https://create.roblox.com/docs/environment/atmosphere"
+        ],
+        "candidate_steps": [
+          {
+            "text": "The `Class.Atmosphere.Haze|Haze` property controls the haziness of the atmosphere to create a visible effect both above the horizon and far into the distance from the camera.",
+            "source_note": "vdn-6055d2f0bb67",
+            "source_urls": [
+              "https://create.roblox.com/docs/environment/atmosphere"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « > **Info:** Density only **directly** affects objects and terrain; however, since you view a [skybox](/docs/en-us/environment/skybox.md) through those objects and terrain, the visibility of a skybox is also affected. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)"
+        ],
+        "parameters": [
+          "- « The `Class.Atmosphere.Density|Density` property controls how many particles exist in the air of your game; the higher the density, the more particles, which obstruct a player's view of objects and terrain. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)\n- « > **Info:** Density only **directly** affects objects and terrain; however, since you view a [skybox](/docs/en-us/environment/skybox.md) through those objects and terrain, the visibility of a skybox is also affected. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)\n- « > **Warning:** Carefully balance the `Class.Atmosphere.Offset|Offset` property with the `Class.Atmosphere.Density|Density` property. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)\n- « The `Class.Atmosphere.Haze|Haze` property controls the haziness of the atmosphere to create a visible effect both above the horizon and far into the distance from the camera. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)\n- « The `Class.Atmosphere.Glare|Glare` property sets an atmospheric glare around the sun. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/environment/atmosphere.md)"
+        ],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        }
+      },
+      {
+        "note_id": "vdn-a27deff12d34",
+        "title": "Class: Lighting",
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+        ],
+        "candidate_steps": [
+          {
+            "text": "It includes a range of adjustable properties that you can use to change how lighting appears and interacts with other objects.\"",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "> a range of adjustable properties that you can use to change how lighting",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "a range of adjustable properties that you can use to change how lighting",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false
+          },
+          {
+            "text": "For a measure of `Lighting` time formatted as a 24-hour string, use",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        }
+      },
+      {
+        "note_id": "vdn-a374396f6529",
+        "title": "Lighting problems",
+        "sources": [
+          "https://devforum.roblox.com/t/1183833"
+        ],
+        "candidate_steps": [
+          {
+            "text": "[RÉPONSE ACCEPTÉE] In Roblox Studio, in the Lighting part, you can always change the appearence of the Ambient, Outdoor Ambient, brightness and etc by changing their values.",
+            "source_note": "vdn-a374396f6529",
+            "source_urls": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "verified": false
+          },
+          {
+            "text": "In case you want to change to another lighting, find the property called “Technology” and in there, you can choose 4 types of lights: Compatibility, Future, ShadowMap and Voxel.",
+            "source_note": "vdn-a374396f6529",
+            "source_urls": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [
+          "- « You can try setting it to night, but this will make it a bit darker, but you can up the brightness with color correction. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)\n- « [RÉPONSE ACCEPTÉE] In Roblox Studio, in the Lighting part, you can always change the appearence of the Ambient, Outdoor Ambient, brightness and etc by changing their values. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)\n- « In case you want to change to another lighting, find the property called “Technology” and in there, you can choose 4 types of lights: Compatibility, Future, ShadowMap and Voxel. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)"
+        ],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 2,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.1385
+        }
+      },
+      {
+        "note_id": "vdn-a97042f85138",
+        "title": "Frustum Streaming",
+        "sources": [
+          "https://create.roblox.com/docs/workspace/streaming/frustum"
+        ],
+        "candidate_steps": [
+          {
+            "text": "When you enable frustum streaming for a player, the server also streams instances within a frustum shape matching the player's camera view, extending well beyond the normal streaming radius.",
+            "source_note": "vdn-a97042f85138",
+            "source_urls": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "verified": false
+          },
+          {
+            "text": "- **Frustum**: the camera-view pyramid, active only when frustum streaming is on for that player.",
+            "source_note": "vdn-a97042f85138",
+            "source_urls": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "verified": false
+          },
+          {
+            "text": "Roblox might adjust this allocation in the future if games commonly use both frustum streaming and replication foci and the frustum needs higher priority.",
+            "source_note": "vdn-a97042f85138",
+            "source_urls": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "verified": false
+          },
+          {
+            "text": "On devices with reduced graphics quality or low frame rates, the engine might disable frustum streaming automatically.",
+            "source_note": "vdn-a97042f85138",
+            "source_urls": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "verified": false
+          },
+          {
+            "text": "- **Not applicable to non-streaming experiences**: if your experience does not use instance streaming, all instances are already present on the client and frustum streaming has no effect.",
+            "source_note": "vdn-a97042f85138",
+            "source_urls": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "verified": false
+          }
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « - **Frustum**: the camera-view pyramid, active only when frustum streaming is on for that player. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/workspace/streaming/frustum.md)\n- « - **Not applicable to non-streaming experiences**: if your experience does not use instance streaming, all instances are already present on the client and frustum streaming has no effect. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/workspace/streaming/frustum.md)"
+        ],
+        "parameters": [],
+        "evidence": {
+          "level": "documentee",
+          "claimed_level": null,
+          "verified": false,
+          "source_tier_prior": 1,
+          "source_reliability": "not_independently_verified",
+          "gaps": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ],
+          "warnings": [],
+          "technical_accuracy": "non_verifiee"
+        },
+        "order_verified": false,
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "procedure_status": "candidate_instructions",
+        "needs_verification": [
+          "parameters",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "ranking": {
+          "policy": "coverage",
+          "matched": [
+            "foret",
+            "enneigee"
+          ],
+          "title_matched": [],
+          "coverage": 0.2222222222222222,
+          "title_coverage": 0.0,
+          "text_bm25": 14.151831828236736,
+          "source_prior": 1.5812499999999998
+        }
+      }
+    ],
+    "complementary_sources": [
+      "https://create.roblox.com/docs/performance-optimization/improve",
+      "https://create.roblox.com/docs/environment/atmosphere",
+      "https://create.roblox.com/docs/reference/engine/classes/Lighting",
+      "https://devforum.roblox.com/t/1183833",
+      "https://create.roblox.com/docs/workspace/streaming/frustum"
+    ],
+    "warning": "Extracted instructions are candidates; sources are not an executable or validated end-to-end tutorial."
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Je veux refaire entièrement la forêt enneigée de mon jeu d'horreur Roblox.",
+    "profile": "snowy_forest",
+    "nodes": [
+      {
+        "id": "terrain",
+        "query": "terrain heightmap material",
+        "requires": [],
+        "reason": "socle et materiaux du terrain",
+        "references": [
+          {
+            "id": "vdn-6b1965d3e366",
+            "title": "Custom terrain materials",
+            "excerpt": "- « Each material can use a custom color and an optional `Class.MaterialVariant` for custom textures. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/parts/custom-terrain-materials.md)",
+            "heading": "Paramètres (sourcés)",
+            "relevance_score": 11.0508,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "terrain",
+                "material"
+              ],
+              "title_matched": [
+                "terrain",
+                "material"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 11.050783590146093,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/snow/6b1965d3e366-custom-terrain-materials.md",
+            "domain": "snow",
+            "sources": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-56797d0952ca",
+            "title": "[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements",
+            "excerpt": "Répondre à : *snow terrain material* (sujet : Neige, givre et traces).",
+            "heading": "Objectif",
+            "relevance_score": 7.403,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "terrain",
+                "material"
+              ],
+              "title_matched": [
+                "terrain",
+                "material"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 7.403031805451854,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate.md",
+            "domain": "snow",
+            "sources": [
+              "https://devforum.roblox.com/t/4950620"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-35696693c238",
+            "title": "Class: MaterialVariant",
+            "excerpt": "- « built-in material, or set in the [BasePart.MaterialVariant](/docs/reference/engine/classes/BasePart.md) property to » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/MaterialVariant.md)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 10.2285,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "terrain",
+                "material"
+              ],
+              "title_matched": [
+                "terrain"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 10.228507666111451,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/snow/35696693c238-class-materialvariant.md",
+            "domain": "snow",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/MaterialVariant"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "layout",
+        "query": "forest tree placement",
+        "requires": [
+          "terrain"
+        ],
+        "reason": "distribution des arbres et zones de parcours",
+        "references": [
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 13.7824,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "tree"
+              ],
+              "title_matched": [
+                "forest"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 13.782379691749117,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "excerpt": "Répondre à : *forest streaming trees* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 15.6382,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 15.638216391297636,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 12.3201,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 12.32011669604229,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "terrain"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "trees",
+        "query": "pine foliage cards",
+        "requires": [
+          "layout"
+        ],
+        "reason": "geometrie et feuillage du sapin",
+        "references": [
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 20.023,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "foliage",
+                "card"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 20.023019275956532,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-713de5a2c6e6",
+            "title": "leonisbel/night-hunt",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/leonisbel/night-hunt  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- - **Volumetric fog and god rays:** moonlight shafts through the trees use the shadow map, and your flashlight beam lights the fog, with its own shadows.\n- - **Dense foliage:** trees are rebuilt from alpha-card leaves and needles cut from plant scans.\n- - **PBR surfaces on every monster:** each body part is mapped to a real material: animatronic teddy fur and rusted endoskeletons, scaly reptile hide with pale-belly countershading, wet glossy shark and…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 15.7724,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "foliage",
+                "card"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 15.7724328412804,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/leonisbel/night-hunt"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "unknown",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox compatibility is not established by the available source excerpts."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "- Textures , the surface appearance over an object, have a few special concepts that we’ll cover, such as: What is a texture atlas?\n- Alpha channels and foliage Layout tips Physically Based Rendering Meshes , the 3d geometry of an object, will also need some special considerations for their construction for foliage, such as: Basic construction principles Single Leaves vs Clumps Single Leaves Clumps Optimizing meshes Double-sided properties versus single-sided properties UVs Building and placement Textures The first portion of the article will cover some principles involving the textures used to create foliage.\n\n### Questions de recherche complémentaires\n\n- spruce Roblox texture…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 15.2061,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "pine",
+                "foliage"
+              ],
+              "title_matched": [
+                "foliage"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 15.206120837670507,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "layout"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "materials",
+        "query": "SurfaceAppearance PBR textures",
+        "requires": [
+          "trees"
+        ],
+        "reason": "materiaux et textures",
+        "references": [
+          {
+            "id": "vdn-bbea6ee659d1",
+            "title": "Export PBR textures from Blender (Water)",
+            "excerpt": "- « I also didn’t use the ColorMap property. » — [Roblox DevForum](https://devforum.roblox.com/t/export-pbr-textures-from-blender-water/1175137)\n- « really good job w those texture maps and use of lighting properties » — [Roblox DevForum](https://devforum.roblox.com/t/export-pbr-textures-from-blender-water/1175137)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 12.0347,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 12.034655436793585,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/bbea6ee659d1-export-pbr-textures-from-blender-water.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1175137"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Texture Atlases - Creating Foliage Texture and Meshes\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 15.752,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 15.752018797049828,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-f7dfa278922f",
+            "title": "How would I export this texture?",
+            "excerpt": "Répondre à : *Blender export Roblox fbx* (sujet : Rendu PBR et maillages).",
+            "heading": "Objectif",
+            "relevance_score": 9.7975,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "surfaceappearance",
+                "texture"
+              ],
+              "title_matched": [
+                "texture"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 9.797541216674052,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/f7dfa278922f-how-would-i-export-this-texture.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1162127"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "snow",
+        "query": "snow accumulation mesh",
+        "requires": [
+          "materials"
+        ],
+        "reason": "neige sur les surfaces",
+        "references": [
+          {
+            "id": "vdn-fe4c577081af",
+            "title": "Collisions On Meshs",
+            "excerpt": "Répondre à : *snow accumulation mesh* (sujet : Neige, givre et traces).",
+            "heading": "Objectif",
+            "relevance_score": 24.6932,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "accumulation",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 24.693202450482904,
+              "source_prior": 0.7920000000000001
+            },
+            "path": "knowledge/snow/fe4c577081af-collisions-on-meshs.md",
+            "domain": "snow",
+            "sources": [
+              "https://devforum.roblox.com/t/1193996"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 2 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# Texture Atlases - Creating Foliage Texture and Meshes\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/texture-atlases-creating-foliage-texture-and-meshes/3171224)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 9.5958,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 9.59577339529071,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-319f4403f590",
+            "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+            "excerpt": "> **Documenté** (reclassement V5 du 2026-11-15) · 4 passages techniques extraits d'une source de niveau 2 ; aucun test dans Roblox Studio.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts\n\n**Sujet :** Épicéa enneigé réaliste\n\n**Source :** [Roblox DevForum](https://devforum.roblox.com/t/surfaceappearance-alphamodetransparency-renders-in-bands-on-opaque-meshparts/4822477)\n\n**Question de recherche :** Roblox SurfaceAppearance transparency foliage",
+            "heading": "_intro",
+            "relevance_score": 3.3018,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "snow",
+                "mesh"
+              ],
+              "title_matched": [
+                "mesh"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 3.3017639416366893,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "materials"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "lighting",
+        "query": "night forest lighting",
+        "requires": [
+          "snow"
+        ],
+        "reason": "lecture nocturne du decor",
+        "references": [
+          {
+            "id": "vdn-a27deff12d34",
+            "title": "Class: Lighting",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 22.4744,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 22.474416186560035,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/a27deff12d34-class-lighting.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-a374396f6529",
+            "title": "Lighting problems",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 22.4744,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 22.474416186560035,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/forest/a374396f6529-lighting-problems.md",
+            "domain": "forest",
+            "sources": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-85f4cbd2e11c",
+            "title": "Enhance outdoor environments with realistic lighting",
+            "excerpt": "Répondre à : *night forest lighting* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 21.5015,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "night",
+                "forest"
+              ],
+              "title_matched": [
+                "night"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 21.501529141822306,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/85f4cbd2e11c-enhance-outdoor-environments-with-realistic-lighti.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "snow"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "performance",
+        "query": "forest streaming LOD",
+        "requires": [
+          "trees"
+        ],
+        "reason": "niveaux de detail et budget de rendu",
+        "references": [
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "excerpt": "Répondre à : *forest streaming trees* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 16.9001,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "streaming"
+              ],
+              "title_matched": [
+                "streaming"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 16.900113372936687,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "- Quels réglages exacts (valeurs, propriétés) pour « forest atmosphere fog » ?\n- Quelles limites Roblox (performances, rendu à distance, appareils) pour « forest atmosphere fog » ?\n- Le résultat tient-il de nuit, à la lampe torche, sur mobile ?",
+            "heading": "Questions ouvertes",
+            "relevance_score": 6.4045,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "streaming"
+              ],
+              "title_matched": [
+                "forest"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.5,
+              "text_bm25": 6.404454913638654,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-713de5a2c6e6",
+            "title": "leonisbel/night-hunt",
+            "excerpt": "> **Candidat** (reclassement V5 du 2026-11-15) · 1 passage(s) technique(s), source de niveau 3 ; à approfondir et à tester.\n> Le contenu historique ci-dessous est conservé tel quel.\n\n# leonisbel/night-hunt\n\n**Sujet :** Forêt nocturne enneigée\n\n**Source :** [GitHub repositories](https://github.com/leonisbel/night-hunt)\n\n**Question de recherche :** Roblox realistic night forest lighting fog",
+            "heading": "_intro",
+            "relevance_score": 9.7686,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest",
+                "streaming"
+              ],
+              "title_matched": [],
+              "coverage": 1.0,
+              "title_coverage": 0.0,
+              "text_bm25": 9.768555920295977,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/leonisbel/night-hunt"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "unknown",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox compatibility is not established by the available source excerpts."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "export",
+        "query": "Blender Roblox fbx export",
+        "requires": [
+          "trees"
+        ],
+        "reason": "pipeline de conversion",
+        "references": [
+          {
+            "id": "vdn-564f653d5fbf",
+            "title": "Error When Exporting as fbx from Blender",
+            "excerpt": "- « I’m getting an error every time I try to export some meshes from Blender. » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « Also, have you attempted to export it as any other file type other than FBX? » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « The last option is exporting it as a .obj, importing and exporting the import as fbx again. » — [Roblox DevForum](https://devforum.roblox.com/t/error-when-exporting-as-fbx-from-blender/1159486)\n- « I haven’t, but I like exporting as an fbx file so I can bulk import into studio » — [Roblox…",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 23.1593,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 1.0,
+              "text_bm25": 23.159327079332087,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/564f653d5fbf-error-when-exporting-as-fbx-from-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1159486"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "excerpt": "- « If you run into scaling issues on import, see [Blender FBX scaling](/docs/en-us/art/blender.md#adjust-scale-fbx) for alternative approaches. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)",
+            "heading": "Indices de procédure (non vérifiés)",
+            "relevance_score": 17.2322,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 17.23220178512299,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-c73ed30815b8",
+            "title": "How do I export objects separately in blender?",
+            "excerpt": "> « You can export objects that you’ve selected by checking the “Selected Objects” box when exporting; this will allow you to export objects separately instead of the entire mesh: »\n> — [Roblox DevForum](https://devforum.roblox.com/t/how-do-i-export-objects-separately-in-blender/1195366), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 12.2604,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "blender",
+                "fbx",
+                "export"
+              ],
+              "title_matched": [
+                "blender",
+                "export"
+              ],
+              "coverage": 1.0,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 12.260381911184744,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/rendering/c73ed30815b8-how-do-i-export-objects-separately-in-blender.md",
+            "domain": "rendering",
+            "sources": [
+              "https://devforum.roblox.com/t/1195366"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "collision",
+        "query": "forest MeshPart collision",
+        "requires": [
+          "terrain"
+        ],
+        "reason": "collisions et contraintes de deplacement",
+        "references": [
+          {
+            "id": "vdn-fe4c577081af",
+            "title": "Collisions On Meshs",
+            "excerpt": "- « You won’t be able to fix that problem with the collision fidelity setting, it only gets so precise and it not intended for complex terrain meshes. » — [Roblox DevForum](https://devforum.roblox.com/t/collisions-on-meshs/1193996)",
+            "heading": "Limites connues de Roblox",
+            "relevance_score": 7.4631,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "meshpart",
+                "collision"
+              ],
+              "title_matched": [
+                "meshpart",
+                "collision"
+              ],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.6666666666666666,
+              "text_bm25": 7.463050048748334,
+              "source_prior": 0.7920000000000001
+            },
+            "path": "knowledge/snow/fe4c577081af-collisions-on-meshs.md",
+            "domain": "snow",
+            "sources": [
+              "https://devforum.roblox.com/t/1193996"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-5aa463725976",
+            "title": "Improve performance",
+            "excerpt": "> « Mesh parts have a `Class.MeshPart.CollisionFidelity|CollisionFidelity` property that determines the approach that's used to evaluate the collision bounds of the mesh. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md), consulté le 2026-11-15\n\n> « - Reduce fidelity of collisions using the `Class.MeshPart.CollisionFidelity|CollisionFidelity` setting. »\n> — [Documentation Roblox](https://create.roblox.com/docs/en-us/performance-optimization/improve.md), consulté le 2026-11-15\n\n> « - It's generally safe to set any small anchored part's collision fidelity to `Enum.CollisionFidelity.Box|Box`. »\n> — [Documentation…",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 11.64,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "meshpart",
+                "collision"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 11.640006563759508,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/5aa463725976-improve-performance.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/improve"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://devforum.roblox.com/t/custom-rig-importing-issues-rootpart-offset-bone-visual-glitches/4747045  \n**Contenu :** DevForum  \n**Passages candidats :** 3\n\n### Passages et paramètres repérés\n\n- The Issues Issue 1: RootPart Displacement (Geometry Offset from Collision) The Problem: The RootPart behavior is broken.\n- All transforms ( Ctrl + A → All Transforms) were applied to both the meshes and the armature in Blender prior to export.\n- Issue 2: Eye Bones / Visual Bug with Face Rigging The Problem: I cannot animate the eyes because the eye bones or their associated geometry are…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 7.6671,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "meshpart",
+                "collision"
+              ],
+              "title_matched": [],
+              "coverage": 0.6666666666666666,
+              "title_coverage": 0.0,
+              "text_bm25": 7.667095980833446,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+            "domain": "characters",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "terrain"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "wind",
+        "query": "tree wind bones",
+        "requires": [
+          "trees"
+        ],
+        "reason": "vent et animation",
+        "references": [
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "excerpt": "- character Roblox export implementation limitations troubleshooting\n- character Roblox bones implementation limitations troubleshooting\n\n### Validation requise\n\n- [ ] Vérifier chaque passage dans la source complète\n- [ ] Confirmer les limitations Roblox actuelles\n- [ ] Tester dans Roblox Studio ET Roblox Player\n- [ ] Mesurer qualité et performance",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 12.1059,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "bone"
+              ],
+              "title_matched": [
+                "bone"
+              ],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 12.10589922699966,
+              "source_prior": 1.1385
+            },
+            "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+            "domain": "characters",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 2,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "> « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine groves, bush thickets — real branching geometry with alpha-tested leaf textures, thin-instanced (2 draw calls per species variant). »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15\n\n> « physics.js Havok WASM physics world, body helpers, step, raycast »\n> — [GitHub](https://github.com/VictorZakharov/dark-strands), consulté le 2026-11-15",
+            "heading": "Extraits justificatifs",
+            "relevance_score": 13.7824,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 13.782379691749117,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "excerpt": "**Statut :** passages candidats extraits de la source, **non validés** dans Roblox.\n\n**Source lue :** https://github.com/nightcycle/quick-part  \n**Contenu :** GitHub README  \n**Passages candidats :** 5\n\n### Passages et paramètres repérés\n\n- Press **Play (F5)** to animate the real BaseParts/models on the left and their QuickPart versions on the right: five primitives changing properties, 100 moving cubes, a rotating/scaling 26-part arch, two birch trees with separate trunks and transparent leaf cards, and a woodland scene with a round tree, pine, bush, ferns, grass and boulder.\n- Use Play, not the server-only Run mode, for the client animation.\n- -- SurfaceAppearance =…",
+            "heading": "Analyse V3 — éléments techniques à vérifier",
+            "relevance_score": 8.7013,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "tree"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 8.70129634716779,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+            "domain": "vegetation",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "source_traceability",
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [
+                "affirmations sans extraits attribuables : non verifiees"
+              ],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_mentioned",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox is mentioned; engine compatibility is not independently verified."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified.",
+              "affirmations sans extraits attribuables : non verifiees"
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      },
+      {
+        "id": "audio",
+        "query": "spatial audio forest",
+        "requires": [
+          "layout"
+        ],
+        "reason": "ambiance sonore spatiale",
+        "references": [
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "excerpt": "Répondre à : *forest atmosphere fog* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 7.2874,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest"
+              ],
+              "title_matched": [
+                "forest"
+              ],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.3333333333333333,
+              "text_bm25": 7.287382930430869,
+              "source_prior": 0.684
+            },
+            "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+            "domain": "forest",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 3,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "parameters",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "other_engine",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Engine-specific technique: a Roblox port and compatibility test are required."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-5aa463725976",
+            "title": "Improve performance",
+            "excerpt": "Répondre à : *large forest performance* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 9.2439,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 9.24386395959851,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/5aa463725976-improve-performance.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/improve"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "a_verifier",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "actionable_steps",
+                "constraints",
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          },
+          {
+            "id": "vdn-6055d2f0bb67",
+            "title": "Atmospheric effects",
+            "excerpt": "Répondre à : *forest atmosphere fog* (sujet : Forêt nocturne enneigée).",
+            "heading": "Objectif",
+            "relevance_score": 9.2439,
+            "ranking": {
+              "policy": "coverage",
+              "matched": [
+                "forest"
+              ],
+              "title_matched": [],
+              "coverage": 0.3333333333333333,
+              "title_coverage": 0.0,
+              "text_bm25": 9.24386395959851,
+              "source_prior": 1.5812499999999998
+            },
+            "path": "knowledge/forest/6055d2f0bb67-atmospheric-effects.md",
+            "domain": "forest",
+            "sources": [
+              "https://create.roblox.com/docs/environment/atmosphere"
+            ],
+            "updated": "2026-11-15",
+            "engine_version": "inconnue",
+            "evidence": {
+              "level": "documentee",
+              "claimed_level": null,
+              "verified": false,
+              "source_tier_prior": 1,
+              "source_reliability": "not_independently_verified",
+              "gaps": [
+                "prerequisites",
+                "alternatives",
+                "reproducibility"
+              ],
+              "warnings": [],
+              "technical_accuracy": "non_verifiee"
+            },
+            "compatibility": {
+              "scope": "roblox_specific",
+              "verified": false,
+              "engine_version": "inconnue",
+              "limitations": [
+                "Roblox version, device and practical result still require testing."
+              ]
+            },
+            "uncertainties": [
+              "Technical accuracy has not been independently verified."
+            ]
+          }
+        ],
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "layout"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false
+      }
+    ],
+    "construction_order": [
+      "terrain",
+      "layout",
+      "trees",
+      "materials",
+      "snow",
+      "lighting",
+      "performance",
+      "export",
+      "collision",
+      "wind",
+      "audio"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    }
+  },
+  "executed_in_blender": false,
+  "executed_in_roblox": false,
+  "connected_to_claude": false
+}

@@ -62,8 +62,11 @@ def evaluate_note(text: str) -> dict:
 
 
 def evaluate_library(root: Path) -> dict:
+    from agent.corpus import scan_notes
     result = []
-    for path in sorted((Path(root) / 'knowledge').rglob('*.md')):
-        if not path.name.startswith('_'):
-            result.append({'path': path.relative_to(root).as_posix(), **evaluate_note(path.read_text(encoding='utf-8'))})
-    return {'schema': 'vdn.evaluation/1', 'method': 'structural evidence diagnostics; no truth score', 'notes': result}
+    diagnostics = []
+    for note in scan_notes(root, diagnostics):
+        text = (Path(root)/note['_path']).read_text(encoding='utf-8')
+        result.append({'path': note['_path'], **evaluate_note(text)})
+    return {'schema': 'vdn.evaluation/1', 'method': 'structural evidence diagnostics; no truth score',
+            'notes': result, 'diagnostics': diagnostics}
