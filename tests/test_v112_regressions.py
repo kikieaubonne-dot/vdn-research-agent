@@ -43,6 +43,23 @@ class AuditRegressions(unittest.TestCase):
         (folder/'pair.md').write_text(dump_frontmatter(meta)+body,encoding='utf-8')
         docs=ev.documents(self.root);export=next(d for d in docs if 'export passage' in d['text'])
         self.assertEqual(export['url'],urls[1]);self.assertEqual(export['engine'],'Blender')
+    def test_quality_weighting_precedes_candidate_truncation(self):
+        original={**self.docs[0],'id':'original','title':'Original reference','text':'CanCollide collision behavior is recorded here.','independent':True}
+        secondary={**self.docs[0],'id':'secondary','title':'CanCollide collision CanCollide collision','text':'CanCollide collision behavior appears in an editorial note.','independent':False}
+        selected=ev.retrieve('Roblox collision',[original,secondary],1,queries=['CanCollide collision'])
+        self.assertEqual(selected[0]['document_id'],'original')
+    def test_identical_source_cache_records_do_not_double_evidence(self):
+        import hashlib,time
+        folder=self.root/'lab/ocean/sources';folder.mkdir(parents=True)
+        text='An authored CanCollide collision source for the duplicate-cache test.'
+        record={'url':'https://create.roblox.com/docs/fixture','text':text,'text_sha256':hashlib.sha256(text.encode()).hexdigest(),
+                'version':'unknown','at':time.time(),'published':None,'truncated':False,'provider':'roblox'}
+        (folder/'a.json').write_text(json.dumps(record));(folder/'b.json').write_text(json.dumps(record))
+        self.assertEqual(len(ev.documents(self.root)),1)
+    def test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic(self):
+        folder=self.root/'lab/ocean/sources';folder.mkdir(parents=True)
+        (folder/'corrupt.json').write_text(json.dumps({'url':'https://create.roblox.com/docs/fixture','text':3,'text_sha256':'bad'}))
+        diagnostics=[];self.assertFalse(ev.documents(self.root,diagnostics));self.assertTrue(diagnostics)
 
 
 if __name__=='__main__':unittest.main()

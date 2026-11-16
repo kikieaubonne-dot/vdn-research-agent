@@ -123,6 +123,19 @@ class ProjectTests(unittest.TestCase):
         self.assertNotEqual(first['key'],second['key']);self.assertEqual(second['quality']['readiness'],'BLOCKED')
         self.assertTrue(second['quality']['failures']);self.assertFalse(self.project._handoff(second,1800)['implementation'])
         self.assertNotIn('TESTED_IN_ROBLOX',second['confidence']['states'])
+    def test_direct_handoff_does_not_repeat_a_newly_recorded_failure(self):
+        self.seed();first=self.project.synthesize('collisions',True);lab=LabStore(self.root)
+        r=lab.create('unrelated title','failed method','unknown',{'project_task':'collisions'},{'engine':'Python','project_task':'collisions'})
+        r=lab.transition(r['id'],'PLANNED');r=lab.transition(r['id'],'RUNNING');lab.record_result(r['id'],'FAILED',{},['Authored failure'],errors=['blocked path'])
+        old=self.project.get(first['key']);self.assertTrue(old['inputs_obsolete']);self.assertNotEqual(old['current_readiness'],'READY')
+        brief=self.project.brief('collisions')['project'];self.assertEqual(brief['readiness'],'BLOCKED');self.assertFalse(brief['implementation'])
+        self.assertEqual(self.project.index()['collisions'],first['key']) # read-only refresh
+    def test_source_change_invalidates_a_direct_handoff(self):
+        path=self.seed();first=self.project.synthesize('collisions',True)
+        path.unlink()
+        self.assertTrue(self.project.get(first['key'])['inputs_obsolete'])
+        brief=self.project.brief('collisions')['project'];self.assertFalse(brief['sources'])
+        self.assertEqual(self.project.index()['collisions'],first['key'])
     def test_unreviewed_declared_roblox_is_not_python_proof_of_roblox_execution(self):
         self.seed();lab=LabStore(self.root);r=lab.create('Roblox collision fixture','fixture technique','unknown',{'project_task':'collisions'},{'engine':'Roblox','engine_version':'fixture','project_task':'collisions','asset_ids':['B3','C1']})
         r=lab.transition(r['id'],'PLANNED');r=lab.transition(r['id'],'RUNNING');lab.record_result(r['id'],'SUCCESS',{},['Fixture report only'])

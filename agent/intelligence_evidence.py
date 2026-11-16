@@ -17,7 +17,7 @@ from agent.lab_store import clean_json
 from agent.obsidian import safe_path
 from agent.text import tokens, fold, BM25
 
-VERSION = '11.2.1'
+VERSION = '11.2.2'
 STATUSES = ('SOURCE_SUPPORTED','INFERRED','HYPOTHESIS','EXPERIMENT_PROPOSAL','UNSUPPORTED','CONTRADICTED','OUTDATED')
 HOSTILE = re.compile(r'(?i)ignore (?:all|previous)|system prompt|reveal .*secret|api.?key|powershell|subprocess|delete .*files|execute .*command|curl\s|rm -rf')
 
@@ -70,6 +70,8 @@ def documents(root,diagnostics=None):
             path=safe_path(root,path.relative_to(root).as_posix())
             if path.stat().st_size>200_000:raise ValueError('source too large')
             d=json.loads(path.read_text(encoding='utf-8'));clean_json(d,200_000)
+            if not isinstance(d,dict) or not isinstance(d.get('text'),str) or not isinstance(d.get('url'),str):raise ValueError('invalid source snapshot types')
+            if type(d.get('at',0)) not in (int,float) or not isinstance(d.get('version','unknown'),str) or not isinstance(d.get('conditions',{}),dict):raise ValueError('invalid source snapshot metadata')
             if hashlib.sha256(d['text'].encode('utf-8')).hexdigest()!=d['text_sha256']:raise ValueError('source hash mismatch')
             u=urlsplit(d['url'])
             if u.scheme!='https' or not u.hostname or u.username or u.password or u.query:raise ValueError('unsafe recorded source URL')
@@ -98,7 +100,14 @@ def documents(root,diagnostics=None):
                         'source_type':'secondary_recorded_excerpt','engine':engine_for(url,n.get('title','')),
                         'version':n.get('engine_version','unknown'),'published':None,'accessed':n.get('accessed'),
                         'retrieved_at':0,'truncated':False,'independent':False,'note_id':n['id'],'conditions':{}})
-    return out
+    # URL canonicalization may leave multiple cache filenames for the same
+    # snapshot (for example extensionless/.md). Keep the freshest receipt, not
+    # duplicate evidence or retrieval slots. Metadata variants remain distinct.
+    unique={}
+    for d in out:
+        key=digest([d['url'],d['sha256'],d['version'],d['conditions'],d['source_type']])
+        if key not in unique or d['retrieved_at']>unique[key]['retrieved_at']:unique[key]=d
+    return list(unique.values())
 
 
 def passages(docs):
@@ -147,7 +156,7 @@ def retrieve(question,docs,limit=8,queries=None,anchors=None):
     scores={}
     # Diversify by problem first, then fill by lexical score.
     for query in queries:
-        ranked=index.top(tokens(query),limit)
+        ranked=index.top(tokens(query),len(ps))
         ranked=[(i,s*(1.6 if ps[i]['independent'] else .6)*(.75 if ps[i]['incomplete_context'] else 1)) for i,s in ranked]
         ranked.sort(key=lambda pair:(-pair[1],ps[pair[0]]['id']))
         for i,s in ranked:scores[i]=max(s,scores.get(i,0))

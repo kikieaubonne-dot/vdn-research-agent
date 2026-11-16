@@ -1,0 +1,2562 @@
+{
+  "schema": "vdn.project-evaluation/11.2",
+  "cases": 7,
+  "baseline_commit": "d23aafa6a190ff69d951730dd39566ed3e33f7a0",
+  "same_corpus": true,
+  "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+  "task_identity_correct": 7,
+  "context_budget": 1800,
+  "python_tracemalloc_peak_bytes": 2209978,
+  "model_calls": 0,
+  "HTTP_calls": 0,
+  "api_cost_usd": 0,
+  "rows": [
+    {
+      "task": "collisions",
+      "question": "Corriger les collisions des sapins Roblox",
+      "expected_task_annotation": "collisions",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.390840455002035,
+        "characters": 5982,
+        "estimated_tokens": 1661.7,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "a411df33ad36e539561510e775b4d2c9f53f464ebf47ca3d11a53266ad1348d4",
+          "question": "Corriger les collisions des sapins Roblox",
+          "problems": [
+            "collision",
+            "export"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "collision",
+              "text": "Les volumes de collision pourraient gêner le parcours du contrôleur.",
+              "status": "HYPOTHESIS"
+            },
+            {
+              "problem": "export",
+              "text": "Les transformations ou la compatibilité du pipeline pourraient intervenir.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [
+            {
+              "id": "claim-5b5f3ab2b83c8f8680a8ecb3",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-146f9114ca30bb26c228980a"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:01.258176+00:00",
+              "truth_verified": false,
+              "text_sha256": "f9339ea13abf8ea5557cd6a38ebbb2dc0b270752920f97c1efc6040931ce69aa"
+            }
+          ],
+          "inferences": [
+            {
+              "id": "claim-7aa08e3d63307058b8c07bcb",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029"
+              ],
+              "source_ids": [
+                "doc-257c00dc7f76163faf839b7a"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:01.258078+00:00",
+              "truth_verified": false,
+              "text_sha256": "ecccaa8286035f461cc40e283c5b51d185d6e115e63ffbfd54967ac11b0bd288"
+            },
+            {
+              "id": "claim-49b2d49eee4297d2e5f4e1a4",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-5fc81dcb593733683e5628c3"
+              ],
+              "source_ids": [
+                "doc-0a49fe7c6cdf0f5ab115c9cc"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:01.259144+00:00",
+              "truth_verified": false,
+              "text_sha256": "4c7f920cebdacf62e61d04c5651595ea8183d446a2f97130e6eac7e5642dd8e2"
+            }
+          ],
+          "procedures": [
+            {
+              "problem": "collision",
+              "steps": [
+                "Consigner les volumes et propriétés documentées de la variante témoin.",
+                "Préparer une copie avec une représentation de collision alternative autorisée ; conserver les visuels identiques.",
+                "Rejouer le même parcours entre troncs, sous branches et sur pentes avec le contrôleur réel."
+              ],
+              "why": "Les volumes de collision pourraient gêner le contrôleur.",
+              "conditions": [
+                "copies isolées des assets",
+                "versions et appareil consignés",
+                "baseline sauvegardée"
+              ],
+              "passage_ids": [
+                "pass-e5ad8756e7e3703f99c68374",
+                "pass-146f9114ca30bb26c228980a",
+                "pass-e5ad8756e7e3703f99c68374"
+              ],
+              "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+              "origin": "deterministic_engineering_proposal",
+              "status": "EXPERIMENT_PROPOSAL",
+              "truth_verified": false
+            }
+          ],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings."
+          ],
+          "priority_actions": [
+            "Priorité proposée : collision ; mesurer avant généralisation.",
+            "Priorité proposée : export ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-e5ad8756e7e3703f99c68374",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "How to mitigate",
+              "start": 10598,
+              "end": 11306,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-3b9b3b0125b04653365dd029",
+              "document_id": "doc-257c00dc7f76163faf839b7a",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 75,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-146f9114ca30bb26c228980a",
+              "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+              "url": "https://create.roblox.com/docs/workspace/collisions",
+              "section": "Disable character collisions",
+              "start": 18634,
+              "end": 18942,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-28eae4051602afd209b399fe",
+              "document_id": "doc-d8d8c1c6417a272fc9195601",
+              "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+              "section": "document",
+              "start": 9600,
+              "end": 11000,
+              "source_type": "recorded_source_snapshot",
+              "version": "5.3"
+            },
+            {
+              "id": "pass-e5ad8756e7e3703f99c68374",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "How to mitigate",
+              "start": 10598,
+              "end": 11306,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-031664fd983c49a7c253798b",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Physics memory usage",
+              "start": 9911,
+              "end": 10135,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-031664fd983c49a7c253798b",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Physics memory usage",
+              "start": 9911,
+              "end": 10135,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-5fc81dcb593733683e5628c3",
+              "document_id": "doc-0a49fe7c6cdf0f5ab115c9cc",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "document",
+              "start": 0,
+              "end": 200,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "unknown"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 0.49080167100328254,
+        "characters": 3617,
+        "estimated_tokens": 1004.7,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "collisions",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "a1e0d1ed3fe4b490300c43551f3321406babdecf55c18427f5932cff424f9a22",
+          "question": "Corriger les collisions des sapins Roblox",
+          "facts": [],
+          "problems": [
+            "collisions"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "software_version_unknown"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "collisions",
+            "card_key": "a1e0d1ed3fe4b490300c43551f3321406babdecf55c18427f5932cff424f9a22",
+            "analysis_key": "98934c02b53a289ef6b1c7a7fa93cee05c3c406ceab98aeaa85120a675845f81",
+            "objective": "Réduire les blocages du contrôleur près des troncs et branches dans une scène témoin.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "PARTIAL",
+            "solution": "comparaison du collider actuel et d’une variante simplifiée",
+            "prerequisites": [
+              {
+                "asset": "B3",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              },
+              {
+                "asset": "C1",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "TreeCollisionHarness",
+                "input": "copie de l’arbre et contrôleur réel",
+                "action": "Inventorier séparément troncs, branches, géométrie visible et volumes physiques ; relever uniquement les propriétés sourcées.",
+                "expected": "État témoin enregistré pour restauration."
+              },
+              {
+                "component": "TreeCollisionHarness",
+                "input": "trajet marqué entre arbres, sous branches et sur pente",
+                "action": "Exécuter le trajet témoin et journaliser chaque blocage avec position, action et composant touché.",
+                "expected": "Liste reproductible des blocages."
+              },
+              {
+                "component": "TreeCollisionHarness",
+                "input": "copie A témoin et copie B",
+                "action": "Changer uniquement la représentation physique autorisée par les sources ; rejouer le même contrôleur et parcours.",
+                "expected": "Comparaison des blocages et du coût physique ; rollback si régression."
+              }
+            ],
+            "sources": [
+              {
+                "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+                "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+                "end": 21982,
+                "engine": "Roblox",
+                "id": "pass-a74cb8fc1f2efb214b5ef087",
+                "section": "Mesh and solid model collisions",
+                "source_type": "recorded_source_snapshot",
+                "start": 21379,
+                "url": "https://create.roblox.com/docs/workspace/collisions",
+                "version": "unknown"
+              }
+            ],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL",
+              "SOURCE_DOCUMENTED"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "executed": false,
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ]
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "software_version_unknown"
+            ],
+            "question": null,
+            "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 1,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "PARTIAL",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "lighting",
+      "question": "Améliorer la lampe torche Roblox",
+      "expected_task_annotation": "lighting",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.7642436349997297,
+        "characters": 5688,
+        "estimated_tokens": 1580.0,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": false,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "9a8660e1f81cae7af4506a287ccacf409509fb0691a506f3db53d018d336a9b5",
+          "question": "Améliorer la lampe torche Roblox",
+          "problems": [
+            "lighting"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "lighting",
+              "text": "L’éclairage et la lisibilité nocturne pourraient devoir être isolés du matériau.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [
+            {
+              "id": "claim-853856f44ace166a478ca0d4",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-d848fa2456fd2cfb3b537d45"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:03.117265+00:00",
+              "truth_verified": false,
+              "text_sha256": "de62c8d4f5f5e553a34567bbb084f59f8254e48a1c16df2b38bce9185464df4f"
+            },
+            {
+              "id": "claim-5208d2e3c3ca9e8dd0582998",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-d47e083efe62e8646012c9f7"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:03.117960+00:00",
+              "truth_verified": false,
+              "text_sha256": "5daa344ab7f7a72241edc7e78932ef1fbe86e1c64766aab266bd3d4ee79ccd46"
+            },
+            {
+              "id": "claim-a358fa706552edb74982af78",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-16a3a45759831c66ec0642ba"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:03.118211+00:00",
+              "truth_verified": false,
+              "text_sha256": "2b388207ef0d9293176eef900196b8ad28536924a3a03cef0ca3918c40e72686"
+            },
+            {
+              "id": "claim-cdff9688d099551acade5518",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-2cf9fbc55e49931b83356d0f"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:03.118326+00:00",
+              "truth_verified": false,
+              "text_sha256": "ee6747db2c197d743a599b652c3ef51c26d99f95281baccae3d3037ca3c0aa6b"
+            },
+            {
+              "id": "claim-31d263e041b5396f9fe7b4ac",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-e76a0468ac3fc283f5058062"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:03.118434+00:00",
+              "truth_verified": false,
+              "text_sha256": "969de7695cf1caf221455b3ac13199ef35a6dc297606f73231d0c1bd111b7f9f"
+            }
+          ],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device"
+          ],
+          "priority_actions": [
+            "Priorité proposée : lighting ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-d848fa2456fd2cfb3b537d45",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "Light sources",
+              "start": 1390,
+              "end": 1696,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-d47e083efe62e8646012c9f7",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "document",
+              "start": 0,
+              "end": 216,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-16a3a45759831c66ec0642ba",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "Left",
+              "start": 3599,
+              "end": 3732,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-2cf9fbc55e49931b83356d0f",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "30",
+              "start": 3946,
+              "end": 4077,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-e76a0468ac3fc283f5058062",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "Bottom",
+              "start": 3449,
+              "end": 3586,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-e7e9b9b715c3674625c285f0",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "Light sources",
+              "start": 235,
+              "end": 592,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-2426a9d74e6b01592dd862cb",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "SpotLight",
+              "start": 2665,
+              "end": 2678,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-30bff1940bd598913f75a67c",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "section": "SpotLight",
+              "start": 2851,
+              "end": 3265,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 0.9066767260010238,
+        "characters": 3430,
+        "estimated_tokens": 952.8,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "lighting",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "6f0766082a177fd45e6ab13c90041f0f2bcb13b185354a62d610177bac5eeab0",
+          "question": "Améliorer la lampe torche Roblox",
+          "facts": [],
+          "problems": [
+            "lighting"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "software_version_unknown"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "lighting",
+            "card_key": "6f0766082a177fd45e6ab13c90041f0f2bcb13b185354a62d610177bac5eeab0",
+            "analysis_key": "13dcf7ac38186fba3009ea281add22d11c60e68392539506cbd776aa08de7f8f",
+            "objective": "Isoler les défauts de lisibilité nocturne et de faisceau de la lampe V2.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "PARTIAL",
+            "solution": "isolation du faisceau et de l’ambiance nocturne",
+            "prerequisites": [
+              {
+                "asset": "flashlight-v2",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "FlashlightNightHarness",
+                "input": "lampe V2 et scène témoin",
+                "action": "Consigner propriétés réellement disponibles et valeurs actuelles ; fixer caméra, exposition et appareil.",
+                "expected": "Baseline restaurable et versions enregistrées."
+              },
+              {
+                "component": "FlashlightNightHarness",
+                "input": "copies A/B, mêmes arbres et sol",
+                "action": "Changer un seul facteur documenté de lumière, ombre ou brouillard ; conserver le reste.",
+                "expected": "Cause isolée des différences de lisibilité."
+              },
+              {
+                "component": "FlashlightNightHarness",
+                "input": "même trajet et mêmes positions",
+                "action": "Capturer bord du faisceau, contact avec le sol, branches et silhouettes ; joindre coût de trame et avis humain.",
+                "expected": "Compromis visibilité/ambiance mesuré, aucune portée optimale présumée."
+              }
+            ],
+            "sources": [
+              {
+                "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+                "document_sha256": "1f33a9580c0a55b55c10e0818fb5f6865969e130b289b64654cb7e68902c22ba",
+                "end": 2849,
+                "engine": "Roblox",
+                "id": "pass-06fcd1bde5752118fee17e15",
+                "section": "SpotLight",
+                "source_type": "recorded_source_snapshot",
+                "start": 2680,
+                "url": "https://create.roblox.com/docs/effects/light-sources",
+                "version": "unknown"
+              }
+            ],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL",
+              "SOURCE_DOCUMENTED"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "executed": false,
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ]
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "software_version_unknown"
+            ],
+            "question": null,
+            "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 1,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "PARTIAL",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "performance",
+      "question": "Optimiser les performances de la forêt Roblox",
+      "expected_task_annotation": "performance",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.3937959850009065,
+        "characters": 5596,
+        "estimated_tokens": 1554.4,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "7d66f899c8325f442f1d6275f89b6b6159557c7e3930a6296ff037673d0215d7",
+          "question": "Optimiser les performances de la forêt Roblox",
+          "problems": [
+            "performance"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "performance",
+              "text": "La densité, la géométrie ou le rendu pourraient contribuer au coût.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [],
+          "inferences": [
+            {
+              "id": "claim-49b2d49eee4297d2e5f4e1a4",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-5fc81dcb593733683e5628c3"
+              ],
+              "source_ids": [
+                "doc-0a49fe7c6cdf0f5ab115c9cc"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:05.154931+00:00",
+              "truth_verified": false,
+              "text_sha256": "4c7f920cebdacf62e61d04c5651595ea8183d446a2f97130e6eac7e5642dd8e2"
+            },
+            {
+              "id": "claim-fdb7799e25f3d0aa11216622",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-7b48ed08583df003bcd7a4fa"
+              ],
+              "source_ids": [
+                "doc-5e4ea64965468fce190ebb01"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:05.156040+00:00",
+              "truth_verified": false,
+              "text_sha256": "3a3894def41f29f49ea7285d1b8a495e94b3a99b5b2a595a6fef8a6dba784666"
+            }
+          ],
+          "procedures": [
+            {
+              "problem": "performance",
+              "steps": [
+                "Fixer un chemin de déplacement reproductible et consigner densité, instances, matériaux et réglages de streaming.",
+                "Modifier un seul facteur par variante : densité, géométrie ou stratégie de distance ; conserver les autres contrôles.",
+                "Utiliser les outils de profilage Roblox sur l’appareil cible ; joindre les mesures brutes et les moments de blocage du contrôleur."
+              ],
+              "why": "La densité ou le rendu pourraient contribuer au coût.",
+              "conditions": [
+                "copies isolées des assets",
+                "versions et appareil consignés",
+                "baseline sauvegardée"
+              ],
+              "passage_ids": [
+                "pass-de5cf2f2a4184c255a38b11e",
+                "pass-de5cf2f2a4184c255a38b11e",
+                "pass-9df31806984d660c5f1bda31"
+              ],
+              "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+              "origin": "deterministic_engineering_proposal",
+              "status": "EXPERIMENT_PROPOSAL",
+              "truth_verified": false
+            }
+          ],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings.",
+            "No independent complete source passage supports an established fact; inspect secondary references or collect original sources."
+          ],
+          "priority_actions": [
+            "Priorité proposée : performance ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-de5cf2f2a4184c255a38b11e",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 27607,
+              "end": 27629,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-5fc81dcb593733683e5628c3",
+              "document_id": "doc-0a49fe7c6cdf0f5ab115c9cc",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "document",
+              "start": 0,
+              "end": 200,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-de5cf2f2a4184c255a38b11e",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 27607,
+              "end": 27629,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-9df31806984d660c5f1bda31",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 28463,
+              "end": 28609,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-9df31806984d660c5f1bda31",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 28463,
+              "end": 28609,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-586eec1983b264f0ba50b3f7",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 28122,
+              "end": 28221,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-586eec1983b264f0ba50b3f7",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Instance streaming",
+              "start": 28122,
+              "end": 28221,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-7b48ed08583df003bcd7a4fa",
+              "document_id": "doc-5e4ea64965468fce190ebb01",
+              "url": "https://create.roblox.com/docs/performance-optimization/design",
+              "section": "document",
+              "start": 0,
+              "end": 129,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": true,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 0.6848535269964486,
+        "characters": 3249,
+        "estimated_tokens": 902.5,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "performance",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "e05273553c18a9966d51bc8cb349914c23d85deb3390a91af310fc0f8ff48fa9",
+          "question": "Optimiser les performances de la forêt Roblox",
+          "facts": [],
+          "problems": [
+            "performance"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "software_version_unknown",
+            "no_sufficient_original_source"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": true,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "performance",
+            "card_key": "e05273553c18a9966d51bc8cb349914c23d85deb3390a91af310fc0f8ff48fa9",
+            "analysis_key": "9df3584c4df2039a819b5fdc99a603bc2d93782683f44a980bf2e2997007f736",
+            "objective": "Établir un baseline et isoler géométrie, densité et rendu sur les appareils retenus.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "BLOCKED",
+            "solution": "baseline par appareil et modification d’un facteur",
+            "prerequisites": [
+              {
+                "asset": "forest-lab",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "ForestProfileHarness",
+                "input": "scène témoin et appareils confirmés",
+                "action": "Consigner géométrie, matériaux, instances, résolution et trajet ; les objectifs de FPS restent inconnus tant que non validés.",
+                "expected": "Rapport de baseline avec conditions."
+              },
+              {
+                "component": "ForestProfileHarness",
+                "input": "même caméra et même trajet",
+                "action": "Mesurer les segments coûteux avec les outils officiellement documentés ; séparer rendu, physique et logique.",
+                "expected": "Coût attribué à un segment et non à un FPS supposé."
+              },
+              {
+                "component": "ForestProfileHarness",
+                "input": "variante ne changeant qu’un facteur",
+                "action": "Comparer densité, géométrie ou gestion de distance séparément ; garder les mesures brutes et les défauts visuels.",
+                "expected": "Décision conditionnelle par appareil, pas de gain général inventé."
+              }
+            ],
+            "sources": [],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "executed": false,
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ]
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "software_version_unknown",
+              "no_sufficient_original_source"
+            ],
+            "question": "Quels appareils et budgets de performance doivent être validés pour la bêta ?",
+            "next_action": "Quels appareils et budgets de performance doivent être validés pour la bêta ?",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 0,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "BLOCKED",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "materials",
+      "question": "Corriger la texture du sapin Roblox",
+      "expected_task_annotation": "materials",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.5061062230015523,
+        "characters": 5765,
+        "estimated_tokens": 1601.4,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": false,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "bbbd83da140594745c3c2a4833d72c1b5253caf0602520a2cb8b31b948c8dd25",
+          "question": "Corriger la texture du sapin Roblox",
+          "problems": [
+            "export"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "export",
+              "text": "Les transformations ou la compatibilité du pipeline pourraient intervenir.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [
+            {
+              "id": "claim-bb6fb4a82c3b6c01993ef92a",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-e785e3862c0ba6fe4025f6c0"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:07.023133+00:00",
+              "truth_verified": false,
+              "text_sha256": "031923494ee34050d6664e390642e356462352e19ebeb177f13b74d927566b09"
+            },
+            {
+              "id": "claim-cf9cc3cb3171552e783c6410",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-93f4a7110e5ffcd70ec4e5ae"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:07.023677+00:00",
+              "truth_verified": false,
+              "text_sha256": "48c3dd8c4e908ddea6b7d08a063c71d687f5d81a85d0d4f80f718fa90c2d7698"
+            },
+            {
+              "id": "claim-9b1a8456ef193629a2fcc11c",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-d51dd52eb20bee54989f5099"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:07.023748+00:00",
+              "truth_verified": false,
+              "text_sha256": "8c0b0767e83ddb04cc309c5d3589fb0a35977538f93aaea020b00aac8cdb5edc"
+            }
+          ],
+          "inferences": [
+            {
+              "id": "claim-7aa08e3d63307058b8c07bcb",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029"
+              ],
+              "source_ids": [
+                "doc-257c00dc7f76163faf839b7a"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:07.022857+00:00",
+              "truth_verified": false,
+              "text_sha256": "ecccaa8286035f461cc40e283c5b51d185d6e115e63ffbfd54967ac11b0bd288"
+            },
+            {
+              "id": "claim-81ff7f8ab398fef8109e25d4",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-678d76cd74197b50bfbe6b4a"
+              ],
+              "source_ids": [
+                "doc-d9cfee330f9ad70e8cd04c60"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:07.023500+00:00",
+              "truth_verified": false,
+              "text_sha256": "a9647f172dd6a763c2611624574fdaecfb82d6b234ab35406cfacc8cd492ef53"
+            }
+          ],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings."
+          ],
+          "priority_actions": [
+            "Priorité proposée : export ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-3b9b3b0125b04653365dd029",
+              "document_id": "doc-257c00dc7f76163faf839b7a",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 75,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-e785e3862c0ba6fe4025f6c0",
+              "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+              "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+              "section": "Texture maps",
+              "start": 3690,
+              "end": 3793,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-28eae4051602afd209b399fe",
+              "document_id": "doc-d8d8c1c6417a272fc9195601",
+              "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+              "section": "document",
+              "start": 9600,
+              "end": 11000,
+              "source_type": "recorded_source_snapshot",
+              "version": "5.3"
+            },
+            {
+              "id": "pass-678d76cd74197b50bfbe6b4a",
+              "document_id": "doc-d9cfee330f9ad70e8cd04c60",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 60,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-8307e7156453a5f8068fef7b",
+              "document_id": "doc-ea6df202c989c337684dc24d",
+              "url": "https://devforum.roblox.com/t/1159486",
+              "section": "document",
+              "start": 0,
+              "end": 76,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+              "document_id": "doc-0cd9a742bf946226b852c165",
+              "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+              "section": "Blender and Maya texture settings",
+              "start": 2671,
+              "end": 2732,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-d51dd52eb20bee54989f5099",
+              "document_id": "doc-0cd9a742bf946226b852c165",
+              "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+              "section": "Blender and Maya texture settings",
+              "start": 865,
+              "end": 929,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-5da7e1ad94ea53a8d0559bad",
+              "document_id": "doc-9eb6bce5e1a0b7f046b8a3d8",
+              "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+              "section": "document",
+              "start": 0,
+              "end": 107,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 1.6831037670053774,
+        "characters": 3404,
+        "estimated_tokens": 945.6,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "materials",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "fcede1db330a4552ff2ca7b9fbb1cb702517e94b6869f0a6c36b5826f2c1fd4d",
+          "question": "Corriger la texture du sapin Roblox",
+          "facts": [],
+          "problems": [
+            "materials"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "software_version_unknown"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "materials",
+            "card_key": "fcede1db330a4552ff2ca7b9fbb1cb702517e94b6869f0a6c36b5826f2c1fd4d",
+            "analysis_key": "c9f41bcad814b83154748468658cb6104e049e4d24e834ba91e0ca8bffa1497c",
+            "objective": "Comparer les textures et normales effectivement présentes sous le même éclairage.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "PARTIAL",
+            "solution": "comparaison des cartes réellement fournies",
+            "prerequisites": [
+              {
+                "asset": "tree-textures",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "MaterialNormalHarness",
+                "input": "textures et UV disponibles",
+                "action": "Inventorier les cartes, leurs sources et les éléments manquants ; ne pas fabriquer une carte absente.",
+                "expected": "Liste d’entrées complète ou lacunes explicites."
+              },
+              {
+                "component": "MaterialNormalHarness",
+                "input": "même arbre et lumière témoin",
+                "action": "Comparer matériau témoin et cartes candidates en isolant couleur, normales ou transparence.",
+                "expected": "Cause des coutures ou contours isolée."
+              },
+              {
+                "component": "MaterialNormalHarness",
+                "input": "mêmes vues proches et lointaines",
+                "action": "Examiner raccords, orientation des normales, ombres et coût ; ne pas transposer un shader Unreal.",
+                "expected": "Avis humain et limites moteur liés aux sources."
+              }
+            ],
+            "sources": [
+              {
+                "id": "pass-448a9ff5b8d2acf19d6c0959",
+                "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+                "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+                "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+                "version": "unknown",
+                "engine": "Roblox",
+                "source_type": "recorded_source_snapshot",
+                "section": "Normal",
+                "start": 4525,
+                "end": 4764
+              }
+            ],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL",
+              "SOURCE_DOCUMENTED"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ],
+              "executed": false
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "software_version_unknown"
+            ],
+            "question": null,
+            "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 1,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "PARTIAL",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "animation",
+      "question": "Préparer une animation Roblox",
+      "expected_task_annotation": "animation",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.5910552450004616,
+        "characters": 5404,
+        "estimated_tokens": 1501.1,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "ffe0f61f380c297f4866e96c3e65dc499181a5747b69c52b6ad6c6c81f76a4cc",
+          "question": "Préparer une animation Roblox",
+          "problems": [
+            "export"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "export",
+              "text": "Les transformations ou la compatibilité du pipeline pourraient intervenir.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [],
+          "inferences": [
+            {
+              "id": "claim-7aa08e3d63307058b8c07bcb",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029"
+              ],
+              "source_ids": [
+                "doc-257c00dc7f76163faf839b7a"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:11.052881+00:00",
+              "truth_verified": false,
+              "text_sha256": "ecccaa8286035f461cc40e283c5b51d185d6e115e63ffbfd54967ac11b0bd288"
+            },
+            {
+              "id": "claim-c9d092d58a536829bfcb09be",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-1030091c84cfdf8c516c0623"
+              ],
+              "source_ids": [
+                "doc-0dce45f2b67681fcb25582db"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "incomplete_source_context"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:11.053312+00:00",
+              "truth_verified": false,
+              "text_sha256": "48035c36d8e46acd3ceb7c2a57597c344582125fdcfc0cbcacb8f9ea0f0e3ac8"
+            }
+          ],
+          "procedures": [
+            {
+              "problem": "export",
+              "steps": [
+                "Exporter une copie de chaque asset, avec unités, transformations, normales et options FBX consignées.",
+                "Comparer dimensions, pose de repos et matériaux avant/après import ; vérifier explicitement Blender 5.2 côté utilisateur.",
+                "Garder l’export précédent et le journal d’import pour attribuer les différences au pipeline, sans modifier les originaux."
+              ],
+              "why": "Le pipeline d’export pourrait contribuer aux différences.",
+              "conditions": [
+                "copies isolées des assets",
+                "versions et appareil consignés",
+                "baseline sauvegardée"
+              ],
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029",
+                "pass-1030091c84cfdf8c516c0623",
+                "pass-28eae4051602afd209b399fe"
+              ],
+              "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+              "origin": "deterministic_engineering_proposal",
+              "status": "EXPERIMENT_PROPOSAL",
+              "truth_verified": false
+            }
+          ],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings.",
+            "No independent complete source passage supports an established fact; inspect secondary references or collect original sources."
+          ],
+          "priority_actions": [
+            "Priorité proposée : export ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-3b9b3b0125b04653365dd029",
+              "document_id": "doc-257c00dc7f76163faf839b7a",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 75,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-1030091c84cfdf8c516c0623",
+              "document_id": "doc-0dce45f2b67681fcb25582db",
+              "url": "https://create.roblox.com/docs/performance-optimization/improve",
+              "section": "Mitigation",
+              "start": 13121,
+              "end": 14521,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-28eae4051602afd209b399fe",
+              "document_id": "doc-d8d8c1c6417a272fc9195601",
+              "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+              "section": "document",
+              "start": 9600,
+              "end": 11000,
+              "source_type": "recorded_source_snapshot",
+              "version": "5.3"
+            },
+            {
+              "id": "pass-678d76cd74197b50bfbe6b4a",
+              "document_id": "doc-d9cfee330f9ad70e8cd04c60",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 60,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-8307e7156453a5f8068fef7b",
+              "document_id": "doc-ea6df202c989c337684dc24d",
+              "url": "https://devforum.roblox.com/t/1159486",
+              "section": "document",
+              "start": 0,
+              "end": 76,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-5da7e1ad94ea53a8d0559bad",
+              "document_id": "doc-9eb6bce5e1a0b7f046b8a3d8",
+              "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+              "section": "document",
+              "start": 0,
+              "end": 107,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-f39765ed70defb7b1914f75b",
+              "document_id": "doc-d214020916ecdd520b2a8a52",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 140,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-51bfc628ed5281a3a315903b",
+              "document_id": "doc-3f16cefafd50d70b6566ab70",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 100,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": true,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 1.8226047739954083,
+        "characters": 3337,
+        "estimated_tokens": 926.9,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "animation",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "6709b4b035a7ecbc37f0d97748794cdf9e6350b3dbaf6e585fc0f706f79c3aba",
+          "question": "Préparer une animation Roblox",
+          "facts": [],
+          "problems": [
+            "animation"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "software_version_unknown",
+            "blender_version_unverified_or_incompatible",
+            "rejected_claim_not_a_fact",
+            "no_sufficient_original_source"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": true,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "animation",
+            "card_key": "6709b4b035a7ecbc37f0d97748794cdf9e6350b3dbaf6e585fc0f706f79c3aba",
+            "analysis_key": "3dc9c2d5a708ccd7967ff4276a0a40998564984c13bf0afbf0c76d04a244f780",
+            "objective": "Préparer une animation sur un rig de laboratoire sans imposer Sonia comme personnage de bêta.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "BLOCKED",
+            "solution": "validation d’un mouvement et de son import sur un rig témoin",
+            "prerequisites": [
+              {
+                "asset": "animation-rig",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "AnimationRoundTripHarness",
+                "input": "rig de laboratoire et pose de repos",
+                "action": "Consigner hiérarchie, unités, os et pose de référence ; le personnage de bêta reste à confirmer.",
+                "expected": "Rig et pose de référence inspectables."
+              },
+              {
+                "component": "AnimationRoundTripHarness",
+                "input": "animation courte sur une copie",
+                "action": "Exporter une copie avec options documentées ; comparer pose de repos, mouvement et déformations après import.",
+                "expected": "Différences localisées entre rig, animation et import."
+              },
+              {
+                "component": "AnimationRoundTripHarness",
+                "input": "mêmes rig, version et séquence",
+                "action": "Tester lecture, interruption et retour à la pose sûre ; garder les exports et les captures d’échec.",
+                "expected": "Aucun gain ou compatibilité attribué à Sonia sans mesure sur son asset."
+              }
+            ],
+            "sources": [],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ],
+              "executed": false
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "software_version_unknown",
+              "blender_version_unverified_or_incompatible",
+              "rejected_claim_not_a_fact",
+              "no_sufficient_original_source"
+            ],
+            "question": "Quel personnage est jouable dans la première version ?",
+            "next_action": "Quel personnage est jouable dans la première version ?",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 0,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "BLOCKED",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "interactions",
+      "question": "Créer une interaction de porte Roblox",
+      "expected_task_annotation": "interactions",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.545896077004727,
+        "characters": 5270,
+        "estimated_tokens": 1463.9,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": false,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "874fa5eab0067d420d9c669d7595a197e7dc18ca5186a8846184e2db957d4cf1",
+          "question": "Créer une interaction de porte Roblox",
+          "problems": [],
+          "provisional_diagnosis": [],
+          "facts": [
+            {
+              "id": "claim-3a8c2721fb93ca6ebfddd006",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-740e9b0fd7ae6b48c57bd39d"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:15.321558+00:00",
+              "truth_verified": false,
+              "text_sha256": "978f36d5a3685052a58ec06eef29aa01886947501561a60c1311fcaf86e725a4"
+            },
+            {
+              "id": "claim-f9dc91769b86d022c53f4e39",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-eda0296b0b974250ec3c20ed"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:15.322027+00:00",
+              "truth_verified": false,
+              "text_sha256": "c6e0fc6a6ff76130dbe892fc9cc0150b63978d80fbe09c5d66be2e73c394b435"
+            }
+          ],
+          "inferences": [
+            {
+              "id": "claim-b31f7227cf341576a4bd7221",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-749c2c88c94bd65c0072da1c"
+              ],
+              "source_ids": [
+                "doc-f12c86aebe203fce69c370f5"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:15.322292+00:00",
+              "truth_verified": false,
+              "text_sha256": "9393b6ef6764521d85ee1fcba71b8d8037a53aa77af1aa69a9b753a7990c6c23"
+            },
+            {
+              "id": "claim-57e813bcde149e794ff3e788",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-512873912a70010f8fa12f27"
+              ],
+              "source_ids": [
+                "doc-5e61c3b53f4f134e552ccfb9"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:15.322477+00:00",
+              "truth_verified": false,
+              "text_sha256": "7c95bcbbd8176cabebe1c598c6b895e3fa55d74e6b1d6ed0db3a5be1eaaabf7f"
+            }
+          ],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings."
+          ],
+          "priority_actions": [],
+          "references": [
+            {
+              "id": "pass-740e9b0fd7ae6b48c57bd39d",
+              "document_id": "doc-ab7f419cd07ff6deee7b9654",
+              "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+              "section": "Proximity prompts",
+              "start": 238,
+              "end": 424,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-eda0296b0b974250ec3c20ed",
+              "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+              "url": "https://create.roblox.com/docs/workspace/collisions",
+              "section": "Mesh and solid model collisions",
+              "start": 22154,
+              "end": 22711,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-749c2c88c94bd65c0072da1c",
+              "document_id": "doc-f12c86aebe203fce69c370f5",
+              "url": "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox",
+              "section": "document",
+              "start": 0,
+              "end": 196,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-512873912a70010f8fa12f27",
+              "document_id": "doc-5e61c3b53f4f134e552ccfb9",
+              "url": "https://devforum.roblox.com/t/1162127",
+              "section": "document",
+              "start": 0,
+              "end": 173,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-7f0165ec36dd0ee33e5b0993",
+              "document_id": "doc-7af5922b3cf96162a8fdfd68",
+              "url": "https://devforum.roblox.com/t/1193996",
+              "section": "document",
+              "start": 0,
+              "end": 160,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-d9fb290f9af8b52132610ae6",
+              "document_id": "doc-1e5de3afe029629c7c05e1db",
+              "url": "https://devforum.roblox.com/t/1183833",
+              "section": "document",
+              "start": 0,
+              "end": 159,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-41e6bf06a09cf88276c00cdb",
+              "document_id": "doc-5de8bf51477a8ec88d7e9732",
+              "url": "https://github.com/srendpty/roblox",
+              "section": "document",
+              "start": 0,
+              "end": 128,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-30d0a8af021eec9961f1a3c3",
+              "document_id": "doc-9077401fc07b2a44e3032acb",
+              "url": "https://create.roblox.com/docs/parts/materials",
+              "section": "document",
+              "start": 0,
+              "end": 164,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 0.766795922005258,
+        "characters": 3621,
+        "estimated_tokens": 1005.8,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "interactions",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "130b480353d9811c3c21dbf03c45cad06fe5215cbe22fd187e258b7d10e2cf19",
+          "question": "Créer une interaction de porte Roblox",
+          "facts": [],
+          "problems": [
+            "interactions"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "correct_but_off_topic",
+            "software_version_unknown"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "interactions",
+            "card_key": "130b480353d9811c3c21dbf03c45cad06fe5215cbe22fd187e258b7d10e2cf19",
+            "analysis_key": "ebb540b27978d7111cda912942c97315be111dcc19c37cd0bee7751508b7f2c3",
+            "objective": "Préparer une interaction de porte et cachette vérifiable sans décider le scénario.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "BLOCKED",
+            "solution": "contrat d’interaction avec validation de l’état",
+            "prerequisites": [
+              {
+                "asset": "interaction-prototype",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "InteractionDoorHarness",
+                "input": "porte et cachette témoins, mode réseau à confirmer",
+                "action": "Définir action, portée autorisée, préconditions et état avant/après ; les valeurs restent à choisir à partir des sources et tests.",
+                "expected": "Contrat d’interaction et erreurs explicites."
+              },
+              {
+                "component": "InteractionDoorHarness",
+                "input": "composants logique de demande et d’autorisation",
+                "action": "Séparer présentation, requête et décision ; rejeter les demandes répétées ou incompatibles avec l’état courant.",
+                "expected": "Aucun double déclenchement ni changement d’état impossible."
+              },
+              {
+                "component": "InteractionDoorHarness",
+                "input": "même scénario d’ouverture et de sortie",
+                "action": "Tester annulation, obstacle, entrée déjà occupée et reconnexion si le mode retenu le requiert.",
+                "expected": "Résultats et limites réseau consignés avant réutilisation."
+              }
+            ],
+            "sources": [
+              {
+                "document_id": "doc-ab7f419cd07ff6deee7b9654",
+                "document_sha256": "52f54f29c348856d1f15b6a645476571a6697f6b6154ba3d506faa759f15029a",
+                "end": 424,
+                "engine": "Roblox",
+                "id": "pass-740e9b0fd7ae6b48c57bd39d",
+                "section": "Proximity prompts",
+                "source_type": "recorded_source_snapshot",
+                "start": 238,
+                "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+                "version": "unknown"
+              }
+            ],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL",
+              "SOURCE_DOCUMENTED"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "executed": false,
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ]
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "correct_but_off_topic",
+              "software_version_unknown"
+            ],
+            "question": "La première version est-elle solo ou coopérative ?",
+            "next_action": "La première version est-elle solo ou coopérative ?",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 1,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "BLOCKED",
+      "human_usefulness_review": "not performed"
+    },
+    {
+      "task": "export",
+      "question": "Résoudre un problème d’export Blender 5.2 vers Roblox",
+      "expected_task_annotation": "export",
+      "A_V111": {
+        "elapsed_with_process_startup_s": 0.5150027190029505,
+        "characters": 6164,
+        "estimated_tokens": 1712.2,
+        "criteria": {
+          "game_named": false,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": false,
+          "steps_with_components": false
+        },
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "b7c65fc05ec00c9d9dcbb2168755b6ee12e5c4ccdecd1ec06a3564f4cf5928e9",
+          "question": "Résoudre un problème d’export Blender 5.2 vers Roblox",
+          "problems": [
+            "export"
+          ],
+          "provisional_diagnosis": [
+            {
+              "problem": "export",
+              "text": "Les transformations ou la compatibilité du pipeline pourraient intervenir.",
+              "status": "HYPOTHESIS"
+            }
+          ],
+          "facts": [
+            {
+              "id": "claim-9b1a8456ef193629a2fcc11c",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-d51dd52eb20bee54989f5099"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:17.396872+00:00",
+              "truth_verified": false,
+              "text_sha256": "8c0b0767e83ddb04cc309c5d3589fb0a35977538f93aaea020b00aac8cdb5edc"
+            },
+            {
+              "id": "claim-cf9cc3cb3171552e783c6410",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-93f4a7110e5ffcd70ec4e5ae"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "version": "unknown",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "SOURCE_SUPPORTED",
+              "verification": "attribution_only",
+              "issues": [],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:17.397190+00:00",
+              "truth_verified": false,
+              "text_sha256": "48c3dd8c4e908ddea6b7d08a063c71d687f5d81a85d0d4f80f718fa90c2d7698"
+            }
+          ],
+          "inferences": [
+            {
+              "id": "claim-7aa08e3d63307058b8c07bcb",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029"
+              ],
+              "source_ids": [
+                "doc-257c00dc7f76163faf839b7a"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:17.396597+00:00",
+              "truth_verified": false,
+              "text_sha256": "ecccaa8286035f461cc40e283c5b51d185d6e115e63ffbfd54967ac11b0bd288"
+            },
+            {
+              "id": "claim-81ff7f8ab398fef8109e25d4",
+              "text": "[source excerpt withheld; consult source and detailed analysis]",
+              "passage_ids": [
+                "pass-678d76cd74197b50bfbe6b4a"
+              ],
+              "source_ids": [
+                "doc-d9cfee330f9ad70e8cd04c60"
+              ],
+              "version": "inconnue",
+              "engine": "Roblox",
+              "kind": "SOURCE_SUPPORTED",
+              "support": "INFERRED",
+              "verification": "not_verified",
+              "issues": [
+                "secondary_excerpt_requires_original"
+              ],
+              "contradictions": [],
+              "last_evaluated": "2026-11-16T12:07:17.397263+00:00",
+              "truth_verified": false,
+              "text_sha256": "a9647f172dd6a763c2611624574fdaecfb82d6b234ab35406cfacc8cd492ef53"
+            }
+          ],
+          "procedures": [
+            {
+              "problem": "export",
+              "steps": [
+                "Exporter une copie de chaque asset, avec unités, transformations, normales et options FBX consignées.",
+                "Comparer dimensions, pose de repos et matériaux avant/après import ; vérifier explicitement Blender 5.2 côté utilisateur.",
+                "Garder l’export précédent et le journal d’import pour attribuer les différences au pipeline, sans modifier les originaux."
+              ],
+              "why": "Le pipeline d’export pourrait contribuer aux différences.",
+              "conditions": [
+                "copies isolées des assets",
+                "versions et appareil consignés",
+                "baseline sauvegardée"
+              ],
+              "passage_ids": [
+                "pass-3b9b3b0125b04653365dd029",
+                "pass-d51dd52eb20bee54989f5099",
+                "pass-28eae4051602afd209b399fe"
+              ],
+              "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+              "origin": "deterministic_engineering_proposal",
+              "status": "EXPERIMENT_PROPOSAL",
+              "truth_verified": false
+            }
+          ],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "asset copies and current settings",
+            "software versions not supplied",
+            "reproducible baseline and device",
+            "No explicit supported parameter/value table; do not invent engine settings."
+          ],
+          "priority_actions": [
+            "Priorité proposée : export ; mesurer avant généralisation."
+          ],
+          "references": [
+            {
+              "id": "pass-3b9b3b0125b04653365dd029",
+              "document_id": "doc-257c00dc7f76163faf839b7a",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 75,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-d51dd52eb20bee54989f5099",
+              "document_id": "doc-0cd9a742bf946226b852c165",
+              "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+              "section": "Blender and Maya texture settings",
+              "start": 865,
+              "end": 929,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-28eae4051602afd209b399fe",
+              "document_id": "doc-d8d8c1c6417a272fc9195601",
+              "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+              "section": "document",
+              "start": 9600,
+              "end": 11000,
+              "source_type": "recorded_source_snapshot",
+              "version": "5.3"
+            },
+            {
+              "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+              "document_id": "doc-0cd9a742bf946226b852c165",
+              "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+              "section": "Blender and Maya texture settings",
+              "start": 2671,
+              "end": 2732,
+              "source_type": "recorded_source_snapshot",
+              "version": "unknown"
+            },
+            {
+              "id": "pass-678d76cd74197b50bfbe6b4a",
+              "document_id": "doc-d9cfee330f9ad70e8cd04c60",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 60,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-8307e7156453a5f8068fef7b",
+              "document_id": "doc-ea6df202c989c337684dc24d",
+              "url": "https://devforum.roblox.com/t/1159486",
+              "section": "document",
+              "start": 0,
+              "end": 76,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-5da7e1ad94ea53a8d0559bad",
+              "document_id": "doc-9eb6bce5e1a0b7f046b8a3d8",
+              "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+              "section": "document",
+              "start": 0,
+              "end": 107,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            },
+            {
+              "id": "pass-f39765ed70defb7b1914f75b",
+              "document_id": "doc-d214020916ecdd520b2a8a52",
+              "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+              "section": "document",
+              "start": 0,
+              "end": 140,
+              "source_type": "secondary_recorded_excerpt",
+              "version": "inconnue"
+            }
+          ],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "detail_tool": "get_intelligence_analysis",
+          "scope": "Attribution only; proposed project steps untested. Software versions, target device and missing source context require review."
+        }
+      },
+      "B_project": {
+        "elapsed_in_process_s": 1.6262687199996435,
+        "characters": 4504,
+        "estimated_tokens": 1251.1,
+        "criteria": {
+          "game_named": true,
+          "target_engine": true,
+          "unknown_device_explicit": true,
+          "rollback_present": true,
+          "test_protocol_present": true,
+          "steps_with_components": true
+        },
+        "matched_task": "export",
+        "correct_task": true,
+        "raw_brief": {
+          "schema": "vdn.intelligence-brief/11.1",
+          "key": "58419a207627083713fde4e76841998f7a2b7a42ae6f4151a9f653536b340a56",
+          "question": "Résoudre un problème d’export Blender 5.2 vers Roblox",
+          "facts": [],
+          "problems": [
+            "export"
+          ],
+          "provisional_diagnosis": [],
+          "inferences": [],
+          "procedures": [],
+          "experiments": [],
+          "contradictions": [],
+          "uncertainties": [
+            "correct_but_off_topic",
+            "software_version_unknown",
+            "blender_version_unverified_or_incompatible",
+            "rejected_claim_not_a_fact"
+          ],
+          "priority_actions": [],
+          "references": [],
+          "failed_methods": [],
+          "reviewed_experiments": [],
+          "detail_tool": "get_intelligence_analysis",
+          "abstained_from_established_facts": false,
+          "truth_verified": false,
+          "untrusted_data": true,
+          "project": {
+            "task_id": "export",
+            "card_key": "58419a207627083713fde4e76841998f7a2b7a42ae6f4151a9f653536b340a56",
+            "analysis_key": "8e008050cfc175478ad72ed155bf5b6c842b5dcf2f23fd343284f2d15cb1ca4d",
+            "objective": "Documenter unités, normales et transformations d’un export Blender 5.2 sur des copies d’assets.",
+            "context": {
+              "project": "Le Voisin de Noël [Horreur]",
+              "target_engine": "Roblox",
+              "blender_target": "5.2",
+              "device_target": "UNKNOWN"
+            },
+            "request_constraints": {},
+            "readiness": "PARTIAL",
+            "solution": "comparaison avant/après export",
+            "prerequisites": [
+              {
+                "asset": "B3",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              },
+              {
+                "asset": "C1",
+                "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+              }
+            ],
+            "implementation": [
+              {
+                "component": "ExportRoundTripHarness",
+                "input": "copies Blender 5.2",
+                "action": "Consigner unités, transformations, normales et options réellement utilisées sans modifier les originaux.",
+                "expected": "Rapport des paramètres choisis et des versions."
+              },
+              {
+                "component": "ExportRoundTripHarness",
+                "input": "export séparé et copie du laboratoire Roblox",
+                "action": "Importer la copie et comparer dimensions, orientation, matériaux et pose à la référence.",
+                "expected": "Différences attribuées à l’étape du pipeline."
+              },
+              {
+                "component": "ExportRoundTripHarness",
+                "input": "mêmes assets B3/C1",
+                "action": "Rejouer l’export avec une seule option modifiée ; garder l’export précédent pour rollback.",
+                "expected": "Compatibilité limitée aux assets et versions réellement testés."
+              }
+            ],
+            "sources": [
+              {
+                "id": "pass-4543033088bc36736713b017",
+                "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+                "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+                "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+                "version": "unknown",
+                "engine": "Roblox",
+                "source_type": "recorded_source_snapshot",
+                "section": "Image Maps",
+                "start": 22936,
+                "end": 23047
+              },
+              {
+                "id": "pass-24822d0191d025cf22353499",
+                "document_id": "doc-0cd9a742bf946226b852c165",
+                "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+                "document_sha256": "4af62a112e9192fd7a8c80386bac8dbb0f606901a965b3c4a4b641482c6d2ea5",
+                "version": "unknown",
+                "engine": "Roblox",
+                "source_type": "recorded_source_snapshot",
+                "section": "Blender and Maya texture settings",
+                "start": 2449,
+                "end": 2669
+              },
+              {
+                "id": "pass-8a8766cf1c92b68a91b248d2",
+                "document_id": "doc-ae07cc946d4b006af7a0d167",
+                "url": "https://create.roblox.com/docs/parts/terrain",
+                "document_sha256": "fc67e10e2b4290b5a34368ae640a855f4ed195d8716fc162c901093f0ef4e575",
+                "version": "unknown",
+                "engine": "Roblox",
+                "source_type": "recorded_source_snapshot",
+                "section": "Transform regions",
+                "start": 16324,
+                "end": 17631
+              }
+            ],
+            "evidence_scope": [
+              "ENGINEERING_PROPOSAL",
+              "SOURCE_DOCUMENTED"
+            ],
+            "risks": [
+              "compatibilité moteur et versions non présumée",
+              "coût de rendu/physique à mesurer sur appareil cible"
+            ],
+            "tests": {
+              "controls": [
+                "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+              ],
+              "changed_variable": "un seul facteur identifié avant exécution",
+              "measures": [
+                "observations brutes et coût mesuré",
+                "captures si disponibles"
+              ],
+              "success_criteria": [
+                "critères et seuils à valider avant exécution",
+                "aucune régression du comportement témoin"
+              ],
+              "executed": false
+            },
+            "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+            "uncertainties": [
+              "correct_but_off_topic",
+              "software_version_unknown",
+              "blender_version_unverified_or_incompatible",
+              "rejected_claim_not_a_fact"
+            ],
+            "question": null,
+            "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+            "project_revision_obsolete": false
+          },
+          "scope": "Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu."
+        }
+      },
+      "source_attribution": {
+        "scope": "mechanical capture metadata, not truth or platform validation",
+        "source_count": 3,
+        "all_source_urls_present": true,
+        "live_link_check": "not performed by benchmark"
+      },
+      "readiness": "PARTIAL",
+      "human_usefulness_review": "not performed"
+    }
+  ],
+  "limitations": [
+    "structural criteria and explicit task identity only; not blind semantic annotation",
+    "baseline timing includes interpreter startup; project timing does not, so no speed gain inferred",
+    "no Claude invocation or quota savings measured",
+    "sources captured from real pages must be distinguished from fixture tests",
+    "no engine experiment or visual comparison performed"
+  ],
+  "publication_scope": "Source quotations redacted; metrics computed on full outputs. Original documents and raw outputs remain private."
+}

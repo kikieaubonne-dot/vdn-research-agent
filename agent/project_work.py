@@ -14,7 +14,7 @@ from agent.project_quality import quality,drift
 from agent.project_recipes import recipe
 from agent.storage import atomic_write
 
-VERSION='project-11.2.1'
+VERSION='project-11.2.2'
 
 
 def bound_experiments(root,task_id):
@@ -55,6 +55,20 @@ class Project:
             if not item['card'].get('public_archive'):raise ValueError('archive must declare its secondary provenance')
             out[item['key']]=item['card']
         return out
+    def reuse_fingerprint(self,task_id):
+        # Check the inputs again on reads; a saved result is not evidence that
+        # sources, operator reports or configuration are still current.
+        import time
+        from agent.intelligence_evidence import documents,VERSION as pipeline_version
+        from agent.project_visual import references
+        diagnostics=[];docs=documents(self.root,diagnostics)
+        return digest({'bible':self.bible.fingerprint,'pipeline':pipeline_version,'configuration':im.settings(self.root),
+            'sources':[{k:d[k] for k in ('id','sha256','version','conditions','truncated','independent')} for d in docs],
+            'expired':[d['id'] for d in docs if d['retrieved_at'] and time.time()-d['retrieved_at']>86400],
+            'diagnostics':diagnostics,
+            'experiments':[(r['id'],r['revision'],r['event_sha256']) for r in bound_experiments(self.root,task_id)],
+            'visuals':references(self,task_id),
+            'dependencies':{d:self.index().get(d) for d in self.bible.task(task_id)['requires']}})
     def has_card(self,key):return self.path('cards/'+key+'.json').exists() or key in self.archive()
     def get(self,key):
         if not isinstance(key,str) or not re.fullmatch('[a-f0-9]{64}',key):raise ValueError('invalid project card key')
@@ -68,14 +82,15 @@ class Project:
             card=self.archive().get(key)
             if card is None:raise ValueError('unknown project card')
         changed=card['bible_hash']!=self.bible.fingerprint
+        obsolete=not card.get('public_archive') and card.get('reuse_fingerprint')!=self.reuse_fingerprint(card['task_id'])
         if card.get('public_archive'):
             qa=card['quality'];card={**card,'quality':{**qa,'facts':[],
                 'issues':list(dict.fromkeys(qa['issues']+['archived_sources_require_local_revalidation'])),
                 'checks':{**qa['checks'],'original_sources_sufficient':False,'compatibility_and_assets_human_reviewed':False}},
                 'compatibility':{**card['compatibility'],'verified':False},
                 'confidence':{'states':['ENGINEERING_PROPOSAL'],'truth_verified':False,'scope':'secondary published preparation record; sources not revalidated in this clone'}}
-        return {**card,'project_revision_obsolete':changed,
-                'current_readiness':'PARTIAL' if changed or card.get('public_archive') and card['quality']['readiness']!='BLOCKED' else card['quality']['readiness']}
+        return {**card,'project_revision_obsolete':changed,'inputs_obsolete':obsolete,
+                'current_readiness':'PARTIAL' if changed or obsolete or card.get('public_archive') and card['quality']['readiness']!='BLOCKED' else card['quality']['readiness']}
     def latest(self,task_id):
         key=self.index().get(task_id)
         if key:return self.get(key)
@@ -116,11 +131,12 @@ class Project:
                          'Inspecter l’échec et changer explicitement les conditions avant de répéter.' if qa['failures'] else
                          'Collecter un passage original pertinent et compatible.' if not qa['facts'] else
                          'Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.')
-            key=digest({'version':VERSION,'bible':bible.fingerprint,'task':task['id'],'analysis':result['key'],
+            reuse=self.reuse_fingerprint(task['id'])
+            key=digest({'reuse_fingerprint':reuse,'version':VERSION,'bible':bible.fingerprint,'task':task['id'],'analysis':result['key'],
                         'analysis_outcome':{'state':result['state'],'model_error':result['model_error'],
                             'facts':[(c['id'],c['support']) for c in result['facts']]},
                         'dependencies':deps,'experiment_revisions':context['experiment_revisions']})
-            card={'schema':'vdn.project-card/11.2','key':key,'bible_hash':bible.fingerprint,'task_id':task['id'],
+            card={'schema':'vdn.project-card/11.2','key':key,'bible_hash':bible.fingerprint,'task_id':task['id'],'reuse_fingerprint':reuse,
                 'problem':task['objective'],'context':context,'priority':task['priority'],'priority_status':task['priority_status'],
                 'solution':proposal['solution'],'choice_reason':'Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.',
                 'prerequisites':[{'asset':a,'availability':'UNKNOWN; provide or attest through a task-bound experiment'} for a in task['assets']],
@@ -161,7 +177,7 @@ class Project:
             if found['state']!='matched':payload=found
             else:
                 card=self.latest(found['task'])
-                if not card or card['context'].get('request_constraints',{})!=requested:card=self.synthesize(question)
+                if not card or card.get('inputs_obsolete') or card.get('project_revision_obsolete') or card['context'].get('request_constraints',{})!=requested:card=self.synthesize(question)
                 payload=self._handoff(card,token_budget) if card.get('schema')=='vdn.project-card/11.2' else card
         # Existing core field names remain available; the project handoff carries
         # its own readiness, evidence and decisive question within the same cap.
@@ -190,6 +206,10 @@ class Project:
             'tests':card['test'],'rollback':card['rollback'],'uncertainties':card['quality']['issues'],
             'question':card['quality']['blocking_questions'][0]['text'] if card['quality']['blocking_questions'] else None,
             'next_action':card['next_action'],'project_revision_obsolete':card.get('project_revision_obsolete',False)}
+        if card.get('inputs_obsolete') or card.get('project_revision_obsolete'):
+            payload['solution']='Fiche historique périmée : recalculer avec les entrées actuelles avant implémentation.'
+            payload['implementation']=[];payload['sources']=[]
+            payload['uncertainties']=list(dict.fromkeys(payload['uncertainties']+['inputs_changed_reanalysis_required']))
         if card['quality']['failures']:
             payload['solution']='Examiner l’échec lié ; aucune répétition recommandée dans les mêmes conditions sans justification nouvelle.'
             payload['implementation']=[]
@@ -220,7 +240,8 @@ class Project:
         for task in bible.data['tasks']:
             card=self.latest(task['id'])
             if not card:continue
-            lines=['# '+task['title'],'','État : '+card['current_readiness']+' ; candidat, pas de technique validée.',
+            if card.get('inputs_obsolete') or card.get('project_revision_obsolete'):card=self.synthesize(task['id'])
+            lines=['# '+task['title'],'','État : '+card.get('current_readiness',card['quality']['readiness'])+' ; candidat, pas de technique validée.',
                 '', '## Objectif',card['problem'],'','## Contexte',card['context']['project'],
                 '', '## Solution proposée',card['solution'],'','## Pourquoi',card['choice_reason'],'','## Prérequis']
             lines+=['- '+p['asset']+' : '+p['availability'] for p in card['prerequisites']]

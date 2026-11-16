@@ -69,3 +69,33 @@ sans modifier la Bible ni les compteurs.
 Les analyses historiques sont conservées, mais le mode projet n'en réaffirme
 pas les anciens faits comme issus du vérificateur corrigé. Aucune migration
 des notes, expériences ou sessions n'est faite en silence.
+
+## Défauts révélés par les sources réelles et la transmission finale
+
+Trois contre-exemples supplémentaires échouaient avant correction (journal
+`docs/validation/v112/ranking-before-fix.log`) :
+
+- La troncature BM25 précédait la pondération de qualité. Une source originale
+  complète sur les collisions était éliminée au profit de citations secondaires.
+  Les candidats sont maintenant pondérés avant de retenir les meilleurs.
+- Deux noms de cache pour un snapshot canonique identique occupaient deux places
+  et pouvaient donner une fausse impression de preuves multiples. Les reçus
+  identiques sont dédupliqués ; les différences de version/conditions demeurent.
+- Un cache JSON valide contenant un texte de type entier arrêtait l'admission.
+  Les types sont contrôlés et le reçu incorrect est isolé avec un diagnostic.
+
+Deux tests rouges supplémentaires montrent qu'un briefing direct pouvait encore
+utiliser la dernière fiche après suppression de sa source ou ajout d'un échec
+lié. La lecture compare désormais les empreintes des sources, leur expiration,
+la configuration, le vérificateur, la Bible, les expériences, les visuels et les
+clés des dépendances. Un briefing courant recalcule hors ligne sans écrire ; une
+clé historique reste consultable et porte `inputs_obsolete`, avec ses étapes
+retirées du briefing. Aucune ancienne preuve n'est effacée.
+
+Le plafond de références visuelles a aussi été testé avant correction : le
+quatrième artefact était importé avant son refus. Le refus précède maintenant
+l'import, sans supprimer les trois références existantes.
+
+Les 47 tests V11.2 sont des tests de contrats et d'intégration contrôlée, pas
+47 validations de techniques dans Roblox. Le benchmark réel de récupération et
+la session réseau sont publiés séparément.

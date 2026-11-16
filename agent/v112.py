@@ -25,7 +25,7 @@ def main(argv=None):
     a=p.parse_args(argv);project=Project(a.root);research=ProjectResearch(a.root)
     try:
         if a.cmd=='bible':
-            if a.markdown:print(project.bible.markdown());return 0
+            if a.markdown:print(project.bible.markdown(),end='');return 0
             r=project.bible.data
         elif a.cmd=='plan':r=project.plan()
         elif a.cmd=='daily':r=project.daily()

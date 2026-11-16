@@ -97,4 +97,3 @@ Révision : 1 ; empreinte : `50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c
 - export : P2 (PROPOSED) ; prérequis : aucun lien de dépendance imposé
 - materials : P2 (PROPOSED) ; prérequis : aucun lien de dépendance imposé
 - animation : P2 (PROPOSED) ; prérequis : export
-

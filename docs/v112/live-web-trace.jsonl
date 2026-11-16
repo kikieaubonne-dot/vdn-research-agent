@@ -1,0 +1,30 @@
+{"at": "2026-11-16T11:54:46.583847+00:00", "kind": "cache_hit", "purpose": "content", "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T11:54:52.300553+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T11:54:54.011997+00:00", "kind": "http_response", "purpose": "robots", "status": 200, "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T11:54:54.115184+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/parts/terrain"}
+{"at": "2026-11-16T11:55:00.311432+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/parts/terrain"}
+{"at": "2026-11-16T11:55:00.338384+00:00", "extracted_utf8_bytes": 22454, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://create.roblox.com/docs/parts/terrain"}
+{"at": "2026-11-16T11:55:00.896065+00:00", "kind": "cache_hit", "purpose": "content", "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T11:55:01.082644+00:00", "kind": "cache_hit", "purpose": "content", "url": "https://create.roblox.com/docs/parts/terrain"}
+{"at": "2026-11-16T11:55:02.181548+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/effects/light-sources"}
+{"at": "2026-11-16T11:55:03.330636+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/effects/light-sources"}
+{"at": "2026-11-16T11:55:03.350046+00:00", "extracted_utf8_bytes": 7665, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://create.roblox.com/docs/effects/light-sources"}
+{"at": "2026-11-16T11:55:04.261027+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/workspace/camera"}
+{"at": "2026-11-16T11:55:05.340675+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/workspace/camera"}
+{"at": "2026-11-16T11:55:05.362699+00:00", "extracted_utf8_bytes": 6151, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://create.roblox.com/docs/workspace/camera"}
+{"at": "2026-11-16T11:55:06.025540+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/characters/index"}
+{"at": "2026-11-16T11:55:07.485874+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/characters/index"}
+{"at": "2026-11-16T11:55:07.549176+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/workspace/raycasting"}
+{"at": "2026-11-16T11:55:08.512664+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/workspace/raycasting"}
+{"at": "2026-11-16T11:55:08.534374+00:00", "extracted_utf8_bytes": 5881, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://create.roblox.com/docs/workspace/raycasting"}
+{"at": "2026-11-16T11:55:09.623430+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/ui/proximity-prompts"}
+{"at": "2026-11-16T11:55:10.925386+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/ui/proximity-prompts"}
+{"at": "2026-11-16T11:55:10.952194+00:00", "extracted_utf8_bytes": 8556, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://create.roblox.com/docs/ui/proximity-prompts"}
+{"at": "2026-11-16T11:55:11.740333+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T11:55:12.947031+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T11:55:13.096165+00:00", "extracted_utf8_bytes": 32000, "kind": "source_cached", "purpose": "content", "truncated": true, "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T11:55:13.390427+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/studio/microprofiler/index"}
+{"at": "2026-11-16T11:55:14.987864+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/studio/microprofiler/index"}
+{"at": "2026-11-16T11:55:15.430485+00:00", "kind": "cache_hit", "purpose": "content", "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T11:55:15.643338+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/studio/microprofiler/index"}
+{"at": "2026-11-16T11:55:15.944549+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/studio/microprofiler/index"}

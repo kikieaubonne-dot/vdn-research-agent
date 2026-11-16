@@ -1,5 +1,23 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V11.2 — Project Intelligence
+
+Bible du jeu, priorités/dépendances, fiches techniques, contrôle de préparation,
+échecs liés et briefings Claude spécialisés. Collecte manuelle bornée ; dix
+préparations partielles, aucune technique déclarée validée dans le jeu.
+
+```sh
+python -m agent.v112 bible
+python -m agent.v112 plan
+python -m agent.v112 brief "Corriger les collisions des sapins Roblox"
+python -m agent.v112 daily
+python vdn_mcp.py --v112
+```
+
+[Rapport et limites](docs/V11_2_REPORT.md) · [Audit](docs/v112/AUDIT.md) ·
+[Windows et MCP](docs/v112/GUIDE.md) · [Dix fiches et session réelle](docs/v112/RESEARCH.md) ·
+[Mesures](docs/v112/BENCHMARK.md) · [Rollback](docs/v112/MIGRATION.md).
+
 ## V11.1 — Éponge Intelligence
 
 Analyse des problèmes, passages localisés, registre d'affirmations, critique,

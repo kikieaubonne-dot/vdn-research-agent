@@ -1,0 +1,3144 @@
+{
+  "schema": "vdn.project-prepared/11.2",
+  "scope": "secondary project memory, not independent technical sources",
+  "cards": [
+    {
+      "key": "6fe4dd8189e285d666da32f7c41c4d1fb27b68eab4c86e229e4bd35a86baa1d8",
+      "payload_hash": "47978c4b3854c026e8c6a76f7c97423b996dc3733d370a0fc64442a20a4b950d",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "6fe4dd8189e285d666da32f7c41c4d1fb27b68eab4c86e229e4bd35a86baa1d8",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "trees",
+        "reuse_fingerprint": "7ff225181d3eb508e22cbff1e69743ac232cc6e1db009dafedfa0ee5b86c726c",
+        "problem": "Comparer silhouette, géométrie et feuillage de copies B3/C1 sans supposer un gain visuel.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "trees",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [],
+          "retrieval_queries": [
+            "Roblox foliage mesh silhouette SurfaceAppearance snow"
+          ],
+          "retrieval_anchors": [
+            "foliage",
+            "mesh",
+            "silhouette",
+            "geometry"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "comparaison silhouette/géométrie et feuillage",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "B3",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          },
+          {
+            "asset": "C1",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "comparaison silhouette/géométrie et feuillage",
+          "component": {
+            "name": "TreeVariantsLab",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "TreeVariantsLab",
+              "input": "copies B3/C1 et vues de référence",
+              "action": "Aligner les copies sur la même échelle ; capturer silhouette proche et lointaine.",
+              "expected_observation": "Silhouettes annotées et dimensions consignées."
+            },
+            {
+              "component": "TreeVariantsLab",
+              "input": "copies de même silhouette",
+              "action": "Modifier un seul facteur : géométrie ou représentation du feuillage ; conserver matériaux, caméra et lumière.",
+              "expected_observation": "Variantes A/B différant seulement par le facteur choisi."
+            },
+            {
+              "component": "TreeVariantsLab",
+              "input": "parcours et captures identiques",
+              "action": "Comparer répétition, contours, ombres et coût mesuré ; conserver les défauts signalés par un humain.",
+              "expected_observation": "Revue visuelle et mesures jointes, sans gagnant présumé."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "géométrie",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "cartes de feuillage",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [
+          {
+            "claim_id": "claim-60c64c25d1865877862e9b76",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SurfaceAppearance",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-52d67a51e3db722468b01802"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-228448dc659cd483356945d5",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "RoughnessMap",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-5fddff40277ca77f9f591334"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-228448dc659cd483356945d5",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SurfaceAppearance",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-5fddff40277ca77f9f591334"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-04d06ec97c8bc0bcfd9cc1b7",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "ColorMap",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-f55a682f6067ced48bd22b7e"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-04d06ec97c8bc0bcfd9cc1b7",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SurfaceAppearance",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-f55a682f6067ced48bd22b7e"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-9d5e6af30b1244f07a6f4af6",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "NormalMap",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-61230ca3e993f0c3c2e763f5"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-9d5e6af30b1244f07a6f4af6",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SurfaceAppearance",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-61230ca3e993f0c3c2e763f5"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-2d9ddf3b9da9035b1c5eae8a",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "ColorMap",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-c76f012ffa7a5245219a0528"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-2d9ddf3b9da9035b1c5eae8a",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SurfaceAppearance",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-c76f012ffa7a5245219a0528"
+            ],
+            "project_applicability": "unverified"
+          }
+        ],
+        "alternatives": [
+          {
+            "method": "géométrie",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "cartes de feuillage",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-b0f865a58243baba6eebae06",
+            "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+            "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+            "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Image Maps",
+            "start": 15027,
+            "end": 15773
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+        "quality": {
+          "readiness": "PARTIAL",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": true,
+            "dependencies_ready": false,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "correct_but_off_topic",
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-45d1cf076204815f5a245ab8",
+              "passage_ids": [
+                "pass-b0f865a58243baba6eebae06"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-60c64c25d1865877862e9b76",
+              "passage_ids": [
+                "pass-52d67a51e3db722468b01802"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-228448dc659cd483356945d5",
+              "passage_ids": [
+                "pass-5fddff40277ca77f9f591334"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-04d06ec97c8bc0bcfd9cc1b7",
+              "passage_ids": [
+                "pass-f55a682f6067ced48bd22b7e"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-9d5e6af30b1244f07a6f4af6",
+              "passage_ids": [
+                "pass-61230ca3e993f0c3c2e763f5"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-25302fbc6da426437c2426ec",
+              "passage_ids": [
+                "pass-9ab5d8bd23f955bcefc2fe31"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-2d9ddf3b9da9035b1c5eae8a",
+              "passage_ids": [
+                "pass-c76f012ffa7a5245219a0528"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-b0f865a58243baba6eebae06",
+              "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+              "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+              "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Image Maps",
+              "start": 15027,
+              "end": 15773
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [],
+          "missing_dependencies": [
+            "export",
+            "materials"
+          ],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "c8ac4d3784256df334b8405f64ac50bf9a2927c5a8d3ed257015da6600ee730a",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:39.682386+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "PARTIAL"
+      }
+    },
+    {
+      "key": "a1e0d1ed3fe4b490300c43551f3321406babdecf55c18427f5932cff424f9a22",
+      "payload_hash": "f08094607b81e7b98ef6782637cda6a6ca962bd366ba765ad9b83b75fe4e202f",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "a1e0d1ed3fe4b490300c43551f3321406babdecf55c18427f5932cff424f9a22",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "collisions",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Réduire les blocages du contrôleur près des troncs et branches dans une scène témoin.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "collisions",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [],
+          "retrieval_queries": [
+            "Roblox MeshPart CollisionFidelity CanCollide tree collisions"
+          ],
+          "retrieval_anchors": [
+            "CollisionFidelity",
+            "CanCollide",
+            "collision geometry"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P0",
+        "priority_status": "PROPOSED",
+        "solution": "comparaison du collider actuel et d’une variante simplifiée",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "B3",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          },
+          {
+            "asset": "C1",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "comparaison du collider actuel et d’une variante simplifiée",
+          "component": {
+            "name": "TreeCollisionHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "TreeCollisionHarness",
+              "input": "copie de l’arbre et contrôleur réel",
+              "action": "Inventorier séparément troncs, branches, géométrie visible et volumes physiques ; relever uniquement les propriétés sourcées.",
+              "expected_observation": "État témoin enregistré pour restauration."
+            },
+            {
+              "component": "TreeCollisionHarness",
+              "input": "trajet marqué entre arbres, sous branches et sur pente",
+              "action": "Exécuter le trajet témoin et journaliser chaque blocage avec position, action et composant touché.",
+              "expected_observation": "Liste reproductible des blocages."
+            },
+            {
+              "component": "TreeCollisionHarness",
+              "input": "copie A témoin et copie B",
+              "action": "Changer uniquement la représentation physique autorisée par les sources ; rejouer le même contrôleur et parcours.",
+              "expected_observation": "Comparaison des blocages et du coût physique ; rollback si régression."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "collider du mesh",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "volumes physiques séparés, à valider",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [
+          {
+            "claim_id": "claim-f7801f0539ed59047bc7c6eb",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "CollisionFidelity",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-69d881e72b912bf71c810aae"
+            ],
+            "project_applicability": "unverified"
+          }
+        ],
+        "alternatives": [
+          {
+            "method": "collider du mesh",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "volumes physiques séparés, à valider",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-a74cb8fc1f2efb214b5ef087",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Mesh and solid model collisions",
+            "start": 21379,
+            "end": 21982
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+        "quality": {
+          "readiness": "PARTIAL",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": true,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-b671a5adabda14ff3282624c",
+              "passage_ids": [
+                "pass-a74cb8fc1f2efb214b5ef087"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-d93f2bb09561ef9681ad195e",
+              "passage_ids": [
+                "pass-c6d033a57830e5d52d9f0de6"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-e2136673ba1df59b45c4f70d",
+              "passage_ids": [
+                "pass-e9741c70113547a042e07134"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-f7801f0539ed59047bc7c6eb",
+              "passage_ids": [
+                "pass-69d881e72b912bf71c810aae"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-5b5f3ab2b83c8f8680a8ecb3",
+              "passage_ids": [
+                "pass-146f9114ca30bb26c228980a"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-a74cb8fc1f2efb214b5ef087",
+              "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+              "url": "https://create.roblox.com/docs/workspace/collisions",
+              "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Mesh and solid model collisions",
+              "start": 21379,
+              "end": 21982
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "98934c02b53a289ef6b1c7a7fa93cee05c3c406ceab98aeaa85120a675845f81",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:40.130158+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "PARTIAL"
+      }
+    },
+    {
+      "key": "674022316a32056e910e350f4baeafbe8f4c2f0dbef0bbbf1f170e4f0537d32c",
+      "payload_hash": "06baf6df9ce6ea91d78f473f0418dd23398042cbf07fccbf81cf43e770508d4b",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "674022316a32056e910e350f4baeafbe8f4c2f0dbef0bbbf1f170e4f0537d32c",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "ground",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Comparer le sol enneigé et les empreintes sur un même relief et trajet.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "ground",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [],
+          "retrieval_queries": [
+            "Roblox terrain snow materials footprints decals"
+          ],
+          "retrieval_anchors": [
+            "terrain",
+            "snow",
+            "decal"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "comparaison de deux représentations de sol et d’empreintes",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "snow-ground",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "comparaison de deux représentations de sol et d’empreintes",
+          "component": {
+            "name": "SnowGroundHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "SnowGroundHarness",
+              "input": "zone témoin avec pente et repères",
+              "action": "Consigner relief, matériau et trajectoire ; capturer les contacts du joueur avant toute empreinte.",
+              "expected_observation": "Baseline de déplacement et de raccords."
+            },
+            {
+              "component": "SnowGroundHarness",
+              "input": "représentation terrain ou mesh autorisée",
+              "action": "Ajouter la représentation d’empreintes candidate dans une copie ; conserver un sol témoin.",
+              "expected_observation": "Effet isolé, durée et nettoyage observables."
+            },
+            {
+              "component": "SnowGroundHarness",
+              "input": "mêmes pas, pente et éclairage",
+              "action": "Rejouer arrêts, virages et passages répétés ; relever flottement, intersections, persistance et coût.",
+              "expected_observation": "Défauts annotés et mesures, sans durée optimale inventée."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "terrain",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "surface mesh et effet d’empreinte documenté",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "terrain",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "surface mesh et effet d’empreinte documenté",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-fea5d072d22c1a3bef5067fa",
+            "document_id": "doc-ae07cc946d4b006af7a0d167",
+            "url": "https://create.roblox.com/docs/parts/terrain",
+            "document_sha256": "fc67e10e2b4290b5a34368ae640a855f4ed195d8716fc162c901093f0ef4e575",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Terrain materials",
+            "start": 3528,
+            "end": 3610
+          },
+          {
+            "id": "pass-a2821ce234e14b49b6b5c62b",
+            "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+            "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+            "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Clothing",
+            "start": 594,
+            "end": 911
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+        "quality": {
+          "readiness": "PARTIAL",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": true,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-6edb96d1801a42ce140b4d69",
+              "passage_ids": [
+                "pass-fea5d072d22c1a3bef5067fa"
+              ],
+              "source_ids": [
+                "doc-ae07cc946d4b006af7a0d167"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-70872a9771ab5e067499279e",
+              "passage_ids": [
+                "pass-a2821ce234e14b49b6b5c62b"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-1ea0bb8f21ce8880ae802176",
+              "passage_ids": [
+                "pass-132869fbfaeabe2b9cd9e4b4"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-d475dfcb592b8087af8e4806",
+              "passage_ids": [
+                "pass-aaa3872bf75f2b149171fe17"
+              ],
+              "source_ids": [
+                "doc-a6cc7c1e3387a8cc46168e3d"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-fea5d072d22c1a3bef5067fa",
+              "document_id": "doc-ae07cc946d4b006af7a0d167",
+              "url": "https://create.roblox.com/docs/parts/terrain",
+              "document_sha256": "fc67e10e2b4290b5a34368ae640a855f4ed195d8716fc162c901093f0ef4e575",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Terrain materials",
+              "start": 3528,
+              "end": 3610
+            },
+            {
+              "id": "pass-a2821ce234e14b49b6b5c62b",
+              "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+              "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+              "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Clothing",
+              "start": 594,
+              "end": 911
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "cd7cf55bdf8f011a79b0e36a67daaf7cb35943cdfe60e49b52b4f27057accb2c",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:40.596218+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "PARTIAL"
+      }
+    },
+    {
+      "key": "6f0766082a177fd45e6ab13c90041f0f2bcb13b185354a62d610177bac5eeab0",
+      "payload_hash": "ae4e5391fd33a6a8cf937c7defa3bcce3fc1f80b5e9355b1c1992c8a9f7577ca",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "6f0766082a177fd45e6ab13c90041f0f2bcb13b185354a62d610177bac5eeab0",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "lighting",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Isoler les défauts de lisibilité nocturne et de faisceau de la lampe V2.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "lighting",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [],
+          "retrieval_queries": [
+            "Roblox SpotLight Atmosphere lighting shadows flashlight"
+          ],
+          "retrieval_anchors": [
+            "SpotLight",
+            "Atmosphere",
+            "lighting"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "isolation du faisceau et de l’ambiance nocturne",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "flashlight-v2",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "isolation du faisceau et de l’ambiance nocturne",
+          "component": {
+            "name": "FlashlightNightHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "FlashlightNightHarness",
+              "input": "lampe V2 et scène témoin",
+              "action": "Consigner propriétés réellement disponibles et valeurs actuelles ; fixer caméra, exposition et appareil.",
+              "expected_observation": "Baseline restaurable et versions enregistrées."
+            },
+            {
+              "component": "FlashlightNightHarness",
+              "input": "copies A/B, mêmes arbres et sol",
+              "action": "Changer un seul facteur documenté de lumière, ombre ou brouillard ; conserver le reste.",
+              "expected_observation": "Cause isolée des différences de lisibilité."
+            },
+            {
+              "component": "FlashlightNightHarness",
+              "input": "même trajet et mêmes positions",
+              "action": "Capturer bord du faisceau, contact avec le sol, branches et silhouettes ; joindre coût de trame et avis humain.",
+              "expected_observation": "Compromis visibilité/ambiance mesuré, aucune portée optimale présumée."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "lumière témoin",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "variante d’ombre ou d’atmosphère documentée",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [
+          {
+            "claim_id": "claim-50b5533f98fef5b1f14e300b",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SpotLight",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-06fcd1bde5752118fee17e15"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-853856f44ace166a478ca0d4",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SpotLight",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-d848fa2456fd2cfb3b537d45"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-c487710c3cc49738f1288c1f",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "Shadows",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-9a158d2705729bbc32f32d43"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-bbe00550480d8f1d6ae6f11c",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "Shadows",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-d08471f9b91ae5efdeca4347"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-cfb84d723d9d3b63f90ab067",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SpotLight",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-30bff1940bd598913f75a67c"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-a358fa706552edb74982af78",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SpotLight",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-16a3a45759831c66ec0642ba"
+            ],
+            "project_applicability": "unverified"
+          },
+          {
+            "claim_id": "claim-cdff9688d099551acade5518",
+            "documented_value": null,
+            "kind": "literal_source_token",
+            "name": "SpotLight",
+            "optimal_value": null,
+            "passage_ids": [
+              "pass-2cf9fbc55e49931b83356d0f"
+            ],
+            "project_applicability": "unverified"
+          }
+        ],
+        "alternatives": [
+          {
+            "method": "lumière témoin",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "variante d’ombre ou d’atmosphère documentée",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-06fcd1bde5752118fee17e15",
+            "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+            "url": "https://create.roblox.com/docs/effects/light-sources",
+            "document_sha256": "1f33a9580c0a55b55c10e0818fb5f6865969e130b289b64654cb7e68902c22ba",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "SpotLight",
+            "start": 2680,
+            "end": 2849
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Préparer les entrées puis exécuter le protocole isolé ; revue humaine requise.",
+        "quality": {
+          "readiness": "PARTIAL",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": true,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-50b5533f98fef5b1f14e300b",
+              "passage_ids": [
+                "pass-06fcd1bde5752118fee17e15"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-853856f44ace166a478ca0d4",
+              "passage_ids": [
+                "pass-d848fa2456fd2cfb3b537d45"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-c487710c3cc49738f1288c1f",
+              "passage_ids": [
+                "pass-9a158d2705729bbc32f32d43"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-bbe00550480d8f1d6ae6f11c",
+              "passage_ids": [
+                "pass-d08471f9b91ae5efdeca4347"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-cfb84d723d9d3b63f90ab067",
+              "passage_ids": [
+                "pass-30bff1940bd598913f75a67c"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-a358fa706552edb74982af78",
+              "passage_ids": [
+                "pass-16a3a45759831c66ec0642ba"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-cdff9688d099551acade5518",
+              "passage_ids": [
+                "pass-2cf9fbc55e49931b83356d0f"
+              ],
+              "source_ids": [
+                "doc-e8a4e72e4d44199b2f80fdaa"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-06fcd1bde5752118fee17e15",
+              "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+              "url": "https://create.roblox.com/docs/effects/light-sources",
+              "document_sha256": "1f33a9580c0a55b55c10e0818fb5f6865969e130b289b64654cb7e68902c22ba",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "SpotLight",
+              "start": 2680,
+              "end": 2849
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "13dcf7ac38186fba3009ea281add22d11c60e68392539506cbd776aa08de7f8f",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:41.142058+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "PARTIAL"
+      }
+    },
+    {
+      "key": "f9e459c52dfcddb92c5995a1e560ae60fe4aac2c61d7e54a7ef74c98983474a9",
+      "payload_hash": "5ec561b339fb27dc33cc72b0b83d352fdd2b2db1e47fd7b2935b533c8a2a4b0b",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "f9e459c52dfcddb92c5995a1e560ae60fe4aac2c61d7e54a7ef74c98983474a9",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "camera",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Préparer une caméra première personne sans clipping et avec une référence de mouvement reproductible.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "camera",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "Quel personnage est jouable dans la première version ?"
+          ],
+          "retrieval_queries": [
+            "Roblox first person Camera camera motion input"
+          ],
+          "retrieval_anchors": [
+            "Camera",
+            "camera",
+            "first person"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P0",
+        "priority_status": "PROPOSED",
+        "solution": "séparation du suivi, du mouvement et de l’obstruction",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "camera-prototype",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "séparation du suivi, du mouvement et de l’obstruction",
+          "component": {
+            "name": "FirstPersonCameraHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "FirstPersonCameraHarness",
+              "input": "caméra et avatar copiés",
+              "action": "Consigner état caméra et contrôleur ; désactiver les effets candidats dans la copie témoin, pas dans le jeu principal.",
+              "expected_observation": "Reproduction du problème avec contrôles connus."
+            },
+            {
+              "component": "FirstPersonCameraHarness",
+              "input": "module logique de suivi et journal de trajectoire",
+              "action": "Séparer cible de suivi, contribution du mouvement et gestion d’obstruction ; tracer chaque contribution sans valeur de lissage inventée.",
+              "expected_observation": "Origine de clipping ou mouvement parasite identifiée."
+            },
+            {
+              "component": "FirstPersonCameraHarness",
+              "input": "trajet près des murs, branches et pentes",
+              "action": "Comparer arrêt, virage, sprint et accroupissement ; vérifier retour de contrôle et confort humain.",
+              "expected_observation": "Aucune traversée de décor et aucun état caméra bloqué dans le scénario de test."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "suivi témoin",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "effet de mouvement candidat isolé",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "suivi témoin",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "effet de mouvement candidat isolé",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-b32a99cc34d66d818b676098",
+            "document_id": "doc-e54362f11eb31cf3c6cf5281",
+            "url": "https://create.roblox.com/docs/workspace/camera",
+            "document_sha256": "17d579798b54d7347acd74b3bb8a823ca4cd377b5b4280d5fef175a0b76a5429",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Camera mode",
+            "start": 2015,
+            "end": 2447
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Quel personnage est jouable dans la première version ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "correct_but_off_topic",
+            "software_version_unknown",
+            "blender_version_unverified_or_incompatible",
+            "rejected_claim_not_a_fact"
+          ],
+          "facts": [
+            {
+              "id": "claim-f34b455507260dc706acc717",
+              "passage_ids": [
+                "pass-b32a99cc34d66d818b676098"
+              ],
+              "source_ids": [
+                "doc-e54362f11eb31cf3c6cf5281"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-38b7d5eede4153d04d1bf99b",
+              "passage_ids": [
+                "pass-be05a3b4e4d57a4c241fc751"
+              ],
+              "source_ids": [
+                "doc-e54362f11eb31cf3c6cf5281"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-31543ce35dabf1c13b8b165f",
+              "passage_ids": [
+                "pass-7303af6a6e1c2c25e735c1c6"
+              ],
+              "source_ids": [
+                "doc-e54362f11eb31cf3c6cf5281"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-b32a99cc34d66d818b676098",
+              "document_id": "doc-e54362f11eb31cf3c6cf5281",
+              "url": "https://create.roblox.com/docs/workspace/camera",
+              "document_sha256": "17d579798b54d7347acd74b3bb8a823ca4cd377b5b4280d5fef175a0b76a5429",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Camera mode",
+              "start": 2015,
+              "end": 2447
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [
+            {
+              "id": "playable",
+              "text": "Quel personnage est jouable dans la première version ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "1adf78dc0cfb1d50ec5b7fb021519214c822a42994f438a496252f0293ebfe47",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:41.617601+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    },
+    {
+      "key": "ba94f8c17e928389556f451377efce0c25adf30b2a254f5c3d511a884c8e0950",
+      "payload_hash": "289ad00944728796447b44c049d384559a5e26cd307d05fa92b09cedfc4829ac",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "ba94f8c17e928389556f451377efce0c25adf30b2a254f5c3d511a884c8e0950",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "movement",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Définir et tester les transitions entre marche, sprint, accroupissement, glissade et enjambement.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "movement",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "Quel personnage est jouable dans la première version ?"
+          ],
+          "retrieval_queries": [
+            "Roblox Humanoid movement input raycasting"
+          ],
+          "retrieval_anchors": [
+            "Humanoid",
+            "movement",
+            "input",
+            "raycast"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P0",
+        "priority_status": "PROPOSED",
+        "solution": "machine d’états explicite et validation des transitions",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "player-controller",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "machine d’états explicite et validation des transitions",
+          "component": {
+            "name": "MovementStateHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "MovementStateHarness",
+              "input": "schéma de contrôles et avatar à confirmer",
+              "action": "Écrire une table état/entrée/condition de sortie pour marche, sprint, accroupissement, glissade et enjambement ; marquer les actions non validées.",
+              "expected_observation": "Transitions et exclusions inspectables avant programmation."
+            },
+            {
+              "component": "MovementStateHarness",
+              "input": "détecteur d’obstacles et contrôleur dans la copie",
+              "action": "Séparer détection, autorisation de transition et mouvement ; journaliser les refus au lieu de forcer un franchissement.",
+              "expected_observation": "Reproduction des collisions et transitions impossibles."
+            },
+            {
+              "component": "MovementStateHarness",
+              "input": "parcours témoin avec obstacles",
+              "action": "Tester interruption, changement de direction, plafond bas et perte de contrôle ; consigner chaque retour à l’état sûr.",
+              "expected_observation": "Aucun état coincé ; comportement validé seulement sur les contrôles testés."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "locomotion témoin",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "actions avancées activées séparément",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "locomotion témoin",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "actions avancées activées séparément",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-a4ba7897a7904642ba1c3caa",
+            "document_id": "doc-37df3df0773bd5c7e5520d03",
+            "url": "https://create.roblox.com/docs/workspace/raycasting",
+            "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Raycasting",
+            "start": 2416,
+            "end": 2484
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Quel personnage est jouable dans la première version ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "correct_but_off_topic",
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-b5fc65761230e34c6b5403b7",
+              "passage_ids": [
+                "pass-a4ba7897a7904642ba1c3caa"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-ac758c92f9c225253d50dd1b",
+              "passage_ids": [
+                "pass-fbc1927658e591c880a53f60"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-6a3229b912d2892fd300812f",
+              "passage_ids": [
+                "pass-04c9fe5e1e17779c56906311"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-a4ba7897a7904642ba1c3caa",
+              "document_id": "doc-37df3df0773bd5c7e5520d03",
+              "url": "https://create.roblox.com/docs/workspace/raycasting",
+              "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Raycasting",
+              "start": 2416,
+              "end": 2484
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [
+            {
+              "id": "playable",
+              "text": "Quel personnage est jouable dans la première version ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "98f07a5ba30d19a2e3708b39db2ac49e7afe5f4fdfdcec8027c6fa1aeff0aba1",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:42.025896+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    },
+    {
+      "key": "130b480353d9811c3c21dbf03c45cad06fe5215cbe22fd187e258b7d10e2cf19",
+      "payload_hash": "14bb536bf5087133330bb4a4910da24ba8adcb37a3c230298b10c291c377e0d1",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "130b480353d9811c3c21dbf03c45cad06fe5215cbe22fd187e258b7d10e2cf19",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "interactions",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Préparer une interaction de porte et cachette vérifiable sans décider le scénario.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "interactions",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "La première version est-elle solo ou coopérative ?"
+          ],
+          "retrieval_queries": [
+            "Roblox ProximityPrompt interactions client server security"
+          ],
+          "retrieval_anchors": [
+            "ProximityPrompt",
+            "interaction",
+            "prompt"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P0",
+        "priority_status": "PROPOSED",
+        "solution": "contrat d’interaction avec validation de l’état",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "interaction-prototype",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "contrat d’interaction avec validation de l’état",
+          "component": {
+            "name": "InteractionDoorHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "InteractionDoorHarness",
+              "input": "porte et cachette témoins, mode réseau à confirmer",
+              "action": "Définir action, portée autorisée, préconditions et état avant/après ; les valeurs restent à choisir à partir des sources et tests.",
+              "expected_observation": "Contrat d’interaction et erreurs explicites."
+            },
+            {
+              "component": "InteractionDoorHarness",
+              "input": "composants logique de demande et d’autorisation",
+              "action": "Séparer présentation, requête et décision ; rejeter les demandes répétées ou incompatibles avec l’état courant.",
+              "expected_observation": "Aucun double déclenchement ni changement d’état impossible."
+            },
+            {
+              "component": "InteractionDoorHarness",
+              "input": "même scénario d’ouverture et de sortie",
+              "action": "Tester annulation, obstacle, entrée déjà occupée et reconnexion si le mode retenu le requiert.",
+              "expected_observation": "Résultats et limites réseau consignés avant réutilisation."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "interaction minimale",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "variante de cachette conditionnée au scénario",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "interaction minimale",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "variante de cachette conditionnée au scénario",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-740e9b0fd7ae6b48c57bd39d",
+            "document_id": "doc-ab7f419cd07ff6deee7b9654",
+            "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+            "document_sha256": "52f54f29c348856d1f15b6a645476571a6697f6b6154ba3d506faa759f15029a",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Proximity prompts",
+            "start": 238,
+            "end": 424
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "La première version est-elle solo ou coopérative ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "correct_but_off_topic",
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-3a8c2721fb93ca6ebfddd006",
+              "passage_ids": [
+                "pass-740e9b0fd7ae6b48c57bd39d"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-2778e0faf1b45f8bc5d0678b",
+              "passage_ids": [
+                "pass-6c7af3b921ede7f833e8099f"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-98cc627c44b0e6ac61b88253",
+              "passage_ids": [
+                "pass-9bfaa7a557d5bf0db9786ec8"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-109cfb1a3335e7ffabd7ad61",
+              "passage_ids": [
+                "pass-2d6f94836c536335f72c4f3e"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-16d44f26e30fab1a8b5ba15a",
+              "passage_ids": [
+                "pass-8cafd1d034da266a9a0aae6a"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-8dbeb0dbcdcb9ef467d690dc",
+              "passage_ids": [
+                "pass-265fe3948958764544064e87"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-7a0a31caa5e432e1584a7a4d",
+              "passage_ids": [
+                "pass-b1058bd02a2d6ce8494f38e4"
+              ],
+              "source_ids": [
+                "doc-ab7f419cd07ff6deee7b9654"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-740e9b0fd7ae6b48c57bd39d",
+              "document_id": "doc-ab7f419cd07ff6deee7b9654",
+              "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+              "document_sha256": "52f54f29c348856d1f15b6a645476571a6697f6b6154ba3d506faa759f15029a",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Proximity prompts",
+              "start": 238,
+              "end": 424
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [
+            {
+              "id": "mode",
+              "text": "La première version est-elle solo ou coopérative ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "ebb540b27978d7111cda912942c97315be111dcc19c37cd0bee7751508b7f2c3",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:42.438379+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    },
+    {
+      "key": "e05273553c18a9966d51bc8cb349914c23d85deb3390a91af310fc0f8ff48fa9",
+      "payload_hash": "c1e8b8dd9d1cb200c3d0f7ed7f661b6a838f38a75054f41285fc6efe53f65c0b",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "e05273553c18a9966d51bc8cb349914c23d85deb3390a91af310fc0f8ff48fa9",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "performance",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Établir un baseline et isoler géométrie, densité et rendu sur les appareils retenus.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "performance",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "Quels appareils et budgets de performance doivent être validés pour la bêta ?"
+          ],
+          "retrieval_queries": [
+            "Roblox performance MicroProfiler streaming forest"
+          ],
+          "retrieval_anchors": [
+            "performance",
+            "MicroProfiler",
+            "streaming"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "baseline par appareil et modification d’un facteur",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "forest-lab",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "baseline par appareil et modification d’un facteur",
+          "component": {
+            "name": "ForestProfileHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "ForestProfileHarness",
+              "input": "scène témoin et appareils confirmés",
+              "action": "Consigner géométrie, matériaux, instances, résolution et trajet ; les objectifs de FPS restent inconnus tant que non validés.",
+              "expected_observation": "Rapport de baseline avec conditions."
+            },
+            {
+              "component": "ForestProfileHarness",
+              "input": "même caméra et même trajet",
+              "action": "Mesurer les segments coûteux avec les outils officiellement documentés ; séparer rendu, physique et logique.",
+              "expected_observation": "Coût attribué à un segment et non à un FPS supposé."
+            },
+            {
+              "component": "ForestProfileHarness",
+              "input": "variante ne changeant qu’un facteur",
+              "action": "Comparer densité, géométrie ou gestion de distance séparément ; garder les mesures brutes et les défauts visuels.",
+              "expected_observation": "Décision conditionnelle par appareil, pas de gain général inventé."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "baseline",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "une optimisation documentée à la fois",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "baseline",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "une optimisation documentée à la fois",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Quels appareils et budgets de performance doivent être validés pour la bêta ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "UNKNOWN",
+          "checks": {
+            "original_sources_sufficient": false,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "software_version_unknown",
+            "no_sufficient_original_source"
+          ],
+          "facts": [],
+          "sources": [],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL"
+          ],
+          "blocking_questions": [
+            {
+              "id": "devices",
+              "text": "Quels appareils et budgets de performance doivent être validés pour la bêta ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "9df3584c4df2039a819b5fdc99a603bc2d93782683f44a980bf2e2997007f736",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:42.865148+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    },
+    {
+      "key": "1f5c4dae0acbd8026761cabde86ce86e5755884e40a6ef9fbdf649c4ca2ace97",
+      "payload_hash": "0f3578da910e8941c2af0622df06592591fbdc3da57fa80d837d82fa1fb3b26b",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "1f5c4dae0acbd8026761cabde86ce86e5755884e40a6ef9fbdf649c4ca2ace97",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "architecture",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Préparer un blockout lisible du manoir et de la maison, conditionné à la séquence bêta.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "architecture",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "Quelle séquence jouable doit être terminée pour la bêta ?",
+            "Quelle est la motivation et l’objectif immédiat du joueur ?"
+          ],
+          "retrieval_queries": [
+            "Roblox parts models blockout architecture"
+          ],
+          "retrieval_anchors": [
+            "layout",
+            "mesh",
+            "parts",
+            "model"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "blockout conditionné à la séquence jouable",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "manor-blockout",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "blockout conditionné à la séquence jouable",
+          "component": {
+            "name": "HouseBlockoutHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "HouseBlockoutHarness",
+              "input": "objectif bêta et plan provisoire",
+              "action": "Marquer entrée, sortie, visibilité et espaces nécessaires à la séquence ; laisser les choix narratifs non confirmés visibles.",
+              "expected_observation": "Plan de circulation et inconnues explicites."
+            },
+            {
+              "component": "HouseBlockoutHarness",
+              "input": "copies de volumes simples",
+              "action": "Parcourir le blockout avec le contrôleur témoin avant détails ; mesurer encombrement et blocages.",
+              "expected_observation": "Circulation et lignes de vue annotées."
+            },
+            {
+              "component": "HouseBlockoutHarness",
+              "input": "mêmes portes, lampe et objectifs",
+              "action": "Comparer variantes de parcours ; ne figer une pièce scénarisée qu’après décision humaine.",
+              "expected_observation": "Blockout réversible avec décision et alternatives consignées."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "blockout minimal",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "détails artistiques différés",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "blockout minimal",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "détails artistiques différés",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+            "document_id": "doc-0cd9a742bf946226b852c165",
+            "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+            "document_sha256": "4af62a112e9192fd7a8c80386bac8dbb0f606901a965b3c4a4b641482c6d2ea5",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Blender and Maya texture settings",
+            "start": 2671,
+            "end": 2732
+          },
+          {
+            "id": "pass-7561943c0ccd463f509ffaec",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Model collisions",
+            "start": 20109,
+            "end": 20301
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "Quelle séquence jouable doit être terminée pour la bêta ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-cf9cc3cb3171552e783c6410",
+              "passage_ids": [
+                "pass-93f4a7110e5ffcd70ec4e5ae"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-9b1a8456ef193629a2fcc11c",
+              "passage_ids": [
+                "pass-d51dd52eb20bee54989f5099"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-70a197e5c0bdde3366af4520",
+              "passage_ids": [
+                "pass-edc808d9816d45928206b3cd"
+              ],
+              "source_ids": [
+                "doc-0cd9a742bf946226b852c165"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-0f0ec60f3098f8b174ea2d48",
+              "passage_ids": [
+                "pass-7561943c0ccd463f509ffaec"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-a43f9474f86daa8e4afb1052",
+              "passage_ids": [
+                "pass-9f465da48c4cab6539378088"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-a049bf12d5d1b657697eb140",
+              "passage_ids": [
+                "pass-fe448819d0c77d43ae1474a6"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-dfa00e3bef67e3f6e5ef6999",
+              "passage_ids": [
+                "pass-195c2ac6dbafa4b0c2214c64"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-005efe35e2118f911b96fa3d",
+              "passage_ids": [
+                "pass-953927cb71f1ba8eab3a7cf4"
+              ],
+              "source_ids": [
+                "doc-5f3a3ec51a5ae0f501ba508e"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+              "document_id": "doc-0cd9a742bf946226b852c165",
+              "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+              "document_sha256": "4af62a112e9192fd7a8c80386bac8dbb0f606901a965b3c4a4b641482c6d2ea5",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Blender and Maya texture settings",
+              "start": 2671,
+              "end": 2732
+            },
+            {
+              "id": "pass-7561943c0ccd463f509ffaec",
+              "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+              "url": "https://create.roblox.com/docs/workspace/collisions",
+              "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Model collisions",
+              "start": 20109,
+              "end": 20301
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [
+            {
+              "id": "beta",
+              "text": "Quelle séquence jouable doit être terminée pour la bêta ?"
+            },
+            {
+              "id": "motivation",
+              "text": "Quelle est la motivation et l’objectif immédiat du joueur ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "99686011a5b8449c18addfd0e3652e5c4460d385575cab98884b68fefcbb987c",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:43.385296+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    },
+    {
+      "key": "ecaed9bb3accf05f43dbac5f6f59cae32cb62ea52dedceb1c19cce35086f560f",
+      "payload_hash": "0f1486c0f01421ce7f7e14fa7e6c9ce72c5fd81049439c822674410a4e17086c",
+      "card": {
+        "schema": "vdn.project-card/11.2",
+        "key": "ecaed9bb3accf05f43dbac5f6f59cae32cb62ea52dedceb1c19cce35086f560f",
+        "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+        "task_id": "pursuit",
+        "reuse_fingerprint": "2fcc961e44358672cec989b1a96150df1578693088d46df76c14f3fb54a78376",
+        "problem": "Comparer détection et suivi du joueur sur un parcours témoin, sans inventer le personnage antagoniste.",
+        "context": {
+          "schema": "vdn.project-context/11.2",
+          "bible_hash": "50839d3987bcee7f4cb4ac116fe9f467a03dc94a8b3612f7b1c5dc1dd2c48780",
+          "revision": 1,
+          "project": "Le Voisin de Noël [Horreur]",
+          "task_id": "pursuit",
+          "target_engine": "Roblox",
+          "blender_target": "5.2",
+          "device_target": "UNKNOWN",
+          "fps_target": null,
+          "vision": "Première personne, horreur cinématographique, nuit de Noël enneigée.",
+          "avoid": [
+            "transfert direct Unreal vers Roblox",
+            "paramètres optimaux inventés",
+            "décisions narratives inventées",
+            "publication du jeu"
+          ],
+          "unresolved_questions": [
+            "La première version est-elle solo ou coopérative ?",
+            "Quels personnages doivent réellement apparaître dans la bêta ?",
+            "Quelle est la motivation et l’objectif immédiat du joueur ?"
+          ],
+          "retrieval_queries": [
+            "Roblox pathfinding raycasting NPC detection"
+          ],
+          "retrieval_anchors": [
+            "PathfindingService",
+            "raycast",
+            "pathfinding"
+          ],
+          "request_constraints": {},
+          "visual_references": [],
+          "experiment_revisions": [],
+          "bound_failures": []
+        },
+        "priority": "P1",
+        "priority_status": "PROPOSED",
+        "solution": "séparation détection, décision et déplacement",
+        "choice_reason": "Comparaison isolée proposée à partir du problème du jeu ; aucune méthode optimale établie.",
+        "prerequisites": [
+          {
+            "asset": "npc-lab",
+            "availability": "UNKNOWN; provide or attest through a task-bound experiment"
+          }
+        ],
+        "implementation": {
+          "status": "ENGINEERING_PROPOSAL",
+          "solution": "séparation détection, décision et déplacement",
+          "component": {
+            "name": "PursuitDetectionHarness",
+            "location": "emplacement à confirmer dans le projet",
+            "exists": "UNKNOWN"
+          },
+          "steps": [
+            {
+              "component": "PursuitDetectionHarness",
+              "input": "NPC générique et mode réseau confirmé",
+              "action": "Définir observations visibles, états de détection et sorties ; ne pas attribuer le rôle au Père Noël sans décision.",
+              "expected_observation": "Table de transitions et conditions de perte de cible."
+            },
+            {
+              "component": "PursuitDetectionHarness",
+              "input": "module de détection et module de trajet distincts",
+              "action": "Journaliser observation, décision et demande de déplacement ; tester les obstacles sans supposer une visibilité traversante.",
+              "expected_observation": "Erreur localisée entre détection et navigation."
+            },
+            {
+              "component": "PursuitDetectionHarness",
+              "input": "même trajet joueur et obstacles",
+              "action": "Comparer apparition, perte de vue, chemin indisponible et cible immobile ; conserver les échecs et conditions.",
+              "expected_observation": "Poursuite bornée et sortie d’état sûre, sans résultat inventé."
+            }
+          ],
+          "alternatives": [
+            {
+              "method": "détection témoin",
+              "decision": "à comparer, pas de gagnant présumé"
+            },
+            {
+              "method": "navigation candidate sourcée",
+              "decision": "à comparer, pas de gagnant présumé"
+            }
+          ],
+          "test": {
+            "controls": [
+              "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+            ],
+            "changed_variable": "un seul facteur identifié avant exécution",
+            "measures": [
+              "observations brutes et coût mesuré",
+              "captures si disponibles"
+            ],
+            "success_criteria": [
+              "critères et seuils à valider avant exécution",
+              "aucune régression du comportement témoin"
+            ],
+            "executed": false
+          },
+          "risks": [
+            "compatibilité moteur et versions non présumée",
+            "coût de rendu/physique à mesurer sur appareil cible"
+          ],
+          "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié."
+        },
+        "parameters": [],
+        "alternatives": [
+          {
+            "method": "détection témoin",
+            "decision": "à comparer, pas de gagnant présumé"
+          },
+          {
+            "method": "navigation candidate sourcée",
+            "decision": "à comparer, pas de gagnant présumé"
+          }
+        ],
+        "sources": [
+          {
+            "id": "pass-be0b086f5cd6871e307641b5",
+            "document_id": "doc-37df3df0773bd5c7e5520d03",
+            "url": "https://create.roblox.com/docs/workspace/raycasting",
+            "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+            "version": "unknown",
+            "engine": "Roblox",
+            "source_type": "recorded_source_snapshot",
+            "section": "Hit detection",
+            "start": 5521,
+            "end": 5585
+          }
+        ],
+        "compatibility": {
+          "target_engine": "Roblox",
+          "target_blender": "5.2",
+          "verified": false
+        },
+        "risks": [
+          "compatibilité moteur et versions non présumée",
+          "coût de rendu/physique à mesurer sur appareil cible"
+        ],
+        "test": {
+          "controls": [
+            "mêmes assets, versions, appareil, caméra et trajet hors variable étudiée"
+          ],
+          "changed_variable": "un seul facteur identifié avant exécution",
+          "measures": [
+            "observations brutes et coût mesuré",
+            "captures si disponibles"
+          ],
+          "success_criteria": [
+            "critères et seuils à valider avant exécution",
+            "aucune régression du comportement témoin"
+          ],
+          "executed": false
+        },
+        "rollback": "Restaurer les copies et paramètres témoins ; conserver les preuves et ne pas modifier le jeu publié.",
+        "confidence": {
+          "states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "truth_verified": false,
+          "scope": "attribution and reported test conditions; no universal guarantee"
+        },
+        "next_action": "La première version est-elle solo ou coopérative ?",
+        "quality": {
+          "readiness": "BLOCKED",
+          "research_state": "PARTIAL",
+          "checks": {
+            "original_sources_sufficient": true,
+            "procedure_structured": true,
+            "blocking_decisions_resolved": false,
+            "dependencies_ready": true,
+            "compatibility_and_assets_human_reviewed": false,
+            "no_unresolved_conflict_or_failure": true
+          },
+          "issues": [
+            "correct_but_off_topic",
+            "software_version_unknown"
+          ],
+          "facts": [
+            {
+              "id": "claim-d0c0f932d99b43634f05b0ca",
+              "passage_ids": [
+                "pass-be0b086f5cd6871e307641b5"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-efca62e55d1e83c55c1c4a41",
+              "passage_ids": [
+                "pass-b9f6a0143d70ff6b8f2021a9"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-b5fc65761230e34c6b5403b7",
+              "passage_ids": [
+                "pass-a4ba7897a7904642ba1c3caa"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-ac758c92f9c225253d50dd1b",
+              "passage_ids": [
+                "pass-fbc1927658e591c880a53f60"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-6a3229b912d2892fd300812f",
+              "passage_ids": [
+                "pass-04c9fe5e1e17779c56906311"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            },
+            {
+              "id": "claim-91b3c1950aa4ee81d84f5737",
+              "passage_ids": [
+                "pass-dbf238696337dbb4ee8388b7"
+              ],
+              "source_ids": [
+                "doc-37df3df0773bd5c7e5520d03"
+              ],
+              "support": "SOURCE_SUPPORTED",
+              "version": "unknown",
+              "engine": "Roblox",
+              "truth_verified": false
+            }
+          ],
+          "sources": [
+            {
+              "id": "pass-be0b086f5cd6871e307641b5",
+              "document_id": "doc-37df3df0773bd5c7e5520d03",
+              "url": "https://create.roblox.com/docs/workspace/raycasting",
+              "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+              "version": "unknown",
+              "engine": "Roblox",
+              "source_type": "recorded_source_snapshot",
+              "section": "Hit detection",
+              "start": 5521,
+              "end": 5585
+            }
+          ],
+          "evidence_states": [
+            "ENGINEERING_PROPOSAL",
+            "SOURCE_DOCUMENTED"
+          ],
+          "blocking_questions": [
+            {
+              "id": "mode",
+              "text": "La première version est-elle solo ou coopérative ?"
+            },
+            {
+              "id": "cast",
+              "text": "Quels personnages doivent réellement apparaître dans la bêta ?"
+            },
+            {
+              "id": "motivation",
+              "text": "Quelle est la motivation et l’objectif immédiat du joueur ?"
+            }
+          ],
+          "missing_dependencies": [],
+          "experiments": [],
+          "failures": [],
+          "remote_links": "not live-checked by this offline control",
+          "meaning": "task preparation checklist; no probability or claim of engine success"
+        },
+        "analysis_key": "571e68bd0f5e50f688d0aa466eb97f6480cea8ea597eb84f7ec7259c68c5e824",
+        "analysis_state": "complete",
+        "created_at": "2026-11-16T12:06:43.902965+00:00",
+        "cache_hit": false,
+        "model_calls_this_run": 0,
+        "public_archive": true,
+        "publication_scope": "secondary preparation captured in an isolated lab; originals and experiments must be revalidated before use",
+        "current_readiness": "BLOCKED"
+      }
+    }
+  ]
+}
