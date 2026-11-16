@@ -1,0 +1,4550 @@
+{
+  "schema": "vdn.gaps/9",
+  "as_of": "2026-11-16",
+  "target_date": "2026-11-30",
+  "policy": "production priority first, then number of missing dimensions; engineering priorities separate",
+  "notes": [
+    {
+      "id": "vdn-ca8a4f7f5fe4",
+      "path": "knowledge/character/0496acb8e26f39e79fc3-deepmotion-animate-3d-rest-api.md",
+      "title": "DeepMotion/Animate-3D-REST-API",
+      "sources": [
+        "https://github.com/deepmotion/animate-3d-rest-api"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9b7ec2ee95cd",
+      "path": "knowledge/character/184af5877c67f7ef9f5c-apexgen-terminator.md",
+      "title": "Apexgen Terminator",
+      "sources": [
+        "https://devforum.roblox.com/t/413017"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2f7562841365",
+      "path": "knowledge/character/23cd54a0cae75425344f-ugc-portfolio-bankbend-ugc-portfolio-3d-artis.md",
+      "title": "[UGC Portfolio] BankBend UGC Portfolio - 3D Artist",
+      "sources": [
+        "https://devforum.roblox.com/t/1447286"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-04a984ace531",
+      "path": "knowledge/character/3815becf69bc91967a4d-mikeroyal-game-console-dev-guide.md",
+      "title": "mikeroyal/Game-Console-Dev-Guide",
+      "sources": [
+        "https://github.com/mikeroyal/game-console-dev-guide"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "blender_pipeline",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Blender workflow: Roblox import constraints remain to be checked."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2c57eb047b10",
+      "path": "knowledge/character/5563d7edddb928a8c603-introducing-the-avatar-evolution-studio-beta-.md",
+      "title": "Introducing the \"Avatar Evolution\" Studio Beta Build!",
+      "sources": [
+        "https://devforum.roblox.com/t/407582"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-1290b940c378",
+      "path": "knowledge/character/6e77cfbf4f0e59f1e1a1-custom-rig-importing-issues-rootpart-offset-b.md",
+      "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+      "sources": [
+        "https://devforum.roblox.com/t/4747045"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-f445dc2e7a92",
+      "path": "knowledge/character/7c9148230c0c5d987aa5-easye3232-claude.md",
+      "title": "EasyE3232/Claude",
+      "sources": [
+        "https://github.com/easye3232/claude"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-97b68ca9aa66",
+      "path": "knowledge/character/a7bbf30f7bd8bb213ab4-feature-request-bone-scaling-deformation-supp.md",
+      "title": "Feature Request: Bone Scaling & Deformation Support",
+      "sources": [
+        "https://devforum.roblox.com/t/4761420"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-acbf7dc7123e",
+      "path": "knowledge/character/cd36b4ab508c94142b62-meshula-labrcsf.md",
+      "title": "meshula/LabRCSF",
+      "sources": [
+        "https://github.com/meshula/labrcsf"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-bfc015864eaa",
+      "path": "knowledge/character/e5b19e9e416f5dc43289-bricklayer-an-all-in-one-editor-for-ai-assist.md",
+      "title": "Bricklayer - an all-in-one editor for AI-assisted Roblox dev (Studio + terminal + AI chat)",
+      "sources": [
+        "https://devforum.roblox.com/t/4911999"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-126c74e5f9ad",
+      "path": "knowledge/character/e89c3407eecec9e33b00-colosseum-build.md",
+      "title": "Colosseum build",
+      "sources": [
+        "https://devforum.roblox.com/t/657122"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-eb583242d4f2",
+      "path": "knowledge/character/eb583242d4f2d273b855-rakazenmun-roblox-skills.md",
+      "title": "rakazenmun/roblox-skills",
+      "sources": [
+        "https://github.com/rakazenmun/roblox-skills"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-0df57a89fa73",
+      "path": "knowledge/forest/0df57a89fa73-design-for-performance.md",
+      "title": "Design for performance",
+      "sources": [
+        "https://create.roblox.com/docs/performance-optimization/design"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-c7d48faaff15",
+      "path": "knowledge/forest/1c8f4e34fab34bc36ecf-programmer-builder-and-modeller-qipaoist-8y-e.md",
+      "title": "Programmer, Builder, and Modeller, @qipaoist [8y+ Experience]",
+      "sources": [
+        "https://devforum.roblox.com/t/4988026"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-4aabdc882bd5",
+      "path": "knowledge/forest/311de3f44e2360ceea30-stunning-portfolio-seven-years-in-the-creatio.md",
+      "title": "Stunning Portfolio | Seven years in the creation | UGC Creator",
+      "sources": [
+        "https://devforum.roblox.com/t/1081198"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-44f7f759e468",
+      "path": "knowledge/forest/44f7f759e468c9bb3eb9-champagnet04-roblox-lumberjack.md",
+      "title": "champagnet04/roblox-lumberjack",
+      "sources": [
+        "https://github.com/champagnet04/roblox-lumberjack"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-972ed8284e59",
+      "path": "knowledge/forest/4792b2ff46f59814399a-class-ideas-for-horror-game.md",
+      "title": "Class ideas for horror game",
+      "sources": [
+        "https://devforum.roblox.com/t/1928259"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-5aa463725976",
+      "path": "knowledge/forest/5aa463725976-improve-performance.md",
+      "title": "Improve performance",
+      "sources": [
+        "https://create.roblox.com/docs/performance-optimization/improve"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-6055d2f0bb67",
+      "path": "knowledge/forest/6055d2f0bb67-atmospheric-effects.md",
+      "title": "Atmospheric effects",
+      "sources": [
+        "https://create.roblox.com/docs/environment/atmosphere"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-713de5a2c6e6",
+      "path": "knowledge/forest/713de5a2c6e6644d3390-leonisbel-night-hunt.md",
+      "title": "leonisbel/night-hunt",
+      "sources": [
+        "https://github.com/leonisbel/night-hunt"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-7f5fd0196f65",
+      "path": "knowledge/forest/7f5fd0196f65-important-shadow-rendering-problem.md",
+      "title": "Important shadow rendering problem",
+      "sources": [
+        "https://devforum.roblox.com/t/1200354"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-09834fe6b97a",
+      "path": "knowledge/forest/81efd37897cce6558935-terrain-artist-level-desginer.md",
+      "title": "Terrain Artist & Level Desginer",
+      "sources": [
+        "https://devforum.roblox.com/t/3877421"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-85f4cbd2e11c",
+      "path": "knowledge/forest/85f4cbd2e11c-enhance-outdoor-environments-with-realistic-lighti.md",
+      "title": "Enhance outdoor environments with realistic lighting",
+      "sources": [
+        "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-8ab2da928405",
+      "path": "knowledge/forest/8ab2da92840577263663-coolbat-awesome-opus-5-5-usecase.md",
+      "title": "coolbat/awesome-opus-5.5-usecase",
+      "sources": [
+        "https://github.com/coolbat/awesome-opus-5.5-usecase"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-93c5104f8fb0",
+      "path": "knowledge/forest/93c5104f8fb0976c0abf-hakkkk5-warfront-systemsroblox.md",
+      "title": "hakkkk5/warfront-systemsroblox",
+      "sources": [
+        "https://github.com/hakkkk5/warfront-systemsroblox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9be57b985b77",
+      "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+      "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+      "sources": [
+        "https://github.com/victorzakharov/dark-strands"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "other_engine",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Engine-specific technique: a Roblox port and compatibility test are required."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a27deff12d34",
+      "path": "knowledge/forest/a27deff12d34-class-lighting.md",
+      "title": "Class: Lighting",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a374396f6529",
+      "path": "knowledge/forest/a374396f6529-lighting-problems.md",
+      "title": "Lighting problems",
+      "sources": [
+        "https://devforum.roblox.com/t/1183833"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a97042f85138",
+      "path": "knowledge/forest/a97042f85138-frustum-streaming.md",
+      "title": "Frustum Streaming",
+      "sources": [
+        "https://create.roblox.com/docs/workspace/streaming/frustum"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-1d05d7f618fd",
+      "path": "knowledge/forest/bacef24c5251333f5c84-what-makes-a-roblox-horror-game-actually-scar.md",
+      "title": "What makes a roblox horror game actually scary?",
+      "sources": [
+        "https://devforum.roblox.com/t/889158"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-5961cde72df1",
+      "path": "knowledge/forest/c1dd1a712b8688c9f811-frank-zy-dou-awesome-ai-3d-modeling-robotics.md",
+      "title": "Frank-ZY-Dou/awesome-ai-3d-modeling-robotics",
+      "sources": [
+        "https://github.com/frank-zy-dou/awesome-ai-3d-modeling-robotics"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9557732b0671",
+      "path": "knowledge/forest/e5d4560e92bdac0d5bab-oreossd-web-link-official-2.md",
+      "title": "OreoSSD/WEB-Link-Official-2",
+      "sources": [
+        "https://github.com/oreossd/web-link-official-2"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-3357f4d8325d",
+      "path": "knowledge/forest/f3e53f98202ffaaa8202-maximefitbit9-star-forestsurvival.md",
+      "title": "maximefitbit9-star/ForestSurvival",
+      "sources": [
+        "https://github.com/maximefitbit9-star/forestsurvival"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-f733f0e60339",
+      "path": "knowledge/forest/f733f0e60339-enhance-indoor-environments-with-realistic-lightin.md",
+      "title": "Enhance indoor environments with realistic lighting",
+      "sources": [
+        "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-indoor-environments"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-75d0f4933e29",
+      "path": "knowledge/forest/fee07d6291e573431df1-zqh7y-rollpetsrng.md",
+      "title": "zqh7y/RollPetsRNG",
+      "sources": [
+        "https://github.com/zqh7y/rollpetsrng"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-3fe122d267fa",
+      "path": "knowledge/gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer.md",
+      "title": "How can I attach my characters joints to the camera with CFrame and make animations still work?",
+      "sources": [
+        "https://devforum.roblox.com/t/1196972"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-eb19a9fed396",
+      "path": "knowledge/gameplay/eb19a9fed396-class-camera.md",
+      "title": "Class: Camera",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/Camera"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-09d38d132c8f",
+      "path": "knowledge/lighting/09d38d132c8f-do-mobile-devices-get-future-lighting.md",
+      "title": "Do mobile devices get Future lighting?",
+      "sources": [
+        "https://devforum.roblox.com/t/1152409"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-0c907f49b2f4",
+      "path": "knowledge/lighting/0c907f49b2f4-light-sources.md",
+      "title": "Light sources",
+      "sources": [
+        "https://create.roblox.com/docs/effects/light-sources"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-179abb099a56",
+      "path": "knowledge/lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that.md",
+      "title": "What are the most realistic lighting settings that you use for each time of day?",
+      "sources": [
+        "https://devforum.roblox.com/t/1189774"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-5d6828741270",
+      "path": "knowledge/lighting/5d6828741270-future-lighting-not-working.md",
+      "title": "Future Lighting not working",
+      "sources": [
+        "https://devforum.roblox.com/t/1152865"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-862f8f5abfce",
+      "path": "knowledge/lighting/862f8f5abfce-class-atmosphere.md",
+      "title": "Class: Atmosphere",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/Atmosphere"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a4893023e7c3",
+      "path": "knowledge/lighting/a4893023e7c3-class-spotlight.md",
+      "title": "Class: SpotLight",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/SpotLight"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9f79ade870d7",
+      "path": "knowledge/manor/27a47a5a0cc38f6d20d2-aotrou-s-portfolio-commissions-closed.md",
+      "title": "Aotrou's Portfolio (Commissions Closed)",
+      "sources": [
+        "https://devforum.roblox.com/t/149015"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-75c120801a3d",
+      "path": "knowledge/manor/2c775d1e5821d82b7834-what-are-you-working-on-currently-2019.md",
+      "title": "What are you working on currently? (2019)",
+      "sources": [
+        "https://devforum.roblox.com/t/218270"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-f41ab3b0434e",
+      "path": "knowledge/manor/31d4988647f9d82803b9-looking-for-a-3d-modeler-for-my-roblox-horror.md",
+      "title": "Looking for a 3D modeler for my Roblox Horror game",
+      "sources": [
+        "https://devforum.roblox.com/t/4990984"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-4e9fd68819b9",
+      "path": "knowledge/manor/4e9fd68819b91f952581-naeemsan-robloxgame.md",
+      "title": "naeemsan/robloxgame",
+      "sources": [
+        "https://github.com/naeemsan/robloxgame"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a447a0419a5c",
+      "path": "knowledge/manor/90b619176531c8447a6b-7-99-540-christmas-assets.md",
+      "title": "[$7.99] 540+ Christmas assets",
+      "sources": [
+        "https://devforum.roblox.com/t/4982569"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-b115f1d5583b",
+      "path": "knowledge/manor/a34902205b6bb5b6afb4-feedback-on-this-horror-house-interior.md",
+      "title": "Feedback on this horror house interior",
+      "sources": [
+        "https://devforum.roblox.com/t/3626201"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-f1b00ab6e469",
+      "path": "knowledge/manor/aa84dcf1901bf9f0badf-3d-artist-looking-for-freelance-work.md",
+      "title": "3D Artist | Looking for Freelance Work",
+      "sources": [
+        "https://devforum.roblox.com/t/265980"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-de6f2bc26e17",
+      "path": "knowledge/manor/de6f2bc26e17bd48d480-bagusmibr-evilsoft-blox.md",
+      "title": "bagusmibr/evilsoft-blox",
+      "sources": [
+        "https://github.com/bagusmibr/evilsoft-blox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9af61356c759",
+      "path": "knowledge/manor/f6b62732236c571e97bc-el4cteo-blender-skills.md",
+      "title": "EL4CTEO/blender-skills",
+      "sources": [
+        "https://github.com/el4cteo/blender-skills"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "blender_pipeline",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Blender workflow: Roblox import constraints remain to be checked."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a01ddb1cb020",
+      "path": "knowledge/manor/fdbbf0e7c40128e3a8c4-claudeblox-claudeblox.md",
+      "title": "Claudeblox/claudeblox",
+      "sources": [
+        "https://github.com/claudeblox/claudeblox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2736f67dee2b",
+      "path": "knowledge/performance/2736f67dee2b-i-need-help-about-rendering-distance.md",
+      "title": "I need help about rendering distance",
+      "sources": [
+        "https://devforum.roblox.com/t/1195981"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-429655fffbe0",
+      "path": "knowledge/performance/429655fffbe0-foveated-vr-rendering.md",
+      "title": "Foveated VR Rendering",
+      "sources": [
+        "https://devforum.roblox.com/t/4058077"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-4a6402c8990e",
+      "path": "knowledge/performance/4a6402c8990e-srendpty-roblox-roblox-optimizer-suite-v1-3-enhanc.md",
+      "title": "Srendpty/Roblox — Roblox Optimizer Suite v1.3 **Enhanced Player Rendering Management + Performance Optimization** A powerful, all-in-one optimization script for",
+      "sources": [
+        "https://github.com/srendpty/roblox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-ecfc9381818e",
+      "path": "knowledge/performance/ecfc9381818e-performance.md",
+      "title": "Performance",
+      "sources": [
+        "https://create.roblox.com/docs/production/analytics/performance"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-1fe0732cf23a",
+      "path": "knowledge/rendering/1fe0732cf23a-export-textures.md",
+      "title": "Export textures",
+      "sources": [
+        "https://create.roblox.com/docs/art/characters/creating/export-textures"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-326d0bf06b35",
+      "path": "knowledge/rendering/326d0bf06b35-export-from-blender.md",
+      "title": "Export from Blender",
+      "sources": [
+        "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-564f653d5fbf",
+      "path": "knowledge/rendering/564f653d5fbf-error-when-exporting-as-fbx-from-blender.md",
+      "title": "Error When Exporting as fbx from Blender",
+      "sources": [
+        "https://devforum.roblox.com/t/1159486"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-bbea6ee659d1",
+      "path": "knowledge/rendering/bbea6ee659d1-export-pbr-textures-from-blender-water.md",
+      "title": "Export PBR textures from Blender (Water)",
+      "sources": [
+        "https://devforum.roblox.com/t/1175137"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-c73ed30815b8",
+      "path": "knowledge/rendering/c73ed30815b8-how-do-i-export-objects-separately-in-blender.md",
+      "title": "How do I export objects separately in blender?",
+      "sources": [
+        "https://devforum.roblox.com/t/1195366"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-f7dfa278922f",
+      "path": "knowledge/rendering/f7dfa278922f-how-would-i-export-this-texture.md",
+      "title": "How would I export this texture?",
+      "sources": [
+        "https://devforum.roblox.com/t/1162127"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-35696693c238",
+      "path": "knowledge/snow/35696693c238-class-materialvariant.md",
+      "title": "Class: MaterialVariant",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/MaterialVariant"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-56797d0952ca",
+      "path": "knowledge/snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate.md",
+      "title": "[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements",
+      "sources": [
+        "https://devforum.roblox.com/t/4950620"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-6b1965d3e366",
+      "path": "knowledge/snow/6b1965d3e366-custom-terrain-materials.md",
+      "title": "Custom terrain materials",
+      "sources": [
+        "https://create.roblox.com/docs/parts/custom-terrain-materials"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-8fceb3f4c379",
+      "path": "knowledge/snow/8fceb3f4c379-materials.md",
+      "title": "Materials",
+      "sources": [
+        "https://create.roblox.com/docs/parts/materials"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9758995985bd",
+      "path": "knowledge/snow/9758995985bd-material.md",
+      "title": "Material",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/enums/Material"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-a857c603de78",
+      "path": "knowledge/snow/a857c603de78-class-terrain.md",
+      "title": "Class: Terrain",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/Terrain"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-fe4c577081af",
+      "path": "knowledge/snow/fe4c577081af-collisions-on-meshs.md",
+      "title": "Collisions On Meshs",
+      "sources": [
+        "https://devforum.roblox.com/t/1193996"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-826f5cb25829",
+      "path": "knowledge/spruce/030e47b1915a4bee4fae-diyorfayz-skills.md",
+      "title": "DiyorFayz/skills",
+      "sources": [
+        "https://github.com/diyorfayz/skills"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "blender_pipeline",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Blender workflow: Roblox import constraints remain to be checked."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-c7374200c125",
+      "path": "knowledge/spruce/0aaa704c0c2d9a1b94c5-sigmalordmaster69-super-smart-idea-im-about-t.md",
+      "title": "SigmaLordMaster69/super-smart-idea-im-about-to-have",
+      "sources": [
+        "https://github.com/sigmalordmaster69/super-smart-idea-im-about-to-have"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-9f9338e2736f",
+      "path": "knowledge/spruce/416e116697cfeae6caad-foliage-using-surfaceappearance-become-highly.md",
+      "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correctly in Studio",
+      "sources": [
+        "https://devforum.roblox.com/t/4525371"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-4b3e4c63ddab",
+      "path": "knowledge/spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part.md",
+      "title": "nightcycle/quick-part",
+      "sources": [
+        "https://github.com/nightcycle/quick-part"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-4c4e9e4faa27",
+      "path": "knowledge/spruce/4c4e9e4faa27af447c21-scenario-labs-skills.md",
+      "title": "scenario-labs/skills",
+      "sources": [
+        "https://github.com/scenario-labs/skills"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "blender_pipeline",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Blender workflow: Roblox import constraints remain to be checked."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-93c1fa214202",
+      "path": "knowledge/spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-.md",
+      "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+      "sources": [
+        "https://devforum.roblox.com/t/3171224"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-86aae1f76625",
+      "path": "knowledge/spruce/b5b20f5a22d418ff7394-gnrpflpferd19-skapidap.md",
+      "title": "Gnrpflpferd19/skapidap",
+      "sources": [
+        "https://github.com/gnrpflpferd19/skapidap"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-319f4403f590",
+      "path": "knowledge/spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend.md",
+      "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+      "sources": [
+        "https://devforum.roblox.com/t/4822477"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-086c1f6e4a3b",
+      "path": "knowledge/terrain/086c1f6e4a3b-terrain-editor.md",
+      "title": "Terrain Editor",
+      "sources": [
+        "https://create.roblox.com/docs/studio/terrain-editor"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-3e6f3194acb0",
+      "path": "knowledge/terrain/3e6f3194acb0-some-grass-doesn-t-load-while-using-expanded-terra.md",
+      "title": "Some grass doesn't load while using expanded terrain",
+      "sources": [
+        "https://devforum.roblox.com/t/4989282"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-5cf4b27a9a3e",
+      "path": "knowledge/terrain/5cf4b27a9a3e-environmental-terrain.md",
+      "title": "Environmental terrain",
+      "sources": [
+        "https://create.roblox.com/docs/parts/terrain"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-1a910695f70a",
+      "path": "knowledge/traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system.md",
+      "title": "How do I create a ledge climbing system?",
+      "sources": [
+        "https://devforum.roblox.com/t/509435"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2477308f5882",
+      "path": "knowledge/traversal/651a9c7996852903fc2e-perixtar-tech-oa-interview-questions.md",
+      "title": "perixtar/Tech-OA-Interview-Questions",
+      "sources": [
+        "https://github.com/perixtar/tech-oa-interview-questions"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2b0c80761168",
+      "path": "knowledge/traversal/696dfc7985cdea76da5e-introducing-a-ai-driven-traffic-system-for-ro.md",
+      "title": "Introducing a AI-Driven Traffic System for Roblox",
+      "sources": [
+        "https://devforum.roblox.com/t/4694062"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-0fdeffe8b131",
+      "path": "knowledge/traversal/7d44d8b4b0644ee8414c-mmfoodchicks-roblox.md",
+      "title": "mmfoodchicks/Roblox",
+      "sources": [
+        "https://github.com/mmfoodchicks/roblox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_mentioned",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox is mentioned; engine compatibility is not independently verified."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-52524d1837c3",
+      "path": "knowledge/traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo.md",
+      "title": "Building a parkour system cuz i'm bored(devlog)",
+      "sources": [
+        "https://devforum.roblox.com/t/4073003"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-2624c1a8b069",
+      "path": "knowledge/traversal/8736aa383b0747a2eb58-improving-our-a-part-2.md",
+      "title": "Improving our A* (Part 2)",
+      "sources": [
+        "https://devforum.roblox.com/t/3047503"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-aefb4953667e",
+      "path": "knowledge/traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system.md",
+      "title": "Creating an advanced ledge climbing system",
+      "sources": [
+        "https://devforum.roblox.com/t/2166426"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-bf73aaac3e3c",
+      "path": "knowledge/traversal/a3e499fcfaee5316a7a2-devchpl-2d-parkour-framework.md",
+      "title": "DevChpL/2d-parkour-framework",
+      "sources": [
+        "https://github.com/devchpl/2d-parkour-framework"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-c2a1fda76f09",
+      "path": "knowledge/traversal/c2a1fda76f09f1698d52-killop-anything-about-game.md",
+      "title": "killop/anything_about_game",
+      "sources": [
+        "https://github.com/killop/anything_about_game"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-831662fd57d2",
+      "path": "knowledge/traversal/c43c9cf14ff30c74f32c-pathfindingservice-can-t-find-a-path-if-desti.md",
+      "title": "PathfindingService can't find a path if destination is under a collidable part",
+      "sources": [
+        "https://devforum.roblox.com/t/1270826"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 2,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-c1bf82d424b2",
+      "path": "knowledge/traversal/c8bac074297e404f9d70-jakehukari-sp3arparvus.md",
+      "title": "JakeHukari/Sp3arParvus",
+      "sources": [
+        "https://github.com/jakehukari/sp3arparvus"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 3,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "unknown",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox compatibility is not established by the available source excerpts."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "source_traceability",
+            "actionable_steps",
+            "parameters",
+            "constraints",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-5bbf6043ed9c",
+      "path": "knowledge/vegetation/5bbf6043ed9c-class-surfaceappearance.md",
+      "title": "Class: SurfaceAppearance",
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "candidate_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    },
+    {
+      "id": "vdn-d5dda0d02f6d",
+      "path": "knowledge/vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox.md",
+      "title": "Manage level of detail settings on Roblox",
+      "sources": [
+        "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox"
+      ],
+      "dimensions": {
+        "relevance": "task-dependent",
+        "source_quality": {
+          "tier_prior": 1,
+          "truth_verified": false
+        },
+        "freshness": {
+          "collection_age_days": 1,
+          "potentially_stale": false,
+          "source_version_verified": false
+        },
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "coverage": {
+          "missing_fields": [
+            "actionable_steps",
+            "parameters",
+            "prerequisites",
+            "alternatives",
+            "reproducibility"
+          ]
+        },
+        "reproducibility": "missing",
+        "verifiability": "references_present",
+        "operational_utility": "insufficient_steps",
+        "uncertainty": {
+          "version_unknown": true,
+          "contested": false,
+          "verification_required": true
+        }
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "saves",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "DataStore UpdateAsync retry",
+      "anchors": [
+        "datastore",
+        "updateasync"
+      ],
+      "need": "Sauvegardes et progression fiables",
+      "validation": "Dans un lieu de test, provoquer une erreur de sauvegarde puis vérifier reprise, ancienne valeur et absence de perte.",
+      "problem_terms": [
+        "sauvegard",
+        "persist",
+        "datastore"
+      ],
+      "references": [],
+      "gaps": [
+        "no_task_specific_reference",
+        "no_candidate_instructions",
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "missing_constraints",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "DataStore UpdateAsync retry",
+      "ranking_reason": "production P0, impact blocking; 7 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "collision",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "MeshPart collision performance",
+      "anchors": [
+        "collision",
+        "collisionfidelity"
+      ],
+      "need": "Parcours, collisions et performances",
+      "validation": "Parcourir la forêt avec le contrôleur réel ; tester les blocages et mesurer les coûts sur les appareils cibles.",
+      "problem_terms": [
+        "collision",
+        "collider"
+      ],
+      "references": [
+        "vdn-1290b940c378",
+        "vdn-5aa463725976",
+        "vdn-fe4c577081af",
+        "vdn-2b0c80761168"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "MeshPart collision performance",
+      "ranking_reason": "production P0, impact blocking; 4 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "security",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "RemoteEvent server validation",
+      "anchors": [
+        "remoteevent",
+        "remote",
+        "server"
+      ],
+      "need": "Autorité serveur et entrées client non fiables",
+      "validation": "Envoyer des arguments invalides, hors distance et répétés ; vérifier le refus côté serveur sans effet sur la progression.",
+      "problem_terms": [
+        "remoteevent",
+        "securite",
+        "security"
+      ],
+      "references": [
+        "vdn-a97042f85138",
+        "vdn-ecfc9381818e",
+        "vdn-4b3e4c63ddab"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "RemoteEvent server validation",
+      "ranking_reason": "production P0, impact blocking; 4 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "pursuit",
+      "priority": 1,
+      "impact": "high",
+      "query": "Pathfinding blocked waypoint",
+      "anchors": [
+        "pathfinding",
+        "waypoint",
+        "path"
+      ],
+      "need": "Poursuite du Père Noël parmi les obstacles",
+      "validation": "Scène de test avec obstacle mobile, cible déplacée et chemin impossible ; mesurer recomputations, blocages et coût serveur.",
+      "problem_terms": [
+        "poursui",
+        "poursuiv",
+        "patrouil",
+        "pathfinding",
+        "chase"
+      ],
+      "references": [
+        "vdn-326d0bf06b35",
+        "vdn-2b0c80761168",
+        "vdn-2624c1a8b069",
+        "vdn-831662fd57d2"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "Pathfinding blocked waypoint",
+      "ranking_reason": "production P1, impact high; 4 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "rigging",
+      "priority": 2,
+      "impact": "high",
+      "query": "custom rig bone import",
+      "anchors": [
+        "rig",
+        "bone",
+        "armature"
+      ],
+      "need": "Rigging et animation des personnages",
+      "validation": "Comparer pose de repos, attachments et animation après import dans Studio et Player.",
+      "problem_terms": [
+        "squelette",
+        "rigging",
+        "armature",
+        "bone"
+      ],
+      "references": [
+        "vdn-1290b940c378",
+        "vdn-97b68ca9aa66"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "missing_constraints",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "custom rig bone import",
+      "ranking_reason": "production P2, impact high; 5 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "forest",
+      "priority": 3,
+      "impact": "visual",
+      "query": "foliage snow SurfaceAppearance",
+      "anchors": [
+        "foliage",
+        "snow",
+        "surfaceappearance"
+      ],
+      "need": "Forêt et finition graphique",
+      "validation": "Comparer jour/nuit, lampe torche, distance et performance sur appareils cibles.",
+      "problem_terms": [
+        "foret",
+        "forest",
+        "sapin",
+        "foliage"
+      ],
+      "references": [
+        "vdn-9b7ec2ee95cd",
+        "vdn-126c74e5f9ad",
+        "vdn-713de5a2c6e6",
+        "vdn-bbea6ee659d1",
+        "vdn-8fceb3f4c379",
+        "vdn-9f9338e2736f",
+        "vdn-4b3e4c63ddab",
+        "vdn-93c1fa214202",
+        "vdn-319f4403f590",
+        "vdn-5bbf6043ed9c"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "foliage snow SurfaceAppearance",
+      "ranking_reason": "production P3, impact visual; 4 unresolved dimensions; no probability inferred"
+    },
+    {
+      "id": "accessories",
+      "priority": 4,
+      "impact": "secondary",
+      "query": "rigid accessory attachment",
+      "anchors": [
+        "accessory",
+        "attachment"
+      ],
+      "need": "Sacoche, bonnet et personnalisation future",
+      "validation": "Vérifier attache, déformations, collisions et réplication avec deux clients ; ne pas retarder le gameplay principal.",
+      "problem_terms": [
+        "accessor",
+        "sacoche",
+        "bonnet",
+        "backpack"
+      ],
+      "references": [
+        "vdn-326d0bf06b35"
+      ],
+      "gaps": [
+        "missing_prerequisites",
+        "missing_reproducibility",
+        "version_unverified",
+        "not_reproduced_in_project"
+      ],
+      "targeted_query": "rigid accessory attachment",
+      "ranking_reason": "production P4, impact secondary; 4 unresolved dimensions; no probability inferred"
+    }
+  ],
+  "diagnostics": []
+}

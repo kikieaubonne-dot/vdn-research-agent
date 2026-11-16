@@ -48,7 +48,10 @@ def evidence(text):
 
 
 def source_steps(text):
-    _, body = knowledge.parse_note(text)
+    meta, body = knowledge.parse_note(text)
+    editorial=meta.get('editorial_steps',[])
+    if meta.get('procedure_origin')=='source_based_editorial_candidate' and isinstance(editorial,list):
+        return [s for s in editorial if isinstance(s,str) and len(s)<=1000][:12]
     excerpts = re.findall(r'^>\s*«\s*(.+?)\s*»\s*$', body, re.M)
     if not excerpts:
         # Legacy evidence is explicitly tagged as extracted, not independently verified.
@@ -77,7 +80,7 @@ def compatibility(text):
 def meaningful_section(body, names):
     sec = knowledge.sections(body)
     values = [sec.get(name, '').strip() for name in names]
-    return [v for v in values if v and not re.search(r'(?i)(à compléter|a completer|aucun|non identifi|^—$)', v)]
+    return [v for v in values if v and not re.search(r'(?i)^\s*(?:[-*]\s*)?(à compléter|a completer|aucun|non identifi|—\s*$)', v)]
 
 
 class KnowledgeEngine:
@@ -86,6 +89,10 @@ class KnowledgeEngine:
         self.allow_experiments = allow_experiments
         self._snapshot = None
         self.index = None
+
+    def get_task_brief(self, task, mode='compact', token_budget=1800):
+        from agent.operational import brief
+        return brief(self,task,mode,token_budget)
 
     def _ensure_index(self):
         snapshot = tuple((p.relative_to(self.root).as_posix(), p.stat().st_mtime_ns, p.stat().st_size)
@@ -159,10 +166,13 @@ class KnowledgeEngine:
             steps = source_steps(note['content'])
             procedures.append({'note_id': note['id'], 'title': note['title'], 'sources': note['sources'],
                 'candidate_steps': [{'text': step, 'source_note': note['id'], 'source_urls': note['sources'],
-                                     'verified': False} for step in steps],
+                                     'verified': False,'origin':note['meta'].get('procedure_origin','source_excerpt')} for step in steps],
                 'prerequisites': meaningful_section(note['body'], ('Prérequis','Prerequisites')),
                 'constraints': meaningful_section(note['body'], ('Limites connues de Roblox','Constraints')),
                 'parameters': meaningful_section(note['body'], ('Paramètres (sourcés)',)),
+                'alternatives':meaningful_section(note['body'],('Alternatives',)),
+                'validation_plan':meaningful_section(note['body'],('Protocole de reproduction proposé, non exécuté','Protocole de reproduction')),
+                'rollback':meaningful_section(note['body'],('Retour arrière',)),
                 'evidence': note['evidence'], 'order_verified': False,
                 'compatibility':note['compatibility'],
                 'procedure_status': 'requires_porting' if note['compatibility']['scope']=='other_engine' else

@@ -2,6 +2,155 @@
   "_comment": "Hypotheses de decomposition du domaine, pas des connaissances verifiees. Ordre topologique : requires doit nommer un noeud precedent. Autres domaines : ajouter des profils apres evaluation locale.",
   "profiles": [
     {
+      "id": "pursuit_npc",
+      "triggers": [
+        "poursuivre",
+        "poursuit",
+        "poursuite",
+        "chase",
+        "pathfinding"
+      ],
+      "nodes": [
+        {
+          "id": "authority",
+          "query": "Roblox server NPC",
+          "requires": [],
+          "reason": "autorite serveur et etats candidats du PNJ"
+        },
+        {
+          "id": "perception",
+          "query": "NPC line sight",
+          "requires": [
+            "authority"
+          ],
+          "reason": "detection du joueur : comportement a definir et tester"
+        },
+        {
+          "id": "navigation",
+          "query": "Pathfinding blocked waypoint",
+          "requires": [
+            "authority"
+          ],
+          "reason": "navigation avec obstacles et echecs explicites"
+        },
+        {
+          "id": "pursuit",
+          "query": "Pathfinding moving target",
+          "requires": [
+            "perception",
+            "navigation"
+          ],
+          "reason": "cible mobile et sorties de poursuite"
+        },
+        {
+          "id": "validation",
+          "query": "NPC MicroProfiler replication",
+          "requires": [
+            "pursuit"
+          ],
+          "reason": "mesurer cout et coherence avec plusieurs clients"
+        }
+      ]
+    },
+    {
+      "id": "rig_diagnosis",
+      "triggers": [
+        "squelette",
+        "bones",
+        "os",
+        "rootpart"
+      ],
+      "nodes": [
+        {
+          "id": "import",
+          "query": "custom rig FBX import",
+          "requires": [],
+          "reason": "reproduire le defaut d import"
+        },
+        {
+          "id": "transforms",
+          "query": "RootPart bone offset",
+          "requires": [
+            "import"
+          ],
+          "reason": "verifier pose et transformations sans conclure a une cause certaine"
+        },
+        {
+          "id": "joints",
+          "query": "Attachment Motor6D rig",
+          "requires": [
+            "transforms"
+          ],
+          "reason": "identifier les liaisons du rig reel"
+        },
+        {
+          "id": "animation",
+          "query": "bone animation visual glitch",
+          "requires": [
+            "joints"
+          ],
+          "reason": "comparer repos et animation"
+        },
+        {
+          "id": "validation",
+          "query": "rig Studio Player test",
+          "requires": [
+            "animation"
+          ],
+          "reason": "reproduire et documenter dans les deux environnements"
+        }
+      ]
+    },
+    {
+      "id": "rigid_accessories",
+      "triggers": [
+        "bonnet",
+        "sacoche",
+        "accessory",
+        "accessories"
+      ],
+      "nodes": [
+        {
+          "id": "rig",
+          "query": "custom rig attachment",
+          "requires": [],
+          "reason": "identifier le rig et les points d attache"
+        },
+        {
+          "id": "type",
+          "query": "rigid layered accessory",
+          "requires": [
+            "rig"
+          ],
+          "reason": "choisir le type selon la deformation necessaire"
+        },
+        {
+          "id": "export",
+          "query": "Blender accessory export",
+          "requires": [
+            "type"
+          ],
+          "reason": "preparer le pipeline d import"
+        },
+        {
+          "id": "equip",
+          "query": "accessory attachment animation",
+          "requires": [
+            "export"
+          ],
+          "reason": "verifier alignement et animation"
+        },
+        {
+          "id": "replication",
+          "query": "accessory server replication",
+          "requires": [
+            "equip"
+          ],
+          "reason": "compatibilite multijoueur non etablie : test requis"
+        }
+      ]
+    },
+    {
       "id": "snowy_tree",
       "triggers": [
         "sapin",

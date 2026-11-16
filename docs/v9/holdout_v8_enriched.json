@@ -1,0 +1,289 @@
+{
+  "schema": "vdn.holdout/9",
+  "implementation": "../v9-baseline-checkout",
+  "cases": 16,
+  "retrieval_cases": 12,
+  "hit_at_1": 0.9166666666666666,
+  "hit_at_3": 1.0,
+  "hit_at_5": 1.0,
+  "mrr": 0.9583333333333334,
+  "citation_identity_accuracy": 1.0,
+  "citation_semantic_truth": "not measured",
+  "outside_abstention": 0.0,
+  "abstention_protocol": "empty-result proxy; V8 has no explicit abstention tool",
+  "index_ms": 77.46741600021778,
+  "latency_median_ms": 76.74509600019519,
+  "index_notes": 98,
+  "details": [
+    {
+      "category": "fr",
+      "q": "Pourquoi mes aiguilles disparaissent à grande distance dans Player ?",
+      "rank": 1,
+      "ids": [
+        "vdn-9f9338e2736f",
+        "vdn-a97042f85138",
+        "vdn-93c1fa214202",
+        "vdn-d5dda0d02f6d",
+        "vdn-086c1f6e4a3b"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "en",
+      "q": "Custom character eye bones glitch following FBX import",
+      "rank": 1,
+      "ids": [
+        "vdn-1290b940c378",
+        "vdn-9b7ec2ee95cd",
+        "vdn-326d0bf06b35",
+        "vdn-1fe0732cf23a",
+        "vdn-0df57a89fa73"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "mixed",
+      "q": "Atlas textures pour leaf cards du sapin",
+      "rank": 1,
+      "ids": [
+        "vdn-93c1fa214202",
+        "vdn-9be57b985b77",
+        "vdn-4b3e4c63ddab",
+        "vdn-713de5a2c6e6",
+        "vdn-319f4403f590"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "technical",
+      "q": "Opaque MeshPart showing bands with AlphaMode Transparency",
+      "rank": 1,
+      "ids": [
+        "vdn-319f4403f590",
+        "vdn-9f9338e2736f",
+        "vdn-5bbf6043ed9c",
+        "vdn-93c1fa214202",
+        "vdn-1290b940c378"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "multistep",
+      "q": "Pursue a moving player using path waypoints and blocked events",
+      "rank": 1,
+      "ids": [
+        "vdn-939f03f673d6",
+        "vdn-4a6402c8990e",
+        "vdn-9f9338e2736f",
+        "vdn-a4893023e7c3",
+        "vdn-a97042f85138"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "fr",
+      "q": "Sauvegarder une progression DataStore UpdateAsync en gérant les erreurs",
+      "rank": 1,
+      "ids": [
+        "vdn-ac07d1c0fed7",
+        "vdn-1290b940c378",
+        "vdn-3e6f3194acb0",
+        "vdn-52524d1837c3",
+        "vdn-588169c7b940"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "en",
+      "q": "Secure the client-server boundary and validate remote calls",
+      "rank": 1,
+      "ids": [
+        "vdn-588169c7b940",
+        "vdn-4b3e4c63ddab",
+        "vdn-ecfc9381818e",
+        "vdn-a97042f85138",
+        "vdn-09d38d132c8f"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "mixed",
+      "q": "Bonnet rigide Accessory Attachment sur personnage animé",
+      "rank": 1,
+      "ids": [
+        "vdn-4782fa1e3cf5",
+        "vdn-326d0bf06b35",
+        "vdn-588169c7b940"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "ambiguous",
+      "q": "Mes bones ont un offset après import ; est-ce un souci de RootPart ?",
+      "rank": 1,
+      "ids": [
+        "vdn-1290b940c378",
+        "vdn-564f653d5fbf",
+        "vdn-6055d2f0bb67",
+        "vdn-4782fa1e3cf5",
+        "vdn-086c1f6e4a3b"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "multisource",
+      "q": "Une forêt de feuillage avec atlas et LOD performants",
+      "rank": 1,
+      "ids": [
+        "vdn-93c1fa214202",
+        "vdn-9be57b985b77",
+        "vdn-9f9338e2736f",
+        "vdn-a97042f85138",
+        "vdn-f7dfa278922f"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": false,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "version",
+      "q": "Ce rig FBX est-il compatible Blender 5.2 et Roblox ?",
+      "rank": 2,
+      "ids": [
+        "vdn-564f653d5fbf",
+        "vdn-1290b940c378",
+        "vdn-326d0bf06b35",
+        "vdn-c73ed30815b8",
+        "vdn-bbea6ee659d1"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "false_assumption",
+      "q": "Les RemoteEvents client sont toujours fiables sans validation serveur, comment les utiliser ?",
+      "rank": 1,
+      "ids": [
+        "vdn-588169c7b940",
+        "vdn-ac07d1c0fed7",
+        "vdn-4782fa1e3cf5",
+        "vdn-939f03f673d6",
+        "vdn-a97042f85138"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "outside",
+      "q": "Recette de pâte feuilletée au beurre pour un croissant",
+      "rank": null,
+      "ids": [
+        "vdn-939f03f673d6",
+        "vdn-a27deff12d34",
+        "vdn-1fe0732cf23a",
+        "vdn-2736f67dee2b",
+        "vdn-5d6828741270"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "outside",
+      "q": "Calculer les trajectoires orbitales des lunes de Jupiter",
+      "rank": null,
+      "ids": [
+        "vdn-939f03f673d6",
+        "vdn-0df57a89fa73",
+        "vdn-9b7ec2ee95cd",
+        "vdn-ac07d1c0fed7",
+        "vdn-4782fa1e3cf5"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "outside",
+      "q": "Configurer un traitement médical personnalisé pour une migraine",
+      "rank": null,
+      "ids": [
+        "vdn-6b1965d3e366",
+        "vdn-56797d0952ca",
+        "vdn-1290b940c378",
+        "vdn-4782fa1e3cf5",
+        "vdn-5cf4b27a9a3e"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    },
+    {
+      "category": "outside",
+      "q": "Résoudre un litige fiscal international sur des dividendes",
+      "rank": null,
+      "ids": [
+        "vdn-5bbf6043ed9c",
+        "vdn-319f4403f590",
+        "vdn-9f9338e2736f",
+        "vdn-0df57a89fa73",
+        "vdn-ac07d1c0fed7"
+      ],
+      "abstained": false,
+      "all_desired_sources_found": null,
+      "brief_tokens_approx": null,
+      "version_uncertain": "not exposed by V8",
+      "truth_verified": false
+    }
+  ]
+}

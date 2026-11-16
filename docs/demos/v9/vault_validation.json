@@ -1,0 +1,10 @@
+{
+  "schema": "vdn.vault-demo/9",
+  "historical_corpus_files": 106,
+  "exported_markdown_files": 112,
+  "source_markdown_files": 110,
+  "second_sync_state": "unchanged",
+  "broken_generated_links": [],
+  "all_source_hashes_match": true,
+  "live_windows_access": false
+}

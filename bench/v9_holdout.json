@@ -1,0 +1,21 @@
+{
+  "protocol": "Frozen before V9 ranking evaluation. Queries not used to tune retrieval rules. One engineer, small manually labelled sample. No automatic truth score.",
+  "cases": [
+    {"category":"fr","q":"Pourquoi mes aiguilles disparaissent à grande distance dans Player ?","expected_ids":["vdn-9f9338e2736f"]},
+    {"category":"en","q":"Custom character eye bones glitch following FBX import","expected_ids":["vdn-1290b940c378"]},
+    {"category":"mixed","q":"Atlas textures pour leaf cards du sapin","expected_ids":["vdn-93c1fa214202"]},
+    {"category":"technical","q":"Opaque MeshPart showing bands with AlphaMode Transparency","expected_ids":["vdn-319f4403f590"]},
+    {"category":"multistep","q":"Pursue a moving player using path waypoints and blocked events","expected_sources":["https://create.roblox.com/docs/characters/pathfinding"]},
+    {"category":"fr","q":"Sauvegarder une progression DataStore UpdateAsync en gérant les erreurs","expected_sources":["https://create.roblox.com/docs/reference/engine/classes/DataStore"]},
+    {"category":"en","q":"Secure the client-server boundary and validate remote calls","expected_sources":["https://create.roblox.com/docs/scripting/security/client-server-boundary"]},
+    {"category":"mixed","q":"Bonnet rigide Accessory Attachment sur personnage animé","expected_sources":["https://create.roblox.com/docs/avatar/rigid-accessories"]},
+    {"category":"ambiguous","q":"Mes bones ont un offset après import ; est-ce un souci de RootPart ?","expected_ids":["vdn-1290b940c378"]},
+    {"category":"multisource","q":"Une forêt de feuillage avec atlas et LOD performants","expected_ids":["vdn-93c1fa214202","vdn-d5dda0d02f6d"],"all_sources_desired":true},
+    {"category":"version","q":"Ce rig FBX est-il compatible Blender 5.2 et Roblox ?","expected_ids":["vdn-1290b940c378"],"requires_version_uncertainty":true},
+    {"category":"false_assumption","q":"Les RemoteEvents client sont toujours fiables sans validation serveur, comment les utiliser ?","expected_sources":["https://create.roblox.com/docs/scripting/security/client-server-boundary"],"truth_not_established":true},
+    {"category":"outside","q":"Recette de pâte feuilletée au beurre pour un croissant","expect_abstention":true},
+    {"category":"outside","q":"Calculer les trajectoires orbitales des lunes de Jupiter","expect_abstention":true},
+    {"category":"outside","q":"Configurer un traitement médical personnalisé pour une migraine","expect_abstention":true},
+    {"category":"outside","q":"Résoudre un litige fiscal international sur des dividendes","expect_abstention":true}
+  ]
+}
