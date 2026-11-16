@@ -1,0 +1,48 @@
+{
+  "scope": "Synthetic offline reproduction, not the personal Windows session. Two initial ticks seeded, ten fixture units, mocked transport; seventh HTTP request refused.",
+  "base_commit": "5809168158bb1bf6a8599eafec875403ae081fa8",
+  "before": {
+    "state": "BUDGET_STOP",
+    "stop_reason": "budget HTTP atteint",
+    "stop_details": null,
+    "ticks": 3,
+    "http_calls": 6,
+    "fetch_attempts": 5,
+    "mocked_transport_calls": 6,
+    "queue_counts": {
+      "pending": 9,
+      "running": 1,
+      "done": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "integration_failures": 0,
+    "last_error": null
+  },
+  "after": {
+    "state": "BUDGET_STOP",
+    "stop_reason": "budget HTTP atteint",
+    "stop_details": {
+      "kind": "budget",
+      "reason": "budget HTTP atteint",
+      "scope": "tick",
+      "resource": "http_calls",
+      "limit": 6,
+      "used": 6,
+      "resume_policy": "new_tick_with_remaining_session_budgets"
+    },
+    "ticks": 3,
+    "http_calls": 6,
+    "fetch_attempts": 5,
+    "mocked_transport_calls": 6,
+    "queue_counts": {
+      "pending": 10,
+      "running": 0,
+      "done": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    "integration_failures": 0,
+    "last_error": null
+  }
+}

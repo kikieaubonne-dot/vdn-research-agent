@@ -1,5 +1,10 @@
 # Livraison V10 — Éponge, recherche et expérimentation contrôlées
 
+Correctif HTTP ultérieur, basé sur cette V10 :
+[diagnostic, 305 tests et reprise Windows](v10/HTTP_BUDGET_DIAGNOSTIC.md).
+Les compteurs de tests ci-dessous décrivent la base V10 ; le correctif ajoute
+17 contrôles et conserve les 288 tests présents.
+
 Base vérifiée : `codex/knowledge-factory-v9`, commit `71d8087`. Nouvelle branche
 `codex/research-lab-v10`, destinée à une PR vers V9. PR #1 → V7, #2 → V8 et #3 → V9
 restent ouvertes dans leur chaîne de dépendances ; aucune ancienne PR n’est

@@ -60,6 +60,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
     followups = [f for f in load_json(root / "output/followups.json", {"items": []})["items"] if f.get("status") == "open"]
     setup_errors = []
     setup_stop = None
+    setup_stop_details = None
     if provs is None:
         provs = active_providers(root)
         # premier lancement : sans index local, la doc officielle et le DevForum ne peuvent rien trouver
@@ -68,6 +69,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                 provs["roblox_docs"].refresh()
             except budget.BudgetExhausted as e:
                 setup_stop = str(e)
+                setup_stop_details = e.details()
             except Exception as e:
                 setup_errors.append(f"index officiel indisponible (la doc Roblox ne sera pas interrogée) : {e}")
         if setup_stop is None and not provs["devforum"].index_path.exists():
@@ -75,13 +77,17 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                 provs["devforum"].refresh(2)
             except budget.BudgetExhausted as e:
                 setup_stop = str(e)
+                setup_stop_details = e.details()
             except Exception as e:
                 setup_errors.append(f"sitemap DevForum indisponible (le DevForum ne sera pas interrogé) : {e}")
     reg = knowledge.Registry(root)
     journal, rejected_log = [], []
     st = {"started_utc": utcnow(), "version": "5.0", "queries": 0, "trials": 0, "returned": 0, "fetched": 0, "accepted": 0,
           "created": 0, "updated": 0, "duplicates": 0, "rejected": 0, "errors": list(setup_errors), "rejection_reasons": {}, "trials_detail": [], "created_notes": [], "rejected_candidates": [],
-          "providers": list(provs), "fetch_attempts": 0, "stop_reason": setup_stop, 'known_notes': []}
+          "providers": list(provs), "fetch_attempts": 0, "stop_reason": setup_stop, 'stop_details':setup_stop_details, 'known_notes': []}
+
+    def stop_for(exc):
+        st['stop_reason']=str(exc);st['stop_details']=exc.details()
 
     def stopped():
         if st['stop_reason']:
@@ -89,7 +95,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
         try:
             budget.check()
         except budget.BudgetExhausted as e:
-            st['stop_reason'] = str(e)
+            stop_for(e)
             return True
         return False
 
@@ -114,7 +120,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
             try:
                 results = prov.search(q, per_source)
             except budget.BudgetExhausted as e:
-                st['stop_reason'] = str(e)
+                stop_for(e)
                 break
             except Exception as e:
                 m["error"] = f"{type(e).__name__}: {str(e)[:150]}"
@@ -149,7 +155,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                     st['fetch_attempts'] += 1
                     doc = reader.fetch(url)
                 except budget.BudgetExhausted as e:
-                    st['stop_reason'] = str(e)
+                    stop_for(e)
                     break
                 except Exception as e:
                     st["errors"].append(f"lecture {url} : {type(e).__name__}: {str(e)[:120]}")
@@ -182,7 +188,7 @@ def research(root: Path = ROOT, max_queries: int = 8, per_source: int = 4, max_f
                     try:
                         budget.pause(pause)
                     except budget.BudgetExhausted as e:
-                        st['stop_reason'] = str(e)
+                        stop_for(e)
                         break
             m["technical_mean"] = round(sum(m["technical"]) / len(m["technical"]), 3) if m["technical"] else 0.0
             m["duration_s"] = round(time.time() - t0, 2)

@@ -34,7 +34,9 @@ def metrics(root):
         for p in paths:
             state=ResearchSessions(root).get(p.name)
             sessions.append({k:state[k] for k in ('id','status','ticks','http_calls','fetch_attempts','compute_reserved_s','duplicates_avoided')} |
-                            {'integration_failures':state.get('integration_failures',0),'last_error':state.get('error')})
+                            {'integration_failures':state.get('integration_failures',0),'last_error':state.get('error'),
+                             'stop_reason':state.get('stop_reason'),'stop_details':state.get('stop_details'),
+                             'last_tick':state.get('last_tick'),'last_collection':state.get('last_collection')})
     return {'schema':'vdn.metrics/10','experiment_states':counts,'error_occurrences':failures,'sessions':sessions,
             'diagnostics':result['diagnostics'],'solution_reuse':'not measured','productivity_gain':'not measured',
             'game_execution':'not measured by Python','ai_required':False,

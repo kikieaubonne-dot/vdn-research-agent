@@ -1,0 +1,9 @@
+{
+  "base": "5809168158bb1bf6a8599eafec875403ae081fa8",
+  "knowledge_markdown_count": 110,
+  "all_knowledge_unchanged": true,
+  "all_existing_test_files_unchanged": true,
+  "config_and_workflows_unchanged": true,
+  "baseline_sha256": "2a90e9a6b43b2980a5a09948519295751399b7e60184c40bfd46b9f7a4106599",
+  "verification": "Compared hashes and git diff against V10; no personal Windows session accessed."
+}
