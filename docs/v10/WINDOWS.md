@@ -10,6 +10,7 @@ le workflow `V10 offline compatibility` prévoit aussi Windows.
 git clone https://github.com/kikieaubonne-dot/vdn-research-agent.git
 cd vdn-research-agent
 git switch codex/research-lab-v10
+$env:PYTHONUTF8 = "1"
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m tests.offline
 .\.venv\Scripts\python.exe -m agent.v10 status
@@ -19,6 +20,12 @@ py -3.11 -m venv .venv
 Les écritures atomiques de création utilisent des liens physiques : NTFS local
 convient, FAT et certains lecteurs réseau ne conviennent pas. Préférer un clone
 local et un export Obsidian séparé. Ne pas exécuter depuis une archive ZIP.
+
+`PYTHONUTF8=1` évite les décodages CP1252 des commandes et démonstrations sous
+Python 3.11 Windows. Le lanceur `tests.offline` impose déjà UTF-8 pour sa suite
+et tous ses sous-processus ; il conserve l’interdiction des connexions réseau.
+Les 251 cas historiques ne sont ni modifiés ni ignorés. Cette préparation ne
+crée aucune tâche récurrente et ne change aucune configuration globale Windows.
 
 ## Recherche manuelle et reprise
 

@@ -3,7 +3,6 @@
   "base": "71d8087f7cda3fb6205b7b52528464a9bd31114d",
   "markdown_count": 110,
   "all_markdown_unchanged": true,
-  "prior_251_test_files_unchanged": true,
   "sha256": {
     "knowledge/_index.md": "7f1e53922b214077fdc7e7b1473e941a0db7ee00447743241609e34ffa57825b",
     "knowledge/characters/_index.md": "a08b7dc7bd2107576063621064aa729fade49fd8c4fc3e77fcb04335940da604",
@@ -115,5 +114,10 @@
     "knowledge/gameplay/eb19a9fed396-class-camera.md": "ee60e4eee56fd323fdc651f427af9634185ebaec8dd57a7b90c2da206f4d2e2c",
     "knowledge/gameplay/_index.md": "887f840c9223d54435bc100f21ff9457cec6388cefdc42b5e783275efcf39df2",
     "knowledge/gameplay/939f03f673d6-poursuite-roblox-pathfindingservice-waypoints-et-c.md": "a6ddfa1748a7703f9dcd6b206f09b430836d6149855b26880daeec19ce81ddd4"
+  },
+  "historical_test_case_files_unchanged": true,
+  "test_launcher_change": {
+    "path": "tests/offline.py",
+    "purpose": "UTF-8 for suite and subprocesses on Windows CP1252; socket denial unchanged"
   }
 }

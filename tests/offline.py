@@ -15,6 +15,10 @@ def main():
             "import socket\ndef denied(*a, **k):\n    raise AssertionError('network forbidden by offline harness')\n"
             "socket.socket.connect = denied\nsocket.create_connection = denied\n",encoding='utf-8')
         env=dict(os.environ)
+        # The corpus and MCP wire format are UTF-8, including on CP1252 Windows.
+        # Set startup flags for the suite and every subprocess it creates.
+        env['PYTHONUTF8']='1'
+        env['PYTHONIOENCODING']='utf-8'
         env['PYTHONPATH']=d+os.pathsep+env.get('PYTHONPATH','')
         return subprocess.run([sys.executable,'-m','unittest','discover','-s','tests','-v'],
                                cwd=Path(__file__).resolve().parents[1],env=env).returncode

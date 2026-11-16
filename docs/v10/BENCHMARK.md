@@ -89,5 +89,7 @@ Les timings ne justifient aucune affirmation de vitesse ou productivité accrue.
 
 [Manifeste](preservation.json) : SHA256 de chaque Markdown de la base V9, comparaison
 avec le travail V10. Les 106 historiques **et** les quatre candidates V9 restent
-inchangés. Les 251 tests antérieurs restent byte pour byte identiques dans Git.
+inchangés. Les fichiers contenant les 251 cas de test restent byte pour byte
+identiques dans Git. Seul leur lanceur `tests/offline.py` impose désormais UTF-8
+à la suite et ses sous-processus sur Windows, en conservant les refus réseau.
 Les nouveaux exemples, plans et preuves de validation sont hors du corpus historique.
