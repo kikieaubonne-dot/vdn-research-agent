@@ -1,5 +1,23 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V11.1 — Éponge Intelligence
+
+Analyse des problèmes, passages localisés, registre d'affirmations, critique,
+protocoles A/B et mémoire cumulative. Ollama facultatif, sans téléchargement
+automatique ; citation attribuée et procédure proposée restent distinctes.
+
+```sh
+python -m agent.v111 diagnose
+python -m agent.v111 synthesize "Mes sapins Roblox sont artificiels et bloquent le joueur"
+python -m agent.v111 brief "Quelles priorités pour ma forêt Roblox ?"
+python vdn_mcp.py --v111
+```
+
+[Rapport V11.1 et limites](docs/V11_1_REPORT.md) ·
+[Windows/Ollama](docs/v111/WINDOWS_OLLAMA.md) ·
+[MCP Claude](docs/v111/CLAUDE_MCP.md) ·
+[Évaluation](docs/v111/BENCHMARK.md).
+
 ## V11 — L'Éponge Océan
 
 V11 ajoute la planification forêt, la découverte de liens autorisés, des fiches

@@ -187,6 +187,16 @@ class Collector:
                     else:stats['known_notes'].append(result)
                     stats['accepted']+=1;self.web.trace('librarian_candidate',facet=facet,note_id=card['id'])
                     self.check()
+                    # New intelligence pipeline is opt-in. It shares this exact
+                    # session Budget/lock and replaces, rather than duplicates,
+                    # the legacy optional model call for this unit.
+                    from agent.intelligence_models import settings as intelligence_settings
+                    if intelligence_settings(root)['enabled']:
+                        from agent.intelligence import Intelligence
+                        reviewed=Intelligence(root).run(goal,apply=True,allow_model=self.allowed)
+                        stats['intelligence']={'key':reviewed['key'],'state':reviewed['state'],'truth_verified':False}
+                        self.web.trace('intelligence_curated',facet=facet,analysis_key=reviewed['key'],state=reviewed['state'])
+                        break
                     prompt=clean_json({'task':'Source evidence selection and research questions only.',
                                       'evidence':card['claims'],'goal':goal,
                                       'response_schema':{'evidence':[{'source_id':'source-1','quote':'exact provided quote'}],

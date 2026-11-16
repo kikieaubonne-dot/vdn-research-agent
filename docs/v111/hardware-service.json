@@ -1,0 +1,17 @@
+{
+  "hardware": {
+    "ram_total_bytes": 10452459520,
+    "ram_available_bytes": 9773989888,
+    "gpu": [],
+    "accelerator": "not_detected",
+    "capacity_to_load": "unknown; measure the selected quantization and context",
+    "processes_terminated": false,
+    "ollama_process_rss_bytes": null,
+    "process_memory_scope": "sum of observed process working sets/RSS; shared pages may be counted more than once; not GPU memory",
+    "memory_pressure": "unknown_or_not_high"
+  },
+  "service": "unavailable",
+  "models": [],
+  "automatic_download": false,
+  "error_kind": "URLError"
+}

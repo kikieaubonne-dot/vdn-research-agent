@@ -1,0 +1,15 @@
+{
+  "schema": "vdn.intelligence-config/11.1",
+  "enabled": false,
+  "endpoint": "http://127.0.0.1:11434",
+  "compact_model": "",
+  "capable_model": "",
+  "economy": true,
+  "context_tokens": 2048,
+  "max_output_tokens": 512,
+  "timeout_s": 15,
+  "max_passages": 8,
+  "remote_allowed": false,
+  "sensitivity": "private",
+  "cache_ttl_s": 86400
+}
