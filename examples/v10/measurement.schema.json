@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VDN collector report V10 — external report, never verification",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema","experiment_id","method","metrics","observations","errors","controls","environment"],
+  "properties": {
+    "schema": {"const":"vdn.roblox-measurement/10"},
+    "experiment_id": {"type":"string","format":"uuid"},
+    "method": {"enum":["A","B"]},
+    "metrics": {
+      "type":"object", "additionalProperties":false,
+      "properties": {
+        "triangles":{"type":["number","null"],"minimum":0},
+        "materials":{"type":["number","null"],"minimum":0},
+        "textures":{"type":["number","null"],"minimum":0},
+        "asset_bytes":{"type":["number","null"],"minimum":0},
+        "night_readability_rating":{"type":["number","null"],"minimum":0},
+        "artifact_count":{"type":["number","null"],"minimum":0},
+        "frame_time_ms":{"type":["number","null"],"minimum":0}
+      }
+    },
+    "observations":{"type":"array","minItems":1,"items":{"type":"string","minLength":1,"maxLength":4000}},
+    "errors":{"type":"array","items":{"type":"string","minLength":1,"maxLength":4000}},
+    "environment":{"type":"object"},
+    "controls": {
+      "type":"object", "additionalProperties":false,
+      "required":["studio_version","device","graphics_quality","resolution","camera","lighting","tree_count","warmup_s","sample_s"],
+      "properties": {
+        "studio_version":{},"device":{},"graphics_quality":{},"resolution":{},"camera":{},"lighting":{},"tree_count":{},"warmup_s":{},"sample_s":{}
+      }
+    }
+  },
+  "$comment":"Runtime stdlib validation also requires exact experiment/method/environment/controls binding. Missing metrics stay null. No jsonschema dependency required."
+}

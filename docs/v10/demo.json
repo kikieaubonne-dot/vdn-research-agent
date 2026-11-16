@@ -1,0 +1,244 @@
+{
+  "schema": "vdn.demo/10",
+  "scope": "real local Python execution on temporary copy; all experiment outcomes synthetic or unexecuted",
+  "research": {
+    "ticks": [
+      "READY",
+      "BLOCKED"
+    ],
+    "max_depth_observed": 2,
+    "branches": 13,
+    "limits": {
+      "compute_budget_s": 60,
+      "http_per_tick": 6,
+      "max_attempts": 2,
+      "max_branches": 24,
+      "max_depth": 2,
+      "max_http_calls": 12,
+      "max_items_per_tick": 2,
+      "max_ticks": 12,
+      "stagnation_limit": 2,
+      "time_per_tick_s": 20
+    },
+    "http_calls": 0,
+    "compute_used_s": 0.2960443519987166,
+    "duplicates_avoided": 0,
+    "decisions": [
+      {
+        "depth": 1,
+        "query": "tree trunk geometry",
+        "result": {
+          "children": [
+            "tree trunk geometry tutorial"
+          ],
+          "created": 0,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 1,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 2,
+        "query": "tree trunk geometry tutorial",
+        "result": {
+          "children": [],
+          "created": 0,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 2,
+          "truth_verified": false
+        }
+      }
+    ],
+    "queue": {
+      "counts": {
+        "pending": 10,
+        "running": 0,
+        "done": 2,
+        "failed": 0,
+        "skipped": 1
+      },
+      "daily": {
+        "date": "2026-11-16",
+        "items": 0,
+        "fetch": 0,
+        "http_calls": 0
+      },
+      "blocked": [
+        {
+          "key": "0a6782dde55363b6",
+          "dependencies": [
+            "90d5d60de35b64fb"
+          ]
+        },
+        {
+          "key": "042887d61a1fae6e",
+          "dependencies": [
+            "0a6782dde55363b6"
+          ]
+        },
+        {
+          "key": "a38fedb05ecccc4e",
+          "dependencies": [
+            "042887d61a1fae6e"
+          ]
+        },
+        {
+          "key": "d3b742738c0f4182",
+          "dependencies": [
+            "a38fedb05ecccc4e"
+          ]
+        },
+        {
+          "key": "e1149e4177ccdd55",
+          "dependencies": [
+            "d3b742738c0f4182"
+          ]
+        },
+        {
+          "key": "229b64e9399ff504",
+          "dependencies": [
+            "0a6782dde55363b6",
+            "e1149e4177ccdd55"
+          ]
+        },
+        {
+          "key": "edd49c34eb85e5da",
+          "dependencies": [
+            "a38fedb05ecccc4e"
+          ]
+        },
+        {
+          "key": "484ffbb7bb678639",
+          "dependencies": [
+            "0a6782dde55363b6"
+          ]
+        },
+        {
+          "key": "33e1798bfba05b1c",
+          "dependencies": [
+            "e1149e4177ccdd55"
+          ]
+        },
+        {
+          "key": "bd0fccb725190e36",
+          "dependencies": [
+            "d3b742738c0f4182"
+          ]
+        }
+      ],
+      "next": []
+    }
+  },
+  "experiments": {
+    "counts": {
+      "PLANNED": 2,
+      "FAILED": 1
+    },
+    "fixture_failure_retrieved": true,
+    "reference_ids": [
+      "9aeaea86-b2ec-5c0d-a7d7-9c8ff8ead522",
+      "2e6c6823-da8c-5cea-9524-d1408b1a0efc"
+    ],
+    "comparison": {
+      "ids": [
+        "9aeaea86-b2ec-5c0d-a7d7-9c8ff8ead522",
+        "2e6c6823-da8c-5cea-9524-d1408b1a0efc"
+      ],
+      "comparable": false,
+      "reasons": [
+        "missing controls",
+        "missing results",
+        "latest run not complete"
+      ],
+      "metrics": [
+        {
+          "metric": "triangles",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        },
+        {
+          "metric": "materials",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        },
+        {
+          "metric": "textures",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        },
+        {
+          "metric": "asset_bytes",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        },
+        {
+          "metric": "night_readability_rating",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "subjective_annotation"
+        },
+        {
+          "metric": "artifact_count",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        },
+        {
+          "metric": "frame_time_ms",
+          "A": null,
+          "B": null,
+          "B_minus_A": null,
+          "kind": "reported_measurement"
+        }
+      ],
+      "winner": null,
+      "verification": [
+        "not_verified",
+        "not_verified"
+      ],
+      "warning": "Raw reports do not establish causality or a universal winner; inspect repetitions, artifacts and conditions."
+    },
+    "verified_game_procedures": 0,
+    "actual_game_executions": 0,
+    "reuse_measured": false
+  },
+  "quality": {
+    "notes": 98,
+    "dimensions": 9,
+    "potentially_stale": 0,
+    "contested": 0,
+    "truth_verified": false
+  },
+  "synthetic_quality_guardrails": {
+    "old_source_flagged": true,
+    "contradiction_unresolved": true,
+    "truth_verified": false,
+    "fixture_is_independent_evidence": false
+  },
+  "obsidian": {
+    "dry_run": "simulation",
+    "first_sync_writes": 119,
+    "second_sync": "unchanged",
+    "source_files_preserved": true,
+    "rag_notes": 98,
+    "app_opened": false,
+    "personal_vault_accessed": false
+  },
+  "external_model_used": false,
+  "network_requests": 0,
+  "processing_s": 1.0674350560002495,
+  "original_markdown_count": 110,
+  "original_markdown_unchanged": true
+}

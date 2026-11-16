@@ -1,0 +1,9 @@
+{
+  "problem": "Lisibilité nocturne du sapin enneigé Roblox",
+  "technique": "Cartes de feuillage",
+  "hypothesis": "Évaluer silhouette et coût sans présumer du résultat.",
+  "parameters": {"method":"B", "assets":[]},
+  "environment": {},
+  "references": [],
+  "protocol": {"not_executed":true,"validation":["Renseigner versions, appareil, caméra, éclairage et seuils avant de démarrer."],"rollback":"Supprimer les copies du laboratoire."}
+}

@@ -21,3 +21,5 @@ output/cache/factory_v9/
 output/knowledge.corrupt-*.db*
 # Parametres personnels Obsidian (locaux, jamais publies)
 knowledge/.obsidian/
+# V10: local ledger, inbox, artifacts and research sessions (private runtime).
+lab/

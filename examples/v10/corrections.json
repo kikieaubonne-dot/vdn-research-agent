@@ -1,0 +1,4 @@
+[
+  {"dimension":"silhouette","impact":"high","reason":"Exemple à remplacer après inspection des deux images.","action":"Comparer les contours à caméra identique dans une copie du laboratoire."},
+  {"dimension":"lighting","impact":"medium","reason":"L’écart est une estimation visuelle non calibrée.","action":"Fixer les réglages nocturnes puis reprendre les captures."}
+]

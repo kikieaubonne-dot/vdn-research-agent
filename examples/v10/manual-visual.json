@@ -1,0 +1,5 @@
+{
+  "observations": ["Exemple d’annotation à remplacer après inspection : sapins sombres sur un sol clair."],
+  "hypotheses": ["Un atlas de feuillage pourrait convenir ; la technique originale reste inconnue."],
+  "uncertainties": ["Aucune image de forêt n’a été analysée pour cet exemple.", "Les dimensions et les matériaux réels ne sont pas connus."]
+}
