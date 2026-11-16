@@ -1,75 +1,60 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-15T23:23:54+00:00",
-  "finished": "2026-11-15T23:24:29+00:00",
+  "started": "2026-11-16T06:32:46+00:00",
+  "finished": "2026-11-16T06:33:31+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "foliage alpha distance",
+      "query": "tree leaves texture",
       "topic": "spruce",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 1,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-d5dda0d02f6d",
-          "path": "knowledge/vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox.md",
-          "status": "candidat",
-          "topic": "spruce",
-          "query": "foliage alpha distance",
-          "url": "https://create.roblox.com/docs/videos/manage-level-of-detail-settings-on-roblox",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": [
         {
-          "query": "foliage alpha distance settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-d5dda0d02f6d)",
-          "topic": "spruce"
-        },
-        {
-          "query": "foliage alpha distance tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-d5dda0d02f6d)",
+          "query": "tree leaves texture step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "spruce"
         }
       ]
     },
     {
-      "query": "forest atmosphere fog",
+      "query": "dense forest optimization",
       "topic": "forest",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 1,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
       "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "Atmosphere Density",
+      "topic": "lighting",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 1,
+      "rejected": 5,
+      "duplicates": 0,
+      "fetched": 6,
       "notes": [
         {
-          "id": "vdn-6055d2f0bb67",
-          "path": "knowledge/forest/6055d2f0bb67-atmospheric-effects.md",
-          "status": "documente",
-          "topic": "forest",
-          "query": "forest atmosphere fog",
-          "url": "https://create.roblox.com/docs/environment/atmosphere",
-          "missing": []
-        },
-        {
-          "id": "vdn-9be57b985b77",
-          "path": "knowledge/forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering.md",
+          "id": "vdn-afa9d6ba6850",
+          "path": "knowledge/lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon.md",
           "status": "candidat",
-          "topic": "forest",
-          "query": "forest atmosphere fog",
-          "url": "https://github.com/victorzakharov/dark-strands",
+          "topic": "lighting",
+          "query": "Atmosphere Density",
+          "url": "https://github.com/gleamgriknife/stalker-2-graphics-enhancement",
           "missing": [
-            "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
@@ -77,108 +62,41 @@
       ],
       "followups": [
         {
-          "query": "Atmosphere Haze",
-          "reason": "API citee par la source : Atmosphere.Haze (vdn-6055d2f0bb67)",
+          "query": "Atmosphere Density tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-afa9d6ba6850)",
           "topic": "lighting"
         },
         {
-          "query": "Atmosphere Density",
-          "reason": "API citee par la source : Atmosphere.Density (vdn-6055d2f0bb67)",
-          "topic": "lighting"
-        },
-        {
-          "query": "Atmosphere Offset",
-          "reason": "API citee par la source : Atmosphere.Offset (vdn-6055d2f0bb67)",
-          "topic": "forest"
-        },
-        {
-          "query": "forest atmosphere fog settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-9be57b985b77)",
-          "topic": "forest"
-        },
-        {
-          "query": "forest atmosphere fog tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-9be57b985b77)",
-          "topic": "forest"
-        },
-        {
-          "query": "forest atmosphere fog step by step implementation tutorial code",
+          "query": "Atmosphere Density step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "forest"
+          "topic": "lighting"
         }
       ]
     },
     {
-      "query": "snow MaterialVariant",
+      "query": "snow accumulation mesh",
       "topic": "snow",
       "depth": 0,
       "origin": "seed",
       "status": "done",
       "created": 0,
-      "rejected": 0,
-      "duplicates": 1,
-      "fetched": 0,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "camera bobbing CFrame",
-      "topic": "fps_camera",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
+      "rejected": 8,
       "duplicates": 0,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-eb19a9fed396",
-          "path": "knowledge/gameplay/eb19a9fed396-class-camera.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "camera bobbing CFrame",
-          "url": "https://create.roblox.com/docs/reference/engine/classes/Camera",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-3fe122d267fa",
-          "path": "knowledge/gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "camera bobbing CFrame",
-          "url": "https://devforum.roblox.com/t/1196972",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": [
         {
-          "query": "camera bobbing CFrame settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-eb19a9fed396)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "camera bobbing CFrame tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-eb19a9fed396)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "camera bobbing CFrame step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
+          "query": "snow accumulation mesh Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "snow"
         }
       ]
     }
   ],
-  "created": 5,
-  "fetched": 24,
-  "rejected": 19,
-  "followups_added": 11,
+  "created": 1,
+  "fetched": 30,
+  "rejected": 29,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -187,39 +105,39 @@
     "counts": {
       "pending": 83,
       "running": 0,
-      "done": 10,
+      "done": 14,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-15",
-      "items": 10,
-      "fetch": 71
+      "date": "2026-11-16",
+      "items": 4,
+      "fetch": 30
     },
     "next": [
       {
-        "query": "tree leaves texture",
+        "query": "spruce branch atlas",
         "topic": "spruce",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "dense forest optimization",
+        "query": "large forest performance",
         "topic": "forest",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "Atmosphere Density",
+        "query": "Atmosphere Haze",
         "topic": "lighting",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "snow accumulation mesh",
+        "query": "snow terrain material",
         "topic": "snow",
         "priority": 9.0,
         "depth": 0,

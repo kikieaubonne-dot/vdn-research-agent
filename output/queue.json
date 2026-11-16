@@ -168,11 +168,25 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T06:32:57+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "tree leaves texture step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794810766.89893,
+      "finished_ts": 1794810777.7496352
     },
     "33e1798bfba05b1c": {
       "key": "33e1798bfba05b1c",
@@ -321,11 +335,23 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T06:33:09+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794810777.7517729,
+      "finished_ts": 1794810789.6502657
     },
     "6ff082c5288b5032": {
       "key": "6ff082c5288b5032",
@@ -408,11 +434,25 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T06:33:31+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "snow accumulation mesh Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794810800.2376904,
+      "finished_ts": 1794810811.3742354
     },
     "86c3ffd38ee265dc": {
       "key": "86c3ffd38ee265dc",
@@ -1432,11 +1472,28 @@
       "depth": 1,
       "parent": "9d342eeb76b809f1",
       "reason": "API citee par la source : Atmosphere.Density (vdn-6055d2f0bb67)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:17+00:00",
-      "updated": "2026-11-15T23:24:17+00:00",
-      "result": null
+      "updated": "2026-11-16T06:33:20+00:00",
+      "result": {
+        "returned": 6,
+        "fetched": 6,
+        "created": 1,
+        "rejected": 5,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-afa9d6ba6850"
+        ],
+        "followups": [
+          "Atmosphere Density tutorial",
+          "Atmosphere Density step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794810789.652467,
+      "finished_ts": 1794810800.235528
     },
     "2e6e6175393c8c16": {
       "key": "2e6e6175393c8c16",
@@ -1542,11 +1599,71 @@
       "created": "2026-11-15T23:24:29+00:00",
       "updated": "2026-11-15T23:24:29+00:00",
       "result": null
+    },
+    "cc76e2b9ce598dc7": {
+      "key": "cc76e2b9ce598dc7",
+      "topic": "spruce",
+      "query": "tree leaves texture step by step implementation tutorial code",
+      "priority": 9.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "a5bb3a3e65ec5689",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T06:32:57+00:00",
+      "updated": "2026-11-16T06:32:57+00:00",
+      "result": null
+    },
+    "18087c8cda38d1ad": {
+      "key": "18087c8cda38d1ad",
+      "topic": "lighting",
+      "query": "Atmosphere Density tutorial",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "7d80e83e4696cf1a",
+      "reason": "lacune : aucune etape exploitable (vdn-afa9d6ba6850)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T06:33:20+00:00",
+      "updated": "2026-11-16T06:33:20+00:00",
+      "result": null
+    },
+    "fd099bf1e3a3c756": {
+      "key": "fd099bf1e3a3c756",
+      "topic": "lighting",
+      "query": "Atmosphere Density step by step implementation tutorial code",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "7d80e83e4696cf1a",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T06:33:20+00:00",
+      "updated": "2026-11-16T06:33:20+00:00",
+      "result": null
+    },
+    "a91c22b2d4a3f65e": {
+      "key": "a91c22b2d4a3f65e",
+      "topic": "snow",
+      "query": "snow accumulation mesh Roblox Studio implementation compatibility",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "229b64e9399ff504",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T06:33:31+00:00",
+      "updated": "2026-11-16T06:33:31+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-15",
-    "items": 10,
-    "fetch": 71
+    "date": "2026-11-16",
+    "items": 4,
+    "fetch": 30
   }
 }

@@ -18,16 +18,17 @@
         "reward": 0.0
       },
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 12,
         "accepted": 0,
         "new": 0,
-        "offtopic": 8,
+        "offtopic": 12,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -100,9 +101,9 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.12,
-        "returned": 1,
+        "returned": 2,
         "accepted": 0,
         "new": 0,
         "offtopic": 1,
@@ -111,7 +112,8 @@
         "empty": 1,
         "recent": [
           0.0,
-          0.12
+          0.12,
+          0.0
         ],
         "best_mean": 0.06
       },
@@ -248,16 +250,17 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 10,
         "accepted": 0,
         "new": 0,
-        "offtopic": 7,
+        "offtopic": 9,
         "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -318,16 +321,17 @@
         "best_mean": 0.05226666666666666
       },
       "facet": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
-        "offtopic": 4,
+        "offtopic": 6,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -364,19 +368,20 @@
     },
     "roblox_docs:spruce": {
       "terms": {
-        "n": 3,
-        "reward": 1.0028,
-        "returned": 5,
+        "n": 4,
+        "reward": 1.2027999999999999,
+        "returned": 9,
         "accepted": 1,
         "new": 1,
-        "offtopic": 4,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           1.0,
           0.0,
-          0.0028
+          0.0028,
+          0.2
         ],
         "best_mean": 1.0
       },
@@ -446,12 +451,12 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 4,
+        "n": 5,
         "reward": 1.806,
-        "returned": 14,
+        "returned": 18,
         "accepted": 4,
         "new": 4,
-        "offtopic": 6,
+        "offtopic": 10,
         "duplicates": 4,
         "errors": 0,
         "empty": 0,
@@ -459,19 +464,20 @@
           0.448,
           0.35,
           0.308,
-          0.7
+          0.7,
+          0.0
         ],
         "best_mean": 0.4515
       }
     },
     "roblox_docs:snow": {
       "terms": {
-        "n": 4,
-        "reward": 2.076,
-        "returned": 12,
+        "n": 5,
+        "reward": 2.164,
+        "returned": 15,
         "accepted": 5,
         "new": 5,
-        "offtopic": 3,
+        "offtopic": 6,
         "duplicates": 4,
         "errors": 0,
         "empty": 0,
@@ -479,7 +485,8 @@
           0.988,
           1.0,
           0.088,
-          0.0
+          0.0,
+          0.088
         ],
         "best_mean": 0.994
       },
@@ -517,17 +524,18 @@
     },
     "devforum:snow": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.196,
-        "returned": 5,
+        "returned": 9,
         "accepted": 1,
         "new": 1,
-        "offtopic": 4,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.196,
+          0.0,
           0.0
         ],
         "best_mean": 0.196
@@ -585,20 +593,21 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 2,
-        "reward": 0.0,
-        "returned": 0,
+        "n": 3,
+        "reward": 0.188,
+        "returned": 2,
         "accepted": 0,
         "new": 0,
-        "offtopic": 0,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
           0.0,
-          0.0
+          0.0,
+          0.188
         ],
-        "best_mean": 0.0
+        "best_mean": 0.06266666666666666
       },
       "facet": {
         "n": 2,
@@ -636,7 +645,7 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.749,
         "returned": 8,
         "accepted": 1,
@@ -644,11 +653,12 @@
         "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
-        "empty": 0,
+        "empty": 1,
         "recent": [
           0.0,
           0.485,
-          0.264
+          0.264,
+          0.0
         ],
         "best_mean": 0.24966666666666668
       },
@@ -671,16 +681,17 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 10,
         "accepted": 0,
         "new": 0,
-        "offtopic": 3,
+        "offtopic": 5,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -757,20 +768,21 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 2,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 0,
+        "n": 3,
+        "reward": 0.092,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
           0.0,
-          0.0
+          0.0,
+          0.092
         ],
-        "best_mean": 0.0
+        "best_mean": 0.030666666666666665
       }
     },
     "roblox_docs:terrain": {

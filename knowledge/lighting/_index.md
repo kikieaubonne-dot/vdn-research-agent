@@ -9,8 +9,9 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/a4893023e7c3-class-spotlight|Class: SpotLight]] — niv. 1 · conf. faible — « - **Property `Brightness`** (`float`): Sets how bright the emitted light is, defaults to 1. »
 - [[lighting/09d38d132c8f-do-mobile-devices-get-future-lighting|Do mobile devices get Future lighting?]] — niv. 2 · conf. faible — « We use future lighting, and for me on my PC the lighting looks great. »
 
-## Candidat (2)
+## Candidat (3)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »
 - [[lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that|What are the most realistic lighting settings that you use for each time of day?]] — niv. 2 · conf. faible — « https://devforum.roblox.com/t/showcase-your-lighting-settings/1189252/3?u=x5tb »
+- [[lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon|Gleamgriknife/stalker-2-graphics-enhancement — Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade.]] — niv. 3 · conf. faible — « Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade. »
 

@@ -320,7 +320,7 @@
     "ColorCorrection horror": 1,
     "terrain MaterialVariant custom": 1,
     "SurfaceAppearance PBR textures": 1,
-    "snow accumulation mesh": 1,
+    "snow accumulation mesh": 2,
     "light shadows performance": 1,
     "ambient exposure night": 1,
     "terrain heightmap import": 1,
@@ -336,9 +336,12 @@
     "tree wind bones": 1,
     "forest streaming trees": 1,
     "foliage alpha distance": 1,
-    "camera bobbing CFrame": 1
+    "camera bobbing CFrame": 1,
+    "tree leaves texture": 1,
+    "dense forest optimization": 1,
+    "Atmosphere Density": 1
   },
-  "runs": 19,
+  "runs": 23,
   "errors": [],
   "rotation": 4
 }
