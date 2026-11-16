@@ -1,7 +1,8 @@
 # V11.1 « Éponge Intelligence » — rapport de livraison
 
 Base vérifiée : `04a3c4c874934bbf670e84923c9411448cfa0dae`, PR #6.
-Branche dédiée : `codex/eponge-intelligence-v11-1`, PR vers
+Branche dédiée : `codex/eponge-intelligence-v11-1`,
+[PR #7](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/7) vers
 `codex/eponge-ocean-v11`. Les PR historiques ne sont ni fusionnées ni modifiées.
 
 ## Résultat réellement implémenté
@@ -53,9 +54,13 @@ d'adapter Blender à Roblox et l'absence de tests dans le projet utilisateur.
   numériques trompeurs, injections, panne modèle, reprise après checkpoint,
   annulation, quota partagé, absence de doublon d'appel V11, export RAG sûr.
 
-Les logs sont dans [validation/v111](validation/v111/). Les résultats Windows
-et Linux du **commit final** doivent être lus dans les checks de la PR dédiée,
-dont le lien et le SHA sont fournis à la livraison. La CI exécute les deux
+Les logs sont dans [validation/v111](validation/v111/). Le commit initial
+`b31c89c` a réussi sur Ubuntu et Windows, chacun avec les deux suites de
+369 tests ([preuve](validation/v111/ci-initial.json)). Le correctif de cache
+expérimental décrit ci-dessous a ensuite repassé les suites locales complètes.
+Les résultats Windows/Linux du **commit final** sont dans les
+[checks de la PR #7](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/7/checks),
+avec le SHA final confirmé dans la livraison. La CI exécute les deux
 scénarios de configuration sous Python 3.11 ; elle n'exécute pas de modèle réel.
 
 ## IA réelle, matériel et benchmark
@@ -86,7 +91,11 @@ est préservée et non publiée ; aucune restauration d'ancien compteur.
 
 Les états d'affirmations ne remplacent pas les statuts historiques. Aucune
 connaissance ou expérience n'est promue automatiquement VERIFIED. Les échecs
-LabStore restent accessibles au briefing après import opérateur.
+LabStore restent accessibles au briefing après import opérateur. Une régression
+reproduite lors de la revue finale montrait qu'un cache existant pouvait ignorer
+un nouvel échec. Le contexte expérimental fait désormais partie de l'empreinte
+et du prompt ; le test couvre explicitement analyse → import FAILED → nouvelle
+analyse, avec conservation de la révision précédente.
 
 Limites : intention spécialisée déterministe ; pas de raisonnement général
 évalué. Les citations établissent une attribution, pas une preuve de vérité.

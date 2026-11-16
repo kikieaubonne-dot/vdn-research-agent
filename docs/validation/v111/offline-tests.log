@@ -370,11 +370,11 @@ test_user_conflict_blocks_entire_sync (test_v9_obsidian.SyncTests.test_user_conf
 test_windows_crlf_bytes_survive_copy_backup_and_rollback (test_v9_obsidian.SyncTests.test_windows_crlf_bytes_survive_copy_backup_and_rollback) ... ok
 
 ----------------------------------------------------------------------
-Ran 369 tests in 36.526s
+Ran 369 tests in 35.443s
 
 OK
 {
-  "started_utc": "2026-11-16T10:15:04+00:00",
+  "started_utc": "2026-11-16T10:21:16+00:00",
   "queries": 1,
   "discovered": 1,
   "errors": [],
@@ -408,7 +408,7 @@ OK
   ]
 }
 {
-  "started_utc": "2026-11-16T10:15:04+00:00",
+  "started_utc": "2026-11-16T10:21:16+00:00",
   "queries": 1,
   "discovered": 0,
   "errors": [],

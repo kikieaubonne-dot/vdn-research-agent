@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_failed_experiment_reappears_without_verification_promotion (tests.test_intelligence.IntelligenceTests.test_failed_experiment_reappears_without_verification_promotion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_intelligence.py", line 188, in test_failed_experiment_reappears_without_verification_promotion
+    self.assertTrue(result['experiment_memory']['failed_methods']);self.assertFalse(result['truth_verified'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.071s
+
+FAILED (failures=1)

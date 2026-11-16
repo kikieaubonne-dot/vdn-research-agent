@@ -181,10 +181,14 @@ class IntelligenceTests(unittest.TestCase):
         except OSError:self.skipTest('symlinks unavailable')
         with self.assertRaises(ValueError):self.brain.path('result.json')
     def test_failed_experiment_reappears_without_verification_promotion(self):
+        self.seed();before=self.brain.run('Roblox collisions',apply=True)
         lab=LabStore(self.root);r=lab.create('Roblox collisions','fixture failed proxy','unknown',{},{});r=lab.transition(r['id'],'PLANNED');r=lab.transition(r['id'],'RUNNING')
         lab.record_result(r['id'],'FAILED',{},['Authored failure fixture'],errors=['blocked path'])
-        result=self.brain.run('Roblox collisions')
+        result=self.brain.run('Roblox collisions',apply=True)
         self.assertTrue(result['experiment_memory']['failed_methods']);self.assertFalse(result['truth_verified'])
+        self.assertNotEqual(before['key'],result['key'])
+        text,_=prompt_for(result['intent'],result['passages'],{**im.DEFAULT,'context_tokens':4096},result['experiment_memory'])
+        self.assertIn('blocked path',text)
     def test_compute_cap_reserved_and_not_reset_by_retry(self):
         import datetime as dt
         p=self.brain.path('compute.json');p.parent.mkdir(parents=True);p.write_text(json.dumps({'date':dt.datetime.now(dt.timezone.utc).date().isoformat(),'reserved_s':60}))

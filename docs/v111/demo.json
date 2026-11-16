@@ -1,7 +1,7 @@
 {
   "scope": "REAL previously collected Roblox snapshots + newly collected Blender page, no synthetic corpus; source bodies and full quotes withheld from publication",
   "question": "Je développe une forêt d'épicéas enneigée de nuit dans Roblox. Mes arbres sont trop artificiels, leurs collisions gênent le joueur et le rendu manque de réalisme. Quelles techniques dois-je appliquer en priorité ?",
-  "analysis_key": "d2560b6c12db8ab6719ed988058ab30c425459fcf0fdd8254b57b622e8971f71",
+  "analysis_key": "c9667702aed2a55cc76c2e1424124077c6321867c63f0a5f2f8648b7d789d10f",
   "state": "complete",
   "problems": [
     "collision",
@@ -498,7 +498,7 @@
     "Priorité proposée : lighting ; mesurer avant généralisation."
   ],
   "metrics": {
-    "elapsed_s": 0.2414146110022557,
+    "elapsed_s": 0.2529781249977532,
     "selected_passages": 8,
     "claims": 8,
     "facts": 5,

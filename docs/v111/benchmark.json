@@ -6,8 +6,8 @@
   "passed": 36,
   "failed": [],
   "claim_support_contract_accuracy": 1.0,
-  "elapsed_s": 0.6146503929994651,
-  "python_tracemalloc_peak_bytes": 420056,
+  "elapsed_s": 0.7492976889989222,
+  "python_tracemalloc_peak_bytes": 418692,
   "vram": "not measured",
   "details": [
     {
@@ -461,7 +461,7 @@
       "question": "Mon personnage Roblox reste bloqué contre les branches. Quel problème examiner ?",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.053062097998918034,
+        "elapsed_s": 0.05852546200185316,
         "candidate_count": 2,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -479,7 +479,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.028989263002586085,
+        "elapsed_s": 0.02695955499802949,
         "intent_problems": [
           "collision"
         ],
@@ -520,7 +520,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.415882+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.933572+00:00",
             "truth_verified": false
           },
           {
@@ -541,7 +541,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.416323+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.933925+00:00",
             "truth_verified": false
           },
           {
@@ -560,7 +560,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.416981+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.934239+00:00",
             "truth_verified": false
           },
           {
@@ -600,7 +600,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.417604+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.934629+00:00",
             "truth_verified": false
           },
           {
@@ -621,7 +621,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.417871+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.934886+00:00",
             "truth_verified": false
           },
           {
@@ -653,7 +653,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.418105+00:00",
+            "last_evaluated": "2026-11-16T10:22:17.935118+00:00",
             "truth_verified": false
           }
         ],
@@ -672,7 +672,7 @@
       "question": "Quelle valeur optimale de CollisionFidelity est documentée pour Roblox ?",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.046201783006836195,
+        "elapsed_s": 0.06942370400065556,
         "candidate_count": 2,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -690,7 +690,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.0296420790036791,
+        "elapsed_s": 0.028498857995145954,
         "intent_problems": [
           "collision",
           "performance"
@@ -732,7 +732,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.494412+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.030205+00:00",
             "truth_verified": false
           },
           {
@@ -753,7 +753,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.494928+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.031375+00:00",
             "truth_verified": false
           },
           {
@@ -772,7 +772,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.495348+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.031975+00:00",
             "truth_verified": false
           },
           {
@@ -802,7 +802,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.495642+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.032228+00:00",
             "truth_verified": false
           },
           {
@@ -823,7 +823,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.496007+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.032463+00:00",
             "truth_verified": false
           },
           {
@@ -844,7 +844,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.496218+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.032704+00:00",
             "truth_verified": false
           }
         ],
@@ -863,7 +863,7 @@
       "question": "Blender 5.2 export : synthétiser le protocole et ses limitations.",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.04640021300292574,
+        "elapsed_s": 0.05830706300184829,
         "candidate_count": 2,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -882,7 +882,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.021931782001047395,
+        "elapsed_s": 0.0493883610033663,
         "intent_problems": [
           "export"
         ],
@@ -923,7 +923,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.569055+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.150661+00:00",
             "truth_verified": false
           },
           {
@@ -942,7 +942,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.569415+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.151042+00:00",
             "truth_verified": false
           },
           {
@@ -961,7 +961,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.569738+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.151377+00:00",
             "truth_verified": false
           }
         ],
@@ -980,7 +980,7 @@
       "question": "Roblox CanCollide : comparer les sources contradictoires et leurs conditions.",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.03242747399781365,
+        "elapsed_s": 0.03661395800008904,
         "candidate_count": 1,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -998,7 +998,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.025067855000088457,
+        "elapsed_s": 0.03772854099952383,
         "intent_problems": [
           "collision"
         ],
@@ -1040,7 +1040,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.624949+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.221302+00:00",
             "truth_verified": false
           },
           {
@@ -1061,7 +1061,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.625511+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.221965+00:00",
             "truth_verified": false
           },
           {
@@ -1080,7 +1080,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.625768+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.222199+00:00",
             "truth_verified": false
           },
           {
@@ -1120,7 +1120,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.626006+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.222447+00:00",
             "truth_verified": false
           },
           {
@@ -1141,7 +1141,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.626361+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.223695+00:00",
             "truth_verified": false
           },
           {
@@ -1173,7 +1173,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.626716+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.223991+00:00",
             "truth_verified": false
           }
         ],
@@ -1192,7 +1192,7 @@
       "question": "Proposer une procédure de comparaison des collisions dans Roblox.",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.026726028001576196,
+        "elapsed_s": 0.038254484003118705,
         "candidate_count": 1,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -1209,7 +1209,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.0231802170019364,
+        "elapsed_s": 0.02809766300197225,
         "intent_problems": [
           "collision"
         ],
@@ -1250,7 +1250,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.678378+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.294305+00:00",
             "truth_verified": false
           },
           {
@@ -1271,7 +1271,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.678921+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.294764+00:00",
             "truth_verified": false
           },
           {
@@ -1290,7 +1290,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.679153+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.294981+00:00",
             "truth_verified": false
           },
           {
@@ -1330,7 +1330,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.679393+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.295220+00:00",
             "truth_verified": false
           },
           {
@@ -1351,7 +1351,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.679826+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.295459+00:00",
             "truth_verified": false
           },
           {
@@ -1383,7 +1383,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.680063+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.295985+00:00",
             "truth_verified": false
           }
         ],
@@ -1402,7 +1402,7 @@
       "question": "Quel FPS exact donne B3 dans Roblox ?",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.04789172399614472,
+        "elapsed_s": 0.04598573499970371,
         "candidate_count": 2,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -1418,7 +1418,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.026248176996887196,
+        "elapsed_s": 0.03200367899989942,
         "intent_problems": [
           "performance"
         ],
@@ -1459,7 +1459,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.750778+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.368788+00:00",
             "truth_verified": false
           },
           {
@@ -1478,7 +1478,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.751248+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.369749+00:00",
             "truth_verified": false
           },
           {
@@ -1499,7 +1499,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.751500+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.370010+00:00",
             "truth_verified": false
           },
           {
@@ -1518,7 +1518,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.751842+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.370221+00:00",
             "truth_verified": false
           },
           {
@@ -1539,7 +1539,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.752108+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.370546+00:00",
             "truth_verified": false
           },
           {
@@ -1560,7 +1560,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.752371+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.371038+00:00",
             "truth_verified": false
           },
           {
@@ -1581,7 +1581,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.752856+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.372031+00:00",
             "truth_verified": false
           },
           {
@@ -1602,7 +1602,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.753288+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.372856+00:00",
             "truth_verified": false
           }
         ],
@@ -1621,7 +1621,7 @@
       "question": "Structurer en JSON un test des collisions Roblox sans résultat inventé.",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.030573706004361156,
+        "elapsed_s": 0.03263055499701295,
         "candidate_count": 1,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -1638,7 +1638,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.024447910000162665,
+        "elapsed_s": 0.025828197001828812,
         "intent_problems": [
           "collision"
         ],
@@ -1679,7 +1679,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.810843+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.435024+00:00",
             "truth_verified": false
           },
           {
@@ -1700,7 +1700,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.811180+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.435357+00:00",
             "truth_verified": false
           },
           {
@@ -1719,7 +1719,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.811418+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.435649+00:00",
             "truth_verified": false
           },
           {
@@ -1759,7 +1759,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.811732+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.436007+00:00",
             "truth_verified": false
           },
           {
@@ -1780,7 +1780,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.812006+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.436328+00:00",
             "truth_verified": false
           },
           {
@@ -1812,7 +1812,7 @@
                 "truth_verified": false
               }
             ],
-            "last_evaluated": "2026-11-16T10:16:23.812310+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.436795+00:00",
             "truth_verified": false
           }
         ],
@@ -1831,7 +1831,7 @@
       "question": "Roblox SpotLight Shadows and Atmosphere fog : répondre en français avec limites.",
       "A": {
         "mode": "A_V11_deterministic",
-        "elapsed_s": 0.028452663995267358,
+        "elapsed_s": 0.030109980005363468,
         "candidate_count": 1,
         "claim_registry": false,
         "source_span_offsets": false,
@@ -1848,7 +1848,7 @@
         }
       },
       "B_deterministic": {
-        "elapsed_s": 0.023597996994794812,
+        "elapsed_s": 0.028260639002837706,
         "intent_problems": [
           "lighting"
         ],
@@ -1889,7 +1889,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.868987+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.496147+00:00",
             "truth_verified": false
           },
           {
@@ -1910,7 +1910,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.869322+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.496555+00:00",
             "truth_verified": false
           },
           {
@@ -1929,7 +1929,7 @@
             "verification": "attribution_only",
             "issues": [],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.869755+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.496778+00:00",
             "truth_verified": false
           },
           {
@@ -1950,7 +1950,7 @@
               "target_engine_requires_adaptation"
             ],
             "contradictions": [],
-            "last_evaluated": "2026-11-16T10:16:23.870010+00:00",
+            "last_evaluated": "2026-11-16T10:22:18.497016+00:00",
             "truth_verified": false
           }
         ],

@@ -85,7 +85,10 @@ facture ; aucune exactitude de coût réel n'est inventée. Aucun appel payant i
 `runs/` : preuves avant génération, état, critique et échec éventuel ;
 `compute.json` : réservation persistante ; `embeddings.json` : données dérivées.
 Une source, condition, version, configuration ou digest modèle modifié invalide
-le cache approprié. Les erreurs modèles restent retentables, sans être mises
+le cache approprié. Le contexte des expériences pertinentes fait également
+partie de l'empreinte : un échec importé après une analyse invalide son cache.
+Ce contexte est transmis au modèle avec ses conditions et limites.
+Les erreurs modèles restent retentables, sans être mises
 en cache comme succès. Les journaux incomplets sont lisibles avec avertissement.
 
 `--v111` ajoute cinq outils aux 22 V11 ; `--v11` garde son contrat. Les lectures

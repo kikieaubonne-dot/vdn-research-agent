@@ -1,4 +1,4 @@
-/tmp/vdn-personal-kqletbbk/project/agent/v3.py:40: SyntaxWarning: invalid escape sequence '\`'
+/tmp/vdn-personal-muc7n0hy/project/agent/v3.py:40: SyntaxWarning: invalid escape sequence '\`'
   line=re.sub(r'\s+',' ',line).strip().replace('`','\`').replace('<','&lt;')
 test_allowlist (test_analyzer.AnalyzerTests.test_allowlist) ... ok
 test_enrich (test_analyzer.AnalyzerTests.test_enrich) ... ok
@@ -372,11 +372,11 @@ test_user_conflict_blocks_entire_sync (test_v9_obsidian.SyncTests.test_user_conf
 test_windows_crlf_bytes_survive_copy_backup_and_rollback (test_v9_obsidian.SyncTests.test_windows_crlf_bytes_survive_copy_backup_and_rollback) ... ok
 
 ----------------------------------------------------------------------
-Ran 369 tests in 36.262s
+Ran 369 tests in 34.677s
 
 OK
 {
-  "started_utc": "2026-11-16T10:15:06+00:00",
+  "started_utc": "2026-11-16T10:21:18+00:00",
   "queries": 1,
   "discovered": 1,
   "errors": [],
@@ -410,7 +410,7 @@ OK
   ]
 }
 {
-  "started_utc": "2026-11-16T10:15:06+00:00",
+  "started_utc": "2026-11-16T10:21:18+00:00",
   "queries": 1,
   "discovered": 0,
   "errors": [],
