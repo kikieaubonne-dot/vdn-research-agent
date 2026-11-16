@@ -14,7 +14,7 @@ from agent.project_quality import quality,drift
 from agent.project_recipes import recipe
 from agent.storage import atomic_write
 
-VERSION='project-11.2.2'
+VERSION='project-11.2.3'
 
 
 def bound_experiments(root,task_id):
@@ -84,7 +84,9 @@ class Project:
         changed=card['bible_hash']!=self.bible.fingerprint
         obsolete=not card.get('public_archive') and card.get('reuse_fingerprint')!=self.reuse_fingerprint(card['task_id'])
         if card.get('public_archive'):
-            qa=card['quality'];card={**card,'quality':{**qa,'facts':[],
+            current=[{'id':r['id'],'revision':r['revision'],'event_sha256':r['event_sha256']} for r in bound_experiments(self.root,card['task_id'])]
+            obsolete=card['context'].get('experiment_revisions',[])!=current
+            qa=card['quality'];card={**card,'parameters':[],'archived_parameter_candidates':card.get('parameters',[]),'quality':{**qa,'facts':[],
                 'issues':list(dict.fromkeys(qa['issues']+['archived_sources_require_local_revalidation'])),
                 'checks':{**qa['checks'],'original_sources_sufficient':False,'compatibility_and_assets_human_reviewed':False}},
                 'compatibility':{**card['compatibility'],'verified':False},
@@ -186,8 +188,11 @@ class Project:
              'provisional_diagnosis':[],'inferences':[],'procedures':[],'experiments':[],'contradictions':[],
              'uncertainties':payload.get('uncertainties',[]),'priority_actions':[],'references':[],
              'failed_methods':[],'reviewed_experiments':[],'detail_tool':'get_intelligence_analysis',
-             'abstained_from_established_facts':not payload.get('sources'),'truth_verified':False,'untrusted_data':True,
+             'abstained_from_established_facts':not payload.get('source_attribution_available',False),'truth_verified':False,'untrusted_data':True,
              'project':payload,'scope':'Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu.'}
+        if payload.get('task_id') and not self.has_card(out['key']):
+            out['detail_tool']='synthesize_technical'
+            out['detail_note']='Unsaved read-only preview: request synthesize_technical with the same question and apply=false for complete current evidence.'
         if len(json.dumps(out,ensure_ascii=False))>token_budget*3.6:
             out['project']={'state':'PARTIAL','reason':'context budget insufficient for the complete handoff','detail_task':payload.get('task_id'),
                             'rollback':'Conserver et restaurer les copies témoins.','question':payload.get('question'),
@@ -202,7 +207,7 @@ class Project:
             'readiness':card.get('current_readiness',card['quality']['readiness']),'solution':card['solution'],
             'prerequisites':card['prerequisites'],
             'implementation':[{'component':s['component'],'input':s['input'],'action':s['action'],'expected':s['expected_observation']} for s in steps],
-            'sources':sources,'evidence_scope':card['confidence']['states'],'risks':card['risks'],
+            'sources':sources,'source_attribution_available':bool(card['quality']['facts']) and not card.get('inputs_obsolete') and not card.get('project_revision_obsolete'),'evidence_scope':card['confidence']['states'],'risks':card['risks'],
             'tests':card['test'],'rollback':card['rollback'],'uncertainties':card['quality']['issues'],
             'question':card['quality']['blocking_questions'][0]['text'] if card['quality']['blocking_questions'] else None,
             'next_action':card['next_action'],'project_revision_obsolete':card.get('project_revision_obsolete',False)}

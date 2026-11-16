@@ -14,6 +14,7 @@ python -m agent.v112 daily
 python vdn_mcp.py --v112
 ```
 
+[Continuité, inventaire et validation terrain partielle](docs/v112/continuity/CONTINUITY_AUDIT.md) ·
 [Rapport et limites](docs/V11_2_REPORT.md) · [Audit](docs/v112/AUDIT.md) ·
 [Windows et MCP](docs/v112/GUIDE.md) · [Dix fiches et session réelle](docs/v112/RESEARCH.md) ·
 [Mesures](docs/v112/BENCHMARK.md) · [Rollback](docs/v112/MIGRATION.md).

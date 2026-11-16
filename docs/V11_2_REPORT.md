@@ -114,3 +114,14 @@ bloquées. Le personnage jouable, motivation, solo/coop, casting et appareils so
 Les opérations manuelles sont explicites ; rien ne tourne en permanence. Arrêter
 le mode `--v112` et revenir à `--v111` suffit au rollback fonctionnel, en conservant
 toutes les nouvelles preuves et tous les compteurs.
+
+## Validation de continuité complémentaire
+
+La [mission de continuité](v112/continuity/CONTINUITY_AUDIT.md) distingue
+99 fiches de 111 Markdown, contrôle 146 fichiers préexistants et corrige quatre
+défauts de lecture d'archive/détail après régressions rouges. Les suites locales
+passent à 420 tests par scénario. Voir [résultats et frontières](v112/continuity/VALIDATION_V112.md),
+[instructions Claude/Windows](v112/continuity/CLAUDE_HANDOFF.md) et
+[protocoles collisions/sapins/lampe](v112/continuity/ROBLOX_TEST_PROTOCOL.md).
+Les résultats CI du commit publié sont consignés dans la PR #8 existante.
+Aucun résultat Studio, B3/C1 ou Claude Desktop n'est revendiqué.

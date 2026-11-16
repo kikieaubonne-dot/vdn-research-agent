@@ -1,0 +1,104 @@
+{
+  "schema": "vdn.field-software-validation/11.2",
+  "base_sha": "72f1b9c6887ee62ef75470d7b9a8f35d127c9b1f",
+  "product_code_sha256": {
+    "agent/project_work.py": "dcc9d66580614b9635cd1f559f8130d7b29bed892ee4ce625e954f12571d080d"
+  },
+  "python": "3.12.14",
+  "os": "Linux",
+  "state": "PARTIAL",
+  "MCP_stdio": "EXECUTED_REAL_PROCESSES",
+  "MCP_tools": 27,
+  "network_calls": 0,
+  "model_calls": 0,
+  "Windows_user_PC": "NOT_AVAILABLE",
+  "Claude_Desktop": "NOT_AVAILABLE",
+  "Roblox_Studio": "NOT_AVAILABLE",
+  "B3_C1_assets": "NOT_AVAILABLE",
+  "original_source_checks": [
+    {
+      "id": "pass-a74cb8fc1f2efb214b5ef087",
+      "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+      "url": "https://create.roblox.com/docs/workspace/collisions",
+      "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+      "version": "unknown",
+      "engine": "Roblox",
+      "source_type": "recorded_source_snapshot",
+      "section": "Mesh and solid model collisions",
+      "start": 21379,
+      "end": 21982,
+      "sha_and_offsets_valid": true,
+      "truncated": false,
+      "retrieved_at": 1794810175.8885846
+    }
+  ],
+  "archive_without_originals_abstains": true,
+  "fixture_failure_propagates": true,
+  "historical_card_preserved": true,
+  "new_conditions_can_be_planned": true,
+  "Obsidian": {
+    "preview": "simulation",
+    "apply": "committed",
+    "second_export": "unchanged",
+    "rollback": "rolled_back",
+    "generated_pages_excluded_from_RAG": true
+  },
+  "daily_ledger_unchanged": true,
+  "experiment_provenance": "AUTHORED SOFTWARE FIXTURES ONLY; no real engine result",
+  "stdio_calls": [
+    {
+      "tools": [
+        "LIST",
+        "get_intelligence_brief",
+        "get_intelligence_brief",
+        "get_intelligence_analysis"
+      ],
+      "elapsed_s": 0.5804546529980144,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "get_intelligence_brief",
+        "get_intelligence_analysis"
+      ],
+      "elapsed_s": 0.5448543069942389,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "prepare_experiment"
+      ],
+      "elapsed_s": 0.22062895899580326,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "start_experiment"
+      ],
+      "elapsed_s": 0.442583662996185,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "record_experiment_result"
+      ],
+      "elapsed_s": 0.38042333900375525,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "get_intelligence_brief",
+        "synthesize_technical"
+      ],
+      "elapsed_s": 1.872291719999339,
+      "sockets_forbidden": true
+    },
+    {
+      "tools": [
+        "prepare_experiment"
+      ],
+      "elapsed_s": 3.707712707997416,
+      "sockets_forbidden": true
+    }
+  ]
+}
