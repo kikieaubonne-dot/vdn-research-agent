@@ -1,0 +1,224 @@
+{
+  "schema": "vdn.roots-network-study/11.2",
+  "base_sha": "ad2fc6b6e211ccb686052273221cb35f26e30bf6",
+  "os": "Linux",
+  "branch": "forest/spruce/foliage/cards",
+  "session_id": "a01a3d1b-403a-4a44-a05e-08854c628475",
+  "state": "ERROR",
+  "acquisition_state": "ERROR",
+  "limits": {
+    "compute_budget_s": 60,
+    "http_per_tick": 2,
+    "max_attempts": 2,
+    "max_branches": 24,
+    "max_depth": 2,
+    "max_http_calls": 2,
+    "max_items_per_tick": 2,
+    "max_ticks": 12,
+    "stagnation_limit": 2,
+    "time_per_tick_s": 20
+  },
+  "daily_before": {
+    "date": "2026-11-16",
+    "items": 20,
+    "fetch": 21,
+    "http_calls": 26
+  },
+  "daily_after": {
+    "date": "2026-11-16",
+    "items": 21,
+    "fetch": 23,
+    "http_calls": 27
+  },
+  "session_http_calls": 1,
+  "fetch_attempts": 2,
+  "cache_hits": 1,
+  "http_attempts": [
+    {
+      "url": "https://devforum.roblox.com/t/3171224",
+      "purpose": "content"
+    }
+  ],
+  "errors": [
+    "branch evidence remains incomplete"
+  ],
+  "initial_original_documents": 296,
+  "new_original_documents": 1,
+  "new_documents_matching_branch_context": 1,
+  "new_receipts": [
+    {
+      "url": "https://devforum.roblox.com/t/3171224",
+      "document_id": "doc-31c2dedc652388675041204e",
+      "sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+      "accessed": "2026-11-16",
+      "version": "unknown",
+      "truncated": false,
+      "conditions": {
+        "license": "UNKNOWN",
+        "post_ids": [
+          11401229,
+          11401498,
+          11401510,
+          11404121,
+          11404243,
+          11890973,
+          11892073
+        ],
+        "scope": "received posts only; not independent engine validation",
+        "source_platform": "community",
+        "thread_complete": false
+      },
+      "matching_passage": {
+        "id": "pass-7c7ba4e24df795d5b66b5754",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 7275,
+        "end": 8675,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      "excerpt": "hite pixels for very shiny surfaces). Also, even though foliage is not reflective, some modulation of the metalness texture can add a bit of extra punch to foliage, if it suits your artistic style.\nAnd as always, lighting information (like shadows and highlights on leaves) should not be represented in the Albedo (color) textures, and should instead be handled by the rendering system itself, so that the foliage appears natural. Contrary to that last statement, however, adding a small amount of Am",
+      "sha_valid": true
+    }
+  ],
+  "assessment": {
+    "gap_id": "gap-64756cbb81943d7508a611f7",
+    "branch": "forest/spruce/foliage/cards",
+    "question": "Atlas et cartes de feuillage",
+    "importance": 5,
+    "status": "CANDIDATE_ONLY",
+    "sources": [
+      {
+        "id": "pass-9d5a1200c4b19b4263fb8f17",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 75,
+        "end": 1475,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      {
+        "id": "pass-5880b77a69633b0cecda2130",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 1275,
+        "end": 2675,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      {
+        "id": "pass-04691160a12a0cb7cb8c7d17",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 2475,
+        "end": 3875,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      {
+        "id": "pass-a294d3b50e324fba5d03ef94",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 4875,
+        "end": 6275,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      {
+        "id": "pass-0fb00bc2a640a4241ab55b5d",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 6075,
+        "end": 7475,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      },
+      {
+        "id": "pass-7c7ba4e24df795d5b66b5754",
+        "document_id": "doc-31c2dedc652388675041204e",
+        "url": "https://devforum.roblox.com/t/3171224",
+        "document_sha256": "7428be9be1a80727ad066079fa3f0c0c30686124565f3525a9484f6ae63f0f6f",
+        "section": "Post 11401229",
+        "start": 7275,
+        "end": 8675,
+        "version": "unknown",
+        "source_type": "recorded_source_snapshot",
+        "accessed": "2026-11-16",
+        "published": "2024-09-24",
+        "version_known": false,
+        "original": true,
+        "incomplete": true
+      }
+    ],
+    "source_matches": 16,
+    "original_context_matches": 0,
+    "gap_open": true,
+    "required_concepts": [
+      [
+        "foliage",
+        "leaf"
+      ],
+      [
+        "atlas",
+        "card",
+        "mesh"
+      ]
+    ],
+    "dependencies": [],
+    "failures": [],
+    "experiment_revisions": [],
+    "reviewed_experiments": [],
+    "next_query": "texture atlas foliage meshes",
+    "test": "use task recipe trees; actual scene/build/assets and controls still required",
+    "scope": "mechanical context matching, not semantic entailment or engine validation"
+  },
+  "second_plan_no_http": true,
+  "research_candidates_after": [
+    "forest/spruce/foliage/cards"
+  ],
+  "model_calls": 0,
+  "game_executed": false,
+  "limits_of_evidence": "Actual permitted web acquisition, mechanical subject-context matching only; no independent truth, full-thread completeness, applicable Studio build or B3/C1 result inferred."
+}

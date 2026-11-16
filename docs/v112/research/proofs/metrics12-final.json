@@ -1,0 +1,864 @@
+{
+  "schema": "vdn.roots-retrieval/11.2",
+  "base_sha": "ad2fc6b6e211ccb686052273221cb35f26e30bf6",
+  "corpus_hash": "15b02d23259cdd1f1df969b5dc2ab8efc423a8e855be7575998107b124445e73",
+  "annotation_hash": "6d53460c8e1076f5decf5956556f6ccf1745b9dcdab45e2498aff3c2be2b4e2e",
+  "annotation_provenance": "Frozen authored task-to-source annotations before retrieval implementation. Not blind holdout; expected IDs are incomplete subject-relevance labels, never engine truth. Separate from existing 22 development questions.",
+  "questions": 12,
+  "means": {
+    "existing_coverage": {
+      "recall_at_5": 0.7916666666666666,
+      "precision_against_listed_labels_at_5": 0.21666666666666667,
+      "reciprocal_rank": 0.6694444444444444,
+      "ndcg_at_5": 0.6776829657427786,
+      "coverage": 0.9166666666666666,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.02505880316797023
+    },
+    "inferred_branch_fusion": {
+      "recall_at_5": 0.875,
+      "precision_against_listed_labels_at_5": 0.25,
+      "reciprocal_rank": 0.7833333333333333,
+      "ndcg_at_5": 0.7616215830304652,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.45533871225173544
+    },
+    "explicit_branch_fusion": {
+      "recall_at_5": 0.9166666666666666,
+      "precision_against_listed_labels_at_5": 0.26666666666666666,
+      "reciprocal_rank": 0.8333333333333334,
+      "ndcg_at_5": 0.8063305748387809,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.5109807885819464
+    }
+  },
+  "regressions": {
+    "inferred_branch_fusion": [],
+    "explicit_branch_fusion": []
+  },
+  "rows": [
+    {
+      "id": "roots-1",
+      "question": "Le joueur reste coincé contre les branches de mes sapins",
+      "branch": "forest/collisions",
+      "expected": [
+        "vdn-ocean-54fe16e8e5a3e6ea5304",
+        "vdn-fe4c577081af"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-9be57b985b77",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6"
+          ],
+          "recall_at_5": 0.0,
+          "precision_against_listed_labels_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "coverage": 0,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.020197261997964233
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-4b3e4c63ddab",
+            "vdn-319f4403f590",
+            "vdn-ocean-54fe16e8e5a3e6ea5304"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.2,
+          "ndcg_at_5": 0.23719771276929622,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.28331573300238233,
+          "branch_used": "forest/spruce",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-ocean-54fe16e8e5a3e6ea5304",
+            "vdn-319f4403f590",
+            "vdn-5aa463725976",
+            "vdn-9f9338e2736f"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.38685280723454163,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.4398812809959054,
+          "branch_used": "forest/collisions",
+          "attributed_references": 4,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-2",
+      "question": "Les feuilles de C1 disparaissent quand la caméra recule",
+      "branch": "forest/spruce/foliage/cards/alpha",
+      "expected": [
+        "vdn-9f9338e2736f"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-ocean-54fe16e8e5a3e6ea5304",
+            "vdn-93c1fa214202",
+            "vdn-3e6f3194acb0",
+            "vdn-eb19a9fed396"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.013788883006782271
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6",
+            "vdn-319f4403f590"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.3783726330002537,
+          "branch_used": "forest/spruce/foliage/cards/alpha",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6",
+            "vdn-319f4403f590"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.483678870004951,
+          "branch_used": "forest/spruce/foliage/cards/alpha",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-3",
+      "question": "Le feuillage opaque forme des bandes de transparence",
+      "branch": "forest/spruce/foliage/cards/alpha",
+      "expected": [
+        "vdn-319f4403f590"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-9be57b985b77"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.019982576995971613
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-5bbf6043ed9c"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5690841720061144,
+          "branch_used": "forest/spruce/foliage/cards/alpha",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-5bbf6043ed9c"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5192328209959669,
+          "branch_used": "forest/spruce/foliage/cards/alpha",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-4",
+      "question": "Comment préparer un atlas pour les aiguilles du sapin ?",
+      "branch": "forest/spruce/foliage/cards",
+      "expected": [
+        "vdn-93c1fa214202"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9be57b985b77",
+            "vdn-9f9338e2736f",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.015457884001079947
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-ocean-54fe16e8e5a3e6ea5304"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5795492259931052,
+          "branch_used": "forest/spruce/foliage/cards",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-ocean-54fe16e8e5a3e6ea5304"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.3964173340064008,
+          "branch_used": "forest/spruce/foliage/cards",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-5",
+      "question": "La lampe V2 doit éclairer les branches avec des ombres",
+      "branch": "forest/lighting/flashlight",
+      "expected": [
+        "vdn-a4893023e7c3",
+        "vdn-0c907f49b2f4"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-3e6f3194acb0",
+            "vdn-713de5a2c6e6",
+            "vdn-086c1f6e4a3b",
+            "vdn-d5dda0d02f6d",
+            "vdn-a4893023e7c3"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.2,
+          "ndcg_at_5": 0.23719771276929622,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.03256904298905283
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-3e6f3194acb0",
+            "vdn-713de5a2c6e6",
+            "vdn-086c1f6e4a3b",
+            "vdn-d5dda0d02f6d",
+            "vdn-a4893023e7c3"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.2,
+          "ndcg_at_5": 0.23719771276929622,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.3526140239991946,
+          "branch_used": "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-713de5a2c6e6",
+            "vdn-0c907f49b2f4",
+            "vdn-5d6828741270",
+            "vdn-09d38d132c8f",
+            "vdn-a4893023e7c3"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6240505200038379,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.42297974599932786,
+          "branch_used": "forest/lighting/flashlight",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-6",
+      "question": "Je veux un brouillard léger pour une forêt nocturne",
+      "branch": "forest/lighting/fog",
+      "expected": [
+        "vdn-6055d2f0bb67",
+        "vdn-862f8f5abfce"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-713de5a2c6e6",
+            "vdn-9be57b985b77",
+            "vdn-6055d2f0bb67",
+            "vdn-a27deff12d34",
+            "vdn-a374396f6529"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_5": 0.3065735963827292,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.033683056011796
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-713de5a2c6e6",
+            "vdn-f733f0e60339",
+            "vdn-862f8f5abfce",
+            "vdn-179abb099a56"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.8772153153380493,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.4314349430060247,
+          "branch_used": "forest/lighting/fog",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-713de5a2c6e6",
+            "vdn-f733f0e60339",
+            "vdn-862f8f5abfce",
+            "vdn-179abb099a56"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.8772153153380493,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.3394367709988728,
+          "branch_used": "forest/lighting/fog",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-7",
+      "question": "Préparer les matériaux du sol enneigé",
+      "branch": "forest/ground",
+      "expected": [
+        "vdn-6b1965d3e366",
+        "vdn-a857c603de78"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-35696693c238",
+            "vdn-a857c603de78",
+            "vdn-6b1965d3e366",
+            "vdn-56797d0952ca",
+            "vdn-8fceb3f4c379"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6934264036172708,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.016032822008128278
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-35696693c238",
+            "vdn-a857c603de78",
+            "vdn-6b1965d3e366",
+            "vdn-56797d0952ca",
+            "vdn-8fceb3f4c379"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6934264036172708,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.30418128801102284,
+          "branch_used": "forest/ground",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-35696693c238",
+            "vdn-a857c603de78",
+            "vdn-6b1965d3e366",
+            "vdn-56797d0952ca",
+            "vdn-8fceb3f4c379"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6934264036172708,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.40053210699988995,
+          "branch_used": "forest/ground",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-8",
+      "question": "Optimiser une forêt dense et sa distance de rendu",
+      "branch": "forest/performance",
+      "expected": [
+        "vdn-5aa463725976",
+        "vdn-d5dda0d02f6d"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-5aa463725976",
+            "vdn-0df57a89fa73",
+            "vdn-9be57b985b77",
+            "vdn-a374396f6529",
+            "vdn-a27deff12d34"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.058399672008818015
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-5aa463725976",
+            "vdn-0df57a89fa73",
+            "vdn-a374396f6529",
+            "vdn-a27deff12d34",
+            "vdn-85f4cbd2e11c"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5122406909940764,
+          "branch_used": "forest",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-5aa463725976",
+            "vdn-0df57a89fa73",
+            "vdn-2736f67dee2b",
+            "vdn-a374396f6529",
+            "vdn-8fceb3f4c379"
+          ],
+          "recall_at_5": 0.5,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.637559599999804,
+          "branch_used": "forest/performance",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-9",
+      "question": "Mes mains doivent suivre la caméra en gardant les animations",
+      "branch": "player/viewmodel",
+      "expected": [
+        "vdn-3fe122d267fa"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-3fe122d267fa",
+            "vdn-1290b940c378",
+            "vdn-eb19a9fed396",
+            "vdn-939f03f673d6",
+            "vdn-4782fa1e3cf5"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.032749236008385196
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-3fe122d267fa",
+            "vdn-1290b940c378",
+            "vdn-eb19a9fed396",
+            "vdn-4782fa1e3cf5",
+            "vdn-52524d1837c3"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5122337310021976,
+          "branch_used": "player/viewmodel",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-3fe122d267fa",
+            "vdn-1290b940c378",
+            "vdn-eb19a9fed396",
+            "vdn-4782fa1e3cf5",
+            "vdn-52524d1837c3"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5267708539904561,
+          "branch_used": "player/viewmodel",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-10",
+      "question": "Mon rig importé décale ses os et son RootPart",
+      "branch": "player/animation",
+      "expected": [
+        "vdn-1290b940c378"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-564f653d5fbf",
+            "vdn-4782fa1e3cf5",
+            "vdn-086c1f6e4a3b",
+            "vdn-1fe0732cf23a"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.009668429993325844
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-564f653d5fbf",
+            "vdn-0df57a89fa73"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.6304130770004122,
+          "branch_used": "player/animation",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-564f653d5fbf",
+            "vdn-0df57a89fa73"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 1.0828626419970533,
+          "branch_used": "player/animation",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-11",
+      "question": "Le PNJ poursuit le joueur mais son chemin se bloque",
+      "branch": "player/pursuit",
+      "expected": [
+        "vdn-939f03f673d6"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-939f03f673d6",
+            "vdn-ac07d1c0fed7",
+            "vdn-4782fa1e3cf5",
+            "vdn-9b7ec2ee95cd"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.031122608997975476
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-939f03f673d6",
+            "vdn-a4893023e7c3",
+            "vdn-ac07d1c0fed7",
+            "vdn-326d0bf06b35",
+            "vdn-4782fa1e3cf5"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.3759452390077058,
+          "branch_used": "player/pursuit",
+          "attributed_references": 6,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-939f03f673d6",
+            "vdn-a4893023e7c3",
+            "vdn-ac07d1c0fed7",
+            "vdn-326d0bf06b35",
+            "vdn-4782fa1e3cf5"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.2,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.411887164998916,
+          "branch_used": "player/pursuit",
+          "attributed_references": 6,
+          "duplicate_groups": 0
+        }
+      }
+    },
+    {
+      "id": "roots-12",
+      "question": "Préparer les textures avant export Blender Roblox",
+      "branch": "forest/export",
+      "expected": [
+        "vdn-326d0bf06b35",
+        "vdn-1fe0732cf23a"
+      ],
+      "strategies": {
+        "existing_coverage": {
+          "ids": [
+            "vdn-bbea6ee659d1",
+            "vdn-326d0bf06b35",
+            "vdn-f7dfa278922f",
+            "vdn-1fe0732cf23a",
+            "vdn-9b7ec2ee95cd"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6509209298071326,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.01705416399636306
+        },
+        "inferred_branch_fusion": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-bbea6ee659d1",
+            "vdn-564f653d5fbf",
+            "vdn-f7dfa278922f",
+            "vdn-1fe0732cf23a"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.8503449055347546,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.5346797899983358,
+          "branch_used": "forest/export",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        },
+        "explicit_branch_fusion": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-bbea6ee659d1",
+            "vdn-564f653d5fbf",
+            "vdn-f7dfa278922f",
+            "vdn-1fe0732cf23a"
+          ],
+          "recall_at_5": 1.0,
+          "precision_against_listed_labels_at_5": 0.4,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 0.8503449055347546,
+          "coverage": 1,
+          "empty": 0,
+          "duplicates": 0,
+          "latency_s": 0.47053027199581265,
+          "branch_used": "forest/export",
+          "attributed_references": 5,
+          "duplicate_groups": 0
+        }
+      }
+    }
+  ],
+  "network_calls": 0,
+  "model_calls": 0,
+  "semantic": "NOT_RUN; no real embedding backend",
+  "limits": [
+    "Small authored source-subject labels; incomplete relevance judgments; not blind engine ground truth.",
+    "Explicit-branch results assume user-provided branch and must not be conflated with inferred routing.",
+    "No statistical significance, semantic entailment, Claude quota reduction or engine technique validation demonstrated.",
+    "Latency includes Python facade/index checks; CPU, cache and corpus dependent."
+  ]
+}

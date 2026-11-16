@@ -1,0 +1,13 @@
+======================================================================
+ERROR: test_original_offsets_and_hash_verified_but_still_no_roblox_validation (tests.test_research_roots.RootsTests.test_original_offsets_and_hash_verified_but_still_no_roblox_validation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_research_roots.py", line 78, in test_original_offsets_and_hash_verified_but_still_no_roblox_validation
+    self.assertTrue(any('CanCollide controls collision' in p['text'] for p in detail['evidence_passages']))
+                                                                              ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'evidence_passages'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.775s
+
+FAILED (errors=1)

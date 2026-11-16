@@ -1,0 +1,1182 @@
+{
+  "schema": "vdn.roots-scenarios/11.2",
+  "base_sha": "ad2fc6b6e211ccb686052273221cb35f26e30bf6",
+  "os": "Linux",
+  "python": "3.12.14",
+  "rows": [
+    {
+      "id": 1,
+      "input": "Forest realism + flashlight + performance",
+      "expected": "Several requirements; bounded tree; no HTTP",
+      "obtained": {
+        "root": "forest",
+        "nodes": 17,
+        "requirements": [
+          "collision",
+          "appearance",
+          "lighting",
+          "performance"
+        ],
+        "constraints": {
+          "versions": {},
+          "numbers_from_user": [],
+          "avoid_from_user": [
+            "dégrader les performances"
+          ],
+          "status": "PROPOSED"
+        }
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 1.2708536189893493,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 2,
+      "input": "forest depth8",
+      "expected": "Reach foliage/alpha/shadows/flashlight; dependencies explicit",
+      "obtained": {
+        "nodes": 17,
+        "deepest": 6,
+        "research_candidates": [
+          "forest/lighting/flashlight",
+          "forest/spruce/foliage/cards/alpha",
+          "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+          "forest/spruce/foliage/cards/alpha/shadows",
+          "forest/spruce/foliage/cards",
+          "forest/collisions/fidelity"
+        ]
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 1.186800736002624,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 3,
+      "input": "forest/spruce/foliage/cards",
+      "expected": "Find candidates; flag missing original context",
+      "obtained": {
+        "branch": "forest/spruce/foliage/cards",
+        "sources": [],
+        "reserve_ids": [
+          "vdn-4782fa1e3cf5",
+          "vdn-713de5a2c6e6",
+          "vdn-4b3e4c63ddab",
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "vdn-3e6f3194acb0"
+        ],
+        "gap_open": true,
+        "related_branches": [
+          "forest/spruce/foliage/cards/alpha"
+        ],
+        "engine_executed": false
+      },
+      "status": "PARTIAL",
+      "category": "SOFTWARE",
+      "duration_s": 1.650986765002017,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 4,
+      "input": "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+      "expected": "Independent micro-branch; no invented shadow claim",
+      "obtained": {
+        "branch": "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+        "sources": [],
+        "reserve_ids": [
+          "vdn-3e6f3194acb0",
+          "vdn-713de5a2c6e6",
+          "vdn-d5dda0d02f6d",
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ],
+        "gap_open": true,
+        "related_branches": [
+          "forest/lighting/flashlight",
+          "forest/spruce/foliage/cards/alpha"
+        ],
+        "engine_executed": false
+      },
+      "status": "PARTIAL",
+      "category": "SOFTWARE",
+      "duration_s": 1.3840465119865257,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 5,
+      "input": "forest/collisions",
+      "expected": "MeshPart candidates and reversible comparison proposal",
+      "obtained": {
+        "branch": "forest/collisions",
+        "sources": [
+          {
+            "id": "pass-c034f61899ef3555d33fbb69",
+            "document_id": "doc-273d92f9aca843e1259b16bc",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "49b9cdb9df076911a00ceb11df9aefc3af6db22b2aaebd038c7e454eef3be886",
+            "section": "document",
+            "start": 0,
+            "end": 223,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-26253f47f83edd867aca2028",
+            "document_id": "doc-57751bfeee5ec2e34b33dbad",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "a02bf3030fb56938a42f38db5f0dca0d932c4d950aae7043ea7c90feb488e615",
+            "section": "document",
+            "start": 0,
+            "end": 166,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-e8e9cac2197a48e51d2f8378",
+            "document_id": "doc-d7bfdd5307fd50be04567b5d",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "db27d692307892876026867caf464f63e6d8b4658bc5f7b6d5e005be49a373b8",
+            "section": "document",
+            "start": 0,
+            "end": 103,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-5fc81dcb593733683e5628c3",
+            "document_id": "doc-0a49fe7c6cdf0f5ab115c9cc",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "189b98d1440a0533e0f4221013701ae4db54a4265fa66d761a3adef6a16d1ca2",
+            "section": "document",
+            "start": 0,
+            "end": 200,
+            "version": "unknown",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": false,
+            "incomplete": false
+          }
+        ],
+        "reserve_ids": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "vdn-fe4c577081af",
+          "vdn-4782fa1e3cf5"
+        ],
+        "gap_open": true,
+        "related_branches": [
+          "forest/collisions/fidelity"
+        ],
+        "engine_executed": false
+      },
+      "status": "PARTIAL",
+      "category": "SOFTWARE",
+      "duration_s": 1.4334278919995995,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 6,
+      "input": "forest/ground/footprints",
+      "expected": "Specific footprint gap remains open",
+      "obtained": {
+        "branch": "forest/ground/footprints",
+        "sources": [],
+        "reserve_ids": [
+          "vdn-fe4c577081af",
+          "vdn-d5dda0d02f6d"
+        ],
+        "gap_open": true,
+        "related_branches": [],
+        "engine_executed": false
+      },
+      "status": "PARTIAL",
+      "category": "SOFTWARE",
+      "duration_s": 1.1649354270048207,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 7,
+      "input": "forest/performance",
+      "expected": "Performance context without invented device/FPS result",
+      "obtained": {
+        "branch": "forest/performance",
+        "sources": [
+          {
+            "id": "pass-8abbec6ef6d960633cb097ff",
+            "document_id": "doc-09ffcc44e6194a79276e2923",
+            "url": "https://create.roblox.com/docs/performance-optimization/design",
+            "document_sha256": "8973d6f969f0c36e20505581c078641e98ba21fb503a1fa2c2a79d93aec21ba1",
+            "section": "document",
+            "start": 0,
+            "end": 179,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-329cc8234e13530f88a87ca0",
+            "document_id": "doc-9e4cfd17459445e17e2a1812",
+            "url": "https://create.roblox.com/docs/performance-optimization/design",
+            "document_sha256": "1c1eb3b7406408097b41fcc4e3417cae6a349f8374c7688e649385084c9500fd",
+            "section": "document",
+            "start": 0,
+            "end": 255,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-bc2d6656fa47051598176697",
+            "document_id": "doc-e5bacf385fc5762ae0549248",
+            "url": "https://create.roblox.com/docs/performance-optimization/design",
+            "document_sha256": "af5d174edb405e5fb4491592e7b263b19227c36c8c39cc3ff6129697c967dd4f",
+            "section": "document",
+            "start": 0,
+            "end": 161,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-7b48ed08583df003bcd7a4fa",
+            "document_id": "doc-5e4ea64965468fce190ebb01",
+            "url": "https://create.roblox.com/docs/performance-optimization/design",
+            "document_sha256": "3a3894def41f29f49ea7285d1b8a495e94b3a99b5b2a595a6fef8a6dba784666",
+            "section": "document",
+            "start": 0,
+            "end": 129,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-25dba41764986d6266cf962c",
+            "document_id": "doc-0174e980f3c18b1a3d280f97",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "69751099eac2ce81e2cade8bb38bb7e50401c5bc4cc100bd380ad0b44e62dfe3",
+            "section": "document",
+            "start": 0,
+            "end": 181,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          },
+          {
+            "id": "pass-e60805818a09a4bb290a7f5d",
+            "document_id": "doc-90cc53547ad3b2544a990be4",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "a9de6c67b7e2f42eaea42475e5b15924435cc6950b8e9247374be15d066fb3ae",
+            "section": "document",
+            "start": 0,
+            "end": 76,
+            "version": "inconnue",
+            "source_type": "secondary_recorded_excerpt",
+            "accessed": "2026-11-15",
+            "published": null,
+            "version_known": true,
+            "original": false,
+            "incomplete": false
+          }
+        ],
+        "reserve_ids": [
+          "vdn-0df57a89fa73",
+          "vdn-2736f67dee2b",
+          "vdn-d5dda0d02f6d",
+          "vdn-862f8f5abfce"
+        ],
+        "gap_open": true,
+        "related_branches": [],
+        "engine_executed": false
+      },
+      "status": "PARTIAL",
+      "category": "SOFTWARE",
+      "duration_s": 1.1836617049993947,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 8,
+      "input": "Only foliage shadows under flashlight",
+      "expected": "Stable gap ID; no whole forest restart",
+      "obtained": {
+        "gap_id": "gap-550105306e5460befd728225",
+        "dependencies": [
+          {
+            "gap_id": "gap-2195ea0ef0bc958d107f02b6",
+            "branch": "forest/lighting/flashlight",
+            "question": "Faisceau et éclairage local de la lampe V2",
+            "importance": 5,
+            "status": "CANDIDATE_ONLY",
+            "sources": [
+              {
+                "id": "pass-96a1252614362a08c43a377a",
+                "document_id": "doc-1bdee7d47b7f853c719853f6",
+                "url": "https://create.roblox.com/docs/effects/light-sources",
+                "document_sha256": "aaecd66006d40bde41e015d0261028f407d585ea9e461ac67d10200396cbe054",
+                "section": "document",
+                "start": 0,
+                "end": 211,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              },
+              {
+                "id": "pass-9ade553361f27a0398ee9aca",
+                "document_id": "doc-5ac843a7c4818ffe741c1575",
+                "url": "https://create.roblox.com/docs/effects/light-sources",
+                "document_sha256": "ee6747db2c197d743a599b652c3ef51c26d99f95281baccae3d3037ca3c0aa6b",
+                "section": "document",
+                "start": 0,
+                "end": 131,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              },
+              {
+                "id": "pass-dfd42b614640b2e1bb546d0f",
+                "document_id": "doc-49280d3e88f4b677237005ad",
+                "url": "https://create.roblox.com/docs/effects/light-sources",
+                "document_sha256": "01c2acb2a42cf79b0fb44bc6a3358a5abf4b06f48526179e8eb605dfaa6eccfd",
+                "section": "document",
+                "start": 0,
+                "end": 138,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              },
+              {
+                "id": "pass-e10beec1c38222f5668cbd63",
+                "document_id": "doc-33c227b48ddabd826bd193fa",
+                "url": "https://create.roblox.com/docs/reference/engine/classes/SpotLight",
+                "document_sha256": "ed18b2c102407e137cfeb383045b39ad2ec3258108558b77a70a27c419a15e0c",
+                "section": "document",
+                "start": 0,
+                "end": 183,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              }
+            ],
+            "source_matches": 4,
+            "original_context_matches": 0,
+            "gap_open": true,
+            "required_concepts": [
+              [
+                "spotlight",
+                "flashlight"
+              ]
+            ],
+            "dependencies": [],
+            "failures": [],
+            "experiment_revisions": [],
+            "reviewed_experiments": [],
+            "next_query": "SpotLight light sources shadows flashlight",
+            "test": "use task recipe lighting; actual scene/build/assets and controls still required",
+            "scope": "mechanical context matching, not semantic entailment or engine validation",
+            "input_fingerprint": "487f320e6fe7c08892fce2ada49fe79decad90cd49799d6311eedefa16be9232",
+            "collection_outcome": null
+          },
+          {
+            "gap_id": "gap-c74ae74b5c15d16d97ecc291",
+            "branch": "forest/spruce/foliage/cards/alpha",
+            "question": "Transparence et alpha à distance",
+            "importance": 5,
+            "status": "CANDIDATE_ONLY",
+            "sources": [
+              {
+                "id": "pass-cf3d589c2820c02b220aad40",
+                "document_id": "doc-c73d47d6207dcb90ef64dd5f",
+                "url": "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance",
+                "document_sha256": "e7e7cd62a55b7843217e04ba363656e87aa305456c9b2f3d47c3fc5eaedbf4f5",
+                "section": "document",
+                "start": 0,
+                "end": 103,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              },
+              {
+                "id": "pass-ea870cd69c43ab30ea192d8c",
+                "document_id": "doc-b8ba192bfa38ae9f1de0acfb",
+                "url": "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance",
+                "document_sha256": "1c739318daab2ae2eef226571748434f683a5848fae97345f116ca1c1d3e4a0e",
+                "section": "document",
+                "start": 0,
+                "end": 106,
+                "version": "inconnue",
+                "source_type": "secondary_recorded_excerpt",
+                "accessed": "2026-11-15",
+                "published": null,
+                "version_known": true,
+                "original": false,
+                "incomplete": false
+              }
+            ],
+            "source_matches": 2,
+            "original_context_matches": 0,
+            "gap_open": true,
+            "required_concepts": [
+              [
+                "alphamode",
+                "transparency",
+                "transparent"
+              ],
+              [
+                "foliage",
+                "leaf",
+                "meshpart"
+              ]
+            ],
+            "dependencies": [],
+            "failures": [],
+            "experiment_revisions": [],
+            "reviewed_experiments": [],
+            "next_query": "foliage SurfaceAppearance AlphaMode transparency distance",
+            "test": "use task recipe materials; actual scene/build/assets and controls still required",
+            "scope": "mechanical context matching, not semantic entailment or engine validation",
+            "input_fingerprint": "29118974eb554ffc2bce669c0d5467250dc1feb7e7ef19e1ba6e85c9be801bf8",
+            "collection_outcome": null
+          }
+        ],
+        "HTTP": 0
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 0.31775272300001234,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 9,
+      "input": "Authored failed import",
+      "expected": "Research export only; no automatic action; next brief avoids same method",
+      "obtained": {
+        "experiment_id": "c9bd9bf9-c694-4feb-a685-ef0fefb0d2c2",
+        "proposals": {
+          "diagnostic": {
+            "schema": "vdn.failure-diagnostic/11.2",
+            "state": "RESEARCH_PROPOSED",
+            "experiment_id": "c9bd9bf9-c694-4feb-a685-ef0fefb0d2c2",
+            "event_sha256": "a1e6dcb88d6764e8dc6e34f1b5e73994765c0a887f9b84fe1cf0663b0b637254",
+            "task": "export",
+            "reported_status": "FAILED",
+            "reported_conditions": {
+              "environment": {
+                "engine": "Python",
+                "project_task": "export"
+              },
+              "parameters": {
+                "project_task": "export",
+                "research_branch": "forest/export"
+              },
+              "protocol": {
+                "fixture": true
+              }
+            },
+            "hypotheses": [
+              {
+                "category": "export",
+                "status": "HYPOTHESIS",
+                "text": "Examiner la contribution de export sous les conditions enregistrées.",
+                "basis": "keywords in client errors/observations; not independent causal evidence"
+              }
+            ],
+            "targeted_queries": [
+              "Blender 5.2 mesh export normals scale Roblox export"
+            ],
+            "next_experiment": {
+              "status": "ENGINEERING_PROPOSAL",
+              "parent_failure": "c9bd9bf9-c694-4feb-a685-ef0fefb0d2c2",
+              "hypothesis": "Isoler une cause candidate avant de changer une seule variable.",
+              "changed_variable": "export",
+              "controls": "reuse the recorded baseline except the explicitly changed variable",
+              "evidence_needed": [
+                "actual engine/build and asset revision",
+                "raw observations or captures",
+                "baseline and candidate under comparable conditions"
+              ]
+            },
+            "automatic_actions": [],
+            "network_requests": 0,
+            "code_or_policy_modified": false,
+            "verified": false,
+            "visual_analysis_performed": false,
+            "scope": "client reports retained; keywords are diagnostic hypotheses, never formal causality"
+          },
+          "branches": [
+            {
+              "id": "forest/export",
+              "plan": {
+                "intent": {
+                  "objective": "forest/export",
+                  "problems": [
+                    "export"
+                  ],
+                  "software": [],
+                  "versions": {},
+                  "context": "Le Voisin de Noël — laboratory copies only",
+                  "symptoms": "forest/export",
+                  "constraints": [
+                    "no production changes",
+                    "no undocumented parameters",
+                    "target hardware must be recorded"
+                  ],
+                  "missing": [
+                    "asset copies and current settings",
+                    "software versions not supplied",
+                    "reproducible baseline and device"
+                  ],
+                  "hypotheses": [
+                    {
+                      "problem": "export",
+                      "text": "Les transformations ou la compatibilité du pipeline pourraient intervenir.",
+                      "status": "HYPOTHESIS"
+                    }
+                  ],
+                  "success_criteria": [
+                    "same controlled scene and repeatable route",
+                    "record movement defects and frame measurements",
+                    "human review of appearance"
+                  ],
+                  "method": "deterministic domain intent; hypotheses are not diagnoses"
+                },
+                "request_constraints": {},
+                "dependency_gaps": [],
+                "schema": "vdn.research-tree/11.2",
+                "root": "forest/export",
+                "catalog_hash": "0a855cd59d89c381160822dec7fcda1c302982552bd56399fdb941b2b156996d",
+                "nodes": [
+                  {
+                    "gap_id": "gap-b9f6b7181d5b6d286a7fae0a",
+                    "branch": "forest/export",
+                    "question": "Export Blender vers Roblox",
+                    "importance": 4,
+                    "status": "CANDIDATE_ONLY",
+                    "sources": [
+                      {
+                        "id": "pass-7ba4d7bfade186c0934689a2",
+                        "document_id": "doc-abb2b10821c59ca698ead6fa",
+                        "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+                        "document_sha256": "af17216a5791d8b8712c01d763d450b417cbd01589c9ebaf1d44ca0005517c54",
+                        "section": "document",
+                        "start": 0,
+                        "end": 100,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      },
+                      {
+                        "id": "pass-a40397758ffb63b0b5103f84",
+                        "document_id": "doc-93cf59940ab48829f5c5a855",
+                        "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+                        "document_sha256": "2953f026810abce5b8d84b8826c6079e78395640a7fec81f107cfdc0602d6761",
+                        "section": "document",
+                        "start": 0,
+                        "end": 207,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      },
+                      {
+                        "id": "pass-5da7e1ad94ea53a8d0559bad",
+                        "document_id": "doc-9eb6bce5e1a0b7f046b8a3d8",
+                        "url": "https://create.roblox.com/docs/art/characters/creating/export-textures",
+                        "document_sha256": "83ef35909e4ec93af0c84a49d68ca0058624d8b6a91b9361e23f317685d9fdca",
+                        "section": "document",
+                        "start": 0,
+                        "end": 107,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      },
+                      {
+                        "id": "pass-51bfc628ed5281a3a315903b",
+                        "document_id": "doc-3f16cefafd50d70b6566ab70",
+                        "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+                        "document_sha256": "8e439411e1f1a1c3a60e75ed4d2ac499d807ef0747f7a8264eceb5491c2a2fdc",
+                        "section": "document",
+                        "start": 0,
+                        "end": 100,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      },
+                      {
+                        "id": "pass-f39765ed70defb7b1914f75b",
+                        "document_id": "doc-d214020916ecdd520b2a8a52",
+                        "url": "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting",
+                        "document_sha256": "d3bc2c47a05f31e7c00531b3a04afd18528a7b6efc3731cbbc48e30575cc567a",
+                        "section": "document",
+                        "start": 0,
+                        "end": 140,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      },
+                      {
+                        "id": "pass-ef1ece5c3e8ff8a3d91b6bf9",
+                        "document_id": "doc-2ca29c7660b1052884b214e3",
+                        "url": "https://devforum.roblox.com/t/1159486",
+                        "document_sha256": "c9d9e6fd2a0029a967edf1399e09a0f91e72c065fdf866915d612d3a96fd51c7",
+                        "section": "document",
+                        "start": 0,
+                        "end": 182,
+                        "version": "inconnue",
+                        "source_type": "secondary_recorded_excerpt",
+                        "accessed": "2026-11-15",
+                        "published": null,
+                        "version_known": true,
+                        "original": false,
+                        "incomplete": false
+                      }
+                    ],
+                    "source_matches": 12,
+                    "original_context_matches": 0,
+                    "gap_open": true,
+                    "required_concepts": [
+                      [
+                        "export",
+                        "fbx"
+                      ],
+                      [
+                        "blender"
+                      ]
+                    ],
+                    "dependencies": [],
+                    "failures": [
+                      "c9bd9bf9-c694-4feb-a685-ef0fefb0d2c2"
+                    ],
+                    "experiment_revisions": [
+                      [
+                        "c9bd9bf9-c694-4feb-a685-ef0fefb0d2c2",
+                        "a1e6dcb88d6764e8dc6e34f1b5e73994765c0a887f9b84fe1cf0663b0b637254"
+                      ]
+                    ],
+                    "reviewed_experiments": [],
+                    "next_query": "Roblox Export Blender vers Roblox",
+                    "test": "use task recipe export; actual scene/build/assets and controls still required",
+                    "scope": "mechanical context matching, not semantic entailment or engine validation",
+                    "input_fingerprint": "7147249697b63318874592fb7c523c6ac111b8f2d0946815e1ccf386971e067c",
+                    "collection_outcome": null,
+                    "depth": 0,
+                    "searchable": true,
+                    "stop_reason": null,
+                    "priority_score": 65,
+                    "technique_id": "technique-b9f6b7181d5b6d286a7fae0a"
+                  }
+                ],
+                "omitted_branches": [],
+                "research_candidates": [
+                  "forest/export"
+                ],
+                "max_depth": 2,
+                "max_nodes": 8,
+                "network_requests": 0,
+                "content_writes": 0,
+                "state": "PARTIAL",
+                "rule": "conceptual depth is separate from unchanged V10 collection-depth/HTTP limits"
+              }
+            }
+          ],
+          "automatic_actions": [],
+          "whole_forest_restarted": false
+        },
+        "next_brief_method": null,
+        "history_retained": true
+      },
+      "status": "PASS",
+      "category": "SYNTHETIC_FAILURE",
+      "duration_s": 1.0663465929974336,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 10,
+      "input": "Trees used in several scenes",
+      "expected": "Same canonical branch technique, no scene-specific source copies",
+      "obtained": {
+        "scenes": [
+          "prologue-forest",
+          "chapter1-forest"
+        ],
+        "shared_technique_id": "technique-199af223206d823b6fbf93ab",
+        "copied_notes": 0
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 0.7345490570005495,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 11,
+      "input": "Two authored identical passages",
+      "expected": "One result with both aliases, preserved files",
+      "obtained": {
+        "aliases": [
+          "roots-fixture-one",
+          "roots-fixture-two"
+        ],
+        "duplicate_groups": 1,
+        "physical_deletions": 0
+      },
+      "status": "PASS",
+      "category": "SYNTHETIC_NOTES",
+      "duration_s": 0.2809630179981468,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 12,
+      "input": "Candidate-only query",
+      "expected": "Candidate stays visible although main library empty",
+      "obtained": {
+        "reserve": [
+          "roots-fixture-one"
+        ],
+        "facts_verified": false,
+        "main": []
+      },
+      "status": "PASS",
+      "category": "SYNTHETIC_NOTES",
+      "duration_s": 0.2949800780043006,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 13,
+      "input": "Historical rejected notes",
+      "expected": "Archives retained; no rejected evidence in active documents",
+      "obtained": {
+        "counts": {
+          "MAIN": 32,
+          "RESERVE": 27,
+          "ARCHIVE": 42
+        },
+        "rejected_documents_active": 0,
+        "removed_files": 0
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 0.23052435500721913,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 14,
+      "input": "No original snapshot for foliage flashlight shadows",
+      "expected": "Abstain from established facts; propose targeted search/test",
+      "obtained": {
+        "facts": [],
+        "state": "PARTIAL",
+        "limits": "References are documentary candidates. No Roblox result, optimal settings or semantic proof inferred."
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 0.796409575996222,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 15,
+      "input": "Previously captured real original snapshots",
+      "expected": "Check source hash, URL and passage offsets; unknown versions explicit",
+      "obtained": {
+        "checks": [
+          {
+            "id": "pass-37d2d948d222b98b053ddd5a",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "Common problems",
+            "start": 6643,
+            "end": 7752,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true,
+            "sha_valid": true,
+            "offsets_valid": true
+          },
+          {
+            "id": "pass-031664fd983c49a7c253798b",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "Physics memory usage",
+            "start": 9911,
+            "end": 10135,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true,
+            "sha_valid": true,
+            "offsets_valid": true
+          },
+          {
+            "id": "pass-e5ad8756e7e3703f99c68374",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "How to mitigate",
+            "start": 10598,
+            "end": 11306,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true,
+            "sha_valid": true,
+            "offsets_valid": true
+          },
+          {
+            "id": "pass-e318a8470577413ba8e1bc90",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18600,
+            "end": 18632,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false,
+            "sha_valid": true,
+            "offsets_valid": true
+          },
+          {
+            "id": "pass-146f9114ca30bb26c228980a",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18634,
+            "end": 18942,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false,
+            "sha_valid": true,
+            "offsets_valid": true
+          },
+          {
+            "id": "pass-344737134f7470e1fc5013d9",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18944,
+            "end": 18993,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false,
+            "sha_valid": true,
+            "offsets_valid": true
+          }
+        ],
+        "engine_validation": false
+      },
+      "status": "PASS",
+      "category": "REAL_CAPTURE_REUSE",
+      "duration_s": 0.5920960200019181,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 16,
+      "input": "Authored inaccessible source",
+      "expected": "Source error explicit; keep first assessment, no false verification",
+      "obtained": {
+        "source_errors": [
+          "ValueError: permitted source unavailable or insufficient",
+          "ValueError: permitted source unavailable or insufficient"
+        ],
+        "partial_checkpoint_retained": true,
+        "HTTP": 0
+      },
+      "status": "PASS",
+      "category": "SYNTHETIC_TRANSPORT",
+      "duration_s": 2.184931187002803,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 17,
+      "input": "Brief forest budget500",
+      "expected": "Bounded brief with omissions and drill-down, constraints/rollback retained",
+      "obtained": {
+        "chars": 1800,
+        "branches": 1,
+        "omitted": [
+          "forest/spruce/foliage/cards",
+          "forest/spruce/foliage/cards/alpha/shadows",
+          "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+          "forest/export",
+          "forest/collisions"
+        ],
+        "detail": "tree:forest"
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 6.937165056006052,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 18,
+      "input": "tree:forest/collisions",
+      "expected": "Detailed recipe, literal parameters, original/candidate distinction",
+      "obtained": {
+        "branch": "forest/collisions",
+        "sources": [
+          {
+            "id": "pass-37d2d948d222b98b053ddd5a",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "Common problems",
+            "start": 6643,
+            "end": 7752,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true
+          },
+          {
+            "id": "pass-031664fd983c49a7c253798b",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "Physics memory usage",
+            "start": 9911,
+            "end": 10135,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true
+          },
+          {
+            "id": "pass-e5ad8756e7e3703f99c68374",
+            "document_id": "doc-0dce45f2b67681fcb25582db",
+            "url": "https://create.roblox.com/docs/performance-optimization/improve",
+            "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+            "section": "How to mitigate",
+            "start": 10598,
+            "end": 11306,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": true
+          },
+          {
+            "id": "pass-e318a8470577413ba8e1bc90",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18600,
+            "end": 18632,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false
+          },
+          {
+            "id": "pass-146f9114ca30bb26c228980a",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18634,
+            "end": 18942,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false
+          },
+          {
+            "id": "pass-344737134f7470e1fc5013d9",
+            "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+            "url": "https://create.roblox.com/docs/workspace/collisions",
+            "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+            "section": "Disable character collisions",
+            "start": 18944,
+            "end": 18993,
+            "version": "unknown",
+            "source_type": "recorded_source_snapshot",
+            "accessed": "2026-11-16",
+            "published": null,
+            "version_known": false,
+            "original": true,
+            "incomplete": false
+          }
+        ],
+        "reserve_ids": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "roots-fixture-one",
+          "vdn-fe4c577081af",
+          "vdn-4782fa1e3cf5"
+        ],
+        "gap_open": true,
+        "related_branches": [
+          "forest/collisions/fidelity"
+        ],
+        "engine_executed": false
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 1.8660143750021234,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 19,
+      "input": "Separate temporary Obsidian vault",
+      "expected": "Export tiers/scene links; second unchanged; rollback preserves source and ledger",
+      "obtained": {
+        "simulation_operations": 136,
+        "first": "committed",
+        "second": "unchanged",
+        "rollback": "rolled_back",
+        "daily_ledger_unchanged": true
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 13.683675041000242,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    },
+    {
+      "id": 20,
+      "input": "Real MCP stdio process",
+      "expected": "All 27 contracts unchanged; Bible/plan/brief/detail/failure roundtrip",
+      "obtained": {
+        "contracts": 27,
+        "real_subprocess": true,
+        "stdio_calls": [
+          "get_intelligence_brief",
+          "plan_ocean",
+          "get_intelligence_brief",
+          "synthesize_technical",
+          "get_intelligence_brief"
+        ],
+        "sockets_forbidden": true,
+        "elapsed_s": 8.092857272989932,
+        "fixture_failure_recalled": true,
+        "Claude_Desktop": "NOT_TESTED"
+      },
+      "status": "PASS",
+      "category": "SOFTWARE",
+      "duration_s": 8.093003904999932,
+      "limits": "Software outcome, not validation of a Roblox technique."
+    }
+  ],
+  "counts": {
+    "PASS": 15,
+    "PARTIAL": 5,
+    "FAIL": 0
+  },
+  "network_calls": 0,
+  "model_calls": 0,
+  "Windows_user_PC": "NOT_TESTED",
+  "Claude_Desktop": "NOT_TESTED",
+  "Blender_5_2": "NOT_TESTED",
+  "Roblox_Studio": "NOT_TESTED",
+  "production_changes": 0
+}

@@ -1,0 +1,73 @@
+{
+  "reason": "Full-note identity replaces truncated preview identity, independently regression-tested with numeric differences after common prefix. No labels, branch queries or weights tuned.",
+  "changed_cases": [
+    {
+      "id": "roots-6",
+      "before": [
+        "vdn-6055d2f0bb67",
+        "vdn-713de5a2c6e6",
+        "vdn-f733f0e60339",
+        "vdn-862f8f5abfce",
+        "vdn-ocean-54fe16e8e5a3e6ea5304"
+      ],
+      "after": [
+        "vdn-6055d2f0bb67",
+        "vdn-713de5a2c6e6",
+        "vdn-f733f0e60339",
+        "vdn-862f8f5abfce",
+        "vdn-179abb099a56"
+      ]
+    },
+    {
+      "id": "roots-7",
+      "before": [
+        "vdn-35696693c238",
+        "vdn-a857c603de78",
+        "vdn-086c1f6e4a3b",
+        "vdn-5cf4b27a9a3e",
+        "vdn-3e6f3194acb0"
+      ],
+      "after": [
+        "vdn-35696693c238",
+        "vdn-a857c603de78",
+        "vdn-6b1965d3e366",
+        "vdn-56797d0952ca",
+        "vdn-8fceb3f4c379"
+      ]
+    },
+    {
+      "id": "roots-8",
+      "before": [
+        "vdn-5aa463725976",
+        "vdn-0df57a89fa73",
+        "vdn-a374396f6529",
+        "vdn-a27deff12d34",
+        "vdn-ocean-54fe16e8e5a3e6ea5304"
+      ],
+      "after": [
+        "vdn-5aa463725976",
+        "vdn-0df57a89fa73",
+        "vdn-a374396f6529",
+        "vdn-a27deff12d34",
+        "vdn-85f4cbd2e11c"
+      ]
+    },
+    {
+      "id": "roots-12",
+      "before": [
+        "vdn-326d0bf06b35",
+        "vdn-bbea6ee659d1",
+        "vdn-564f653d5fbf",
+        "vdn-1fe0732cf23a",
+        "vdn-c73ed30815b8"
+      ],
+      "after": [
+        "vdn-326d0bf06b35",
+        "vdn-bbea6ee659d1",
+        "vdn-564f653d5fbf",
+        "vdn-f7dfa278922f",
+        "vdn-1fe0732cf23a"
+      ]
+    }
+  ]
+}

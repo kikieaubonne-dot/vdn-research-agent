@@ -273,6 +273,9 @@ class Project:
         if safe_path(self.root,'project/chapters.json').exists():
             from agent.chapters import Chapters
             pages.update(Chapters(self.root).pages())
+        if safe_path(self.root,'project/research_roots.json').exists():
+            from agent.research_roots import Roots
+            pages.update(Roots(self.root).pages())
         return pages
 
 

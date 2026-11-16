@@ -1,0 +1,21 @@
+{
+  "base_sha": "ad2fc6b6e211ccb686052273221cb35f26e30bf6",
+  "files_sha256": {
+    "agent/project_api.py": "0c4c1aa54d69ccec30a0f192d70a413495386ebfaf1830b7f32ac5e8d5945408",
+    "agent/project_work.py": "97df7f76e788e5f906025e76d1d70aeb8adefb4202ddaedff433867c74e1ebac",
+    "agent/rag.py": "7f0f2f38f1402630ab12a1af1b48524e33ba09f4dd27494e1aa8eb248ca542d5",
+    "agent/v112.py": "bccc5dba6b4d79ce4d5cb12ca91fc17c495e7aa11f73579e1ec0b7b084853e90",
+    "agent/research_library.py": "b5b9f8334568857c5c6d7d7f4b951dfc73c027f38f3219fbc4b5045439dfca82",
+    "agent/research_roots.py": "1c82e3bfb71ec71d1818ed0b818ee6605cfe01db712a27d7efdeffeb880067f4",
+    "bench/acquire_roots.py": "5468e6a035d988b182b0bad53012bf874b48062eac851e682efb72ef1db3c4a8",
+    "bench/evaluate_roots.py": "e72a013cd0c01098685dc776339947be51ca444282cd0fcaf23ecd02bdb7375c",
+    "bench/roots_evaluation.json": "daab01a40ea0771354f62ed0b26ff20027735da14b8d2f89daadedf2eb3463b8",
+    "bench/validate_research_roots.py": "ae5244d6da5de368dd75ef1c7e3bd3b12eb44e443c68bd9801e82236029edc4e",
+    "project/research_roots.json": "89607640f98f7d2211732639e176f728fd9f9f47212f464930d93ee52679cca7",
+    "tests/test_research_roots.py": "d12ba31914ca2cffc45469cf61ce8bf395d319bc3b3794e2878bc6b83e3c04aa",
+    "tests/fixtures/roots_project/chapters.json": "0cf04301169ea794997275632e4f35f314a72c9fd4a4ce08a81585e0d1cda33d",
+    "tests/fixtures/roots_project/research_roots.json": "89607640f98f7d2211732639e176f728fd9f9f47212f464930d93ee52679cca7",
+    "tests/fixtures/roots_project/bible.json": "1fd02366582289c07e61fb31d2ffc97d56bf0b726167922779239c2c133d1414"
+  },
+  "scope": "Final product, test and benchmark inputs. Local suites and CI verify these source contents; documentation and reports can change without changing product."
+}

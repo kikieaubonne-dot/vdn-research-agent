@@ -11,6 +11,12 @@ from agent.project import budgets
 def main(argv=None):
     if hasattr(sys.stdout,'reconfigure'):sys.stdout.reconfigure(encoding='utf-8')
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);sub=p.add_subparsers(dest='cmd',required=True)
+    s=sub.add_parser('roots');s.add_argument('question');s.add_argument('--depth',type=int,default=6);s.add_argument('--nodes',type=int,default=24)
+    s=sub.add_parser('root-prepare');s.add_argument('question');s.add_argument('--depth',type=int,default=6);s.add_argument('--nodes',type=int,default=24);s.add_argument('--apply',action='store_true')
+    s=sub.add_parser('root-run');s.add_argument('id');s.add_argument('--apply',action='store_true');s.add_argument('--allow-network',action='store_true')
+    s=sub.add_parser('root-control');s.add_argument('id');s.add_argument('action',choices=['pause','resume','stop']);s.add_argument('--apply',action='store_true')
+    s=sub.add_parser('root-failure');s.add_argument('id')
+    sub.add_parser('library')
     s=sub.add_parser('visual-describe');s.add_argument('task');s.add_argument('--input',type=Path,required=True);s.add_argument('--apply',action='store_true')
     sub.add_parser('lab-capabilities')
     s=sub.add_parser('lab-prepare');s.add_argument('--input');s.add_argument('--unit-scale',type=float);s.add_argument('--required-version',default='5.2');s.add_argument('--apply',action='store_true')
@@ -31,7 +37,14 @@ def main(argv=None):
     s=sub.add_parser('visual-link');s.add_argument('task');s.add_argument('path');s.add_argument('--target',required=True);s.add_argument('--keep',nargs='*',default=[]);s.add_argument('--avoid',nargs='*',default=[]);s.add_argument('--render-version',required=True);s.add_argument('--human-opinion',default='UNKNOWN');s.add_argument('--apply',action='store_true')
     a=p.parse_args(argv);project=Project(a.root);research=ProjectResearch(a.root)
     try:
-        if a.cmd=='visual-describe':
+        if a.cmd in ('roots','root-prepare','root-run','root-control','root-failure'):
+            from agent.research_roots import Roots
+            tree=Roots(a.root)
+            r=tree.plan(a.question,a.depth,a.nodes) if a.cmd=='roots' else tree.prepare(a.question,a.depth,a.nodes,a.apply) if a.cmd=='root-prepare' else tree.run(a.id,a.apply,a.allow_network) if a.cmd=='root-run' else tree.control(a.id,a.action,a.apply) if a.cmd=='root-control' else tree.after_failure(a.id)
+        elif a.cmd=='library':
+            from agent.research_library import Library
+            r=Library(a.root).inventory()
+        elif a.cmd=='visual-describe':
             from agent.visual_description import describe
             if a.input.is_symlink() or a.input.stat().st_size>8000:raise ValueError('bounded description input required')
             r=describe(project,a.task,json.loads(a.input.read_text(encoding='utf-8')),a.apply)

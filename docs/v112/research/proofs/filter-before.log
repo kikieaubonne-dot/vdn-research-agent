@@ -1,0 +1,14 @@
+test_archive_cannot_crowd_a_relevant_candidate_out_of_sql_limit (tests.test_research_roots.FilteringRegression.test_archive_cannot_crowd_a_relevant_candidate_out_of_sql_limit) ... FAIL
+
+======================================================================
+FAIL: test_archive_cannot_crowd_a_relevant_candidate_out_of_sql_limit (tests.test_research_roots.FilteringRegression.test_archive_cannot_crowd_a_relevant_candidate_out_of_sql_limit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_research_roots.py", line 17, in test_archive_cannot_crowd_a_relevant_candidate_out_of_sql_limit
+    self.assertIn('useful-candidate',[h['note_id'] for h in r['results']])
+AssertionError: 'useful-candidate' not found in []
+
+----------------------------------------------------------------------
+Ran 1 test in 0.232s
+
+FAILED (failures=1)

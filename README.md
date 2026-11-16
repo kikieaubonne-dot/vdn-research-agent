@@ -2,8 +2,23 @@
 
 ## V11.2 — Project Intelligence
 
+Recherche en branches réutilisables, lacunes explicites et bibliothèque
+principale/réserve/archives : [rapport et mesures actuels](docs/v112/research/REPORT.md) ·
+[Windows/MCP et rollback](docs/v112/research/WINDOWS.md) ·
+[20 scénarios](docs/v112/research/SCENARIOS.md).
+
+```sh
+python -m agent.v112 roots "forest" --depth 6 --nodes 24
+python -m agent.v112 brief "tree:forest/collisions"
+python -m agent.v112 synthesize "tree:forest/spruce/foliage/cards/alpha/shadows/flashlight"
+python -m agent.v112 library
+```
+
+Fonctionnement logiciel mesuré ; sources candidates et procédures proposées.
+Claude Desktop et les techniques sur B3/C1 restent à valider sur le PC utilisateur.
+
 Planification par chapitre, retour d’échec et laboratoire Blender supervisé :
-[rapport actuel et limites](docs/v112/autonomous/IMPLEMENTATION_REPORT.md) ·
+[rapport précédent et limites](docs/v112/autonomous/IMPLEMENTATION_REPORT.md) ·
 [Windows](docs/v112/autonomous/WINDOWS_SETUP.md) ·
 [workflow Claude](docs/v112/autonomous/CLAUDE_MCP_WORKFLOW.md).
 
