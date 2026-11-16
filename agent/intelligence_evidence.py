@@ -17,7 +17,7 @@ from agent.lab_store import clean_json
 from agent.obsidian import safe_path
 from agent.text import tokens, fold, BM25
 
-VERSION = '11.2.4'
+VERSION = '11.2.5'
 STATUSES = ('SOURCE_SUPPORTED','INFERRED','HYPOTHESIS','EXPERIMENT_PROPOSAL','UNSUPPORTED','CONTRADICTED','OUTDATED')
 HOSTILE = re.compile(r'(?i)ignore (?:all|previous)|system prompt|reveal .*secret|api.?key|powershell|subprocess|delete .*files|execute .*command|curl\s|rm -rf')
 
@@ -112,6 +112,12 @@ def documents(root,diagnostics=None,*,include_rejected=False):
     return list(unique.values())
 
 
+def context_only(text):
+    # Retain images in source snapshots, but never elevate their captions to
+    # technical assertions. Plain-language captions without markup remain a limit.
+    return bool(re.match(r'^\s*(?:>\s*)?!\[',text))
+
+
 def passages(docs):
     result=[]
     for d in docs:
@@ -136,7 +142,7 @@ def passages(docs):
                     'document_sha256':d['sha256'],'engine':d['engine'],'version':d['version'],'published':d['published'],
                     'accessed':d['accessed'],'source_type':d['source_type'],'independent':d['independent'],
                     'conditions':d['conditions'],'retrieved_at':d['retrieved_at'],'incomplete_context':cut or d['truncated'],
-                    'hostile':bool(HOSTILE.search(value))})
+                    'hostile':bool(HOSTILE.search(value)),'context_only':context_only(value)})
     return result
 
 
@@ -148,7 +154,7 @@ QUERIES={'collision':'MeshPart CollisionFidelity CanCollide collision player con
 
 
 def retrieve(question,docs,limit=8,queries=None,anchors=None):
-    intent=analyze(question);ps=passages(docs)
+    intent=analyze(question);ps=[p for p in passages(docs) if not p['context_only']]
     if anchors:
         terms=set(tokens(' '.join(anchors)))
         ps=[p for p in ps if terms & set(tokens(p['text']+' '+p['section']))]
@@ -195,6 +201,7 @@ def verify(claim,selected,docs,intent,now=None):
     if intent['software'] and any(p['engine'] not in ('unknown',*intent['software']) for p in refs):issues.append('source_engine_requires_adaptation')
     if any(p['version']!='unknown' and p['engine'] in intent['versions'] and p['version']!=intent['versions'][p['engine']] for p in refs):issues.append('requested_version_mismatch')
     if HOSTILE.search(text):issues.append('hostile_instruction')
+    if context_only(text) or any(p.get('context_only') for p in refs):issues.append('image_caption_not_a_technical_assertion')
     literal=bool(refs) and any(re.sub(r'\s+',' ',text).strip() in re.sub(r'\s+',' ',p['text']) for p in refs)
     if numbers and not literal:issues.append('numeric_relation_not_literal')
     state=kind

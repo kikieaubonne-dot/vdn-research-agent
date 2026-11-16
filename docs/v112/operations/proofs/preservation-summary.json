@@ -1,0 +1,10 @@
+{
+  "initial_files_restored_and_verified": 553,
+  "modified_initial_files": [
+    "README.md",
+    "agent/intelligence_evidence.py",
+    "agent/research_roots.py"
+  ],
+  "data_config_knowledge_budget_changes": [],
+  "preexisting_queue_and_work_excluded_from_commit": true
+}

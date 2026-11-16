@@ -1,0 +1,22 @@
+======================================================================
+FAIL: test_valid_json_tampering_of_incident_status_is_detected (tests.test_operations.RecoveryTests.test_valid_json_tampering_of_incident_status_is_detected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_operations.py", line 71, in test_valid_json_tampering_of_incident_status_is_detected
+    with self.assertRaises(ValueError):self.box.incidents()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_valid_json_checkpoint_tampering_cannot_forge_task_completion (tests.test_operations.OperationsTests.test_valid_json_checkpoint_tampering_cannot_forge_task_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_operations.py", line 100, in test_valid_json_checkpoint_tampering_cannot_forge_task_completion
+    with self.assertRaises(ValueError):mission.Worker(ws,'fixture-worker')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.110s
+
+FAILED (failures=2)

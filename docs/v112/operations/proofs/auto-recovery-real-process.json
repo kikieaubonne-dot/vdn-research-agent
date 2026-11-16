@@ -1,0 +1,36 @@
+{
+  "schema": "vdn.autorecovery-real-process/1",
+  "scope": "controlled real-process fault injection, not an incident in the user game",
+  "sqlite_integrity": "PASS",
+  "automatic_recovery": true,
+  "protected_content_unchanged_during_repair": true,
+  "explicit_start_configuration_change": [
+    "config/v10.json"
+  ],
+  "verification_note": "The initial whole-start check included the intentional activation of the copied V10 configuration. Repair integrity is checked against the checksummed checkpoint baseline recorded after explicit activation; all other pre-start content remains identical. No validation criteria or source tests were changed.",
+  "guard_status": {
+    "schema": "vdn.guard-status/1",
+    "state": "STOPPED",
+    "last_heartbeat": 1794871564.8890152,
+    "guard_pid": 19114,
+    "started_at": 1794871553.4914968,
+    "attempts": 1,
+    "finished_at": 1794871564.8890178
+  },
+  "incidents": [
+    {
+      "incident_id": "6e7374196e2a294849ef1977",
+      "status": "RESOLVED",
+      "repair_attempts": 1
+    }
+  ],
+  "quarantined_original": true,
+  "step_states": {
+    "blender_lab": "DONE",
+    "cards": "DONE",
+    "mcp": "DONE",
+    "obsidian": "DONE",
+    "python_lab": "DONE",
+    "research": "DONE"
+  }
+}

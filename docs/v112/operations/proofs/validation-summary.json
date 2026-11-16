@@ -1,0 +1,30 @@
+{
+  "schema": "vdn.operations-validation/1",
+  "source_base_commit": "c93fe9bc944a7255752a7eded590ad039f568145",
+  "os": "Linux",
+  "python": "3.12.14",
+  "independent_validator": {
+    "schema": "vdn.validation-result/1",
+    "state": "PASS",
+    "exit_code": 0,
+    "timeout_or_log_failure": false,
+    "pinned_inputs_changed": false,
+    "suite": "offline",
+    "elapsed_s": 51.762800313998014,
+    "manifest_sha256": "640fc86db24b0d870e4ebf3355b16a05eb3e1e991a97b2d615a84943116df7ca",
+    "log_sha256": "b79bc8a9905d22683c91c894d1e80e41a167328adf85baf357dc5ef05ca1dcad",
+    "promoted": false,
+    "scope": "real software checks, no game or semantic quality inferred"
+  },
+  "offline_tests": 527,
+  "personal_copy_tests": 527,
+  "new_distinct_tests": 37,
+  "personal_settings_unchanged": true,
+  "sockets_forbidden": true,
+  "Windows_new_operations": "NOT_TESTED",
+  "original_historical_tests": 490,
+  "input_manifest_sha256": "640fc86db24b0d870e4ebf3355b16a05eb3e1e991a97b2d615a84943116df7ca",
+  "publications": 0,
+  "raw_private_evidence": "kept outside repository in the delivery workspace",
+  "test_portability_cleanup": "Fixture hashes use actual file bytes (including OS line endings); SQLite test handles explicitly closed. Assertions and case count unchanged; Windows execution still NOT_TESTED."
+}

@@ -53,7 +53,7 @@ class Roots:
   for p in ps:
    if p['engine']!='Roblox' and not (p['engine']=='Blender' and p['version']==bible.value('blender_version')):continue
    words=set(tokens(p['text']+' '+p['section']));matched=bool(n['required_concepts']) and all(words&set(tokens(' '.join(g))) for g in n['required_concepts'])
-   if not matched or p['hostile']:continue
+   if not matched or p['hostile'] or p.get('context_only'):continue
    ref={k:p[k] for k in ('id','document_id','url','document_sha256','section','start','end','version','source_type','accessed','published')};ref['version_known']=p['version'] not in ('unknown','UNKNOWN');ref['original']=p['independent'];ref['incomplete']=p['incomplete_context'];refs.append(ref)
    if p['independent'] and not p['incomplete_context'] and not p['hostile'] and p['retrieved_at'] and time.time()-p['retrieved_at']<=settings(self.root)['cache_ttl_s']:original.append(ref)
   records=self.experiments(n);failures=[r for r in records if r['results'] and r['results'][-1]['status']=='FAILED'];reviewed=[r for r in records if (r['parameters'].get('research_branch') or r['protocol'].get('research_branch'))==key and r['status']=='VERIFIED' and r.get('review') and r['environment'].get('engine')=='Roblox' and bible.value('engine_version') not in ('UNKNOWN','unknown') and r['environment'].get('engine_version')==bible.value('engine_version') and set(bible.task(n['task'])['assets'])<=set(r['environment'].get('asset_ids',[]))]

@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_frozen_distribution_includes_required_readonly_vocabulary (tests.test_operations.OperationsTests.test_frozen_distribution_includes_required_readonly_vocabulary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_operations.py", line 87, in test_frozen_distribution_includes_required_readonly_vocabulary
+    ws=self.prepared();self.assertTrue((ws/'code/config/vocabulary.json').is_file())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.094s
+
+FAILED (failures=1)

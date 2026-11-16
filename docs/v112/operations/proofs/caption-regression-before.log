@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_image_caption_is_context_not_established_technical_fact (tests.test_operations.RecoveryTests.test_image_caption_is_context_not_established_technical_fact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_operations.py", line 71, in test_image_caption_is_context_not_established_technical_fact
+    card=Project(self.root).synthesize('ground');self.assertFalse(card['quality']['facts'])
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [{'id': 'claim-ad8af20272b99262875e7452', 'text': '![Appearance of Snow material](../Material-Snow.jpg)_Snow_', 'passage_ids': ['pass-b89ff107a8f8343c088fbbaf'], 'source_ids': ['doc-4ebe4ab6384f815a4e8a6a2c'], 'version': 'unknown', 'engine': 'Roblox', 'kind': 'SOURCE_SUPPORTED', 'support': 'SOURCE_SUPPORTED', 'verification': 'attribution_only', 'issues': [], 'contradictions': [], 'last_evaluated': '2026-11-16T22:58:07.998162+00:00', 'truth_verified': False}] is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.063s
+
+FAILED (failures=1)

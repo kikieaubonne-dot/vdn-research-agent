@@ -1,0 +1,37 @@
+{
+  "questions": 22,
+  "active_documents": 285,
+  "rejected_documents": 0,
+  "means": {
+    "BM25_text": {
+      "precision_against_listed_labels_at_5": 0.2303030303030303,
+      "recall_at_5": 0.9772727272727273,
+      "reciprocal_rank": 0.9128787878787878,
+      "ndcg_at_5": 0.9270453580065477,
+      "rejected_returned": 0.0,
+      "latency_s": 0.007293921679692258
+    },
+    "coverage": {
+      "precision_against_listed_labels_at_5": 0.2303030303030303,
+      "recall_at_5": 0.9772727272727273,
+      "reciprocal_rank": 0.9166666666666667,
+      "ndcg_at_5": 0.9289774249979176,
+      "rejected_returned": 0.0,
+      "latency_s": 0.007042082408257887
+    },
+    "intelligence_lexical": {
+      "precision_against_listed_labels_at_5": 0.15833333333333333,
+      "recall_at_5": 0.6363636363636364,
+      "reciprocal_rank": 0.40151515151515155,
+      "ndcg_at_5": 0.4626530810065054,
+      "rejected_returned": 0.0,
+      "latency_s": 0.011291248865415004
+    }
+  },
+  "limitations": [
+    "existing small development labels, not blind holdout",
+    "expected IDs are not exhaustive relevance judgments; precision is against listed labels only",
+    "citation attribution and real engine benefit not measured by retrieval IDs",
+    "timings depend on warm caches; no Claude calls or quota savings measured"
+  ]
+}

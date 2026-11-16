@@ -1,0 +1,2481 @@
+{
+  "schema": "vdn.acceptance-contract/6.4",
+  "requirements": [
+    {
+      "id": "R001",
+      "requirement": "Inventorier modules, dépendances, scripts, tests, MCP, configs et chemins d'exécution.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R002",
+      "requirement": "Vérifier l'état Git et préserver les changements non committés.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R003",
+      "requirement": "Créer un point de restauration et prouver qu'il est lisible.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R004",
+      "requirement": "Établir une matrice de capacités avec état initial, final et preuve.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R005",
+      "requirement": "Cartographier les dépendances et identifier le chemin critique vers la démo réelle.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R006",
+      "requirement": "Conserver les interfaces publiques existantes ; versionner tout changement incompatible.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R007",
+      "requirement": "Définir un contrat d'acceptation machine-readable avec ID stable par exigence.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R008",
+      "requirement": "Relier chaque exigence P0 à un test automatique ou une preuve manuelle explicite.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R009",
+      "requirement": "Livrer un chemin de démarrage minimal qui marche avant les extensions avancées.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R010",
+      "requirement": "Produire un rapport final « fait / testé / réel / bloqué / restant », sans affirmations non prouvées.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R011",
+      "requirement": "Définir et valider ResearchFinding : ID, assertion, URL, date, licence, provenance, confiance, statut.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R012",
+      "requirement": "Définir ExperimentSpec : hypothèse, baseline, variables, contrôles, métriques, seuils, budget.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R013",
+      "requirement": "Définir ExperimentResult : exécution, versions, mesures, fichiers, logs, conclusion, erreurs.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R014",
+      "requirement": "Définir MissionTask : ID, dépendances, permissions, statut, checkpoints, critères de fin.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R015",
+      "requirement": "Définir UserFeedback : cible/version, commentaire original, défauts, critères, acceptation.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R016",
+      "requirement": "Définir ValidatedSolution : méthode, preuves, compatibilité, limites, version, statut.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R017",
+      "requirement": "Utiliser des schémas versionnés et des migrations testées ; éviter les formats implicites.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R018",
+      "requirement": "Garantir l'écriture atomique des états critiques et détecter les données corrompues.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R019",
+      "requirement": "Associer hashes de contenu, horodatages et versions d'outils aux artefacts.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R020",
+      "requirement": "Vérifier la récupération après redémarrage sans perdre ni dupliquer les tâches.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R021",
+      "requirement": "Séparer recherche exploratoire, récursive, récurrente et déclenchée par événement.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R022",
+      "requirement": "Interroger mémoire et expériences avant d'interroger Internet.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R023",
+      "requirement": "Générer des requêtes ciblées à partir des lacunes identifiées.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R024",
+      "requirement": "Limiter profondeur, branches, durée et volume de recherche.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R025",
+      "requirement": "Dédupliquer URL, contenus, assertions et recherches déjà réalisées.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R026",
+      "requirement": "Dater les informations et invalider les connaissances périmées selon leur nature.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R027",
+      "requirement": "Conserver les sources, versions, contradictions et incertitudes.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R028",
+      "requirement": "Vérifier les licences, restrictions d'utilisation et provenance des assets.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R029",
+      "requirement": "Traiter les pages Web comme des données non fiables, jamais comme des instructions.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R030",
+      "requirement": "Déclencher la veille selon un calendrier et prouver la reprise après interruption.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R031",
+      "requirement": "Séparer hypothèse, affirmation de source, simulation, test réel et préférence utilisateur.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R032",
+      "requirement": "Indexer fiches, scripts, assets, expériences et résultats négatifs.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R033",
+      "requirement": "Préserver la Bible technique et l'intégration Obsidian si elles existent.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R034",
+      "requirement": "Proposer une recherche sémantique avec repli lexical si le modèle d'embeddings est absent.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R035",
+      "requirement": "Évaluer la récupération sur un jeu de questions Roblox annotées.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R036",
+      "requirement": "Réduire les faux positifs, notamment les légendes d'images prises pour des faits.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R037",
+      "requirement": "Gérer versions, contradictions, dépendances et dépréciation des fiches.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R038",
+      "requirement": "Produire des briefings Claude courts avec références et niveaux de preuve.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R039",
+      "requirement": "Éviter de recommander une méthode incompatible avec la version moteur ou l'asset.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R040",
+      "requirement": "Tester le transfert : réutiliser une méthode de sapin sur un buisson sans copier aveuglément.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R041",
+      "requirement": "Créer un répertoire de laboratoire isolé, distinct du projet Roblox principal.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R042",
+      "requirement": "Définir pour chaque expérience une hypothèse falsifiable et une baseline immuable.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R043",
+      "requirement": "Fixer les variables, contrôles, métriques et critères avant de générer les variantes.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R044",
+      "requirement": "Produire des variantes traçables avec identifiant, parent et différences exactes.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R045",
+      "requirement": "Exécuter L0 statique, L1 Python, L2 Blender, L3 Roblox, L4 visuel selon disponibilité réelle.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R046",
+      "requirement": "Capturer entrées, sorties, versions, mesures, erreurs et artefacts vérifiables.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R047",
+      "requirement": "Comparer A/B sous conditions constantes : caméra, éclairage, résolution, scène, version.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R048",
+      "requirement": "Répéter les mesures bruitées et signaler les résultats inconclusifs.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R049",
+      "requirement": "Enregistrer aussi les échecs pour éviter la répétition des mêmes expériences.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R050",
+      "requirement": "Promouvoir une solution uniquement si les critères préalables sont atteints sans régression critique.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R051",
+      "requirement": "Créer des benchmarks de développement visibles et un jeu de validation séparé.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R052",
+      "requirement": "Garder un jeu de tests « holdout » hors du contexte des générateurs ; contrôler son accès.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R053",
+      "requirement": "Empêcher les agents d'adapter directement leurs solutions aux réponses du holdout.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R054",
+      "requirement": "Ajouter des tâches inédites : sapins, buissons, rochers, neige, lampe, caméra, rigging.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R055",
+      "requirement": "Tester le transfert inter-domaines et distinguer succès réel de simple mémorisation.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R056",
+      "requirement": "Comparer chaque nouvelle version à une baseline fixe et à la meilleure version précédente.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R057",
+      "requirement": "Mesurer succès, régression, durée, coût, récupération et qualité par domaine séparément.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R058",
+      "requirement": "Éviter un score global qui masque un échec grave ; définir des seuils éliminatoires.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R059",
+      "requirement": "Détecter le « benchmark gaming » : tests modifiés, cas retirés, fuites et critères assouplis.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R060",
+      "requirement": "Conserver un journal de progrès avec intervalle d'incertitude et contre-exemples.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R061",
+      "requirement": "Boucler : défaut → hypothèse → patch/variante isolée → tests → décision → mémoire.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R062",
+      "requirement": "Autoriser l'amélioration autonome des fiches, procédures, paramètres et prompts locaux.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R063",
+      "requirement": "Autoriser la génération de scripts/artefacts expérimentaux dans un bac à sable.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R064",
+      "requirement": "Désactiver par défaut l'auto-modification de la branche principale et des règles de sécurité.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R065",
+      "requirement": "Séparer générateur, exécuteur, évaluateur et gestionnaire de promotion.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R066",
+      "requirement": "Utiliser des vérifications déterministes indépendantes du modèle générateur.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R067",
+      "requirement": "Exiger rollback, preuves, compatibilité et absence de régression pour promouvoir.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R068",
+      "requirement": "Limiter les tentatives ; arrêter les cycles stagnants ou qui se dégradent.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R069",
+      "requirement": "Conserver les modifications refusées avec leur cause et éviter de les réessayer à l'identique.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R070",
+      "requirement": "Démontrer une amélioration sur une tâche nouvelle, pas seulement sur le cas d'entraînement.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R071",
+      "requirement": "Implémenter une machine à états persistante avec transitions valides et journalisées.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R072",
+      "requirement": "Détecter dépendances circulaires, verrous, doubles exécutions et tâches orphelines.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R073",
+      "requirement": "Garantir pause, reprise, annulation, timeout et retry borné avec backoff.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R074",
+      "requirement": "Exposer modes MANUAL, SCHEDULED, IDLE, PAUSED et STOPPED.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R075",
+      "requirement": "Respecter budgets CPU/GPU/RAM/disque ; un seul travail GPU lourd par défaut.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R076",
+      "requirement": "Suspendre les travaux non urgents lorsque l'utilisateur sollicite fortement le PC.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R077",
+      "requirement": "Tester le mode autonome court avant toute session longue ; ne pas l'activer en secret.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R078",
+      "requirement": "Appliquer permissions minimales, chemins autorisés, protection des secrets et arrêt d'urgence.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R079",
+      "requirement": "Interdire publication, dépenses, exécution Web non fiable et modification du jeu principal.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R080",
+      "requirement": "Vérifier qu'une panne ou un crash n'endommage pas le projet ni les expériences validées.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R081",
+      "requirement": "Auditer et préserver les contrats MCP existants ; tester la découverte réelle des outils.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R082",
+      "requirement": "Exposer mémoire, mission, expérience, feedback, statut, preuves, annulation et reprise via MCP.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R083",
+      "requirement": "Tester un client MCP réel avec entrées valides, invalides, timeout et reconnexion.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R084",
+      "requirement": "Tester Claude Desktop réellement si accessible ; sinon indiquer « non vérifié ».",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R085",
+      "requirement": "Tester Blender réel : génération, export, relecture, mesures et échec contrôlé.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R086",
+      "requirement": "Tester Roblox uniquement dans une copie de scène, avec lecture, modification, vérification et rollback.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R087",
+      "requirement": "Ne jamais assimiler un export Blender à une validation du rendu Roblox.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R088",
+      "requirement": "Router les tâches déterministes vers Python et les raisonnements locaux vers Ollama si pertinent.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R089",
+      "requirement": "Comparer missions avec/sans récupération mémoire : appels, tokens observables, temps et qualité.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R090",
+      "requirement": "Ne jamais déduire le pourcentage de quota Claude de simples estimations de tokens.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R091",
+      "requirement": "Fournir un point d'entrée unique de diagnostic et de validation, compatible avec l'architecture existante.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R092",
+      "requirement": "Faire lancer par Codex lui-même tests statiques, unitaires, intégration et bout en bout accessibles.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R093",
+      "requirement": "Conserver et réexécuter la suite existante ; référence historique : 492 tests, 8 ignorés.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R094",
+      "requirement": "Répéter les tests critiques, notamment test_second_cycle_continues_without_repeating.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R095",
+      "requirement": "Injecter en environnement isolé : crash, réseau absent, Ollama arrêté, cache corrompu, disque plein simulé.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R096",
+      "requirement": "Tester qu'un défaut volontairement introduit est détecté et bloque la promotion.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R097",
+      "requirement": "Générer rapports JSON et HTML locaux avec commandes, logs, versions, résultats et preuves.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R098",
+      "requirement": "Exiger pour chaque P0 un scénario d'acceptation et un résultat PASS/FAIL/BLOCKED explicite.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R099",
+      "requirement": "Exécuter une démo complète : sapin enneigé → deux variantes → feedback « branches trop plates » → correction → mémoire → récupération MCP ; tester Roblox/Claude si accessibles.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R100",
+      "requirement": "Livrer un état utilisable, la commande de démarrage, les preuves, les limites et les prochaines actions ; ne jamais annoncer « 100 % prêt » sans les tests réels requis.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R101",
+      "requirement": "Avant tout développement, exécuter un diagnostic non destructif de Python, dépendances, chemins Windows, permissions, Ollama, MCP, Blender et accès Roblox ; conserver la sortie brute.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R102",
+      "requirement": "Vérifier l'environnement exact d'exécution de Codex : accès au dépôt, au terminal, au réseau, à l'interface graphique et aux applications ; signaler toute frontière inaccessible.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R103",
+      "requirement": "Créer un seul lanceur local documenté pour démarrer, arrêter et diagnostiquer L'Éponge ; ne pas exiger une succession de commandes manuelles.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R104",
+      "requirement": "Prévoir un mode doctor --json dont le code de sortie distingue prêt, dégradé et bloqué ; aucune erreur silencieuse.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R105",
+      "requirement": "Créer un orchestrateur de validation automatique qui exécute les contrôles dans l'ordre, sauvegarde les logs et ne masque jamais un code de sortie non nul.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R106",
+      "requirement": "Produire un manifeste de livraison contenant commit Git, versions d'outils, chemins d'artefacts, empreintes, tests, limitations et instructions de rollback.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R107",
+      "requirement": "Tester le lanceur sur un environnement propre ou une installation simulée propre ; détecter les dépendances implicites et chemins absolus invalides.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R108",
+      "requirement": "Vérifier que chaque commande documentée correspond à une commande réellement existante et qu'elle fonctionne dans l'environnement accessible.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R109",
+      "requirement": "Tester les scénarios d'arrêt brutal entre sauvegarde, mise à jour d'état et promotion ; imposer des écritures atomiques et une récupération vérifiée.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R110",
+      "requirement": "Ajouter un watchdog de tâches avec timeout, heartbeat, détection de blocage et terminaison des processus enfants dans le périmètre autorisé.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R111",
+      "requirement": "Interdire les promotions automatiques en présence de régressions critiques, données manquantes, résultats incertains ou tests non exécutés obligatoires.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R112",
+      "requirement": "Séparer strictement l'environnement de test du jeu publié ; utiliser une allowlist des chemins autorisés et vérifier le refus des chemins interdits.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R113",
+      "requirement": "Tester une simulation de panne de disque, réseau, Ollama, Blender et MCP sans détruire ni altérer l'installation réelle.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R114",
+      "requirement": "Exécuter un essai autonome borné de 30 à 60 minutes, avec plusieurs cycles et un rapport de consommation CPU/RAM/GPU/disque lorsque mesurable.",
+      "priority": "P1",
+      "implementation": "NOT_AUDITED_COMPLETE",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R115",
+      "requirement": "Mesurer le taux de réussite sur un ensemble fixe de scénarios, puis sur des scénarios tenus à l'écart ; signaler surapprentissage, fuite de données et progrès illusoires.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R116",
+      "requirement": "Définir des objectifs de service distincts : zéro perte de données lors des tests, zéro écriture non autorisée, 100 % des contrôles critiques applicables réussis, et taux de réussite opérationnel estimé avec incertitude.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R117",
+      "requirement": "Fournir un rapport quotidien lisible par l'utilisateur : découvertes, expériences, améliorations acceptées, échecs, ressources consommées et prochaines priorités.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R118",
+      "requirement": "Prévoir un mode dégradé utile si Claude, Roblox, Blender ou Internet sont absents ; aucune fonctionnalité ne doit être présentée comme validée dans un outil indisponible.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R119",
+      "requirement": "Exiger une démonstration réelle de bout en bout du chemin critique accessible ; si Claude Desktop ou Roblox nécessitent une action humaine, documenter exactement cette action minimale et conserver BLOCKED jusqu'à vérification.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R120",
+      "requirement": "Livrer seulement après exécution d'un contrôle final indépendant : tests, contrats d'acceptation, restauration, logs, commandes de démarrage et inventaire des blocages. Ne pas promettre zéro bug ni 99 % sans preuve.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R121",
+      "requirement": "Journal d'incidents persistant",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R122",
+      "requirement": "Contrat d'incident versionné",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R123",
+      "requirement": "Niveaux de gravité",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R124",
+      "requirement": "Dossier de réparation lisible",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R125",
+      "requirement": "Rapport machine pour Codex",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R126",
+      "requirement": "Diagnostic automatique",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R127",
+      "requirement": "Déduplication et causalité",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R128",
+      "requirement": "Auto-réparation limitée",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R129",
+      "requirement": "Surveillance et watchdog",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R130",
+      "requirement": "Validation de réparation",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R131",
+      "requirement": "Bilan avant retour utilisateur",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R132",
+      "requirement": "Interface sans PowerShell répétitif",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R133",
+      "requirement": "Tests obligatoires de la boîte noire",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R134",
+      "requirement": "Conditions d'acceptation",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R135",
+      "requirement": "Comportement en cas d'échec du rapporteur",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R136",
+      "requirement": "Définition du succès de la relève",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R137",
+      "requirement": "Préflight de mise en service",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R138",
+      "requirement": "Consentement explicite au fonctionnement autonome",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R139",
+      "requirement": "Démarrage conditionnel après livraison",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R140",
+      "requirement": "GitHub n'est pas un ordonnanceur",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R141",
+      "requirement": "Découverte et configuration Obsidian",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R142",
+      "requirement": "Export Obsidian sûr",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R143",
+      "requirement": "Synchronisation bidirectionnelle contrôlée",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R144",
+      "requirement": "Graphe Obsidian et qualité",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R145",
+      "requirement": "File de travail prioritaire nocturne",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R146",
+      "requirement": "Exécution sans Roblox Studio",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R147",
+      "requirement": "Exécution sans Claude/Codex",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R148",
+      "requirement": "Gestion des sessions Windows",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R149",
+      "requirement": "Échéance de bilan configurable",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R150",
+      "requirement": "Rapport de matinée actionnable",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R151",
+      "requirement": "Vérification de présence de vie",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R152",
+      "requirement": "Gestion du budget et de l'énergie",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R153",
+      "requirement": "Validation réelle du premier cycle",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R154",
+      "requirement": "Dossier de blocage pour Codex",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R155",
+      "requirement": "Livrable de mise en service sans PowerShell répétitif",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R156",
+      "requirement": "Registre des incidents normalisé",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R157",
+      "requirement": "Diagnostic différentiel avant réparation",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R158",
+      "requirement": "Politique de réparation à trois niveaux",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R159",
+      "requirement": "Réparation des connecteurs de recherche",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R160",
+      "requirement": "Réparation de la mémoire et d'Obsidian",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R161",
+      "requirement": "Réparation du laboratoire Python",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R162",
+      "requirement": "Réparation Blender versionnée",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R163",
+      "requirement": "Diagnostic Roblox Studio et pont MCP",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R164",
+      "requirement": "Réparation des procédures et scripts",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R165",
+      "requirement": "Contrôle de non-régression indépendant",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R166",
+      "requirement": "Détection de faux progrès",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R167",
+      "requirement": "Généralisation inter-domaines",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R168",
+      "requirement": "Surveillance et auto-récupération",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R169",
+      "requirement": "Tests de panne contrôlée",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R170",
+      "requirement": "Validation des ressources nocturnes",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R171",
+      "requirement": "Mise en service sans commandes manuelles répétées",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R172",
+      "requirement": "Contrat de disponibilité à 11 h",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R173",
+      "requirement": "Auto-triage avant escalade Codex",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R174",
+      "requirement": "Dossier de réparation prêt à exécuter",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R175",
+      "requirement": "Test final de réduction de dépendance à Codex",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R176",
+      "requirement": "Superviseur hors processus et hors IA. Fournir un petit programme autonome, testable sans Ollama ni agent principal, qui observe PID, heartbeat, progression et exit codes. Il ne doit importer aucun module critique du cœur qu'il surveille. Le lancer uniquement après accord sur le mode persistant.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R177",
+      "requirement": "Chaîne de récupération en trois niveaux. (a) redémarrage borné du worker, (b) bascule vers dernière version saine signée/empreintée, (c) arrêt sûr et diagnostic hors ligne. Un échec du réparateur ne doit pas entraîner une boucle infinie ; plafonner les redémarrages et activer un coupe-circuit.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R178",
+      "requirement": "Images de restauration vérifiées. Avant chaque promotion, capturer versions, dépendances, configurations non secrètes, schémas et données critiques. Vérifier l'intégrité des sauvegardes par checksum et tester réellement une restauration sur copie jetable.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R179",
+      "requirement": "Transactions pour migrations et mises à jour. Toute évolution du schéma de mémoire, de file ou de configuration utilise un journal de migration, une copie et une procédure de retour arrière ; écriture atomique et verrouillage inter-processus.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R180",
+      "requirement": "Panne du système de réparation. Injecter une exception et un blocage dans le moteur de réparation lui-même ; prouver que le superviseur indépendant constate la panne, maintient les autres workers sûrs et produit un rapport sans appeler ce moteur.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R181",
+      "requirement": "Démarrage après crash. Tester coupure simulée au milieu d'une expérience, d'un export et d'un checkpoint. Au redémarrage, reprendre ou annuler sans duplications ni promotion d'artefact incomplet.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R182",
+      "requirement": "Inventaire des versions et capacités. À chaque lancement, relever versions disponibles de Python, Blender, Ollama, dépendances et ponts Roblox/MCP, puis tester les fonctionnalités effectivement disponibles ; ne pas inférer la compatibilité du seul numéro de version.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R183",
+      "requirement": "Adaptateurs isolés et versionnés. Séparer le cœur de la logique d'intégration ; définir interfaces, timeouts, codes d'erreur, fixtures et tests de contrat par adaptateur. Conserver un adaptateur précédemment validé comme repli quand c'est sûr.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R184",
+      "requirement": "Détection précoce des changements. Effectuer des smoke tests non destructifs avant chaque campagne ; désactiver uniquement la fonction incompatible, poursuivre les autres, enregistrer la différence de contrat et la reproduction minimale.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R185",
+      "requirement": "MCP/Claude : récupération graduée. Tester serveur, transport, authentification, schéma et appels de lecture ; reconnecter avec backoff uniquement sur erreurs transitoires. Si Claude est absent, continuer les cycles locaux. Ne jamais contourner une autorisation ou demander/collecter un secret dans un journal.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R186",
+      "requirement": "Roblox : bac à sable obligatoire. Toute expérimentation modifiant une scène passe par une copie dédiée avec identifiant vérifié ; refus explicite si la cible est le projet principal ou publié. Test réel Studio uniquement si une session graphique, le plugin et les permissions sont présents. Sinon BLOCKED, avec tâche différée.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R187",
+      "requirement": "Blender : matrice de tests. Vérifier lancement headless, chargement scène jetable, exécution script, sauvegarde, réouverture, export et contrôle de maillage. Sur erreur d'API, essayer uniquement des chemins de compatibilité connus et testés ; ne jamais installer une version ou un script distant automatiquement.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R188",
+      "requirement": "Tests de contrat après mise à jour. Sur environnement de test, injecter réponses MCP malformées, indisponibilité de Studio, changements de signature Blender et échec d'export ; prouver la dégradation partielle sans corruption et la création d'un correctif candidat si admissible.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R189",
+      "requirement": "Capacités du modèle mesurées. Tester localement les modèles disponibles sur des tâches courtes de planification, extraction, critique et génération de script. Enregistrer erreurs, temps et taux de validation ; ne pas supposer qu'un modèle sait programmer correctement parce qu'il produit du texte plausible.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R190",
+      "requirement": "Escalade interne sans Codex. Pour un échec : décomposition en sous-problèmes → recherche dans mémoire → récupération d'exemples validés → variante indépendante → test exécutable → critique indépendante. Limiter profondeur, tentatives et budget ; après épuisement, signaler UNRESOLVED.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R191",
+      "requirement": "Pas de faux apprentissage. Améliorer les procédures, prompts locaux, paramètres et corpus validé ; ne jamais prétendre que les poids d'Ollama ont été réentraînés sans véritable procédure d'entraînement et mesure.",
+      "priority": "P0",
+      "implementation": "IMPLEMENTED",
+      "validation": "PASS",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "No universal reliability inference."
+    },
+    {
+      "id": "R192",
+      "requirement": "Métavision : état de croyance versionné. Conserver hypothèses, preuves, contre-exemples, confiance calibrée, coût de vérification et dernière validation. Toute nouvelle observation peut diminuer la confiance, invalider une méthode ou ouvrir une expérience ; préserver la provenance.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R193",
+      "requirement": "Priorisation du temps disponible. Ordonnancer les tâches par utilité attendue pour la forêt, gain d'information, probabilité de réussite, coût CPU/GPU, durée, risque et dépendances. Réévaluer à chaque cycle, sans scruter Internet en continu ni épuiser les ressources.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R194",
+      "requirement": "Exploration contrôlée et arrêt intelligent. Réserver une part configurable aux pistes nouvelles, mais arrêter une branche stérile selon critères documentés. Reprendre les tâches interrompues grâce aux checkpoints. Dédupliquer les expériences et conserver les échecs informatifs.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R195",
+      "requirement": "Évaluation aveugle des améliorations. Conserver un benchmark gelé inaccessible au générateur de variantes, avec cas inédits et critères de réussite. Refuser toute promotion qui régresse sur la sécurité, la stabilité, la reproductibilité ou le résultat artistique mesurable.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R196",
+      "requirement": "Objectifs artistiques explicites. Transformer « forêt réaliste, nocturne, enneigée, torche » en critères observables : densité, silhouettes, variété, lisibilité du chemin, textures, budget triangles, temps image, cohérence visuelle. Garder les préférences subjectives comme décisions utilisateur, pas comme métriques inventées.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R197",
+      "requirement": "Comparaisons A/B reproductibles. Pour chaque variante, enregistrer seed, paramètres, version Blender/Roblox, captures si possibles, métriques et différences ; ne pas déclarer une variante « plus belle » sur la seule opinion d'un modèle local.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R198",
+      "requirement": "Préférences utilisateur comme contraintes. Permettre un retour simple (« trop plat », « trop clair », « trop répétitif ») ; transformer en hypothèses testables et mémoriser les choix, sans modifier automatiquement le jeu principal.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R199",
+      "requirement": "Mémoire résistante à la corruption. Écriture atomique, snapshots, checksums, validation du schéma, détection de doublons, restauration sur copie et contrôle des liens Obsidian. Interdire la suppression automatique de notes personnelles.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R200",
+      "requirement": "Contradictions et obsolescence. Ne pas écraser silencieusement une fiche : relier les versions, dater les sources, distinguer VERIFIED, HYPOTHESIS, REJECTED, STALE. Réévaluer lorsqu'une API ou une mesure change.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R201",
+      "requirement": "Restauration Obsidian de bout en bout. Simuler fichier corrompu, conflit de nom, coupure pendant écriture et coffre indisponible. Vérifier qu'aucune note utilisateur n'est perdue et que les exportations reprennent sans doublon.",
+      "priority": "P1",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R202",
+      "requirement": "Préflight Windows non destructif. Vérifier chemin, droits réels, espace disque, verrouillage session, veille, GPU, processus concurrents et ports. Décrire exactement les limitations de l'exécution en session verrouillée ou déconnectée ; ne pas modifier l'alimentation Windows sans accord.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R203",
+      "requirement": "Aucune élévation silencieuse. Si permission, installation, pare-feu, secret, connexion à un compte ou planificateur Windows requiert l'utilisateur, suspendre cette opération, conserver le reste du service et générer UNE demande d'autorisation précise. Ne pas contourner les protections.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R204",
+      "requirement": "Patchs autonomes à privilèges minimaux. Autoriser uniquement une liste explicite de fichiers/scripts non sensibles dans un worktree Git isolé. Refuser l'auto-modification des garde-fous, du superviseur, des permissions, de la politique d'approbation et des données du jeu principal.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R205",
+      "requirement": "Pipeline de promotion strict. Un patch candidat doit passer formatage, typage si applicable, tests unitaires, intégration, scénarios de panne, benchmark gelé, contrôle de sécurité, test sur copie et sauvegarde. Promotion seulement si changement faible risque, réversible et explicitement préautorisé ; sinon préparer un dossier à approuver.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R206",
+      "requirement": "Rollback automatique mesuré. Après promotion, canary limité et surveillance de métriques ; si seuil de régression franchi, revenir automatiquement à la dernière version saine, mettre le patch en quarantaine et créer un incident.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R207",
+      "requirement": "Gestion de la dette technique. Maintenir un registre de correctifs candidats refusés, incompatibilités non résolues et interventions nécessitant autorisation. Ne pas répéter la même tentative indéfiniment ni cacher les erreurs derrière des retries.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R208",
+      "requirement": "Huit scénarios d'acceptation obligatoires. Tester : (1) panne du réparateur ; (2) changement d'API Blender/Roblox simulé ; (3) MCP/Claude absent ; (4) modèle Ollama insuffisant ; (5) appréciation artistique ambiguë ; (6) corruption mémoire/Obsidian ; (7) refus de permission Windows ; (8) patch de code risqué. Pour chacun : preuve de diagnostic, comportement sûr, continuité partielle, récupération quand possible et escalade explicite quand nécessaire.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R209",
+      "requirement": "Essai autonome et mesure. Exécuter une campagne locale bornée (30–60 minutes si ressources et temps disponibles), avec au moins une vraie recherche, une vraie écriture de fiche en coffre test, une expérience Python, une expérience Blender si installé et un test Studio si accessible. Produire chronologie, résultats, temps actif, consommation, incidents et preuve d'arrêt/reprise. Ne jamais simuler une intégration réelle pour valider le scénario.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "BLOCKED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    },
+    {
+      "id": "R210",
+      "requirement": "Livraison unique et décision honnête. Codex exécute lui-même les tests et fournit lanceur Windows, HEALTH_REPORT.md, REPAIR_BACKLOG.md, CODEX_HANDOFF.md, MORNING_BRIEF.md, résultats machine-readable et une matrice PASS / FAIL / BLOCKED / NOT_TESTED pour les exigences critiques. Afficher séparément « implémenté », « testé en simulation », « validé sur outils réels », « actif en autonomie ». Ne jamais annoncer « prêt à travailler toute la nuit » sans premier cycle réel, budget, autorisation et heartbeat vérifié.",
+      "priority": "P0",
+      "implementation": "PARTIAL",
+      "validation": "NOT_TESTED",
+      "scope": "Cloud Linux software and isolated artifacts only; Windows user PC/Studio/hidden holdout not implied",
+      "evidence": [
+        "REPORT.md",
+        "CAPABILITY_MATRIX.md",
+        "proofs/validation-summary.json"
+      ],
+      "remaining": "See ten-component matrix and BLACK BOX; compound clauses remain unaccepted where not demonstrated."
+    }
+  ],
+  "overall": "PARTIAL",
+  "counts": {
+    "PASS": 21,
+    "FAIL": 0,
+    "BLOCKED": 75,
+    "NOT_TESTED": 114
+  },
+  "rule": "PASS only for the scoped complete clauses listed; no scope transfer from cloud to user Windows or from software to game. NOT_TESTED includes partially implemented compound clauses."
+}

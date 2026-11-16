@@ -2,6 +2,12 @@
 
 ## V11.2 — Project Intelligence
 
+Noyau borné et fiabilité de l’autocorrection (contrat V6.4) :
+[rapport actuel](docs/v112/operations/REPORT.md) ·
+[audit des dix composants](docs/v112/operations/CAPABILITY_MATRIX.md) ·
+[lanceur et limites Windows](docs/v112/operations/AUTONOMY_RUNBOOK.md).
+Le menu `Eponge.cmd` est préparé ; son exécution sur le PC Windows reste à vérifier.
+
 Recherche en branches réutilisables, lacunes explicites et bibliothèque
 principale/réserve/archives : [rapport et mesures actuels](docs/v112/research/REPORT.md) ·
 [Windows/MCP et rollback](docs/v112/research/WINDOWS.md) ·

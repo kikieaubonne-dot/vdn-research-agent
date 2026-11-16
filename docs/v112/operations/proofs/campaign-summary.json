@@ -1,0 +1,83 @@
+{
+  "schema": "vdn.operations-delivery/1",
+  "generated_at_local": "2026-11-17T00:14:44.763015+01:00",
+  "base_commit": "c93fe9bc944a7255752a7eded590ad039f568145",
+  "global_state": "PARTIAL",
+  "pilot_status": "STOPPED",
+  "pilot_wall_s": 1800.3590278625488,
+  "pilot_phase_wall_s": 38.31428824001341,
+  "pilot_CPU_self_s": 21.62585328,
+  "pilot_last_rss_bytes": 33423360,
+  "GPU_usage": "NOT_MEASURED",
+  "pilot_initial_ledger": {
+    "date": "2026-11-16",
+    "items": 22,
+    "fetch": 25,
+    "http_calls": 27
+  },
+  "pilot_final_ledger": {
+    "date": "2026-11-16",
+    "items": 28,
+    "fetch": 35,
+    "http_calls": 31
+  },
+  "real_HTTP_calls": 4,
+  "source_restore_files_verified": 553,
+  "guarded_run_state": "STOPPED",
+  "guarded_run_attempts": 1,
+  "guarded_run_wall_s": 12.49367070198059,
+  "guarded_steps": {
+    "blender_lab": {
+      "checkpoint_state": "DONE",
+      "outcome": "SUCCEEDED"
+    },
+    "cards": {
+      "checkpoint_state": "DONE",
+      "outcome": "DOCUMENTARY_PREPARATIONS"
+    },
+    "mcp": {
+      "checkpoint_state": "DONE",
+      "outcome": "MCP_REAL_STDIO_VERIFIED"
+    },
+    "obsidian": {
+      "checkpoint_state": "DONE",
+      "outcome": "OBSIDIAN_SYNC_VERIFIED"
+    },
+    "python_lab": {
+      "checkpoint_state": "DONE",
+      "outcome": "SUCCESS"
+    },
+    "research": {
+      "checkpoint_state": "DONE",
+      "outcome": "OFFLINE_MEMORY_ONLY"
+    }
+  },
+  "caption_control": {
+    "before": {
+      "caption_facts": 10,
+      "facts_total": 20,
+      "cards": 5
+    },
+    "after": {
+      "caption_facts": 0,
+      "facts_total": 14,
+      "cards": 5
+    }
+  },
+  "old_packaging_incidents_retained": 2,
+  "old_runtime_status": "DEGRADED_STOPPED_ARCHIVE",
+  "revised_runtime": "all six task steps completed; current guard stopped normally",
+  "BlackBox_current_incidents": 9,
+  "network_programmatic_models_called": 0,
+  "Blender_actual": "4.3.2 generated primitives only",
+  "Windows_new_operations_tests": "NOT_TESTED",
+  "Claude_Desktop": "NOT_TESTED",
+  "Roblox_Studio": "BLOCKED",
+  "Blender_5_2": "BLOCKED",
+  "new_publication": false,
+  "morning_report": {
+    "at": "2026-11-17T11:00:00+01:00",
+    "kind": "one-time cloud report",
+    "startup_service_installed": false
+  }
+}
