@@ -1,0 +1,349 @@
+{
+  "_comment": "Hypotheses de decomposition du domaine, pas des connaissances verifiees. Ordre topologique : requires doit nommer un noeud precedent. Autres domaines : ajouter des profils apres evaluation locale.",
+  "profiles": [
+    {
+      "id": "pursuit_npc",
+      "triggers": [
+        "poursuivre",
+        "poursuit",
+        "poursuite",
+        "chase",
+        "pathfinding"
+      ],
+      "nodes": [
+        {
+          "id": "authority",
+          "query": "Roblox server NPC",
+          "requires": [],
+          "reason": "autorite serveur et etats candidats du PNJ"
+        },
+        {
+          "id": "perception",
+          "query": "NPC line sight",
+          "requires": [
+            "authority"
+          ],
+          "reason": "detection du joueur : comportement a definir et tester"
+        },
+        {
+          "id": "navigation",
+          "query": "Pathfinding blocked waypoint",
+          "requires": [
+            "authority"
+          ],
+          "reason": "navigation avec obstacles et echecs explicites"
+        },
+        {
+          "id": "pursuit",
+          "query": "Pathfinding moving target",
+          "requires": [
+            "perception",
+            "navigation"
+          ],
+          "reason": "cible mobile et sorties de poursuite"
+        },
+        {
+          "id": "validation",
+          "query": "NPC MicroProfiler replication",
+          "requires": [
+            "pursuit"
+          ],
+          "reason": "mesurer cout et coherence avec plusieurs clients"
+        }
+      ]
+    },
+    {
+      "id": "rig_diagnosis",
+      "triggers": [
+        "squelette",
+        "bones",
+        "os",
+        "rootpart"
+      ],
+      "nodes": [
+        {
+          "id": "import",
+          "query": "custom rig FBX import",
+          "requires": [],
+          "reason": "reproduire le defaut d import"
+        },
+        {
+          "id": "transforms",
+          "query": "RootPart bone offset",
+          "requires": [
+            "import"
+          ],
+          "reason": "verifier pose et transformations sans conclure a une cause certaine"
+        },
+        {
+          "id": "joints",
+          "query": "Attachment Motor6D rig",
+          "requires": [
+            "transforms"
+          ],
+          "reason": "identifier les liaisons du rig reel"
+        },
+        {
+          "id": "animation",
+          "query": "bone animation visual glitch",
+          "requires": [
+            "joints"
+          ],
+          "reason": "comparer repos et animation"
+        },
+        {
+          "id": "validation",
+          "query": "rig Studio Player test",
+          "requires": [
+            "animation"
+          ],
+          "reason": "reproduire et documenter dans les deux environnements"
+        }
+      ]
+    },
+    {
+      "id": "rigid_accessories",
+      "triggers": [
+        "bonnet",
+        "sacoche",
+        "accessory",
+        "accessories"
+      ],
+      "nodes": [
+        {
+          "id": "rig",
+          "query": "custom rig attachment",
+          "requires": [],
+          "reason": "identifier le rig et les points d attache"
+        },
+        {
+          "id": "type",
+          "query": "rigid layered accessory",
+          "requires": [
+            "rig"
+          ],
+          "reason": "choisir le type selon la deformation necessaire"
+        },
+        {
+          "id": "export",
+          "query": "Blender accessory export",
+          "requires": [
+            "type"
+          ],
+          "reason": "preparer le pipeline d import"
+        },
+        {
+          "id": "equip",
+          "query": "accessory attachment animation",
+          "requires": [
+            "export"
+          ],
+          "reason": "verifier alignement et animation"
+        },
+        {
+          "id": "replication",
+          "query": "accessory server replication",
+          "requires": [
+            "equip"
+          ],
+          "reason": "compatibilite multijoueur non etablie : test requis"
+        }
+      ]
+    },
+    {
+      "id": "snowy_tree",
+      "triggers": [
+        "sapin",
+        "epicea",
+        "spruce",
+        "pine",
+        "tree",
+        "arbre"
+      ],
+      "nodes": [
+        {
+          "id": "trunk",
+          "query": "tree trunk geometry",
+          "requires": [],
+          "reason": "geometrie de base manquante"
+        },
+        {
+          "id": "branches",
+          "query": "tree branch structure",
+          "requires": [
+            "trunk"
+          ],
+          "reason": "branches dependantes de la geometrie du tronc"
+        },
+        {
+          "id": "needles",
+          "query": "pine needles geometry",
+          "requires": [
+            "branches"
+          ],
+          "reason": "choisir la representation des aiguilles"
+        },
+        {
+          "id": "alpha",
+          "query": "foliage alpha cards",
+          "requires": [
+            "needles"
+          ],
+          "reason": "representation performante du feuillage"
+        },
+        {
+          "id": "uv",
+          "query": "foliage UV atlas",
+          "requires": [
+            "alpha"
+          ],
+          "reason": "UV necessaires aux textures du feuillage"
+        },
+        {
+          "id": "pbr",
+          "query": "SurfaceAppearance PBR textures",
+          "requires": [
+            "uv"
+          ],
+          "reason": "materiaux et contraintes moteur a documenter"
+        },
+        {
+          "id": "snow",
+          "query": "snow accumulation mesh",
+          "requires": [
+            "branches",
+            "pbr"
+          ],
+          "reason": "neige sur les surfaces de branches"
+        },
+        {
+          "id": "lod",
+          "query": "foliage LOD performance",
+          "requires": [
+            "alpha"
+          ],
+          "reason": "budget de rendu et niveaux de detail"
+        },
+        {
+          "id": "wind",
+          "query": "tree wind bones",
+          "requires": [
+            "branches"
+          ],
+          "reason": "animation du vent et rig de branches"
+        },
+        {
+          "id": "lighting",
+          "query": "night forest lighting",
+          "requires": [
+            "pbr"
+          ],
+          "reason": "tester le rendu des materiaux sous eclairage nocturne"
+        },
+        {
+          "id": "export",
+          "query": "Blender Roblox fbx export",
+          "requires": [
+            "uv"
+          ],
+          "reason": "compatibilite du pipeline Blender vers Roblox"
+        }
+      ]
+    },
+    {
+      "id": "snowy_forest",
+      "triggers": [
+        "forest",
+        "foret"
+      ],
+      "nodes": [
+        {
+          "id": "terrain",
+          "query": "terrain heightmap material",
+          "requires": [],
+          "reason": "socle et materiaux du terrain"
+        },
+        {
+          "id": "layout",
+          "query": "forest tree placement",
+          "requires": [
+            "terrain"
+          ],
+          "reason": "distribution des arbres et zones de parcours"
+        },
+        {
+          "id": "trees",
+          "query": "pine foliage cards",
+          "requires": [
+            "layout"
+          ],
+          "reason": "geometrie et feuillage du sapin"
+        },
+        {
+          "id": "materials",
+          "query": "SurfaceAppearance PBR textures",
+          "requires": [
+            "trees"
+          ],
+          "reason": "materiaux et textures"
+        },
+        {
+          "id": "snow",
+          "query": "snow accumulation mesh",
+          "requires": [
+            "materials"
+          ],
+          "reason": "neige sur les surfaces"
+        },
+        {
+          "id": "lighting",
+          "query": "night forest lighting",
+          "requires": [
+            "snow"
+          ],
+          "reason": "lecture nocturne du decor"
+        },
+        {
+          "id": "performance",
+          "query": "forest streaming LOD",
+          "requires": [
+            "trees"
+          ],
+          "reason": "niveaux de detail et budget de rendu"
+        },
+        {
+          "id": "export",
+          "query": "Blender Roblox fbx export",
+          "requires": [
+            "trees"
+          ],
+          "reason": "pipeline de conversion"
+        },
+        {
+          "id": "collision",
+          "query": "forest MeshPart collision",
+          "requires": [
+            "terrain"
+          ],
+          "reason": "collisions et contraintes de deplacement"
+        },
+        {
+          "id": "wind",
+          "query": "tree wind bones",
+          "requires": [
+            "trees"
+          ],
+          "reason": "vent et animation"
+        },
+        {
+          "id": "audio",
+          "query": "spatial audio forest",
+          "requires": [
+            "layout"
+          ],
+          "reason": "ambiance sonore spatiale"
+        }
+      ]
+    }
+  ]
+}

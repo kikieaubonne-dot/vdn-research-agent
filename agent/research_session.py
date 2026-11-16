@@ -67,13 +67,18 @@ class ResearchSessions:
         cfg['queue'].update(max_depth=limits['max_depth'],max_size=limits['max_branches'],max_attempts=limits['max_attempts'])
         return ResearchQueue(self.root,cfg,recover=recover,state_dir=self.folder(state['id']))
 
-    def prepare(self,question,topic='spruce',*,apply=False,session_id=None):
+    def prepare(self,question,topic='spruce',*,apply=False,session_id=None,plan_nodes=None):
         string(question,'question');cfg=config(self.root);base=load_config(self.root)
         allowed=ResearchQueue(self.root,recover=False).topics
         if topic not in allowed:raise ValueError('unknown research topic')
         limits={**cfg['research'],'max_depth':min(cfg['research']['max_depth'],base['queue']['max_depth']),
                 'max_branches':min(cfg['research']['max_branches'],base['queue']['max_size'])}
-        nodes=decomposition.describe(self.root,question)['nodes']
+        nodes=decomposition.describe(self.root,question)['nodes'] if plan_nodes is None else plan_nodes
+        if not isinstance(nodes,list):raise ValueError('plan nodes must be a list')
+        seen=set()
+        for n in nodes:
+            if n['id'] in seen or any(d not in seen for d in n.get('requires',[])):raise ValueError('invalid research dependency order')
+            seen.add(n['id'])
         if nodes and limits['max_depth']==0:nodes=[]
         if len(nodes)>base['queue']['max_plan_nodes']:raise ValueError('decomposition exceeds global plan budget')
         if len(nodes)+1>limits['max_branches']:raise ValueError('decomposition exceeds branch budget')
@@ -97,14 +102,14 @@ class ResearchSessions:
                 parent['status']='skipped';keys={}
                 for n in nodes:
                     deps=[keys[d] for d in n.get('requires',[])]
-                    target=q.best_topic(n['query'],topic)
-                    ok,why=q.add(target,n['query'],parent['priority'],origin='decomposition',depth=1,parent=parent['key'],reason=n['reason'],dependencies=deps)
+                    target=n.get('topic') or q.best_topic(n['query'],topic)
+                    ok,why=q.add(target,n['query'],n.get('priority',parent['priority']),origin='decomposition',depth=1,parent=parent['key'],reason=n['reason'],dependencies=deps)
                     if not ok:raise ValueError(why)
                     keys[n['id']]=item_key(target,n['query'])
             q.save();self.save(state)
             return state
 
-    def run(self,sid,*,apply=False,allow_network=False,provs=None,research_fn=None):
+    def run(self,sid,*,apply=False,allow_network=False,provs=None,research_fn=None,followup_fn=None,collect_existing=False):
         state=self.get(sid)
         if not apply:return {'state':'simulation','session':state,'queue':self.queue(state,False).summary()}
         cfg=config(self.root);limits=state['limits']
@@ -201,7 +206,7 @@ class ResearchSessions:
                         guard.check()
                         refs=[p for p in found['procedures'] if p['candidate_steps'] and p['ranking']['coverage']==1 and p['compatibility']['scope']!='other_engine']
                         stats={'created':0,'created_notes':[],'errors':[]}
-                        if not refs and allow_network:
+                        if allow_network and (not refs or collect_existing):
                             from agent.run import research
                             fn=research_fn or research
                             stats=fn(self.root,max_queries=1,per_source=2,max_fetch=min(4,load_config(self.root)['daily']['max_fetch']-daily['fetch']),
@@ -223,10 +228,12 @@ class ResearchSessions:
                         children=[]
                         if item['depth']<limits['max_depth'] and stagnant<limits['stagnation_limit']:
                             proposals=[]
-                            for ref in refs:
-                                note=engine.get_knowledge(ref['note_id'])
-                                proposals+=followups_for_note(self.root/note['path'],item['query'],2)
-                            if not refs:proposals=[{'query':planner.short(item['query'],3)+' tutorial','reason':'no attributed actionable evidence for this branch'}]
+                            if followup_fn is not None:proposals=followup_fn(item,refs,stats)
+                            else:
+                                for ref in refs:
+                                    note=engine.get_knowledge(ref['note_id'])
+                                    proposals+=followups_for_note(self.root/note['path'],item['query'],2)
+                                if not refs:proposals=[{'query':planner.short(item['query'],3)+' tutorial','reason':'no attributed actionable evidence for this branch'}]
                             for proposal in proposals[:2]:
                                 if len(q.data['items'])>=limits['max_branches']:break
                                 target=q.best_topic(proposal['query'],item['topic'])
@@ -246,6 +253,10 @@ class ResearchSessions:
                 state['integration_failures']=state.get('integration_failures',0)+1
                 state['failures']=(state.get('failures',[])+[{'tick':state['ticks'],'error':state['error'],'at':dt.datetime.now(dt.timezone.utc).isoformat()}])[-64:]
                 settle_active({'kind':'collection_or_local_error','reason':state['error']})
+                if followup_fn is not None and active is not None and active['status']=='failed' and active['depth']<limits['max_depth']:
+                    for proposal in followup_fn(active,[],{'errors':[state['error']],'created':0})[:2]:
+                        if len(q.data['items'])>=limits['max_branches']:break
+                        q.add(active['topic'],proposal['query'],active['priority'],origin='ocean_gap',depth=active['depth']+1,parent=active['key'],reason=proposal['reason'])
             finally:
                 elapsed=time.monotonic()-start
                 state['compute_reserved_s']-=max(0,reserve-min(reserve,elapsed))

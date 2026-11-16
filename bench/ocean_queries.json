@@ -1,0 +1,13 @@
+{
+  "protocol":"Development evaluation, not a blind holdout. Target is the new source-grounded collision candidate on the same corpus for both facades.",
+  "cases":[
+    {"category":"user_problem","q":"Pourquoi mon personnage se bloque contre les sapins ?","expect_collision":true},
+    {"category":"synonym","q":"Mon personnage est coincé près des épicéas","expect_collision":true},
+    {"category":"technical","q":"MeshPart CollisionFidelity CanCollide","expect_collision":true},
+    {"category":"english","q":"Forest collision fidelity performance","expect_collision":true},
+    {"category":"version","q":"CollisionFidelity Roblox compatible Blender 5.2 ?","expect_collision":true},
+    {"category":"unsupported_measurement","q":"Quel FPS exact donne le modèle B3 ?","expect_abstention":true},
+    {"category":"outside","q":"Recette de croissant au beurre","expect_abstention":true},
+    {"category":"outside","q":"Calculer les orbites de Jupiter","expect_abstention":true}
+  ]
+}

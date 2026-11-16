@@ -41,7 +41,8 @@ DEVFORUM_ALLOWED = re.compile(r"^/(t/[^/]+/\d+(?:\.json)?|t/\d+\.json|sitemap[^/
 
 
 class FetchError(Exception):
-    pass
+    def __init__(self,message,*,status=None):
+        super().__init__(message);self.status=status
 
 
 def validate_url(url, extra_hosts=()):
@@ -90,10 +91,10 @@ def canonical_url(url: str) -> str:
 
 
 def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries: int = 2, extra_headers=None,
-             allow_extra_hosts=()) -> str:
+             allow_extra_hosts=(),opener=None,use_env_auth=True) -> str:
     host = validate_url(url, allow_extra_hosts)
     headers = {"User-Agent": USER_AGENT, "Accept": accept}
-    if host == "api.github.com" and os.getenv("GITHUB_TOKEN"):
+    if use_env_auth and host == "api.github.com" and os.getenv("GITHUB_TOKEN"):
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     headers.update(extra_headers or {})
     last = None
@@ -102,7 +103,7 @@ def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries:
             timeout = budget.request(20)
             req = Request(url, headers=headers)
             req.vdn_extra_hosts = allow_extra_hosts
-            with urlopen(req, timeout=timeout) as r:
+            with (opener or urlopen)(req, timeout=timeout) as r:
                 final = (urlparse(r.geturl()).hostname or "").lower()
                 if final not in ALLOWED_HOSTS | set(allow_extra_hosts):
                     raise FetchError(f"redirection hors liste : {final}")
@@ -121,7 +122,7 @@ def http_get(url: str, accept: str = "*/*", max_bytes: int = MAX_BYTES, retries:
                 wait = int(e.headers.get("Retry-After", "0") or 0) or 3 * (attempt + 1)
                 budget.pause(min(wait, 30))
                 continue
-            raise FetchError(f"HTTP {e.code} sur {host}") from e
+            raise FetchError(f"HTTP {e.code} sur {host}",status=e.code) from e
         except (URLError, TimeoutError) as e:
             last = e
             if attempt < retries:

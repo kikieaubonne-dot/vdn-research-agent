@@ -1,0 +1,59 @@
+{
+  "_comment": "VDN V5.5 - garde-fous du mode autonome. Toutes les limites sont des plafonds durs ; rien ne tourne sans fin.",
+  "version": 1,
+  "cycle": {
+    "max_items": 4,
+    "time_budget_s": 1200,
+    "per_source": 4,
+    "max_fetch_per_item": 8,
+    "pause_s": 1.0,
+    "max_http_calls": 100
+  },
+  "daily": {
+    "max_items": 40,
+    "max_fetch": 300,
+    "max_http_calls": 600
+  },
+  "queue": {
+    "max_size": 400,
+    "max_depth": 2,
+    "max_children_per_note": 3,
+    "max_attempts": 3,
+    "requery_after_days": 14,
+    "stale_running_after_s": 7200,
+    "max_children_per_item": 6,
+    "stagnation_limit": 2,
+    "max_plan_nodes": 12
+  },
+  "lock": {
+    "stale_after_s": 7200
+  },
+  "excluded_terms": [
+    "brainrot",
+    "skibidi",
+    "robux",
+    "currency",
+    "coins",
+    "gems",
+    "monetization",
+    "monetisation",
+    "gamepass",
+    "game pass",
+    "developer product",
+    "premium payouts",
+    "marketing",
+    "advertising",
+    "sponsor",
+    "influencer",
+    "simulator",
+    "tycoon",
+    "clicker",
+    "rng",
+    "pet",
+    "pets",
+    "obby",
+    "ugc sale",
+    "trading",
+    "admin commands"
+  ]
+}

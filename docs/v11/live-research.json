@@ -1,0 +1,29 @@
+{
+  "scope": "REAL bounded agent HTTP via explicitly trusted environment proxy; no model or Roblox execution.",
+  "session_id": "ae390b30-b9c5-403d-b9ad-e8d7c20371d0",
+  "http_reservations": 10,
+  "ticks": 4,
+  "current_state": "READY",
+  "historical_errors_retained": [
+    {
+      "at": "2026-11-16T06:16:06.163733+00:00",
+      "error": "TypeError: HTTPSConnection.__init__() got an unexpected keyword argument 'check_hostname'",
+      "tick": 1
+    },
+    {
+      "at": "2026-11-16T06:16:46.144272+00:00",
+      "error": "ValueError: research source error; inspect last_collection.errors",
+      "tick": 2
+    }
+  ],
+  "source_documents_cached": 3,
+  "new_candidate_ids": [
+    "vdn-ocean-536271fc132120ff7ee2"
+  ],
+  "truth_verified": false,
+  "caveat": "Development probe included initial direct-transport errors and rejected image links before fixes; counters were not reset. Windows private session and B3/C1 assets absent.",
+  "published_candidate_ids": [
+    "vdn-ocean-54fe16e8e5a3e6ea5304"
+  ],
+  "candidate_identity_note": "Release identity includes source snapshot hashes; original live prototype trace IDs retained."
+}

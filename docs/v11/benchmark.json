@@ -1,0 +1,223 @@
+{
+  "schema": "vdn.ocean-evaluation/11",
+  "protocol": "Development evaluation, not a blind holdout. Target is the new source-grounded collision candidate on the same corpus for both facades.",
+  "same_corpus": true,
+  "source_markdown_count": 111,
+  "measurements": {
+    "V10": {
+      "retrieval_cases": 5,
+      "hit_at_3": 0.4,
+      "mrr": 0.4,
+      "mean_elapsed_s": 0.4715639158744125
+    },
+    "V11": {
+      "retrieval_cases": 5,
+      "hit_at_3": 1.0,
+      "mrr": 1.0,
+      "mean_elapsed_s": 0.8873682762505268
+    }
+  },
+  "outside_brief_abstention": 1.0,
+  "structural_rubric": [
+    {
+      "id": "vdn-ocean-54fe16e8e5a3e6ea5304",
+      "literal_claims": 1,
+      "source_urls": 1,
+      "proposed_steps": 7,
+      "project_context_present": true,
+      "validation_protocol_items": 3,
+      "unknowns_explicit": true,
+      "human_usefulness_review": "not performed",
+      "truth_verified": false
+    }
+  ],
+  "details": [
+    {
+      "category": "user_problem",
+      "q": "Pourquoi mon personnage se bloque contre les sapins ?",
+      "expect_collision": true,
+      "ranks": {
+        "V10": null,
+        "V11": 1
+      },
+      "ids": {
+        "V10": [
+          "vdn-939f03f673d6",
+          "vdn-9be57b985b77",
+          "vdn-4b3e4c63ddab",
+          "vdn-a97042f85138",
+          "vdn-4782fa1e3cf5"
+        ],
+        "V11": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ]
+      },
+      "ocean_brief_abstained": false,
+      "truth_verified": false,
+      "version_constraints_exposed": true
+    },
+    {
+      "category": "synonym",
+      "q": "Mon personnage est coincé près des épicéas",
+      "expect_collision": true,
+      "ranks": {
+        "V10": null,
+        "V11": 1
+      },
+      "ids": {
+        "V10": [
+          "vdn-9be57b985b77",
+          "vdn-4b3e4c63ddab",
+          "vdn-a97042f85138",
+          "vdn-4782fa1e3cf5",
+          "vdn-319f4403f590"
+        ],
+        "V11": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ]
+      },
+      "ocean_brief_abstained": false,
+      "truth_verified": false,
+      "version_constraints_exposed": true
+    },
+    {
+      "category": "technical",
+      "q": "MeshPart CollisionFidelity CanCollide",
+      "expect_collision": true,
+      "ranks": {
+        "V10": 1,
+        "V11": 1
+      },
+      "ids": {
+        "V10": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "vdn-5aa463725976",
+          "vdn-4782fa1e3cf5",
+          "vdn-564f653d5fbf",
+          "vdn-93c1fa214202"
+        ],
+        "V11": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ]
+      },
+      "ocean_brief_abstained": false,
+      "truth_verified": false,
+      "version_constraints_exposed": true
+    },
+    {
+      "category": "english",
+      "q": "Forest collision fidelity performance",
+      "expect_collision": true,
+      "ranks": {
+        "V10": 1,
+        "V11": 1
+      },
+      "ids": {
+        "V10": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "vdn-5aa463725976",
+          "vdn-0df57a89fa73",
+          "vdn-fe4c577081af",
+          "vdn-9be57b985b77"
+        ],
+        "V11": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ]
+      },
+      "ocean_brief_abstained": false,
+      "truth_verified": false,
+      "version_constraints_exposed": true
+    },
+    {
+      "category": "version",
+      "q": "CollisionFidelity Roblox compatible Blender 5.2 ?",
+      "expect_collision": true,
+      "ranks": {
+        "V10": null,
+        "V11": 1
+      },
+      "ids": {
+        "V10": [
+          "vdn-326d0bf06b35",
+          "vdn-bbea6ee659d1",
+          "vdn-564f653d5fbf",
+          "vdn-c73ed30815b8",
+          "vdn-5aa463725976"
+        ],
+        "V11": [
+          "vdn-ocean-54fe16e8e5a3e6ea5304"
+        ]
+      },
+      "ocean_brief_abstained": false,
+      "truth_verified": false,
+      "version_constraints_exposed": true
+    },
+    {
+      "category": "unsupported_measurement",
+      "q": "Quel FPS exact donne le modèle B3 ?",
+      "expect_abstention": true,
+      "ranks": {
+        "V10": null,
+        "V11": null
+      },
+      "ids": {
+        "V10": [
+          "vdn-4a6402c8990e",
+          "vdn-ecfc9381818e",
+          "vdn-56797d0952ca",
+          "vdn-2736f67dee2b",
+          "vdn-a27deff12d34"
+        ],
+        "V11": []
+      },
+      "ocean_brief_abstained": true,
+      "truth_verified": false,
+      "version_constraints_exposed": false
+    },
+    {
+      "category": "outside",
+      "q": "Recette de croissant au beurre",
+      "expect_abstention": true,
+      "ranks": {
+        "V10": null,
+        "V11": null
+      },
+      "ids": {
+        "V10": [],
+        "V11": []
+      },
+      "ocean_brief_abstained": true,
+      "truth_verified": false,
+      "version_constraints_exposed": false
+    },
+    {
+      "category": "outside",
+      "q": "Calculer les orbites de Jupiter",
+      "expect_abstention": true,
+      "ranks": {
+        "V10": 2,
+        "V11": null
+      },
+      "ids": {
+        "V10": [
+          "vdn-939f03f673d6",
+          "vdn-ocean-54fe16e8e5a3e6ea5304",
+          "vdn-9b7ec2ee95cd",
+          "vdn-4782fa1e3cf5",
+          "vdn-9758995985bd"
+        ],
+        "V11": []
+      },
+      "ocean_brief_abstained": true,
+      "truth_verified": false,
+      "version_constraints_exposed": false
+    }
+  ],
+  "python_tracemalloc_peak_bytes": 2495055,
+  "vram_peak": "not measured",
+  "model_calls": 0,
+  "http_calls": 0,
+  "api_spend_usd": 0,
+  "semantic_embedding_quality": "not tested with a real model",
+  "caveat": "Small development set and reference-identity relevance. Timing includes different APIs; no speed, truth or productivity gain inferred."
+}
