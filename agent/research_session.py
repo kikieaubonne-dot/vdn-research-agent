@@ -117,28 +117,73 @@ class ResearchSessions:
             for key in ('max_depth','max_attempts'):limits[key]=min(limits[key],base['queue'][key])
             limits['max_branches']=min(limits['max_branches'],base['queue']['max_size'])
             state['limits']=limits;q=self.queue(state);daily_q=ResearchQueue(self.root,recover=False);daily=daily_q.daily()
+            for field in ('stop_reason','stop_details','error'):state.pop(field,None)
             for item in q.data['items'].values():
                 if item['depth']>limits['max_depth'] and item['status'] in ('pending','running'):
                     item['status']='skipped';item['reason']='depth budget reduced by operator'
+            q.save() # also persist recovery of legacy/crash-left running items on early exit
+
+            def record_stop(exc):
+                details=exc.details()
+                if details['scope']=='session' and details['resource']=='http_calls':
+                    details.update(limit=limits['max_http_calls'],used=state['http_calls'])
+                if details['scope']=='session' and details['resource']=='compute_s':
+                    details.update(limit=limits['compute_budget_s'],used=state['compute_reserved_s'])
+                details['resume_policy']={'tick':'new_tick_with_remaining_session_budgets',
+                                          'session':'session_limit_reached_no_automatic_reset',
+                                          'daily':'wait_for_next_UTC_day_or_run_without_network'}.get(details['scope'],'inspect_stop_reason')
+                if details['scope']=='daily' and details['resource']=='items':details['resume_policy']='wait_for_next_UTC_day'
+                state.update(status='BUDGET_STOP',stop_reason=str(exc),stop_details=details)
+
             if state['status']=='COMPLETE':
                 self.save(state);q.save()
                 return {'state':'COMPLETE','reason':'terminal','session':state,'queue':q.summary()}
-            if state['ticks']>=limits['max_ticks']:return {'state':'stopped','reason':'max_ticks','session':state}
+            if state['ticks']>=limits['max_ticks']:
+                record_stop(budget.BudgetExhausted('session tick limit reached',scope='session',resource='ticks',limit=limits['max_ticks'],used=state['ticks']))
+                self.save(state)
+                return {'state':'stopped','reason':'max_ticks','session':state,'queue':q.summary(),'stop_details':state['stop_details']}
             remaining=limits['compute_budget_s']-state['compute_reserved_s']
-            if remaining<=0:return {'state':'stopped','reason':'compute_budget','session':state}
+            if remaining<=0:
+                record_stop(budget.BudgetExhausted('session compute budget reached',scope='session',resource='compute_s',limit=limits['compute_budget_s'],used=state['compute_reserved_s']))
+                self.save(state)
+                return {'state':'stopped','reason':'compute_budget','session':state,'queue':q.summary(),'stop_details':state['stop_details']}
+            # A refused request must not consume another unit attempt or tick.
+            preflight=[]
+            if allow_network:
+                preflight=[('session','http_calls',limits['max_http_calls'],state['http_calls']),
+                           ('tick','http_calls',limits['http_per_tick'],0),
+                           ('daily','http_calls',base['daily']['max_http_calls'],daily['http_calls']),
+                           ('daily','fetch_attempts',base['daily']['max_fetch'],daily['fetch'])]
+            for scope,resource,maximum,used_count in preflight:
+                if used_count>=maximum:
+                    record_stop(budget.BudgetExhausted('budget '+scope+' '+resource+' atteint',scope=scope,resource=resource,limit=maximum,used=used_count))
+                    self.save(state)
+                    return {'state':'BUDGET_STOP','session':state,'queue':q.summary(),'http_this_tick':0,'stop_details':state['stop_details']}
             reserve=min(remaining,limits['time_per_tick_s'])
             # Reserve computation before effects; a hard crash keeps a conservative reservation.
             state['compute_reserved_s']+=reserve;state['ticks']+=1;state['status']='RUNNING';self.save(state)
-            start=time.monotonic();used=set();engine=KnowledgeEngine(self.root)
+            start=time.monotonic();used=set();engine=KnowledgeEngine(self.root);active=None
+            http_before=state['http_calls'];fetch_before=state['fetch_attempts']
+
+            def settle_active(reason):
+                if active is not None and active['status']=='running':
+                    attempts=state['attempts'].get(active['key'],0)
+                    active.update(status='pending' if attempts<limits['max_attempts'] else 'failed',
+                                  attempts=max(active.get('attempts',0),attempts),last_stop=reason)
+                    q.save();q.log('controlled_stop',{'key':active['key'],'status':active['status'],'reason':reason})
+
             def checkpoint(resource):
                 field='http_calls' if resource=='http_calls' else 'fetch_attempts'
                 global_field='http_calls' if resource=='http_calls' else 'fetch'
                 maximum=load_config(self.root)['daily']['max_http_calls' if resource=='http_calls' else 'max_fetch']
-                if daily[global_field]>=maximum:raise budget.BudgetExhausted('daily quota')
-                if field=='http_calls' and state[field]>=limits['max_http_calls']:raise budget.BudgetExhausted('session HTTP budget')
+                if daily[global_field]>=maximum:raise budget.BudgetExhausted('daily quota',scope='daily',resource=field,limit=maximum,used=daily[global_field])
+                if field=='http_calls' and state[field]>=limits['max_http_calls']:raise budget.BudgetExhausted('session HTTP budget',scope='session',resource=field,limit=limits['max_http_calls'],used=state[field])
                 state[field]+=1;self.save(state) # persist local reservation first, then global, before network
                 daily[global_field]+=1;daily_q.save()
-            guard=budget.Budget(reserve,min(limits['http_per_tick'],max(0,limits['max_http_calls']-state['http_calls'])) if allow_network else 0,checkpoint)
+            http_remaining=max(0,limits['max_http_calls']-state['http_calls'])
+            guard=budget.Budget(reserve,min(limits['http_per_tick'],http_remaining) if allow_network else 0,checkpoint,
+                                http_scope='session' if http_remaining<=limits['http_per_tick'] else 'tick',
+                                time_scope='session' if remaining<=limits['time_per_tick_s'] else 'tick')
             try:
                 with budget.using(guard):
                     for _ in range(min(limits['max_items_per_tick'],load_config(self.root)['cycle']['max_items'])):
@@ -146,12 +191,12 @@ class ResearchSessions:
                         batch=[i for i in q.next_batch(limits['max_branches']) if i['key'] not in used]
                         if not batch:state['status']='BLOCKED' if q.pending_count() else 'COMPLETE';break
                         item=batch[0];used.add(item['key'])
-                        if daily['items']>=load_config(self.root)['daily']['max_items']:raise budget.BudgetExhausted('daily item budget')
+                        if daily['items']>=load_config(self.root)['daily']['max_items']:raise budget.BudgetExhausted('daily item budget',scope='daily',resource='items',limit=base['daily']['max_items'],used=daily['items'])
                         attempt=state['attempts'].get(item['key'],0)
                         if attempt>=limits['max_attempts']:
                             item['status']='failed';q.save();continue
                         state['attempts'][item['key']]=attempt+1;self.save(state)
-                        daily['items']+=1;daily_q.save();q.mark_running(item)
+                        daily['items']+=1;daily_q.save();active=item;q.mark_running(item)
                         found=engine.find_procedures(item['query'],3)
                         guard.check()
                         refs=[p for p in found['procedures'] if p['candidate_steps'] and p['ranking']['coverage']==1 and p['compatibility']['scope']!='other_engine']
@@ -161,8 +206,16 @@ class ResearchSessions:
                             fn=research_fn or research
                             stats=fn(self.root,max_queries=1,per_source=2,max_fetch=min(4,load_config(self.root)['daily']['max_fetch']-daily['fetch']),
                                      pause=.5,provs=provs,planned=[(q.topics[item['topic']],item['query'],'v10')],finalize=False,touch_existing=False)
-                            if stats.get('errors'):raise ValueError('research source error; session stopped')
-                            if stats.get('stop_reason'):raise budget.BudgetExhausted(stats['stop_reason'])
+                            collection={'tick':state['ticks'],'item_key':item['key'],
+                                **{k:stats.get(k,0) for k in ('created','fetched','accepted','rejected','fetch_attempts')},
+                                'error_count':len(stats.get('errors',[])), 'errors':[str(e)[:250] for e in stats.get('errors',[])[:5]],
+                                'created_note_ids':[n['id'] for n in stats.get('created_notes',[])[:10]],'truth_verified':False}
+                            clean_json(collection)
+                            state['last_collection']=collection;item['last_collection']=collection
+                            if stats.get('stop_reason'):
+                                d=stats.get('stop_details') or {}
+                                raise budget.BudgetExhausted(stats['stop_reason'],**{k:d[k] for k in ('scope','resource','limit','used') if k in d})
+                            if stats.get('errors'):raise ValueError('research source error; inspect last_collection.errors')
                             if stats.get('created'):
                                 refs=[p for p in engine.find_procedures(item['query'],3)['procedures'] if p['candidate_steps'] and p['ranking']['coverage']==1 and p['compatibility']['scope']!='other_engine']
                         parent=q.data['items'].get(item.get('parent'),{})
@@ -187,16 +240,23 @@ class ResearchSessions:
                         state['decisions']=state['decisions'][-64:];self.save(state)
                     if state['status']=='RUNNING':state['status']='READY' if q.pending_count() else 'COMPLETE'
             except budget.BudgetExhausted as exc:
-                state['status']='BUDGET_STOP';state['stop_reason']=str(exc)
+                record_stop(exc);settle_active(state['stop_details'])
             except Exception as exc:
                 state['status']='ERROR';state['error']=f'{type(exc).__name__}: {exc}'[:250]
                 state['integration_failures']=state.get('integration_failures',0)+1
                 state['failures']=(state.get('failures',[])+[{'tick':state['ticks'],'error':state['error'],'at':dt.datetime.now(dt.timezone.utc).isoformat()}])[-64:]
+                settle_active({'kind':'collection_or_local_error','reason':state['error']})
             finally:
                 elapsed=time.monotonic()-start
                 state['compute_reserved_s']-=max(0,reserve-min(reserve,elapsed))
+                state['last_tick']={'tick':state['ticks'],'http_calls':state['http_calls']-http_before,
+                                    'fetch_attempts':state['fetch_attempts']-fetch_before,'effective_http_limit':guard.max_http,
+                                    'session_http_limit':limits['max_http_calls'],
+                                    'session_http_remaining':max(0,limits['max_http_calls']-state['http_calls']),
+                                    'daily':{k:daily[k] for k in ('date','http_calls','fetch','items')}}
                 self.save(state);q.save()
-            return {'state':state['status'],'session':state,'queue':q.summary(),'http_this_tick':guard.http_calls}
+            return {'state':state['status'],'session':state,'queue':q.summary(),'http_this_tick':guard.http_calls,
+                    **({'stop_details':state['stop_details']} if 'stop_details' in state else {})}
 
     def tick(self,mode='autonomous',*,apply=False,allow_network=False):
         if mode not in ('autonomous','scheduled'):raise ValueError('invalid automatic mode')
