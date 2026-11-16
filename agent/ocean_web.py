@@ -173,6 +173,20 @@ class OceanWeb:
         raw=self._fetch(url,spec,purpose,self.cfg['max_document_bytes'])
         html=bool(re.search(r'(?i)<(?:html|body|article)\b',raw))
         text=providers.strip_html(raw) if html else raw
+        provenance={};topic_date=None
+        if urlparse(url).hostname=='devforum.roblox.com' and urlparse(url).path.endswith('.json'):
+            try:
+                topic=json.loads(raw);posts=topic['post_stream']['posts']
+                if not isinstance(topic['title'],str) or not isinstance(posts,list) or not posts or len(posts)>100:raise ValueError('invalid public topic')
+                selected=posts[:20];lines=['# '+topic['title'][:500]];post_ids=[]
+                for post in selected:
+                    if type(post.get('id')) is not int or not isinstance(post.get('cooked'),str):raise ValueError('invalid public post')
+                    post_ids.append(post['id']);lines+=['## Post '+str(post['id']),providers.strip_html(post['cooked'])]
+                text='\n\n'.join(lines)
+                provenance={'source_platform':'community','post_ids':post_ids,'license':'UNKNOWN','thread_complete':False,'scope':'received posts only; not independent engine validation'}
+                value=topic.get('created_at','')
+                if isinstance(value,str) and re.match(r'^\d{4}-\d{2}-\d{2}',value):topic_date=value[:10]
+            except (ValueError,KeyError,TypeError):raise providers.FetchError('invalid public topic JSON')
         if len(text.strip())<80:raise providers.FetchError('empty or insufficient source content')
         if re.search(r'(?i)captcha|access denied|verify you are human|sign in to (?:access|continue|view)|subscription required',text[:2000]):raise providers.FetchError('access challenge refused')
         links=[]
@@ -188,7 +202,7 @@ class OceanWeb:
             if len(links)>=self.cfg['max_links']:break
         published=re.search(r'(?is)<meta[^>]+(?:property|name)=["\x27](?:article:published_time|datePublished)["\x27][^>]+content=["\x27](\d{4}-\d{2}-\d{2})',raw)
         record={'url':providers.canonical_url(url),'provider':provider,'at':time.time(),
-                'accessed':dt.datetime.now(dt.timezone.utc).date().isoformat(),'published':published.group(1) if published else None,'version':'unknown',
+                'accessed':dt.datetime.now(dt.timezone.utc).date().isoformat(),'published':published.group(1) if published else topic_date,'version':'unknown','conditions':provenance,
                 'text':text.encode('utf-8')[:32000].decode('utf-8','ignore'),'truncated':len(text.encode('utf-8'))>32000,'policy':spec['policy'],'links':links,
                 'raw_text_sha256':hashlib.sha256(raw.encode('utf-8')).hexdigest(),
                 'changed_since_previous':bool(old and old['raw_text_sha256']!=hashlib.sha256(raw.encode('utf-8')).hexdigest())}

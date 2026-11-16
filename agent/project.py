@@ -53,6 +53,8 @@ class Bible:
             if t['priority'] not in PRIORITIES or t['priority_status'] not in STATUSES:raise ValueError('invalid proposed priority')
             if not set(t['blocking_questions'])<=questions:raise ValueError('unknown blocking question')
             if not t['query'] or not t['anchors'] or not t['seeds']:raise ValueError('research question, anchors and permitted source seeds required')
+            candidates=t.get('source_candidates',[])
+            if not isinstance(candidates,list) or len(candidates)>4 or any(not isinstance(c,dict) or set(c)!={'url','provider','role'} or any(not isinstance(v,str) or not 1<=len(v)<=500 for v in c.values()) for c in candidates):raise ValueError('invalid bounded source candidates')
             self.tasks[t['id']]=t
         if any(t['parent'] not in {g['id'] for g in self.data['groups']} for t in self.tasks.values()):raise ValueError('unknown knowledge-tree parent')
         self.order=self._topological()

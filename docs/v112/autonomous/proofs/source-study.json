@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "provider": "devforum",
+      "url": "https://devforum.roblox.com/t/1196972",
+      "state": "captured",
+      "sha256": "e264a6fe87a79bfffbc5a9e1187fb4ed8196ca670b8c4676c3704fb1e8d7822e",
+      "truncated": false,
+      "version": "unknown",
+      "bytes": 1942,
+      "published": "2021-04-30",
+      "conditions": {
+        "license": "UNKNOWN",
+        "post_ids": [
+          5035611
+        ],
+        "scope": "received posts only; not independent engine validation",
+        "source_platform": "community",
+        "thread_complete": false
+      },
+      "request_endpoint": "https://devforum.roblox.com/t/1196972.json"
+    },
+    {
+      "provider": "roblox",
+      "url": "https://create.roblox.com/docs/workspace/camera",
+      "state": "cached",
+      "sha256": "17d579798b54d7347acd74b3bb8a823ca4cd377b5b4280d5fef175a0b76a5429",
+      "truncated": false,
+      "version": "unknown",
+      "bytes": 6151
+    }
+  ],
+  "cache_hits": 1,
+  "daily_before": {
+    "date": "2026-11-16",
+    "items": 20,
+    "fetch": 21,
+    "http_calls": 24
+  },
+  "daily_after": {
+    "date": "2026-11-16",
+    "items": 20,
+    "fetch": 21,
+    "http_calls": 26
+  },
+  "actual_HTTP_calls": 2,
+  "model_calls": 0,
+  "notes_created": 0,
+  "network_mode": "explicitly trusted system proxy, isolated config only",
+  "scope": "real candidate access checks and prior cache reuse; no engine or technical truth validated"
+}

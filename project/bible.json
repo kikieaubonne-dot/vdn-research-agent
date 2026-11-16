@@ -1,8 +1,8 @@
 {
   "schema": "vdn.project-bible/11.2",
   "id": "le-voisin-de-noel",
-  "revision": 1,
-  "provenance": "User mission V11.2. Confirmed means user-confirmed intention/context, not software validation.",
+  "revision": 2,
+  "provenance": "User autonomous laboratory mission, 2026-11-16; confirmed means design intention, never implementation proof.",
   "items": [
     {
       "id": "identity",
@@ -105,23 +105,23 @@
     {
       "id": "maelle",
       "section": "characters",
-      "status": "PROPOSED",
-      "text": "Maëlle apparaît dans des pistes de scénario étudiées ; rôle et caractère jouable inconnus.",
-      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+      "status": "CONFIRMED",
+      "text": "Maëlle est la petite sœur de Léo ; dans le prologue elle croit entendre le Père Noël et part vers la forêt.",
+      "provenance": "user:autonomous-lab:story"
     },
     {
       "id": "santa",
       "section": "characters",
-      "status": "PROPOSED",
-      "text": "Un Père Noël inquiétant est une piste narrative ; rôle et présence effective non confirmés.",
-      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+      "status": "CONFIRMED",
+      "text": "Le Père Noël est une menace du prologue et attaque le policier au chapitre 1, selon le récit fourni.",
+      "provenance": "user:autonomous-lab:story"
     },
     {
       "id": "story",
       "section": "story",
-      "status": "UNKNOWN",
-      "text": "Motivation du joueur, intrigue validée et dénouement non fournis.",
-      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+      "status": "CONFIRMED",
+      "text": "Acte 1 : prologue joué par Léo, puis lobby et chapitre 1 joué par un policier ; la suite au grenier est envisagée.",
+      "provenance": "user:autonomous-lab:story"
     },
     {
       "id": "timeline",
@@ -178,14 +178,56 @@
       "status": "DEFERRED",
       "text": "Extension à un assistant universel, installation de modèles et automatisations permanentes hors de cette préparation.",
       "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "leo",
+      "section": "characters",
+      "status": "CONFIRMED",
+      "text": "Léo, petit garçon, est le personnage jouable du prologue.",
+      "provenance": "user:autonomous-lab:story"
+    },
+    {
+      "id": "police",
+      "section": "characters",
+      "status": "CONFIRMED",
+      "text": "Le policier est le personnage jouable du chapitre 1 ; gants, lampe et tenue tactique sont des objectifs de présentation.",
+      "provenance": "user:autonomous-lab:story"
+    },
+    {
+      "id": "postit",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Post-it animé des parents déjà créé selon l’utilisateur ; fichier et exécution non inspectés.",
+      "provenance": "user:autonomous-lab:reported-existing"
+    },
+    {
+      "id": "lobby-plan",
+      "section": "gameplay",
+      "status": "CONFIRMED",
+      "text": "Lobby souhaité avec groupes de 1 à 4, difficultés Facile/Normal/Difficile/Cauchemar ; Cauchemar déverrouillé après Difficile, indices futurs acte 2.",
+      "provenance": "user:autonomous-lab:design"
+    },
+    {
+      "id": "asymmetric",
+      "section": "deferred",
+      "status": "DEFERRED",
+      "text": "Mode où un joueur incarne le Père Noël après la sortie initiale ; afficher Bientôt disponible, ne pas développer maintenant.",
+      "provenance": "user:autonomous-lab:explicit-defer"
+    },
+    {
+      "id": "beta-confusion",
+      "section": "development",
+      "status": "CONFIRMED",
+      "text": "Problème de première bêta rapporté : joueurs perdus, trop de liberté et indices simultanés ; aucune télémétrie fournie.",
+      "provenance": "user:autonomous-lab:reported-feedback"
     }
   ],
   "questions": [
     {
       "id": "playable",
       "text": "Quel personnage est jouable dans la première version ?",
-      "status": "UNKNOWN",
-      "answer": null,
+      "status": "CONFIRMED",
+      "answer": "Léo au prologue ; policier au chapitre 1. Les autres rôles jouables ne sont pas confirmés.",
       "blocks": [
         "camera",
         "movement"
@@ -196,8 +238,8 @@
     {
       "id": "motivation",
       "text": "Quelle est la motivation et l’objectif immédiat du joueur ?",
-      "status": "UNKNOWN",
-      "answer": null,
+      "status": "CONFIRMED",
+      "answer": "Léo suit Maëlle dans la forêt ; le policier explore jusqu’à la maison au chapitre 1. Détails ultérieurs non confirmés.",
       "blocks": [
         "architecture",
         "pursuit"
@@ -299,7 +341,19 @@
         "compute": "existing V10/V11 cap"
       },
       "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
-      "status": "PROPOSED"
+      "status": "PROPOSED",
+      "source_candidates": [
+        {
+          "url": "https://create.roblox.com/docs/art/modeling/surface-appearance.md",
+          "provider": "roblox",
+          "role": "official_candidate"
+        },
+        {
+          "url": "https://devforum.roblox.com/t/3171224.json",
+          "provider": "devforum",
+          "role": "community_candidate; prior note is secondary, provider requires explicit configuration"
+        }
+      ]
     },
     {
       "id": "collisions",
@@ -346,7 +400,19 @@
         "compute": "existing V10/V11 cap"
       },
       "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
-      "status": "PROPOSED"
+      "status": "PROPOSED",
+      "source_candidates": [
+        {
+          "url": "https://create.roblox.com/docs/workspace/collisions.md",
+          "provider": "roblox",
+          "role": "official_candidate"
+        },
+        {
+          "url": "https://devforum.roblox.com/t/1193996.json",
+          "provider": "devforum",
+          "role": "community_candidate; prior note is secondary, provider requires explicit configuration"
+        }
+      ]
     },
     {
       "id": "ground",
@@ -862,6 +928,318 @@
         "compute": "existing V10/V11 cap"
       },
       "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "viewmodel",
+      "title": "Mains et lampe en première personne",
+      "objective": "Mains et lampe en première personne : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 14,
+      "parent": "player",
+      "requires": [
+        "camera"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "viewmodel",
+        "mains",
+        "first person hands"
+      ],
+      "anchors": [
+        "camera",
+        "viewmodel",
+        "CFrame",
+        "animation"
+      ],
+      "query": "Roblox first person camera CFrame viewmodel animation",
+      "seeds": [
+        "https://create.roblox.com/docs/workspace/camera.md"
+      ],
+      "provider": "roblox",
+      "topic": "fp_hands",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED",
+      "source_candidates": [
+        {
+          "url": "https://create.roblox.com/docs/workspace/camera.md",
+          "provider": "roblox",
+          "role": "official_candidate"
+        },
+        {
+          "url": "https://devforum.roblox.com/t/1196972.json",
+          "provider": "devforum",
+          "role": "community_candidate; prior note is secondary, provider requires explicit configuration"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "title": "Audio narratif et spatial",
+      "objective": "Audio narratif et spatial : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 15,
+      "parent": "environment",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "audio",
+        "son",
+        "clochettes"
+      ],
+      "anchors": [
+        "audio",
+        "sound",
+        "spatial"
+      ],
+      "query": "Roblox spatial audio sound events narrative",
+      "seeds": [
+        "https://create.roblox.com/docs/sound/objects.md"
+      ],
+      "provider": "roblox",
+      "topic": "spatial_audio",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "guidance",
+      "title": "Guidage contextuel et objectifs",
+      "objective": "Guidage contextuel et objectifs : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 16,
+      "parent": "gameplay",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "guidage",
+        "objectifs",
+        "tutorial"
+      ],
+      "anchors": [
+        "prompt",
+        "tutorial",
+        "objective",
+        "interface"
+      ],
+      "query": "Roblox contextual tutorial objectives prompts progression",
+      "seeds": [
+        "https://create.roblox.com/docs/ui/in-experience-containers.md"
+      ],
+      "provider": "roblox",
+      "topic": "immersive_gameplay",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "saves",
+      "title": "Sauvegarde des chapitres et difficultés",
+      "objective": "Sauvegarde des chapitres et difficultés : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 17,
+      "parent": "gameplay",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "sauvegarde",
+        "datastore"
+      ],
+      "anchors": [
+        "DataStore",
+        "UpdateAsync",
+        "save"
+      ],
+      "query": "Roblox DataStore UpdateAsync progression saves",
+      "seeds": [
+        "https://create.roblox.com/docs/cloud-services/data-stores.md"
+      ],
+      "provider": "roblox",
+      "topic": "immersive_gameplay",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "groups",
+      "title": "Groupes et transitions de lobby",
+      "objective": "Groupes et transitions de lobby : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 18,
+      "parent": "gameplay",
+      "requires": [
+        "saves"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "lobby",
+        "groupe",
+        "teleport"
+      ],
+      "anchors": [
+        "Teleport",
+        "party",
+        "group",
+        "server"
+      ],
+      "query": "Roblox party groups teleport server validation",
+      "seeds": [
+        "https://create.roblox.com/docs/projects/teleporting.md"
+      ],
+      "provider": "roblox",
+      "topic": "immersive_gameplay",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "puzzles",
+      "title": "Énigmes et indices progressifs",
+      "objective": "Énigmes et indices progressifs : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 19,
+      "parent": "gameplay",
+      "requires": [
+        "interactions",
+        "guidance"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "énigme",
+        "puzzle",
+        "indices"
+      ],
+      "anchors": [
+        "puzzle",
+        "state",
+        "progression",
+        "interaction"
+      ],
+      "query": "Roblox puzzle state progression interactions hints",
+      "seeds": [
+        "https://create.roblox.com/docs/tutorials/use-case-tutorials/ui/proximity-prompts.md"
+      ],
+      "provider": "roblox",
+      "topic": "immersive_gameplay",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "dust",
+      "title": "Poussière dans les rayons de lumière",
+      "objective": "Poussière dans les rayons de lumière : préparer une procédure isolée avec conditions et critères explicites.",
+      "priority": "P2",
+      "priority_status": "PROPOSED",
+      "order": 20,
+      "parent": "environment",
+      "requires": [
+        "lighting"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "poussière",
+        "dust",
+        "particles"
+      ],
+      "anchors": [
+        "ParticleEmitter",
+        "dust",
+        "particle",
+        "lighting"
+      ],
+      "query": "Roblox ParticleEmitter dust lighting performance",
+      "seeds": [
+        "https://create.roblox.com/docs/effects/particle-emitters.md"
+      ],
+      "provider": "roblox",
+      "topic": "lighting",
+      "assets": [],
+      "blocking_questions": [],
+      "conditions": [
+        "engine/build and device must be recorded",
+        "isolated copies; no published game changes",
+        "source candidate URL not a verified visit"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "existing shared tick/session caps",
+        "compute": "existing shared cap"
+      },
+      "next_action": "Inspecter les sources existantes et les lacunes propres à la scène.",
       "status": "PROPOSED"
     }
   ],

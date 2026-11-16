@@ -60,7 +60,7 @@ class Server:
             self.intelligence=IntelligenceAPI(root,allow_intelligence);self.tools=self.tools+tools(schema,TEXT)
             if v112:
                 from agent.project_api import ProjectAPI
-                self.intelligence=ProjectAPI(root,allow_intelligence)
+                self.intelligence=ProjectAPI(root,allow_intelligence,allow_research,allow_experiments)
 
     def dispatch(self,name,args):
         tool=next((t for t in self.tools if t['name']==name),None)

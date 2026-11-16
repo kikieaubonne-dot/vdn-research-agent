@@ -22,7 +22,10 @@ class ProjectResearch:
         g=json.loads(p.read_text(encoding='utf-8'));clean_json(g)
         if g.get('schema')!='vdn.project-research/11.2' or g['id']!=identity(sid):raise ValueError('invalid project research envelope')
         return g
-    def prepare(self,tasks=None,apply=False,session_id=None):
+    def prepare(self,tasks=None,apply=False,session_id=None,chapter_context=None):
+        if chapter_context is not None:
+            clean_json(chapter_context,1000)
+            if set(chapter_context)!={'id','fingerprint'}:raise ValueError('invalid chapter context')
         bible=self.project.bible;selected=tasks or [t['id'] for t in sorted(bible.tasks.values(),key=lambda t:t['order']) if t['priority'] in ('P0','P1')]
         if not isinstance(selected,list) or not selected or len(selected)>12 or len(set(selected))!=len(selected):raise ValueError('select 1–12 distinct project tasks')
         nodes=[]
@@ -34,17 +37,17 @@ class ProjectResearch:
                           'reason':'explicit initial user research order; production readiness is a separate checklist'})
         preview={'state':'simulation','bible_hash':bible.fingerprint,'tasks':selected,'nodes':nodes,
                  'ordering':'user Phase I initial order; independent acquisition; production dependencies remain in cards',
-                 'network_requests':0,'writes':0}
+                 'network_requests':0,'writes':0,'chapter_context':chapter_context}
         if not apply:return preview
         sid=identity(session_id) if session_id else str(uuid.uuid4())
         with lab_lock(self.root,'.project-prepare'):
             if self.path(sid).exists():
                 old=self.get(sid)
-                if old['tasks']!=selected or old['bible_hash']!=bible.fingerprint:raise ValueError('session id specification conflict')
+                if old['tasks']!=selected or old['bible_hash']!=bible.fingerprint or old.get('chapter_context')!=chapter_context:raise ValueError('session id specification conflict')
                 return old
             state=self.sessions.prepare('Préparation P0/P1 Le Voisin de Noël : '+', '.join(selected),apply=True,session_id=sid,plan_nodes=nodes)
             g={'schema':'vdn.project-research/11.2','id':sid,'tasks':selected,'bible_hash':bible.fingerprint,'control':'READY',
-               'created_at':dt.datetime.now(dt.timezone.utc).isoformat(),'session_limits':state['limits']}
+               'chapter_context':chapter_context,'created_at':dt.datetime.now(dt.timezone.utc).isoformat(),'session_limits':state['limits']}
             self.project.write(self.path(sid),g,True);return g
     def control(self,sid,action,apply=False):
         if action not in ('pause','resume','stop'):raise ValueError('invalid control action')
@@ -61,6 +64,9 @@ class ProjectResearch:
         if not allow_network:raise PermissionError('project acquisition requires explicit allow_network; use offline task synthesis instead')
         if g['control']!='READY':return {'state':g['control'],'http_calls_this_run':0}
         if self.project.bible.fingerprint!=g['bible_hash']:return {'state':'PROJECT_CHANGED','reason':'prepare an explicitly revised plan; original session/counters preserved','http_calls_this_run':0}
+        if g.get('chapter_context'):
+            from agent.chapters import Chapters
+            if Chapters(self.root).fingerprint!=g['chapter_context']['fingerprint']:return {'state':'PROJECT_CHANGED','reason':'chapter catalog changed; session/counters retained','http_calls_this_run':0}
         collector=Collector(self,g,allow_model,opener)
         result=self.sessions.run(sid,apply=True,allow_network=allow_network,research_fn=collector,collect_existing=True,followup_fn=lambda *a:[])
         plan=self.project.plan();ready={n['id']:n['readiness'] for n in plan['nodes']}
@@ -93,19 +99,23 @@ class Collector:
             self.check();local=self.project.synthesize(task['id'])
             if local['quality']['checks']['original_sources_sufficient'] and 'source_obsolete' not in local['quality']['issues']:
                 commit();stats['accepted']+=1;return stats
-            candidates=list(task['seeds']);seen=set();limit=min(2,max_fetch)
+            candidates=[(c['url'],c['provider']) for c in task.get('source_candidates',[])] or [(url,task['provider']) for url in task['seeds']];seen=set();limit=min(2,max_fetch)
             while candidates and stats['fetch_attempts']<limit:
-                self.check();url=candidates.pop(0)
+                self.check();url,provider=candidates.pop(0)
                 if url in seen:continue
-                seen.add(url);budget.fetch_attempt();stats['fetch_attempts']+=1
+                seen.add(url)
+                spec=self.web.cfg['providers'].get(provider)
+                if not spec or not spec['enabled']:
+                    stats['errors'].append('provider not configured/enabled: '+provider);continue
+                budget.fetch_attempt();stats['fetch_attempts']+=1
                 try:
-                    doc=self.web.get(url,task['provider']);stats['fetched']+=1
+                    doc=self.web.get(url,provider);stats['fetched']+=1
                     # Durable source cache first, then card, before another URL.
                     card=commit()
                     if card['quality']['checks']['original_sources_sufficient']:stats['accepted']+=1;break
                     stats['rejected']+=1
                     links=sorted(doc['links'],key=lambda u:-len(set(tokens(u))&set(tokens(task['query']))))
-                    candidates+=links[:2]
+                    candidates += [(link,provider) for link in links[:2]]
                 except (ValueError,OSError,providers.FetchError) as exc:
                     stats['errors'].append(type(exc).__name__+'(status='+str(getattr(exc,'status',None))+'): permitted source unavailable or insufficient')
             if not stats['accepted'] and not stats['errors']:stats['errors'].append('no sufficient compatible original passage; acquisition remains partial')

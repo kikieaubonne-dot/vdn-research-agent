@@ -17,7 +17,7 @@ from agent.lab_store import clean_json
 from agent.obsidian import safe_path
 from agent.text import tokens, fold, BM25
 
-VERSION = '11.2.2'
+VERSION = '11.2.4'
 STATUSES = ('SOURCE_SUPPORTED','INFERRED','HYPOTHESIS','EXPERIMENT_PROPOSAL','UNSUPPORTED','CONTRADICTED','OUTDATED')
 HOSTILE = re.compile(r'(?i)ignore (?:all|previous)|system prompt|reveal .*secret|api.?key|powershell|subprocess|delete .*files|execute .*command|curl\s|rm -rf')
 
@@ -59,8 +59,9 @@ def engine_for(url,title=''):
     return next((s for s in ('Roblox','Blender','Unreal') if s.lower() in title.lower()),'unknown')
 
 
-def documents(root,diagnostics=None):
+def documents(root,diagnostics=None,*,include_rejected=False):
     """Read bounded existing V11 source caches and notes; never fetch a URL."""
+    if type(include_rejected) is not bool:raise ValueError('include_rejected must be boolean')
     root=Path(root).resolve();out=[];diagnostics=[] if diagnostics is None else diagnostics
     folder=safe_path(root,'lab/ocean/sources')
     paths=sorted(folder.glob('*.json')) if folder.exists() else []
@@ -87,6 +88,7 @@ def documents(root,diagnostics=None):
                         'independent':True,'conditions':d.get('conditions',{})})
         except (ValueError,KeyError,TypeError,OSError) as exc:diagnostics.append({'path':path.name,'error':type(exc).__name__})
     for n in scan_notes(root,diagnostics):
+        if n.get('status')=='rejete' and not include_rejected:continue
         body=n['_body'];urls=n.get('sources',[])
         # Restrict secondary retrieval to source quotation, never generated steps.
         for m in re.finditer(r'^>\s*(?:«\s*)?(.+?)(?:\s*»)?\s*$',body,re.M):

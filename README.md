@@ -2,6 +2,18 @@
 
 ## V11.2 — Project Intelligence
 
+Planification par chapitre, retour d’échec et laboratoire Blender supervisé :
+[rapport actuel et limites](docs/v112/autonomous/IMPLEMENTATION_REPORT.md) ·
+[Windows](docs/v112/autonomous/WINDOWS_SETUP.md) ·
+[workflow Claude](docs/v112/autonomous/CLAUDE_MCP_WORKFLOW.md).
+
+```sh
+python -m agent.v112 chapters chapter1
+python -m agent.v112 brief "Préparer le chapitre 2 : grenier, lumière et énigmes"
+python -m agent.v112 lab-capabilities
+```
+
+
 Bible du jeu, priorités/dépendances, fiches techniques, contrôle de préparation,
 échecs liés et briefings Claude spécialisés. Collecte manuelle bornée ; dix
 préparations partielles, aucune technique déclarée validée dans le jeu.

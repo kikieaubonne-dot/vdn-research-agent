@@ -61,13 +61,14 @@ class Project:
         import time
         from agent.intelligence_evidence import documents,VERSION as pipeline_version
         from agent.project_visual import references
+        from agent.visual_description import descriptions
         diagnostics=[];docs=documents(self.root,diagnostics)
         return digest({'bible':self.bible.fingerprint,'pipeline':pipeline_version,'configuration':im.settings(self.root),
             'sources':[{k:d[k] for k in ('id','sha256','version','conditions','truncated','independent')} for d in docs],
             'expired':[d['id'] for d in docs if d['retrieved_at'] and time.time()-d['retrieved_at']>86400],
             'diagnostics':diagnostics,
             'experiments':[(r['id'],r['revision'],r['event_sha256']) for r in bound_experiments(self.root,task_id)],
-            'visuals':references(self,task_id),
+            'visuals':references(self,task_id),'visual_descriptions':[d['hash'] for d in descriptions(self,task_id)],
             'dependencies':{d:self.index().get(d) for d in self.bible.task(task_id)['requires']}})
     def has_card(self,key):return self.path('cards/'+key+'.json').exists() or key in self.archive()
     def get(self,key):
@@ -120,6 +121,10 @@ class Project:
             context['request_constraints']=requested
             from agent.project_visual import references
             visuals=references(self,task['id'])
+            from agent.visual_description import descriptions
+            described=descriptions(self,task['id'])
+            context['visual_description_revisions']=[d['hash'] for d in described]
+            context['visual_description_reported']=[{k:d['description'][k] for k in ('description','keep','avoid','unknown','provenance','visual_analysis_performed')} for d in described[-1:]]
             context['visual_references']=[{k:v[k] for k in ('sha256','target','keep','avoid','render_version','human_opinion','visual_analysis_performed')} for v in visuals]
             context['experiment_revisions']=[{'id':r['id'],'revision':r['revision'],'event_sha256':r['event_sha256']} for r in records]
             context['bound_failures']=[{'id':r['id'],'technique':r['technique'][:200],'errors':r['results'][-1]['errors'][:2]} for r in records if r['results'] and r['results'][-1]['status']=='FAILED'][:2]
@@ -169,9 +174,11 @@ class Project:
         elif any(word in q for word in ('bible','scénario','scenario','personnages','chronologie')):
             entries=[{'id':i['id'],'status':i['status'],'text':i['text']} for i in bible.data['items']]
             payload={'kind':'bible','revision':bible.data['revision'],'bible_hash':bible.fingerprint,'items':entries,
-                     'questions':[{'id':x['id'],'text':x['text'],'status':x['status']} for x in bible.data['questions']],
+                     'questions':[{'id':x['id'],'text':x['text'],'status':x['status'],'answer':x['answer']} for x in bible.data['questions']],
+                     'omitted_items':0,
                      'scope':'user context; studied ideas are not confirmed game decisions'}
-            while len(json.dumps(payload,ensure_ascii=False))>token_budget*2.4 and payload['items']:payload['items'].pop()
+            while len(json.dumps(payload,ensure_ascii=False))>token_budget*2.4 and payload['items']:
+                payload['items'].pop();payload['omitted_items']+=1
         elif any(word in q for word in ('pack','prochaines tâches','prochaines taches','rapport quotidien')):
             payload=self.pack(3,token_budget)
         else:
@@ -190,6 +197,9 @@ class Project:
              'failed_methods':[],'reviewed_experiments':[],'detail_tool':'get_intelligence_analysis',
              'abstained_from_established_facts':not payload.get('source_attribution_available',False),'truth_verified':False,'untrusted_data':True,
              'project':payload,'scope':'Propositions de laboratoire, compatibilité et conditions à vérifier ; aucune édition du jeu.'}
+        if payload.get('kind')=='bible':
+            out['detail_tool']='get_intelligence_brief'
+            out['detail_note']='Request the same Bible question with token_budget=8000 for the complete declared context.'
         if payload.get('task_id') and not self.has_card(out['key']):
             out['detail_tool']='synthesize_technical'
             out['detail_note']='Unsaved read-only preview: request synthesize_technical with the same question and apply=false for complete current evidence.'
@@ -260,6 +270,9 @@ class Project:
             lines+=['','## Rollback',card['rollback'],'','## Prochaine action',card['next_action'],'',
                 'Clé de fiche : `'+card['key']+'` ; analyse : `'+card['analysis_key']+'`.']
             pages['knowledge/_VDN-Project-'+task['id']+'.md']='\n'.join(lines)+'\n'
+        if safe_path(self.root,'project/chapters.json').exists():
+            from agent.chapters import Chapters
+            pages.update(Chapters(self.root).pages())
         return pages
 
 

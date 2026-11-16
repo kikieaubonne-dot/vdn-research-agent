@@ -1,0 +1,609 @@
+{
+  "schema": "vdn.chapters/11.2",
+  "revision": 1,
+  "provenance": "explicit user narrative mission 2026-11-16; design, not game validation",
+  "act": {
+    "id": "act1",
+    "status": "CONFIRMED",
+    "scope": "current game under development"
+  },
+  "work_focus": {
+    "chapter": "chapter1",
+    "scene": "chapter1-forest",
+    "status": "PROPOSED",
+    "reason": "operational focus follows the reported forest priority; not beta scope"
+  },
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "Léo et Maëlle",
+      "status": "CONFIRMED",
+      "next": "chapter1"
+    },
+    {
+      "id": "lobby",
+      "title": "Lobby et menu",
+      "status": "CONFIRMED",
+      "next": "chapter1"
+    },
+    {
+      "id": "chapter1",
+      "title": "Le policier",
+      "status": "CONFIRMED",
+      "next": "chapter2"
+    },
+    {
+      "id": "chapter2",
+      "title": "Grenier — début envisagé",
+      "status": "PROPOSED",
+      "next": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "prologue-home",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Léo et le post-it",
+      "narrative_status": "CONFIRMED",
+      "objective": "Présenter la responsabilité de Léo et le départ de Maëlle.",
+      "player_actions": [
+        "lire le post-it",
+        "entendre la voix",
+        "suivre le départ de Maëlle"
+      ],
+      "features": [
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [
+        {
+          "item": "post-it animé des parents",
+          "status": "PROTOTYPE",
+          "source": "user report; file not inspected"
+        }
+      ],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Léo est un petit garçon, la veille de Noël.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Les parents sont partis chercher Mamie et demandent par post-it animé de surveiller Maëlle.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Voix anglaise de Père Noël dans l’esprit de « Ho, ho, ho! Merry Christmas, everyone! ».",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Maëlle croit découvrir le Père Noël et part vers la forêt.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "prologue-forest",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Disparition et poursuite",
+      "narrative_status": "CONFIRMED",
+      "objective": "Léo suit Maëlle ; cri, rire, silence et poursuite par le Père Noël.",
+      "player_actions": [
+        "suivre Maëlle",
+        "apprendre le sprint",
+        "fuir vers les maisons",
+        "appeler la police"
+      ],
+      "features": [
+        {
+          "task": "trees",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "ground",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "collisions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "lighting",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "movement",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "pursuit",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Léo suit Maëlle, qui disparaît au loin.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Cri de Maëlle, rire inquiétant, puis silence.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "La lampe dysfonctionne ; le Père Noël poursuit Léo et introduit le sprint.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Léo rejoint les habitations, voit le Père Noël retourner en forêt et appelle la police.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "lobby-hub",
+      "act": "act1",
+      "chapter": "lobby",
+      "title": "Menu et groupes",
+      "narrative_status": "CONFIRMED",
+      "objective": "Accueillir, choisir progression, difficulté et groupe de 1 à 4.",
+      "player_actions": [
+        "inviter",
+        "choisir difficulté",
+        "rejouer le prologue"
+      ],
+      "features": [
+        {
+          "task": "groups",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "saves",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "architecture",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Transition vers une place/instance de lobby après le prologue.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Accueil cinématographique avec policier et décor enneigé.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Groupes solo, duo, trio ou escouade de quatre.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Facile, Normal, Difficile, puis Cauchemar débloqué après Difficile ; indices sur l’acte 2 futur.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Histoire, chapitres/progression, souvenirs dont prologue, invitations et paramètres.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "chapter1-arrival",
+      "act": "act1",
+      "chapter": "chapter1",
+      "title": "Arrivée du policier",
+      "narrative_status": "CONFIRMED",
+      "objective": "Introduire le policier et guider discrètement vers la forêt.",
+      "player_actions": [
+        "observer véhicules et gyrophares",
+        "suivre le losange discret"
+      ],
+      "features": [
+        {
+          "task": "viewmodel",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "camera",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "lighting",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Policier avec gants, lampe et tenue tactique.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Arrivée près des véhicules de police, gyrophares et ambiance sonore ; losange discret vers la forêt.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "chapter1-forest",
+      "act": "act1",
+      "chapter": "chapter1",
+      "title": "Forêt jouable",
+      "narrative_status": "CONFIRMED",
+      "objective": "Traverser une forêt non linéaire avec relief et apprentissage progressif.",
+      "player_actions": [
+        "sprinter",
+        "enjambement",
+        "escalade",
+        "saut",
+        "accroupissement",
+        "glissade"
+      ],
+      "features": [
+        {
+          "task": "trees",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "collisions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "ground",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "lighting",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "camera",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "movement",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "performance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Apprendre progressivement sprint, enjambement, escalade, saut, accroupissement, glissade et interactions.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Forêt non linéaire avec neige, relief, rochers, troncs, ravin ou rivière, pente et obstacles.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "chapter1-house",
+      "act": "act1",
+      "chapter": "chapter1",
+      "title": "Maison et attaque",
+      "narrative_status": "CONFIRMED",
+      "objective": "Trouver la clé, tenter la porte, passer par une fenêtre, être attaqué.",
+      "player_actions": [
+        "chercher clé",
+        "tenter porte",
+        "passer fenêtre"
+      ],
+      "features": [
+        {
+          "task": "architecture",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "pursuit",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Trouver une clé, tenter la porte, entrer par une fenêtre.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Le Père Noël attaque ; le policier perd connaissance et se réveille dans le grenier.",
+          "status": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "chapter2-attic",
+      "act": "act1",
+      "chapter": "chapter2",
+      "title": "Grenier et évasion",
+      "narrative_status": "PROPOSED",
+      "objective": "Début envisagé : policier prisonnier dans un grenier ; préparer son évasion.",
+      "player_actions": [
+        "observer",
+        "chercher des indices",
+        "examiner un cadenas",
+        "résoudre une énigme",
+        "s’échapper"
+      ],
+      "features": [
+        {
+          "task": "architecture",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "materials",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "lighting",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "dust",
+          "priority": "P2",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "puzzles",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "source evidence, isolated protocol and actual scene inputs"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": [
+        {
+          "text": "Début envisagé : policier prisonnier, objectif s’échapper.",
+          "status": "PROPOSED"
+        },
+        {
+          "text": "Grenier réaliste, poussière dans lumière, rayons lunaires, cage/prison, cadenas, indices et énigmes à préciser.",
+          "status": "PROPOSED"
+        }
+      ]
+    }
+  ],
+  "open_decisions": [
+    {
+      "id": "beta-scope",
+      "status": "UNKNOWN",
+      "question": "Quelle séquence exacte doit être livrée pour la prochaine bêta ?"
+    },
+    {
+      "id": "coop-scope",
+      "status": "UNKNOWN",
+      "question": "Quelles scènes sont jouables à plusieurs, en dehors des groupes du lobby ?"
+    },
+    {
+      "id": "device-budget",
+      "status": "UNKNOWN",
+      "question": "Quels appareils et budgets de performance doivent être validés ?"
+    }
+  ],
+  "proposed_details": [
+    {
+      "id": "maelle-transition",
+      "status": "PROPOSED",
+      "text": "Fenêtre, clochettes ou lumière lointaine et dialogue : choix de transition à confirmer."
+    },
+    {
+      "id": "leo-fall",
+      "status": "PROPOSED",
+      "text": "Chute et attaque manquée de Léo envisagées, pas confirmées."
+    }
+  ],
+  "deferred": [
+    {
+      "id": "asymmetric",
+      "status": "DEFERRED",
+      "text": "Mode multijoueur Père Noël après sortie initiale."
+    },
+    {
+      "id": "act2",
+      "status": "DEFERRED",
+      "text": "Acte 2 futur ; seulement prévoir des indices en Cauchemar."
+    }
+  ]
+}

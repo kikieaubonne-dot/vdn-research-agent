@@ -1,0 +1,58 @@
+{
+  "attempts": 1,
+  "engine_executed": true,
+  "experiments": [
+    {
+      "id": "ddc52cf9-d584-57b9-b29a-f7c0aa48543d",
+      "method": "DEMO_A"
+    },
+    {
+      "id": "1eb678ed-1728-56e1-8d4b-4d726c8fca35",
+      "method": "DEMO_B"
+    }
+  ],
+  "id": "4b3ba61d-9fbf-4a25-ae00-0a8db1b4daa8",
+  "reports": [
+    {
+      "id": "ddc52cf9-d584-57b9-b29a-f7c0aa48543d",
+      "status": "PARTIAL_SUCCESS",
+      "metrics": {
+        "dimension_x_m": 2.0,
+        "dimension_y_m": 2.0,
+        "dimension_z_m": 4.0,
+        "materials": 1,
+        "objects": 2,
+        "triangles": 42
+      },
+      "report_sha256": "e9aa67ca8dec544a9c9ff3858e80251ce9bbfe1a4c2586d135e57d5b2ccb28cd"
+    },
+    {
+      "id": "1eb678ed-1728-56e1-8d4b-4d726c8fca35",
+      "status": "PARTIAL_SUCCESS",
+      "metrics": {
+        "dimension_x_m": 2.0,
+        "dimension_y_m": 2.0,
+        "dimension_z_m": 4.0,
+        "materials": 1,
+        "objects": 2,
+        "triangles": 58
+      },
+      "report_sha256": "89f45c0019c0b6b8094bf1bd6baf472c0786e3d7f6e6cb3fe05d3d1dabf38f7b"
+    }
+  ],
+  "schema": "vdn.local-lab-job/11.2",
+  "spec": {
+    "capability": "blender_demo_geometry",
+    "input": null,
+    "input_sha256": null,
+    "required_version": "4.3.2",
+    "script_sha256": "069412875f5790aa32912feb4d9320aab6847e79551dc71e5a36c4a8f7a49c6a",
+    "task": "trees",
+    "unit_scale": 1.0
+  },
+  "spec_hash": "dde1ac6838fb367a4a4ea92f6868fd5cee9b986990a7eb92b1699a5d5e250de7",
+  "state": "SUCCEEDED",
+  "verified": false,
+  "actual_blender_version": "4.3.2",
+  "scope": "real Blender geometry only; supplied scene copy or primitives, no visual quality, B3/C1 or Roblox performance inferred"
+}

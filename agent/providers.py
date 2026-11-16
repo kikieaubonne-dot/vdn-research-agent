@@ -37,7 +37,7 @@ ALLOWED_HOSTS = {"create.roblox.com", "devforum.roblox.com", "api.github.com", "
 DOCS_INDEX_URL = "https://create.roblox.com/docs/llms.txt"
 DEVFORUM_SITEMAP = "https://devforum.roblox.com/sitemap.xml"
 # Chemins DevForum que l'agent s'autorise (tout le reste est refusé, recherche et RSS compris).
-DEVFORUM_ALLOWED = re.compile(r"^/(t/[^/]+/\d+(?:\.json)?|t/\d+\.json|sitemap[^/]*\.xml)$")
+DEVFORUM_ALLOWED = re.compile(r"^/(robots\.txt|t/[^/]+/\d+(?:\.json)?|t/\d+\.json|sitemap[^/]*\.xml)$")
 
 
 class FetchError(Exception):

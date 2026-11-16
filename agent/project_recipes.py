@@ -55,6 +55,37 @@ RECIPES={
  ('mêmes vues proches et lointaines','Examiner raccords, orientation des normales, ombres et coût ; ne pas transposer un shader Unreal.','Avis humain et limites moteur liés aux sources.')],['matériau témoin','cartes candidates documentées'])}
 
 
+RECIPES.update({
+'viewmodel':('FirstPersonHandsLab','séparer vue, animation et logique de lampe',[
+ ('copies caméra, contrôleur et mains disponibles','Relever rig, hiérarchie, animations et contraintes réelles sans inventer de fichier existant.','Baseline caméra/mains sauvegardée.'),
+ ('mannequin et lampe de laboratoire','Isoler une liaison de caméra ou une animation à la fois ; garder le contrôleur témoin.','Origine du décalage ou clipping observable.'),
+ ('même trajet et mêmes actions','Comparer marche, sprint, accroupissement et interaction ; conserver les défauts et le rollback.','Résultats limités au rig et contrôleur réellement testés.')],['mains témoins','variante de liaison ou animation isolée']),
+'audio':('NarrativeAudioLab','déclenchement contextuel et lisibilité des indices sonores',[
+ ('sons autorisés et copie de scène','Vérifier droits, provenance et déclencheurs ; les sons non disponibles restent des lacunes.','Inventaire sans audio fabriqué ni licence supposée.'),
+ ('même caméra et même parcours','Comparer un signal spatial ou narratif à la fois ; conserver les autres sons.','Cause des différences de localisation ou compréhension isolée.'),
+ ('mêmes actions et écoute humaine','Noter orientation perçue, compréhension, répétitions et défauts ; conserver les conditions.','Avis humain et événements enregistrés, sans mesure acoustique inventée.')],['signal témoin','indice sonore candidat']),
+'guidance':('ContextualObjectivesLab','objectif progressif et indice au moment utile',[
+ ('séquence utilisateur et joueurs témoins','Décrire objectif courant, zone accessible et condition de déblocage ; distinguer hypothèse de confusion et observation.','Table des états de progression inspectable.'),
+ ('copie avec mêmes interactions','Comparer un indice contextuel ou une ouverture de zone à la fois, sans retirer le contrôle du joueur arbitrairement.','Effet attribuable à une seule modification UX.'),
+ ('parcours observé avec consentement','Noter demandes d’aide, hésitations et réussite ; ne pas inventer taux d’abandon ni temps de résolution.','Décision humaine sur compréhension et accessibilité.')],['guidage témoin','indice progressif candidat']),
+'saves':('ChapterSaveLab','persistance versionnée avec cas d’erreur',[
+ ('données de test et schéma de progression','Définir clés logiques, version et droits ; aucune donnée joueur de production dans le laboratoire.','Schéma et règles de déverrouillage explicites.'),
+ ('adaptateur de stockage de test','Préparer succès, erreur et reprise avec API officiellement documentée ; ne pas masquer un échec de sauvegarde.','Statuts et opérations inspectables sans perte silencieuse.'),
+ ('mêmes scénarios de progression','Tester relecture, nouvelle tentative et migration sur copies ; conserver les anciennes données.','Résultats bornés au stockage et versions testés.')],['stockage témoin','version de schéma candidate']),
+'groups':('LobbyPartyLab','séparer groupe, invitation et transition de scène',[
+ ('règles utilisateur de groupes 1 à 4','Définir états d’invitation et départ ; ce nombre est une règle du projet, pas une limite de plateforme.','Contrat de groupe et inconnues réseau visibles.'),
+ ('place de test et comptes autorisés','Préparer une transition à la fois avec validation serveur ; aucune téléportation du jeu publié.','Erreurs et autorisations liées à une scène isolée.'),
+ ('mêmes règles et conditions réseau','Tester départ, refus, déconnexion et reprise ; ne pas annoncer un test multijoueur sans sessions réelles.','Rapports conditionnels, aucune réussite réseau fictive.')],['groupe minimal','transition candidate']),
+'puzzles':('ProgressivePuzzleLab','indices et verrous avec transitions explicites',[
+ ('plan de grenier proposé et objets copiés','Définir indice, condition de découverte et effet ; ne pas confirmer une énigme narrative non décidée.','Graphe de progression proposé et inspectable.'),
+ ('même scène et mêmes interactions','Changer un seul verrou ou indice contextuel ; éviter tous les indices simultanés.','Différence de compréhension isolée.'),
+ ('parcours reproductible et revue humaine','Tester ordre inattendu, interaction répétée et retour arrière ; consigner les impasses.','Aucune résolution ou compréhension présumée sans essai.')],['énigme témoin','déblocage progressif candidat']),
+'dust':('MoonlightDustLab','isoler poussière et faisceau lumineux',[
+ ('scène témoin et version Studio','Inventorier lumière et effet particulaire réellement disponibles ; ne pas transposer une volumétrie Unreal.','Paramètres actuels et source compatibles à vérifier.'),
+ ('même caméra, exposition et géométrie','Comparer présence et représentation de poussière en changeant un facteur documenté.','Effet visuel isolé sans densité optimale inventée.'),
+ ('mêmes vues et appareil cible','Recueillir avis humain et mesure de trame si disponible ; distinguer rendu perceptuel et coût.','Compromis borné aux conditions testées.')],['lumière sans poussière','particules candidates documentées'])})
+
+
 def recipe(task):
     component,solution,steps,alternatives=RECIPES[task['id']]
     return {'status':'ENGINEERING_PROPOSAL','solution':solution,'component':{'name':component,'location':'emplacement à confirmer dans le projet','exists':'UNKNOWN'},

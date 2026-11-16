@@ -1,0 +1,27 @@
+test_public_topic_json_is_extracted_with_post_provenance (tests.test_lab_intelligence.CommunityExtractionRegression.test_public_topic_json_is_extracted_with_post_provenance) ... ERROR
+
+======================================================================
+ERROR: test_public_topic_json_is_extracted_with_post_provenance (tests.test_lab_intelligence.CommunityExtractionRegression.test_public_topic_json_is_extracted_with_post_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 225, in test_public_topic_json_is_extracted_with_post_provenance
+    d=OceanWeb(self.root,opener).get('https://devforum.roblox.com/t/123.json','devforum')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/ocean_web.py", line 172, in get
+    self.robots(url,spec)
+  File "/workspace/work/vdn-research-agent/agent/ocean_web.py", line 151, in robots
+    try:text=self._fetch(robots_url,spec,'robots',16000);decision='parsed'
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/ocean_web.py", line 126, in _fetch
+    host=self.allowed(url,spec);outer=self
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/ocean_web.py", line 110, in allowed
+    providers.validate_url(url,spec['hosts'])
+  File "/workspace/work/vdn-research-agent/agent/providers.py", line 54, in validate_url
+    raise FetchError(f'chemin DevForum non autorisé (robots.txt) : {p.path}')
+agent.providers.FetchError: chemin DevForum non autorisé (robots.txt) : /robots.txt
+
+----------------------------------------------------------------------
+Ran 1 test in 0.111s
+
+FAILED (errors=1)

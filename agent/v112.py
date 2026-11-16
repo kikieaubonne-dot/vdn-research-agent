@@ -11,6 +11,13 @@ from agent.project import budgets
 def main(argv=None):
     if hasattr(sys.stdout,'reconfigure'):sys.stdout.reconfigure(encoding='utf-8')
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);sub=p.add_subparsers(dest='cmd',required=True)
+    s=sub.add_parser('visual-describe');s.add_argument('task');s.add_argument('--input',type=Path,required=True);s.add_argument('--apply',action='store_true')
+    sub.add_parser('lab-capabilities')
+    s=sub.add_parser('lab-prepare');s.add_argument('--input');s.add_argument('--unit-scale',type=float);s.add_argument('--required-version',default='5.2');s.add_argument('--apply',action='store_true')
+    s=sub.add_parser('lab-run');s.add_argument('job_id');s.add_argument('--executable');s.add_argument('--allow-blender',action='store_true')
+    s=sub.add_parser('diagnose-failure');s.add_argument('experiment_id')
+    s=sub.add_parser('chapters');s.add_argument('chapter',nargs='?',default='chapter1')
+    s=sub.add_parser('chapter-prepare');s.add_argument('chapter');s.add_argument('--apply',action='store_true')
     s=sub.add_parser('bible');s.add_argument('--markdown',action='store_true')
     sub.add_parser('plan');sub.add_parser('daily');sub.add_parser('budget')
     s=sub.add_parser('task');s.add_argument('task');s.add_argument('--key')
@@ -24,15 +31,33 @@ def main(argv=None):
     s=sub.add_parser('visual-link');s.add_argument('task');s.add_argument('path');s.add_argument('--target',required=True);s.add_argument('--keep',nargs='*',default=[]);s.add_argument('--avoid',nargs='*',default=[]);s.add_argument('--render-version',required=True);s.add_argument('--human-opinion',default='UNKNOWN');s.add_argument('--apply',action='store_true')
     a=p.parse_args(argv);project=Project(a.root);research=ProjectResearch(a.root)
     try:
-        if a.cmd=='bible':
+        if a.cmd=='visual-describe':
+            from agent.visual_description import describe
+            if a.input.is_symlink() or a.input.stat().st_size>8000:raise ValueError('bounded description input required')
+            r=describe(project,a.task,json.loads(a.input.read_text(encoding='utf-8')),a.apply)
+        elif a.cmd in ('lab-capabilities','lab-prepare','lab-run'):
+            from agent.lab_runner import LocalLab
+            lab=LocalLab(a.root)
+            r=lab.capabilities() if a.cmd=='lab-capabilities' else lab.prepare(capability='blender_copy_geometry' if a.input else 'blender_demo_geometry',input_path=a.input,unit_scale=a.unit_scale,required_version=a.required_version,apply=a.apply) if a.cmd=='lab-prepare' else lab.run(a.job_id,a.executable,a.allow_blender)
+        elif a.cmd=='diagnose-failure':
+            from agent.failure_learning import diagnose
+            r=diagnose(a.root,a.experiment_id)
+        elif a.cmd in ('chapters','chapter-prepare'):
+            from agent.chapters import Chapters
+            r=Chapters(a.root).plan(a.chapter) if a.cmd=='chapters' else Chapters(a.root).prepare(a.chapter,a.apply)
+        elif a.cmd=='bible':
             if a.markdown:print(project.bible.markdown(),end='');return 0
             r=project.bible.data
         elif a.cmd=='plan':r=project.plan()
         elif a.cmd=='daily':r=project.daily()
         elif a.cmd=='budget':r=budgets(a.root)
         elif a.cmd=='task':r=project.get(a.key) if a.key else project.latest(a.task) or project.synthesize(a.task)
-        elif a.cmd=='synthesize':r=project.synthesize(a.question,a.apply,a.allow_model)
-        elif a.cmd=='brief':r=project.brief(a.question,a.token_budget,a.key)
+        elif a.cmd=='synthesize':
+            from agent.project_api import ProjectAPI
+            r=ProjectAPI(a.root,True).synthesize_technical(a.question,a.apply,a.allow_model)
+        elif a.cmd=='brief':
+            from agent.project_api import ProjectAPI
+            r=ProjectAPI(a.root).get_intelligence_brief(a.question,a.token_budget,a.key)
         elif a.cmd=='pack':r=project.pack(a.limit)
         elif a.cmd=='research-prepare':r=research.prepare(a.tasks,a.apply,a.session_id)
         elif a.cmd=='research-run':r=research.run(a.id,a.apply,a.allow_network,a.allow_model)

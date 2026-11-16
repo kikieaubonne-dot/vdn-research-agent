@@ -1,0 +1,6 @@
+{"at": "2026-11-16T17:32:30.416652+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "robots", "url": "https://devforum.roblox.com/robots.txt"}
+{"at": "2026-11-16T17:32:32.810656+00:00", "kind": "http_response", "purpose": "robots", "status": 200, "url": "https://devforum.roblox.com/robots.txt"}
+{"at": "2026-11-16T17:32:38.070052+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://devforum.roblox.com/t/1196972"}
+{"at": "2026-11-16T17:32:40.274782+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://devforum.roblox.com/t/1196972"}
+{"at": "2026-11-16T17:32:40.306067+00:00", "extracted_utf8_bytes": 1942, "kind": "source_cached", "purpose": "content", "truncated": false, "url": "https://devforum.roblox.com/t/1196972"}
+{"at": "2026-11-16T17:32:40.325833+00:00", "kind": "cache_hit", "purpose": "content", "url": "https://create.roblox.com/docs/workspace/camera"}
