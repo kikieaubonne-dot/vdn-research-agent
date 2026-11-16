@@ -42,9 +42,14 @@ la lacune. Les **110 Markdown** restent inchangés, dont les 106 historiques.
 Le holdout gelé V9 conserve hit@3=1 et MRR=0,958 sur le même corpus. Aucun gain
 de pertinence ou productivité V10 n’est revendiqué.
 
-[Logs, mesures et protocole](v10/BENCHMARK.md). Tests locaux Linux ; Windows,
-Claude Desktop, modèles réels et applications graphiques ne sont pas validés
-par ces tests. La CI prévue doit être consultée pour son propre résultat.
+[Logs, mesures et protocole](v10/BENCHMARK.md). Les tests locaux tournent sous
+Linux ; la [CI de la PR #4](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/4/checks)
+exécute également la suite complète sous Windows avec Python 3.11 et UTF-8.
+Le lecteur de corpus valide les chemins fournis avant leur conversion native,
+en conservant le refus des chemins dangereux et symlinks. Seul le lanceur des
+tests historiques impose UTF-8 à ses sous-processus ; les 251 cas sont inchangés.
+Ces vérifications ne valident pas le PC utilisateur, Claude Desktop, les modèles
+réels ou les applications graphiques.
 
 ## 3. Ce qui fonctionne sans IA externe
 

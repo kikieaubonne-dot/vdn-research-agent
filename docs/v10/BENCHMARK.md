@@ -28,8 +28,10 @@ exclusion des fiches d’expériences du RAG de sources, MCP stdio depuis un aut
 dossier, permissions d’écriture et absence de revue MCP, adaptateurs de modèles
 par transport simulé, annotations visuelles manuelles, import de mesures lié à
 la bonne méthode et aux conditions. Les fixtures ne sont jamais comptées comme
-preuves d’une technique Roblox. La CI Linux/Windows est ajoutée ; son résultat
-doit être lu dans GitHub, pas inféré des tests Linux locaux.
+preuves d’une technique Roblox. La CI exécute la suite sous Linux et Windows,
+avec Python 3.11. Consulter les [résultats du commit courant](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/4/checks),
+sans inférer un succès Windows des tests Linux locaux. Le lanceur impose UTF-8
+pour éviter CP1252 dans les lectures de fixtures et les échanges MCP des tests.
 
 ## Démonstration locale
 

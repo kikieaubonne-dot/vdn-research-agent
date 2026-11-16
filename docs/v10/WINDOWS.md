@@ -4,7 +4,8 @@ Python **3.11+**, Git et un disque local NTFS ; aucune dépendance pip. Le cœur
 emploie seulement la bibliothèque standard. Les commandes ci-dessous sont à
 exécuter dans PowerShell, à la racine du dépôt. Elles ne sont pas installées sur
 le PC utilisateur par cette livraison. Les tests locaux ont lieu sous Linux ;
-le workflow `V10 offline compatibility` prévoit aussi Windows.
+le workflow `V10 offline compatibility` exécute aussi la suite sous Windows.
+Consulter les [résultats du commit courant](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/4/checks).
 
 ```powershell
 git clone https://github.com/kikieaubonne-dot/vdn-research-agent.git
