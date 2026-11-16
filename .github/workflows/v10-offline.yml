@@ -17,3 +17,5 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m tests.offline
+      - name: Isolated personal configuration permits network
+        run: python -m tests.personal_config

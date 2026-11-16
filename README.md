@@ -1,5 +1,26 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V11 — L'Éponge Océan
+
+V11 ajoute la planification forêt, la découverte de liens autorisés, des fiches
+sourcées séparant faits et procédures proposées, une mémoire persistante,
+22 outils MCP et un import de mesures Blender. Aucun modèle payant requis.
+Les modes automatiques restent désactivés ; les candidats ne sont pas vérifiés.
+
+```sh
+python -m agent.v11 plan "Forêt enneigée nocturne Roblox avec collisions"
+python -m agent.v11 brief "Pourquoi mon personnage se bloque contre les sapins ?"
+python vdn_mcp.py --v11
+python -m tests.offline
+python -m tests.personal_config
+```
+
+[Rapport V11 et limites](docs/V11_REPORT.md) ·
+[Installation Windows](docs/v11/WINDOWS.md) ·
+[Claude Desktop](docs/v11/CLAUDE_MCP.md) ·
+[Preuves Internet et Blender réelles](docs/v11/LIVE_VALIDATION.md) ·
+[Benchmark V10/V11](docs/v11/BENCHMARK.md).
+
 ## V10 — recherche locale et mémoire d’expériences
 
 V10 ajoute des sessions récursives bornées, un registre persistant des réussites

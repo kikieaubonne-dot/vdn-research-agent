@@ -1,0 +1,46 @@
+{
+  "scope": "REAL second related goal, same private laboratory and unchanged prior sessions/counters; explicitly configured managed proxy",
+  "goal_id": "5b2db71c-5920-4492-b1f5-415081a6872a",
+  "state": "ERROR",
+  "memory_reused_units": 1,
+  "queries_avoided_lower_bound": 1,
+  "daily_http_before": 10,
+  "daily_http_after": 11,
+  "new_candidate_ids": [
+    "vdn-ocean-0104f5080582c698eb53"
+  ],
+  "session_http_calls": 1,
+  "stop_details": null,
+  "last_collection": {
+    "tick": 1,
+    "item_key": "fc4dd484e98a20ca",
+    "created": 0,
+    "fetched": 2,
+    "accepted": 0,
+    "rejected": 2,
+    "fetch_attempts": 2,
+    "error_count": 1,
+    "errors": [
+      "No permitted relevant content; inspect web trace and source configuration."
+    ],
+    "created_note_ids": [],
+    "truth_verified": false
+  },
+  "truth_verified": false,
+  "last_tick_collection_read_only_reconstruction": {
+    "created": 1,
+    "fetched": 3,
+    "accepted": 1,
+    "rejected": 2,
+    "fetch_attempts": 3,
+    "error_count": 1
+  },
+  "queue_counts": {
+    "pending": 10,
+    "running": 0,
+    "done": 2,
+    "failed": 0,
+    "skipped": 1
+  },
+  "diagnostic": "last_collection is the final unit, not the tick aggregate. A cards candidate was committed earlier; later geometry query had no relevant evidence and caused ERROR. New code exposes aggregate last_summary.collection; this artifact reconstructs the original recorded tick without rerunning it."
+}

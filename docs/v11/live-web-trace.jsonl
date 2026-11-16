@@ -1,0 +1,40 @@
+{"at": "2026-11-16T06:16:06.148257+00:00", "facet": "collision", "kind": "planner_gap", "purpose": "content"}
+{"at": "2026-11-16T06:16:06.150145+00:00", "facet": "collision", "kind": "researcher_discovery", "purpose": "content"}
+{"at": "2026-11-16T06:16:06.161880+00:00", "kind": "http_attempt", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:16:38.024985+00:00", "facet": "collision", "kind": "planner_gap", "purpose": "content"}
+{"at": "2026-11-16T06:16:38.028647+00:00", "facet": "collision", "kind": "researcher_discovery", "purpose": "content"}
+{"at": "2026-11-16T06:16:38.042758+00:00", "kind": "http_attempt", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:16:43.410587+00:00", "kind": "transport_error", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:16:45.416540+00:00", "kind": "http_attempt", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:16:46.141845+00:00", "kind": "transport_error", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:22:48.864703+00:00", "facet": "collision", "kind": "planner_gap", "purpose": "content"}
+{"at": "2026-11-16T06:22:48.866364+00:00", "facet": "collision", "kind": "researcher_discovery", "purpose": "content"}
+{"at": "2026-11-16T06:22:53.958758+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "robots", "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:22:54.925916+00:00", "kind": "http_response", "purpose": "robots", "status": 200, "url": "https://create.roblox.com/robots.txt"}
+{"at": "2026-11-16T06:22:54.951698+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "discovery", "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T06:22:55.862267+00:00", "kind": "http_response", "purpose": "discovery", "status": 200, "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T06:22:55.894256+00:00", "extracted_utf8_bytes": 23791, "kind": "source_cached", "purpose": "discovery", "truncated": false, "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T06:22:55.920695+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "discovery", "url": "https://create.roblox.com/docs/art/modeling/surface-appearance"}
+{"at": "2026-11-16T06:22:57.194729+00:00", "kind": "http_response", "purpose": "discovery", "status": 200, "url": "https://create.roblox.com/docs/art/modeling/surface-appearance"}
+{"at": "2026-11-16T06:22:57.225415+00:00", "extracted_utf8_bytes": 28636, "kind": "source_cached", "purpose": "discovery", "truncated": false, "url": "https://create.roblox.com/docs/art/modeling/surface-appearance"}
+{"at": "2026-11-16T06:22:57.253590+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Active-World-Dropdown.png"}
+{"at": "2026-11-16T06:22:57.932086+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Active-World-Dropdown.png"}
+{"at": "2026-11-16T06:22:57.934563+00:00", "kind": "source_rejected", "purpose": "content", "reason": "FetchError", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Active-World-Dropdown.png"}
+{"at": "2026-11-16T06:22:57.983485+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Add-To-Group.png"}
+{"at": "2026-11-16T06:22:59.263358+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Add-To-Group.png"}
+{"at": "2026-11-16T06:22:59.266241+00:00", "kind": "source_rejected", "purpose": "content", "reason": "FetchError", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Add-To-Group.png"}
+{"at": "2026-11-16T06:22:59.292928+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Configure-Groups-List-View.png"}
+{"at": "2026-11-16T06:23:00.506980+00:00", "kind": "http_error", "purpose": "content", "status": 404, "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Configure-Groups-List-View.png"}
+{"at": "2026-11-16T06:23:00.511039+00:00", "kind": "source_rejected", "purpose": "content", "reason": "FetchError", "url": "https://create.roblox.com/docs/assets/studio/collision-groups-editor/Configure-Groups-List-View.png"}
+{"at": "2026-11-16T06:26:24.415287+00:00", "facet": "collision", "kind": "planner_gap", "purpose": "content"}
+{"at": "2026-11-16T06:26:24.418581+00:00", "facet": "collision", "kind": "researcher_discovery", "purpose": "content"}
+{"at": "2026-11-16T06:26:24.422372+00:00", "kind": "cache_hit", "purpose": "discovery", "url": "https://create.roblox.com/docs/workspace/collisions"}
+{"at": "2026-11-16T06:26:24.426966+00:00", "kind": "cache_hit", "purpose": "discovery", "url": "https://create.roblox.com/docs/art/modeling/surface-appearance"}
+{"at": "2026-11-16T06:26:29.834639+00:00", "kind": "http_attempt", "network_mode": "trusted_system_proxy", "purpose": "content", "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T06:26:31.585416+00:00", "kind": "http_response", "purpose": "content", "status": 200, "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T06:26:31.752995+00:00", "extracted_utf8_bytes": 32000, "kind": "source_cached", "purpose": "content", "truncated": true, "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T06:26:31.765500+00:00", "facet": "collision", "kind": "reader_extracted", "purpose": "content", "url": "https://create.roblox.com/docs/performance-optimization/improve"}
+{"at": "2026-11-16T06:26:31.892239+00:00", "facet": "collision", "kind": "analyst_synthesized", "model_state": "not_used", "purpose": "content"}
+{"at": "2026-11-16T06:26:31.894735+00:00", "claims": 1, "facet": "collision", "kind": "critic_attribution_checked", "purpose": "content", "truth_verified": false}
+{"at": "2026-11-16T06:26:31.900326+00:00", "facet": "collision", "kind": "librarian_candidate", "note_id": "vdn-ocean-536271fc132120ff7ee2", "purpose": "content"}
+{"at": "2026-11-16T06:26:32.193724+00:00", "facet": "collision", "kind": "librarian_reused", "purpose": "content"}

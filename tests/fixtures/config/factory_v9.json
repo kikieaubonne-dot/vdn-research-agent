@@ -1,0 +1,148 @@
+{
+  "recurring_scheduler": "not_installed",
+  "max_items": 4,
+  "max_http_calls": 6,
+  "time_budget_s": 90,
+  "max_attempts": 2,
+  "stagnation_limit": 2,
+  "_comment": "One-shot collection requires explicit apply. No scheduler is activated. Only short source excerpts are published; full cache stays local.",
+  "recipes": [
+    {
+      "task": "saves",
+      "priority": 0,
+      "title": "Sauvegardes Roblox — DataStore, UpdateAsync et erreurs",
+      "urls": [
+        "https://create.roblox.com/docs/en-us/cloud-services/data-stores.md",
+        "https://create.roblox.com/docs/en-us/reference/engine/classes/DataStore.md"
+      ],
+      "anchors": [
+        "UpdateAsync",
+        "pcall"
+      ],
+      "domain": "roblox",
+      "topic": "persistence",
+      "prerequisites": [
+        "Lieu de test séparé des données de production ; Script côté serveur et schéma de clés défini."
+      ],
+      "steps": [
+        "Accéder au DataStore depuis un Script serveur ; protéger les opérations réseau avec pcall et traiter explicitement leur échec.",
+        "Utiliser UpdateAsync avec une transformation de la valeur courante ; retourner nil pour annuler une écriture.",
+        "Garder le callback sans fonction susceptible de suspendre son exécution. Définir les reprises comme une politique de projet restant à tester."
+      ],
+      "constraints": [
+        "L’accès depuis LocalScript n’est pas autorisé ; les appels réseau peuvent échouer.",
+        "Le callback UpdateAsync ne peut pas yield. Le succès d’un essai ne prouve pas l’absence de perte en concurrence."
+      ],
+      "alternatives": [
+        "Comparer SetAsync et UpdateAsync selon les accès concurrents, sans leur attribuer des garanties équivalentes."
+      ],
+      "validation": "Dans un lieu de test : écrire/lire une valeur, annuler avec nil, provoquer un échec et deux mises à jour concurrentes ; vérifier ancienne valeur et absence de perte.",
+      "rollback": "Conserver une copie de test des anciennes valeurs et désactiver la nouvelle logique en cas d’écart ; ne pas expérimenter sur les données des joueurs.",
+      "parameters": [
+        "Callback UpdateAsync : valeur nouvelle ou nil pour annuler ; pas de yield. Aucune stratégie de retry du projet n’est validée."
+      ]
+    },
+    {
+      "task": "security",
+      "priority": 0,
+      "title": "RemoteEvents Roblox — validation côté serveur et entrées malveillantes",
+      "urls": [
+        "https://create.roblox.com/docs/en-us/scripting/security/client-server-boundary.md"
+      ],
+      "anchors": [
+        "server",
+        "validation"
+      ],
+      "domain": "roblox",
+      "topic": "security",
+      "prerequisites": [
+        "Liste des actions sensibles et de leurs autorisations ; logique d’autorité côté serveur."
+      ],
+      "steps": [
+        "Vérifier côté serveur le type, la structure, la taille et la plage des arguments reçus du client.",
+        "Vérifier le contexte de jeu : permissions, état du personnage et distance avant de modifier une progression ou un objet.",
+        "Refuser les nombres non finis et limiter la fréquence des demandes sensibles ; ne pas faire confiance à un contrôle client seul."
+      ],
+      "constraints": [
+        "Un type number ne suffit pas à exclure NaN et l’infini.",
+        "Des données de bon type peuvent encore être trop volumineuses ou interdites dans le contexte demandé."
+      ],
+      "alternatives": [
+        "Choisir entre événement et fonction selon le besoin de réponse ; conserver la validation serveur dans les deux cas."
+      ],
+      "validation": "Envoyer types erronés, valeurs non finies, chaînes énormes, distances interdites et demandes répétées ; vérifier refus serveur sans effet de bord.",
+      "rollback": "Désactiver l’action sensible si un contrôle échoue et restaurer l’état de test ; ne pas supprimer les traces d’échec.",
+      "parameters": [
+        "Types, tailles, plages de valeurs et fréquence : bornes à définir par action ; vérifier explicitement les nombres non finis."
+      ]
+    },
+    {
+      "task": "pursuit",
+      "priority": 1,
+      "title": "Poursuite Roblox — PathfindingService, waypoints et chemins bloqués",
+      "urls": [
+        "https://create.roblox.com/docs/en-us/characters/pathfinding.md"
+      ],
+      "anchors": [
+        "ComputeAsync",
+        "Blocked"
+      ],
+      "domain": "gameplay",
+      "topic": "pursuit",
+      "prerequisites": [
+        "PNJ mobile avec Humanoid et point de départ/destination ; scène d’obstacles de test."
+      ],
+      "steps": [
+        "Créer un Path avec les paramètres du gabarit du PNJ, puis calculer le chemin avec ComputeAsync sous gestion d’erreur.",
+        "Vérifier PathStatus.Success avant de parcourir les waypoints retournés dans leur ordre.",
+        "Sur un blocage pertinent signalé par Path.Blocked, recalculer un chemin ; borner les recomputations comme politique de projet à mesurer."
+      ],
+      "constraints": [
+        "AgentRadius et AgentHeight doivent correspondre aux passages possibles ; des paramètres incompatibles empêchent le calcul.",
+        "La documentation décrit le chemin, pas une IA complète de perception, poursuite ou coopération."
+      ],
+      "alternatives": [
+        "Hypothèse de conception à tester : séparer patrouille, détection, poursuite et recherche du joueur dans une machine à états."
+      ],
+      "validation": "Tester obstacle mobile, destination inaccessible et cible déplacée ; mesurer blocages, recomputations et coût serveur. Aucun seuil universel de performance n’est déduit.",
+      "rollback": "Revenir à un PNJ immobile ou à une patrouille sûre si la poursuite se bloque ; garder les paramètres et observations de l’échec.",
+      "parameters": [
+        "La page donne AgentRadius = 2 studs et AgentHeight = 5 studs comme valeurs par défaut, pas comme réglages recommandés pour le Père Noël."
+      ]
+    },
+    {
+      "task": "accessories",
+      "priority": 4,
+      "title": "Accessoires rigides Roblox — bonnet, sacoche, maillage et attachments",
+      "urls": [
+        "https://create.roblox.com/docs/en-us/avatar/rigid-accessories.md"
+      ],
+      "anchors": [
+        "Attachment",
+        "SurfaceAppearance"
+      ],
+      "domain": "animation",
+      "topic": "accessories",
+      "prerequisites": [
+        "Personnage de test et points d’attache identifiés ; maillage et textures de l’accessoire."
+      ],
+      "steps": [
+        "Préparer le maillage et les textures de l’accessoire ; utiliser les composants et points d’attache attendus par Roblox.",
+        "Importer les composants depuis un même fichier FBX ou glTF et régler les textures sur MeshPart via SurfaceAppearance ou TextureID selon le cas.",
+        "Configurer l’Attachment, éventuellement avec Accessory Fitting Tool ; vérifier l’alignement sur le personnage réel et ses animations."
+      ],
+      "constraints": [
+        "Un accessoire rigide ne se déforme pas comme un accessoire layered ; les composants requis ne sont pas interchangeables.",
+        "La compatibilité d’un rig personnalisé et la réplication multijoueur ne sont pas prouvées par cette page seule."
+      ],
+      "alternatives": [
+        "Comparer rigide et layered selon le besoin de déformation ; ne pas choisir layered uniquement pour une attache fixe."
+      ],
+      "validation": "Tester bonnet et sacoche au repos et en animation, puis deux clients ; relever attache, pénétrations et réplication. Cette validation n’a pas été exécutée.",
+      "rollback": "Retirer uniquement l’accessoire de test et restaurer le personnage de référence ; conserver le rig original.",
+      "parameters": [
+        "Formats cités pour l’import : FBX ou glTF ; points d’attache représentés par Attachment."
+      ]
+    }
+  ]
+}

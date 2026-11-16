@@ -39,7 +39,8 @@ class FakeDocs:
 
 def make_root(**overrides):
     root = Path(tempfile.mkdtemp(prefix="vdn_auto_"))
-    shutil.copytree(REPO / "config", root / "config")
+    # Frozen test contract, independent of personal network/model/quota settings.
+    shutil.copytree(Path(__file__).parent / "fixtures" / "config", root / "config")
     cfg = json.loads((root / "config" / "autonomy.json").read_text(encoding="utf-8"))
     cfg["cycle"]["pause_s"] = 0
     for section, values in overrides.items():

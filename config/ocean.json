@@ -1,0 +1,23 @@
+{
+  "schema":"vdn.ocean-config/11",
+  "enabled":false,
+  "network_mode":"direct_public",
+  "trust_system_proxy":false,
+  "storage_bytes":8000000,
+  "min_free_bytes":32000000,
+  "cache_ttl_s":86400,
+  "max_document_bytes":524288,
+  "max_links":40,
+  "sources_per_unit":2,
+  "model_backend":"none",
+  "max_model_calls":1,
+  "max_cost_usd":0,
+  "remote_reservation_usd":0,
+  "semantic":{"enabled":false,"endpoint":"http://127.0.0.1:11434","model":""},
+  "providers":{
+    "roblox":{"enabled":true,"hosts":["create.roblox.com"],"seeds":["https://create.roblox.com/docs/workspace/collisions.md","https://create.roblox.com/docs/art/modeling/surface-appearance.md"],"policy":"public documentation; metadata, links and short excerpts"},
+    "blender":{"enabled":true,"hosts":["docs.blender.org"],"seeds":["https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html"],"policy":"public manual; metadata, links and short excerpts"},
+    "unreal":{"enabled":true,"hosts":["dev.epicgames.com"],"seeds":["https://dev.epicgames.com/documentation/en-us/unreal-engine/foliage-mode-in-unreal-engine"],"policy":"public documentation only if robots and access permit"},
+    "github":{"enabled":false,"hosts":["api.github.com","github.com"],"seeds":[],"policy":"public repository metadata only; no implicit environment token"}
+  }
+}
