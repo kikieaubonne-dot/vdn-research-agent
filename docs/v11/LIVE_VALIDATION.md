@@ -55,8 +55,11 @@ Blender 4.3.2 réellement exécuté en processus background et profil temporaire
 deux géométries, **42 et 58 triangles**, rapports importés et comparaison sous
 conditions identiques. [Rapport](blender-isolated/comparison.json).
 
-MCP stdio réellement lancé par les tests ; export Obsidian réellement écrit
-dans des destinations temporaires, avec vérification des conflits/rollback.
-Ces intégrations utilisent des données contrôlées. Le coffre Windows personnel,
+MCP stdio réellement lancé par les tests ; conflits/rollback Obsidian vérifiés
+dans des destinations temporaires avec données contrôlées. En complément,
+l'export du corpus actif réel de 111 notes vers un coffre isolé a écrit
+**125 fichiers**, sans conflit ; une seconde simulation constate **125 inchangés**.
+[Bilan de cet export](obsidian-real.json), laboratoire privé exclu.
+Le coffre Windows personnel,
 Claude Desktop, Roblox Studio, B3/C1 et Blender 5.2 étaient indisponibles.
 Ollama indisponible : aucune analyse IA ni embedding réel. Aucune dépense API.

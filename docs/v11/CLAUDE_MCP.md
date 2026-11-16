@@ -46,7 +46,7 @@ Exemples d'arguments :
 ```
 
 ```json
-{"id":"vdn-ocean-54fe16e8e5a3e6ea5304","detailed":true}
+{"note_id":"vdn-ocean-54fe16e8e5a3e6ea5304","detailed":true}
 ```
 
 Vérifier le schéma retourné par `tools/list` pour chaque outil. Le briefing

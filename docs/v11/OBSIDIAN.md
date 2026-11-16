@@ -44,5 +44,7 @@ resimuler ; aucune option de force nouvelle n'est ajoutée. Conserver le champ
 
 Le rollback vérifie les empreintes avant restauration et archive les créations
 au lieu de supprimer des notes. Les conflits, export incrémental et reprise
-sont testés. Les 115 fichiers de la synchronisation personnelle antérieure
+sont testés. Un export réel supplémentaire du corpus actif vers un coffre
+isolé a écrit 125 fichiers ; la simulation suivante les constate tous inchangés
+([bilan](obsidian-real.json)). Les 115 fichiers de la synchronisation personnelle antérieure
 ne sont pas un résultat reproduit ici.

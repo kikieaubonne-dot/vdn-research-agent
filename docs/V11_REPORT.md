@@ -27,6 +27,8 @@ des affirmations directement soutenues par une source.
   **335 réussites**, configuration personnelle copiée et source inchangées.
 - Vrais processus MCP stdio depuis autre cwd, 22 outils, briefing/structuredContent.
 - Export incrémental Obsidian, conflit et rollback dans coffres temporaires.
+- Export réel du corpus actif : 125 fichiers écrits dans un coffre isolé,
+  puis 125 inchangés à la simulation suivante ; coffre personnel non accédé.
 - Internet réellement utilisé en laboratoire isolé via proxy explicitement
   approuvé dans sa configuration : 10 réservations sur quatre ticks, puis
   1 HTTP pour le deuxième objectif ; échecs historiques conservés.
@@ -35,7 +37,12 @@ des affirmations directement soutenues par une source.
 - 110 Markdown historiques comparés par SHA-256 : aucun octet modifié. Une seule
   candidate réelle ajoutée au corpus ; seconde conservée comme preuve dans docs.
 
-Résultats CI Linux/Windows : consulter les checks de la PR V11 et leur SHA.
+CI du code `55464c0` : **Ubuntu et Windows réussis**, chacun 335 tests puis
+335 tests avec configuration personnelle autorisant le réseau. Les logs
+distants et étapes sont référencés dans [ci.json](validation/v11/ci.json) et le
+[run vérifié](https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43823259796).
+Pour les commits documentaires ultérieurs, consulter les
+[checks de la PR V11](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/6/checks).
 Le workflow exécute la suite hors ligne **et** le scénario configuration
 personnelle sous Python 3.11. La validation CI n'est pas un accès Internet
 réel Windows. [Logs locaux](validation/v11/),
@@ -100,8 +107,9 @@ Pas de commande d'activation de tâche permanente exécutée.
 
 ## 7. PR, architecture et critères d'acceptation
 
-La PR distincte cible `codex/fix-v10-budget-stops`. Son lien et les résultats CI
-du commit final sont fournis avec la livraison ; les anciennes PR restent ouvertes.
+La [PR distincte #6](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/6)
+cible `codex/fix-v10-budget-stops`. Les résultats CI du commit final sont
+fournis avec la livraison ; les anciennes PR restent ouvertes.
 
 | Démonstration | Résultat vérifié |
 |---|---|

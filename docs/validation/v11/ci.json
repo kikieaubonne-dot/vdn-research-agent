@@ -1,0 +1,64 @@
+{
+  "source_commit": "55464c01dfabaa6f4878ecbc79a7187974a0e4b2",
+  "workflow_run": 43823259796,
+  "url": "https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43823259796",
+  "jobs": [
+    {
+      "id": 133150992558,
+      "name": "offline (windows-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": 133150992928,
+      "name": "offline (ubuntu-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        }
+      ]
+    }
+  ],
+  "log_evidence": {
+    "ubuntu": [
+      "2026-11-16T07:21:48.8932567Z Ran 335 tests in 18.907s",
+      "2026-11-16T07:21:48.8932923Z OK",
+      "2026-11-16T07:22:07.9147836Z Ran 335 tests in 18.605s",
+      "2026-11-16T07:22:07.9148183Z OK",
+      "2026-11-16T07:22:07.9829134Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+    ],
+    "windows": [
+      "2026-11-16T07:23:01.5800439Z Ran 335 tests in 84.620s",
+      "2026-11-16T07:23:01.5800982Z OK",
+      "2026-11-16T07:24:36.8225957Z Ran 335 tests in 94.012s",
+      "2026-11-16T07:24:36.8226204Z OK",
+      "2026-11-16T07:24:36.9383540Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+    ]
+  },
+  "scope": "Offline and isolated personal-config suites, not real Internet on Windows. See PR checks for later documentation-only commits."
+}
