@@ -1,0 +1,528 @@
+{
+  "scope": "REAL previously collected Roblox snapshots + newly collected Blender page, no synthetic corpus; source bodies and full quotes withheld from publication",
+  "question": "Je développe une forêt d'épicéas enneigée de nuit dans Roblox. Mes arbres sont trop artificiels, leurs collisions gênent le joueur et le rendu manque de réalisme. Quelles techniques dois-je appliquer en priorité ?",
+  "analysis_key": "c9667702aed2a55cc76c2e1424124077c6321867c63f0a5f2f8648b7d789d10f",
+  "state": "complete",
+  "problems": [
+    "collision",
+    "appearance",
+    "lighting"
+  ],
+  "references": [
+    {
+      "id": "pass-e5ad8756e7e3703f99c68374",
+      "document_id": "doc-0dce45f2b67681fcb25582db",
+      "url": "https://create.roblox.com/docs/performance-optimization/improve",
+      "title": "Improve performance",
+      "section": "How to mitigate",
+      "start": 10598,
+      "end": 11306,
+      "document_sha256": "3517d9d6e0db2f5a3febf2023c9828687af332427af9cea618ce5edb1716a99e",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": true
+    },
+    {
+      "id": "pass-61230ca3e993f0c3c2e763f5",
+      "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+      "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+      "title": "PBR textures",
+      "section": "Normal",
+      "start": 5125,
+      "end": 5290,
+      "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": false
+    },
+    {
+      "id": "pass-f434cdd821bc7bbb93afc359",
+      "document_id": "doc-899a78777364408e96047681",
+      "url": "https://create.roblox.com/docs/reference/engine/classes/SpotLight",
+      "title": "Class: SpotLight",
+      "section": "document",
+      "start": 0,
+      "end": 110,
+      "document_sha256": "db47e9edd9ee270c639002dd546aa50b5a5272f39c53310efd84cabf7ca3547a",
+      "source_type": "secondary_recorded_excerpt",
+      "engine": "Roblox",
+      "version": "inconnue",
+      "incomplete_context": false
+    },
+    {
+      "id": "pass-aa3f4191485c1be69b7542d4",
+      "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+      "url": "https://create.roblox.com/docs/workspace/collisions",
+      "title": "Collisions",
+      "section": "Collisions",
+      "start": 253,
+      "end": 559,
+      "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": false
+    },
+    {
+      "id": "pass-28eae4051602afd209b399fe",
+      "document_id": "doc-d8d8c1c6417a272fc9195601",
+      "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+      "title": "Mesh Structure - Blender 5.3 Manual",
+      "section": "document",
+      "start": 9600,
+      "end": 11000,
+      "document_sha256": "2315e709070ecaeddd4f179f38fb7965ac726b7b2eba5e7a87bfff8f39184e03",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Blender",
+      "version": "5.3",
+      "incomplete_context": true
+    },
+    {
+      "id": "pass-7e898b552533941fd729e7a7",
+      "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+      "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+      "title": "PBR textures",
+      "section": "Transparency",
+      "start": 13179,
+      "end": 13552,
+      "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": false
+    },
+    {
+      "id": "pass-a97779faca9d51c87afe6934",
+      "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+      "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+      "title": "PBR textures",
+      "section": "Normal",
+      "start": 21810,
+      "end": 21936,
+      "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": false
+    },
+    {
+      "id": "pass-8a9be4a9acf822bd6a28060c",
+      "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+      "url": "https://create.roblox.com/docs/workspace/collisions",
+      "title": "Collisions",
+      "section": "Disable character collisions",
+      "start": 19548,
+      "end": 19698,
+      "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+      "source_type": "recorded_source_snapshot",
+      "engine": "Roblox",
+      "version": "unknown",
+      "incomplete_context": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-473d11b156066444bf56dc1a",
+      "passage_ids": [
+        "pass-e5ad8756e7e3703f99c68374"
+      ],
+      "source_ids": [
+        "doc-0dce45f2b67681fcb25582db"
+      ],
+      "support": "INFERRED",
+      "issues": [
+        "incomplete_source_context"
+      ],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-9d5e6af30b1244f07a6f4af6",
+      "passage_ids": [
+        "pass-61230ca3e993f0c3c2e763f5"
+      ],
+      "source_ids": [
+        "doc-a6cc7c1e3387a8cc46168e3d"
+      ],
+      "support": "SOURCE_SUPPORTED",
+      "issues": [],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-6ce8e8187640653ea64dc785",
+      "passage_ids": [
+        "pass-f434cdd821bc7bbb93afc359"
+      ],
+      "source_ids": [
+        "doc-899a78777364408e96047681"
+      ],
+      "support": "INFERRED",
+      "issues": [
+        "secondary_excerpt_requires_original"
+      ],
+      "engine": "Roblox",
+      "version": "inconnue",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-ca9e5343c4e11b010c3d02ca",
+      "passage_ids": [
+        "pass-aa3f4191485c1be69b7542d4"
+      ],
+      "source_ids": [
+        "doc-5f3a3ec51a5ae0f501ba508e"
+      ],
+      "support": "SOURCE_SUPPORTED",
+      "issues": [],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-95987b0f03f9e586e7b4fd34",
+      "passage_ids": [
+        "pass-28eae4051602afd209b399fe"
+      ],
+      "source_ids": [
+        "doc-d8d8c1c6417a272fc9195601"
+      ],
+      "support": "UNSUPPORTED",
+      "issues": [
+        "target_engine_requires_adaptation"
+      ],
+      "engine": "Blender",
+      "version": "5.3",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-e7c3b8323d1f2b11e608d27e",
+      "passage_ids": [
+        "pass-7e898b552533941fd729e7a7"
+      ],
+      "source_ids": [
+        "doc-a6cc7c1e3387a8cc46168e3d"
+      ],
+      "support": "SOURCE_SUPPORTED",
+      "issues": [],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-0da12d6f18cd419415c7fa21",
+      "passage_ids": [
+        "pass-a97779faca9d51c87afe6934"
+      ],
+      "source_ids": [
+        "doc-a6cc7c1e3387a8cc46168e3d"
+      ],
+      "support": "SOURCE_SUPPORTED",
+      "issues": [],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    },
+    {
+      "id": "claim-f9e58b4d89455ebebfc10efc",
+      "passage_ids": [
+        "pass-8a9be4a9acf822bd6a28060c"
+      ],
+      "source_ids": [
+        "doc-5f3a3ec51a5ae0f501ba508e"
+      ],
+      "support": "SOURCE_SUPPORTED",
+      "issues": [],
+      "engine": "Roblox",
+      "version": "unknown",
+      "truth_verified": false
+    }
+  ],
+  "procedures": [
+    {
+      "problem": "collision",
+      "steps": [
+        "Consigner les volumes et propriétés documentées de la variante témoin.",
+        "Préparer une copie avec une représentation de collision alternative autorisée ; conserver les visuels identiques.",
+        "Rejouer le même parcours entre troncs, sous branches et sur pentes avec le contrôleur réel."
+      ],
+      "why": "Les volumes de collision pourraient gêner le contrôleur.",
+      "conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "passage_ids": [
+        "pass-e5ad8756e7e3703f99c68374",
+        "pass-aa3f4191485c1be69b7542d4",
+        "pass-8a9be4a9acf822bd6a28060c"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "origin": "deterministic_engineering_proposal",
+      "status": "EXPERIMENT_PROPOSAL",
+      "truth_verified": false
+    },
+    {
+      "problem": "appearance",
+      "steps": [
+        "Capturer les mêmes silhouettes de près et de loin.",
+        "Comparer deux copies avec la même silhouette globale ; ne modifier qu’un choix de représentation.",
+        "Conserver les normales, textures, éclairage et caméra comme contrôles."
+      ],
+      "why": "Silhouette ou représentation du feuillage pourraient expliquer l’aspect artificiel.",
+      "conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "passage_ids": [
+        "pass-e5ad8756e7e3703f99c68374",
+        "pass-61230ca3e993f0c3c2e763f5",
+        "pass-28eae4051602afd209b399fe"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "origin": "deterministic_engineering_proposal",
+      "status": "EXPERIMENT_PROPOSAL",
+      "truth_verified": false
+    },
+    {
+      "problem": "lighting",
+      "steps": [
+        "Capturer une scène témoin avec caméra et exposition consignées.",
+        "Modifier un seul réglage réellement disponible et documenté ; enregistrer sa valeur choisie.",
+        "Comparer le même trajet et la même lampe ; ne pas transposer un preset Unreal à Roblox."
+      ],
+      "why": "La lisibilité nocturne pourrait dépendre du couple matériau et lumière.",
+      "conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "passage_ids": [
+        "pass-f434cdd821bc7bbb93afc359"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "origin": "deterministic_engineering_proposal",
+      "status": "EXPERIMENT_PROPOSAL",
+      "truth_verified": false
+    }
+  ],
+  "experiments": [
+    {
+      "id": "protocol-0d5524ad8e59dbaa982682e0",
+      "problem": "collision",
+      "status": "EXPERIMENT_PROPOSAL",
+      "hypothesis": "Les volumes de collision pourraient gêner le contrôleur.",
+      "initial_conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "changed_variable": "représentation des collisions des troncs et branches",
+      "controlled_variables": [
+        "caméra et trajet",
+        "appareil et résolution",
+        "versions",
+        "assets hors variable étudiée"
+      ],
+      "steps": [
+        "Consigner les volumes et propriétés documentées de la variante témoin.",
+        "Préparer une copie avec une représentation de collision alternative autorisée ; conserver les visuels identiques.",
+        "Rejouer le même parcours entre troncs, sous branches et sur pentes avec le contrôleur réel."
+      ],
+      "measures": [
+        "blocages du contrôleur par parcours",
+        "mesures de trame sur appareil cible"
+      ],
+      "success_criteria": [
+        "définir les seuils avant exécution",
+        "aucune régression du parcours témoin",
+        "revue humaine du compromis"
+      ],
+      "risks": [
+        "coût de rendu ou de physique à mesurer",
+        "résultat limité aux conditions enregistrées"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "passage_ids": [
+        "pass-e5ad8756e7e3703f99c68374",
+        "pass-aa3f4191485c1be69b7542d4",
+        "pass-8a9be4a9acf822bd6a28060c"
+      ],
+      "executed": false,
+      "expected_result": "comparaison observée à recueillir, sans gain présumé",
+      "truth_verified": false
+    },
+    {
+      "id": "protocol-82d8bf163d0827d1d26d1218",
+      "problem": "appearance",
+      "status": "EXPERIMENT_PROPOSAL",
+      "hypothesis": "Silhouette ou représentation du feuillage pourraient expliquer l’aspect artificiel.",
+      "initial_conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "changed_variable": "géométrie ou cartes de feuillage",
+      "controlled_variables": [
+        "caméra et trajet",
+        "appareil et résolution",
+        "versions",
+        "assets hors variable étudiée"
+      ],
+      "steps": [
+        "Capturer les mêmes silhouettes de près et de loin.",
+        "Comparer deux copies avec la même silhouette globale ; ne modifier qu’un choix de représentation.",
+        "Conserver les normales, textures, éclairage et caméra comme contrôles."
+      ],
+      "measures": [
+        "défauts de silhouette annotés par un humain",
+        "triangles et coût de rendu mesurés"
+      ],
+      "success_criteria": [
+        "définir les seuils avant exécution",
+        "aucune régression du parcours témoin",
+        "revue humaine du compromis"
+      ],
+      "risks": [
+        "coût de rendu ou de physique à mesurer",
+        "résultat limité aux conditions enregistrées"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "passage_ids": [
+        "pass-e5ad8756e7e3703f99c68374",
+        "pass-61230ca3e993f0c3c2e763f5",
+        "pass-28eae4051602afd209b399fe"
+      ],
+      "executed": false,
+      "expected_result": "comparaison observée à recueillir, sans gain présumé",
+      "truth_verified": false
+    },
+    {
+      "id": "protocol-99c502fe0c2da2db5b76e345",
+      "problem": "lighting",
+      "status": "EXPERIMENT_PROPOSAL",
+      "hypothesis": "La lisibilité nocturne pourrait dépendre du couple matériau et lumière.",
+      "initial_conditions": [
+        "copies isolées des assets",
+        "versions et appareil consignés",
+        "baseline sauvegardée"
+      ],
+      "changed_variable": "éclairage ou brouillard",
+      "controlled_variables": [
+        "caméra et trajet",
+        "appareil et résolution",
+        "versions",
+        "assets hors variable étudiée"
+      ],
+      "steps": [
+        "Capturer une scène témoin avec caméra et exposition consignées.",
+        "Modifier un seul réglage réellement disponible et documenté ; enregistrer sa valeur choisie.",
+        "Comparer le même trajet et la même lampe ; ne pas transposer un preset Unreal à Roblox."
+      ],
+      "measures": [
+        "lecture des silhouettes évaluée humainement",
+        "mesures de trame et défauts du faisceau"
+      ],
+      "success_criteria": [
+        "définir les seuils avant exécution",
+        "aucune régression du parcours témoin",
+        "revue humaine du compromis"
+      ],
+      "risks": [
+        "coût de rendu ou de physique à mesurer",
+        "résultat limité aux conditions enregistrées"
+      ],
+      "rollback": "Restaurer les copies initiales et paramètres consignés ; aucun changement de production.",
+      "passage_ids": [
+        "pass-f434cdd821bc7bbb93afc359"
+      ],
+      "executed": false,
+      "expected_result": "comparaison observée à recueillir, sans gain présumé",
+      "truth_verified": false
+    }
+  ],
+  "critique": [
+    {
+      "claim_id": "claim-473d11b156066444bf56dc1a",
+      "issues": [
+        "incomplete_source_context"
+      ],
+      "action": "keep_out_of_established_facts"
+    },
+    {
+      "claim_id": "claim-6ce8e8187640653ea64dc785",
+      "issues": [
+        "secondary_excerpt_requires_original"
+      ],
+      "action": "keep_out_of_established_facts"
+    },
+    {
+      "claim_id": "claim-95987b0f03f9e586e7b4fd34",
+      "issues": [
+        "target_engine_requires_adaptation"
+      ],
+      "action": "keep_out_of_established_facts"
+    },
+    {
+      "issues": [
+        "software_version_unknown"
+      ],
+      "action": "check_installed_versions_before_application"
+    },
+    {
+      "issues": [
+        "character_group_section_is_not_a_confirmed_tree_fix"
+      ],
+      "action": "inspect_section_scope_before_changing_collision_groups"
+    },
+    {
+      "issues": [
+        "project_procedure_not_executed"
+      ],
+      "action": "run_controlled_experiment_and_human_review"
+    }
+  ],
+  "missing": [
+    "asset copies and current settings",
+    "software versions not supplied",
+    "reproducible baseline and device"
+  ],
+  "priority_actions": [
+    "Priorité proposée : collision ; mesurer avant généralisation.",
+    "Priorité proposée : appearance ; mesurer avant généralisation.",
+    "Priorité proposée : lighting ; mesurer avant généralisation."
+  ],
+  "metrics": {
+    "elapsed_s": 0.2529781249977532,
+    "selected_passages": 8,
+    "claims": 8,
+    "facts": 5,
+    "unsupported_claims": 1,
+    "api_cost_usd": 0,
+    "procedure_structural_completeness": 3
+  },
+  "reuse": {
+    "same_key": true,
+    "cache_hit": true,
+    "model_calls_this_run": 0
+  },
+  "blender_source_collection": {
+    "state": "downloaded_or_cache",
+    "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html",
+    "sha256": "2315e709070ecaeddd4f179f38fb7965ac726b7b2eba5e7a87bfff8f39184e03",
+    "truncated": true,
+    "cached": false,
+    "http_before": 11,
+    "http_after": 13
+  },
+  "service": "unavailable",
+  "model_inference_executed": false,
+  "embedding_model_executed": false,
+  "current_demo_daily_http_calls": 14,
+  "truth_verified": false
+}

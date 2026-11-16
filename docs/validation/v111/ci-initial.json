@@ -1,0 +1,154 @@
+{
+  "source_commit": "b31c89c7ca9578dd53c2034354ae0b3f2eb2f11a",
+  "workflow_run": 43847522870,
+  "url": "https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43847522870",
+  "jobs": [
+    {
+      "id": 133231315342,
+      "name": "offline (windows-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 43847522870,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "id": 133231315736,
+      "name": "offline (ubuntu-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 43847522870,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        }
+      ]
+    }
+  ],
+  "log_evidence": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "job_id": 133231315342,
+        "error": false,
+        "evidence": [
+          "2026-11-16T10:19:15.9034544Z Ran 369 tests in 86.903s",
+          "2026-11-16T10:19:15.9034822Z OK",
+          "2026-11-16T10:21:10.7598583Z Ran 369 tests in 113.649s",
+          "2026-11-16T10:21:10.7598866Z OK",
+          "2026-11-16T10:21:10.8778552Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+        ]
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "job_id": 133231315736,
+        "error": false,
+        "evidence": [
+          "2026-11-16T10:18:05.0007319Z Ran 369 tests in 23.032s",
+          "2026-11-16T10:18:05.0007611Z OK",
+          "2026-11-16T10:18:23.9530201Z Ran 369 tests in 18.599s",
+          "2026-11-16T10:18:23.9530475Z OK",
+          "2026-11-16T10:18:24.0097498Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+        ]
+      }
+    }
+  ],
+  "scope": "Initial commit before the subsequent experiment-feedback cache fix. Consult PR #7 checks and final delivery for latest head validation."
+}
