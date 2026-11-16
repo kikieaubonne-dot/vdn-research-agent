@@ -1,0 +1,107 @@
+{
+  "provenance": "Frozen authored task-to-source annotations before retrieval implementation. Not blind holdout; expected IDs are incomplete subject-relevance labels, never engine truth. Separate from existing 22 development questions.",
+  "cases": [
+    {
+      "id": "roots-1",
+      "question": "Le joueur reste coincé contre les branches de mes sapins",
+      "branch": "forest/collisions",
+      "expected": [
+        "vdn-ocean-54fe16e8e5a3e6ea5304",
+        "vdn-fe4c577081af"
+      ]
+    },
+    {
+      "id": "roots-2",
+      "question": "Les feuilles de C1 disparaissent quand la caméra recule",
+      "branch": "forest/spruce/foliage/cards/alpha",
+      "expected": [
+        "vdn-9f9338e2736f"
+      ]
+    },
+    {
+      "id": "roots-3",
+      "question": "Le feuillage opaque forme des bandes de transparence",
+      "branch": "forest/spruce/foliage/cards/alpha",
+      "expected": [
+        "vdn-319f4403f590"
+      ]
+    },
+    {
+      "id": "roots-4",
+      "question": "Comment préparer un atlas pour les aiguilles du sapin ?",
+      "branch": "forest/spruce/foliage/cards",
+      "expected": [
+        "vdn-93c1fa214202"
+      ]
+    },
+    {
+      "id": "roots-5",
+      "question": "La lampe V2 doit éclairer les branches avec des ombres",
+      "branch": "forest/lighting/flashlight",
+      "expected": [
+        "vdn-a4893023e7c3",
+        "vdn-0c907f49b2f4"
+      ]
+    },
+    {
+      "id": "roots-6",
+      "question": "Je veux un brouillard léger pour une forêt nocturne",
+      "branch": "forest/lighting/fog",
+      "expected": [
+        "vdn-6055d2f0bb67",
+        "vdn-862f8f5abfce"
+      ]
+    },
+    {
+      "id": "roots-7",
+      "question": "Préparer les matériaux du sol enneigé",
+      "branch": "forest/ground",
+      "expected": [
+        "vdn-6b1965d3e366",
+        "vdn-a857c603de78"
+      ]
+    },
+    {
+      "id": "roots-8",
+      "question": "Optimiser une forêt dense et sa distance de rendu",
+      "branch": "forest/performance",
+      "expected": [
+        "vdn-5aa463725976",
+        "vdn-d5dda0d02f6d"
+      ]
+    },
+    {
+      "id": "roots-9",
+      "question": "Mes mains doivent suivre la caméra en gardant les animations",
+      "branch": "player/viewmodel",
+      "expected": [
+        "vdn-3fe122d267fa"
+      ]
+    },
+    {
+      "id": "roots-10",
+      "question": "Mon rig importé décale ses os et son RootPart",
+      "branch": "player/animation",
+      "expected": [
+        "vdn-1290b940c378"
+      ]
+    },
+    {
+      "id": "roots-11",
+      "question": "Le PNJ poursuit le joueur mais son chemin se bloque",
+      "branch": "player/pursuit",
+      "expected": [
+        "vdn-939f03f673d6"
+      ]
+    },
+    {
+      "id": "roots-12",
+      "question": "Préparer les textures avant export Blender Roblox",
+      "branch": "forest/export",
+      "expected": [
+        "vdn-326d0bf06b35",
+        "vdn-1fe0732cf23a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+test_brief_preserves_abstention_for_an_unknown_exact_fps (tests.test_v112_regressions.AuditRegressions.test_brief_preserves_abstention_for_an_unknown_exact_fps) ... ok
+test_each_secondary_quote_keeps_its_actual_source_url (tests.test_v112_regressions.AuditRegressions.test_each_secondary_quote_keeps_its_actual_source_url) ... ok
+test_identical_source_cache_records_do_not_double_evidence (tests.test_v112_regressions.AuditRegressions.test_identical_source_cache_records_do_not_double_evidence) ... FAIL
+test_long_question_must_fit_the_mcp_context_budget (tests.test_v112_regressions.AuditRegressions.test_long_question_must_fit_the_mcp_context_budget) ... ok
+test_model_property_must_be_supported_by_the_cited_passage (tests.test_v112_regressions.AuditRegressions.test_model_property_must_be_supported_by_the_cited_passage) ... ok
+test_quality_weighting_precedes_candidate_truncation (tests.test_v112_regressions.AuditRegressions.test_quality_weighting_precedes_candidate_truncation) ... FAIL
+test_unknown_claim_engine_cannot_hide_an_unreal_source (tests.test_v112_regressions.AuditRegressions.test_unknown_claim_engine_cannot_hide_an_unreal_source) ... ok
+test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic (tests.test_v112_regressions.AuditRegressions.test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic) ... ERROR
+
+======================================================================
+ERROR: test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic (tests.test_v112_regressions.AuditRegressions.test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 62, in test_wrong_type_source_snapshot_is_isolated_with_a_diagnostic
+    diagnostics=[];self.assertFalse(ev.documents(self.root,diagnostics));self.assertTrue(diagnostics)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/intelligence_evidence.py", line 73, in documents
+    if hashlib.sha256(d['text'].encode('utf-8')).hexdigest()!=d['text_sha256']:raise ValueError('source hash mismatch')
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'encode'
+
+======================================================================
+FAIL: test_identical_source_cache_records_do_not_double_evidence (tests.test_v112_regressions.AuditRegressions.test_identical_source_cache_records_do_not_double_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 58, in test_identical_source_cache_records_do_not_double_evidence
+    self.assertEqual(len(ev.documents(self.root)),1)
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_quality_weighting_precedes_candidate_truncation (tests.test_v112_regressions.AuditRegressions.test_quality_weighting_precedes_candidate_truncation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 50, in test_quality_weighting_precedes_candidate_truncation
+    self.assertEqual(selected[0]['document_id'],'original')
+AssertionError: 'secondary' != 'original'
+- secondary
++ original
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.044s
+
+FAILED (failures=2, errors=1)

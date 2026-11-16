@@ -1,0 +1,15 @@
+test_foreign_engine_and_incompatible_blender_do_not_fill_chapter_brief (tests.test_lab_intelligence.ChapterSourceGateRegression.test_foreign_engine_and_incompatible_blender_do_not_fill_chapter_brief) ... FAIL
+
+======================================================================
+FAIL: test_foreign_engine_and_incompatible_blender_do_not_fill_chapter_brief (tests.test_lab_intelligence.ChapterSourceGateRegression.test_foreign_engine_and_incompatible_blender_do_not_fill_chapter_brief)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 237, in test_foreign_engine_and_incompatible_blender_do_not_fill_chapter_brief
+    self.assertFalse([s for t in b['tasks'] for s in t['source_references']]);self.assertEqual(b['engine_version_filtered_documents'],2)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [{'url': 'https://docs.blender.org/manual/en/5.3/render/materials.html', 'document_id': 'doc-a488b99a27a7e9f7815761e2', 'passage_id': 'pass-60186e2e1085b5ffdbcdb518', 'section': 'document', 'version': '5.3', 'original_snapshot': False, 'incomplete': False}, {'url': 'https://dev.epicgames.com/documentation/unreal-engine/lumen', 'document_id': 'doc-b7ae56daa29ce7f015331506', 'passage_id': 'pass-6060d00122fd83247140120a', 'section': 'document', 'version': 'unknown', 'original_snapshot': False, 'incomplete': False}, {'url': 'https://docs.blender.org/manual/en/5.3/render/materials.html', 'document_id': 'doc-a488b99a27a7e9f7815761e2', 'passage_id': 'pass-60186e2e1085b5ffdbcdb518', 'section': 'document', 'version': '5.3', 'original_snapshot': False, 'incomplete': False}, {'url': 'https://dev.epicgames.com/documentation/unreal-engine/lumen', 'document_id': 'doc-b7ae56daa29ce7f015331506', 'passage_id': 'pass-6060d00122fd83247140120a', 'section': 'document', 'version': 'unknown', 'original_snapshot': False, 'incomplete': False}] is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.114s
+
+FAILED (failures=1)

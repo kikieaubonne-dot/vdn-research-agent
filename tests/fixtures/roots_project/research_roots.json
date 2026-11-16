@@ -1,0 +1,649 @@
+{
+  "schema": "vdn.research-roots/11.2",
+  "revision": 1,
+  "max_depth": 8,
+  "max_nodes": 32,
+  "nodes": [
+    {
+      "id": "forest",
+      "parent": null,
+      "question": "Forêt enneigée réaliste",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [],
+      "aliases": [
+        "forêt",
+        "forest"
+      ],
+      "query": "Roblox Forêt enneigée réaliste",
+      "searchable": false,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce",
+      "parent": "forest",
+      "question": "Sapins enneigés : silhouette et géométrie",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "spruce",
+          "sapin",
+          "foliage",
+          "silhouette"
+        ]
+      ],
+      "aliases": [
+        "sapin",
+        "épicéa",
+        "spruce",
+        "silhouette"
+      ],
+      "query": "Roblox spruce foliage mesh silhouette",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/foliage",
+      "parent": "forest/spruce",
+      "question": "Représentation du feuillage",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "foliage",
+          "feuillage",
+          "leaf"
+        ]
+      ],
+      "aliases": [
+        "feuillage",
+        "aiguilles",
+        "foliage"
+      ],
+      "query": "Roblox Représentation du feuillage",
+      "searchable": false,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/foliage/cards",
+      "parent": "forest/spruce/foliage",
+      "question": "Atlas et cartes de feuillage",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "foliage",
+          "leaf"
+        ],
+        [
+          "atlas",
+          "card",
+          "mesh"
+        ]
+      ],
+      "aliases": [
+        "atlas",
+        "hair cards",
+        "foliage cards"
+      ],
+      "query": "texture atlas foliage meshes",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/foliage/cards/alpha",
+      "parent": "forest/spruce/foliage/cards",
+      "question": "Transparence et alpha à distance",
+      "task": "materials",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "alphamode",
+          "transparency",
+          "transparent"
+        ],
+        [
+          "foliage",
+          "leaf",
+          "meshpart"
+        ]
+      ],
+      "aliases": [
+        "alpha",
+        "transparent",
+        "transparence",
+        "disparaissent"
+      ],
+      "query": "foliage SurfaceAppearance AlphaMode transparency distance",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/foliage/cards/alpha/shadows",
+      "parent": "forest/spruce/foliage/cards/alpha",
+      "question": "Ombres des cartes de feuillage",
+      "task": "lighting",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "foliage",
+          "leaf",
+          "card"
+        ],
+        [
+          "shadow",
+          "ombre"
+        ]
+      ],
+      "aliases": [
+        "ombres feuillage",
+        "foliage shadows"
+      ],
+      "query": "Roblox Ombres des cartes de feuillage",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/foliage/cards/alpha/shadows/flashlight",
+      "parent": "forest/spruce/foliage/cards/alpha/shadows",
+      "question": "Ombres du feuillage sous lampe torche",
+      "task": "lighting",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "foliage",
+          "leaf",
+          "card"
+        ],
+        [
+          "shadow",
+          "ombre"
+        ],
+        [
+          "spotlight",
+          "flashlight",
+          "lampe"
+        ]
+      ],
+      "aliases": [
+        "ombres lampe",
+        "flashlight shadows",
+        "faisceau branches"
+      ],
+      "query": "Roblox Ombres du feuillage sous lampe torche",
+      "searchable": true,
+      "dependencies": [
+        "forest/lighting/flashlight",
+        "forest/spruce/foliage/cards/alpha"
+      ],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/collisions",
+      "parent": "forest",
+      "question": "Volumes physiques et collisions MeshPart",
+      "task": "collisions",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "collision",
+          "cancollide",
+          "collisionfidelity"
+        ],
+        [
+          "meshpart",
+          "controller",
+          "character"
+        ]
+      ],
+      "aliases": [
+        "coincé",
+        "bloqué",
+        "collisions",
+        "collision",
+        "meshpart"
+      ],
+      "query": "MeshPart CanCollide CollisionFidelity collisions",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/collisions/fidelity",
+      "parent": "forest/collisions",
+      "question": "Comparer la fidélité physique documentée",
+      "task": "collisions",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "collisionfidelity"
+        ],
+        [
+          "hull",
+          "box",
+          "default"
+        ]
+      ],
+      "aliases": [
+        "collisionfidelity",
+        "hull",
+        "box"
+      ],
+      "query": "CollisionFidelity Box Hull Default mesh collisions",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/ground",
+      "parent": "forest",
+      "question": "Sol enneigé et relief",
+      "task": "ground",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "terrain"
+        ],
+        [
+          "material",
+          "snow"
+        ]
+      ],
+      "aliases": [
+        "sol",
+        "terrain",
+        "neige"
+      ],
+      "query": "Roblox Sol enneigé et relief",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/ground/footprints",
+      "parent": "forest/ground",
+      "question": "Empreintes et contacts avec la neige",
+      "task": "ground",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "footprint",
+          "empreinte",
+          "decal"
+        ],
+        [
+          "snow",
+          "neige"
+        ]
+      ],
+      "aliases": [
+        "empreintes",
+        "footprints",
+        "pas neige"
+      ],
+      "query": "Roblox Empreintes et contacts avec la neige",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/lighting",
+      "parent": "forest",
+      "question": "Éclairage nocturne",
+      "task": "lighting",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "lighting",
+          "light",
+          "spotlight"
+        ]
+      ],
+      "aliases": [
+        "nuit",
+        "night",
+        "éclairage"
+      ],
+      "query": "Roblox Éclairage nocturne",
+      "searchable": false,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/lighting/flashlight",
+      "parent": "forest/lighting",
+      "question": "Faisceau et éclairage local de la lampe V2",
+      "task": "lighting",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "spotlight",
+          "flashlight"
+        ]
+      ],
+      "aliases": [
+        "lampe",
+        "torche",
+        "flashlight",
+        "faisceau"
+      ],
+      "query": "SpotLight light sources shadows flashlight",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/lighting/fog",
+      "parent": "forest/lighting",
+      "question": "Brouillard nocturne et atmosphère",
+      "task": "lighting",
+      "importance": 3,
+      "required_concepts": [
+        [
+          "atmosphere",
+          "fog",
+          "density",
+          "haze"
+        ]
+      ],
+      "aliases": [
+        "brouillard",
+        "brume",
+        "fog",
+        "atmosphere"
+      ],
+      "query": "Atmosphere Density Haze fog",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/performance",
+      "parent": "forest",
+      "question": "Performance et gestion de distance",
+      "task": "performance",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "performance",
+          "streaming",
+          "lod"
+        ]
+      ],
+      "aliases": [
+        "optimisation",
+        "performance",
+        "fps",
+        "lod"
+      ],
+      "query": "Roblox Performance et gestion de distance",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/export",
+      "parent": "forest",
+      "question": "Export Blender vers Roblox",
+      "task": "export",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "export",
+          "fbx"
+        ],
+        [
+          "blender"
+        ]
+      ],
+      "aliases": [
+        "export",
+        "importation",
+        "fbx",
+        "import"
+      ],
+      "query": "Roblox Export Blender vers Roblox",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player",
+      "parent": null,
+      "question": "Contrôleur et présentation du joueur",
+      "task": "camera",
+      "importance": 4,
+      "required_concepts": [],
+      "aliases": [
+        "joueur",
+        "player"
+      ],
+      "query": "Roblox Contrôleur et présentation du joueur",
+      "searchable": false,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/camera",
+      "parent": "player",
+      "question": "Caméra première personne",
+      "task": "camera",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "camera"
+        ]
+      ],
+      "aliases": [
+        "caméra",
+        "première personne",
+        "camera"
+      ],
+      "query": "Roblox Caméra première personne",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/viewmodel",
+      "parent": "player",
+      "question": "Mains attachées à la caméra",
+      "task": "viewmodel",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "camera"
+        ],
+        [
+          "cframe",
+          "joint",
+          "animation"
+        ]
+      ],
+      "aliases": [
+        "mains",
+        "viewmodel",
+        "articulations"
+      ],
+      "query": "attach character joints camera CFrame animations",
+      "searchable": true,
+      "dependencies": [
+        "player/camera"
+      ],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/animation",
+      "parent": "player",
+      "question": "Rig et import des animations",
+      "task": "animation",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "rig",
+          "bone",
+          "skeleton",
+          "rootpart"
+        ]
+      ],
+      "aliases": [
+        "rig",
+        "os",
+        "squelette",
+        "animation"
+      ],
+      "query": "custom rig import RootPart offset bone glitches",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/pursuit",
+      "parent": "player",
+      "question": "Poursuite et chemins bloqués",
+      "task": "pursuit",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "pathfindingservice",
+          "waypoint"
+        ]
+      ],
+      "aliases": [
+        "poursuite",
+        "pnj",
+        "pathfinding",
+        "chemin bloqué"
+      ],
+      "query": "PathfindingService waypoints blocked path",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "gameplay",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/audio",
+      "parent": "player",
+      "question": "Audio spatial et indices sonores",
+      "task": "audio",
+      "importance": 3,
+      "required_concepts": [
+        [
+          "sound",
+          "audio"
+        ]
+      ],
+      "aliases": [
+        "audio",
+        "son",
+        "clochettes"
+      ],
+      "query": "Roblox Audio spatial et indices sonores",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "player/guidance",
+      "parent": "player",
+      "question": "Guidage et objectifs contextuels",
+      "task": "guidance",
+      "importance": 4,
+      "required_concepts": [
+        [
+          "objective",
+          "tutorial",
+          "prompt"
+        ]
+      ],
+      "aliases": [
+        "guidage",
+        "objectif",
+        "interface",
+        "hud"
+      ],
+      "query": "Roblox Guidage et objectifs contextuels",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "gameplay",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/wind",
+      "parent": "forest",
+      "question": "Animation du feuillage au vent",
+      "task": "animation",
+      "importance": 2,
+      "required_concepts": [
+        [
+          "wind"
+        ],
+        [
+          "foliage",
+          "tree"
+        ]
+      ],
+      "aliases": [
+        "vent",
+        "wind"
+      ],
+      "query": "Roblox Animation du feuillage au vent",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "technical",
+      "status": "PROPOSED"
+    }
+  ],
+  "scope": "curated technical questions, not proof of game implementation",
+  "inspirations": [
+    {
+      "id": "aaa-night-light",
+      "status": "PROPOSED",
+      "principle": "Contraste et lisibilité nocturne inspirés de références AAA",
+      "sources": [],
+      "branches": [
+        "forest/lighting"
+      ],
+      "rights": "artistic reference only; no copied assets or engine compatibility claim"
+    },
+    {
+      "id": "aaa-guidance",
+      "status": "PROPOSED",
+      "principle": "Guidage discret et tension sonore",
+      "sources": [],
+      "branches": [
+        "player/guidance",
+        "player/audio"
+      ],
+      "rights": "proposed analysis; no documented AAA implementation asserted"
+    }
+  ]
+}

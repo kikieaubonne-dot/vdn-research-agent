@@ -1,0 +1,928 @@
+{
+  "all_tasks_ready": false,
+  "cards": [
+    {
+      "task": "trees",
+      "key": "6fe4dd8189e285d666da32f7c41c4d1fb27b68eab4c86e229e4bd35a86baa1d8",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-b0f865a58243baba6eebae06",
+          "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+          "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+          "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Image Maps",
+          "start": 15027,
+          "end": 15773
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "collisions",
+      "key": "a1e0d1ed3fe4b490300c43551f3321406babdecf55c18427f5932cff424f9a22",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-a74cb8fc1f2efb214b5ef087",
+          "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+          "url": "https://create.roblox.com/docs/workspace/collisions",
+          "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Mesh and solid model collisions",
+          "start": 21379,
+          "end": 21982
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "ground",
+      "key": "674022316a32056e910e350f4baeafbe8f4c2f0dbef0bbbf1f170e4f0537d32c",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-fea5d072d22c1a3bef5067fa",
+          "document_id": "doc-ae07cc946d4b006af7a0d167",
+          "url": "https://create.roblox.com/docs/parts/terrain",
+          "document_sha256": "fc67e10e2b4290b5a34368ae640a855f4ed195d8716fc162c901093f0ef4e575",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Terrain materials",
+          "start": 3528,
+          "end": 3610
+        },
+        {
+          "id": "pass-a2821ce234e14b49b6b5c62b",
+          "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+          "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+          "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Clothing",
+          "start": 594,
+          "end": 911
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "lighting",
+      "key": "6f0766082a177fd45e6ab13c90041f0f2bcb13b185354a62d610177bac5eeab0",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-06fcd1bde5752118fee17e15",
+          "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+          "url": "https://create.roblox.com/docs/effects/light-sources",
+          "document_sha256": "1f33a9580c0a55b55c10e0818fb5f6865969e130b289b64654cb7e68902c22ba",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "SpotLight",
+          "start": 2680,
+          "end": 2849
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "camera",
+      "key": "f9e459c52dfcddb92c5995a1e560ae60fe4aac2c61d7e54a7ef74c98983474a9",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-b32a99cc34d66d818b676098",
+          "document_id": "doc-e54362f11eb31cf3c6cf5281",
+          "url": "https://create.roblox.com/docs/workspace/camera",
+          "document_sha256": "17d579798b54d7347acd74b3bb8a823ca4cd377b5b4280d5fef175a0b76a5429",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Camera mode",
+          "start": 2015,
+          "end": 2447
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown",
+        "blender_version_unverified_or_incompatible",
+        "rejected_claim_not_a_fact"
+      ]
+    },
+    {
+      "task": "movement",
+      "key": "ba94f8c17e928389556f451377efce0c25adf30b2a254f5c3d511a884c8e0950",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-a4ba7897a7904642ba1c3caa",
+          "document_id": "doc-37df3df0773bd5c7e5520d03",
+          "url": "https://create.roblox.com/docs/workspace/raycasting",
+          "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Raycasting",
+          "start": 2416,
+          "end": 2484
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "interactions",
+      "key": "130b480353d9811c3c21dbf03c45cad06fe5215cbe22fd187e258b7d10e2cf19",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-740e9b0fd7ae6b48c57bd39d",
+          "document_id": "doc-ab7f419cd07ff6deee7b9654",
+          "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+          "document_sha256": "52f54f29c348856d1f15b6a645476571a6697f6b6154ba3d506faa759f15029a",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Proximity prompts",
+          "start": 238,
+          "end": 424
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "performance",
+      "key": "e05273553c18a9966d51bc8cb349914c23d85deb3390a91af310fc0f8ff48fa9",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [],
+      "issues": [
+        "software_version_unknown",
+        "no_sufficient_original_source"
+      ]
+    },
+    {
+      "task": "architecture",
+      "key": "1f5c4dae0acbd8026761cabde86ce86e5755884e40a6ef9fbdf649c4ca2ace97",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+          "document_id": "doc-0cd9a742bf946226b852c165",
+          "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+          "document_sha256": "4af62a112e9192fd7a8c80386bac8dbb0f606901a965b3c4a4b641482c6d2ea5",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Blender and Maya texture settings",
+          "start": 2671,
+          "end": 2732
+        },
+        {
+          "id": "pass-7561943c0ccd463f509ffaec",
+          "document_id": "doc-5f3a3ec51a5ae0f501ba508e",
+          "url": "https://create.roblox.com/docs/workspace/collisions",
+          "document_sha256": "747a2e5da95efc80c71bc388431ac02f38a90e1b04db31170928212f1903a9d3",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Model collisions",
+          "start": 20109,
+          "end": 20301
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "pursuit",
+      "key": "ecaed9bb3accf05f43dbac5f6f59cae32cb62ea52dedceb1c19cce35086f560f",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "id": "pass-be0b086f5cd6871e307641b5",
+          "document_id": "doc-37df3df0773bd5c7e5520d03",
+          "url": "https://create.roblox.com/docs/workspace/raycasting",
+          "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+          "version": "unknown",
+          "engine": "Roblox",
+          "source_type": "recorded_source_snapshot",
+          "section": "Hit detection",
+          "start": 5521,
+          "end": 5585
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    }
+  ],
+  "daily_after": {
+    "date": "2026-11-16",
+    "fetch": 21,
+    "http_calls": 24,
+    "items": 20
+  },
+  "daily_before_first_run": {
+    "date": "2026-11-16",
+    "fetch": 8,
+    "http_calls": 14,
+    "items": 7
+  },
+  "engine_experiments_executed": false,
+  "history": [
+    {
+      "acquisition_state": "ERROR",
+      "errors": [
+        "no sufficient compatible original passage; acquisition remains partial"
+      ],
+      "fetch_attempts": 2,
+      "http_calls": 2,
+      "queue": {
+        "done": 1,
+        "failed": 0,
+        "pending": 9,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "ERROR",
+      "stop_details": null,
+      "ticks": 1,
+      "updated_cards": [
+        {
+          "key": "cd03872c8e3a56a7b317035684b85b5a6f678fd8b8f409076ce4e1a25150a0b8",
+          "readiness": "PARTIAL",
+          "task": "trees"
+        },
+        {
+          "key": "80372732dd5a82e052f40500f9da1742a13fd1d3b30ad35344aec874201c82c2",
+          "readiness": "PARTIAL",
+          "task": "collisions"
+        },
+        {
+          "key": "80372732dd5a82e052f40500f9da1742a13fd1d3b30ad35344aec874201c82c2",
+          "readiness": "PARTIAL",
+          "task": "collisions"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "ERROR",
+      "errors": [
+        "no sufficient compatible original passage; acquisition remains partial"
+      ],
+      "fetch_attempts": 4,
+      "http_calls": 2,
+      "queue": {
+        "done": 1,
+        "failed": 1,
+        "pending": 8,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "ERROR",
+      "stop_details": null,
+      "ticks": 2,
+      "updated_cards": [
+        {
+          "key": "80372732dd5a82e052f40500f9da1742a13fd1d3b30ad35344aec874201c82c2",
+          "readiness": "PARTIAL",
+          "task": "collisions"
+        },
+        {
+          "key": "80372732dd5a82e052f40500f9da1742a13fd1d3b30ad35344aec874201c82c2",
+          "readiness": "PARTIAL",
+          "task": "collisions"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "READY",
+      "errors": [],
+      "fetch_attempts": 5,
+      "http_calls": 3,
+      "queue": {
+        "done": 3,
+        "failed": 1,
+        "pending": 6,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "READY",
+      "stop_details": null,
+      "ticks": 3,
+      "updated_cards": [
+        {
+          "key": "46185e7192f8c0449952ce89a80a767b01c58d8950c1d7110879a99b69548824",
+          "readiness": "PARTIAL",
+          "task": "ground"
+        },
+        {
+          "key": "09884d684aa8a521a447056dd239b84697091f7a6d352e81484f528414324ca2",
+          "readiness": "PARTIAL",
+          "task": "lighting"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "ERROR",
+      "errors": [
+        "FetchError(status=404): permitted source unavailable or insufficient"
+      ],
+      "fetch_attempts": 8,
+      "http_calls": 6,
+      "queue": {
+        "done": 4,
+        "failed": 1,
+        "pending": 5,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "ERROR",
+      "stop_details": null,
+      "ticks": 4,
+      "updated_cards": [
+        {
+          "key": "9df986135ad0eb41f964574a0e96212cfdd4ba364cca9c2a3e631b479390d3aa",
+          "readiness": "BLOCKED",
+          "task": "camera"
+        },
+        {
+          "key": "7d6c4b7929919ff20ed596c6ec790ce5c7860e691555935c3ca2d4d144ca996d",
+          "readiness": "BLOCKED",
+          "task": "movement"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "READY",
+      "errors": [],
+      "fetch_attempts": 9,
+      "http_calls": 7,
+      "queue": {
+        "done": 6,
+        "failed": 1,
+        "pending": 3,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "READY",
+      "stop_details": null,
+      "ticks": 5,
+      "updated_cards": [
+        {
+          "key": "7d6c4b7929919ff20ed596c6ec790ce5c7860e691555935c3ca2d4d144ca996d",
+          "readiness": "BLOCKED",
+          "task": "movement"
+        },
+        {
+          "key": "7a7de3a40308c2b07481d71d74bbecec249fe0290d772298b4746c6e41619cb0",
+          "readiness": "BLOCKED",
+          "task": "interactions"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "ERROR",
+      "errors": [
+        "FetchError(status=404): permitted source unavailable or insufficient"
+      ],
+      "fetch_attempts": 11,
+      "http_calls": 9,
+      "queue": {
+        "done": 6,
+        "failed": 1,
+        "pending": 3,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "ERROR",
+      "stop_details": null,
+      "ticks": 6,
+      "updated_cards": [
+        {
+          "key": "4233fb57cd803a344f248a4d63a86a517551b3bed3f304f12dd4b17961b26860",
+          "readiness": "BLOCKED",
+          "task": "performance"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "ERROR",
+      "errors": [
+        "FetchError(status=404): permitted source unavailable or insufficient"
+      ],
+      "fetch_attempts": 13,
+      "http_calls": 10,
+      "queue": {
+        "done": 6,
+        "failed": 2,
+        "pending": 2,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "ERROR",
+      "stop_details": null,
+      "ticks": 7,
+      "updated_cards": [
+        {
+          "key": "4233fb57cd803a344f248a4d63a86a517551b3bed3f304f12dd4b17961b26860",
+          "readiness": "BLOCKED",
+          "task": "performance"
+        }
+      ]
+    },
+    {
+      "acquisition_state": "COMPLETE",
+      "errors": [],
+      "fetch_attempts": 13,
+      "http_calls": 10,
+      "queue": {
+        "done": 8,
+        "failed": 2,
+        "pending": 0,
+        "running": 0,
+        "skipped": 1
+      },
+      "state": "PARTIAL",
+      "stop_details": null,
+      "ticks": 8,
+      "updated_cards": [
+        {
+          "key": "dbc6e0f4bb02b723372370e27299409f0b67f7fe2470d9c5bf5861c587172c65",
+          "readiness": "BLOCKED",
+          "task": "architecture"
+        },
+        {
+          "key": "3e64963cc6b6089a2b3996bf41974aa043c95ecff92bb24a56bc382e384af89d",
+          "readiness": "BLOCKED",
+          "task": "pursuit"
+        }
+      ]
+    }
+  ],
+  "model_calls": 0,
+  "scope": "actual bounded agent requests; no model, Blender or Roblox execution",
+  "session": {
+    "attempts": {
+      "03587ab523fdcc9f": 1,
+      "075e05d9c1ab1952": 2,
+      "5645149436804c7c": 1,
+      "74967ab10bab59d5": 2,
+      "8a09df3564732ab7": 1,
+      "c2e5a229389488fc": 1,
+      "e06e2f0a86a2c5c1": 2,
+      "e0f6fc278c1543e4": 1,
+      "f46eaa90cf416506": 1,
+      "f9deabd955f1650d": 1
+    },
+    "compute_reserved_s": 31.173467435008206,
+    "decisions": [
+      {
+        "depth": 1,
+        "query": "Roblox foliage mesh silhouette SurfaceAppearance snow",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox terrain snow materials footprints decals",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox SpotLight Atmosphere lighting shadows flashlight",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": true,
+          "notes": [
+            "vdn-6055d2f0bb67"
+          ],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox first person Camera camera motion input",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox Humanoid movement input raycasting",
+        "result": {
+          "children": [],
+          "created": 0,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 1,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox ProximityPrompt interactions client server security",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox parts models blockout architecture",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      },
+      {
+        "depth": 1,
+        "query": "Roblox pathfinding raycasting NPC detection",
+        "result": {
+          "children": [],
+          "created": 1,
+          "knowledge_available": false,
+          "notes": [],
+          "stagnation": 0,
+          "truth_verified": false
+        }
+      }
+    ],
+    "duplicates_avoided": 0,
+    "failures": [
+      {
+        "at": "2026-11-16T11:55:00.498789+00:00",
+        "error": "ValueError: research source error; inspect last_collection.errors",
+        "tick": 1
+      },
+      {
+        "at": "2026-11-16T11:55:01.224091+00:00",
+        "error": "ValueError: research source error; inspect last_collection.errors",
+        "tick": 2
+      },
+      {
+        "at": "2026-11-16T11:55:08.784560+00:00",
+        "error": "ValueError: research source error; inspect last_collection.errors",
+        "tick": 4
+      },
+      {
+        "at": "2026-11-16T11:55:14.997858+00:00",
+        "error": "ValueError: research source error; inspect last_collection.errors",
+        "tick": 6
+      },
+      {
+        "at": "2026-11-16T11:55:15.958564+00:00",
+        "error": "ValueError: research source error; inspect last_collection.errors",
+        "tick": 7
+      }
+    ],
+    "fetch_attempts": 13,
+    "http_calls": 10,
+    "id": "52974000-e519-42d0-a653-01fc97e89a60",
+    "integration_failures": 5,
+    "last_collection": {
+      "accepted": 1,
+      "created": 1,
+      "created_note_ids": [
+        "3e64963cc6b6089a2b3996bf41974aa043c95ecff92bb24a56bc382e384af89d"
+      ],
+      "error_count": 0,
+      "errors": [],
+      "fetch_attempts": 0,
+      "fetched": 0,
+      "item_key": "c2e5a229389488fc",
+      "rejected": 0,
+      "tick": 8,
+      "truth_verified": false
+    },
+    "last_tick": {
+      "daily": {
+        "date": "2026-11-16",
+        "fetch": 21,
+        "http_calls": 24,
+        "items": 20
+      },
+      "effective_http_limit": 2,
+      "fetch_attempts": 0,
+      "http_calls": 0,
+      "session_http_limit": 12,
+      "session_http_remaining": 2,
+      "tick": 8
+    },
+    "limits": {
+      "compute_budget_s": 60,
+      "http_per_tick": 6,
+      "max_attempts": 2,
+      "max_branches": 24,
+      "max_depth": 2,
+      "max_http_calls": 12,
+      "max_items_per_tick": 2,
+      "max_ticks": 12,
+      "stagnation_limit": 2,
+      "time_per_tick_s": 20
+    },
+    "question": "Préparation P0/P1 Le Voisin de Noël : trees, collisions, ground, lighting, camera, movement, interactions, performance, architecture, pursuit",
+    "schema": "vdn.research-session/10",
+    "status": "COMPLETE",
+    "ticks": 8,
+    "topic": "spruce"
+  },
+  "session_id": "52974000-e519-42d0-a653-01fc97e89a60",
+  "truth_verified": false,
+  "original_acquisition_cards": [
+    {
+      "task": "trees",
+      "key": "cd03872c8e3a56a7b317035684b85b5a6f678fd8b8f409076ce4e1a25150a0b8",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-a6cc7c1e3387a8cc46168e3d",
+          "document_sha256": "cf02d3f01584a51f0622086732d89ae69a27a1902abe321bf0008c3adc014ca4",
+          "end": 15773,
+          "engine": "Roblox",
+          "id": "pass-b0f865a58243baba6eebae06",
+          "section": "Image Maps",
+          "source_type": "recorded_source_snapshot",
+          "start": 15027,
+          "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "collisions",
+      "key": "80372732dd5a82e052f40500f9da1742a13fd1d3b30ad35344aec874201c82c2",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [],
+      "issues": [
+        "software_version_unknown",
+        "no_sufficient_original_source"
+      ]
+    },
+    {
+      "task": "ground",
+      "key": "46185e7192f8c0449952ce89a80a767b01c58d8950c1d7110879a99b69548824",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-ae07cc946d4b006af7a0d167",
+          "document_sha256": "fc67e10e2b4290b5a34368ae640a855f4ed195d8716fc162c901093f0ef4e575",
+          "end": 3610,
+          "engine": "Roblox",
+          "id": "pass-fea5d072d22c1a3bef5067fa",
+          "section": "Terrain materials",
+          "source_type": "recorded_source_snapshot",
+          "start": 3528,
+          "url": "https://create.roblox.com/docs/parts/terrain",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "lighting",
+      "key": "09884d684aa8a521a447056dd239b84697091f7a6d352e81484f528414324ca2",
+      "readiness": "PARTIAL",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-e8a4e72e4d44199b2f80fdaa",
+          "document_sha256": "1f33a9580c0a55b55c10e0818fb5f6865969e130b289b64654cb7e68902c22ba",
+          "end": 2849,
+          "engine": "Roblox",
+          "id": "pass-06fcd1bde5752118fee17e15",
+          "section": "SpotLight",
+          "source_type": "recorded_source_snapshot",
+          "start": 2680,
+          "url": "https://create.roblox.com/docs/effects/light-sources",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "camera",
+      "key": "9df986135ad0eb41f964574a0e96212cfdd4ba364cca9c2a3e631b479390d3aa",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-e54362f11eb31cf3c6cf5281",
+          "document_sha256": "17d579798b54d7347acd74b3bb8a823ca4cd377b5b4280d5fef175a0b76a5429",
+          "end": 2447,
+          "engine": "Roblox",
+          "id": "pass-b32a99cc34d66d818b676098",
+          "section": "Camera mode",
+          "source_type": "recorded_source_snapshot",
+          "start": 2015,
+          "url": "https://create.roblox.com/docs/workspace/camera",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown",
+        "blender_version_unverified_or_incompatible",
+        "rejected_claim_not_a_fact"
+      ]
+    },
+    {
+      "task": "movement",
+      "key": "7d6c4b7929919ff20ed596c6ec790ce5c7860e691555935c3ca2d4d144ca996d",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-37df3df0773bd5c7e5520d03",
+          "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+          "end": 2484,
+          "engine": "Roblox",
+          "id": "pass-a4ba7897a7904642ba1c3caa",
+          "section": "Raycasting",
+          "source_type": "recorded_source_snapshot",
+          "start": 2416,
+          "url": "https://create.roblox.com/docs/workspace/raycasting",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "interactions",
+      "key": "7a7de3a40308c2b07481d71d74bbecec249fe0290d772298b4746c6e41619cb0",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-ab7f419cd07ff6deee7b9654",
+          "document_sha256": "52f54f29c348856d1f15b6a645476571a6697f6b6154ba3d506faa759f15029a",
+          "end": 424,
+          "engine": "Roblox",
+          "id": "pass-740e9b0fd7ae6b48c57bd39d",
+          "section": "Proximity prompts",
+          "source_type": "recorded_source_snapshot",
+          "start": 238,
+          "url": "https://create.roblox.com/docs/ui/proximity-prompts",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "performance",
+      "key": "4233fb57cd803a344f248a4d63a86a517551b3bed3f304f12dd4b17961b26860",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [],
+      "issues": [
+        "software_version_unknown",
+        "rejected_claim_not_a_fact",
+        "no_sufficient_original_source"
+      ]
+    },
+    {
+      "task": "architecture",
+      "key": "dbc6e0f4bb02b723372370e27299409f0b67f7fe2470d9c5bf5861c587172c65",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-0cd9a742bf946226b852c165",
+          "document_sha256": "4af62a112e9192fd7a8c80386bac8dbb0f606901a965b3c4a4b641482c6d2ea5",
+          "end": 2732,
+          "engine": "Roblox",
+          "id": "pass-93f4a7110e5ffcd70ec4e5ae",
+          "section": "Blender and Maya texture settings",
+          "source_type": "recorded_source_snapshot",
+          "start": 2671,
+          "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "software_version_unknown"
+      ]
+    },
+    {
+      "task": "pursuit",
+      "key": "3e64963cc6b6089a2b3996bf41974aa043c95ecff92bb24a56bc382e384af89d",
+      "readiness": "BLOCKED",
+      "research_state": "PARTIAL",
+      "sources": [
+        {
+          "document_id": "doc-37df3df0773bd5c7e5520d03",
+          "document_sha256": "33b56e6018f86a91308508cbd238e1aaeba659dc07a96477e3f6d5fadb3f5329",
+          "end": 5585,
+          "engine": "Roblox",
+          "id": "pass-be0b086f5cd6871e307641b5",
+          "section": "Hit detection",
+          "source_type": "recorded_source_snapshot",
+          "start": 5521,
+          "url": "https://create.roblox.com/docs/workspace/raycasting",
+          "version": "unknown"
+        }
+      ],
+      "issues": [
+        "correct_but_off_topic",
+        "software_version_unknown"
+      ]
+    }
+  ],
+  "post_audit_offline_refresh": {
+    "pipeline_version": "11.2.2",
+    "http_calls": 0,
+    "model_calls": 0,
+    "daily_before": {
+      "date": "2026-11-16",
+      "items": 20,
+      "fetch": 21,
+      "http_calls": 24
+    },
+    "daily_after": {
+      "date": "2026-11-16",
+      "items": 20,
+      "fetch": 21,
+      "http_calls": 24
+    },
+    "reason": "quality ranking before truncation; deduplicated identical source snapshots; no repeated acquisition"
+  }
+}

@@ -17,7 +17,7 @@ from agent.lab_store import clean_json
 from agent.obsidian import safe_path
 from agent.text import tokens, fold, BM25
 
-VERSION = '11.1.3'
+VERSION = '11.2.4'
 STATUSES = ('SOURCE_SUPPORTED','INFERRED','HYPOTHESIS','EXPERIMENT_PROPOSAL','UNSUPPORTED','CONTRADICTED','OUTDATED')
 HOSTILE = re.compile(r'(?i)ignore (?:all|previous)|system prompt|reveal .*secret|api.?key|powershell|subprocess|delete .*files|execute .*command|curl\s|rm -rf')
 
@@ -59,8 +59,9 @@ def engine_for(url,title=''):
     return next((s for s in ('Roblox','Blender','Unreal') if s.lower() in title.lower()),'unknown')
 
 
-def documents(root,diagnostics=None):
+def documents(root,diagnostics=None,*,include_rejected=False):
     """Read bounded existing V11 source caches and notes; never fetch a URL."""
+    if type(include_rejected) is not bool:raise ValueError('include_rejected must be boolean')
     root=Path(root).resolve();out=[];diagnostics=[] if diagnostics is None else diagnostics
     folder=safe_path(root,'lab/ocean/sources')
     paths=sorted(folder.glob('*.json')) if folder.exists() else []
@@ -70,6 +71,8 @@ def documents(root,diagnostics=None):
             path=safe_path(root,path.relative_to(root).as_posix())
             if path.stat().st_size>200_000:raise ValueError('source too large')
             d=json.loads(path.read_text(encoding='utf-8'));clean_json(d,200_000)
+            if not isinstance(d,dict) or not isinstance(d.get('text'),str) or not isinstance(d.get('url'),str):raise ValueError('invalid source snapshot types')
+            if type(d.get('at',0)) not in (int,float) or not isinstance(d.get('version','unknown'),str) or not isinstance(d.get('conditions',{}),dict):raise ValueError('invalid source snapshot metadata')
             if hashlib.sha256(d['text'].encode('utf-8')).hexdigest()!=d['text_sha256']:raise ValueError('source hash mismatch')
             u=urlsplit(d['url'])
             if u.scheme!='https' or not u.hostname or u.username or u.password or u.query:raise ValueError('unsafe recorded source URL')
@@ -85,10 +88,13 @@ def documents(root,diagnostics=None):
                         'independent':True,'conditions':d.get('conditions',{})})
         except (ValueError,KeyError,TypeError,OSError) as exc:diagnostics.append({'path':path.name,'error':type(exc).__name__})
     for n in scan_notes(root,diagnostics):
+        if n.get('status')=='rejete' and not include_rejected:continue
         body=n['_body'];urls=n.get('sources',[])
         # Restrict secondary retrieval to source quotation, never generated steps.
         for m in re.finditer(r'^>\s*(?:«\s*)?(.+?)(?:\s*»)?\s*$',body,re.M):
-            text=m.group(1).strip();url=urls[0] if urls else ''
+            text=m.group(1).strip()
+            adjacent=re.match(r'\s*\n>\s*—\s*\[source\]\((https://[^)]+)\)',body[m.end():])
+            url=adjacent.group(1) if adjacent and adjacent.group(1) in urls else urls[0] if len(urls)==1 else ''
             if text.startswith(('—','- [source]')) or len(text)<20:continue
             if len(out)>=2000:break
             out.append({'id':'doc-'+digest([n['id'],text])[:24],'url':url,'title':n.get('title',n['id']),
@@ -96,7 +102,14 @@ def documents(root,diagnostics=None):
                         'source_type':'secondary_recorded_excerpt','engine':engine_for(url,n.get('title','')),
                         'version':n.get('engine_version','unknown'),'published':None,'accessed':n.get('accessed'),
                         'retrieved_at':0,'truncated':False,'independent':False,'note_id':n['id'],'conditions':{}})
-    return out
+    # URL canonicalization may leave multiple cache filenames for the same
+    # snapshot (for example extensionless/.md). Keep the freshest receipt, not
+    # duplicate evidence or retrieval slots. Metadata variants remain distinct.
+    unique={}
+    for d in out:
+        key=digest([d['url'],d['sha256'],d['version'],d['conditions'],d['source_type']])
+        if key not in unique or d['retrieved_at']>unique[key]['retrieved_at']:unique[key]=d
+    return list(unique.values())
 
 
 def passages(docs):
@@ -134,19 +147,24 @@ QUERIES={'collision':'MeshPart CollisionFidelity CanCollide collision player con
          'export':'Blender FBX export rig animation transforms'}
 
 
-def retrieve(question,docs,limit=8):
-    intent=analyze(question);ps=passages(docs);index=BM25([tokens(p['title']+' '+p['section']+' '+p['text']) for p in ps]);picked=[]
-    queries=[QUERIES[p] for p in intent['problems']]+[ocean_knowledge.expand(question)]
+def retrieve(question,docs,limit=8,queries=None,anchors=None):
+    intent=analyze(question);ps=passages(docs)
+    if anchors:
+        terms=set(tokens(' '.join(anchors)))
+        ps=[p for p in ps if terms & set(tokens(p['text']+' '+p['section']))]
+    index=BM25([tokens(p['title']+' '+p['section']+' '+p['text']) for p in ps]);picked=[]
+    scoped=queries is not None
+    queries=queries if scoped else [QUERIES[p] for p in intent['problems']]+[ocean_knowledge.expand(question)]
     scores={}
     # Diversify by problem first, then fill by lexical score.
     for query in queries:
-        ranked=index.top(tokens(query),limit)
+        ranked=index.top(tokens(query),len(ps))
         ranked=[(i,s*(1.6 if ps[i]['independent'] else .6)*(.75 if ps[i]['incomplete_context'] else 1)) for i,s in ranked]
         ranked.sort(key=lambda pair:(-pair[1],ps[pair[0]]['id']))
         for i,s in ranked:scores[i]=max(s,scores.get(i,0))
         best=next((i for i,s in ranked if not ps[i]['hostile'] and i not in picked),None)
         if best is not None:picked.append(best)
-    if set(intent['problems'])&{'appearance','export'} and not any(ps[i]['engine']=='Blender' for i in picked):
+    if not scoped and set(intent['problems'])&{'appearance','export'} and not any(ps[i]['engine']=='Blender' for i in picked):
         modelling=[(i,s) for i,s in index.top(tokens('Blender mesh geometry normals export'),len(ps))
                    if ps[i]['engine']=='Blender' and ps[i]['independent'] and not ps[i]['hostile']]
         if modelling:
@@ -174,6 +192,7 @@ def verify(claim,selected,docs,intent,now=None):
     if version!='unknown' and not any(p['version']==version for p in refs):issues.append('version_not_supported')
     if engine!='unknown' and refs and not any(p['engine'] in (engine,'unknown') for p in refs):issues.append('engine_mismatch')
     if intent['software'] and engine not in ('unknown',*intent['software']):issues.append('target_engine_requires_adaptation')
+    if intent['software'] and any(p['engine'] not in ('unknown',*intent['software']) for p in refs):issues.append('source_engine_requires_adaptation')
     if any(p['version']!='unknown' and p['engine'] in intent['versions'] and p['version']!=intent['versions'][p['engine']] for p in refs):issues.append('requested_version_mismatch')
     if HOSTILE.search(text):issues.append('hostile_instruction')
     literal=bool(refs) and any(re.sub(r'\s+',' ',text).strip() in re.sub(r'\s+',' ',p['text']) for p in refs)

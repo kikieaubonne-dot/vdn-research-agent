@@ -1,0 +1,15 @@
+test_public_topic_json_is_extracted_with_post_provenance (tests.test_lab_intelligence.CommunityExtractionRegression.test_public_topic_json_is_extracted_with_post_provenance) ... FAIL
+
+======================================================================
+FAIL: test_public_topic_json_is_extracted_with_post_provenance (tests.test_lab_intelligence.CommunityExtractionRegression.test_public_topic_json_is_extracted_with_post_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 226, in test_public_topic_json_is_extracted_with_post_provenance
+    self.assertTrue(d['text'].startswith('# Authored collision topic fixture'));self.assertNotIn('<p>',d['text']);self.assertEqual(d['conditions']['post_ids'],[123]);self.assertEqual(d['conditions']['license'],'UNKNOWN')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.368s
+
+FAILED (failures=1)

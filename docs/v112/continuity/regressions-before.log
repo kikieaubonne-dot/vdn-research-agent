@@ -1,0 +1,46 @@
+test_archive_brief_abstains_without_originals (tests.test_v112_continuity.ContinuityTests.test_archive_brief_abstains_without_originals) ... FAIL
+test_archive_does_not_hide_new_local_failure (tests.test_v112_continuity.ContinuityTests.test_archive_does_not_hide_new_local_failure) ... FAIL
+test_archive_parameters_are_candidates_until_originals_revalidated (tests.test_v112_continuity.ContinuityTests.test_archive_parameters_are_candidates_until_originals_revalidated) ... FAIL
+test_unsaved_refresh_has_a_working_read_only_detail_route (tests.test_v112_continuity.ContinuityTests.test_unsaved_refresh_has_a_working_read_only_detail_route) ... FAIL
+
+======================================================================
+FAIL: test_archive_brief_abstains_without_originals (tests.test_v112_continuity.ContinuityTests.test_archive_brief_abstains_without_originals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_continuity.py", line 26, in test_archive_brief_abstains_without_originals
+    self.assertTrue(brief['abstained_from_established_facts']);self.assertFalse(brief['facts'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_archive_does_not_hide_new_local_failure (tests.test_v112_continuity.ContinuityTests.test_archive_does_not_hide_new_local_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_continuity.py", line 32, in test_archive_does_not_hide_new_local_failure
+    self.assertTrue(self.project.latest('collisions')['inputs_obsolete'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_archive_parameters_are_candidates_until_originals_revalidated (tests.test_v112_continuity.ContinuityTests.test_archive_parameters_are_candidates_until_originals_revalidated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_continuity.py", line 29, in test_archive_parameters_are_candidates_until_originals_revalidated
+    self.assertFalse(card['parameters']);self.assertTrue(card['archived_parameter_candidates'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [{'name': 'CanCollide', 'kind': 'literal_source_token', 'documented_value': None, 'optimal_value': None, 'claim_id': 'claim-29c2447146a075d36345b7e5', 'passage_ids': ['pass-fe3923d92e4accf9a4c307a3'], 'project_applicability': 'unverified'}, {'name': 'CollisionFidelity', 'kind': 'literal_source_token', 'documented_value': None, 'optimal_value': None, 'claim_id': 'claim-c49358ab0bb7c2b56fa2481a', 'passage_ids': ['pass-0df8b87dadd2257899164738'], 'project_applicability': 'unverified'}] is not false
+
+======================================================================
+FAIL: test_unsaved_refresh_has_a_working_read_only_detail_route (tests.test_v112_continuity.ContinuityTests.test_unsaved_refresh_has_a_working_read_only_detail_route)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_continuity.py", line 39, in test_unsaved_refresh_has_a_working_read_only_detail_route
+    self.assertEqual(brief['detail_tool'],'synthesize_technical')
+AssertionError: 'get_intelligence_analysis' != 'synthesize_technical'
+- get_intelligence_analysis
++ synthesize_technical
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.461s
+
+FAILED (failures=4)

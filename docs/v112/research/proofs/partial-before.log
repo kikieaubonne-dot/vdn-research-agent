@@ -1,0 +1,16 @@
+======================================================================
+FAIL: test_incomplete_but_accessible_source_is_partial_collection_not_integration_error (tests.test_research_roots.RootsTests.test_incomplete_but_accessible_source_is_partial_collection_not_integration_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_research_roots.py", line 189, in test_incomplete_but_accessible_source_is_partial_collection_not_integration_error
+    self.assertEqual(r['state'],'PARTIAL');self.assertEqual(r['research']['session']['integration_failures'],0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'ERROR' != 'PARTIAL'
+- ERROR
++ PARTIAL
+
+
+----------------------------------------------------------------------
+Ran 1 test in 1.057s
+
+FAILED (failures=1)

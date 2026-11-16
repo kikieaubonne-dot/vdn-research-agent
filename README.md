@@ -1,5 +1,51 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V11.2 — Project Intelligence
+
+Recherche en branches réutilisables, lacunes explicites et bibliothèque
+principale/réserve/archives : [rapport et mesures actuels](docs/v112/research/REPORT.md) ·
+[Windows/MCP et rollback](docs/v112/research/WINDOWS.md) ·
+[20 scénarios](docs/v112/research/SCENARIOS.md).
+
+```sh
+python -m agent.v112 roots "forest" --depth 6 --nodes 24
+python -m agent.v112 brief "tree:forest/collisions"
+python -m agent.v112 synthesize "tree:forest/spruce/foliage/cards/alpha/shadows/flashlight"
+python -m agent.v112 library
+```
+
+Fonctionnement logiciel mesuré ; sources candidates et procédures proposées.
+Claude Desktop et les techniques sur B3/C1 restent à valider sur le PC utilisateur.
+
+Planification par chapitre, retour d’échec et laboratoire Blender supervisé :
+[rapport précédent et limites](docs/v112/autonomous/IMPLEMENTATION_REPORT.md) ·
+[Windows](docs/v112/autonomous/WINDOWS_SETUP.md) ·
+[workflow Claude](docs/v112/autonomous/CLAUDE_MCP_WORKFLOW.md).
+
+```sh
+python -m agent.v112 chapters chapter1
+python -m agent.v112 brief "Préparer le chapitre 2 : grenier, lumière et énigmes"
+python -m agent.v112 lab-capabilities
+```
+
+
+Bible du jeu, priorités/dépendances, fiches techniques, contrôle de préparation,
+échecs liés et briefings Claude spécialisés. Collecte manuelle bornée ; dix
+préparations partielles, aucune technique déclarée validée dans le jeu.
+
+```sh
+python -m agent.v112 bible
+python -m agent.v112 plan
+python -m agent.v112 brief "Corriger les collisions des sapins Roblox"
+python -m agent.v112 daily
+python vdn_mcp.py --v112
+```
+
+[Continuité, inventaire et validation terrain partielle](docs/v112/continuity/CONTINUITY_AUDIT.md) ·
+[Rapport et limites](docs/V11_2_REPORT.md) · [Audit](docs/v112/AUDIT.md) ·
+[Windows et MCP](docs/v112/GUIDE.md) · [Dix fiches et session réelle](docs/v112/RESEARCH.md) ·
+[Mesures](docs/v112/BENCHMARK.md) · [Rollback](docs/v112/MIGRATION.md).
+
 ## V11.1 — Éponge Intelligence
 
 Analyse des problèmes, passages localisés, registre d'affirmations, critique,

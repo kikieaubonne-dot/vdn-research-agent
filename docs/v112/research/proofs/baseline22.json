@@ -1,0 +1,1205 @@
+{
+  "schema": "vdn.lab-retrieval-evaluation/11.2",
+  "corpus_hash": "15b02d23259cdd1f1df969b5dc2ab8efc423a8e855be7575998107b124445e73",
+  "questions": 22,
+  "active_documents": 285,
+  "rejected_documents": 0,
+  "means": {
+    "BM25_text": {
+      "precision_against_listed_labels_at_5": 0.2303030303030303,
+      "recall_at_5": 0.9772727272727273,
+      "reciprocal_rank": 0.9128787878787878,
+      "ndcg_at_5": 0.9270453580065477,
+      "rejected_returned": 0.0,
+      "latency_s": 0.013125408817855217
+    },
+    "coverage": {
+      "precision_against_listed_labels_at_5": 0.2303030303030303,
+      "recall_at_5": 0.9772727272727273,
+      "reciprocal_rank": 0.9166666666666667,
+      "ndcg_at_5": 0.9289774249979176,
+      "rejected_returned": 0.0,
+      "latency_s": 0.01286774263677547
+    },
+    "intelligence_lexical": {
+      "precision_against_listed_labels_at_5": 0.15833333333333333,
+      "recall_at_5": 0.6363636363636364,
+      "reciprocal_rank": 0.40151515151515155,
+      "ndcg_at_5": 0.4626530810065054,
+      "rejected_returned": 0.0,
+      "latency_s": 0.01852003545420964
+    }
+  },
+  "rows": [
+    {
+      "question": "foliage SurfaceAppearance becomes transparent at distance in Roblox Player",
+      "expected_ids": [
+        "vdn-9f9338e2736f"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-5bbf6043ed9c",
+            "vdn-4b3e4c63ddab",
+            "vdn-93c1fa214202"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.032158183996216394
+        },
+        "coverage": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-4b3e4c63ddab",
+            "vdn-5bbf6043ed9c"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.02414556899748277
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-5bbf6043ed9c",
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-bbea6ee659d1"
+          ],
+          "precision_against_listed_labels_at_5": 0.25,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.021797710011014715
+        }
+      }
+    },
+    {
+      "question": "feuillage transparent de loin dans le Player",
+      "expected_ids": [
+        "vdn-9f9338e2736f"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab",
+            "vdn-93c1fa214202"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01811554499727208
+        },
+        "coverage": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01818936099880375
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-a97042f85138",
+            "vdn-5bbf6043ed9c",
+            "vdn-319f4403f590"
+          ],
+          "precision_against_listed_labels_at_5": 0.25,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01619811900309287
+        }
+      }
+    },
+    {
+      "question": "AlphaMode Transparency renders in bands",
+      "expected_ids": [
+        "vdn-319f4403f590"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-d5dda0d02f6d",
+            "vdn-eb19a9fed396"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.007911947002867237
+        },
+        "coverage": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-d5dda0d02f6d",
+            "vdn-eb19a9fed396"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.005724033006117679
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-a4893023e7c3",
+            "vdn-319f4403f590",
+            "vdn-5bbf6043ed9c",
+            "vdn-a374396f6529",
+            "vdn-0c907f49b2f4"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.014195294992532581
+        }
+      }
+    },
+    {
+      "question": "transparence en bandes sur un MeshPart opaque",
+      "expected_ids": [
+        "vdn-319f4403f590"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-564f653d5fbf"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.014900989990564995
+        },
+        "coverage": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-93c1fa214202",
+            "vdn-4782fa1e3cf5"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.013244438989204355
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-5bbf6043ed9c",
+            "vdn-319f4403f590",
+            "vdn-9758995985bd",
+            "vdn-ocean-54fe16e8e5a3e6ea5304",
+            "vdn-5aa463725976"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.01335910199850332
+        }
+      }
+    },
+    {
+      "question": "texture atlas foliage meshes",
+      "expected_ids": [
+        "vdn-93c1fa214202"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f",
+            "vdn-f7dfa278922f",
+            "vdn-564f653d5fbf"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.012646827002754435
+        },
+        "coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f",
+            "vdn-f7dfa278922f"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.013330829999176785
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-5bbf6043ed9c",
+            "vdn-93c1fa214202",
+            "vdn-f7dfa278922f",
+            "vdn-bbea6ee659d1",
+            "vdn-0df57a89fa73"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.017812546997447498
+        }
+      }
+    },
+    {
+      "question": "atlas de textures pour le feuillage",
+      "expected_ids": [
+        "vdn-93c1fa214202"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6",
+            "vdn-9be57b985b77"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.012273482003365643
+        },
+        "coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9be57b985b77",
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.008976620010798797
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-1fe0732cf23a",
+            "vdn-f7dfa278922f",
+            "vdn-bbea6ee659d1"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.015433695007232018
+        }
+      }
+    },
+    {
+      "question": "custom rig import RootPart offset bone glitch",
+      "expected_ids": [
+        "vdn-1290b940c378"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-ac07d1c0fed7",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.009362217009766027
+        },
+        "coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-0df57a89fa73",
+            "vdn-9b7ec2ee95cd"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.009819657003390603
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-1290b940c378",
+            "vdn-564f653d5fbf",
+            "vdn-3fe122d267fa",
+            "vdn-1fe0732cf23a"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.016712105003534816
+        }
+      }
+    },
+    {
+      "question": "importer un squelette personnalisé, os qui buguent",
+      "expected_ids": [
+        "vdn-1290b940c378"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-ac07d1c0fed7",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.009917966002831236
+        },
+        "coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-0df57a89fa73",
+            "vdn-9b7ec2ee95cd"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01036398000724148
+        },
+        "intelligence_lexical": {
+          "ids": [],
+          "precision_against_listed_labels_at_5": 0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.026147872995352373
+        }
+      }
+    },
+    {
+      "question": "ledge climbing system",
+      "expected_ids": [
+        "vdn-aefb4953667e",
+        "vdn-1a910695f70a"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-aefb4953667e",
+            "vdn-1a910695f70a",
+            "vdn-52524d1837c3",
+            "vdn-9b7ec2ee95cd",
+            "vdn-56797d0952ca"
+          ],
+          "precision_against_listed_labels_at_5": 0.4,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.007576129995868541
+        },
+        "coverage": {
+          "ids": [
+            "vdn-aefb4953667e",
+            "vdn-1a910695f70a",
+            "vdn-52524d1837c3",
+            "vdn-9b7ec2ee95cd",
+            "vdn-56797d0952ca"
+          ],
+          "precision_against_listed_labels_at_5": 0.4,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.014820848999079317
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-1a910695f70a",
+            "vdn-aefb4953667e",
+            "vdn-52524d1837c3",
+            "vdn-56797d0952ca"
+          ],
+          "precision_against_listed_labels_at_5": 0.5,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.02443536199280061
+        }
+      }
+    },
+    {
+      "question": "système d'escalade de rebord",
+      "expected_ids": [
+        "vdn-aefb4953667e",
+        "vdn-1a910695f70a"
+      ],
+      "annotation_source": "rag_queries.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-aefb4953667e",
+            "vdn-1a910695f70a",
+            "vdn-52524d1837c3"
+          ],
+          "precision_against_listed_labels_at_5": 0.6666666666666666,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.0064248409908032045
+        },
+        "coverage": {
+          "ids": [
+            "vdn-aefb4953667e",
+            "vdn-1a910695f70a",
+            "vdn-52524d1837c3"
+          ],
+          "precision_against_listed_labels_at_5": 0.6666666666666666,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.007324108999455348
+        },
+        "intelligence_lexical": {
+          "ids": [],
+          "precision_against_listed_labels_at_5": 0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.026349912994191982
+        }
+      }
+    },
+    {
+      "question": "armature imported eyes glitch",
+      "expected_ids": [
+        "vdn-1290b940c378"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-326d0bf06b35",
+            "vdn-ac07d1c0fed7",
+            "vdn-429655fffbe0",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.006835341002442874
+        },
+        "coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-326d0bf06b35",
+            "vdn-ac07d1c0fed7",
+            "vdn-429655fffbe0",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.0076838329987367615
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-429655fffbe0"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01603635400533676
+        }
+      }
+    },
+    {
+      "question": "decalage RootPart apres importation FBX",
+      "expected_ids": [
+        "vdn-1290b940c378"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-564f653d5fbf",
+            "vdn-ocean-54fe16e8e5a3e6ea5304",
+            "vdn-f7dfa278922f"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.01943918300094083
+        },
+        "coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-4782fa1e3cf5",
+            "vdn-564f653d5fbf",
+            "vdn-93c1fa214202",
+            "vdn-f7dfa278922f"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.012326623007538728
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-564f653d5fbf",
+            "vdn-3fe122d267fa",
+            "vdn-1fe0732cf23a"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.017310727998847142
+        }
+      }
+    },
+    {
+      "question": "bone rig visual glitches",
+      "expected_ids": [
+        "vdn-1290b940c378"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-ac07d1c0fed7",
+            "vdn-3e6f3194acb0",
+            "vdn-52524d1837c3",
+            "vdn-4782fa1e3cf5"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.0057334169978275895
+        },
+        "coverage": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-ac07d1c0fed7",
+            "vdn-3e6f3194acb0",
+            "vdn-52524d1837c3",
+            "vdn-4782fa1e3cf5"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.004210778002743609
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-1290b940c378",
+            "vdn-564f653d5fbf",
+            "vdn-3fe122d267fa",
+            "vdn-1fe0732cf23a"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.015941021003527567
+        }
+      }
+    },
+    {
+      "question": "foliage mesh atlas workflow",
+      "expected_ids": [
+        "vdn-93c1fa214202"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f",
+            "vdn-f7dfa278922f",
+            "vdn-564f653d5fbf"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.014624563002143987
+        },
+        "coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-1fe0732cf23a",
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.025708425004268065
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-5bbf6043ed9c",
+            "vdn-1fe0732cf23a",
+            "vdn-bbea6ee659d1",
+            "vdn-9f9338e2736f",
+            "vdn-8fceb3f4c379"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.027292671002214774
+        }
+      }
+    },
+    {
+      "question": "texture feuillage atlas creation",
+      "expected_ids": [
+        "vdn-93c1fa214202"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9f9338e2736f",
+            "vdn-4b3e4c63ddab",
+            "vdn-713de5a2c6e6",
+            "vdn-9be57b985b77"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.009526174995698966
+        },
+        "coverage": {
+          "ids": [
+            "vdn-93c1fa214202",
+            "vdn-9be57b985b77",
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-3e6f3194acb0"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.006563019996974617
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-1fe0732cf23a",
+            "vdn-f7dfa278922f",
+            "vdn-bbea6ee659d1"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.015260112995747477
+        }
+      }
+    },
+    {
+      "question": "opaque MeshPart AlphaMode banding",
+      "expected_ids": [
+        "vdn-319f4403f590"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-4782fa1e3cf5",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-564f653d5fbf"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.020008031991892494
+        },
+        "coverage": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-9f9338e2736f",
+            "vdn-5bbf6043ed9c",
+            "vdn-93c1fa214202",
+            "vdn-4782fa1e3cf5"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.020635760010918602
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-319f4403f590",
+            "vdn-5bbf6043ed9c",
+            "vdn-9758995985bd"
+          ],
+          "precision_against_listed_labels_at_5": 0.3333333333333333,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.02000104599574115
+        }
+      }
+    },
+    {
+      "question": "leaf transparency Player distance",
+      "expected_ids": [
+        "vdn-9f9338e2736f"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab",
+            "vdn-93c1fa214202"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.013533997000195086
+        },
+        "coverage": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-319f4403f590",
+            "vdn-93c1fa214202",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.014392753000720404
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-9f9338e2736f",
+            "vdn-a97042f85138",
+            "vdn-2736f67dee2b",
+            "vdn-5bbf6043ed9c"
+          ],
+          "precision_against_listed_labels_at_5": 0.25,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.014750173009815626
+        }
+      }
+    },
+    {
+      "question": "attacher articulations personnage camera",
+      "expected_ids": [
+        "vdn-3fe122d267fa"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-eb19a9fed396",
+            "vdn-4782fa1e3cf5",
+            "vdn-3fe122d267fa",
+            "vdn-588169c7b940",
+            "vdn-a97042f85138"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "rejected_returned": 0,
+          "latency_s": 0.005649350001476705
+        },
+        "coverage": {
+          "ids": [
+            "vdn-eb19a9fed396",
+            "vdn-3fe122d267fa",
+            "vdn-4782fa1e3cf5",
+            "vdn-588169c7b940",
+            "vdn-a97042f85138"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.005156186001840979
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-eb19a9fed396",
+            "vdn-a97042f85138",
+            "vdn-3fe122d267fa",
+            "vdn-6055d2f0bb67"
+          ],
+          "precision_against_listed_labels_at_5": 0.25,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "rejected_returned": 0,
+          "latency_s": 0.016749482005252503
+        }
+      }
+    },
+    {
+      "question": "RenderFidelity LevelOfDetail streaming trees",
+      "expected_ids": [
+        "vdn-d5dda0d02f6d",
+        "vdn-5aa463725976"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-a97042f85138",
+            "vdn-9be57b985b77",
+            "vdn-9f9338e2736f",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.25,
+          "ndcg_at_5": 0.2640681225725909,
+          "rejected_returned": 0,
+          "latency_s": 0.011994151005637832
+        },
+        "coverage": {
+          "ids": [
+            "vdn-a97042f85138",
+            "vdn-9f9338e2736f",
+            "vdn-d5dda0d02f6d",
+            "vdn-4b3e4c63ddab",
+            "vdn-93c1fa214202"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_5": 0.3065735963827292,
+          "rejected_returned": 0,
+          "latency_s": 0.013119680996169336
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-a4893023e7c3",
+            "vdn-0df57a89fa73",
+            "vdn-9be57b985b77",
+            "vdn-a374396f6529",
+            "vdn-0c907f49b2f4"
+          ],
+          "precision_against_listed_labels_at_5": 0.0,
+          "recall_at_5": 0.0,
+          "reciprocal_rank": 0,
+          "ndcg_at_5": 0.0,
+          "rejected_returned": 0,
+          "latency_s": 0.02036879598745145
+        }
+      }
+    },
+    {
+      "question": "Atmosphere Density Haze fog",
+      "expected_ids": [
+        "vdn-6055d2f0bb67"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-862f8f5abfce",
+            "vdn-179abb099a56",
+            "vdn-9be57b985b77",
+            "vdn-713de5a2c6e6"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.006560055990121327
+        },
+        "coverage": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-862f8f5abfce",
+            "vdn-179abb099a56",
+            "vdn-9be57b985b77",
+            "vdn-713de5a2c6e6"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.0066206359915668145
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-a4893023e7c3",
+            "vdn-6055d2f0bb67",
+            "vdn-862f8f5abfce",
+            "vdn-179abb099a56",
+            "vdn-a374396f6529"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.01733466499717906
+        }
+      }
+    },
+    {
+      "question": "Blender FBX export erreur",
+      "expected_ids": [
+        "vdn-564f653d5fbf"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-1290b940c378",
+            "vdn-564f653d5fbf",
+            "vdn-4782fa1e3cf5",
+            "vdn-326d0bf06b35",
+            "vdn-1fe0732cf23a"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.024798981001367792
+        },
+        "coverage": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-1290b940c378",
+            "vdn-564f653d5fbf",
+            "vdn-c73ed30815b8",
+            "vdn-bbea6ee659d1"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "rejected_returned": 0,
+          "latency_s": 0.028634797999984585
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-326d0bf06b35",
+            "vdn-564f653d5fbf",
+            "vdn-3fe122d267fa",
+            "vdn-1fe0732cf23a"
+          ],
+          "precision_against_listed_labels_at_5": 0.25,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.01917919999687001
+        }
+      }
+    },
+    {
+      "question": "night atmospheric effects forest",
+      "expected_ids": [
+        "vdn-6055d2f0bb67"
+      ],
+      "annotation_source": "rag_development_v8.json",
+      "strategies": {
+        "BM25_text": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-a27deff12d34",
+            "vdn-a374396f6529",
+            "vdn-85f4cbd2e11c",
+            "vdn-f733f0e60339"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.018767619010759518
+        },
+        "coverage": {
+          "ids": [
+            "vdn-6055d2f0bb67",
+            "vdn-9be57b985b77",
+            "vdn-a27deff12d34",
+            "vdn-a374396f6529",
+            "vdn-85f4cbd2e11c"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 1.0,
+          "ndcg_at_5": 1.0,
+          "rejected_returned": 0,
+          "latency_s": 0.012098397986846976
+        },
+        "intelligence_lexical": {
+          "ids": [
+            "vdn-a4893023e7c3",
+            "vdn-6055d2f0bb67",
+            "vdn-862f8f5abfce",
+            "vdn-a374396f6529",
+            "vdn-0c907f49b2f4"
+          ],
+          "precision_against_listed_labels_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "reciprocal_rank": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "rejected_returned": 0,
+          "latency_s": 0.014774809998925775
+        }
+      }
+    }
+  ],
+  "semantic_hybrid": {
+    "state": "NOT_RUN",
+    "reason": "no real installed embedding model selected and validated"
+  },
+  "HTTP_calls": 0,
+  "model_calls": 0,
+  "limitations": [
+    "existing small development labels, not blind holdout",
+    "expected IDs are not exhaustive relevance judgments; precision is against listed labels only",
+    "citation attribution and real engine benefit not measured by retrieval IDs",
+    "timings depend on warm caches; no Claude calls or quota savings measured"
+  ]
+}

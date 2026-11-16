@@ -1,0 +1,15 @@
+test_confirmed_answers_are_not_lost_from_bible_handoff (tests.test_lab_intelligence.NarrativeHandoffRegression.test_confirmed_answers_are_not_lost_from_bible_handoff) ... FAIL
+
+======================================================================
+FAIL: test_confirmed_answers_are_not_lost_from_bible_handoff (tests.test_lab_intelligence.NarrativeHandoffRegression.test_confirmed_answers_are_not_lost_from_bible_handoff)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 178, in test_confirmed_answers_are_not_lost_from_bible_handoff
+    self.assertIn('Léo',answers['playable'] or '');self.assertIn('policier',answers['playable'] or '')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Léo' not found in ''
+
+----------------------------------------------------------------------
+Ran 1 test in 0.034s
+
+FAILED (failures=1)

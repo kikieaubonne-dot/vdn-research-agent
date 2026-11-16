@@ -1,0 +1,33 @@
+{
+  "state": "PARTIAL",
+  "acquisition_state": "COMPLETE",
+  "before": {
+    "date": "2026-11-16",
+    "items": 21,
+    "fetch": 23,
+    "http_calls": 27
+  },
+  "after": {
+    "date": "2026-11-16",
+    "items": 22,
+    "fetch": 25,
+    "http_calls": 27
+  },
+  "HTTP_added": 0,
+  "errors": [],
+  "cache_hits": 2,
+  "historical_integration_failures_retained": 1,
+  "remaining_gaps": [
+    {
+      "branch": "forest/spruce/foliage/cards",
+      "status": "CANDIDATE_ONLY",
+      "gap_open": true,
+      "collection_outcome": "PARTIAL_CONTEXT"
+    }
+  ],
+  "next_plan_candidates": [],
+  "next_stop_reasons": [
+    "permitted_scope_exhausted_review_partial_evidence"
+  ],
+  "scope": "Real captured sources reused after software diagnostic fix. Initial misclassified ERROR and its counters retained; no new network request or engine experiment."
+}

@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_identical_truncated_previews_must_not_merge_different_full_parameters (tests.test_research_roots.RootsTests.test_identical_truncated_previews_must_not_merge_different_full_parameters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_research_roots.py", line 207, in test_identical_truncated_previews_must_not_merge_different_full_parameters
+    self.assertEqual(len(r['results']),2);self.assertEqual(r['duplicate_groups'],0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 1 test in 0.193s
+
+FAILED (failures=1)

@@ -1,0 +1,24 @@
+test_rejected_history_remains_explicitly_inspectable (tests.test_lab_intelligence.RejectedEvidenceTests.test_rejected_history_remains_explicitly_inspectable) ... ERROR
+test_rejected_note_is_not_reintroduced_by_intelligence (tests.test_lab_intelligence.RejectedEvidenceTests.test_rejected_note_is_not_reintroduced_by_intelligence) ... FAIL
+
+======================================================================
+ERROR: test_rejected_history_remains_explicitly_inspectable (tests.test_lab_intelligence.RejectedEvidenceTests.test_rejected_history_remains_explicitly_inspectable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 17, in test_rejected_history_remains_explicitly_inspectable
+    self.assertTrue(ev.documents(self.root,include_rejected=True))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: documents() got an unexpected keyword argument 'include_rejected'
+
+======================================================================
+FAIL: test_rejected_note_is_not_reintroduced_by_intelligence (tests.test_lab_intelligence.RejectedEvidenceTests.test_rejected_note_is_not_reintroduced_by_intelligence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_lab_intelligence.py", line 13, in test_rejected_note_is_not_reintroduced_by_intelligence
+    self.assertFalse(ev.documents(self.root))
+AssertionError: [{'id': 'doc-89ecd51a86f90008d295f659', 'url': 'https://create.roblox.com/docs/fixture', 'title': 'Roblox collision false lead', 'text': 'This authored rejected collision technique must not enter active evidence.', 'sha256': '5d3d5f93ab9c7cb290dee4301d35e209d1ae2a236fe0f5ba5beecf1a49376146', 'source_type': 'secondary_recorded_excerpt', 'engine': 'Roblox', 'version': 'unknown', 'published': None, 'accessed': None, 'retrieved_at': 0, 'truncated': False, 'independent': False, 'note_id': 'rejected-fixture', 'conditions': {}}] is not false
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.015s
+
+FAILED (failures=1, errors=1)

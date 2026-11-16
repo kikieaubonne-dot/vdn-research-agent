@@ -1,0 +1,23 @@
+{
+  "base_sha": "ad2fc6b6e211ccb686052273221cb35f26e30bf6",
+  "python": "3.12.14",
+  "os": "Linux",
+  "offline": {
+    "tests": 490,
+    "seconds": 96.888,
+    "sockets_forbidden": true,
+    "state": "PASS"
+  },
+  "personal_configuration_copy": {
+    "tests": 490,
+    "seconds": 95.44,
+    "sockets_forbidden": true,
+    "source_settings_unchanged": true,
+    "state": "PASS"
+  },
+  "product_sha256_matches_manifest": true,
+  "protected_files_unchanged": 146,
+  "Studio": "NOT_TESTED",
+  "Claude_Desktop": "NOT_TESTED",
+  "Windows_user_PC": "NOT_TESTED"
+}

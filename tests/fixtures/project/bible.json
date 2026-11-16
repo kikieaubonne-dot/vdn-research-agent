@@ -1,0 +1,947 @@
+{
+  "schema": "vdn.project-bible/11.2",
+  "id": "le-voisin-de-noel",
+  "revision": 1,
+  "provenance": "User mission V11.2. Confirmed means user-confirmed intention/context, not software validation.",
+  "items": [
+    {
+      "id": "identity",
+      "section": "vision",
+      "status": "CONFIRMED",
+      "text": "Le Voisin de Noël [Horreur], jeu Roblox d’horreur cinématographique, infiltration et exploration à la première personne.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "atmosphere",
+      "section": "art",
+      "status": "CONFIRMED",
+      "text": "Nuit de Noël enneigée, tension, obscurité et réalisme cinématographique dans les limites réelles de Roblox.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "forest",
+      "section": "environments",
+      "status": "CONFIRMED",
+      "text": "Forêt nordique d’épicéas, silhouettes naturelles, sentier forestier et brouillard léger comme cible artistique.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "locations",
+      "section": "environments",
+      "status": "CONFIRMED",
+      "text": "Rue enneigée, maisons, manoir, maison de Noël et intérieurs font partie du contexte fourni ; leur disponibilité dans le dépôt est inconnue.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "flashlight-goal",
+      "section": "art",
+      "status": "CONFIRMED",
+      "text": "Lampe torche centrale, éclairage nocturne, neige tassée et traces de pas crédibles comme cibles visuelles.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "references",
+      "section": "visual_references",
+      "status": "CONFIRMED",
+      "text": "Références étudiées : Alan Wake 2, The Last of Us Part II, Resident Evil Village et promenades nocturnes en forêt nordique. Aucune équivalence technique Roblox garantie.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "movement-ideas",
+      "section": "gameplay",
+      "status": "PROPOSED",
+      "text": "Marche, sprint, accroupissement, glissade, enjambement et escalade sont étudiés ; aucune liste de fonctionnalités de bêta confirmée.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "interaction-ideas",
+      "section": "gameplay",
+      "status": "PROPOSED",
+      "text": "Cachettes, interactions, indices, énigmes, poursuites et événements scénarisés sont étudiés, pas tous obligatoires.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "trees",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Sapin B3 et jeune sapin C1 signalés par l’utilisateur ; fichiers et état de validation non inspectés.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "flashlight-v2",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Lampe torche V2 signalée ; comportement, fichiers et mesures non disponibles dans ce dépôt.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "camera-work",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Caméra immersive à améliorer, d’après le contexte utilisateur ; aucun défaut Studio reproduit ici.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "ground-work",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Sol enneigé et traces de pas signalés ; mesures et assets non inspectés.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "pipeline-work",
+      "section": "development",
+      "status": "PROTOTYPE",
+      "text": "Pipeline Blender vers Roblox étudié ; compatibilité des exports réels à vérifier.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "sonia",
+      "section": "characters",
+      "status": "DEFERRED",
+      "text": "Sonia, personnage réaliste, est un chantier secondaire ; sa présence dans la bêta n’est pas confirmée.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "maelle",
+      "section": "characters",
+      "status": "PROPOSED",
+      "text": "Maëlle apparaît dans des pistes de scénario étudiées ; rôle et caractère jouable inconnus.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "santa",
+      "section": "characters",
+      "status": "PROPOSED",
+      "text": "Un Père Noël inquiétant est une piste narrative ; rôle et présence effective non confirmés.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "story",
+      "section": "story",
+      "status": "UNKNOWN",
+      "text": "Motivation du joueur, intrigue validée et dénouement non fournis.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "timeline",
+      "section": "chronology",
+      "status": "UNKNOWN",
+      "text": "Chronologie des événements et séquence de bêta à confirmer ; aucune date narrative inventée.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "controls",
+      "section": "controls",
+      "status": "UNKNOWN",
+      "text": "Touches, manette, tactile et règles de transition entre actions ne sont pas validés.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "targets",
+      "section": "performance",
+      "status": "UNKNOWN",
+      "text": "Appareils Roblox cibles, résolution, budgets de trame et FPS cible ne sont pas confirmés.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "tools",
+      "section": "technical",
+      "status": "CONFIRMED",
+      "text": "Outils du projet : Roblox Studio, Blender 5.2, Unreal comme référence/atelier artistique, Claude Desktop/MCP, Obsidian ; Ollama facultatif.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "hardware",
+      "section": "technical",
+      "status": "CONFIRMED",
+      "text": "PC utilisateur annoncé : RTX 4060 Ti 8 Go. Aucune disponibilité de ce GPU dans l’environnement CI n’est supposée.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "priority-policy",
+      "section": "priorities",
+      "status": "PROPOSED",
+      "text": "P0 fonctionnement indispensable ; P1 horreur essentielle ; P2 amélioration non bloquante ; P3 reportable. Classement des tâches proposé et révisable après validation du scénario.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "dependencies",
+      "section": "dependencies",
+      "status": "PROPOSED",
+      "text": "Rechercher les prérequis techniques qui débloquent P0/P1 sans bloquer les recherches indépendantes sur des décisions narratives.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    },
+    {
+      "id": "roadmap",
+      "section": "deferred",
+      "status": "DEFERRED",
+      "text": "Extension à un assistant universel, installation de modèles et automatisations permanentes hors de cette préparation.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+    }
+  ],
+  "questions": [
+    {
+      "id": "playable",
+      "text": "Quel personnage est jouable dans la première version ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "camera",
+        "movement"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    },
+    {
+      "id": "motivation",
+      "text": "Quelle est la motivation et l’objectif immédiat du joueur ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "architecture",
+        "pursuit"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    },
+    {
+      "id": "beta",
+      "text": "Quelle séquence jouable doit être terminée pour la bêta ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "architecture"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    },
+    {
+      "id": "mode",
+      "text": "La première version est-elle solo ou coopérative ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "interactions",
+        "pursuit"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    },
+    {
+      "id": "devices",
+      "text": "Quels appareils et budgets de performance doivent être validés pour la bêta ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "performance"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    },
+    {
+      "id": "cast",
+      "text": "Quels personnages doivent réellement apparaître dans la bêta ?",
+      "status": "UNKNOWN",
+      "answer": null,
+      "blocks": [
+        "pursuit"
+      ],
+      "research_blocks": [],
+      "provenance": "user:V11.2:B3"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "trees",
+      "title": "Sapins enneigés réalistes",
+      "objective": "Comparer silhouette, géométrie et feuillage de copies B3/C1 sans supposer un gain visuel.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 1,
+      "parent": "forest",
+      "requires": [
+        "export",
+        "materials"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "sapin",
+        "épicéa",
+        "silhouette",
+        "foliage"
+      ],
+      "anchors": [
+        "foliage",
+        "mesh",
+        "silhouette",
+        "geometry"
+      ],
+      "query": "Roblox foliage mesh silhouette SurfaceAppearance snow",
+      "seeds": [
+        "https://create.roblox.com/docs/art/modeling/surface-appearance.md"
+      ],
+      "topic": "spruce",
+      "provider": "roblox",
+      "assets": [
+        "B3",
+        "C1"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "collisions",
+      "title": "Collisions des arbres",
+      "objective": "Réduire les blocages du contrôleur près des troncs et branches dans une scène témoin.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 2,
+      "parent": "forest",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "collision",
+        "bloqué",
+        "coincé",
+        "branches",
+        "CanCollide",
+        "CollisionFidelity"
+      ],
+      "anchors": [
+        "CollisionFidelity",
+        "CanCollide",
+        "collision geometry"
+      ],
+      "query": "Roblox MeshPart CollisionFidelity CanCollide tree collisions",
+      "seeds": [
+        "https://create.roblox.com/docs/workspace/collisions.md"
+      ],
+      "topic": "rendering",
+      "provider": "roblox",
+      "assets": [
+        "B3",
+        "C1"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "ground",
+      "title": "Sol, relief et empreintes",
+      "objective": "Comparer le sol enneigé et les empreintes sur un même relief et trajet.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 3,
+      "parent": "environment",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "sol",
+        "terrain",
+        "empreinte",
+        "relief"
+      ],
+      "anchors": [
+        "terrain",
+        "snow",
+        "decal"
+      ],
+      "query": "Roblox terrain snow materials footprints decals",
+      "seeds": [
+        "https://create.roblox.com/docs/parts/terrain.md"
+      ],
+      "topic": "terrain",
+      "provider": "roblox",
+      "assets": [
+        "snow-ground"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "lighting",
+      "title": "Nuit et lampe torche",
+      "objective": "Isoler les défauts de lisibilité nocturne et de faisceau de la lampe V2.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 4,
+      "parent": "environment",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "lampe",
+        "torche",
+        "éclairage",
+        "brouillard",
+        "nuit",
+        "SpotLight",
+        "Atmosphere"
+      ],
+      "anchors": [
+        "SpotLight",
+        "Atmosphere",
+        "lighting"
+      ],
+      "query": "Roblox SpotLight Atmosphere lighting shadows flashlight",
+      "seeds": [
+        "https://create.roblox.com/docs/effects/light-sources.md",
+        "https://create.roblox.com/docs/environment/atmosphere.md"
+      ],
+      "topic": "lighting",
+      "provider": "roblox",
+      "assets": [
+        "flashlight-v2"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "camera",
+      "title": "Caméra immersive",
+      "objective": "Préparer une caméra première personne sans clipping et avec une référence de mouvement reproductible.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 5,
+      "parent": "player",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "caméra",
+        "camera",
+        "première personne",
+        "first person"
+      ],
+      "anchors": [
+        "Camera",
+        "camera",
+        "first person"
+      ],
+      "query": "Roblox first person Camera camera motion input",
+      "seeds": [
+        "https://create.roblox.com/docs/workspace/camera.md"
+      ],
+      "topic": "fps_camera",
+      "provider": "roblox",
+      "assets": [
+        "camera-prototype"
+      ],
+      "blocking_questions": [
+        "playable"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "movement",
+      "title": "Déplacement et transitions",
+      "objective": "Définir et tester les transitions entre marche, sprint, accroupissement, glissade et enjambement.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 6,
+      "parent": "player",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "sprint",
+        "accroupissement",
+        "glissade",
+        "enjambement",
+        "déplacement",
+        "Humanoid"
+      ],
+      "anchors": [
+        "Humanoid",
+        "movement",
+        "input",
+        "raycast"
+      ],
+      "query": "Roblox Humanoid movement input raycasting",
+      "seeds": [
+        "https://create.roblox.com/docs/characters/index.md",
+        "https://create.roblox.com/docs/workspace/raycasting.md"
+      ],
+      "topic": "movement",
+      "provider": "roblox",
+      "assets": [
+        "player-controller"
+      ],
+      "blocking_questions": [
+        "playable"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "interactions",
+      "title": "Interactions, portes et cachettes",
+      "objective": "Préparer une interaction de porte et cachette vérifiable sans décider le scénario.",
+      "priority": "P0",
+      "priority_status": "PROPOSED",
+      "order": 7,
+      "parent": "player",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "interaction",
+        "porte",
+        "cachette"
+      ],
+      "anchors": [
+        "ProximityPrompt",
+        "interaction",
+        "prompt"
+      ],
+      "query": "Roblox ProximityPrompt interactions client server security",
+      "seeds": [
+        "https://create.roblox.com/docs/ui/proximity-prompts.md"
+      ],
+      "topic": "immersive_gameplay",
+      "provider": "roblox",
+      "assets": [
+        "interaction-prototype"
+      ],
+      "blocking_questions": [
+        "mode"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "performance",
+      "title": "Optimisation PC et mobile",
+      "objective": "Établir un baseline et isoler géométrie, densité et rendu sur les appareils retenus.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 8,
+      "parent": "technical",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "performance",
+        "optimiser",
+        "mobile",
+        "fps",
+        "streaming",
+        "MicroProfiler"
+      ],
+      "anchors": [
+        "performance",
+        "MicroProfiler",
+        "streaming"
+      ],
+      "query": "Roblox performance MicroProfiler streaming forest",
+      "seeds": [
+        "https://create.roblox.com/docs/performance-optimization/improve.md",
+        "https://create.roblox.com/docs/studio/microprofiler/index.md"
+      ],
+      "topic": "performance",
+      "provider": "roblox",
+      "assets": [
+        "forest-lab"
+      ],
+      "blocking_questions": [
+        "devices"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "architecture",
+      "title": "Manoir et maison",
+      "objective": "Préparer un blockout lisible du manoir et de la maison, conditionné à la séquence bêta.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 9,
+      "parent": "environment",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "manoir",
+        "maison",
+        "architecture"
+      ],
+      "anchors": [
+        "layout",
+        "mesh",
+        "parts",
+        "model"
+      ],
+      "query": "Roblox parts models blockout architecture",
+      "seeds": [
+        "https://create.roblox.com/docs/parts/index.md"
+      ],
+      "topic": "manor",
+      "provider": "roblox",
+      "assets": [
+        "manor-blockout"
+      ],
+      "blocking_questions": [
+        "beta",
+        "motivation"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "pursuit",
+      "title": "Poursuite et détection",
+      "objective": "Comparer détection et suivi du joueur sur un parcours témoin, sans inventer le personnage antagoniste.",
+      "priority": "P1",
+      "priority_status": "PROPOSED",
+      "order": 10,
+      "parent": "gameplay",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "poursuite",
+        "détection",
+        "pathfinding",
+        "ennemi"
+      ],
+      "anchors": [
+        "PathfindingService",
+        "raycast",
+        "pathfinding"
+      ],
+      "query": "Roblox pathfinding raycasting NPC detection",
+      "seeds": [
+        "https://create.roblox.com/docs/characters/pathfinding.md"
+      ],
+      "topic": "immersive_gameplay",
+      "provider": "roblox",
+      "assets": [
+        "npc-lab"
+      ],
+      "blocking_questions": [
+        "mode",
+        "cast",
+        "motivation"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "export",
+      "title": "Export Blender vers Roblox",
+      "objective": "Documenter unités, normales et transformations d’un export Blender 5.2 sur des copies d’assets.",
+      "priority": "P2",
+      "priority_status": "PROPOSED",
+      "order": 11,
+      "parent": "technical",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "export",
+        "fbx",
+        "blender"
+      ],
+      "anchors": [
+        "mesh",
+        "export",
+        "transform",
+        "normals"
+      ],
+      "query": "Blender 5.2 mesh export normals scale Roblox",
+      "seeds": [
+        "https://docs.blender.org/manual/en/5.2/modeling/meshes/structure.html"
+      ],
+      "topic": "rendering",
+      "provider": "blender",
+      "assets": [
+        "B3",
+        "C1"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "materials",
+      "title": "Matériaux et textures",
+      "objective": "Comparer les textures et normales effectivement présentes sous le même éclairage.",
+      "priority": "P2",
+      "priority_status": "PROPOSED",
+      "order": 12,
+      "parent": "technical",
+      "requires": [],
+      "research_requires": [],
+      "aliases": [
+        "texture",
+        "pbr",
+        "matériau",
+        "normales",
+        "SurfaceAppearance",
+        "NormalMap"
+      ],
+      "anchors": [
+        "SurfaceAppearance",
+        "NormalMap",
+        "ColorMap",
+        "transparency"
+      ],
+      "query": "Roblox SurfaceAppearance NormalMap ColorMap transparency",
+      "seeds": [
+        "https://create.roblox.com/docs/art/modeling/surface-appearance.md"
+      ],
+      "topic": "rendering",
+      "provider": "roblox",
+      "assets": [
+        "tree-textures"
+      ],
+      "blocking_questions": [],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "animation",
+      "title": "Animation et rigging",
+      "objective": "Préparer une animation sur un rig de laboratoire sans imposer Sonia comme personnage de bêta.",
+      "priority": "P2",
+      "priority_status": "PROPOSED",
+      "order": 13,
+      "parent": "player",
+      "requires": [
+        "export"
+      ],
+      "research_requires": [],
+      "aliases": [
+        "animation",
+        "rigging",
+        "rig"
+      ],
+      "anchors": [
+        "animation",
+        "rig",
+        "bone"
+      ],
+      "query": "Roblox animation rig Blender export",
+      "seeds": [
+        "https://create.roblox.com/docs/animation/editor.md"
+      ],
+      "topic": "blender_animation",
+      "provider": "roblox",
+      "assets": [
+        "animation-rig"
+      ],
+      "blocking_questions": [
+        "playable"
+      ],
+      "conditions": [
+        "target engine Roblox; Blender authoring target 5.2",
+        "isolated asset copies and recorded versions/device",
+        "no visual reference implies engine feasibility"
+      ],
+      "estimated_cost": {
+        "content_attempt_cap": 2,
+        "http": "robots/discovery/retries counted in existing session cap; not an estimate of success",
+        "compute": "existing V10/V11 cap"
+      },
+      "next_action": "Inspecter les preuves existantes puis rechercher la lacune spécifique.",
+      "status": "PROPOSED"
+    }
+  ],
+  "technical": {
+    "engine": {
+      "value": "Roblox",
+      "status": "CONFIRMED"
+    },
+    "engine_version": {
+      "value": "UNKNOWN",
+      "status": "UNKNOWN"
+    },
+    "blender_version": {
+      "value": "5.2",
+      "status": "CONFIRMED"
+    },
+    "target_devices": {
+      "value": "UNKNOWN",
+      "status": "UNKNOWN"
+    },
+    "fps_target": {
+      "value": null,
+      "status": "UNKNOWN"
+    },
+    "asset_availability": {
+      "value": "UNKNOWN",
+      "status": "UNKNOWN"
+    }
+  },
+  "visual_references": [
+    {
+      "id": "forest-night",
+      "status": "PROPOSED",
+      "target": "Forêt nordique enneigée nocturne, silhouette naturelle lisible à la lampe.",
+      "keep": [
+        "silhouette",
+        "ambiance nocturne",
+        "neige crédible"
+      ],
+      "avoid": [
+        "répétition évidente",
+        "équivalence Unreal/Roblox supposée"
+      ],
+      "attachments": [],
+      "render_version": "UNKNOWN",
+      "human_review": "UNKNOWN"
+    }
+  ],
+  "deferred": [
+    {
+      "id": "universal-assistant",
+      "status": "DEFERRED",
+      "reason": "Scope dedicated to this game."
+    }
+  ],
+  "groups": [
+    {
+      "id": "forest",
+      "status": "PROPOSED",
+      "title": "Forêt nocturne"
+    },
+    {
+      "id": "environment",
+      "status": "PROPOSED",
+      "title": "Environnements"
+    },
+    {
+      "id": "player",
+      "status": "PROPOSED",
+      "title": "Joueur"
+    },
+    {
+      "id": "technical",
+      "status": "PROPOSED",
+      "title": "Pipeline technique"
+    },
+    {
+      "id": "gameplay",
+      "status": "PROPOSED",
+      "title": "Gameplay"
+    }
+  ]
+}

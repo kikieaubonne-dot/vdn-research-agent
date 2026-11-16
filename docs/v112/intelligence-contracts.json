@@ -1,0 +1,1996 @@
+{
+  "schema": "vdn.intelligence-evaluation-results/11.1",
+  "provenance": "AUTHORED SYNTHETIC CONTRACT FIXTURES, not Roblox/Blender ground truth. Statements and expectations are explicit; do not publish as technical knowledge.",
+  "pipeline_version": "11.2.2",
+  "cases": 36,
+  "passed": 36,
+  "failed": [],
+  "claim_support_contract_accuracy": 1.0,
+  "elapsed_s": 0.8084196540003177,
+  "python_tracemalloc_peak_bytes": 420525,
+  "vram": "not measured",
+  "details": [
+    {
+      "id": "intent_simple",
+      "category": "simple",
+      "expected": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_complex",
+      "category": "complex",
+      "expected": {
+        "problems": [
+          "collision",
+          "appearance",
+          "lighting"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "collision",
+          "appearance",
+          "lighting"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_english",
+      "category": "english",
+      "expected": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_appearance",
+      "category": "nearby_question",
+      "expected": {
+        "problems": [
+          "appearance"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "appearance"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_export",
+      "category": "nearby_question",
+      "expected": {
+        "problems": [
+          "export"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "export"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_lighting",
+      "category": "simple",
+      "expected": {
+        "problems": [
+          "lighting"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "lighting"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_missing",
+      "category": "unanswered",
+      "expected": {
+        "problems": [
+          "performance"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "performance"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_outside",
+      "category": "unanswered",
+      "expected": {
+        "problems": []
+      },
+      "actual": {
+        "problems": []
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_animation",
+      "category": "complex",
+      "expected": {
+        "problems": [
+          "export"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "export"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_performance",
+      "category": "simple",
+      "expected": {
+        "problems": [
+          "performance"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "performance"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_long",
+      "category": "long",
+      "expected": {
+        "problems": [
+          "export"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "export"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "intent_injection",
+      "category": "hostile",
+      "expected": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "actual": {
+        "problems": [
+          "collision"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "id": "literal",
+      "category": "simple",
+      "expected": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "actual": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "paraphrase",
+      "category": "technical",
+      "expected": {
+        "support": "INFERRED"
+      },
+      "actual": {
+        "support": "INFERRED"
+      },
+      "pass": true
+    },
+    {
+      "id": "absent_number",
+      "category": "missing_parameter",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "wrong_engine",
+      "category": "engine_mismatch",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "wrong_version",
+      "category": "version_mismatch",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "unknown_version",
+      "category": "version_unknown",
+      "expected": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "actual": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "hypothesis",
+      "category": "hypothesis",
+      "expected": {
+        "support": "HYPOTHESIS"
+      },
+      "actual": {
+        "support": "HYPOTHESIS"
+      },
+      "pass": true
+    },
+    {
+      "id": "proposal",
+      "category": "procedure",
+      "expected": {
+        "support": "EXPERIMENT_PROPOSAL"
+      },
+      "actual": {
+        "support": "EXPERIMENT_PROPOSAL"
+      },
+      "pass": true
+    },
+    {
+      "id": "unsupported_kind",
+      "category": "bad_citation",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "literal_lighting",
+      "category": "english",
+      "expected": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "actual": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "literal_export",
+      "category": "english_to_french",
+      "expected": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "actual": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "old_statement",
+      "category": "obsolete",
+      "expected": {
+        "support": "OUTDATED"
+      },
+      "actual": {
+        "support": "OUTDATED"
+      },
+      "pass": true
+    },
+    {
+      "id": "hostile_statement",
+      "category": "hostile",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "absent_fps",
+      "category": "unanswered",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "secondary",
+      "category": "secondary",
+      "expected": {
+        "support": "INFERRED"
+      },
+      "actual": {
+        "support": "INFERRED"
+      },
+      "pass": true
+    },
+    {
+      "id": "bad_offset",
+      "category": "bad_citation",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "bad_hash",
+      "category": "bad_citation",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "missing_id",
+      "category": "bad_citation",
+      "expected": {
+        "support": "UNSUPPORTED"
+      },
+      "actual": {
+        "support": "UNSUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "long_warning",
+      "category": "long",
+      "expected": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "actual": {
+        "support": "SOURCE_SUPPORTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "incomplete",
+      "category": "truncated",
+      "expected": {
+        "support": "INFERRED"
+      },
+      "actual": {
+        "support": "INFERRED"
+      },
+      "pass": true
+    },
+    {
+      "id": "conflict_equal",
+      "category": "contradiction",
+      "expected": {
+        "status": "CONTRADICTED"
+      },
+      "actual": {
+        "status": "CONTRADICTED"
+      },
+      "pass": true
+    },
+    {
+      "id": "conflict_versions",
+      "category": "versions",
+      "expected": {
+        "status": "needs_review"
+      },
+      "actual": {
+        "status": "needs_review"
+      },
+      "pass": true
+    },
+    {
+      "id": "no_invented_answer",
+      "category": "unanswered",
+      "expected": {
+        "abstained": true
+      },
+      "actual": {
+        "abstained": true
+      },
+      "pass": true
+    },
+    {
+      "id": "no_foreign_answer",
+      "category": "unanswered",
+      "expected": {
+        "abstained": true
+      },
+      "actual": {
+        "abstained": true
+      },
+      "pass": true
+    }
+  ],
+  "same_corpus_comparison": [
+    {
+      "id": "understand",
+      "question": "Mon personnage Roblox reste bloqué contre les branches. Quel problème examiner ?",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.061794123001163825,
+        "candidate_count": 2,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 0.0,
+          "document_recall_at_5": 0.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "export",
+            "long"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.034766248005325906,
+        "intent_problems": [
+          "collision"
+        ],
+        "facts": 2,
+        "unsupported": 2,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.6,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision",
+            "export",
+            "collision",
+            "collision",
+            "conflict"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2c4bce5cdf7d7132b009b0d0",
+            "text": "MeshPart CanCollide determines physical collision in this authored test reference.",
+            "passage_ids": [
+              "pass-43241bbc38cdfb41cef41f28"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.675059+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.675893+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-5f0edd380ee8d5470c78420e",
+            "text": "Warning: this fixture does not specify an optimal CollisionFidelity value.",
+            "passage_ids": [
+              "pass-bb4cffc73a8f636befd36962"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.677195+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-ffccc66ec8d29be7f8db8535",
+            "text": "This is an authored contradictory fixture under the same declared scene.",
+            "passage_ids": [
+              "pass-dbfbd1ca27052fefb0b9a843"
+            ],
+            "source_ids": [
+              "conflict"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "CONTRADICTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-f0486326e17f50abd2f01b63",
+                  "pass-dbfbd1ca27052fefb0b9a843"
+                ],
+                "kind": "explicit_conflict_same_declared_conditions",
+                "status": "CONTRADICTED",
+                "truth_verified": false
+              },
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:12.677802+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.678226+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-6155d184abc1c110f457df0a",
+            "text": "This old authored example requires a version review before reuse.",
+            "passage_ids": [
+              "pass-3371adba048db73b61c6bd8e"
+            ],
+            "source_ids": [
+              "old"
+            ],
+            "version": "fixture-old",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "OUTDATED",
+            "verification": "not_verified",
+            "issues": [
+              "publication_age_requires_review"
+            ],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:12.678477+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "extract",
+      "question": "Quelle valeur optimale de CollisionFidelity est documentée pour Roblox ?",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.06386699200083967,
+        "candidate_count": 2,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 0.0,
+          "document_recall_at_5": 0.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "export",
+            "long"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.028842845000326633,
+        "intent_problems": [
+          "collision",
+          "performance"
+        ],
+        "facts": 2,
+        "unsupported": 3,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": true,
+        "structural_protocols": 2,
+        "retrieval": {
+          "precision_at_5": 0.6,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision",
+            "long",
+            "collision",
+            "collision",
+            "conflict"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2c4bce5cdf7d7132b009b0d0",
+            "text": "MeshPart CanCollide determines physical collision in this authored test reference.",
+            "passage_ids": [
+              "pass-43241bbc38cdfb41cef41f28"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.771296+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-2d8394d3c8b72c91a8d8863f",
+            "text": "Unrelated authored filler about geometry.",
+            "passage_ids": [
+              "pass-03e29698a9fe21f48745cafd"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.771718+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-5f0edd380ee8d5470c78420e",
+            "text": "Warning: this fixture does not specify an optimal CollisionFidelity value.",
+            "passage_ids": [
+              "pass-bb4cffc73a8f636befd36962"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.772185+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-ffccc66ec8d29be7f8db8535",
+            "text": "This is an authored contradictory fixture under the same declared scene.",
+            "passage_ids": [
+              "pass-dbfbd1ca27052fefb0b9a843"
+            ],
+            "source_ids": [
+              "conflict"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "CONTRADICTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-f0486326e17f50abd2f01b63",
+                  "pass-dbfbd1ca27052fefb0b9a843"
+                ],
+                "kind": "explicit_conflict_same_declared_conditions",
+                "status": "CONTRADICTED",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:12.772455+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.772845+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.773180+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "tutorial",
+      "question": "Blender 5.2 export : synthétiser le protocole et ses limitations.",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.06361047500104178,
+        "candidate_count": 2,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "export",
+            "long"
+          ],
+          "retrieved_documents": [
+            "export",
+            "long"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.03154223100136733,
+        "intent_problems": [
+          "export"
+        ],
+        "facts": 3,
+        "unsupported": 0,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "export",
+            "long"
+          ],
+          "retrieved_documents": [
+            "export",
+            "export",
+            "export",
+            "long"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.872665+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.873591+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-20c60b9aadcbc7117e678cfd",
+            "text": "Blender geometry scale must be recorded for this long-document fixture.",
+            "passage_ids": [
+              "pass-3b2efbfe8cb9dbc512d5f685"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.873857+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "conflict",
+      "question": "Roblox CanCollide : comparer les sources contradictoires et leurs conditions.",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.041585172002669424,
+        "candidate_count": 1,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 0.5,
+          "relevant_documents": [
+            "collision",
+            "conflict"
+          ],
+          "retrieved_documents": [
+            "collision"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.04021676700358512,
+        "intent_problems": [
+          "collision"
+        ],
+        "facts": 2,
+        "unsupported": 2,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.8,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision",
+            "conflict"
+          ],
+          "retrieved_documents": [
+            "collision",
+            "export",
+            "collision",
+            "collision",
+            "conflict"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2c4bce5cdf7d7132b009b0d0",
+            "text": "MeshPart CanCollide determines physical collision in this authored test reference.",
+            "passage_ids": [
+              "pass-43241bbc38cdfb41cef41f28"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.951816+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.952906+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-5f0edd380ee8d5470c78420e",
+            "text": "Warning: this fixture does not specify an optimal CollisionFidelity value.",
+            "passage_ids": [
+              "pass-bb4cffc73a8f636befd36962"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.953324+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-ffccc66ec8d29be7f8db8535",
+            "text": "This is an authored contradictory fixture under the same declared scene.",
+            "passage_ids": [
+              "pass-dbfbd1ca27052fefb0b9a843"
+            ],
+            "source_ids": [
+              "conflict"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "CONTRADICTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-f0486326e17f50abd2f01b63",
+                  "pass-dbfbd1ca27052fefb0b9a843"
+                ],
+                "kind": "explicit_conflict_same_declared_conditions",
+                "status": "CONTRADICTED",
+                "truth_verified": false
+              },
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:12.954906+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:12.957306+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-6155d184abc1c110f457df0a",
+            "text": "This old authored example requires a version review before reuse.",
+            "passage_ids": [
+              "pass-3371adba048db73b61c6bd8e"
+            ],
+            "source_ids": [
+              "old"
+            ],
+            "version": "fixture-old",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "OUTDATED",
+            "verification": "not_verified",
+            "issues": [
+              "publication_age_requires_review"
+            ],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:12.957627+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "procedure",
+      "question": "Proposer une procédure de comparaison des collisions dans Roblox.",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.033019351001712494,
+        "candidate_count": 1,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.028339014999801293,
+        "intent_problems": [
+          "collision"
+        ],
+        "facts": 2,
+        "unsupported": 2,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.6,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision",
+            "export",
+            "collision",
+            "collision",
+            "conflict"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2c4bce5cdf7d7132b009b0d0",
+            "text": "MeshPart CanCollide determines physical collision in this authored test reference.",
+            "passage_ids": [
+              "pass-43241bbc38cdfb41cef41f28"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.019606+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.019964+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-5f0edd380ee8d5470c78420e",
+            "text": "Warning: this fixture does not specify an optimal CollisionFidelity value.",
+            "passage_ids": [
+              "pass-bb4cffc73a8f636befd36962"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.020189+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-ffccc66ec8d29be7f8db8535",
+            "text": "This is an authored contradictory fixture under the same declared scene.",
+            "passage_ids": [
+              "pass-dbfbd1ca27052fefb0b9a843"
+            ],
+            "source_ids": [
+              "conflict"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "CONTRADICTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-f0486326e17f50abd2f01b63",
+                  "pass-dbfbd1ca27052fefb0b9a843"
+                ],
+                "kind": "explicit_conflict_same_declared_conditions",
+                "status": "CONTRADICTED",
+                "truth_verified": false
+              },
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:13.020435+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.020897+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-6155d184abc1c110f457df0a",
+            "text": "This old authored example requires a version review before reuse.",
+            "passage_ids": [
+              "pass-3371adba048db73b61c6bd8e"
+            ],
+            "source_ids": [
+              "old"
+            ],
+            "version": "fixture-old",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "OUTDATED",
+            "verification": "not_verified",
+            "issues": [
+              "publication_age_requires_review"
+            ],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:13.021656+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "refuse",
+      "question": "Quel FPS exact donne B3 dans Roblox ?",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.05340511800022796,
+        "candidate_count": 2,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 0.0,
+          "document_recall_at_5": null,
+          "relevant_documents": [],
+          "retrieved_documents": [
+            "export",
+            "long"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.03963218400167534,
+        "intent_problems": [
+          "performance"
+        ],
+        "facts": 2,
+        "unsupported": 6,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": true,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.0,
+          "document_recall_at_5": null,
+          "relevant_documents": [],
+          "retrieved_documents": [
+            "long",
+            "lighting",
+            "export",
+            "lighting",
+            "export"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2d8394d3c8b72c91a8d8863f",
+            "text": "Unrelated authored filler about geometry.",
+            "passage_ids": [
+              "pass-03e29698a9fe21f48745cafd"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.110010+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-9f458263e1162be67860f9b9",
+            "text": "Warning: this fixture contains no measured FPS and no optimal light range.",
+            "passage_ids": [
+              "pass-34c6735449f1831137b31758"
+            ],
+            "source_ids": [
+              "lighting"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.110828+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.111222+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-181839d92b7dacb45fbb232a",
+            "text": "SpotLight Shadows and Atmosphere fog are separate night-scene test factors.",
+            "passage_ids": [
+              "pass-d48f628bbf75ca30b7c7e0e8"
+            ],
+            "source_ids": [
+              "lighting"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.111463+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.111908+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-71abbfb4839f75ae89be61d5",
+            "text": "Unrelated authored filler about geometry.",
+            "passage_ids": [
+              "pass-88abe2ba02db20a3dd72f23e"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.112193+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-e9138f70ce72fbe231913cd7",
+            "text": "filler about geometry.",
+            "passage_ids": [
+              "pass-023a4dcc2320fd81b1dbc208"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.112719+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-a5d3421b05d49d5b668329bd",
+            "text": "Unrelated authored filler about geometry.",
+            "passage_ids": [
+              "pass-03774d4a480c3d3d3de0dfdc"
+            ],
+            "source_ids": [
+              "long"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.113193+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "json",
+      "question": "Structurer en JSON un test des collisions Roblox sans résultat inventé.",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.037583992001600564,
+        "candidate_count": 1,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.029776174000289757,
+        "intent_problems": [
+          "collision"
+        ],
+        "facts": 2,
+        "unsupported": 2,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.6,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "collision"
+          ],
+          "retrieved_documents": [
+            "collision",
+            "export",
+            "collision",
+            "collision",
+            "conflict"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-2c4bce5cdf7d7132b009b0d0",
+            "text": "MeshPart CanCollide determines physical collision in this authored test reference.",
+            "passage_ids": [
+              "pass-43241bbc38cdfb41cef41f28"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.182785+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.183218+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-5f0edd380ee8d5470c78420e",
+            "text": "Warning: this fixture does not specify an optimal CollisionFidelity value.",
+            "passage_ids": [
+              "pass-bb4cffc73a8f636befd36962"
+            ],
+            "source_ids": [
+              "collision"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.183589+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-ffccc66ec8d29be7f8db8535",
+            "text": "This is an authored contradictory fixture under the same declared scene.",
+            "passage_ids": [
+              "pass-dbfbd1ca27052fefb0b9a843"
+            ],
+            "source_ids": [
+              "conflict"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "CONTRADICTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-f0486326e17f50abd2f01b63",
+                  "pass-dbfbd1ca27052fefb0b9a843"
+                ],
+                "kind": "explicit_conflict_same_declared_conditions",
+                "status": "CONTRADICTED",
+                "truth_verified": false
+              },
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:13.184019+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.184353+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-6155d184abc1c110f457df0a",
+            "text": "This old authored example requires a version review before reuse.",
+            "passage_ids": [
+              "pass-3371adba048db73b61c6bd8e"
+            ],
+            "source_ids": [
+              "old"
+            ],
+            "version": "fixture-old",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "OUTDATED",
+            "verification": "not_verified",
+            "issues": [
+              "publication_age_requires_review"
+            ],
+            "contradictions": [
+              {
+                "property": "cancollide",
+                "passage_ids": [
+                  "pass-dbfbd1ca27052fefb0b9a843",
+                  "pass-3371adba048db73b61c6bd8e"
+                ],
+                "kind": "possible_conflict_compare_versions_and_conditions",
+                "status": "needs_review",
+                "truth_verified": false
+              }
+            ],
+            "last_evaluated": "2026-11-16T12:05:13.184657+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    },
+    {
+      "id": "english_french",
+      "question": "Roblox SpotLight Shadows and Atmosphere fog : répondre en français avec limites.",
+      "A": {
+        "mode": "A_V11_deterministic",
+        "elapsed_s": 0.0406475869967835,
+        "candidate_count": 1,
+        "claim_registry": false,
+        "source_span_offsets": false,
+        "unverified": true,
+        "retrieval": {
+          "precision_at_5": 1.0,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "lighting"
+          ],
+          "retrieved_documents": [
+            "lighting"
+          ]
+        }
+      },
+      "B_deterministic": {
+        "elapsed_s": 0.034851747994252946,
+        "intent_problems": [
+          "lighting"
+        ],
+        "facts": 2,
+        "unsupported": 2,
+        "claim_registry": true,
+        "source_span_offsets": true,
+        "abstained": false,
+        "structural_protocols": 1,
+        "retrieval": {
+          "precision_at_5": 0.6,
+          "document_recall_at_5": 1.0,
+          "relevant_documents": [
+            "lighting"
+          ],
+          "retrieved_documents": [
+            "lighting",
+            "export",
+            "lighting",
+            "lighting",
+            "export"
+          ]
+        },
+        "raw_claim_registry": [
+          {
+            "id": "claim-181839d92b7dacb45fbb232a",
+            "text": "SpotLight Shadows and Atmosphere fog are separate night-scene test factors.",
+            "passage_ids": [
+              "pass-d48f628bbf75ca30b7c7e0e8"
+            ],
+            "source_ids": [
+              "lighting"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.261465+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-456cc14b9fc1c9fb0a688579",
+            "text": "Warning: no Roblox import success or triangulation count has been measured.",
+            "passage_ids": [
+              "pass-006658732bb159d9eb3b97dd"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.262208+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-9f458263e1162be67860f9b9",
+            "text": "Warning: this fixture contains no measured FPS and no optimal light range.",
+            "passage_ids": [
+              "pass-34c6735449f1831137b31758"
+            ],
+            "source_ids": [
+              "lighting"
+            ],
+            "version": "fixture-1",
+            "engine": "Roblox",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "SOURCE_SUPPORTED",
+            "verification": "attribution_only",
+            "issues": [],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.262733+00:00",
+            "truth_verified": false
+          },
+          {
+            "id": "claim-0b824c082efd9aa71cae8bdc",
+            "text": "Blender mesh export requires recorded scale and transforms in this test protocol.",
+            "passage_ids": [
+              "pass-2add2db746bd84212ce7566b"
+            ],
+            "source_ids": [
+              "export"
+            ],
+            "version": "5.2",
+            "engine": "Blender",
+            "kind": "SOURCE_SUPPORTED",
+            "support": "UNSUPPORTED",
+            "verification": "not_verified",
+            "issues": [
+              "target_engine_requires_adaptation",
+              "source_engine_requires_adaptation"
+            ],
+            "contradictions": [],
+            "last_evaluated": "2026-11-16T12:05:13.263263+00:00",
+            "truth_verified": false
+          }
+        ],
+        "model_calls": 0,
+        "api_cost_usd": 0,
+        "human_usefulness": "not reviewed"
+      },
+      "B_local": [],
+      "C_hybrid": {
+        "state": "not_run",
+        "reason": "requires explicitly configured real embeddings and indexed same corpus"
+      }
+    }
+  ],
+  "real_models_requested": [],
+  "human_review": "not performed; structural completeness is not correctness or usefulness",
+  "recommend_default_model": null,
+  "limitations": [
+    "development fixtures, not blind holdout or real engine truth",
+    "no semantic entailment proof",
+    "no gain inferred from structural fields",
+    "existing per-day model and HTTP quotas remain in force"
+  ]
+}

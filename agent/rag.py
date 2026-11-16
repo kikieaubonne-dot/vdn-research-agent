@@ -157,9 +157,9 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
         if has_fts(con):
             sql = ("SELECT p.note_id, p.heading, p.body, bm25(passages, 0, 4.0, 2.0, 1.0) AS s, n.title, n.status, n.confidence, "
                    "n.tier, n.updated, n.path, n.domain FROM passages p JOIN notes n ON n.id = p.note_id WHERE passages MATCH ? "
-                   "ORDER BY s LIMIT 200")
+                   +("AND n.status != ? " if not include_rejected else "")+("AND n.domain = ? " if domain else "")+"ORDER BY s LIMIT 200")
             try:
-                rows = con.execute(sql, (q,)).fetchall()
+                rows = con.execute(sql, [q]+(['rejete'] if not include_rejected else [])+([domain] if domain else [])).fetchall()
             except sqlite3.OperationalError:
                 rows = []
         else:
@@ -167,7 +167,7 @@ def search_knowledge(query: str, top_k: int = 5, token_budget: int = 1500, root:
             params = [x for t in terms for x in (f"%{t}%", f"%{t}%")]
             rows = [(r[0], r[1], r[2], -1.0, *r[3:]) for r in con.execute(
                 "SELECT p.note_id, p.heading, p.body, n.title, n.status, n.confidence, n.tier, n.updated, n.path, n.domain "
-                f"FROM passages p JOIN notes n ON n.id=p.note_id WHERE {like} LIMIT 200", params)]
+                f"FROM passages p JOIN notes n ON n.id=p.note_id WHERE ({like}) "+("AND n.status != ? " if not include_rejected else "")+("AND n.domain = ? " if domain else "")+"LIMIT 200", params+(['rejete'] if not include_rejected else [])+([domain] if domain else []))]
         if not include_rejected:
             rows = [r for r in rows if r[5] not in ("rejete",)]
         if domain:

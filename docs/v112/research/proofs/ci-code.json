@@ -1,0 +1,80 @@
+{
+  "schema": "vdn.roots-ci/11.2",
+  "repository": "kikieaubonne-dot/vdn-research-agent",
+  "head_sha": "e84bb9649ac4ab169443c2b000c7f2c31fbceb37",
+  "base_sha": "d23aafa6a190ff69d951730dd39566ed3e33f7a0",
+  "run_id": 43934593777,
+  "run_url": "https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43934593777",
+  "scope": "GitHub pull-request merge reference, PR remains open. Python3.11, socket-blocked suites. No user PC/Desktop/engine validation.",
+  "jobs": [
+    {
+      "id": 133535755300,
+      "name": "offline (ubuntu-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        }
+      ],
+      "log": {
+        "id": 133535755300,
+        "summary": [
+          "2026-11-16T19:00:05.8792608Z Ran 490 tests in 18.596s",
+          "2026-11-16T19:00:05.8792840Z OK",
+          "2026-11-16T19:00:24.6555787Z Ran 490 tests in 18.457s",
+          "2026-11-16T19:00:24.6556116Z OK",
+          "2026-11-16T19:00:24.7179211Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+        ],
+        "checkout": [
+          "2026-11-16T18:59:42.9948256Z ##[group]Checking out the ref",
+          "2026-11-16T18:59:43.0244275Z HEAD is now at 8900f47 Merge e84bb9649ac4ab169443c2b000c7f2c31fbceb37 into d23aafa6a190ff69d951730dd39566ed3e33f7a0",
+          "2026-11-16T18:59:43.0294204Z [command]/usr/bin/git log -1 --format=%H"
+        ]
+      }
+    },
+    {
+      "id": 133535755769,
+      "name": "offline (windows-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m tests.offline",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Isolated personal configuration permits network",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        }
+      ],
+      "log": {
+        "id": 133535755769,
+        "summary": [
+          "2026-11-16T19:01:06.5020509Z Ran 490 tests in 85.209s\r",
+          "2026-11-16T19:01:06.5020722Z OK\r",
+          "2026-11-16T19:02:28.7849680Z Ran 490 tests in 80.989s\r",
+          "2026-11-16T19:02:28.7849874Z OK\r",
+          "2026-11-16T19:02:28.9047745Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged.\r"
+        ],
+        "checkout": [
+          "2026-11-16T18:59:38.1802704Z ##[group]Checking out the ref\r",
+          "2026-11-16T18:59:38.3036281Z HEAD is now at 8900f47 Merge e84bb9649ac4ab169443c2b000c7f2c31fbceb37 into d23aafa6a190ff69d951730dd39566ed3e33f7a0\r"
+        ]
+      }
+    }
+  ]
+}
