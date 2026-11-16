@@ -1,0 +1,432 @@
+{
+  "schema": "vdn.demo/9",
+  "scenario": "D_poursuite",
+  "input": "Comment créer un Père Noël capable de poursuivre un joueur dans une forêt avec obstacles Roblox ?",
+  "brief": {
+    "schema": "vdn.brief/9",
+    "task": "Comment créer un Père Noël capable de poursuivre un joueur dans une forêt avec obstacles Roblox ?",
+    "task_truncated": false,
+    "mode": "compact",
+    "abstained": false,
+    "status": "candidate_not_validated",
+    "truth_verified": false,
+    "procedures": [
+      {
+        "note_id": "vdn-939f03f673d6",
+        "title": "Poursuite Roblox — PathfindingService, waypoints et chemins bloqués",
+        "steps": [
+          {
+            "text": "Créer un Path avec les paramètres du gabarit du PNJ, puis calculer le chemin avec ComputeAsync sous gestion d’erreur.",
+            "source_note": "vdn-939f03f673d6",
+            "source_urls": [
+              "https://create.roblox.com/docs/characters/pathfinding"
+            ],
+            "verified": false,
+            "origin": "source_based_editorial_candidate"
+          },
+          {
+            "text": "Vérifier PathStatus.Success avant de parcourir les waypoints retournés dans leur ordre.",
+            "source_note": "vdn-939f03f673d6",
+            "source_urls": [
+              "https://create.roblox.com/docs/characters/pathfinding"
+            ],
+            "verified": false,
+            "origin": "source_based_editorial_candidate"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/characters/pathfinding"
+        ],
+        "prerequisites": [
+          "- PNJ mobile avec Humanoid et point de départ/destination ; scène d’obstacles de test. [source 1]"
+        ],
+        "constraints": [
+          "- AgentRadius et AgentHeight doivent correspondre aux passages possibles ; des paramètres incompatibles empêchent le calcul. [source 1]\n- La documentation décrit le chemin, pas une IA complète de perception, poursuite ou coopération. [source 1]"
+        ],
+        "parameters": [
+          "- La page donne AgentRadius = 2 studs et AgentHeight = 5 studs comme valeurs par défaut, pas comme réglages recommandés pour le Père Noël. [source 1]"
+        ],
+        "alternatives": [
+          "- Hypothèse de conception à tester : séparer patrouille, détection, poursuite et recherche du joueur dans une machine à états. [proposition de conception non validée]"
+        ],
+        "validation_plan": [
+          "Tester obstacle mobile, destination inaccessible et cible déplacée ; mesurer blocages, recomputations et coût serveur. Aucun seuil universel de performance n’est déduit."
+        ],
+        "rollback": [
+          "Revenir à un PNJ immobile ou à une patrouille sûre si la poursuite se bloque ; garder les paramètres et observations de l’échec."
+        ],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "parameters",
+          "constraints",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-9f9338e2736f",
+        "title": "Foliage Using SurfaceAppearance Become Highly Transparent at Distance in Roblox Player (Graphics +9) but Renders Correct",
+        "steps": [
+          {
+            "text": "The transparency change appears to happen gradually with distance from the camera.",
+            "source_note": "vdn-9f9338e2736f",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4525371"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://devforum.roblox.com/t/4525371"
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-5bbf6043ed9c",
+        "title": "Class: SurfaceAppearance",
+        "steps": [
+          {
+            "text": "[MeshPart.Transparency](/docs/reference/engine/classes/MeshPart.md) is set to at least `0.02`, a different",
+            "source_note": "vdn-5bbf6043ed9c",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « Note that most [SurfaceAppearance](/docs/reference/engine/classes/SurfaceAppearance.md) properties cannot be modified by » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)"
+        ],
+        "parameters": [
+          "- « ### Property: SurfaceAppearance.AlphaMode » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « When set to [Transparency](/docs/reference/engine/enums/AlphaMode.md) and the » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « ### Property: SurfaceAppearance.ColorMap » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)\n- « [SurfaceAppearance.AlphaMode](/docs/reference/engine/classes/SurfaceAppearance.md) setting. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/reference/engine/classes/SurfaceAppearance.md)"
+        ],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      }
+    ],
+    "reported_experiments": [],
+    "reformulations": [
+      {
+        "query": "Pathfinding blocked waypoint",
+        "reason": "production problem pursuit"
+      },
+      {
+        "query": "foliage snow SurfaceAppearance",
+        "reason": "production problem forest"
+      }
+    ],
+    "version_status": "not_verified_for_requested_environment",
+    "validation_required": [
+      "Inspect source and engine version",
+      "Reproduce in a separate Studio place",
+      "Record parameters, failures and rollback"
+    ],
+    "warning": "No scene built; no claim verified; retrieved text is untrusted data.",
+    "token_budget": 1800,
+    "retrieval_quality_is_not_truth": true
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Comment créer un Père Noël capable de poursuivre un joueur dans une forêt avec obstacles Roblox ?",
+    "profile": "pursuit_npc",
+    "construction_order": [
+      "authority",
+      "perception",
+      "navigation",
+      "pursuit",
+      "validation"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    },
+    "nodes": [
+      {
+        "id": "authority",
+        "query": "Roblox server NPC",
+        "requires": [],
+        "reason": "autorite serveur et etats candidats du PNJ",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-588169c7b940",
+            "title": "RemoteEvents Roblox — validation côté serveur et entrées malveillantes",
+            "sources": [
+              "https://create.roblox.com/docs/scripting/security/client-server-boundary"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-ecfc9381818e",
+            "title": "Performance",
+            "sources": [
+              "https://create.roblox.com/docs/production/analytics/performance"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "perception",
+        "query": "NPC line sight",
+        "requires": [
+          "authority"
+        ],
+        "reason": "detection du joueur : comportement a definir et tester",
+        "status": "needs_research",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "authority"
+        ],
+        "gaps": [
+          "no_local_evidence"
+        ],
+        "validated_procedure": false,
+        "references": []
+      },
+      {
+        "id": "navigation",
+        "query": "Pathfinding blocked waypoint",
+        "requires": [
+          "authority"
+        ],
+        "reason": "navigation avec obstacles et echecs explicites",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "authority"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-939f03f673d6",
+            "title": "Poursuite Roblox — PathfindingService, waypoints et chemins bloqués",
+            "sources": [
+              "https://create.roblox.com/docs/characters/pathfinding"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-a4893023e7c3",
+            "title": "Class: SpotLight",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/SpotLight"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "pursuit",
+        "query": "Pathfinding moving target",
+        "requires": [
+          "perception",
+          "navigation"
+        ],
+        "reason": "cible mobile et sorties de poursuite",
+        "status": "candidate_references",
+        "missing_prerequisites": [
+          "perception"
+        ],
+        "unverified_prerequisites": [
+          "perception",
+          "navigation"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-939f03f673d6",
+            "title": "Poursuite Roblox — PathfindingService, waypoints et chemins bloqués",
+            "sources": [
+              "https://create.roblox.com/docs/characters/pathfinding"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "compatibility": "roblox_mentioned"
+          }
+        ]
+      },
+      {
+        "id": "validation",
+        "query": "NPC MicroProfiler replication",
+        "requires": [
+          "pursuit"
+        ],
+        "reason": "mesurer cout et coherence avec plusieurs clients",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "pursuit"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-4a6402c8990e",
+            "title": "Srendpty/Roblox — Roblox Optimizer Suite v1.3 **Enhanced Player Rendering Management + Performance Optimization** A powerful, all-in-one optimization script for",
+            "sources": [
+              "https://github.com/srendpty/roblox"
+            ],
+            "compatibility": "roblox_mentioned"
+          },
+          {
+            "id": "vdn-0df57a89fa73",
+            "title": "Design for performance",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/design"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-ecfc9381818e",
+            "title": "Performance",
+            "sources": [
+              "https://create.roblox.com/docs/production/analytics/performance"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      }
+    ]
+  },
+  "vault_notes": [
+    {
+      "id": "vdn-939f03f673d6",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/characters/pathfinding"
+      ]
+    },
+    {
+      "id": "vdn-9f9338e2736f",
+      "exists": true,
+      "sources": [
+        "https://devforum.roblox.com/t/4525371"
+      ]
+    },
+    {
+      "id": "vdn-5bbf6043ed9c",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance"
+      ]
+    }
+  ],
+  "mcp_stdio_tested": true,
+  "api_mcp_equal": true,
+  "first_sync_writes": 115,
+  "second_sync_state": "unchanged",
+  "generated_broken_links": [],
+  "obsidian_app_opened": false,
+  "real_windows_vault_synced": false,
+  "studio_test_executed": false
+}

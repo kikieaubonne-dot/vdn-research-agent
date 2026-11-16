@@ -1,5 +1,24 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V9 — connaissances de production et coffre Obsidian sûr
+
+V9 conserve V8 et ajoute inventaire des lacunes, quatre candidates officielles
+Roblox, collecte ponctuelle bornée, export incrémental avec conflits/reprise et
+briefing compact. Aucune tâche récurrente ni exécution graphique n'est activée.
+
+```sh
+python -m agent.v9 gaps
+python -m agent.v9 brief "Comment poursuivre un joueur parmi des obstacles Roblox ?"
+python -m agent.v9 sync --destination /chemin/separe/VDN-Obsidian
+# Simulation par défaut ; vérifier le chemin et les conflits avant --apply.
+python vdn_mcp.py --v9
+```
+
+Ouvrir `DESTINATION/knowledge` comme coffre. Les outils MCP V8 restent disponibles.
+[Rapport V9](docs/V9_REPORT.md) · [Obsidian](docs/V9_OBSIDIAN.md) ·
+[Windows](docs/V9_WINDOWS.md) · [Démonstrations](docs/V9_DEMOS.md) ·
+[Mesures comparées](docs/V9_RAG_REPORT.md)
+
 ## V8 — moteur local de connaissances pour Claude
 
 V8 réutilise les fiches et le SQLite existants : recherche FR/EN, lecture complète,

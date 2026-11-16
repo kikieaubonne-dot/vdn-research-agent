@@ -1,0 +1,48 @@
+{
+  "schema": "vdn.enrichment/9",
+  "http_calls_recorded": 6,
+  "items": [
+    {
+      "task": "saves",
+      "action": "created",
+      "id": "vdn-ac07d1c0fed7",
+      "path": "knowledge/roblox/ac07d1c0fed7-sauvegardes-roblox-datastore-updateasync-et-erreur.md",
+      "status": "candidat",
+      "sources": [
+        "https://create.roblox.com/docs/cloud-services/data-stores",
+        "https://create.roblox.com/docs/reference/engine/classes/DataStore"
+      ]
+    },
+    {
+      "task": "security",
+      "action": "created",
+      "id": "vdn-588169c7b940",
+      "path": "knowledge/roblox/588169c7b940-remoteevents-roblox-validation-cote-serveur-et-ent.md",
+      "status": "candidat",
+      "sources": [
+        "https://create.roblox.com/docs/scripting/security/client-server-boundary"
+      ]
+    },
+    {
+      "task": "pursuit",
+      "action": "created",
+      "id": "vdn-939f03f673d6",
+      "path": "knowledge/gameplay/939f03f673d6-poursuite-roblox-pathfindingservice-waypoints-et-c.md",
+      "status": "candidat",
+      "sources": [
+        "https://create.roblox.com/docs/characters/pathfinding"
+      ]
+    },
+    {
+      "task": "accessories",
+      "action": "created",
+      "id": "vdn-4782fa1e3cf5",
+      "path": "knowledge/animation/4782fa1e3cf5-accessoires-rigides-roblox-bonnet-sacoche-maillage.md",
+      "status": "candidat",
+      "sources": [
+        "https://create.roblox.com/docs/avatar/rigid-accessories"
+      ]
+    }
+  ],
+  "verification": "source_based_candidates_not_tested"
+}

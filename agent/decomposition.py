@@ -17,11 +17,12 @@ def describe(root: Path, question: str) -> dict:
     words = set(re.findall(r'[a-z0-9]+', fold(question)))
     profile = next((p for p in profiles if words & set(p['triggers'])), None)
     nodes = profile['nodes'] if profile and len(words) >= 6 else []
-    seen = set()
-    for node in nodes:
-        if node['id'] in seen or any(d not in seen for d in node.get('requires', [])):
-            raise ValueError('profil invalide : prerequis cycliques ou inconnus')
-        seen.add(node['id'])
+    for candidate in profiles:
+        seen = set()
+        for node in candidate['nodes']:
+            if node['id'] in seen or any(d not in seen for d in node.get('requires', [])):
+                raise ValueError('profil invalide : prerequis cycliques ou inconnus')
+            seen.add(node['id'])
     return {'profile': profile['id'] if nodes else None, 'nodes': nodes}
 
 

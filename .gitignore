@@ -17,5 +17,7 @@ output/vdn.guard
 
 # V8: local, unverified experiment reports are user data, never source code.
 experiments/
+output/cache/factory_v9/
+output/knowledge.corrupt-*.db*
 # Parametres personnels Obsidian (locaux, jamais publies)
 knowledge/.obsidian/

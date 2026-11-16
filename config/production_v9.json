@@ -1,0 +1,135 @@
+{
+  "project": "Le Voisin de Noël",
+  "target_date": "2026-11-30",
+  "fallback_date": "2026-12-05",
+  "_comment": "Priorités de production, distinctes des priorités d'ingénierie et des scores de vérité. Aucune probabilité d'utilité inventée.",
+  "tasks": [
+    {
+      "id": "saves",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "DataStore UpdateAsync retry",
+      "anchors": [
+        "datastore",
+        "updateasync"
+      ],
+      "need": "Sauvegardes et progression fiables",
+      "validation": "Dans un lieu de test, provoquer une erreur de sauvegarde puis vérifier reprise, ancienne valeur et absence de perte.",
+      "problem_terms": [
+        "sauvegard",
+        "persist",
+        "datastore"
+      ]
+    },
+    {
+      "id": "security",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "RemoteEvent server validation",
+      "anchors": [
+        "remoteevent",
+        "remote",
+        "server"
+      ],
+      "need": "Autorité serveur et entrées client non fiables",
+      "validation": "Envoyer des arguments invalides, hors distance et répétés ; vérifier le refus côté serveur sans effet sur la progression.",
+      "problem_terms": [
+        "remoteevent",
+        "securite",
+        "security"
+      ]
+    },
+    {
+      "id": "collision",
+      "priority": 0,
+      "impact": "blocking",
+      "query": "MeshPart collision performance",
+      "anchors": [
+        "collision",
+        "collisionfidelity"
+      ],
+      "need": "Parcours, collisions et performances",
+      "validation": "Parcourir la forêt avec le contrôleur réel ; tester les blocages et mesurer les coûts sur les appareils cibles.",
+      "problem_terms": [
+        "collision",
+        "collider"
+      ]
+    },
+    {
+      "id": "pursuit",
+      "priority": 1,
+      "impact": "high",
+      "query": "Pathfinding blocked waypoint",
+      "anchors": [
+        "pathfinding",
+        "waypoint",
+        "path"
+      ],
+      "need": "Poursuite du Père Noël parmi les obstacles",
+      "validation": "Scène de test avec obstacle mobile, cible déplacée et chemin impossible ; mesurer recomputations, blocages et coût serveur.",
+      "problem_terms": [
+        "poursui",
+        "poursuiv",
+        "patrouil",
+        "pathfinding",
+        "chase"
+      ]
+    },
+    {
+      "id": "rigging",
+      "priority": 2,
+      "impact": "high",
+      "query": "custom rig bone import",
+      "anchors": [
+        "rig",
+        "bone",
+        "armature"
+      ],
+      "need": "Rigging et animation des personnages",
+      "validation": "Comparer pose de repos, attachments et animation après import dans Studio et Player.",
+      "problem_terms": [
+        "squelette",
+        "rigging",
+        "armature",
+        "bone"
+      ]
+    },
+    {
+      "id": "forest",
+      "priority": 3,
+      "impact": "visual",
+      "query": "foliage snow SurfaceAppearance",
+      "anchors": [
+        "foliage",
+        "snow",
+        "surfaceappearance"
+      ],
+      "need": "Forêt et finition graphique",
+      "validation": "Comparer jour/nuit, lampe torche, distance et performance sur appareils cibles.",
+      "problem_terms": [
+        "foret",
+        "forest",
+        "sapin",
+        "foliage"
+      ]
+    },
+    {
+      "id": "accessories",
+      "priority": 4,
+      "impact": "secondary",
+      "query": "rigid accessory attachment",
+      "anchors": [
+        "accessory",
+        "attachment"
+      ],
+      "need": "Sacoche, bonnet et personnalisation future",
+      "validation": "Vérifier attache, déformations, collisions et réplication avec deux clients ; ne pas retarder le gameplay principal.",
+      "problem_terms": [
+        "accessor",
+        "sacoche",
+        "bonnet",
+        "backpack"
+      ]
+    }
+  ]
+}

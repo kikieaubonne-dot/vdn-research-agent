@@ -1,0 +1,41 @@
+{
+  "http_calls": 6,
+  "sources": [
+    {
+      "url": "https://create.roblox.com/docs/en-us/reference/engine/classes/DataStore.md",
+      "status": "read",
+      "chars": 18083,
+      "sha256": "4952919fa12bc2114b06fc359562f80d7a593c2fa0052e6c9b5bb19f3f122335",
+      "read_saved_at_utc": "2026-11-16T00:38:34.372272+00:00"
+    },
+    {
+      "url": "https://create.roblox.com/docs/en-us/scripting/security/client-server-boundary.md",
+      "status": "read",
+      "chars": 23985,
+      "sha256": "3649cab587c9ebf6685773eb801656f6d037b7fea220f60aeff33a468e6cc5d9",
+      "read_saved_at_utc": "2026-11-16T00:38:36.657468+00:00"
+    },
+    {
+      "url": "https://create.roblox.com/docs/en-us/characters/pathfinding.md",
+      "status": "read",
+      "chars": 22262,
+      "sha256": "4ac36ed92a5fad3f626bf1ee3a8840fb71b9f7a8cca4e46512e1c9fe02563eb0",
+      "read_saved_at_utc": "2026-11-16T00:38:38.701168+00:00"
+    },
+    {
+      "url": "https://create.roblox.com/docs/en-us/avatar/rigid-accessories.md",
+      "status": "read",
+      "chars": 6852,
+      "sha256": "26c7264ca2ce33ebe7a7a26e0c6d943d06d75d9d68e6a6257fd43d5479f2866c",
+      "read_saved_at_utc": "2026-11-16T00:38:40.902531+00:00"
+    },
+    {
+      "url": "https://create.roblox.com/docs/en-us/cloud-services/data-stores.md",
+      "status": "read",
+      "chars": 15511,
+      "sha256": "48b11e1a3779490e033bc4797821d3b37cd814e02192021e95379222b5282822",
+      "read_saved_at_utc": "2026-11-16T00:40:12.629445+00:00"
+    }
+  ],
+  "raw_cache_committed": false
+}

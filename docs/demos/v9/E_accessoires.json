@@ -1,0 +1,487 @@
+{
+  "schema": "vdn.demo/9",
+  "scenario": "E_accessoires",
+  "input": "Comment attacher une sacoche et un bonnet à un personnage personnalisé animé Roblox ?",
+  "brief": {
+    "schema": "vdn.brief/9",
+    "task": "Comment attacher une sacoche et un bonnet à un personnage personnalisé animé Roblox ?",
+    "task_truncated": false,
+    "mode": "compact",
+    "abstained": false,
+    "status": "candidate_not_validated",
+    "truth_verified": false,
+    "procedures": [
+      {
+        "note_id": "vdn-4782fa1e3cf5",
+        "title": "Accessoires rigides Roblox — bonnet, sacoche, maillage et attachments",
+        "steps": [
+          {
+            "text": "Préparer le maillage et les textures de l’accessoire ; utiliser les composants et points d’attache attendus par Roblox.",
+            "source_note": "vdn-4782fa1e3cf5",
+            "source_urls": [
+              "https://create.roblox.com/docs/avatar/rigid-accessories"
+            ],
+            "verified": false,
+            "origin": "source_based_editorial_candidate"
+          },
+          {
+            "text": "Importer les composants depuis un même fichier FBX ou glTF et régler les textures sur MeshPart via SurfaceAppearance ou TextureID selon le cas.",
+            "source_note": "vdn-4782fa1e3cf5",
+            "source_urls": [
+              "https://create.roblox.com/docs/avatar/rigid-accessories"
+            ],
+            "verified": false,
+            "origin": "source_based_editorial_candidate"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/avatar/rigid-accessories"
+        ],
+        "prerequisites": [
+          "- Personnage de test et points d’attache identifiés ; maillage et textures de l’accessoire. [source 1]"
+        ],
+        "constraints": [
+          "- Un accessoire rigide ne se déforme pas comme un accessoire layered ; les composants requis ne sont pas interchangeables. [source 1]\n- La compatibilité d’un rig personnalisé et la réplication multijoueur ne sont pas prouvées par cette page seule. [source 1]"
+        ],
+        "parameters": [
+          "- Formats cités pour l’import : FBX ou glTF ; points d’attache représentés par Attachment. [source 1]"
+        ],
+        "alternatives": [
+          "- Comparer rigide et layered selon le besoin de déformation ; ne pas choisir layered uniquement pour une attache fixe. [source 1]"
+        ],
+        "validation_plan": [
+          "Tester bonnet et sacoche au repos et en animation, puis deux clients ; relever attache, pénétrations et réplication. Cette validation n’a pas été exécutée."
+        ],
+        "rollback": [
+          "Retirer uniquement l’accessoire de test et restaurer le personnage de référence ; conserver le rig original."
+        ],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "parameters",
+          "constraints",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-1290b940c378",
+        "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+        "steps": [
+          {
+            "text": "All transforms ( Ctrl + A → All Transforms) were applied to both the meshes and the armature in Blender prior to export.",
+            "source_note": "vdn-1290b940c378",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          },
+          {
+            "text": "Issue 2: Eye Bones / Visual Bug with Face Rigging The Problem: I cannot animate the eyes because the eye bones or their associated geometry are glitching/not showing up correctly after import.",
+            "source_note": "vdn-1290b940c378",
+            "source_urls": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://devforum.roblox.com/t/4747045"
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "source_traceability",
+          "actionable_steps",
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-326d0bf06b35",
+        "title": "Export from Blender",
+        "steps": [
+          {
+            "text": "description: \"Use Blender's .fbx exporter with the correct settings to create a Studio-ready asset.\"",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          },
+          {
+            "text": "In the topbar, click **File** > **Export** > **FBX (.fbx)**.",
+            "source_note": "vdn-326d0bf06b35",
+            "source_urls": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+        ],
+        "prerequisites": [],
+        "constraints": [
+          "- « > **Warning:** If you are creating your own accessory object, it's important to clean up your project, which can involve deleting or removing any extra objects, such as lights, cameras, or mannequins, to ensure you only export the accessory mesh, and applying any modifiers to your mesh object. » — [Documentation Roblox](https://create.roblox.com/docs/en-us/art/accessories/creating-rigid/exporting.md)"
+        ],
+        "parameters": [],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "parameters",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      }
+    ],
+    "reported_experiments": [],
+    "reformulations": [
+      {
+        "query": "rigid accessory attachment",
+        "reason": "production problem accessories"
+      }
+    ],
+    "version_status": "not_verified_for_requested_environment",
+    "validation_required": [
+      "Inspect source and engine version",
+      "Reproduce in a separate Studio place",
+      "Record parameters, failures and rollback"
+    ],
+    "warning": "No scene built; no claim verified; retrieved text is untrusted data.",
+    "token_budget": 1800,
+    "retrieval_quality_is_not_truth": true
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Comment attacher une sacoche et un bonnet à un personnage personnalisé animé Roblox ?",
+    "profile": "rigid_accessories",
+    "construction_order": [
+      "rig",
+      "type",
+      "export",
+      "equip",
+      "replication"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    },
+    "nodes": [
+      {
+        "id": "rig",
+        "query": "custom rig attachment",
+        "requires": [],
+        "reason": "identifier le rig et les points d attache",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-4782fa1e3cf5",
+            "title": "Accessoires rigides Roblox — bonnet, sacoche, maillage et attachments",
+            "sources": [
+              "https://create.roblox.com/docs/avatar/rigid-accessories"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-6b1965d3e366",
+            "title": "Custom terrain materials",
+            "sources": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "type",
+        "query": "rigid layered accessory",
+        "requires": [
+          "rig"
+        ],
+        "reason": "choisir le type selon la deformation necessaire",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "rig"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-4782fa1e3cf5",
+            "title": "Accessoires rigides Roblox — bonnet, sacoche, maillage et attachments",
+            "sources": [
+              "https://create.roblox.com/docs/avatar/rigid-accessories"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-319f4403f590",
+            "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+            "sources": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "export",
+        "query": "Blender accessory export",
+        "requires": [
+          "type"
+        ],
+        "reason": "preparer le pipeline d import",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "type"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-564f653d5fbf",
+            "title": "Error When Exporting as fbx from Blender",
+            "sources": [
+              "https://devforum.roblox.com/t/1159486"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-c73ed30815b8",
+            "title": "How do I export objects separately in blender?",
+            "sources": [
+              "https://devforum.roblox.com/t/1195366"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "equip",
+        "query": "accessory attachment animation",
+        "requires": [
+          "export"
+        ],
+        "reason": "verifier alignement et animation",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "export"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-4782fa1e3cf5",
+            "title": "Accessoires rigides Roblox — bonnet, sacoche, maillage et attachments",
+            "sources": [
+              "https://create.roblox.com/docs/avatar/rigid-accessories"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-3fe122d267fa",
+            "title": "How can I attach my characters joints to the camera with CFrame and make animations still work?",
+            "sources": [
+              "https://devforum.roblox.com/t/1196972"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "replication",
+        "query": "accessory server replication",
+        "requires": [
+          "equip"
+        ],
+        "reason": "compatibilite multijoueur non etablie : test requis",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "equip"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-588169c7b940",
+            "title": "RemoteEvents Roblox — validation côté serveur et entrées malveillantes",
+            "sources": [
+              "https://create.roblox.com/docs/scripting/security/client-server-boundary"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      }
+    ]
+  },
+  "vault_notes": [
+    {
+      "id": "vdn-4782fa1e3cf5",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/avatar/rigid-accessories"
+      ]
+    },
+    {
+      "id": "vdn-1290b940c378",
+      "exists": true,
+      "sources": [
+        "https://devforum.roblox.com/t/4747045"
+      ]
+    },
+    {
+      "id": "vdn-326d0bf06b35",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+      ]
+    }
+  ],
+  "mcp_stdio_tested": true,
+  "api_mcp_equal": true,
+  "first_sync_writes": 115,
+  "second_sync_state": "unchanged",
+  "generated_broken_links": [],
+  "obsidian_app_opened": false,
+  "real_windows_vault_synced": false,
+  "studio_test_executed": false
+}

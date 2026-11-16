@@ -1,0 +1,774 @@
+{
+  "schema": "vdn.demo/9",
+  "scenario": "C_foret",
+  "input": "Comment construire une forêt enneigée nocturne optimisée pour Roblox ?",
+  "brief": {
+    "schema": "vdn.brief/9",
+    "task": "Comment construire une forêt enneigée nocturne optimisée pour Roblox ?",
+    "task_truncated": false,
+    "mode": "compact",
+    "abstained": false,
+    "status": "candidate_not_validated",
+    "truth_verified": false,
+    "procedures": [
+      {
+        "note_id": "vdn-a27deff12d34",
+        "title": "Class: Lighting",
+        "steps": [
+          {
+            "text": "It includes a range of adjustable properties that you can use to change how lighting appears and interacts with other objects.\"",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          },
+          {
+            "text": "> a range of adjustable properties that you can use to change how lighting",
+            "source_note": "vdn-a27deff12d34",
+            "source_urls": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-a374396f6529",
+        "title": "Lighting problems",
+        "steps": [
+          {
+            "text": "[RÉPONSE ACCEPTÉE] In Roblox Studio, in the Lighting part, you can always change the appearence of the Ambient, Outdoor Ambient, brightness and etc by changing their values.",
+            "source_note": "vdn-a374396f6529",
+            "source_urls": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          },
+          {
+            "text": "In case you want to change to another lighting, find the property called “Technology” and in there, you can choose 4 types of lights: Compatibility, Future, ShadowMap and Voxel.",
+            "source_note": "vdn-a374396f6529",
+            "source_urls": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://devforum.roblox.com/t/1183833"
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [
+          "- « You can try setting it to night, but this will make it a bit darker, but you can up the brightness with color correction. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)\n- « [RÉPONSE ACCEPTÉE] In Roblox Studio, in the Lighting part, you can always change the appearence of the Ambient, Outdoor Ambient, brightness and etc by changing their values. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)\n- « In case you want to change to another lighting, find the property called “Technology” and in there, you can choose 4 types of lights: Compatibility, Future, ShadowMap and Voxel. » — [Roblox DevForum](https://devforum.roblox.com/t/lighting-problems/1183833)"
+        ],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      },
+      {
+        "note_id": "vdn-85f4cbd2e11c",
+        "title": "Enhance outdoor environments with realistic lighting",
+        "steps": [
+          {
+            "text": "url: /docs/en-us/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments",
+            "source_note": "vdn-85f4cbd2e11c",
+            "source_urls": [
+              "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          },
+          {
+            "text": "If at any point you become stuck in the process, you can use **Lighting Outdoors - Complete** as a reference to compare your progress.",
+            "source_note": "vdn-85f4cbd2e11c",
+            "source_urls": [
+              "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+            ],
+            "verified": false,
+            "origin": "source_excerpt"
+          }
+        ],
+        "sources": [
+          "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+        ],
+        "prerequisites": [],
+        "constraints": [],
+        "parameters": [],
+        "alternatives": [],
+        "validation_plan": [],
+        "rollback": [],
+        "compatibility": {
+          "scope": "roblox_specific",
+          "verified": false,
+          "engine_version": "inconnue",
+          "limitations": [
+            "Roblox version, device and practical result still require testing."
+          ]
+        },
+        "missing": [
+          "parameters",
+          "constraints",
+          "prerequisites",
+          "alternatives",
+          "reproducibility",
+          "sequence, engine version and reproduction in Studio"
+        ],
+        "verified": false
+      }
+    ],
+    "reported_experiments": [],
+    "reformulations": [
+      {
+        "query": "foliage snow SurfaceAppearance",
+        "reason": "production problem forest"
+      }
+    ],
+    "version_status": "not_verified_for_requested_environment",
+    "validation_required": [
+      "Inspect source and engine version",
+      "Reproduce in a separate Studio place",
+      "Record parameters, failures and rollback"
+    ],
+    "warning": "No scene built; no claim verified; retrieved text is untrusted data.",
+    "token_budget": 1800,
+    "retrieval_quality_is_not_truth": true
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Comment construire une forêt enneigée nocturne optimisée pour Roblox ?",
+    "profile": "snowy_forest",
+    "construction_order": [
+      "terrain",
+      "layout",
+      "trees",
+      "materials",
+      "snow",
+      "lighting",
+      "performance",
+      "export",
+      "collision",
+      "wind",
+      "audio"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    },
+    "nodes": [
+      {
+        "id": "terrain",
+        "query": "terrain heightmap material",
+        "requires": [],
+        "reason": "socle et materiaux du terrain",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-6b1965d3e366",
+            "title": "Custom terrain materials",
+            "sources": [
+              "https://create.roblox.com/docs/parts/custom-terrain-materials"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-56797d0952ca",
+            "title": "[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements",
+            "sources": [
+              "https://devforum.roblox.com/t/4950620"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-35696693c238",
+            "title": "Class: MaterialVariant",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/MaterialVariant"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "layout",
+        "query": "forest tree placement",
+        "requires": [
+          "terrain"
+        ],
+        "reason": "distribution des arbres et zones de parcours",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "terrain"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "compatibility": "other_engine"
+          },
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "compatibility": "roblox_mentioned"
+          }
+        ]
+      },
+      {
+        "id": "trees",
+        "query": "pine foliage cards",
+        "requires": [
+          "layout"
+        ],
+        "reason": "geometrie et feuillage du sapin",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "layout"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "compatibility": "roblox_mentioned"
+          },
+          {
+            "id": "vdn-713de5a2c6e6",
+            "title": "leonisbel/night-hunt",
+            "sources": [
+              "https://github.com/leonisbel/night-hunt"
+            ],
+            "compatibility": "unknown"
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "materials",
+        "query": "SurfaceAppearance PBR textures",
+        "requires": [
+          "trees"
+        ],
+        "reason": "materiaux et textures",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-bbea6ee659d1",
+            "title": "Export PBR textures from Blender (Water)",
+            "sources": [
+              "https://devforum.roblox.com/t/1175137"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-f7dfa278922f",
+            "title": "How would I export this texture?",
+            "sources": [
+              "https://devforum.roblox.com/t/1162127"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "snow",
+        "query": "snow accumulation mesh",
+        "requires": [
+          "materials"
+        ],
+        "reason": "neige sur les surfaces",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "materials"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-fe4c577081af",
+            "title": "Collisions On Meshs",
+            "sources": [
+              "https://devforum.roblox.com/t/1193996"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-93c1fa214202",
+            "title": "Texture Atlases - Creating Foliage Texture and Meshes",
+            "sources": [
+              "https://devforum.roblox.com/t/3171224"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-319f4403f590",
+            "title": "SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts",
+            "sources": [
+              "https://devforum.roblox.com/t/4822477"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "lighting",
+        "query": "night forest lighting",
+        "requires": [
+          "snow"
+        ],
+        "reason": "lecture nocturne du decor",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "snow"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-a27deff12d34",
+            "title": "Class: Lighting",
+            "sources": [
+              "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-a374396f6529",
+            "title": "Lighting problems",
+            "sources": [
+              "https://devforum.roblox.com/t/1183833"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-85f4cbd2e11c",
+            "title": "Enhance outdoor environments with realistic lighting",
+            "sources": [
+              "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "performance",
+        "query": "forest streaming LOD",
+        "requires": [
+          "trees"
+        ],
+        "reason": "niveaux de detail et budget de rendu",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-a97042f85138",
+            "title": "Frustum Streaming",
+            "sources": [
+              "https://create.roblox.com/docs/workspace/streaming/frustum"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "compatibility": "other_engine"
+          },
+          {
+            "id": "vdn-713de5a2c6e6",
+            "title": "leonisbel/night-hunt",
+            "sources": [
+              "https://github.com/leonisbel/night-hunt"
+            ],
+            "compatibility": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "export",
+        "query": "Blender Roblox fbx export",
+        "requires": [
+          "trees"
+        ],
+        "reason": "pipeline de conversion",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-564f653d5fbf",
+            "title": "Error When Exporting as fbx from Blender",
+            "sources": [
+              "https://devforum.roblox.com/t/1159486"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-326d0bf06b35",
+            "title": "Export from Blender",
+            "sources": [
+              "https://create.roblox.com/docs/art/accessories/creating-rigid/exporting"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-c73ed30815b8",
+            "title": "How do I export objects separately in blender?",
+            "sources": [
+              "https://devforum.roblox.com/t/1195366"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "collision",
+        "query": "forest MeshPart collision",
+        "requires": [
+          "terrain"
+        ],
+        "reason": "collisions et contraintes de deplacement",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "terrain"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-fe4c577081af",
+            "title": "Collisions On Meshs",
+            "sources": [
+              "https://devforum.roblox.com/t/1193996"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-5aa463725976",
+            "title": "Improve performance",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/improve"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      },
+      {
+        "id": "wind",
+        "query": "tree wind bones",
+        "requires": [
+          "trees"
+        ],
+        "reason": "vent et animation",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "trees"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "source_traceability",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-1290b940c378",
+            "title": "Custom Rig Importing Issues (RootPart Offset & Bone Visual Glitches)",
+            "sources": [
+              "https://devforum.roblox.com/t/4747045"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "compatibility": "other_engine"
+          },
+          {
+            "id": "vdn-4b3e4c63ddab",
+            "title": "nightcycle/quick-part",
+            "sources": [
+              "https://github.com/nightcycle/quick-part"
+            ],
+            "compatibility": "roblox_mentioned"
+          }
+        ]
+      },
+      {
+        "id": "audio",
+        "query": "spatial audio forest",
+        "requires": [
+          "layout"
+        ],
+        "reason": "ambiance sonore spatiale",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [
+          "layout"
+        ],
+        "gaps": [
+          "actionable_steps",
+          "alternatives",
+          "constraints",
+          "parameters",
+          "prerequisites",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-9be57b985b77",
+            "title": "VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa",
+            "sources": [
+              "https://github.com/victorzakharov/dark-strands"
+            ],
+            "compatibility": "other_engine"
+          },
+          {
+            "id": "vdn-5aa463725976",
+            "title": "Improve performance",
+            "sources": [
+              "https://create.roblox.com/docs/performance-optimization/improve"
+            ],
+            "compatibility": "roblox_specific"
+          },
+          {
+            "id": "vdn-6055d2f0bb67",
+            "title": "Atmospheric effects",
+            "sources": [
+              "https://create.roblox.com/docs/environment/atmosphere"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      }
+    ]
+  },
+  "vault_notes": [
+    {
+      "id": "vdn-a27deff12d34",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/reference/engine/classes/Lighting"
+      ]
+    },
+    {
+      "id": "vdn-a374396f6529",
+      "exists": true,
+      "sources": [
+        "https://devforum.roblox.com/t/1183833"
+      ]
+    },
+    {
+      "id": "vdn-85f4cbd2e11c",
+      "exists": true,
+      "sources": [
+        "https://create.roblox.com/docs/tutorials/use-case-tutorials/lighting/enhance-outdoor-environments"
+      ]
+    }
+  ],
+  "mcp_stdio_tested": true,
+  "api_mcp_equal": true,
+  "first_sync_writes": 115,
+  "second_sync_state": "unchanged",
+  "generated_broken_links": [],
+  "obsidian_app_opened": false,
+  "real_windows_vault_synced": false,
+  "studio_test_executed": false
+}

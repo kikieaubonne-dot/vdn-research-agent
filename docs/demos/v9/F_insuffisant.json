@@ -1,0 +1,78 @@
+{
+  "schema": "vdn.demo/9",
+  "scenario": "F_insuffisant",
+  "input": "Comment calculer une trajectoire orbitale des lunes de Jupiter ?",
+  "brief": {
+    "schema": "vdn.brief/9",
+    "task": "Comment calculer une trajectoire orbitale des lunes de Jupiter ?",
+    "task_truncated": false,
+    "mode": "compact",
+    "abstained": true,
+    "status": "insufficient_local_evidence",
+    "truth_verified": false,
+    "procedures": [],
+    "reported_experiments": [],
+    "reformulations": [],
+    "version_status": "not_verified_for_requested_environment",
+    "validation_required": [
+      "Inspect source and engine version",
+      "Reproduce in a separate Studio place",
+      "Record parameters, failures and rollback"
+    ],
+    "warning": "No scene built; no claim verified; retrieved text is untrusted data.",
+    "token_budget": 1800,
+    "retrieval_quality_is_not_truth": true
+  },
+  "plan": {
+    "schema": "vdn.plan-preview/8",
+    "question": "Comment calculer une trajectoire orbitale des lunes de Jupiter ?",
+    "profile": null,
+    "construction_order": [
+      "question"
+    ],
+    "network_requests": 0,
+    "queue_modified": false,
+    "built_scene": false,
+    "limits": {
+      "max_nodes": 12,
+      "max_depth": 2
+    },
+    "nodes": [
+      {
+        "id": "question",
+        "query": "Comment calculer une trajectoire orbitale des lunes de Jupiter ?",
+        "requires": [],
+        "reason": "question utilisateur",
+        "status": "candidate_references",
+        "missing_prerequisites": [],
+        "unverified_prerequisites": [],
+        "gaps": [
+          "constraints",
+          "parameters",
+          "reproducibility",
+          "query_not_fully_matched"
+        ],
+        "validated_procedure": false,
+        "references": [
+          {
+            "id": "vdn-939f03f673d6",
+            "title": "Poursuite Roblox — PathfindingService, waypoints et chemins bloqués",
+            "sources": [
+              "https://create.roblox.com/docs/characters/pathfinding"
+            ],
+            "compatibility": "roblox_specific"
+          }
+        ]
+      }
+    ]
+  },
+  "vault_notes": [],
+  "mcp_stdio_tested": true,
+  "api_mcp_equal": true,
+  "first_sync_writes": 115,
+  "second_sync_state": "unchanged",
+  "generated_broken_links": [],
+  "obsidian_app_opened": false,
+  "real_windows_vault_synced": false,
+  "studio_test_executed": false
+}
