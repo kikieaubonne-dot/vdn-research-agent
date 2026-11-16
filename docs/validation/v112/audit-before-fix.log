@@ -1,0 +1,69 @@
+test_brief_preserves_abstention_for_an_unknown_exact_fps (tests.test_v112_regressions.AuditRegressions.test_brief_preserves_abstention_for_an_unknown_exact_fps) ... FAIL
+test_each_secondary_quote_keeps_its_actual_source_url (tests.test_v112_regressions.AuditRegressions.test_each_secondary_quote_keeps_its_actual_source_url) ... FAIL
+test_long_question_must_fit_the_mcp_context_budget (tests.test_v112_regressions.AuditRegressions.test_long_question_must_fit_the_mcp_context_budget) ... FAIL
+test_model_property_must_be_supported_by_the_cited_passage (tests.test_v112_regressions.AuditRegressions.test_model_property_must_be_supported_by_the_cited_passage) ... FAIL
+test_unknown_claim_engine_cannot_hide_an_unreal_source (tests.test_v112_regressions.AuditRegressions.test_unknown_claim_engine_cannot_hide_an_unreal_source) ... FAIL
+
+======================================================================
+FAIL: test_brief_preserves_abstention_for_an_unknown_exact_fps (tests.test_v112_regressions.AuditRegressions.test_brief_preserves_abstention_for_an_unknown_exact_fps)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 37, in test_brief_preserves_abstention_for_an_unknown_exact_fps
+    self.assertTrue(brief['abstained_from_established_facts'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_each_secondary_quote_keeps_its_actual_source_url (tests.test_v112_regressions.AuditRegressions.test_each_secondary_quote_keeps_its_actual_source_url)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 45, in test_each_secondary_quote_keeps_its_actual_source_url
+    self.assertEqual(export['url'],urls[1]);self.assertEqual(export['engine'],'Blender')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'https://create.roblox.com/docs/fixture-collision' != 'https://docs.blender.org/manual/fixture-export'
+- https://create.roblox.com/docs/fixture-collision
++ https://docs.blender.org/manual/fixture-export
+
+
+======================================================================
+FAIL: test_long_question_must_fit_the_mcp_context_budget (tests.test_v112_regressions.AuditRegressions.test_long_question_must_fit_the_mcp_context_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 31, in test_long_question_must_fit_the_mcp_context_budget
+    self.assertLessEqual(len(json.dumps(result,ensure_ascii=False)),1800)
+AssertionError: 2654 not less than or equal to 1800
+
+======================================================================
+FAIL: test_model_property_must_be_supported_by_the_cited_passage (tests.test_v112_regressions.AuditRegressions.test_model_property_must_be_supported_by_the_cited_passage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 22, in test_model_property_must_be_supported_by_the_cited_passage
+    self.assertEqual(result['procedures'],[],'An identifier elsewhere in the bundle cannot support this citation.')
+AssertionError: Lists differ: [{'problem': 'collision', 'why': 'Proposit[303 chars]lse}] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+{'problem': 'collision', 'why': 'Proposition à comparer.', 'conditions': 'Laboratoire isolé.', 'steps': ['Inspecter CanCollide.', 'Consigner le parcours témoin.'], 'passage_ids': ['pass-d48f628bbf75ca30b7c7e0e8'], 'rollback': 'Restaurer les copies.', 'origin': 'model_engineering_proposal', 'status': 'EXPERIMENT_PROPOSAL', 'truth_verified': False}
+
++ []
+- [{'conditions': 'Laboratoire isolé.',
+-   'origin': 'model_engineering_proposal',
+-   'passage_ids': ['pass-d48f628bbf75ca30b7c7e0e8'],
+-   'problem': 'collision',
+-   'rollback': 'Restaurer les copies.',
+-   'status': 'EXPERIMENT_PROPOSAL',
+-   'steps': ['Inspecter CanCollide.', 'Consigner le parcours témoin.'],
+-   'truth_verified': False,
+-   'why': 'Proposition à comparer.'}] : An identifier elsewhere in the bundle cannot support this citation.
+
+======================================================================
+FAIL: test_unknown_claim_engine_cannot_hide_an_unreal_source (tests.test_v112_regressions.AuditRegressions.test_unknown_claim_engine_cannot_hide_an_unreal_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_v112_regressions.py", line 28, in test_unknown_claim_engine_cannot_hide_an_unreal_source
+    self.assertNotEqual(c['support'],'SOURCE_SUPPORTED')
+AssertionError: 'SOURCE_SUPPORTED' == 'SOURCE_SUPPORTED'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.039s
+
+FAILED (failures=5)

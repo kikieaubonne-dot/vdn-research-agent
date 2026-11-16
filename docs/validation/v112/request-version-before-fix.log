@@ -1,0 +1,14 @@
+E
+======================================================================
+ERROR: test_explicit_request_version_is_not_lost_by_query_equivalence (tests.test_project.ProjectTests.test_explicit_request_version_is_not_lost_by_query_equivalence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_project.py", line 98, in test_explicit_request_version_is_not_lost_by_query_equivalence
+    self.assertEqual(result['state'],'CONSTRAINT_CONFLICT')
+                     ~~~~~~^^^^^^^^^
+KeyError: 'state'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.053s
+
+FAILED (errors=1)

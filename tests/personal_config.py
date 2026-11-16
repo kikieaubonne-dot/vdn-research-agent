@@ -18,7 +18,7 @@ def main():
     with tempfile.TemporaryDirectory(prefix='vdn-personal-') as d:
         root=Path(d)/'project';root.mkdir()
         def ignore(folder,names):return [n for n in names if n in ('.git','.env','.obsidian','__pycache__','.venv','lab','cache') or (Path(folder)/n).is_symlink()]
-        for name in ('agent','bench','config','docs','knowledge','output','roblox','scripts','tests','.github'):
+        for name in ('agent','bench','config','project','docs','knowledge','output','roblox','scripts','tests','.github'):
             if (source/name).exists():shutil.copytree(source/name,root/name,ignore=ignore)
         for path in source.iterdir():
             if path.is_file() and not path.is_symlink() and path.suffix in ('.py','.md'):shutil.copyfile(path,root/path.name)

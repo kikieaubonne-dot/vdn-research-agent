@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_created_candidate_does_not_make_project_research_complete (tests.test_project.ProjectTests.test_created_candidate_does_not_make_project_research_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_project.py", line 166, in test_created_candidate_does_not_make_project_research_complete
+    self.assertEqual(result['state'],'PARTIAL')
+AssertionError: 'COMPLETE' != 'PARTIAL'
+- COMPLETE
++ PARTIAL
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.148s
+
+FAILED (failures=1)
