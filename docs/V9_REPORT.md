@@ -2,6 +2,8 @@
 
 Base V8 : `8d83868`, PR #2 au-dessus de V7 #1. Branche V9 :
 `codex/knowledge-factory-v9`. Aucun déploiement, aucune fusion, aucun scheduler ajouté.
+Publication : [PR V9 #3](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/3),
+ouverte vers `codex/knowledge-engine-v8`. Les PR #1 et #2 ne sont pas fusionnées.
 
 ## Ce qui est construit
 
