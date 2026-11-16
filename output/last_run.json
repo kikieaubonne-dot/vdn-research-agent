@@ -1,20 +1,20 @@
 {
-  "started_utc": "2026-11-16T06:33:20+00:00",
+  "started_utc": "2026-11-16T17:04:35+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 9,
+  "returned": 12,
   "fetched": 8,
-  "accepted": 0,
-  "created": 0,
+  "accepted": 2,
+  "created": 2,
   "updated": 0,
-  "duplicates": 0,
-  "rejected": 8,
+  "duplicates": 4,
+  "rejected": 6,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 7,
-    "pas assez de contenu technique": 1,
-    "aucun lien avec Roblox ou la chaîne Blender": 1
+    "hors sujet": 6,
+    "pas assez de contenu technique": 4,
+    "aucun lien avec Roblox ou la chaîne Blender": 4
   },
   "trials_detail": [
     {
@@ -22,24 +22,41 @@
       "topic": "snow",
       "origin": "seed",
       "strategy": "terms",
-      "query": "snow accumulation mesh",
-      "returned": 3,
+      "query": "snow terrain material",
+      "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 3,
+      "duplicates": 4,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.72,
-      "duration_s": 3.58,
-      "reward": 0.088
+      "technical_mean": 0.0,
+      "duration_s": 0.02,
+      "reward": 0.0
     },
     {
       "provider": "devforum",
       "topic": "snow",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "snow accumulation mesh",
+      "strategy": "facet",
+      "query": "snow terrain material bug",
+      "returned": 4,
+      "accepted": 2,
+      "new": 2,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 2,
+      "error": null,
+      "technical_mean": 0.38,
+      "duration_s": 5.27,
+      "reward": 0.352
+    },
+    {
+      "provider": "github",
+      "topic": "snow",
+      "origin": "seed",
+      "strategy": "facet",
+      "query": "snow terrain material bug",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -47,51 +64,43 @@
       "duplicates": 0,
       "offtopic": 4,
       "error": null,
-      "technical_mean": 0.42,
-      "duration_s": 5.41,
+      "technical_mean": 0.04,
+      "duration_s": 8.28,
       "reward": 0.0
-    },
-    {
-      "provider": "github",
-      "topic": "snow",
-      "origin": "seed",
-      "strategy": "synonyms",
-      "query": "snowy accumulation mesh",
-      "returned": 2,
-      "accepted": 0,
-      "new": 0,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 1,
-      "error": null,
-      "technical_mean": 0.72,
-      "duration_s": 2.14,
-      "reward": 0.188
     }
   ],
-  "created_notes": [],
+  "created_notes": [
+    {
+      "id": "vdn-84b0dbab4cb6",
+      "path": "knowledge/snow/84b0dbab4cb6-invisible-terrain-bug.md",
+      "status": "candidat",
+      "topic": "snow",
+      "query": "snow terrain material",
+      "url": "https://devforum.roblox.com/t/1268524"
+    },
+    {
+      "id": "vdn-dc0fb8c0f0a2",
+      "path": "knowledge/snow/dc0fb8c0f0a2-how-to-detect-terrain-material.md",
+      "status": "candidat",
+      "topic": "snow",
+      "query": "snow terrain material",
+      "url": "https://devforum.roblox.com/t/1274032"
+    }
+  ],
   "rejected_candidates": [
     {
       "topical": 0.333,
-      "technical": 1.0,
+      "technical": 0.08,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.08)"
       ]
     },
     {
       "topical": 0.333,
-      "technical": 1.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.16,
+      "technical": 0.2,
       "roblox": true,
       "noise": [],
       "reasons": [
@@ -101,47 +110,44 @@
     {
       "topical": 0.333,
       "technical": 0.0,
-      "roblox": true,
+      "roblox": false,
       "noise": [],
       "reasons": [
         "hors sujet (pertinence 0.333 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
         "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.333,
-      "technical": 0.56,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.48,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.64,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.667,
-      "technical": 0.72,
+      "topical": 0.167,
+      "technical": 0.0,
       "roblox": false,
       "noise": [],
       "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.16,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
         "aucun lien avec Roblox ou la chaîne Blender"
+      ]
+    },
+    {
+      "topical": 0.0,
+      "technical": 0.0,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.0 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
       ]
     }
   ],
@@ -150,5 +156,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-16T06:33:31+00:00"
+  "finished_utc": "2026-11-16T17:04:48+00:00"
 }

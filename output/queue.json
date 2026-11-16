@@ -111,11 +111,23 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T17:04:11+00:00",
+      "result": {
+        "returned": 5,
+        "fetched": 5,
+        "created": 0,
+        "rejected": 5,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794848643.9094415,
+      "finished_ts": 1794848651.8002932
     },
     "484ffbb7bb678639": {
       "key": "484ffbb7bb678639",
@@ -261,11 +273,27 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T17:04:23+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-38cabb39874f"
+        ],
+        "followups": [
+          "large forest performance settings"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794848651.802146,
+      "finished_ts": 1794848663.1460352
     },
     "76d4593c78a99f5f": {
       "key": "76d4593c78a99f5f",
@@ -362,11 +390,28 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-16T17:04:48+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-84b0dbab4cb6",
+          "vdn-dc0fb8c0f0a2"
+        ],
+        "followups": [
+          "snow terrain material tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794848675.3324647,
+      "finished_ts": 1794848688.9053102
     },
     "b194a61a4d147c60": {
       "key": "b194a61a4d147c60",
@@ -1457,11 +1502,25 @@
       "depth": 1,
       "parent": "9d342eeb76b809f1",
       "reason": "API citee par la source : Atmosphere.Haze (vdn-6055d2f0bb67)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:17+00:00",
-      "updated": "2026-11-15T23:24:17+00:00",
-      "result": null
+      "updated": "2026-11-16T17:04:35+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "Atmosphere Haze step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794848663.1480975,
+      "finished_ts": 1794848675.3304386
     },
     "7d80e83e4696cf1a": {
       "key": "7d80e83e4696cf1a",
@@ -1659,11 +1718,56 @@
       "created": "2026-11-16T06:33:31+00:00",
       "updated": "2026-11-16T06:33:31+00:00",
       "result": null
+    },
+    "eb2bf4adc01ce79a": {
+      "key": "eb2bf4adc01ce79a",
+      "topic": "forest",
+      "query": "large forest performance settings",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "c482fcd060522414",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-38cabb39874f)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T17:04:23+00:00",
+      "updated": "2026-11-16T17:04:23+00:00",
+      "result": null
+    },
+    "1c7ecf13490658f1": {
+      "key": "1c7ecf13490658f1",
+      "topic": "lighting",
+      "query": "Atmosphere Haze step by step implementation tutorial code",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "c9b001cca2a23bb2",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T17:04:35+00:00",
+      "updated": "2026-11-16T17:04:35+00:00",
+      "result": null
+    },
+    "a1f1a2c05a21f8ef": {
+      "key": "a1f1a2c05a21f8ef",
+      "topic": "snow",
+      "query": "snow terrain material tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "6ff082c5288b5032",
+      "reason": "lacune : aucune etape exploitable (vdn-84b0dbab4cb6)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-16T17:04:48+00:00",
+      "updated": "2026-11-16T17:04:48+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-16",
-    "items": 4,
-    "fetch": 30
+    "items": 8,
+    "fetch": 59
   }
 }

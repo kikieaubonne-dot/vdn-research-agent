@@ -1,143 +1,161 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-16T06:32:46+00:00",
-  "finished": "2026-11-16T06:33:31+00:00",
+  "started": "2026-11-16T17:04:03+00:00",
+  "finished": "2026-11-16T17:04:48+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "tree leaves texture",
+      "query": "spruce branch atlas",
       "topic": "spruce",
       "depth": 0,
       "origin": "seed",
       "status": "done",
       "created": 0,
-      "rejected": 8,
+      "rejected": 5,
       "duplicates": 0,
-      "fetched": 8,
-      "notes": [],
-      "followups": [
-        {
-          "query": "tree leaves texture step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "spruce"
-        }
-      ]
-    },
-    {
-      "query": "dense forest optimization",
-      "topic": "forest",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 0,
-      "fetched": 8,
+      "fetched": 5,
       "notes": [],
       "followups": []
     },
     {
-      "query": "Atmosphere Density",
+      "query": "large forest performance",
+      "topic": "forest",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-38cabb39874f",
+          "path": "knowledge/forest/38cabb39874f-microprofiler.md",
+          "status": "documente",
+          "topic": "forest",
+          "query": "large forest performance",
+          "url": "https://create.roblox.com/docs/performance-optimization/microprofiler",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "large forest performance settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-38cabb39874f)",
+          "topic": "forest"
+        }
+      ]
+    },
+    {
+      "query": "Atmosphere Haze",
       "topic": "lighting",
       "depth": 1,
       "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 5,
-      "duplicates": 0,
-      "fetched": 6,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 1,
+      "fetched": 8,
+      "notes": [],
+      "followups": [
+        {
+          "query": "Atmosphere Haze step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "lighting"
+        }
+      ]
+    },
+    {
+      "query": "snow terrain material",
+      "topic": "snow",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 4,
+      "fetched": 8,
       "notes": [
         {
-          "id": "vdn-afa9d6ba6850",
-          "path": "knowledge/lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon.md",
+          "id": "vdn-84b0dbab4cb6",
+          "path": "knowledge/snow/84b0dbab4cb6-invisible-terrain-bug.md",
           "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Density",
-          "url": "https://github.com/gleamgriknife/stalker-2-graphics-enhancement",
+          "topic": "snow",
+          "query": "snow terrain material",
+          "url": "https://devforum.roblox.com/t/1268524",
           "missing": [
             "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-dc0fb8c0f0a2",
+          "path": "knowledge/snow/dc0fb8c0f0a2-how-to-detect-terrain-material.md",
+          "status": "candidat",
+          "topic": "snow",
+          "query": "snow terrain material",
+          "url": "https://devforum.roblox.com/t/1274032",
+          "missing": [
             "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "Atmosphere Density tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-afa9d6ba6850)",
-          "topic": "lighting"
-        },
-        {
-          "query": "Atmosphere Density step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "lighting"
-        }
-      ]
-    },
-    {
-      "query": "snow accumulation mesh",
-      "topic": "snow",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 0,
-      "fetched": 8,
-      "notes": [],
-      "followups": [
-        {
-          "query": "snow accumulation mesh Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
+          "query": "snow terrain material tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-84b0dbab4cb6)",
           "topic": "snow"
         }
       ]
     }
   ],
-  "created": 1,
-  "fetched": 30,
-  "rejected": 29,
-  "followups_added": 4,
+  "created": 3,
+  "fetched": 29,
+  "rejected": 26,
+  "followups_added": 3,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 83,
+      "pending": 82,
       "running": 0,
-      "done": 14,
+      "done": 18,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-16",
-      "items": 4,
-      "fetch": 30
+      "items": 8,
+      "fetch": 59
     },
     "next": [
       {
-        "query": "spruce branch atlas",
+        "query": "pine tree mesh optimization",
         "topic": "spruce",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "large forest performance",
+        "query": "Player settings",
         "topic": "forest",
-        "priority": 10.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "Atmosphere Haze",
-        "topic": "lighting",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "snow terrain material",
+        "query": "Atmosphere Density tutorial",
+        "topic": "lighting",
+        "priority": 9.0,
+        "depth": 2,
+        "origin": "relance"
+      },
+      {
+        "query": "snowfall particles",
         "topic": "snow",
         "priority": 9.0,
         "depth": 0,

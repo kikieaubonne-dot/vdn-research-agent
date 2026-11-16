@@ -308,11 +308,11 @@
     "tree foliage cards": 2,
     "night forest lighting": 2,
     "forest atmosphere fog": 2,
-    "snow terrain material": 2,
+    "snow terrain material": 3,
     "snow footprints decal": 1,
     "Future lighting night": 2,
     "flashlight SpotLight shadows": 2,
-    "large forest performance": 1,
+    "large forest performance": 2,
     "flashlight shadows forest": 2,
     "snowfall particles": 1,
     "snow MaterialVariant": 2,
@@ -339,9 +339,11 @@
     "camera bobbing CFrame": 1,
     "tree leaves texture": 1,
     "dense forest optimization": 1,
-    "Atmosphere Density": 1
+    "Atmosphere Density": 1,
+    "spruce branch atlas": 1,
+    "Atmosphere Haze": 1
   },
-  "runs": 23,
+  "runs": 27,
   "errors": [],
   "rotation": 4
 }

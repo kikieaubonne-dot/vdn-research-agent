@@ -379,6 +379,18 @@
   "https://github.com/gleamgriknife/stalker-2-graphics-enhancement": {
    "id": "vdn-afa9d6ba6850",
    "path": "knowledge/lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon.md"
+  },
+  "https://create.roblox.com/docs/performance-optimization/microprofiler": {
+   "id": "vdn-38cabb39874f",
+   "path": "knowledge/forest/38cabb39874f-microprofiler.md"
+  },
+  "https://devforum.roblox.com/t/1268524": {
+   "id": "vdn-84b0dbab4cb6",
+   "path": "knowledge/snow/84b0dbab4cb6-invisible-terrain-bug.md"
+  },
+  "https://devforum.roblox.com/t/1274032": {
+   "id": "vdn-dc0fb8c0f0a2",
+   "path": "knowledge/snow/dc0fb8c0f0a2-how-to-detect-terrain-material.md"
   }
  },
  "fingerprints": {
@@ -818,6 +830,24 @@
   "6ebd5cc5793586c7": "vdn-afa9d6ba6850",
   "4f0dba7509cb0a1b": "vdn-f1d0d3fca07d",
   "d75a07f70a37fa2b": "vdn-f1d0d3fca07d",
-  "fd097732ae164a30": "vdn-f1d0d3fca07d"
+  "fd097732ae164a30": "vdn-f1d0d3fca07d",
+  "1f10b20dd66a9183": "vdn-38cabb39874f",
+  "228601217deca108": "vdn-38cabb39874f",
+  "137b5bd2de2684de": "vdn-38cabb39874f",
+  "ae7018416c5953eb": "vdn-38cabb39874f",
+  "1982003e1cf3e0ae": "vdn-38cabb39874f",
+  "83fe7564ca343763": "vdn-38cabb39874f",
+  "ed381da57a96629a": "vdn-38cabb39874f",
+  "5f10d1402527ccae": "vdn-38cabb39874f",
+  "c1fab427f711f615": "vdn-84b0dbab4cb6",
+  "5fd0b7c21f7f5b04": "vdn-84b0dbab4cb6",
+  "3c3f514c4d3e18fa": "vdn-84b0dbab4cb6",
+  "0872da7f678513a9": "vdn-84b0dbab4cb6",
+  "180ba8a146bb1fb0": "vdn-5631b25517d9",
+  "0f91902e8d164033": "vdn-dc0fb8c0f0a2",
+  "87559321396c7bbb": "vdn-dc0fb8c0f0a2",
+  "3f915342c8246439": "vdn-dc0fb8c0f0a2",
+  "13c1a866621f6b95": "vdn-dc0fb8c0f0a2",
+  "da518fef4627db0d": "vdn-99a165f41c5b"
  }
 }
