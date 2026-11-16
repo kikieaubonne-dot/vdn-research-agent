@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL_SUCCESS",
+  "metrics": {"triangles":null,"materials":null,"textures":null,"asset_bytes":null,"night_readability_rating":null,"artifact_count":null,"frame_time_ms":null},
+  "observations": ["MODÈLE DE SAISIE : remplacer par une observation réelle avant --apply."],
+  "errors": [],
+  "artifacts": [],
+  "limits": ["Aucune mesure réelle fournie dans ce modèle."]
+}

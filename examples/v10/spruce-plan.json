@@ -1,0 +1,129 @@
+{
+  "state": "simulation",
+  "zones": [
+    "Forêt et végétation",
+    "Éclairage",
+    "Matériaux",
+    "Personnages",
+    "Vêtements",
+    "Animations",
+    "Gameplay et IA",
+    "Importation",
+    "Performances"
+  ],
+  "experiments": [
+    {
+      "problem": "Sapin enneigé Roblox : qualité nocturne et coût de rendu",
+      "technique": "Géométrie simplifiée",
+      "hypothesis": "Comparer qualité et coût sous les mêmes conditions, sans supposer une méthode gagnante.",
+      "parameters": {
+        "method": "A",
+        "assets": []
+      },
+      "environment": {},
+      "protocol": {
+        "batch": "snowy-spruce-v10",
+        "zone": "Forêt et végétation",
+        "controls": {
+          "studio_version": null,
+          "device": null,
+          "graphics_quality": null,
+          "resolution": null,
+          "camera": null,
+          "lighting": null,
+          "tree_count": null,
+          "warmup_s": null,
+          "sample_s": null
+        },
+        "procedure": [
+          "Créer un place privé VDN — Laboratoire et définir Workspace.VDNLab=true.",
+          "Créer deux modèles isolés avec la même silhouette et les mêmes dimensions cibles.",
+          "A : tronc, branches et aiguilles en géométrie simplifiée ; B : même tronc avec cartes de feuillage et atlas.",
+          "Exporter des copies distinctes ; consigner versions Blender/Studio, options FBX et identifiants des assets.",
+          "Fixer caméra, lumière nocturne, appareil, qualité et résolution identiques ; documenter tous les contrôles.",
+          "Mesurer chaque méthode seule, après préchauffage, puis répéter trois fois en alternant A/B.",
+          "Compter triangles dans Blender ; mesurer octets des exports locaux ; capturer les mêmes vues de nuit.",
+          "Consigner textures, matériaux, artefacts, MicroProfiler et durée des trames ; conserver captures et journaux."
+        ],
+        "validation": [
+          "Aucun paramètre comparatif inconnu ; trois répétitions documentées et données brutes jointes.",
+          "Comparer silhouette et lisibilité par annotation humaine ; l’échelle 1–5 est subjective.",
+          "Définir les seuils de performance et de qualité pour l’appareil cible avant le test.",
+          "Examiner les différences et limites avant toute recommandation conditionnelle."
+        ],
+        "rollback": "Supprimer les copies du laboratoire ; aucun changement au jeu principal.",
+        "metrics_template": {
+          "triangles": null,
+          "materials": null,
+          "textures": null,
+          "asset_bytes": null,
+          "night_readability_rating": null,
+          "artifact_count": null,
+          "frame_time_ms": null
+        },
+        "not_executed": true
+      },
+      "experiment_id": "9aeaea86-b2ec-5c0d-a7d7-9c8ff8ead522",
+      "id": "9aeaea86-b2ec-5c0d-a7d7-9c8ff8ead522",
+      "status": "PLANNED_PREVIEW"
+    },
+    {
+      "problem": "Sapin enneigé Roblox : qualité nocturne et coût de rendu",
+      "technique": "Cartes de feuillage",
+      "hypothesis": "Comparer qualité et coût sous les mêmes conditions, sans supposer une méthode gagnante.",
+      "parameters": {
+        "method": "B",
+        "assets": []
+      },
+      "environment": {},
+      "protocol": {
+        "batch": "snowy-spruce-v10",
+        "zone": "Forêt et végétation",
+        "controls": {
+          "studio_version": null,
+          "device": null,
+          "graphics_quality": null,
+          "resolution": null,
+          "camera": null,
+          "lighting": null,
+          "tree_count": null,
+          "warmup_s": null,
+          "sample_s": null
+        },
+        "procedure": [
+          "Créer un place privé VDN — Laboratoire et définir Workspace.VDNLab=true.",
+          "Créer deux modèles isolés avec la même silhouette et les mêmes dimensions cibles.",
+          "A : tronc, branches et aiguilles en géométrie simplifiée ; B : même tronc avec cartes de feuillage et atlas.",
+          "Exporter des copies distinctes ; consigner versions Blender/Studio, options FBX et identifiants des assets.",
+          "Fixer caméra, lumière nocturne, appareil, qualité et résolution identiques ; documenter tous les contrôles.",
+          "Mesurer chaque méthode seule, après préchauffage, puis répéter trois fois en alternant A/B.",
+          "Compter triangles dans Blender ; mesurer octets des exports locaux ; capturer les mêmes vues de nuit.",
+          "Consigner textures, matériaux, artefacts, MicroProfiler et durée des trames ; conserver captures et journaux."
+        ],
+        "validation": [
+          "Aucun paramètre comparatif inconnu ; trois répétitions documentées et données brutes jointes.",
+          "Comparer silhouette et lisibilité par annotation humaine ; l’échelle 1–5 est subjective.",
+          "Définir les seuils de performance et de qualité pour l’appareil cible avant le test.",
+          "Examiner les différences et limites avant toute recommandation conditionnelle."
+        ],
+        "rollback": "Supprimer les copies du laboratoire ; aucun changement au jeu principal.",
+        "metrics_template": {
+          "triangles": null,
+          "materials": null,
+          "textures": null,
+          "asset_bytes": null,
+          "night_readability_rating": null,
+          "artifact_count": null,
+          "frame_time_ms": null
+        },
+        "not_executed": true
+      },
+      "experiment_id": "2e6c6823-da8c-5cea-9524-d1408b1a0efc",
+      "id": "2e6c6823-da8c-5cea-9524-d1408b1a0efc",
+      "status": "PLANNED_PREVIEW"
+    }
+  ],
+  "game_executed": false,
+  "comparison": "pending external measurements",
+  "winner": null
+}

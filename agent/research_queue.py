@@ -88,11 +88,20 @@ def excluded_term(query: str, terms: list[str]) -> str | None:
 
 class ResearchQueue:
     def __init__(self, root: Path = ROOT, config: dict | None = None, topics: list[dict] | None = None,
-                 recover: bool = True):
+                 recover: bool = True, state_dir: Path | None = None):
         self.root = Path(root)
         self.cfg = config or load_config(self.root)
-        self.path = self.root / "output" / "queue.json"
-        self.history_path = self.root / "output" / "queue_history.jsonl"
+        folder=Path(state_dir) if state_dir is not None else self.root/'output'
+        if state_dir is not None:
+            from agent.obsidian import safe_path
+            if not folder.absolute().is_relative_to(self.root.resolve()/'lab'):
+                raise ValueError('isolated queue must be under lab/')
+            folder=safe_path(self.root,folder.absolute().relative_to(self.root.resolve()).as_posix())
+        self.path = folder / "queue.json"
+        self.history_path = folder / "queue_history.jsonl"
+        if state_dir is not None:
+            self.path=safe_path(self.root,self.path.relative_to(self.root).as_posix())
+            self.history_path=safe_path(self.root,self.history_path.relative_to(self.root).as_posix())
         if topics is None:
             topics = json.loads((self.root / "config" / "topics.json").read_text(encoding="utf-8"))["topics"]
         self.topics = {t["id"]: t for t in topics}
@@ -101,7 +110,12 @@ class ResearchQueue:
         if self.path.exists():
             try:
                 self.data = json.loads(self.path.read_text(encoding="utf-8"))
+                if state_dir is not None:
+                    if not isinstance(self.data,dict) or self.data.get('schema')!='vdn.queue/1' or not isinstance(self.data.get('items'),dict) or not isinstance(self.data.get('daily'),dict):raise ValueError('invalid isolated queue structure')
+                    for key,item in self.data['items'].items():
+                        if not isinstance(item,dict) or item.get('key')!=key or item.get('status') not in STATUSES or not isinstance(item.get('query'),str) or type(item.get('depth')) is not int:raise ValueError('invalid isolated queue item')
             except ValueError:
+                if state_dir is not None:raise ValueError('isolated queue corrupt; manual recovery required')
                 if not recover:
                     raise ValueError('queue illisible ; inspection sans modification')
                 broken = self.path.with_suffix(".corrupt.json")

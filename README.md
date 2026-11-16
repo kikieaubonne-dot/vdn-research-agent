@@ -1,5 +1,26 @@
 # VDN Research Agent V1 — 0 € / recherche programmée
 
+## V10 — recherche locale et mémoire d’expériences
+
+V10 ajoute des sessions récursives bornées, un registre persistant des réussites
+et échecs, des preuves hachées, un plan A/B pour le sapin et une analyse visuelle
+manuelle avec adaptateurs IA optionnels. Aucun modèle ni API payante obligatoire.
+Les modes automatiques V10 et le réseau sont désactivés par défaut.
+
+```sh
+python -m agent.v10 research-prepare "Comment reproduire un sapin enneigé photoréaliste dans Roblox ?"
+python -m agent.v10 spruce --dry-run
+python -m agent.v10 status
+python vdn_mcp.py --v10
+python -m tests.offline
+```
+
+Utiliser `--apply` pour une écriture explicite. Les mesures Studio restent
+inconnues ; `SUCCESS` n’est pas `VERIFIED`. Aucun jeu n’a été exécuté en V10.
+[Rapport V10](docs/V10_REPORT.md) · [Windows et autonomie](docs/v10/WINDOWS.md) ·
+[Laboratoire et sapin](docs/v10/LAB.md) · [Obsidian et MCP](docs/v10/INTEGRATIONS.md) ·
+[Sécurité](docs/v10/SECURITY.md) · [Benchmark](docs/v10/BENCHMARK.md)
+
 ## V9 — connaissances de production et coffre Obsidian sûr
 
 V9 conserve V8 et ajoute inventaire des lacunes, quatre candidates officielles
