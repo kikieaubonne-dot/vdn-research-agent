@@ -1,0 +1,34 @@
+{
+  "schema": "vdn.ci-validation/11.2",
+  "commit": "1d33e84aa6794c54522eea17cac00860e247bd86",
+  "run_id": 43864474558,
+  "url": "https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43864474558",
+  "python": "3.11",
+  "jobs": [
+    {
+      "os": "ubuntu-latest",
+      "job_id": 133289363826,
+      "conclusion": "success",
+      "log_excerpts": [
+        "2026-11-16T12:13:00.5581018Z Ran 416 tests in 13.545s",
+        "2026-11-16T12:13:00.5581488Z OK",
+        "2026-11-16T12:13:14.2612766Z Ran 416 tests in 13.388s",
+        "2026-11-16T12:13:14.2613050Z OK",
+        "2026-11-16T12:13:14.3435633Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+      ]
+    },
+    {
+      "os": "windows-latest",
+      "job_id": 133289364170,
+      "conclusion": "success",
+      "log_excerpts": [
+        "2026-11-16T12:14:22.5117605Z Ran 416 tests in 96.772s",
+        "2026-11-16T12:14:22.5117936Z OK",
+        "2026-11-16T12:16:25.5622308Z Ran 416 tests in 121.497s",
+        "2026-11-16T12:16:25.5622639Z OK",
+        "2026-11-16T12:16:25.7270133Z PERSONAL_CONFIG: network/autonomy enabled in disposable copy; personal/source settings unchanged."
+      ]
+    }
+  ],
+  "scope": "offline and isolated personal configuration; no real Windows Internet/model/engine execution"
+}

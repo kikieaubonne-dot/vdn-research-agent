@@ -11,6 +11,8 @@ Bible → plan → collecte contrôlée → passage → synthèse → fiche → 
 ainsi que budget, interruptions, reprise, rollback, modèle indisponible, sources
 hostiles, versions, doublons, faux paramètres et échec lié.
 Les [journaux](../validation/v112) distinguent ces essais de la session réseau.
+La [CI distante](ci.json) confirme aussi 416 +416 tests par OS sur Ubuntu et
+Windows, Python 3.11, au commit de code 1d33e84.
 
 Les [36 contrats annotés](intelligence-contracts.json) V11.1 passent 36/36,
 exactitude du contrat d'attribution 100 %. C'est un jeu synthétique de développement,

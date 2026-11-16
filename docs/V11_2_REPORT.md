@@ -2,7 +2,7 @@
 
 **Livraison fonctionnelle partielle** : chaîne de préparation du projet utilisable,
 aucune technique du jeu déclarée validée. Base exacte PR #7, d23aafa, nouvelle
-branche `codex/project-intelligence-v11-2`, PR dédiée vers
+branche `codex/project-intelligence-v11-2`, [PR #8](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/8) vers
 `codex/eponge-intelligence-v11-1`. Aucune fusion, tâche permanente, installation
 de modèle, publication Roblox ou modification du jeu.
 
@@ -63,8 +63,10 @@ Python ajoutée ; Python 3.11 conservé. Configurations historiques inchangées.
   autorisant le réseau dans une copie jetable, sockets toujours interdites.
 - MCP : vrai stdio initialisation/liste/appels, contrats des 27 outils inchangés.
 - Chaîne contrôlée jusqu'à Obsidian/RAG/MCP, reprise après interruption et rollback.
-- CI Ubuntu/Windows Python 3.11 : voir les checks de la PR et leurs journaux ;
-  validation distante consignée à la fin de livraison, distincte des essais locaux.
+- CI Ubuntu **et Windows**, Python 3.11 : **416 + 416 tests OK par OS**,
+  [run 43864474558](https://github.com/kikieaubonne-dot/vdn-research-agent/actions/runs/43864474558),
+  code validé `1d33e84`, [extraits des journaux](v112/ci.json). Aucun Internet
+  Windows, modèle ou moteur exécuté par ces suites hors ligne.
 - **36/36 contrats synthétiques**, attribution mécanique 100 % sur ces contrats.
 - Benchmark déterministe réel capturé, sept tâches, **identité 7/7** ; **36,9 % de
   caractères JSON en moins** sur ces sorties, sans économie de quota Claude prouvée.
