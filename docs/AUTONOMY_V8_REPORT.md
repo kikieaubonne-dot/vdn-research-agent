@@ -169,5 +169,6 @@ illisibles/dupliquées, les expériences et la reproductibilité des démonstrat
 [Installation Windows](WINDOWS_V8_SETUP.md), [intégration MCP](CLAUDE_DESKTOP_V8.md),
 [limitations détaillées](AUTONOMY_V8_LIMITATIONS.md), [roadmap V9](AUTONOMY_V9_ROADMAP.md).
 Le workflow existant et les budgets V7 sont préservés, sans nouveau service payant
-ou dépendance pip. La PR V8 est prévue au-dessus de la branche V7 encore ouverte,
-pour isoler la revue V8 ; aucune PR n'est fusionnée automatiquement.
+ou dépendance pip. La [PR V8 #2](https://github.com/kikieaubonne-dot/vdn-research-agent/pull/2)
+est ouverte au-dessus de `codex/autonomy-v7`, pour isoler la revue V8. La PR #1
+reste ouverte ; aucune PR n'a été fusionnée et aucun auto-merge n'est activé.
