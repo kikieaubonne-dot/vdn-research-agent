@@ -6,8 +6,11 @@ MAX_NOTE_BYTES = 2_000_000
 
 def library_path(root, relative):
     root = Path(root).resolve()
+    # Validate the supplied POSIX form before Path renders native Windows '\\'.
+    if '\\' in str(relative):
+        raise ValueError('path must be relative to the library')
     relative = Path(relative)
-    if relative.is_absolute() or '..' in relative.parts or '\\' in str(relative):
+    if relative.is_absolute() or '..' in relative.parts:
         raise ValueError('path must be relative to the library')
     path = root / relative
     base = root / 'knowledge'

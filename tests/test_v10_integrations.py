@@ -27,6 +27,13 @@ class IntegrationTests(unittest.TestCase):
     def png(self):
         p=self.root/'lab/inbox/test.png';p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(PNG)
         return self.lab.import_artifact('lab/inbox/test.png','external_capture')['id']
+    def test_posix_library_input_survives_native_windows_path_rendering(self):
+        from agent.corpus import library_path,read_text
+        p=self.root/'knowledge/fixture.md';p.parent.mkdir();p.write_text('fixture',encoding='utf-8')
+        self.assertEqual(library_path(self.root,'knowledge/fixture.md'),p)
+        self.assertEqual(read_text(self.root,'knowledge/fixture.md'),'fixture')
+        for unsafe in ('knowledge\\fixture.md','knowledge/../outside.md',str(p)):
+            with self.assertRaises(ValueError):library_path(self.root,unsafe)
     def enable(self,backend='local',**values):
         path=self.root/'config/v10.json';cfg=json.loads(path.read_text());cfg['models'][backend].update(enabled=True,model='fixture',**values)
         cfg['network_enabled']=True;path.write_text(json.dumps(cfg))

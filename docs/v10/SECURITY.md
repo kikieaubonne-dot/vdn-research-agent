@@ -32,3 +32,9 @@ fixtures publiés ne contiennent aucune capture personnelle ni clé. Aucune clé
 d’environnement réelle n’a été utilisée pour des tests de modèle. L’ancienne
 collecte GitHub Actions et ses autorisations sont héritées, non modifiées par V10 ;
 le nouveau workflow de tests a uniquement `contents: read` et aucun calendrier.
+
+Le lecteur de corpus valide la forme POSIX fournie **avant** sa conversion en
+chemin natif Windows. Les antislashs fournis, chemins absolus, traversées `..`
+et liens symboliques restent refusés ; la normalisation interne Windows ne
+provoque plus le rejet de toutes les notes. Une régression vérifie la lecture
+d’une note valide et le refus des formes dangereuses.

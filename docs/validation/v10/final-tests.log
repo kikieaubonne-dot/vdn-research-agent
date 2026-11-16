@@ -130,6 +130,7 @@ test_mcp_legacy_and_v10_permission_lifecycle (test_v10_integrations.IntegrationT
 test_mcp_real_stdio_from_foreign_cwd (test_v10_integrations.IntegrationTests.test_mcp_real_stdio_from_foreign_cwd) ... ok
 test_model_claims_never_execute_or_create_evidence (test_v10_integrations.IntegrationTests.test_model_claims_never_execute_or_create_evidence) ... ok
 test_obsidian_incremental_and_rollback_without_rag_contamination (test_v10_integrations.IntegrationTests.test_obsidian_incremental_and_rollback_without_rag_contamination) ... ok
+test_posix_library_input_survives_native_windows_path_rendering (test_v10_integrations.IntegrationTests.test_posix_library_input_survives_native_windows_path_rendering) ... ok
 test_real_collection_pipeline_with_fixture_provider_preserves_history (test_v10_integrations.IntegrationTests.test_real_collection_pipeline_with_fixture_provider_preserves_history) ... ok
 test_visual_fallback_and_untrusted_annotations (test_v10_integrations.IntegrationTests.test_visual_fallback_and_untrusted_annotations) ... ok
 test_excerpts (test_v3.V3Tests.test_excerpts) ... ok
@@ -288,11 +289,11 @@ test_user_conflict_blocks_entire_sync (test_v9_obsidian.SyncTests.test_user_conf
 test_windows_crlf_bytes_survive_copy_backup_and_rollback (test_v9_obsidian.SyncTests.test_windows_crlf_bytes_survive_copy_backup_and_rollback) ... ok
 
 ----------------------------------------------------------------------
-Ran 287 tests in 20.223s
+Ran 288 tests in 19.626s
 
 OK
 {
-  "started_utc": "2026-11-16T02:09:20+00:00",
+  "started_utc": "2026-11-16T02:18:22+00:00",
   "queries": 1,
   "discovered": 1,
   "errors": [],
@@ -326,7 +327,7 @@ OK
   ]
 }
 {
-  "started_utc": "2026-11-16T02:09:20+00:00",
+  "started_utc": "2026-11-16T02:18:22+00:00",
   "queries": 1,
   "discovered": 0,
   "errors": [],

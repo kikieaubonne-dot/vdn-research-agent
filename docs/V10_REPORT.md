@@ -28,8 +28,8 @@ sapin A/B, collecteur candidat, schéma et import externe lié au bon essai.
 
 ## 2. Ce qui est réellement testé
 
-**287 tests hors ligne réussis**, dont les **251 historiques** conservés et
-36 nouveaux. Les connexions socket sont interdites, sous-processus compris.
+**288 tests hors ligne réussis**, dont les **251 historiques** conservés et
+37 nouveaux. Les connexions socket sont interdites, sous-processus compris.
 Tests d’intégrité/corruption, budgets avant effet, quotas, reprise, erreurs disque,
 secrets, chemins/symlinks, idempotence, permissions MCP, transport IA par fixtures,
 collecte réelle avec fournisseur fixture, annotations et import de mesures.

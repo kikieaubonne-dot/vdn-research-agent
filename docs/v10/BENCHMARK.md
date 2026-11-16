@@ -11,8 +11,8 @@ python -m bench.evaluate_v10 --root . --output docs/v10/holdout_v10.json
 
 ## Régression et sécurité
 
-Baseline V9 reproduite : **251 tests**. Version livrée : **287 tests**, dont
-36 nouveaux, avec sockets interdits jusque dans les sous-processus.
+Baseline V9 reproduite : **251 tests**. Version livrée : **288 tests**, dont
+37 nouveaux, avec sockets interdits jusque dans les sous-processus.
 [Baseline](../validation/v10/baseline-tests.log) ·
 [Suite finale](../validation/v10/final-tests.log).
 
