@@ -427,6 +427,34 @@
   "https://github.com/stewartchrisecmwf/training": {
    "id": "vdn-a784092cde44",
    "path": "knowledge/lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori.md"
+  },
+  "https://devforum.roblox.com/t/1373997": {
+   "id": "vdn-c1379b6d7d62",
+   "path": "knowledge/vegetation/c1379b6d7d62-applying-normal-maps-to-your-characters-in-blender.md"
+  },
+  "https://devforum.roblox.com/t/1412246": {
+   "id": "vdn-aef6e9d2f6a8",
+   "path": "knowledge/vegetation/aef6e9d2f6a8-do-normal-maps-have-the-same-effect-in-roblox.md"
+  },
+  "https://devforum.roblox.com/t/1304947": {
+   "id": "vdn-e59d4172fbca",
+   "path": "knowledge/vegetation/e59d4172fbca-surface-appearance-normal-maps-aren-t-showing-up.md"
+  },
+  "https://github.com/nixy1234/dfdfd": {
+   "id": "vdn-7e073d17a2e1",
+   "path": "knowledge/vegetation/7e073d17a2e1-nixy1234-dfdfd-all-paths-in-this-configuration-fil.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Player": {
+   "id": "vdn-7c556484eae1",
+   "path": "knowledge/forest/7c556484eae1-class-player.md"
+  },
+  "https://devforum.roblox.com/t/1387033": {
+   "id": "vdn-26ba09d37d6d",
+   "path": "knowledge/lighting/26ba09d37d6d-improve-lighting-step-by-step.md"
+  },
+  "https://github.com/schemann/phaix-godot-08-light-and-atmosphere": {
+   "id": "vdn-fea21e2bbdea",
+   "path": "knowledge/lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot.md"
   }
  },
  "fingerprints": {
@@ -918,6 +946,32 @@
   "0aaa5bde666eb401": "vdn-fe96a48f86fd",
   "7d585d939fc13d5b": "vdn-fe96a48f86fd",
   "31b0ced34081585a": "vdn-d9f7dcc699ae",
-  "7f54d390046b312a": "vdn-d9f7dcc699ae"
+  "7f54d390046b312a": "vdn-d9f7dcc699ae",
+  "6fb914d3a1f7f749": "vdn-c1379b6d7d62",
+  "dff57b34264b9a36": "vdn-c1379b6d7d62",
+  "0e38d2006733a7c7": "vdn-aef6e9d2f6a8",
+  "d42dfa9ca9639447": "vdn-aef6e9d2f6a8",
+  "7cc4a0ae22776a54": "vdn-aef6e9d2f6a8",
+  "c1e5526efdc898bb": "vdn-aef6e9d2f6a8",
+  "30a3dd40dc261e7e": "vdn-e59d4172fbca",
+  "b0b473aa7d93e9fa": "vdn-e59d4172fbca",
+  "d513908652619d4c": "vdn-7e073d17a2e1",
+  "a5d338337865de4e": "vdn-7c556484eae1",
+  "4cae7762c8906164": "vdn-104730975429",
+  "b4356300861b00c8": "vdn-104730975429",
+  "1cc06a28dc0278c1": "vdn-104730975429",
+  "2e2589499261ab32": "vdn-c4ec9a89a5d5",
+  "2f587192a8ead494": "vdn-54e55ed30ffd",
+  "bce6d8a960c3f0bb": "vdn-54e55ed30ffd",
+  "b023f5305584ccda": "vdn-54e55ed30ffd",
+  "1e595562c91863d9": "vdn-26ba09d37d6d",
+  "47e62cec33803146": "vdn-fea21e2bbdea",
+  "12cb766530bb8cc2": "vdn-fea21e2bbdea",
+  "99048af47a5f8a17": "vdn-fffb848dcec4",
+  "f2c2cbeeba6f2bda": "vdn-bd57404219e9",
+  "a3563402b1b7aa24": "vdn-6c09cc7a93fd",
+  "99966fb11fa4ddf5": "vdn-6c09cc7a93fd",
+  "afc3748d4119e95b": "vdn-1a8520e471f5",
+  "67abc079652766bc": "vdn-70c1930c490c"
  }
 }

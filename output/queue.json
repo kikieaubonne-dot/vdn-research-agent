@@ -179,11 +179,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-17T09:14:58+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 7,
+        "created": 4,
+        "rejected": 3,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-c1379b6d7d62",
+          "vdn-aef6e9d2f6a8",
+          "vdn-e59d4172fbca",
+          "vdn-7e073d17a2e1"
+        ],
+        "followups": [
+          "foliage normal map settings",
+          "foliage normal map tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794906888.404041,
+      "finished_ts": 1794906898.3590434
     },
     "a5bb3a3e65ec5689": {
       "key": "a5bb3a3e65ec5689",
@@ -1504,11 +1524,28 @@
       "depth": 1,
       "parent": "93d093b7a44d6d90",
       "reason": "API citee par la source : Player.FrustumStreaming (vdn-a97042f85138)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T22:40:54+00:00",
-      "updated": "2026-11-15T22:40:54+00:00",
-      "result": null
+      "updated": "2026-11-17T09:15:09+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-7c556484eae1"
+        ],
+        "followups": [
+          "Player FrustumStreaming settings",
+          "Player FrustumStreaming tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794906898.3609111,
+      "finished_ts": 1794906909.5605247
     },
     "60fc9d585d6a367b": {
       "key": "60fc9d585d6a367b",
@@ -1763,11 +1800,26 @@
       "depth": 2,
       "parent": "7d80e83e4696cf1a",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-16T06:33:20+00:00",
-      "updated": "2026-11-16T06:33:20+00:00",
-      "result": null
+      "updated": "2026-11-17T09:15:22+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-26ba09d37d6d",
+          "vdn-fea21e2bbdea"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794906909.568139,
+      "finished_ts": 1794906922.0243695
     },
     "a91c22b2d4a3f65e": {
       "key": "a91c22b2d4a3f65e",
@@ -1838,11 +1890,23 @@
       "depth": 2,
       "parent": "5b57235144b127ef",
       "reason": "lacune : aucune etape exploitable (vdn-390b00a59e4b)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T00:50:04+00:00",
-      "updated": "2026-11-17T00:50:04+00:00",
-      "result": null
+      "updated": "2026-11-17T09:15:33+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794906922.0267901,
+      "finished_ts": 1794906933.2797554
     },
     "fe9811081949a550": {
       "key": "fe9811081949a550",
@@ -1873,11 +1937,71 @@
       "created": "2026-11-17T00:50:28+00:00",
       "updated": "2026-11-17T00:50:28+00:00",
       "result": null
+    },
+    "6d1701c8904eb43e": {
+      "key": "6d1701c8904eb43e",
+      "topic": "spruce",
+      "query": "foliage normal map settings",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "dfa72d0b0747a3e4",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-c1379b6d7d62)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T09:14:58+00:00",
+      "updated": "2026-11-17T09:14:58+00:00",
+      "result": null
+    },
+    "1289b125b95b402f": {
+      "key": "1289b125b95b402f",
+      "topic": "spruce",
+      "query": "foliage normal map tutorial",
+      "priority": 9.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "dfa72d0b0747a3e4",
+      "reason": "lacune : aucune etape exploitable (vdn-c1379b6d7d62)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T09:14:58+00:00",
+      "updated": "2026-11-17T09:14:58+00:00",
+      "result": null
+    },
+    "24faa700bbba7114": {
+      "key": "24faa700bbba7114",
+      "topic": "forest",
+      "query": "Player FrustumStreaming settings",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "e8be5cb91d09e23a",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-7c556484eae1)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T09:15:09+00:00",
+      "updated": "2026-11-17T09:15:09+00:00",
+      "result": null
+    },
+    "2c79a8e92a414422": {
+      "key": "2c79a8e92a414422",
+      "topic": "traversal",
+      "query": "Player FrustumStreaming tutorial",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "e8be5cb91d09e23a",
+      "reason": "lacune : aucune etape exploitable (vdn-7c556484eae1)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T09:15:09+00:00",
+      "updated": "2026-11-17T09:15:09+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-17",
-    "items": 4,
-    "fetch": 32
+    "items": 8,
+    "fetch": 63
   }
 }

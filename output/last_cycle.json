@@ -1,14 +1,87 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-17T00:49:41+00:00",
-  "finished": "2026-11-17T00:50:28+00:00",
+  "started": "2026-11-17T09:14:48+00:00",
+  "finished": "2026-11-17T09:15:33+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "pine tree mesh optimization",
+      "query": "foliage normal map",
       "topic": "spruce",
       "depth": 0,
       "origin": "seed",
+      "status": "done",
+      "created": 4,
+      "rejected": 3,
+      "duplicates": 3,
+      "fetched": 7,
+      "notes": [
+        {
+          "id": "vdn-c1379b6d7d62",
+          "path": "knowledge/vegetation/c1379b6d7d62-applying-normal-maps-to-your-characters-in-blender.md",
+          "status": "candidat",
+          "topic": "spruce",
+          "query": "foliage normal map",
+          "url": "https://devforum.roblox.com/t/1373997",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-aef6e9d2f6a8",
+          "path": "knowledge/vegetation/aef6e9d2f6a8-do-normal-maps-have-the-same-effect-in-roblox.md",
+          "status": "documente",
+          "topic": "spruce",
+          "query": "foliage normal map",
+          "url": "https://devforum.roblox.com/t/1412246",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-e59d4172fbca",
+          "path": "knowledge/vegetation/e59d4172fbca-surface-appearance-normal-maps-aren-t-showing-up.md",
+          "status": "documente",
+          "topic": "spruce",
+          "query": "foliage normal map",
+          "url": "https://devforum.roblox.com/t/1304947",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-7e073d17a2e1",
+          "path": "knowledge/vegetation/7e073d17a2e1-nixy1234-dfdfd-all-paths-in-this-configuration-fil.md",
+          "status": "candidat",
+          "topic": "spruce",
+          "query": "foliage normal map",
+          "url": "https://github.com/nixy1234/dfdfd",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "foliage normal map settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c1379b6d7d62)",
+          "topic": "spruce"
+        },
+        {
+          "query": "foliage normal map tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-c1379b6d7d62)",
+          "topic": "spruce"
+        }
+      ]
+    },
+    {
+      "query": "Player FrustumStreaming",
+      "topic": "forest",
+      "depth": 1,
+      "origin": "relance",
       "status": "done",
       "created": 1,
       "rejected": 7,
@@ -16,62 +89,12 @@
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-17ce482dd88d",
-          "path": "knowledge/vegetation/17ce482dd88d-skin-a-simple-mesh.md",
-          "status": "documente",
-          "topic": "spruce",
-          "query": "pine tree mesh optimization",
-          "url": "https://create.roblox.com/docs/art/modeling/skin-a-simple-mesh",
-          "missing": [
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "Player settings",
-      "topic": "forest",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 3,
-      "rejected": 5,
-      "duplicates": 0,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-390b00a59e4b",
-          "path": "knowledge/forest/390b00a59e4b-avatar-settings.md",
+          "id": "vdn-7c556484eae1",
+          "path": "knowledge/forest/7c556484eae1-class-player.md",
           "status": "candidat",
           "topic": "forest",
-          "query": "Player settings",
-          "url": "https://create.roblox.com/docs/studio/avatar-settings",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-7cb447a5113c",
-          "path": "knowledge/forest/7cb447a5113c-problem-setting-a-player-s-face-decal-texture-id.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "Player settings",
-          "url": "https://devforum.roblox.com/t/1277548",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-0e6d296c236e",
-          "path": "knowledge/forest/0e6d296c236e-lighting-settings-saver.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "Player settings",
-          "url": "https://devforum.roblox.com/t/1240665",
+          "query": "Player FrustumStreaming",
+          "url": "https://create.roblox.com/docs/reference/engine/classes/Player",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -81,113 +104,74 @@
       ],
       "followups": [
         {
-          "query": "Player settings tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-390b00a59e4b)",
-          "topic": "traversal"
+          "query": "Player FrustumStreaming settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-7c556484eae1)",
+          "topic": "forest"
         },
         {
-          "query": "Player settings step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "query": "Player FrustumStreaming tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-7c556484eae1)",
           "topic": "traversal"
         }
       ]
     },
     {
-      "query": "Atmosphere Density tutorial",
+      "query": "Atmosphere Density step by step implementation tutorial code",
       "topic": "lighting",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-26ba09d37d6d",
+          "path": "knowledge/lighting/26ba09d37d6d-improve-lighting-step-by-step.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Atmosphere Density step by step implementation tutorial code",
+          "url": "https://devforum.roblox.com/t/1387033",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-fea21e2bbdea",
+          "path": "knowledge/lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Atmosphere Density step by step implementation tutorial code",
+          "url": "https://github.com/schemann/phaix-godot-08-light-and-atmosphere",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "Player settings tutorial",
+      "topic": "traversal",
       "depth": 2,
       "origin": "relance",
       "status": "done",
-      "created": 5,
-      "rejected": 3,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-2691c88af330",
-          "path": "knowledge/lighting/2691c88af330-use-case-tutorials.md",
-          "status": "documente",
-          "topic": "lighting",
-          "query": "Atmosphere Density tutorial",
-          "url": "https://create.roblox.com/docs/tutorials/use-case-tutorials/use-case-tutorial-overview",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-7a3826117dfd",
-          "path": "knowledge/lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Density tutorial",
-          "url": "https://devforum.roblox.com/t/1249386",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-c2643257b3cc",
-          "path": "knowledge/lighting/c2643257b3cc-change-grass-density-and-height.md",
-          "status": "documente",
-          "topic": "lighting",
-          "query": "Atmosphere Density tutorial",
-          "url": "https://devforum.roblox.com/t/1223641",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-823b92f997eb",
-          "path": "knowledge/lighting/823b92f997eb-tessac2-copernicus-training-this-repository-hosts.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Density tutorial",
-          "url": "https://github.com/tessac2/copernicus-training",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-a784092cde44",
-          "path": "knowledge/lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Density tutorial",
-          "url": "https://github.com/stewartchrisecmwf/training",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "snowfall particles",
-      "topic": "snow",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 0,
+      "duplicates": 2,
       "fetched": 8,
       "notes": [],
-      "followups": [
-        {
-          "query": "snowfall particles step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "snow"
-        }
-      ]
+      "followups": []
     }
   ],
-  "created": 9,
-  "fetched": 32,
-  "rejected": 23,
-  "followups_added": 3,
+  "created": 7,
+  "fetched": 31,
+  "rejected": 24,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -196,43 +180,43 @@
     "counts": {
       "pending": 81,
       "running": 0,
-      "done": 22,
+      "done": 26,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-17",
-      "items": 4,
-      "fetch": 32
+      "items": 8,
+      "fetch": 63
     },
     "next": [
       {
-        "query": "foliage normal map",
+        "query": "foliage alpha distance settings",
         "topic": "spruce",
-        "priority": 10.0,
-        "depth": 0,
-        "origin": "seed"
+        "priority": 9.5,
+        "depth": 1,
+        "origin": "relance"
       },
       {
-        "query": "Player FrustumStreaming",
+        "query": "Atmosphere Offset",
         "topic": "forest",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Atmosphere Density step by step implementation tutorial code",
+        "query": "Atmosphere Haze step by step implementation tutorial code",
         "topic": "lighting",
         "priority": 9.0,
         "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "Player settings tutorial",
+        "query": "Player settings step by step implementation tutorial code",
         "topic": "traversal",
         "priority": 9.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
         "query": "viewmodel arms camera",
