@@ -1,0 +1,24 @@
+test_oversized_session_is_blocked_before_starting_collection (tests.test_snow_mission.SnowMissionRules.test_oversized_session_is_blocked_before_starting_collection) ... ERROR
+
+======================================================================
+ERROR: test_oversized_session_is_blocked_before_starting_collection (tests.test_snow_mission.SnowMissionRules.test_oversized_session_is_blocked_before_starting_collection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_snow_mission.py", line 17, in test_oversized_session_is_blocked_before_starting_collection
+    result=ForestWorker.research(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/forest_mission.py", line 33, in research
+    tree=Roots(self.root)
+         ^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/agent/research_roots.py", line 21, in __init__
+    if p.stat().st_size>100000:raise ValueError('research catalog oversized')
+       ^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 840, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/vdn_auto_bjw8phjs/project/research_roots.json'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+FAILED (errors=1)

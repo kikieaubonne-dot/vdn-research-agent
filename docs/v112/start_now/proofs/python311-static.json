@@ -1,0 +1,23 @@
+{
+  "state": "PASS_STATIC_ONLY",
+  "files": [
+    "agent/forest_mission.py",
+    "agent/html_content.py",
+    "scripts/blender_snow_portability.py",
+    "tests/test_start_now.py",
+    "tests/test_snow_mission.py",
+    "tests/test_html_content.py",
+    "PROLOGUE_START_NOW/WINDOWS/setup.py"
+  ],
+  "runtime": "Python3.12.14 Linux",
+  "not_a_python311_execution": true,
+  "sha256": {
+    "agent/forest_mission.py": "d348429d5a1a0a347e6050c67be1e73fb9e74562956146b0aa9fe812c4a85036",
+    "agent/html_content.py": "48d3a9d56ec8592de00c26ae74e60f01d172ceb99a74b4c4791770f1e2179b58",
+    "scripts/blender_snow_portability.py": "fe483d85929105e65ac350404f3f7351c03289c4d4a0cd17c6842c9fe836964e",
+    "tests/test_start_now.py": "7f0640a3976e4bfc08618acb9f59e64df06f4f701ab9796414aa9805052a41a0",
+    "tests/test_snow_mission.py": "fea9202378930badedd59e402544a19b315bd10fbbb937634a46b0a593c5e189",
+    "tests/test_html_content.py": "41ab4246dc520f7e9b3438c7a75553869fcaa2bf19fa49d1800a043ce733663c",
+    "PROLOGUE_START_NOW/WINDOWS/setup.py": "9894d46bb6d686c84f64da683fede973c7cc04e2b72eb33091fa5e667b4a2e71"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "vdn.authorized-one-off/1",
+  "source": "explicit user reply Autoriser cette mission for\u00eat born\u00e9e",
+  "approved_at": "2026-11-17T10:53:48.400188+00:00",
+  "scope": "single isolated forest mission, not permanent production deployment",
+  "wall_time_max_s": 900,
+  "additional_compute_max_s": 120,
+  "compute_ceiling_s": 197,
+  "initial_compute": {
+    "date": "2026-11-17",
+    "reserved_s": 77.05830780697579
+  },
+  "additional_http_max": 8,
+  "content_storage_limit_bytes": 33554432,
+  "models": false,
+  "persistent_service": false,
+  "external_quota_change": false,
+  "counter_reset": false,
+  "source_original": "/workspace/eponge-v10/runtime"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "vdn.operations-doctor/1",
+  "state": "DEGRADED",
+  "exit_code": 1,
+  "os": "Linux",
+  "python": "3.12.14",
+  "checks": {
+    "Python": "PASS",
+    "Windows_user_PC": "BLOCKED",
+    "Claude_Desktop": "NOT_TESTED",
+    "Roblox_Studio": "BLOCKED",
+    "Ollama": "NOT_TESTED_OPTIONAL",
+    "Blender": "VERSION_DETECTED_NOT_ENGINE_TESTED",
+    "disk": "PASS",
+    "config": "PASS",
+    "frozen_code": "PASS",
+    "derived_index": "NOT_BUILT_DERIVED_CACHE"
+  },
+  "blender_version": "Blender 4.3.2",
+  "hardware": {
+    "ram_total_bytes": 10452459520,
+    "ram_available_bytes": 9698091008,
+    "gpu": [],
+    "accelerator": "not_detected",
+    "capacity_to_load": "unknown; measure the selected quantization and context",
+    "processes_terminated": false,
+    "ollama_process_rss_bytes": null,
+    "process_memory_scope": "sum of observed process working sets/RSS; shared pages may be counted more than once; not GPU memory",
+    "memory_pressure": "unknown_or_not_high"
+  },
+  "disk_free_bytes": 7363956736,
+  "network": "DISABLED",
+  "code_complete": false,
+  "Windows_local_ready": false,
+  "cloud_core_ready": true,
+  "automatic_download": false
+}

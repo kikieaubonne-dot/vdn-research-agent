@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "MCP_tools": 27,
+  "contracts_exact": true,
+  "new_failures_visible": true,
+  "branch": "forest/spruce/snow",
+  "counters_configuration_unchanged": true,
+  "Obsidian": {
+    "first": {
+      "state": "committed",
+      "transaction": "01d9dc81-badd-4138-a475-fd5426759151",
+      "written": 11,
+      "conflicts": [],
+      "vault_path": "/workspace/eponge-v11/forest-mission/vault/knowledge"
+    },
+    "repeat": {
+      "state": "unchanged",
+      "written": 0,
+      "conflicts": [],
+      "transaction": null
+    }
+  },
+  "personal_vault": false,
+  "Desktop": "NOT_TESTED",
+  "Studio": "NOT_TESTED"
+}

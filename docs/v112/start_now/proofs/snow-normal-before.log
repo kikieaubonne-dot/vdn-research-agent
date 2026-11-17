@@ -1,0 +1,18 @@
+test_cheaper_candidate_is_rejected_when_export_loses_snow (tests.test_snow_mission.SnowMissionRules.test_cheaper_candidate_is_rejected_when_export_loses_snow) ... ok
+test_failed_fallback_does_not_create_a_winner (tests.test_snow_mission.SnowMissionRules.test_failed_fallback_does_not_create_a_winner) ... ok
+test_snow_faces_point_up_for_normal_mask_comparison (tests.test_snow_mission.SnowMissionRules.test_snow_faces_point_up_for_normal_mask_comparison) ... FAIL
+test_unknown_texture_semantics_require_review (tests.test_snow_mission.SnowMissionRules.test_unknown_texture_semantics_require_review) ... ok
+
+======================================================================
+FAIL: test_snow_faces_point_up_for_normal_mask_comparison (tests.test_snow_mission.SnowMissionRules.test_snow_faces_point_up_for_normal_mask_comparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_snow_mission.py", line 30, in test_snow_faces_point_up_for_normal_mask_comparison
+    vertices=[(0,-1,0),(0,1,0),(1,-.5,-.2),(1,.5,-.2)];indices=module.ribbon_face(0);a,b,c=[vertices[i] for i in indices[:3]];u=[b[i]-a[i] for i in range(3)];v=[c[i]-a[i] for i in range(3)];normal_z=u[0]*v[1]-u[1]*v[0];self.assertGreater(normal_z,0)
+                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: -2.0 not greater than 0
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.027s
+
+FAILED (failures=1)

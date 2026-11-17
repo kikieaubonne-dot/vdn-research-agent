@@ -22,6 +22,7 @@ from agent.lab_store import clean_json
 from agent.obsidian import safe_path
 from agent.storage import atomic_write
 from agent.text import tokens
+from agent.html_content import article_text,navigation_capture
 
 
 def settings(root):
@@ -168,11 +169,15 @@ class OceanWeb:
         old=json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
         if old and time.time()-old['at']<=self.cfg['cache_ttl_s']:
             if old['url']!=providers.canonical_url(url) or old['provider']!=provider or hashlib.sha256(old['text'].encode('utf-8')).hexdigest()!=old['text_sha256']:raise ValueError('source cache integrity failure')
+            if navigation_capture(old['text']):raise providers.FetchError('navigation-dominated capture retained for review; explicit recollection required')
             self.cache_hits+=1;self.purpose=purpose;self.trace('cache_hit',url);return {**old,'cached':True}
         self.robots(url,spec)
         raw=self._fetch(url,spec,purpose,self.cfg['max_document_bytes'])
-        html=bool(re.search(r'(?i)<(?:html|body|article)\b',raw))
-        text=providers.strip_html(raw) if html else raw
+        html=bool(re.search(r'(?i)<(?:html|body|article|main)\b',raw))
+        # Check the received page before article selection can hide an access wall.
+        flat=providers.strip_html(raw) if html else raw
+        if re.search(r'(?i)captcha|access denied|verify you are human|sign in to (?:access|continue|view)|subscription required',flat[:2000]):raise providers.FetchError('access challenge refused')
+        text=article_text(raw) if html else raw
         provenance={};topic_date=None
         if urlparse(url).hostname=='devforum.roblox.com' and urlparse(url).path.endswith('.json'):
             try:

@@ -1,0 +1,76 @@
+{
+  "schema": "vdn.forest-first-benchmark/1",
+  "objective": "Sapin enneigé réaliste et optimisé pour le jeu Roblox, sans affirmation artistique ou moteur non mesurée",
+  "state": "PARTIAL_REAL_BLENDER_AND_NETWORK_CLOUD",
+  "realism_human_approval": false,
+  "Roblox_Studio": "NOT_TESTED",
+  "new_network_requests": 4,
+  "parts": [
+    {
+      "part": "tronc",
+      "existing_branch": "forest/spruce",
+      "proposed_subbranch": "forest/spruce/trunk",
+      "question": "Quelle géométrie et quelle silhouette de tronc conviennent aux références autorisées et au budget réel ?"
+    },
+    {
+      "part": "branches",
+      "existing_branch": "forest/spruce",
+      "proposed_subbranch": "forest/spruce/branches",
+      "question": "Comment varier étages, courbures et asymétrie sans dépasser le coût réel ?"
+    },
+    {
+      "part": "aiguilles",
+      "existing_branch": "forest/spruce/foliage/cards",
+      "question": "Comparer géométrie et cartes, transparence, ombres et comportement sous lampe."
+    },
+    {
+      "part": "neige",
+      "existing_branch": "forest/spruce",
+      "proposed_subbranch": "forest/spruce/snow",
+      "question": "Comparer accumulation géométrique et matériau, sous éclairage contrôlé."
+    },
+    {
+      "part": "matériaux",
+      "existing_branch": "forest/spruce/foliage",
+      "proposed_subbranch": "forest/spruce/materials",
+      "question": "Retrouver les paramètres réellement documentés et vérifier le rendu sur le moteur cible."
+    },
+    {
+      "part": "vent",
+      "existing_branch": "forest/wind",
+      "question": "Comparer une solution légère avec un témoin immobile, sans transfert direct de shader Unreal."
+    },
+    {
+      "part": "performances",
+      "existing_branch": "forest/performance",
+      "question": "Mesurer triangles, textures, ombres, coût CPU/GPU et déplacements sur appareil/build réels."
+    }
+  ],
+  "protocol": [
+    "Consulter mémoire et expériences négatives avant le réseau ; vérifier versions, licences et passages.",
+    "Rechercher seulement les lacunes sous budget autorisé, comparer au moins deux méthodes pertinentes.",
+    "Fixer avant essai caméra, lumière, résolution, seed, variables, métriques, critères et rollback.",
+    "Exécuter en copies isolées ; corriger au plus deux tentatives identiques puis bloquer avec dossier.",
+    "Conserver succès, échecs et limites ; aucune promotion automatique à VERIFIED/HUMAN_APPROVED.",
+    "Exporter dans un coffre isolé, tester déduplication/rollback puis récupérer la bonne branche par MCP."
+  ],
+  "blocking_inputs": [
+    "nouvelle autorisation pour toute expérience supplémentaire",
+    "références visuelles et droits",
+    "copie B3/C1 si ciblée",
+    "rig/scène/build/appareil Roblox pour validation moteur"
+  ],
+  "do_not_claim": [
+    "nouvelle collecte réelle sans journaux",
+    "réalisme depuis une métrique géométrique seule",
+    "FPS inventé",
+    "économie Claude sans mesures réelles",
+    "couverture de branche par mots-clés seuls"
+  ],
+  "compute_added_s": 26.693515153005137,
+  "automatic_cycle_wall_s": 30.272751808166504,
+  "report": "FOREST_LAB/reports/forest-experiment-v2.json",
+  "artistic_realism": "INCONCLUSIVE",
+  "RAG_gain": "NOT_MEASURED",
+  "Claude_token_savings": "NOT_MEASURED"
+}

@@ -1,0 +1,15 @@
+test_legacy_navigation_cache_does_not_trigger_implicit_refetch (tests.test_html_content.CaptureRegression.test_legacy_navigation_cache_does_not_trigger_implicit_refetch) ... FAIL
+
+======================================================================
+FAIL: test_legacy_navigation_cache_does_not_trigger_implicit_refetch (tests.test_html_content.CaptureRegression.test_legacy_navigation_cache_does_not_trigger_implicit_refetch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_html_content.py", line 57, in test_legacy_navigation_cache_does_not_trigger_implicit_refetch
+    with self.assertRaisesRegex(FetchError,'navigation'):web.get(url,'blender')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: FetchError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.154s
+
+FAILED (failures=1)

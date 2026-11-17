@@ -1,0 +1,28 @@
+{
+  "offline": {
+    "state": "PASS",
+    "count": 634,
+    "elapsed_s": 71.386,
+    "log_sha256": "25272d8330e423c8ab35479274d10a95759d9aa7abcf4882f01cc93807fd52d4",
+    "environment": "Linux Python3.12.14",
+    "sockets": "forbidden by offline harness, including subprocesses"
+  },
+  "personal_sequential": {
+    "state": "PASS",
+    "count": 634,
+    "elapsed_s": 78.381,
+    "log_sha256": "92fc629024797672329aa23b827f28bbc9a6c692ec695568f6830fbb78813f2e",
+    "environment": "Linux Python3.12.14",
+    "sockets": "forbidden by offline harness, including subprocesses"
+  },
+  "Windows": "NOT_TESTED_NO_NEW_CI_PUSH",
+  "Claude_Desktop": "NOT_TESTED",
+  "Roblox_Studio": "NOT_TESTED",
+  "Luau": "NOT_EXECUTED",
+  "real_models": "NOT_EXECUTED",
+  "parent_baseline_count": 611,
+  "new_test_cases": 23,
+  "guard_validator": "existing independent validator unchanged; no promotion",
+  "personal_config": "disposable copy; source/personal settings unchanged",
+  "baseline_sha256": "7e401536a680bae67e7322dfb84cdf23e497522664413eea2c2359ce28048a04"
+}

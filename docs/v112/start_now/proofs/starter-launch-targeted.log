@@ -1,0 +1,12 @@
+test_new_mission_keeps_existing_learning_receipts_and_staged_artifacts (tests.test_start_now.SeedContinuity.test_new_mission_keeps_existing_learning_receipts_and_staged_artifacts) ... ok
+test_corrupt_cache_and_traversal_are_not_accepted (tests.test_start_now.StartNowChecks.test_corrupt_cache_and_traversal_are_not_accepted) ... ok
+test_derived_index_change_is_explicit_and_never_waives_source_changes (tests.test_start_now.StartNowChecks.test_derived_index_change_is_explicit_and_never_waives_source_changes) ... ok
+test_mcp_launch_refuses_modified_bundle_before_spawning (tests.test_start_now.StartNowChecks.test_mcp_launch_refuses_modified_bundle_before_spawning) ... ok
+test_non_windows_configuration_does_not_invent_a_windows_path (tests.test_start_now.StartNowChecks.test_non_windows_configuration_does_not_invent_a_windows_path) ... ok
+test_original_source_mutation_and_missing_file_fail (tests.test_start_now.StartNowChecks.test_original_source_mutation_and_missing_file_fail) ... ok
+test_symlink_manifest_and_parent_are_refused (tests.test_start_now.StartNowChecks.test_symlink_manifest_and_parent_are_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.285s
+
+OK

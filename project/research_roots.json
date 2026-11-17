@@ -1,6 +1,6 @@
 {
   "schema": "vdn.research-roots/11.2",
-  "revision": 1,
+  "revision": 2,
   "max_depth": 8,
   "max_nodes": 32,
   "nodes": [
@@ -619,6 +619,106 @@
       "searchable": true,
       "dependencies": [],
       "kind": "technical",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/trunk",
+      "parent": "forest/spruce",
+      "question": "Sapin enneigé : tronc sous contraintes Roblox, preuves et limites ?",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "trunk",
+          "bark",
+          "tronc"
+        ]
+      ],
+      "aliases": [
+        "sapin tronc",
+        "spruce trunk"
+      ],
+      "query": "Roblox snowy spruce trunk Blender geometry material export",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/branches",
+      "parent": "forest/spruce",
+      "question": "Sapin enneigé : branches sous contraintes Roblox, preuves et limites ?",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "branch",
+          "branches",
+          "silhouette"
+        ]
+      ],
+      "aliases": [
+        "sapin branches",
+        "spruce branches"
+      ],
+      "query": "Roblox snowy spruce branches Blender geometry material export",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/snow",
+      "parent": "forest/spruce",
+      "question": "Sapin enneigé : neige sous contraintes Roblox, preuves et limites ?",
+      "task": "trees",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "snow",
+          "neige"
+        ],
+        [
+          "material",
+          "geometry",
+          "surface"
+        ]
+      ],
+      "aliases": [
+        "sapin neige",
+        "spruce snow"
+      ],
+      "query": "Roblox snowy spruce snow Blender geometry material export",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "forest/spruce/materials",
+      "parent": "forest/spruce",
+      "question": "Sapin enneigé : matériaux sous contraintes Roblox, preuves et limites ?",
+      "task": "materials",
+      "importance": 5,
+      "required_concepts": [
+        [
+          "material",
+          "SurfaceAppearance",
+          "ColorMap"
+        ],
+        [
+          "Roblox",
+          "export"
+        ]
+      ],
+      "aliases": [
+        "sapin matériaux",
+        "spruce materials"
+      ],
+      "query": "Roblox snowy spruce materials Blender geometry material export",
+      "searchable": true,
+      "dependencies": [],
+      "kind": "visual",
       "status": "PROPOSED"
     }
   ],

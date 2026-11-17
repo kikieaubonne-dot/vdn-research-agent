@@ -3,6 +3,7 @@
 An exact quote establishes attribution, not technical truth. Editorial notes
 are secondary evidence even when they link to an official website.
 """
+from agent.html_content import navigation_capture
 import datetime as dt
 import hashlib
 import json
@@ -85,7 +86,7 @@ def documents(root,diagnostics=None,*,include_rejected=False):
                         'text':d['text'],'sha256':d['text_sha256'],'source_type':'recorded_source_snapshot',
                         'engine':engine,'version':version,'published':d.get('published'),
                         'accessed':d.get('accessed'),'retrieved_at':d.get('at',0),'truncated':d.get('truncated',False),
-                        'independent':True,'conditions':d.get('conditions',{})})
+                        'independent':True,'quality_issue':'navigation_capture_requires_review' if navigation_capture(d['text']) else None,'conditions':d.get('conditions',{})})
         except (ValueError,KeyError,TypeError,OSError) as exc:diagnostics.append({'path':path.name,'error':type(exc).__name__})
     for n in scan_notes(root,diagnostics):
         if n.get('status')=='rejete' and not include_rejected:continue
@@ -142,7 +143,7 @@ def passages(docs):
                     'document_sha256':d['sha256'],'engine':d['engine'],'version':d['version'],'published':d['published'],
                     'accessed':d['accessed'],'source_type':d['source_type'],'independent':d['independent'],
                     'conditions':d['conditions'],'retrieved_at':d['retrieved_at'],'incomplete_context':cut or d['truncated'],
-                    'hostile':bool(HOSTILE.search(value)),'context_only':context_only(value)})
+                    'hostile':bool(HOSTILE.search(value)),'context_only':context_only(value) or bool(d.get('quality_issue')),'quality_issue':d.get('quality_issue')})
     return result
 
 

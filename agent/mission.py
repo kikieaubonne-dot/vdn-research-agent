@@ -68,7 +68,7 @@ def initialize(workspace,source=REPOSITORY,seed_runtime=None):
             safe_path(source,p.relative_to(source).as_posix())
     workspace.mkdir(parents=True)
     before=manifest(source)
-    snapshot(source,workspace/'restore-point',folders=('knowledge','config','project','output','lab/research','lab/experiments','lab/ocean'))
+    snapshot(source,workspace/'restore-point',folders=('knowledge','config','project','output','lab/research','lab/experiments','lab/ocean','lab/learning','lab/inbox/learning'))
     recovery=restore(workspace/'restore-point',workspace/'restoration-check')
     code=workspace/'code';code.mkdir();runtime=workspace/'runtime';runtime.mkdir()
     for name in ('agent','scripts','config'):
@@ -79,7 +79,7 @@ def initialize(workspace,source=REPOSITORY,seed_runtime=None):
     (runtime/'output').mkdir();source_queue=safe_path(source,'output/queue.json')
     if source_queue.exists():shutil.copyfile(source_queue,runtime/'output/queue.json')
     # Existing source-side ledgers, experiments and sessions stay in the copy.
-    for name in ('research','ocean','experiments','artifacts'):
+    for name in ('research','ocean','experiments','artifacts','learning','inbox/learning'):
         folder=safe_path(source,'lab/'+name)
         if folder.exists():shutil.copytree(folder,runtime/('lab/'+name))
     if seed_runtime:
@@ -88,7 +88,7 @@ def initialize(workspace,source=REPOSITORY,seed_runtime=None):
         for k in ('items','fetch','http_calls'):q['daily'][k]=max(q['daily'][k],old['daily'][k])
         write(runtime,'output/queue.json',q)
         # Preserve known compute/model/session/experiment ledgers as well as caches.
-        for name in ('ocean','research','experiments','artifacts','runner'):
+        for name in ('ocean','research','experiments','artifacts','runner','learning','inbox/learning'):
             for p in safe_path(seed,'lab/'+name).rglob('*'):
                 safe_path(seed,p.relative_to(seed).as_posix())
                 if not p.is_file() or p.name in ('vdn.guard','vdn.lock'):continue

@@ -1,0 +1,18 @@
+test_no_export_loss_inferred_when_native_reference_has_no_green (tests.test_snow_mission.SnowMissionRules.test_no_export_loss_inferred_when_native_reference_has_no_green) ... FAIL
+
+======================================================================
+FAIL: test_no_export_loss_inferred_when_native_reference_has_no_green (tests.test_snow_mission.SnowMissionRules.test_no_export_loss_inferred_when_native_reference_has_no_green)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_snow_mission.py", line 37, in test_no_export_loss_inferred_when_native_reference_has_no_green
+    if row['method']=='procedural':self.assertEqual(row['state'],'INVALID_NATIVE_COMPARISON')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'REJECTED_FOR_THIS_EXPORT' != 'INVALID_NATIVE_COMPARISON'
+- REJECTED_FOR_THIS_EXPORT
++ INVALID_NATIVE_COMPARISON
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)

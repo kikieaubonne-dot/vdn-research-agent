@@ -1,0 +1,26 @@
+test_mcp_launch_refuses_modified_bundle_before_spawning (tests.test_start_now.StartNowChecks.test_mcp_launch_refuses_modified_bundle_before_spawning) ... FAIL
+
+======================================================================
+FAIL: test_mcp_launch_refuses_modified_bundle_before_spawning (tests.test_start_now.StartNowChecks.test_mcp_launch_refuses_modified_bundle_before_spawning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/vdn-research-agent/tests/test_start_now.py", line 47, in test_mcp_launch_refuses_modified_bundle_before_spawning
+    with self.assertRaisesRegex(ValueError,'bundle integrity'):SETUP.test_mcp(self.root)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/vdn-research-agent/PROLOGUE_START_NOW/WINDOWS/setup.py", line 62, in test_mcp
+    result=subprocess.run([sys.executable,'-B',str(source/'vdn_mcp.py'),'--root',str(runtime),'--v112'],input='\n'.join(json.dumps(m) for m in messages)+'\n',text=True,encoding='utf-8',capture_output=True,timeout=20,cwd=source,env=env,shell=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: must not execute corrupt source
+
+----------------------------------------------------------------------
+Ran 1 test in 0.078s
+
+FAILED (failures=1)

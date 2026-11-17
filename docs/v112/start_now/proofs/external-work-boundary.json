@@ -1,0 +1,24 @@
+{
+  "scope": "timestamps of last retained external work outputs, corroborated by logs; administrative closure later",
+  "deadline": "2026-11-17T11:09:11.193242+00:00",
+  "rows": [
+    {
+      "path": "runtime/lab/inbox/learning/official-capture-repair/raw.html",
+      "mtime_utc": "2026-11-17T11:08:39.449076+00:00",
+      "before_deadline": true,
+      "sha256": "6c094c6fa8a654e31e6251b69016c682bd2766caf5cbe336b60b2fc7e6f454c1"
+    },
+    {
+      "path": "runtime/lab/inbox/learning/snow-native-reference-v2/generation.log",
+      "mtime_utc": "2026-11-17T11:03:25.745455+00:00",
+      "before_deadline": true,
+      "sha256": "a88094ce2025c67cb38aa8d35c8f450de9b41c644b19fdefe619e2f06bb0ca87"
+    },
+    {
+      "path": "runtime/lab/inbox/learning/snow-native-reference-v2/inspection.log",
+      "mtime_utc": "2026-11-17T11:03:28.205512+00:00",
+      "before_deadline": true,
+      "sha256": "66b8393e6e62fc305bf577a32e31a8146d58bc1502fb75d94807bd6f95b26aa8"
+    }
+  ]
+}

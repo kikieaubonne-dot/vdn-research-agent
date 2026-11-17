@@ -1,0 +1,40 @@
+{
+  "schema": "vdn.proposed-mission-policy/1",
+  "state": "CLOSED_ONE_OFF_AUTHORIZATION_CONSUMED",
+  "enabled": false,
+  "mission": "snowy-spruce-first-benchmark",
+  "purpose": "Valider le cycle de recherche et développement dans une copie isolée, sans promesse de réalisme ni de compatibilité Studio.",
+  "wall_time_s": 900,
+  "additional_compute_s": 120,
+  "additional_http_calls": 8,
+  "content_storage_bytes": 33554432,
+  "tools": {
+    "blender": {
+      "threads": 1,
+      "max_process_s": 20,
+      "GPU": false,
+      "source": "owned isolated laboratory copies only"
+    },
+    "network": {
+      "existing_collectors_only": true,
+      "robots_retries_counted": true,
+      "no_access_bypass": true
+    },
+    "models": {
+      "enabled": false,
+      "download": false,
+      "remote_paid_API": false
+    }
+  },
+  "memory_GPU_policy": {
+    "RAM_monitoring": "existing diagnostic only; hard OS memory governor NOT_VALIDATED",
+    "GPU_jobs": 0
+  },
+  "max_identical_repair_attempts": 2,
+  "publication": false,
+  "persistent_service": false,
+  "counter_reset": false,
+  "external_quotas_mutable": false,
+  "rollback": "Close the temporary allowance, preserve counters, checkpoints, rejected variants and original runtime. No stable code/policy promotion.",
+  "effective_now": "Disabled. Approved once, evidence retained in FOREST_LAB/FOREST_AUTHORIZATION.json and FOREST_CLOSURE.json. This file is not an engine activation. Any future grant requires explicit approval."
+}

@@ -1,0 +1,20 @@
+test_article_survives_large_sphinx_navigation (tests.test_html_content.ArticleExtraction.test_article_survives_large_sphinx_navigation) ... ok
+test_article_warning_and_prerequisite_are_not_removed (tests.test_html_content.ArticleExtraction.test_article_warning_and_prerequisite_are_not_removed) ... ok
+test_nested_role_main_and_code_are_preserved (tests.test_html_content.ArticleExtraction.test_nested_role_main_and_code_are_preserved) ... ok
+test_plain_fragment_fallback (tests.test_html_content.ArticleExtraction.test_plain_fragment_fallback) ... ok
+test_script_navigation_and_footer_do_not_become_facts (tests.test_html_content.ArticleExtraction.test_script_navigation_and_footer_do_not_become_facts) ... ok
+test_article_selection_does_not_hide_access_challenge (tests.test_html_content.CaptureRegression.test_article_selection_does_not_hide_access_challenge) ... ok
+test_legacy_navigation_cache_does_not_trigger_implicit_refetch (tests.test_html_content.CaptureRegression.test_legacy_navigation_cache_does_not_trigger_implicit_refetch) ... ok
+test_legacy_navigation_capture_is_preserved_but_not_technical_evidence (tests.test_html_content.CaptureRegression.test_legacy_navigation_capture_is_preserved_but_not_technical_evidence) ... ok
+test_web_extracts_article_before_applying_byte_limit (tests.test_html_content.CaptureRegression.test_web_extracts_article_before_applying_byte_limit) ... ok
+test_cheaper_candidate_is_rejected_when_export_loses_snow (tests.test_snow_mission.SnowMissionRules.test_cheaper_candidate_is_rejected_when_export_loses_snow) ... ok
+test_failed_fallback_does_not_create_a_winner (tests.test_snow_mission.SnowMissionRules.test_failed_fallback_does_not_create_a_winner) ... ok
+test_no_export_loss_inferred_when_native_reference_has_no_green (tests.test_snow_mission.SnowMissionRules.test_no_export_loss_inferred_when_native_reference_has_no_green) ... ok
+test_production_catalog_exposes_independent_snow_and_material_branches (tests.test_snow_mission.SnowMissionRules.test_production_catalog_exposes_independent_snow_and_material_branches) ... ok
+test_snow_faces_point_up_for_normal_mask_comparison (tests.test_snow_mission.SnowMissionRules.test_snow_faces_point_up_for_normal_mask_comparison) ... ok
+test_unknown_texture_semantics_require_review (tests.test_snow_mission.SnowMissionRules.test_unknown_texture_semantics_require_review) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.184s
+
+OK
