@@ -14,3 +14,4 @@
 {"utc": "2026-11-16T06:33:31+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.925, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-16T11:46:49+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.925, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-16T17:04:49+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.925, "negatives_clean": 1.0, "planner_ok": 1.0}}
+{"utc": "2026-11-17T00:50:28+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.9, "negatives_clean": 1.0, "planner_ok": 1.0}}

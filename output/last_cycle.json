@@ -1,25 +1,12 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-16T17:04:03+00:00",
-  "finished": "2026-11-16T17:04:48+00:00",
+  "started": "2026-11-17T00:49:41+00:00",
+  "finished": "2026-11-17T00:50:28+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "spruce branch atlas",
+      "query": "pine tree mesh optimization",
       "topic": "spruce",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 0,
-      "rejected": 5,
-      "duplicates": 0,
-      "fetched": 5,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "large forest performance",
-      "topic": "forest",
       "depth": 0,
       "origin": "seed",
       "status": "done",
@@ -29,91 +16,177 @@
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-38cabb39874f",
-          "path": "knowledge/forest/38cabb39874f-microprofiler.md",
+          "id": "vdn-17ce482dd88d",
+          "path": "knowledge/vegetation/17ce482dd88d-skin-a-simple-mesh.md",
           "status": "documente",
-          "topic": "forest",
-          "query": "large forest performance",
-          "url": "https://create.roblox.com/docs/performance-optimization/microprofiler",
+          "topic": "spruce",
+          "query": "pine tree mesh optimization",
+          "url": "https://create.roblox.com/docs/art/modeling/skin-a-simple-mesh",
           "missing": [
-            "aucun parametre chiffre dans la source"
+            "aucune limite Roblox citee"
           ]
         }
       ],
-      "followups": [
-        {
-          "query": "large forest performance settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-38cabb39874f)",
-          "topic": "forest"
-        }
-      ]
+      "followups": []
     },
     {
-      "query": "Atmosphere Haze",
-      "topic": "lighting",
+      "query": "Player settings",
+      "topic": "forest",
       "depth": 1,
       "origin": "relance",
       "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [],
-      "followups": [
-        {
-          "query": "Atmosphere Haze step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "lighting"
-        }
-      ]
-    },
-    {
-      "query": "snow terrain material",
-      "topic": "snow",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 4,
+      "created": 3,
+      "rejected": 5,
+      "duplicates": 0,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-84b0dbab4cb6",
-          "path": "knowledge/snow/84b0dbab4cb6-invisible-terrain-bug.md",
+          "id": "vdn-390b00a59e4b",
+          "path": "knowledge/forest/390b00a59e4b-avatar-settings.md",
           "status": "candidat",
-          "topic": "snow",
-          "query": "snow terrain material",
-          "url": "https://devforum.roblox.com/t/1268524",
+          "topic": "forest",
+          "query": "Player settings",
+          "url": "https://create.roblox.com/docs/studio/avatar-settings",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-7cb447a5113c",
+          "path": "knowledge/forest/7cb447a5113c-problem-setting-a-player-s-face-decal-texture-id.md",
+          "status": "candidat",
+          "topic": "forest",
+          "query": "Player settings",
+          "url": "https://devforum.roblox.com/t/1277548",
           "missing": [
             "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-dc0fb8c0f0a2",
-          "path": "knowledge/snow/dc0fb8c0f0a2-how-to-detect-terrain-material.md",
+          "id": "vdn-0e6d296c236e",
+          "path": "knowledge/forest/0e6d296c236e-lighting-settings-saver.md",
           "status": "candidat",
-          "topic": "snow",
-          "query": "snow terrain material",
-          "url": "https://devforum.roblox.com/t/1274032",
+          "topic": "forest",
+          "query": "Player settings",
+          "url": "https://devforum.roblox.com/t/1240665",
           "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "snow terrain material tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-84b0dbab4cb6)",
+          "query": "Player settings tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-390b00a59e4b)",
+          "topic": "traversal"
+        },
+        {
+          "query": "Player settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "traversal"
+        }
+      ]
+    },
+    {
+      "query": "Atmosphere Density tutorial",
+      "topic": "lighting",
+      "depth": 2,
+      "origin": "relance",
+      "status": "done",
+      "created": 5,
+      "rejected": 3,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-2691c88af330",
+          "path": "knowledge/lighting/2691c88af330-use-case-tutorials.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Atmosphere Density tutorial",
+          "url": "https://create.roblox.com/docs/tutorials/use-case-tutorials/use-case-tutorial-overview",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-7a3826117dfd",
+          "path": "knowledge/lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Atmosphere Density tutorial",
+          "url": "https://devforum.roblox.com/t/1249386",
+          "missing": [
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-c2643257b3cc",
+          "path": "knowledge/lighting/c2643257b3cc-change-grass-density-and-height.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Atmosphere Density tutorial",
+          "url": "https://devforum.roblox.com/t/1223641",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-823b92f997eb",
+          "path": "knowledge/lighting/823b92f997eb-tessac2-copernicus-training-this-repository-hosts.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Atmosphere Density tutorial",
+          "url": "https://github.com/tessac2/copernicus-training",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-a784092cde44",
+          "path": "knowledge/lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Atmosphere Density tutorial",
+          "url": "https://github.com/stewartchrisecmwf/training",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "snowfall particles",
+      "topic": "snow",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [],
+      "followups": [
+        {
+          "query": "snowfall particles step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "snow"
         }
       ]
     }
   ],
-  "created": 3,
-  "fetched": 29,
-  "rejected": 26,
+  "created": 9,
+  "fetched": 32,
+  "rejected": 23,
   "followups_added": 3,
   "seeded": 0,
   "recovered": 0,
@@ -121,45 +194,45 @@
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 82,
+      "pending": 81,
       "running": 0,
-      "done": 18,
+      "done": 22,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-16",
-      "items": 8,
-      "fetch": 59
+      "date": "2026-11-17",
+      "items": 4,
+      "fetch": 32
     },
     "next": [
       {
-        "query": "pine tree mesh optimization",
+        "query": "foliage normal map",
         "topic": "spruce",
         "priority": 10.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "Player settings",
+        "query": "Player FrustumStreaming",
         "topic": "forest",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Atmosphere Density tutorial",
+        "query": "Atmosphere Density step by step implementation tutorial code",
         "topic": "lighting",
         "priority": 9.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "snowfall particles",
-        "topic": "snow",
+        "query": "Player settings tutorial",
+        "topic": "traversal",
         "priority": 9.0,
-        "depth": 0,
-        "origin": "seed"
+        "depth": 2,
+        "origin": "relance"
       },
       {
         "query": "viewmodel arms camera",

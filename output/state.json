@@ -314,7 +314,7 @@
     "flashlight SpotLight shadows": 2,
     "large forest performance": 2,
     "flashlight shadows forest": 2,
-    "snowfall particles": 1,
+    "snowfall particles": 2,
     "snow MaterialVariant": 2,
     "Atmosphere density haze": 1,
     "ColorCorrection horror": 1,
@@ -341,9 +341,12 @@
     "dense forest optimization": 1,
     "Atmosphere Density": 1,
     "spruce branch atlas": 1,
-    "Atmosphere Haze": 1
+    "Atmosphere Haze": 1,
+    "pine tree mesh optimization": 1,
+    "Player settings": 1,
+    "Atmosphere Density tutorial": 1
   },
-  "runs": 27,
+  "runs": 31,
   "errors": [],
   "rotation": 4
 }

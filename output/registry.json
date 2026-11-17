@@ -391,6 +391,42 @@
   "https://devforum.roblox.com/t/1274032": {
    "id": "vdn-dc0fb8c0f0a2",
    "path": "knowledge/snow/dc0fb8c0f0a2-how-to-detect-terrain-material.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/skin-a-simple-mesh": {
+   "id": "vdn-17ce482dd88d",
+   "path": "knowledge/vegetation/17ce482dd88d-skin-a-simple-mesh.md"
+  },
+  "https://create.roblox.com/docs/studio/avatar-settings": {
+   "id": "vdn-390b00a59e4b",
+   "path": "knowledge/forest/390b00a59e4b-avatar-settings.md"
+  },
+  "https://devforum.roblox.com/t/1277548": {
+   "id": "vdn-7cb447a5113c",
+   "path": "knowledge/forest/7cb447a5113c-problem-setting-a-player-s-face-decal-texture-id.md"
+  },
+  "https://devforum.roblox.com/t/1240665": {
+   "id": "vdn-0e6d296c236e",
+   "path": "knowledge/forest/0e6d296c236e-lighting-settings-saver.md"
+  },
+  "https://create.roblox.com/docs/tutorials/use-case-tutorials/use-case-tutorial-overview": {
+   "id": "vdn-2691c88af330",
+   "path": "knowledge/lighting/2691c88af330-use-case-tutorials.md"
+  },
+  "https://devforum.roblox.com/t/1249386": {
+   "id": "vdn-7a3826117dfd",
+   "path": "knowledge/lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl.md"
+  },
+  "https://devforum.roblox.com/t/1223641": {
+   "id": "vdn-c2643257b3cc",
+   "path": "knowledge/lighting/c2643257b3cc-change-grass-density-and-height.md"
+  },
+  "https://github.com/tessac2/copernicus-training": {
+   "id": "vdn-823b92f997eb",
+   "path": "knowledge/lighting/823b92f997eb-tessac2-copernicus-training-this-repository-hosts.md"
+  },
+  "https://github.com/stewartchrisecmwf/training": {
+   "id": "vdn-a784092cde44",
+   "path": "knowledge/lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori.md"
   }
  },
  "fingerprints": {
@@ -848,6 +884,40 @@
   "87559321396c7bbb": "vdn-dc0fb8c0f0a2",
   "3f915342c8246439": "vdn-dc0fb8c0f0a2",
   "13c1a866621f6b95": "vdn-dc0fb8c0f0a2",
-  "da518fef4627db0d": "vdn-99a165f41c5b"
+  "da518fef4627db0d": "vdn-99a165f41c5b",
+  "f47602b95450cadd": "vdn-0e6d296c236e",
+  "e9076dcbb61965c4": "vdn-0e6d296c236e",
+  "d43f949d97381a47": "vdn-7cb447a5113c",
+  "6d6fb9395baba8f7": "vdn-7cb447a5113c",
+  "69305eef9fec36f4": "vdn-33ff5379d700",
+  "e3de0195bffa0557": "vdn-33ff5379d700",
+  "6b60cc22a580468f": "vdn-33ff5379d700",
+  "4b8c855d086814b6": "vdn-33ff5379d700",
+  "f8af35c6edc0e124": "vdn-2691c88af330",
+  "fbf04f610b2f7d63": "vdn-2691c88af330",
+  "10bd59ceacfba7c9": "vdn-2691c88af330",
+  "8594e149bacf37a2": "vdn-2691c88af330",
+  "01c51aab5df79fce": "vdn-2691c88af330",
+  "7ee028167432c027": "vdn-2691c88af330",
+  "aa159698b12bd76e": "vdn-bd4862e0125e",
+  "35c83a64f70a39db": "vdn-bd4862e0125e",
+  "c8984d2ddff6572a": "vdn-bd4862e0125e",
+  "6a6ad8d88524a9c1": "vdn-bd4862e0125e",
+  "cc378117cde93215": "vdn-7a3826117dfd",
+  "df22c694ecc15212": "vdn-7a3826117dfd",
+  "a28cd4819d1cff17": "vdn-7a3826117dfd",
+  "8f3f3ff6690f34cc": "vdn-7a3826117dfd",
+  "ea8c30ee131af7cf": "vdn-c2643257b3cc",
+  "eaafec68baf8a8a7": "vdn-c2643257b3cc",
+  "e068c31c4544159d": "vdn-823b92f997eb",
+  "69a9ea9b0415a928": "vdn-823b92f997eb",
+  "6e3941efbfb893bf": "vdn-a784092cde44",
+  "b38ba64c3d9d298f": "vdn-a784092cde44",
+  "0150c380dd1d6d66": "vdn-a784092cde44",
+  "9241af90d05d395f": "vdn-a784092cde44",
+  "0aaa5bde666eb401": "vdn-fe96a48f86fd",
+  "7d585d939fc13d5b": "vdn-fe96a48f86fd",
+  "31b0ced34081585a": "vdn-d9f7dcc699ae",
+  "7f54d390046b312a": "vdn-d9f7dcc699ae"
  }
 }

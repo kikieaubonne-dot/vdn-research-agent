@@ -64,11 +64,25 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-17T00:49:53+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-17ce482dd88d"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794876581.9296925,
+      "finished_ts": 1794876593.015143
     },
     "9c482cd07099182c": {
       "key": "9c482cd07099182c",
@@ -437,11 +451,25 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-17T00:50:28+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "snowfall particles step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794876617.4077556,
+      "finished_ts": 1794876628.4753182
     },
     "112b264e87ab7e01": {
       "key": "112b264e87ab7e01",
@@ -1442,11 +1470,30 @@
       "depth": 1,
       "parent": "93d093b7a44d6d90",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-a97042f85138)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T22:40:54+00:00",
-      "updated": "2026-11-15T22:40:54+00:00",
-      "result": null
+      "updated": "2026-11-17T00:50:04+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-390b00a59e4b",
+          "vdn-7cb447a5113c",
+          "vdn-0e6d296c236e"
+        ],
+        "followups": [
+          "Player settings tutorial",
+          "Player settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794876593.0178182,
+      "finished_ts": 1794876604.362972
     },
     "e8be5cb91d09e23a": {
       "key": "e8be5cb91d09e23a",
@@ -1683,11 +1730,29 @@
       "depth": 2,
       "parent": "7d80e83e4696cf1a",
       "reason": "lacune : aucune etape exploitable (vdn-afa9d6ba6850)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-16T06:33:20+00:00",
-      "updated": "2026-11-16T06:33:20+00:00",
-      "result": null
+      "updated": "2026-11-17T00:50:17+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 5,
+        "rejected": 3,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-2691c88af330",
+          "vdn-7a3826117dfd",
+          "vdn-c2643257b3cc",
+          "vdn-823b92f997eb",
+          "vdn-a784092cde44"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794876604.3661468,
+      "finished_ts": 1794876617.4049962
     },
     "fd099bf1e3a3c756": {
       "key": "fd099bf1e3a3c756",
@@ -1763,11 +1828,56 @@
       "created": "2026-11-16T17:04:48+00:00",
       "updated": "2026-11-16T17:04:48+00:00",
       "result": null
+    },
+    "1ee3498164ebd592": {
+      "key": "1ee3498164ebd592",
+      "topic": "traversal",
+      "query": "Player settings tutorial",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "5b57235144b127ef",
+      "reason": "lacune : aucune etape exploitable (vdn-390b00a59e4b)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T00:50:04+00:00",
+      "updated": "2026-11-17T00:50:04+00:00",
+      "result": null
+    },
+    "fe9811081949a550": {
+      "key": "fe9811081949a550",
+      "topic": "traversal",
+      "query": "Player settings step by step implementation tutorial code",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "5b57235144b127ef",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T00:50:04+00:00",
+      "updated": "2026-11-17T00:50:04+00:00",
+      "result": null
+    },
+    "d4cda5fb243847f2": {
+      "key": "d4cda5fb243847f2",
+      "topic": "snow",
+      "query": "snowfall particles step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "706f4ce105f136dc",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T00:50:28+00:00",
+      "updated": "2026-11-17T00:50:28+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-16",
-    "items": 8,
-    "fetch": 59
+    "date": "2026-11-17",
+    "items": 4,
+    "fetch": 32
   }
 }

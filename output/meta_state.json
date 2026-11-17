@@ -52,16 +52,17 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 12,
         "accepted": 0,
         "new": 0,
-        "offtopic": 7,
+        "offtopic": 11,
         "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -86,9 +87,9 @@
         "reward": 0.0
       },
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
         "offtopic": 1,
@@ -96,6 +97,7 @@
         "errors": 0,
         "empty": 1,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -236,21 +238,22 @@
         "best_mean": 0.12
       },
       "synonyms": {
-        "n": 3,
-        "reward": 0.0,
-        "returned": 12,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 12,
+        "n": 4,
+        "reward": 0.332,
+        "returned": 16,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 14,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.332
         ],
-        "best_mean": 0.0
+        "best_mean": 0.083
       },
       "facet": {
         "n": 3,
@@ -290,9 +293,9 @@
         "returned": 3
       },
       "terms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
         "offtopic": 0,
@@ -300,6 +303,7 @@
         "errors": 0,
         "empty": 2,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0
@@ -372,12 +376,12 @@
     },
     "roblox_docs:spruce": {
       "terms": {
-        "n": 4,
-        "reward": 1.2027999999999999,
-        "returned": 9,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 8,
+        "n": 5,
+        "reward": 1.4627999999999999,
+        "returned": 13,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 11,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -385,7 +389,8 @@
           1.0,
           0.0,
           0.0028,
-          0.2
+          0.2,
+          0.26
         ],
         "best_mean": 1.0
       },
@@ -424,19 +429,20 @@
     },
     "roblox_docs:forest": {
       "terms": {
-        "n": 3,
-        "reward": 0.8,
-        "returned": 4,
-        "accepted": 3,
-        "new": 3,
-        "offtopic": 1,
+        "n": 4,
+        "reward": 0.932,
+        "returned": 8,
+        "accepted": 4,
+        "new": 4,
+        "offtopic": 4,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
           0.8,
           0.0,
-          0.0
+          0.0,
+          0.132
         ],
         "best_mean": 0.8
       },
@@ -514,16 +520,17 @@
         "best_mean": 0.3333
       },
       "facet": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
-        "offtopic": 4,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0
@@ -565,19 +572,20 @@
         "best_mean": 0.104
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.352,
-        "returned": 12,
+        "returned": 16,
         "accepted": 2,
         "new": 2,
-        "offtopic": 10,
+        "offtopic": 14,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.0,
           0.0,
-          0.352
+          0.352,
+          0.0
         ],
         "best_mean": 0.11733333333333333
       }
@@ -601,9 +609,9 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.188,
-        "returned": 2,
+        "returned": 6,
         "accepted": 0,
         "new": 0,
         "offtopic": 1,
@@ -613,7 +621,8 @@
         "recent": [
           0.0,
           0.0,
-          0.188
+          0.188,
+          0.0
         ],
         "best_mean": 0.06266666666666666
       },
@@ -637,19 +646,20 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 3,
-        "reward": 0.438,
-        "returned": 8,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 1,
-        "duplicates": 0,
+        "n": 4,
+        "reward": 0.874,
+        "returned": 12,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 2,
+        "duplicates": 2,
         "errors": 0,
         "empty": 1,
         "recent": [
           0.0,
           0.438,
-          0.0
+          0.0,
+          0.436
         ],
         "best_mean": 0.219
       },
@@ -725,12 +735,12 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 4,
-        "reward": 0.36,
-        "returned": 16,
-        "accepted": 3,
-        "new": 3,
-        "offtopic": 8,
+        "n": 5,
+        "reward": 0.6719999999999999,
+        "returned": 20,
+        "accepted": 5,
+        "new": 5,
+        "offtopic": 10,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -738,18 +748,19 @@
           0.06,
           0.0,
           0.3,
-          0.0
+          0.0,
+          0.312
         ],
-        "best_mean": 0.12
+        "best_mean": 0.1344
       }
     },
     "github:lighting": {
       "terms": {
-        "n": 3,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
+        "n": 4,
+        "reward": 0.492,
+        "returned": 4,
+        "accepted": 2,
+        "new": 2,
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
@@ -757,9 +768,10 @@
         "recent": [
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.492
         ],
-        "best_mean": 0.0
+        "best_mean": 0.123
       },
       "synonyms": {
         "n": 3,
