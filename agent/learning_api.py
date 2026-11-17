@@ -6,13 +6,13 @@ from agent.obsidian import safe_path
 
 
 def detail(root,question):
-    match=re.fullmatch(r'learning:(media|asset|discovery):([a-f0-9]{64})',question)
-    if not match:raise ValueError('expected learning:<media|asset|discovery>:<64 hex>')
+    match=re.fullmatch(r'learning:(media|asset|discovery|animation|vision):([a-f0-9]{64})',question)
+    if not match:raise ValueError('expected learning:<media|asset|discovery|animation|vision>:<64 hex>')
     kind,key=match.groups()
     if kind=='asset':
         from agent.learning_assets import read
         value=read(root,key)
-    else:value=get(root,'lab/learning/'+('media' if kind=='media' else 'discovery')+'/'+key)
+    else:value=get(root,'lab/learning/'+kind+'/'+key)
     if kind=='asset':
         paths=sorted(safe_path(root,'lab/learning/discovery').glob('*/result.json'))
         if len(paths)>50:raise ValueError('discovery lookup cap')
@@ -33,6 +33,7 @@ def brief(root,question,token_budget):
         a=r['inspection'];summary['inspection']={k:a[k] for k in ('blender_version','triangles','scene_mesh_triangles','units','Roblox_compatibility') if k in a}
         summary['inspection']['caution']='Structural counts do not prove pose or geometry roundtrip; inspect detail and comparison.'
     if 'comparison' in r:summary['comparison']=r['comparison']
+    if 'roundtrip' in r:summary['roundtrip']={k:r['roundtrip'][k] for k in ('state','criteria_version','max_joint_position_error','max_surface_error','max_skin_matrix_element_error','duration_error_s','samples_compared','Roblox') if k in r['roundtrip']}
     if r.get('related_method_comparisons'):
         summary['related_method_comparisons']=r['related_method_comparisons']
         summary['requires_comparison_review']=True

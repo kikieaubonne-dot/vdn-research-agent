@@ -1,0 +1,23 @@
+{
+  "game_animation": "3e11c5a154a5df5eef2df53c8dc7b3f3120e155ac7e581ff13f176472732eb78",
+  "meta_evidence_compression": {
+    "state": "MEASURED_REPORT_ONLY",
+    "reason": "Ocean storage cap prevented additional discovery-card reservation; no quota increased",
+    "trials": [
+      {
+        "case": "primary",
+        "decoded_json_bytes": 191577,
+        "gzip_bytes": 22679,
+        "saved_fraction": 0.8816194010763296,
+        "basis": "actual stored file; raw baseline size derived from decoded bytes, no timing/speedup claim"
+      },
+      {
+        "case": "transfer",
+        "decoded_json_bytes": 191204,
+        "gzip_bytes": 21177,
+        "saved_fraction": 0.8892439488713625,
+        "basis": "actual stored file; raw baseline size derived from decoded bytes, no timing/speedup claim"
+      }
+    ]
+  }
+}

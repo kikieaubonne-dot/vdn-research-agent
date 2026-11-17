@@ -1,7 +1,7 @@
 {
   "schema": "vdn.project-bible/11.2",
   "id": "le-voisin-de-noel",
-  "revision": 2,
+  "revision": 3,
   "provenance": "User autonomous laboratory mission, 2026-11-16; confirmed means design intention, never implementation proof.",
   "items": [
     {
@@ -120,22 +120,25 @@
       "id": "story",
       "section": "story",
       "status": "CONFIRMED",
-      "text": "Acte 1 : prologue joué par Léo, puis lobby et chapitre 1 joué par un policier ; la suite au grenier est envisagée.",
-      "provenance": "user:autonomous-lab:story"
+      "text": "Prologue : Léo à la maison, départ de Maëlle, poursuite, disparition, confrontation, appel à la police puis enquêteur jouable. Fin exacte UNKNOWN ; lobby et chapitre 1 conservés, articulation finale à confirmer.",
+      "provenance": "user:autonomous-lab:story",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
     },
     {
       "id": "timeline",
       "section": "chronology",
-      "status": "UNKNOWN",
-      "text": "Chronologie des événements et séquence de bêta à confirmer ; aucune date narrative inventée.",
-      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+      "status": "CONFIRMED",
+      "text": "Ordre humain confirmé A maison → B poursuite → C recherche/confrontation → D appel → E enquêteur. Fin F non choisie ; aucune date narrative inventée.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
     },
     {
       "id": "controls",
       "section": "controls",
-      "status": "UNKNOWN",
-      "text": "Touches, manette, tactile et règles de transition entre actions ne sont pas validés.",
-      "provenance": "user:V11.2:B2/context and explicit uncertainty policy"
+      "status": "CONFIRMED",
+      "text": "Première poursuite : seulement sprint Shift si nécessaire ; aucun apprentissage imposé de glissade, accroupissement, escalade ou enjambement. Apprentissage approfondi dans la phase enquêteur. Manette/tactile UNKNOWN.",
+      "provenance": "user:V11.2:B2/context and explicit uncertainty policy",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
     },
     {
       "id": "targets",
@@ -190,8 +193,9 @@
       "id": "police",
       "section": "characters",
       "status": "CONFIRMED",
-      "text": "Le policier est le personnage jouable du chapitre 1 ; gants, lampe et tenue tactique sont des objectifs de présentation.",
-      "provenance": "user:autonomous-lab:story"
+      "text": "Le policier devient jouable pendant la phase E du prologue ; le chapitre 1 déjà prévu reste à articuler avec cette transition. Gants, lampe et tenue tactique restent des objectifs de présentation.",
+      "provenance": "user:autonomous-lab:story",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
     },
     {
       "id": "postit",
@@ -220,6 +224,20 @@
       "status": "CONFIRMED",
       "text": "Problème de première bêta rapporté : joueurs perdus, trop de liberté et indices simultanés ; aucune télémétrie fournie.",
       "provenance": "user:autonomous-lab:reported-feedback"
+    },
+    {
+      "id": "prologue-end-undecided",
+      "section": "story",
+      "status": "UNKNOWN",
+      "text": "Fin exacte du prologue non approuvée. Mystère vers manoir, apparition ou indice anormal sont des propositions séparées.",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
+    },
+    {
+      "id": "prologue-design-timing",
+      "section": "priorities",
+      "status": "PROPOSED",
+      "text": "Hypothèses de design à tester : contrôle <10s, interaction <30s, mystère <60s, pas de cinématique non interactive >20s, durée cible 7–9min. Aucun résultat joueur mesuré.",
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
     }
   ],
   "questions": [
@@ -227,25 +245,25 @@
       "id": "playable",
       "text": "Quel personnage est jouable dans la première version ?",
       "status": "CONFIRMED",
-      "answer": "Léo au prologue ; policier au chapitre 1. Les autres rôles jouables ne sont pas confirmés.",
+      "answer": "Léo dans les phases A–D du prologue ; policier enquêteur jouable dès la phase E du prologue, puis chapitre 1 déjà prévu. Autres rôles et portée de bêta à confirmer.",
       "blocks": [
         "camera",
         "movement"
       ],
       "research_blocks": [],
-      "provenance": "user:V11.2:B3"
+      "provenance": "user:Mission Éponge V10:2026-11-17"
     },
     {
       "id": "motivation",
       "text": "Quelle est la motivation et l’objectif immédiat du joueur ?",
       "status": "CONFIRMED",
-      "answer": "Léo suit Maëlle dans la forêt ; le policier explore jusqu’à la maison au chapitre 1. Détails ultérieurs non confirmés.",
+      "answer": "Léo surveille Maëlle, la suit, recherche sa sœur disparue, échappe à la menace puis signale sa disparition. Phase E : le policier enquête dans la forêt ; suite et fin F non approuvées.",
       "blocks": [
         "architecture",
         "pursuit"
       ],
       "research_blocks": [],
-      "provenance": "user:V11.2:B3"
+      "provenance": "user:Mission Éponge V10:2026-11-17"
     },
     {
       "id": "beta",
@@ -1320,6 +1338,13 @@
       "id": "gameplay",
       "status": "PROPOSED",
       "title": "Gameplay"
+    }
+  ],
+  "decision_history": [
+    {
+      "source": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation",
+      "previous": "project/history/bible-before-mission-v10-r2.json",
+      "reason": "Recent explicit narrative and first-pursuit constraints supersede earlier generic movement/story notes."
     }
   ]
 }

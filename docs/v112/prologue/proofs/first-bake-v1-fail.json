@@ -1,0 +1,79 @@
+{
+  "schema": "vdn.animation-result/1",
+  "key": "13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667",
+  "state": "FAIL",
+  "spec": {
+    "schema": "vdn.animation-trial/1",
+    "input": "lab/inbox/learning/prologue-v2/prologue-proxies.blend",
+    "input_sha256": "227c15d0cc01ea88b94d393acc0ed7aede4f380fc6c67392c040c17da82ce306",
+    "actor": "father_proxy-IK",
+    "format": "glb",
+    "license": "OWN_CREATED",
+    "script_sha256": "968b88c5b112000a0ec664b9788e2cfbc5585469c0c06ceafc60575cafd51704",
+    "binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "poses": 25,
+    "method": "visual_bake",
+    "minimum_remaining_s": 8,
+    "extra_inputs": {
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/diagnostic.json": "c01cdf474024f8699e5747297ad966fe44bac42b3bae1b2da00376f76ae4c527",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/native.json.gz": "1e562d77e872d76578dcf989d78fc38489280dc3d57b2fcdbeef7ecc66f26329",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/imported.json.gz": "34e47e514b5fe5ebe3ab63aa5b29e3bbdaa351d936279ae37dbce7ad64e3ee8d",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.json.gz": "f1a547e7c7fa0c2b54fa407924bc84adf9850faeb543b7b2c6070f80f675ce25",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.glb": "e87b1e24545d7f971d68dc549b34c78a60863c185dfbdc766070f326a9f2a7d3",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.blend": "406a52aa0eb33b5e6ba80138b6c02d710d12f07def47cec62a1c5d42436cbd2e"
+    }
+  },
+  "native_to_baked": {
+    "state": "PASS",
+    "errors": [],
+    "max_joint_position_error": 2.4755668231600746e-07,
+    "max_surface_error": 2.682209014892578e-07,
+    "duration_error_s": 0.0,
+    "samples_compared": 25,
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "scope": "25 sampled poses and surface bounds/area centroids, not exhaustive continuous animation or Roblox validation",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "roundtrip": {
+    "state": "FAIL",
+    "errors": [
+      "joint_trajectory_changed"
+    ],
+    "max_joint_position_error": 0.14675442880084838,
+    "max_surface_error": 2.457562461863554e-07,
+    "duration_error_s": 0.0,
+    "samples_compared": 25,
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "scope": "25 sampled poses and surface bounds/area centroids, not exhaustive continuous animation or Roblox validation",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "execution": {
+    "bake": {
+      "exit_code": 0,
+      "elapsed_s": 3.104107812003349,
+      "log": "lab/learning/animation/13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/bake.log",
+      "sha256": "0a21909d8a3d7a4a172c26a4320c98d2f35a53ce1584b0a238f75f471ccb534e"
+    },
+    "independent_probe": {
+      "exit_code": 0,
+      "elapsed_s": 2.557923792002839,
+      "log": "lab/learning/animation/13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/probe.log",
+      "sha256": "08df0b3eab663547950a9ee5fda6930fd722bfd9e7eef13d93b203f3e8707743"
+    }
+  },
+  "scope": "Actual trusted-copy Blender trial only; no Studio, aesthetic or production compatibility claim",
+  "truth_verified": false,
+  "files": {
+    "bake.log": "0a21909d8a3d7a4a172c26a4320c98d2f35a53ce1584b0a238f75f471ccb534e",
+    "probe.log": "08df0b3eab663547950a9ee5fda6930fd722bfd9e7eef13d93b203f3e8707743",
+    "spec.json": "b8bdd03fa0672fbf03dcac96bcb31c71d4dc269840d3e2b114fd6ff010db5545"
+  },
+  "verified": false,
+  "reliable_memory_modified": false
+}

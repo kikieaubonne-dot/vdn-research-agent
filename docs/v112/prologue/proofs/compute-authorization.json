@@ -1,0 +1,18 @@
+{
+  "authorization": "Autoriser cette extension limit\u00e9e \u00e0 20 s",
+  "scope": "Blender bake/export/independent import, zero network; isolated runtime only",
+  "previous_limit_s": 60,
+  "new_limit_s": 80,
+  "carried_compute": {
+    "date": "2026-11-17",
+    "reserved_s": 59.59643073398911
+  },
+  "prior_runtime_unchanged": true,
+  "at": "2026-11-17T09:03:07.770312+00:00",
+  "state": "CLOSED_AFTER_AUTHORIZED_TRIALS",
+  "closed_at": "2026-11-17T09:42:11.524982+00:00",
+  "trial_compute_reserved_s": 77.05830780697579,
+  "original_limit_restored_s": 60,
+  "counters_preserved": true,
+  "reason": "One-off authorization does not create a recurring80s allowance. No further experiment started."
+}

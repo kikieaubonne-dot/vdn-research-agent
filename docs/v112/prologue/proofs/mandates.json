@@ -1,0 +1,67 @@
+{
+  "documents": [
+    {
+      "path": "/workspace/attachments/2fed0a72-9642-40eb-96ca-9c8ccd2c01fb/Texte collé.txt",
+      "title": "# MISSION CODEX — VDN RESEARCH AGENT V7",
+      "sha256": "6f585a3451b10c80c5701a7c6b36a7ed5a787e747a0a9f14065bca0c2bbb5868",
+      "bytes": 11774
+    },
+    {
+      "path": "/workspace/attachments/e8061b69-c2bd-4bd5-8863-b75a7ee5997d/Texte collé.txt",
+      "title": "# CODEX — MAJOR MODE",
+      "sha256": "0b7b3df124b4b39726c85f2d704881a63f55b063c6b0eee5233adc59ea4b6d86",
+      "bytes": 29530
+    },
+    {
+      "path": "/workspace/attachments/8628f1fe-91de-4ded-af9e-236d6ac9a465/Texte collé.txt",
+      "title": "# MISSION CODEX — L'ÉPONGE : LABORATOIRE AUTONOME, INTELLIGENCE TECHNIQUE ET RECHERCHE ANTICIPÉE POUR ROBLOX",
+      "sha256": "d93ff1d36df032c63ac520be66f4910c9c706cb010d8d72f4391509be97ffe14",
+      "bytes": 33694
+    },
+    {
+      "path": "/workspace/attachments/4f2689b4-e95f-4f89-9a05-c28b2b36f3f9/Texte collé.txt",
+      "title": "# MISSION CODEX — V11 « L'ÉPONGE OCÉAN »",
+      "sha256": "6428e6f3201f3e6f12abc4128afd29fa85f966e01473eca9b4bee9e3866b4081",
+      "bytes": 27911
+    },
+    {
+      "path": "/workspace/attachments/b0ce629d-76e4-4e8f-8fbd-692d3551031e/Texte collé.txt",
+      "title": "# CODEX — REPRISE CIBLÉE DE L’ÉPONGE V11.2 / CONTRAT V6.4",
+      "sha256": "8a7479ee02857c483097d602d3bbf73e096e5c6db7ebe6ad03694029acd85891",
+      "bytes": 64392
+    },
+    {
+      "path": "/workspace/attachments/cc0cfecf-2350-40d9-a2c1-458f591f4690/Texte collé.txt",
+      "title": "# L’ÉPONGE V9 — MISSION DE CONTINUATION, DÉCOUVERTE AUTONOME ET EXCELLENCE MESURÉE",
+      "sha256": "72885b0cd608129daf7ae82a2c1e4135dd9815746064dad7583226c4dc2d2e21",
+      "bytes": 19595
+    },
+    {
+      "path": "/workspace/attachments/bde25dd3-6404-4c7f-bc8c-26f2a2a8a772/Texte collé.txt",
+      "title": "CODEX — MISSION MAÎTRE V5 : L'ÉPONGE, LABORATOIRE AUTONOME ET PROGRÈS MESURABLE",
+      "sha256": "4df81fc0ec6933dd5e7a25cb8e6913f60576c25923fd05bc5201907c7e63be21",
+      "bytes": 51832
+    },
+    {
+      "path": "/workspace/attachments/994a1a6f-8262-4b9f-b0ea-19c0fba92dc5/Texte collé.txt",
+      "title": "# MISSION CODEX — V7.5 → V8 : AUTONOMOUS KNOWLEDGE ENGINE",
+      "sha256": "f26f7a58528b1dec06cd8c11a7d477f1878a20414ef1a52a566d6a02a675463b",
+      "bytes": 12335
+    },
+    {
+      "path": "/workspace/attachments/2f5af916-abf3-4baa-8189-f512cd0582e9/Texte collé.txt",
+      "title": "# CODEX — MAJOR MODE",
+      "sha256": "559b5e9686bb0a0d7d1ba5f019967d25a0ec69e17ebb707d63578c463e8b38d0",
+      "bytes": 15992
+    },
+    {
+      "path": "/workspace/attachments/2df36081-b0b2-44f1-b555-b2313a04850c/Texte collé.txt",
+      "title": "# MISSION CODEX — L'ÉPONGE V11.2",
+      "sha256": "10057c6385580119975d52e2d47927d7cc5f5cc5576eccc4ff71467f046d73e0",
+      "bytes": 20359
+    }
+  ],
+  "founding_requirements": 210,
+  "missing_requested_mandates": [],
+  "interpretation": "V8 attachment is titled V7.5→V8; newest V9 continuation takes precedence over older same-number product prompts. No other-chat access claimed."
+}

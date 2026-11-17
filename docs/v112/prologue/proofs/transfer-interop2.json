@@ -1,0 +1,86 @@
+{
+  "schema": "vdn.animation-result/1",
+  "key": "86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632",
+  "state": "PASS",
+  "spec": {
+    "schema": "vdn.animation-trial/1",
+    "input": "lab/inbox/learning/prologue-v2/prologue-proxies.blend",
+    "input_sha256": "227c15d0cc01ea88b94d393acc0ed7aede4f380fc6c67392c040c17da82ce306",
+    "actor": "transfer_proxy-IK",
+    "format": "glb",
+    "license": "OWN_CREATED",
+    "script_sha256": "9259b89972b7a5b001589bad61d78a1ecbc1f6d43645857614b7afbb7b5a8ca0",
+    "binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "criteria_version": "interop-2",
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "poses": 25,
+    "method": "visual_bake",
+    "minimum_remaining_s": 8,
+    "existing_export": null,
+    "existing_export_sha256": null,
+    "extra_inputs": {
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/diagnostic.json": "20163cf3f00044f4cb3ee351eac9d665bc09771d091fc8862a78718887bb1ab7",
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/native.json.gz": "d3d7d07b3c9389c27b3ca01586586a3f3a581f840c3fc54d92a6c6e4613c1a36",
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/imported.json.gz": "114381e131166513ae811e0438c27360fb7c7fa7d605fc74197f53ad54749fb1",
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/baked.json.gz": "382ab88a8d214a684be88517c119c4c3b65fb9b71acf830c96927cb5808a61a9",
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/baked.glb": "77662a46d941877646ec02e0c77f073c40539d66577cf85a58e9de6607b178a2",
+      "lab/inbox/learning/animation-86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/baked.blend": "742f485778979da1729b1a6b4d93d0550cc700484db229455015cca99150e65f"
+    }
+  },
+  "native_to_baked": {
+    "state": "PASS",
+    "criteria_version": "interop-2",
+    "errors": [],
+    "max_joint_position_error": 1.737759081973225e-07,
+    "max_surface_error": 2.4934411839666234e-07,
+    "max_skin_matrix_element_error": 3.5762786865234375e-07,
+    "max_display_tail_error": 1.737759081973225e-07,
+    "duration_error_s": 0.0,
+    "samples_compared": 25,
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "scope": "25 sampled poses, joint heads, skin matrices and surface bounds/area centroids; glTF display tails are reconstructed and separately reported; no exhaustive continuous animation or Roblox validation",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "roundtrip": {
+    "state": "PASS",
+    "criteria_version": "interop-2",
+    "errors": [],
+    "max_joint_position_error": 1.475139697881291e-07,
+    "max_surface_error": 2.4755668231600746e-07,
+    "max_skin_matrix_element_error": 6.258487701416016e-07,
+    "max_display_tail_error": 0.14675449374389032,
+    "duration_error_s": 0.0,
+    "samples_compared": 25,
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "scope": "25 sampled poses, joint heads, skin matrices and surface bounds/area centroids; glTF display tails are reconstructed and separately reported; no exhaustive continuous animation or Roblox validation",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "execution": {
+    "bake": {
+      "exit_code": 0,
+      "elapsed_s": 3.4071396170038497,
+      "log": "lab/learning/animation/86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/bake.log",
+      "sha256": "3904ae49fea2d24b1bb1a2ab9512101deb35d2adc4c79bf2073abdacb32ef282"
+    },
+    "independent_probe": {
+      "exit_code": 0,
+      "elapsed_s": 2.6875938089942792,
+      "log": "lab/learning/animation/86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632/probe.log",
+      "sha256": "da91c2aaea84b05688abac3ffcb22114c22ec7a828592dd2caeb91bec5e9aa4b"
+    }
+  },
+  "scope": "Actual trusted-copy Blender trial only; no Studio, aesthetic or production compatibility claim",
+  "truth_verified": false,
+  "files": {
+    "bake.log": "3904ae49fea2d24b1bb1a2ab9512101deb35d2adc4c79bf2073abdacb32ef282",
+    "probe.log": "da91c2aaea84b05688abac3ffcb22114c22ec7a828592dd2caeb91bec5e9aa4b",
+    "spec.json": "b6c472b7caa83bc47cdf4cd2afb36e78d97f0a6064f7a4d347a7347defd99d3c"
+  },
+  "verified": false,
+  "reliable_memory_modified": false
+}

@@ -11,6 +11,12 @@ class ProjectAPI(IntelligenceAPI):
         from agent.lab_mcp import LabAPI
         self.lab_api=LabAPI(root,allow_experiments)
     def synthesize_technical(self,question,apply=False,allow_model=False,retrieval='lexical'):
+        if question.startswith('prologue:'):
+            if apply or allow_model:raise PermissionError('prologue production consultation is read-only')
+            from agent.prologue import Prologue
+            if question not in ('prologue:resources','prologue:brief'):raise ValueError('select prologue:resources or prologue:brief')
+            work=Prologue(self.root)
+            return work.inventory() if question=='prologue:resources' else work.brief()
         if question.startswith('learning:'):
             if apply or allow_model:raise PermissionError('laboratory evidence consultation is read-only')
             from agent.learning_api import detail
@@ -41,6 +47,10 @@ class ProjectAPI(IntelligenceAPI):
         from agent.intelligence_evidence import VERSION
         return {**value,'historical_review_required':value.get('pipeline_version')!=VERSION}
     def get_intelligence_brief(self,question,token_budget=1800,key=None):
+        if not key and question.startswith('prologue:'):
+            if question not in ('prologue:resources','prologue:brief'):raise ValueError('unknown production consultation')
+            from agent.prologue import Prologue
+            return Prologue(self.root).brief(token_budget)
         if not key and question.startswith('learning:'):
             from agent.learning_api import brief
             return brief(self.root,question,token_budget)

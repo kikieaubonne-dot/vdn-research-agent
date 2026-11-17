@@ -1,17 +1,17 @@
 {
   "schema": "vdn.chapters/11.2",
-  "revision": 1,
-  "provenance": "explicit user narrative mission 2026-11-16; design, not game validation",
+  "revision": 2,
+  "provenance": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation",
   "act": {
     "id": "act1",
     "status": "CONFIRMED",
     "scope": "current game under development"
   },
   "work_focus": {
-    "chapter": "chapter1",
-    "scene": "chapter1-forest",
-    "status": "PROPOSED",
-    "reason": "operational focus follows the reported forest priority; not beta scope"
+    "chapter": "prologue",
+    "scene": "prologue-home",
+    "status": "CONFIRMED",
+    "reason": "explicit user Mission Codex Éponge V10, 2026-11-17; human design, not engine validation"
   },
   "chapters": [
     {
@@ -113,12 +113,12 @@
       "chapter": "prologue",
       "title": "Disparition et poursuite",
       "narrative_status": "CONFIRMED",
-      "objective": "Léo suit Maëlle ; cri, rire, silence et poursuite par le Père Noël.",
+      "objective": "Suivre Maëlle puis la rechercher après sa disparition ; aucun tutoriel complet imposé.",
       "player_actions": [
         "suivre Maëlle",
-        "apprendre le sprint",
-        "fuir vers les maisons",
-        "appeler la police"
+        "sprinter avec Shift si nécessaire",
+        "entendre « Lâchez-moi ! » puis « Ho, ho, ho »",
+        "objectif Retrouve Maëlle"
       ],
       "features": [
         {
@@ -174,7 +174,20 @@
         "human-approved test criteria"
       ],
       "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
-      "story_beats": [
+      "movement_policy": {
+        "status": "CONFIRMED",
+        "prompt_only_if_needed": [
+          "Shift sprint"
+        ],
+        "not_required": [
+          "crouch",
+          "slide",
+          "climb",
+          "vault"
+        ],
+        "deep_training": "prologue-investigator"
+      },
+      "previous_story_beats": [
         {
           "text": "Léo suit Maëlle, qui disparaît au loin.",
           "status": "CONFIRMED"
@@ -189,6 +202,20 @@
         },
         {
           "text": "Léo rejoint les habitations, voit le Père Noël retourner en forêt et appelle la police.",
+          "status": "CONFIRMED"
+        }
+      ],
+      "story_beats": [
+        {
+          "text": "Maëlle disparaît du champ de vision.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Lâchez-moi ! puis Ho, ho, ho.",
+          "status": "CONFIRMED"
+        },
+        {
+          "text": "Le joueur doit retrouver Maëlle ; seule introduction éventuelle au sprint.",
           "status": "CONFIRMED"
         }
       ]
@@ -563,6 +590,166 @@
           "status": "PROPOSED"
         }
       ]
+    },
+    {
+      "id": "prologue-confrontation",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Recherche et confrontation",
+      "narrative_status": "CONFIRMED",
+      "objective": "Indices possibles, silhouette inquiétante, chute/recul puis fuite interactive ; yeux rouges visibles dans obscurité.",
+      "player_actions": [],
+      "features": [
+        {
+          "task": "ground",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "lighting",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "pursuit",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": []
+    },
+    {
+      "id": "prologue-call",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Appel à la police",
+      "narrative_status": "CONFIRMED",
+      "objective": "Rejoindre un lieu sûr et signaler la disparition de Maëlle.",
+      "player_actions": [],
+      "features": [
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "audio",
+          "priority": "P1",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": []
+    },
+    {
+      "id": "prologue-investigator",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Enquêteur jouable",
+      "narrative_status": "CONFIRMED",
+      "objective": "Changer de rôle et enquêter ; introduire naturellement les mouvements approfondis, encore candidats.",
+      "player_actions": [],
+      "features": [
+        {
+          "task": "movement",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "interactions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        },
+        {
+          "task": "collisions",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": []
+    },
+    {
+      "id": "prologue-ending",
+      "act": "act1",
+      "chapter": "prologue",
+      "title": "Fin à décider",
+      "narrative_status": "UNKNOWN",
+      "objective": "Préparer des options séparées, sans choisir une fin officielle.",
+      "player_actions": [],
+      "features": [
+        {
+          "task": "guidance",
+          "priority": "P0",
+          "status": "PROPOSED",
+          "needs": "actual isolated scene, controller/assets, evidence and user tests"
+        }
+      ],
+      "existing": [],
+      "development": "UNKNOWN",
+      "validation": "NOT_TESTED",
+      "production_dependencies": [
+        "copy of scene/assets",
+        "actual controller",
+        "engine build and device",
+        "human-approved test criteria"
+      ],
+      "next_action": "Préparer les P0/P1 et contrôler les lacunes, sans valider le jeu.",
+      "story_beats": []
     }
   ],
   "open_decisions": [
@@ -605,5 +792,6 @@
       "status": "DEFERRED",
       "text": "Acte 2 futur ; seulement prévoir des indices en Cauchemar."
     }
-  ]
+  ],
+  "previous_revision": "project/history/chapters-before-mission-v10-r1.json"
 }

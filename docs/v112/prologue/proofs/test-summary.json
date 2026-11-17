@@ -1,0 +1,79 @@
+{
+  "source_parent_commit": "9821499822b16f2af91509bfc151480afd56f92b",
+  "environment": {
+    "OS": "Linux",
+    "Python": "3.12.14",
+    "Blender": "4.3.2",
+    "FFmpeg": "7.1.5"
+  },
+  "tests": {
+    "targeted": {
+      "count": 33,
+      "elapsed_s": 1.47,
+      "state": "PASS",
+      "log_sha256": "9597ca2acfba2d55c8e1bcd2cd00398636a4aabdeaaae472c8c8df685b98aa61"
+    },
+    "offline": {
+      "count": 611,
+      "elapsed_s": 70.996,
+      "state": "PASS",
+      "log_sha256": "553e11737f95016ae3c5c9ac999cb6715b753e7188d717d93fb2c4746fb61af5"
+    },
+    "personal_sequential": {
+      "count": 611,
+      "elapsed_s": 72.393,
+      "state": "PASS",
+      "log_sha256": "416a4557fa572b50bb7cdd78d5ab6a89d4f6e0ec505fd6a3d1329dbc03895ece"
+    },
+    "final_narrative": {
+      "count": 87,
+      "elapsed_s": 5.783,
+      "state": "PASS",
+      "log_sha256": "3bbaa3445f57d6f69749759427b23fc09b6af12982bb6bea9bebe40cca76deca"
+    }
+  },
+  "source_pin_sha256": "8941ebe4e571cde5d7c5a4e0af50b4f299a128e85e7a54c1534abd785a1b76ee",
+  "data_pin_sha256": "0c1a1293e0471de7ebe66bf711692574aab55d04a04bfa043cb8e917ac15003a",
+  "data_note": "Final text-only clarification of playable/motivation answers followed full suites;87 targeted narrative/project tests passed on final data. Software pin unchanged.",
+  "protected_files_checked": 123,
+  "protected_files_changed": [],
+  "historic_knowledge_markdown_preserved": 111,
+  "authorized_narrative_changes": [
+    "project/bible.json",
+    "project/BIBLE.md",
+    "project/chapters.json"
+  ],
+  "previous_narrative_bytes_archived_exactly": true,
+  "historical_contract": {
+    "DONE_VERIFIED": 55,
+    "PARTIAL": 118,
+    "BLOCKED": 29,
+    "NOT_TESTED": 8,
+    "global_promotions": 0
+  },
+  "runtime_compute_reserved_s": 77.05830780697579,
+  "runtime_compute_limit_s": 60,
+  "old_runtime_limit_s": 60,
+  "old_runtime_compute_preserved": 59.59643073398911,
+  "http_calls_carried": 9,
+  "fetch_attempts_carried": 5,
+  "new_http_calls": 0,
+  "real_model_calls": 0,
+  "new_Blender_roundtrip": "PASS_SCOPE_INTEROP2_ONLY",
+  "prologue_Studio": "NOT_TESTED",
+  "vision_real": "NOT_TESTED",
+  "YouTube": "NOT_VALIDATED",
+  "Windows": "NOT_TESTED",
+  "Claude_Desktop": "NOT_TESTED",
+  "FBX": "NOT_TESTED",
+  "Luau": "NOT_EXECUTED",
+  "autonomy": "STOPPED",
+  "overall": "PARTIAL",
+  "python311_static_syntax": {
+    "files": 7,
+    "state": "PASS_STATIC_ONLY"
+  },
+  "authorized_trial_ceiling_s": 80,
+  "temporary_extension_state": "CLOSED_COUNTERS_PRESERVED",
+  "remaining_today_s": 0
+}

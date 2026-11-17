@@ -1,0 +1,16 @@
+{
+  "version": "interop-2",
+  "reason": "Installed glTF importer vnode.py pick_bone_length explicitly reconstructs display bone lengths; original tail gate FAIL preserved. Deformation matrices replace display tails as a format-preserved invariant, same numeric tolerance.",
+  "tolerance": 1e-05,
+  "duration_tolerance": 1e-06,
+  "poses": 25,
+  "required": [
+    "joint heads",
+    "skin deformation matrices",
+    "surface bounds and area centroids",
+    "duration",
+    "topology"
+  ],
+  "display_tail": "record discrepancy, not an interoperable encoded quantity",
+  "changes_before_new_probe": true
+}

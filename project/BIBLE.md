@@ -1,7 +1,7 @@
 # Bible — Le Voisin de Noël [Horreur]
 
 Source : contexte utilisateur V11.2. CONFIRMED décrit une intention rapportée, pas un test moteur.
-Révision : 2 ; empreinte : `457fb7accd16cc78ff56ffc935056b03b7dc6daf65f5dd03f55cfae8e2336a0c`.
+Révision : 3 ; empreinte : `1bf923d5e88d05b74358f71338e14f817906c9a87d452bfdb12e814ffed25348`.
 
 ## vision
 
@@ -43,19 +43,20 @@ Révision : 2 ; empreinte : `457fb7accd16cc78ff56ffc935056b03b7dc6daf65f5dd03f55
 - **CONFIRMED** — Maëlle est la petite sœur de Léo ; dans le prologue elle croit entendre le Père Noël et part vers la forêt.
 - **CONFIRMED** — Le Père Noël est une menace du prologue et attaque le policier au chapitre 1, selon le récit fourni.
 - **CONFIRMED** — Léo, petit garçon, est le personnage jouable du prologue.
-- **CONFIRMED** — Le policier est le personnage jouable du chapitre 1 ; gants, lampe et tenue tactique sont des objectifs de présentation.
+- **CONFIRMED** — Le policier devient jouable pendant la phase E du prologue ; le chapitre 1 déjà prévu reste à articuler avec cette transition. Gants, lampe et tenue tactique restent des objectifs de présentation.
 
 ## story
 
-- **CONFIRMED** — Acte 1 : prologue joué par Léo, puis lobby et chapitre 1 joué par un policier ; la suite au grenier est envisagée.
+- **CONFIRMED** — Prologue : Léo à la maison, départ de Maëlle, poursuite, disparition, confrontation, appel à la police puis enquêteur jouable. Fin exacte UNKNOWN ; lobby et chapitre 1 conservés, articulation finale à confirmer.
+- **UNKNOWN** — Fin exacte du prologue non approuvée. Mystère vers manoir, apparition ou indice anormal sont des propositions séparées.
 
 ## chronology
 
-- **UNKNOWN** — Chronologie des événements et séquence de bêta à confirmer ; aucune date narrative inventée.
+- **CONFIRMED** — Ordre humain confirmé A maison → B poursuite → C recherche/confrontation → D appel → E enquêteur. Fin F non choisie ; aucune date narrative inventée.
 
 ## controls
 
-- **UNKNOWN** — Touches, manette, tactile et règles de transition entre actions ne sont pas validés.
+- **CONFIRMED** — Première poursuite : seulement sprint Shift si nécessaire ; aucun apprentissage imposé de glissade, accroupissement, escalade ou enjambement. Apprentissage approfondi dans la phase enquêteur. Manette/tactile UNKNOWN.
 
 ## performance
 
@@ -69,6 +70,7 @@ Révision : 2 ; empreinte : `457fb7accd16cc78ff56ffc935056b03b7dc6daf65f5dd03f55
 ## priorities
 
 - **PROPOSED** — P0 fonctionnement indispensable ; P1 horreur essentielle ; P2 amélioration non bloquante ; P3 reportable. Classement des tâches proposé et révisable après validation du scénario.
+- **PROPOSED** — Hypothèses de design à tester : contrôle <10s, interaction <30s, mystère <60s, pas de cinématique non interactive >20s, durée cible 7–9min. Aucun résultat joueur mesuré.
 
 ## dependencies
 
@@ -81,8 +83,8 @@ Révision : 2 ; empreinte : `457fb7accd16cc78ff56ffc935056b03b7dc6daf65f5dd03f55
 
 ## Questions non résolues
 
-- **CONFIRMED** — Quel personnage est jouable dans la première version ? Réponse : Léo au prologue ; policier au chapitre 1. Les autres rôles jouables ne sont pas confirmés.
-- **CONFIRMED** — Quelle est la motivation et l’objectif immédiat du joueur ? Réponse : Léo suit Maëlle dans la forêt ; le policier explore jusqu’à la maison au chapitre 1. Détails ultérieurs non confirmés.
+- **CONFIRMED** — Quel personnage est jouable dans la première version ? Réponse : Léo dans les phases A–D du prologue ; policier enquêteur jouable dès la phase E du prologue, puis chapitre 1 déjà prévu. Autres rôles et portée de bêta à confirmer.
+- **CONFIRMED** — Quelle est la motivation et l’objectif immédiat du joueur ? Réponse : Léo surveille Maëlle, la suit, recherche sa sœur disparue, échappe à la menace puis signale sa disparition. Phase E : le policier enquête dans la forêt ; suite et fin F non approuvées.
 - **UNKNOWN** — Quelle séquence jouable doit être terminée pour la bêta ?
 - **UNKNOWN** — La première version est-elle solo ou coopérative ?
 - **UNKNOWN** — Quels appareils et budgets de performance doivent être validés pour la bêta ?

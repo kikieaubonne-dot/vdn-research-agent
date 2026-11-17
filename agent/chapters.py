@@ -80,6 +80,9 @@ class Chapters:
     'source_references':[{'url':p['url'],'document_id':p['document_id'],'passage_id':p['id'],'section':p['section'],'version':p['version'],'original_snapshot':p['independent'],'incomplete':p['incomplete_context']} for p in refs[:2]],
     'source_scope':'retrieval candidates, not a verified justification of the procedure','gaps':['scene-specific evidence and engine/build applicability to verify'],'failed_experiments':[r['id'] for r in failures],'next_action':'Inspecter les conditions de l’échec avant une nouvelle hypothèse.' if failures else task['next_action'],'detail_question':task['id']})
   out={'schema':'vdn.chapter-brief/11.2','chapter':plan['chapter'],'chapter_hash':self.fingerprint,'engine_version_filtered_documents':len(all_docs)-len(docs),'objective':'Préparer les tâches du chapitre, sans confirmer les détails proposés ni exécuter le jeu.','tasks':rows,'omitted_tasks':[],'horizons':{'A':'current chapter research','B':'next chapter dependencies','C':'future watch only'},'state':'PARTIAL','facts':[],'truth_verified':False,'visual_analysis_performed':False,'engine_executed':False,'risk':'sources and engine/build applicability require validation; do not transfer Unreal features directly','rollback':'Restaurer les copies témoins, conserver les preuves et budgets ; aucune publication.','detail':'synthesize_technical for each detail_question; plan_ocean for all scenes and dependencies'}
+  if plan['chapter']['id']=='prologue' and safe_path(self.root,'project/prologue.json').exists():
+   from agent.prologue import Prologue
+   production=Prologue(self.root);out['production_constraints']=production.data['confirmed_constraints'];out['ending_status']='UNKNOWN';out['production_detail_question']='prologue:resources'
   while len(json.dumps(out,ensure_ascii=False))>token_budget*3.6:
    if out['tasks']:out['omitted_tasks'].insert(0,out['tasks'].pop()['task'])
    else:

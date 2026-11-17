@@ -1,0 +1,59 @@
+{
+  "schema": "vdn.animation-before-after/1",
+  "comparisons": [
+    {
+      "actor": "father_proxy-IK",
+      "metric": "max joint-head distance at same three normalized times (0,.5,1), all16 joints",
+      "before": 0.4137673633603655,
+      "after": 1.4901161193847656e-07,
+      "roundtrip_25": {
+        "state": "PASS",
+        "criteria_version": "interop-2",
+        "errors": [],
+        "max_joint_position_error": 2.874031889734553e-07,
+        "max_surface_error": 2.6151431761360534e-07,
+        "max_skin_matrix_element_error": 5.811452865600586e-07,
+        "max_display_tail_error": 0.1467544029891291,
+        "duration_error_s": 0.0,
+        "samples_compared": 25,
+        "position_tolerance": 1e-05,
+        "duration_tolerance": 1e-06,
+        "scope": "25 sampled poses, joint heads, skin matrices and surface bounds/area centroids; glTF display tails are reconstructed and separately reported; no exhaustive continuous animation or Roblox validation",
+        "Roblox": "NOT_TESTED",
+        "human_approved": false
+      },
+      "new_evidence_key": "7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523",
+      "old_import_key": "8f05d5c62cb6da8e0a7edd1f38f98b5d1c571ecdf5d1cf5d9e5475e91ad790e0"
+    },
+    {
+      "actor": "transfer_proxy-IK",
+      "metric": "max joint-head distance at same three normalized times (0,.5,1), all16 joints",
+      "before": 0.4089150832094238,
+      "after": 1.1944238371742095e-07,
+      "roundtrip_25": {
+        "state": "PASS",
+        "criteria_version": "interop-2",
+        "errors": [],
+        "max_joint_position_error": 1.475139697881291e-07,
+        "max_surface_error": 2.4755668231600746e-07,
+        "max_skin_matrix_element_error": 6.258487701416016e-07,
+        "max_display_tail_error": 0.14675449374389032,
+        "duration_error_s": 0.0,
+        "samples_compared": 25,
+        "position_tolerance": 1e-05,
+        "duration_tolerance": 1e-06,
+        "scope": "25 sampled poses, joint heads, skin matrices and surface bounds/area centroids; glTF display tails are reconstructed and separately reported; no exhaustive continuous animation or Roblox validation",
+        "Roblox": "NOT_TESTED",
+        "human_approved": false
+      },
+      "new_evidence_key": "86eb50f9e07e8a0a318473653c6a1c93ac47e3cab9b95167487e28cada88f632",
+      "old_import_key": "e6aad0919d071fb8ae977dcaca6b2ad79242027dfb3c4aa1274a4a323467b5ac"
+    }
+  ],
+  "first_v1_gate": "FAIL retained: display tails reconstructed by importer; native-to-baked PASS",
+  "criteria_revision": "interop-2 defined before fresh probes: compare skin matrices and joint heads, record display tails separately; unchanged tolerances",
+  "baseline_metric_scope": "The before/after column uses the same three times and joint positions; new25-pose metrics are reported separately.",
+  "new_research_network_calls": 0,
+  "human_approved": false,
+  "Roblox": "NOT_TESTED"
+}

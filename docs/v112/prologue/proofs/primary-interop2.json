@@ -1,0 +1,68 @@
+{
+  "schema": "vdn.animation-result/1",
+  "key": "7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523",
+  "state": "PASS",
+  "spec": {
+    "schema": "vdn.animation-trial/1",
+    "input": "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.blend",
+    "input_sha256": "406a52aa0eb33b5e6ba80138b6c02d710d12f07def47cec62a1c5d42436cbd2e",
+    "actor": "father_proxy-IK",
+    "format": "glb",
+    "license": "OWN_CREATED",
+    "script_sha256": "9259b89972b7a5b001589bad61d78a1ecbc1f6d43645857614b7afbb7b5a8ca0",
+    "binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "criteria_version": "interop-2",
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "poses": 25,
+    "method": "reopen_and_compare_existing",
+    "minimum_remaining_s": 5,
+    "existing_export": "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.glb",
+    "existing_export_sha256": "e87b1e24545d7f971d68dc549b34c78a60863c185dfbdc766070f326a9f2a7d3",
+    "extra_inputs": {
+      "lab/inbox/learning/animation-7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523/native.json.gz": "cbe30255aa72a1c2862875828743a599256893dcce586c3c574ede3e4da61ba2",
+      "lab/inbox/learning/animation-7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523/imported.json.gz": "6e30ddcaea6b060b50ac0a0a997732c6b7ab627a882d6fe3d2e40773de772a5f",
+      "lab/inbox/learning/animation-13b6d6383609098ca5e774b86265297e9503c3bff389d59d7e27bc87e05af667/baked.glb": "e87b1e24545d7f971d68dc549b34c78a60863c185dfbdc766070f326a9f2a7d3"
+    }
+  },
+  "native_to_baked": null,
+  "roundtrip": {
+    "state": "PASS",
+    "criteria_version": "interop-2",
+    "errors": [],
+    "max_joint_position_error": 2.874031889734553e-07,
+    "max_surface_error": 2.6151431761360534e-07,
+    "max_skin_matrix_element_error": 5.811452865600586e-07,
+    "max_display_tail_error": 0.1467544029891291,
+    "duration_error_s": 0.0,
+    "samples_compared": 25,
+    "position_tolerance": 1e-05,
+    "duration_tolerance": 1e-06,
+    "scope": "25 sampled poses, joint heads, skin matrices and surface bounds/area centroids; glTF display tails are reconstructed and separately reported; no exhaustive continuous animation or Roblox validation",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "execution": {
+    "bake": {
+      "exit_code": 0,
+      "elapsed_s": 2.2906112609925913,
+      "log": "lab/learning/animation/7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523/bake.log",
+      "sha256": "cd8bc07bef63bda6e4855ca330d9cc4df4acec4044749970bd9839edd8ee80e6"
+    },
+    "independent_probe": {
+      "exit_code": 0,
+      "elapsed_s": 2.7628610889951233,
+      "log": "lab/learning/animation/7849ea8324d87ac30e9aa67ef731ba115041eaf014a31844a326b72557ae4523/probe.log",
+      "sha256": "a07a47a592b8b6ed5c7e72f7db3a3acf9b0835ab807e9aaa352d620542158d97"
+    }
+  },
+  "scope": "Actual trusted-copy Blender trial only; no Studio, aesthetic or production compatibility claim",
+  "truth_verified": false,
+  "files": {
+    "bake.log": "cd8bc07bef63bda6e4855ca330d9cc4df4acec4044749970bd9839edd8ee80e6",
+    "probe.log": "a07a47a592b8b6ed5c7e72f7db3a3acf9b0835ab807e9aaa352d620542158d97",
+    "spec.json": "794f6c40a73755f7a1dc0b4f46408d180419a0e8a904e83ce60d3d43e8eac544"
+  },
+  "verified": false,
+  "reliable_memory_modified": false
+}

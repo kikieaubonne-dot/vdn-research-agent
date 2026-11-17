@@ -1,0 +1,10 @@
+{
+  "head": "9821499822b16f2af91509bfc151480afd56f92b",
+  "branch": "codex/project-intelligence-v11-2",
+  "status": " M output/queue.json\n?? work/\n",
+  "budget": {
+    "date": "2026-11-17",
+    "reserved_s": 59.59643073398911
+  },
+  "inherited_test_pin_valid": true
+}
