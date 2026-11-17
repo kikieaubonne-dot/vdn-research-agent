@@ -1,0 +1,51 @@
+{
+  "schema": "vdn.real-executable-recovery-proof/1",
+  "validation": {
+    "schema": "vdn.validation-result/1",
+    "state": "PASS",
+    "exit_code": 0,
+    "timeout_or_log_failure": false,
+    "pinned_inputs_changed": false,
+    "suite": "offline",
+    "elapsed_s": 53.46268897000118,
+    "manifest_sha256": "9a00d4f703927b6d3934607d77e83aa316f9fba4a5a0e8a7e601c28c3272382c",
+    "log_sha256": "591d4190c433453f6a0b7c1066b06a0f6024496c8c4e7c8d6a1175033b6d7d17",
+    "promoted": false,
+    "scope": "real software checks, no game or semantic quality inferred"
+  },
+  "seal": {
+    "state": "SEALED_TESTED_IMAGE",
+    "image_sha256": "ca478bbaf1e50475d546457b7ed4d420fcb858659ee5f4de7b4f23c3cb545272",
+    "files": 94,
+    "promoted": false
+  },
+  "corrupt_primary_refused": true,
+  "receipt": {
+    "schema": "vdn.executable-recovery/1",
+    "state": "RECOVERED_DISABLED",
+    "approved_image_sha256": "ca478bbaf1e50475d546457b7ed4d420fcb858659ee5f4de7b4f23c3cb545272",
+    "copied_files": 314,
+    "runtime_files_unchanged": true,
+    "checkpoint_preserved": true,
+    "budget_reset": false,
+    "old_workspace_retained": true,
+    "automatic_promotion": false,
+    "automatic_start": false,
+    "requires": "explicit diagnostic and start on the new workspace"
+  },
+  "same_current_runtime_hashes": true,
+  "checkpoint_bytes_preserved": true,
+  "MCP_real_stdio_tools": 27,
+  "retrieved_actual_experiment": "1d091a01-2012-5e4f-b86c-c3f02832a2b9",
+  "mission_enabled_after_recovery": false,
+  "runtime_daily": {
+    "date": "2026-11-17",
+    "fetch": 5,
+    "http_calls": 9,
+    "items": 0
+  },
+  "new_network_calls": 0,
+  "permanent_service": false,
+  "automatic_live_failover": "NOT_IMPLEMENTED",
+  "scope": "explicit laboratory image approval and disposable recovery only; no production promotion"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "vdn.monotonic-budget-reconciliation/1",
+  "before": {
+    "date": "2026-11-17",
+    "fetch": 2,
+    "http_calls": 9,
+    "items": 0
+  },
+  "after": {
+    "date": "2026-11-17",
+    "fetch": 5,
+    "http_calls": 9,
+    "items": 0
+  },
+  "reason": "Three pre-fix fetch reservations were incorrectly charged as HTTP. Restore their missing fetch accounting upward only; retain the three extra conservative HTTP charges.",
+  "actual_HTTP_attempts": 6,
+  "observed_fetch_attempts": 5,
+  "counters_decreased": false,
+  "prior_day_preserved_in": "INITIAL_STATE.json and targeted-research.json",
+  "personal_source_queue_modified": false
+}

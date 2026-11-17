@@ -191,9 +191,12 @@ def operation(root,fn):
     with Lock(root,7200):
         q=ResearchQueue(root,recover=False);day=q.daily();cfg=research_config(root)
         def checkpoint(resource):
-            limit=q.cfg['daily']['max_http_calls']
-            if day['http_calls']>=limit:raise budget.BudgetExhausted('daily HTTP limit',scope='daily',resource='http_calls',limit=limit,used=day['http_calls'])
-            day['http_calls']+=1;q.save()
+            # A collection attempt can be served from cache or refused by policy.
+            # Only request() reserves HTTP; fetch_attempt() has its own ledger.
+            if resource not in ('fetch','http_calls'):raise ValueError('unknown budget resource')
+            limit=q.cfg['daily']['max_fetch' if resource=='fetch' else 'max_http_calls']
+            if day[resource]>=limit:raise budget.BudgetExhausted('daily '+resource+' limit',scope='daily',resource=resource,limit=limit,used=day[resource])
+            day[resource]+=1;q.save()
         path=safe_path(root,'lab/ocean/intelligence/compute.json');date=dt.datetime.now(dt.timezone.utc).date().isoformat()
         prior=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
         compute=prior if prior.get('date')==date else {'date':date,'reserved_s':0}

@@ -1,0 +1,16 @@
+{
+  "origin": "inherited artifact checked; existing regression rerun within557",
+  "scope": "marked Markdown captions only",
+  "observed": {
+    "before": {
+      "caption_facts": 10,
+      "facts_total": 20,
+      "cards": 5
+    },
+    "after": {
+      "caption_facts": 0,
+      "facts_total": 14,
+      "cards": 5
+    }
+  }
+}

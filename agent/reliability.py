@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 import shutil
 import sqlite3
+import sys
 import tempfile
 import uuid
 
@@ -21,12 +22,8 @@ def checksum(path):
 
 
 def redact(value):
-    text=str(value)
-    text=re.sub(r'(?i)(bearer\s+|(?:api[_-]?key|token|password|secret)\s*[:=]\s*)[^\s,;]+',r'\1[REDACTED]',text)
-    text=re.sub(r'(?:github_pat_|gh[pousr]_|sk-)[A-Za-z0-9_-]{15,}','[REDACTED]',text)
-    text=re.sub(r'(?i)[A-Z]:[\\/](?:Users|Documents and Settings)[\\/][^\s\n]+','<private-path>',text)
-    text=re.sub(r'/(?:home|Users)/[^\s\n]+','<private-path>',text)
-    return ''.join(c for c in text if c in '\n\t' or ord(c)>=32)[:4000]
+    from scripts.eponge_guard import redact as redact_log
+    return redact_log(value)[:4000]
 
 
 def manifest(root, folders=('knowledge','config','project')):
@@ -105,6 +102,11 @@ class BlackBox:
         symptom=redact(symptoms);identity=hashlib.sha256(clean_json([component,operation,symptom,exception_type]).encode()).hexdigest()[:24]
         with lab_lock(self.root,'.blackbox'):
             old=self.incidents().get(identity,{});now=dt.datetime.now(dt.timezone.utc).isoformat()
+            # A recurrence must not erase an earlier safety escalation. Only a
+            # separate explicit operator review can justify reducing severity.
+            order=('LOW','MEDIUM','HIGH','CRITICAL')
+            severity=max((severity,old.get('severity',severity)),key=order.index)
+            requires_human=requires_human or old.get('requires_human',False)
             e={'schema_version':'vdn.incident/1','incident_id':identity,'first_seen':old.get('first_seen',now),'last_seen':now,'occurrences':old.get('occurrences',0)+1,'severity':severity,'component':component,'operation':operation,'environment':'current runtime only','status':'BLOCKED' if requires_human else 'OPEN','symptoms':symptom,'expected':'bounded successful operation with preserved protected inputs','observed':symptom,'reproduction':{'operation':operation,'scope':'isolated runtime'},'exception_type':exception_type,'stack_trace_redacted':'','log_refs':[],'artifact_refs':[],'suspected_causes':[{'status':'HYPOTHESIS','text':'Cause not established; use the scoped reproduction.'}],'confidence':'unknown','attempted_fixes':old.get('attempted_fixes',[]),'verification':None,'recommended_next_step':'Inspect retained evidence; do not change permissions or critical code automatically.','requires_human':requires_human,'related_incidents':[]}
             self._append(e);return self.incidents()[e['incident_id']]
     def attempt(self,incident_id,action):
@@ -124,8 +126,17 @@ class BlackBox:
     def fallback(self,component,exc):
         # No overwrite of good telemetry; report failure remains visible to caller.
         p=self.path('emergency-'+uuid.uuid4().hex+'.json')
-        atomic_write(p,clean_json({'schema':'vdn.emergency/1','state':'DIAGNOSTIC_UNAVAILABLE','component':component,'exception_type':type(exc).__name__,'message':redact(exc)}),create_only=True)
-        return p
+        record={'schema':'vdn.emergency/1','state':'DIAGNOSTIC_UNAVAILABLE','component':component,'exception_type':type(exc).__name__,'message':redact(exc),'primary_failed':False}
+        try:
+            atomic_write(p,clean_json(record),create_only=True);return p
+        except (OSError,ValueError):record['primary_failed']=True
+        try:
+            folder=Path(tempfile.mkdtemp(prefix='eponge-emergency-',dir=tempfile.gettempdir()));p=folder/'incident.json'
+            atomic_write(p,clean_json(record),create_only=True);return p
+        except (OSError,ValueError):return None
+        finally:
+            try:sys.stderr.write(json.dumps({'state':'DIAGNOSTIC_UNAVAILABLE','component':component,'exception_type':type(exc).__name__,'primary_failed':True})+'\n');sys.stderr.flush()
+            except (OSError,ValueError):pass
     def report(self):
         items=self.incidents();active=[e for e in items.values() if e['status']!='RESOLVED']
         text='# HEALTH REPORT\n\nState: '+('BLOCKED' if any(e['severity']=='CRITICAL' for e in active) else 'DEGRADED' if active else 'NO_RECORDED_INCIDENTS')+'\n\nNo recorded incident is not universal health.\n'

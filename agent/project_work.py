@@ -14,7 +14,7 @@ from agent.project_quality import quality,drift
 from agent.project_recipes import recipe
 from agent.storage import atomic_write
 
-VERSION='project-11.2.3'
+VERSION='project-11.2.4'
 
 
 def bound_experiments(root,task_id):
@@ -63,7 +63,7 @@ class Project:
         from agent.project_visual import references
         from agent.visual_description import descriptions
         diagnostics=[];docs=documents(self.root,diagnostics)
-        return digest({'bible':self.bible.fingerprint,'pipeline':pipeline_version,'configuration':im.settings(self.root),
+        return digest({'bible':self.bible.fingerprint,'pipeline':pipeline_version,'project_pipeline':VERSION,'configuration':im.settings(self.root),
             'sources':[{k:d[k] for k in ('id','sha256','version','conditions','truncated','independent')} for d in docs],
             'expired':[d['id'] for d in docs if d['retrieved_at'] and time.time()-d['retrieved_at']>86400],
             'diagnostics':diagnostics,
@@ -219,6 +219,7 @@ class Project:
             'implementation':[{'component':s['component'],'input':s['input'],'action':s['action'],'expected':s['expected_observation']} for s in steps],
             'sources':sources,'source_attribution_available':bool(card['quality']['facts']) and not card.get('inputs_obsolete') and not card.get('project_revision_obsolete'),'evidence_scope':card['confidence']['states'],'risks':card['risks'],
             'tests':card['test'],'rollback':card['rollback'],'uncertainties':card['quality']['issues'],
+            'other_asset_failures':[{'id':r['id'],'reported_outcome':'FAILED','scope':'other recorded assets; inspect before transfer'} for r in card['quality'].get('other_context_failures',[])[:4]],
             'question':card['quality']['blocking_questions'][0]['text'] if card['quality']['blocking_questions'] else None,
             'next_action':card['next_action'],'project_revision_obsolete':card.get('project_revision_obsolete',False)}
         if card.get('inputs_obsolete') or card.get('project_revision_obsolete'):

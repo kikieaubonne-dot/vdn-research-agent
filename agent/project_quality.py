@@ -8,6 +8,20 @@ STATES=('SOURCE_DOCUMENTED','ENGINEERING_PROPOSAL','TESTED_IN_ISOLATION','TESTED
         'TESTED_IN_ROBLOX','HUMAN_APPROVED','FAILED','OBSOLETE')
 
 
+def failure_applies_to_assets(record,task):
+    """Unknown/overlapping reported asset scopes block; explicit disjoint scopes
+    remain visible history. This is no independent attestation of either asset.
+    Exact failed-method retry guards and human approval remain unchanged.
+    """
+    conditions=record['results'][-1]['conditions'] if record.get('results') else record
+    assets=conditions.get('environment',{}).get('asset_ids')
+    target=task.get('assets')
+    uncertain={'unknown','inconnu','inconnue','unspecified','n/a','none','null','?'}
+    known=lambda value:isinstance(value,list) and bool(value) and all(isinstance(s,str) and s.strip() and s.strip().casefold() not in uncertain for s in value)
+    normalized=lambda value:{s.strip().casefold() for s in value}
+    return not (known(assets) and known(target) and normalized(assets).isdisjoint(normalized(target)))
+
+
 def quality(bible,task,analysis,proposal,dependency_states=None,records=None):
     dependency_states={} if dependency_states is None else dependency_states
     selected={p['id']:p for p in analysis['passages']};issues=[];valid=[];seen=set();sources=[]
@@ -36,7 +50,7 @@ def quality(bible,task,analysis,proposal,dependency_states=None,records=None):
     # Only explicitly task-bound reports can establish test scope. Lexical
     # similarity by itself is not evidence that B3/C1 or this project was tested.
     records=LabStore(bible.root).find(task['query'],limit=20)['experiments'] if records is None else records
-    tests=[];approved=[];failures=[]
+    tests=[];approved=[];failures=[];other_context_failures=[]
     for r in records:
         env=r['environment'];bound=env.get('project_task')==task['id'] or r['parameters'].get('project_task')==task['id']
         if not bound:continue
@@ -55,10 +69,12 @@ def quality(bible,task,analysis,proposal,dependency_states=None,records=None):
                       'declared_engine':kind,'engine_execution_human_attested':reviewed,
                       'matches_proposed_protocol':protocol_matches,
                       'matches_task_assets_and_version':matches,'verification':r['verification'],'provenance':last['provenance']})
-        if last['status']=='FAILED':failures.append(tests[-1])
+        if last['status']=='FAILED':
+            (failures if failure_applies_to_assets(r,task) else other_context_failures).append(tests[-1])
         if reviewed and matches and not protocol_matches:issues.append('reviewed_experiment_does_not_bind_current_procedure')
         if matches and protocol_matches and kind=='Roblox' and reviewed:approved.append(r['id'])
     if failures:issues.append('bound_failure_requires_new_justification')
+    if other_context_failures:issues.append('other_asset_failure_retained_not_universal_disproof')
     questions=bible.questions(task)
     missing_dependencies=[d for d in task['requires'] if dependency_states.get(d)!='READY']
     checks={'original_sources_sufficient':bool(valid),'procedure_structured':structured,
@@ -73,12 +89,12 @@ def quality(bible,task,analysis,proposal,dependency_states=None,records=None):
     if valid:statuses.append('SOURCE_DOCUMENTED')
     statuses+=list(dict.fromkeys(t['scope'] for t in tests))
     if approved:statuses.append('HUMAN_APPROVED')
-    if failures:statuses.append('FAILED')
+    if failures or other_context_failures:statuses.append('FAILED')
     if 'source_obsolete' in issues:statuses.append('OBSOLETE')
     return {'readiness':readiness,'research_state':'PARTIAL' if analysis['passages'] else 'UNKNOWN',
         'checks':checks,'issues':list(dict.fromkeys(issues)),'facts':valid,'sources':sources,'evidence_states':statuses,
         'blocking_questions':[{'id':q['id'],'text':q['text']} for q in questions],
-        'missing_dependencies':missing_dependencies,'experiments':tests,'failures':failures,
+        'missing_dependencies':missing_dependencies,'experiments':tests,'failures':failures,'other_context_failures':other_context_failures,
         'remote_links':'not live-checked by this offline control','meaning':'task preparation checklist; no probability or claim of engine success'}
 
 

@@ -12,15 +12,18 @@ import sys
 import threading
 import time
 
-import eponge_guard as guard
+try:
+    from scripts import eponge_guard as guard
+except ModuleNotFoundError:
+    import eponge_guard as guard
 
 
 def inventory(source):
     files=[]
     for folder in ('agent','scripts','tests','bench','config'):
         for p in (source/folder).rglob('*') if (source/folder).exists() else []:
-            if p.suffix in ('.py','.json') and '__pycache__' not in p.parts:files.append(p)
-    files += [source/n for n in ('eponge.py','vdn_mcp.py') if (source/n).exists()]
+            if p.suffix.lower() in ('.py','.json','.cmd','.ps1') and '__pycache__' not in p.parts:files.append(p)
+    files += [source/n for n in ('eponge.py','vdn_mcp.py','Eponge.cmd') if (source/n).exists()]
     if not files or len(files)>2000:raise ValueError('validation inventory cap')
     return {p.relative_to(source).as_posix():hashlib.sha256(guard.safe(source,p.relative_to(source).as_posix()).read_bytes()).hexdigest() for p in sorted(files)}
 

@@ -1,0 +1,13 @@
+{
+  "schema": "vdn.final-artifact-check/1",
+  "at_Paris": "2026-11-17T06:03:44.562937+01:00",
+  "code_tests_configs_equal_final_pin": true,
+  "independent_validation_log_hash_valid": true,
+  "preserved_source_data_files": 126,
+  "requirements": 210,
+  "all_requirement_evidence_paths_exist": true,
+  "local_report_links_exist": true,
+  "runtime_state": "STOPPED",
+  "unresolved_critical_software_regression_found": false,
+  "remaining_integration_limits": "Windows/Desktop/Studio, blind holdout, artistic review and live failover are not accepted"
+}

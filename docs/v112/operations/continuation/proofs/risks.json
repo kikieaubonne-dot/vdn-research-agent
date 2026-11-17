@@ -1,0 +1,110 @@
+[
+  {
+    "incident_id": "02153dee9047205da02b0862",
+    "component": "windows",
+    "severity": "HIGH",
+    "assessment_state": "BLOCKED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Le seul shell disponible est Linux/Python3.12.14 ; aucun transport vers le PC Windows autorisé.",
+    "recommended_action": "Ouvrir le dossier autorisé dans Codex local Windows, puis laisser Codex exécuter le préflight."
+  },
+  {
+    "incident_id": "986bc63595c17cf1551891d4",
+    "component": "desktop",
+    "severity": "MEDIUM",
+    "assessment_state": "BLOCKED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "MCP stdio testé ; application Claude Desktop non accessible dans cette session.",
+    "recommended_action": "Tester la découverte puis une consultation en lecture seule dans Desktop local."
+  },
+  {
+    "incident_id": "9c143fe09fc3cf3b388951a8",
+    "component": "studio",
+    "severity": "HIGH",
+    "assessment_state": "BLOCKED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Aucune copie réelle B3/C1 ni pont Studio autorisé accessibles ici.",
+    "recommended_action": "Fournir une copie identifiée dans le laboratoire local et vérifier le transport avant tout essai."
+  },
+  {
+    "incident_id": "19d2fc9105bc1e315c5e9a2e",
+    "component": "failover",
+    "severity": "MEDIUM",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Restauration explicite d’une image testée vers une copie désactivée validée ; bascule vivante automatique non implémentée.",
+    "recommended_action": "Conserver les promotions désactivées ; approuver séparément le périmètre d’un éventuel canary/failover."
+  },
+  {
+    "incident_id": "7d6f5a1c57154e0a6fde9001",
+    "component": "supervisor",
+    "severity": "MEDIUM",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "La perte du superviseur arrête le worker via un compagnon transitoire ; panne OS/Python/compagnon sans service externe non couverte.",
+    "recommended_action": "Reprendre explicitement depuis checkpoint après diagnostic ; aucun service système n’a été autorisé/installé."
+  },
+  {
+    "incident_id": "74c80a510deadc65bd806a98",
+    "component": "resources",
+    "severity": "MEDIUM",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Les nouveaux superviseurs sont sérialisés ; suspension automatique sous charge CPU/GPU utilisateur et agrégation des ledgers séquentiels incomplètes.",
+    "recommended_action": "Garder le mode nuit/concurrence non activé ; mesurer les ressources locales avant toute extension."
+  },
+  {
+    "incident_id": "580bae15b652f6a7bbaeadf9",
+    "component": "validator",
+    "severity": "MEDIUM",
+    "assessment_state": "BLOCKED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Un utilisateur OS unique peut lire tous les jeux de tests ; aucune isolation aveugle du générateur n’est démontrée.",
+    "recommended_action": "Validation indépendante externe et jeu réellement séparé avant toute promotion automatique."
+  },
+  {
+    "incident_id": "503ecb19490b7b2fccd0a92c",
+    "component": "evidence",
+    "severity": "MEDIUM",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Protection des légendes Markdown conservée ; légendes non balisées et entailment sémantique non résolus.",
+    "recommended_action": "Revue des passages complets, moteur et versions ; ne pas confondre citation et vérité technique."
+  },
+  {
+    "incident_id": "7fffcf8fd963fed9729da6c4",
+    "component": "artistic",
+    "severity": "MEDIUM",
+    "assessment_state": "BLOCKED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Critère géométrique PASS, mais quatre captures de prototypes simples ne démontrent pas un réalisme amélioré.",
+    "recommended_action": "Comparer les images et définir les critères humains avant de conclure sur le rendu ou B3/C1."
+  },
+  {
+    "incident_id": "6cdac073809be019769f3360",
+    "component": "ollama",
+    "severity": "LOW",
+    "assessment_state": "NOT_TESTED",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Ancienne sonde indisponible ; aucun modèle ni embedding réel exécuté ou téléchargé dans cette reprise.",
+    "recommended_action": "Continuer déterministe ; tester seulement un modèle installé explicitement choisi lorsque l’environnement l’autorise."
+  },
+  {
+    "incident_id": "29d4e30e1a2e98916f101f03",
+    "component": "provenance",
+    "severity": "MEDIUM",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Dates et hashes conservés ; licence des sources et build Studio du jeu UNKNOWN.",
+    "recommended_action": "Vérifier droits et versions avant réutilisation d’assets ou recommandation validée."
+  },
+  {
+    "incident_id": "a22b7432d9b241b92154c5e0",
+    "component": "research",
+    "severity": "LOW",
+    "assessment_state": "OPEN",
+    "origin": "operator capability audit; not a claimed engine crash",
+    "cause": "Le premier harnais conserve seulement FetchError sur deux réponses200 non capturées. Les erreurs502 Camera sont tracées ; aucun contournement.",
+    "recommended_action": "Conserver la cause précise comme inconnue ; les reprises futures journalisent le message expurgé, sans nouvelle collecte dans cette enveloppe épuisée."
+  }
+]

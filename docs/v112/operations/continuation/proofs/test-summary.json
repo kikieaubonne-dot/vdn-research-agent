@@ -1,0 +1,28 @@
+{
+  "schema": "vdn.continuation-validation/1",
+  "offline_tests": 558,
+  "personal_configuration_tests": 558,
+  "new_distinct_cases": 31,
+  "baseline_inherited_cases": 527,
+  "environment": "Linux/Python3.12.14",
+  "Python311": "grammar parsed, runtime NOT_TESTED",
+  "Windows_current_code": "NOT_TESTED",
+  "offline_result": {
+    "schema": "vdn.validation-result/1",
+    "state": "PASS",
+    "exit_code": 0,
+    "timeout_or_log_failure": false,
+    "pinned_inputs_changed": false,
+    "suite": "offline",
+    "elapsed_s": 53.46268897000118,
+    "manifest_sha256": "9a00d4f703927b6d3934607d77e83aa316f9fba4a5a0e8a7e601c28c3272382c",
+    "log_sha256": "591d4190c433453f6a0b7c1066b06a0f6024496c8c4e7c8d6a1175033b6d7d17",
+    "promoted": false,
+    "scope": "real software checks, no game or semantic quality inferred"
+  },
+  "personal_log_sha256": "dcf43203a0fe78f7eac90590589e4fff626a0f1273f84ad5657dbca95f4d0c0c",
+  "source_personal_settings_unchanged": true,
+  "final_fixture_process_resource_warnings": false,
+  "prior_candidate_validation_failure": "retained in release-validation; one additional test initially exercised the internal storage instead of the public retry-guard boundary; corrected harness, same expected refusal",
+  "no_automatic_promotion": true
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "vdn.syntax-check/1",
+  "Python_grammar": "3.11",
+  "files": 83,
+  "state": "PASS",
+  "errors": [],
+  "decoder": "utf-8-sig matches Python source BOM handling; original bytes unchanged",
+  "actual_runtime": "Linux3.12.14",
+  "Python311_runtime_test": "NOT_TESTED"
+}

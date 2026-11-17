@@ -240,3 +240,5 @@ Modifier `config/topics.json` pour ajouter des sujets, priorités et requêtes. 
 - **V3** : banc de test Blender/Roblox assisté, validation humaine et rapports de performance.
 
 **Sécurité** : ne jamais exécuter automatiquement des scripts téléchargés depuis les résultats ; conserver les citations et vérifier manuellement avant d'appliquer des méthodes au projet.
+
+Reprise ciblée V6.4 sur V11.2 : [résultats vérifiés et limites](docs/v112/operations/continuation/REPORT.md), [briefing forêt](docs/v112/operations/continuation/FOREST_BRIEF.md), [reprise locale](docs/v112/operations/continuation/LOCAL_HANDOFF.md).

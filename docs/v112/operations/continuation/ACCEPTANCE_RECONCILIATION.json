@@ -1,0 +1,2955 @@
+{
+  "schema": "vdn.acceptance-reconciliation/6.4.1",
+  "source_request_sha256": "8a7479ee02857c483097d602d3bbf73e096e5c6db7ebe6ad03694029acd85891",
+  "requirements_unchanged": true,
+  "requirements_count": 210,
+  "status_counts": {
+    "PARTIAL": 118,
+    "DONE_VERIFIED": 55,
+    "NOT_TESTED": 8,
+    "BLOCKED": 29
+  },
+  "interpretation": "DONE_VERIFIED applies to the explicitly evidenced scenario/environment. Compound requirements with missing clauses stay PARTIAL/BLOCKED. This is no global readiness score.",
+  "requirements": [
+    {
+      "id": "R001",
+      "requirement": "Inventorier modules, dépendances, scripts, tests, MCP, configs et chemins d'exécution.",
+      "requirement_sha256": "0e091f6b91cd8c2c736f11fe7cd060b25661b7142a100a2d69c341570b263fa3",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R002",
+      "requirement": "Vérifier l'état Git et préserver les changements non committés.",
+      "requirement_sha256": "e054a47b6d9883c719b04c265e4f1ac8ed6908cbb81cf4206644941f6a713722",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R003",
+      "requirement": "Créer un point de restauration et prouver qu'il est lisible.",
+      "requirement_sha256": "9c959391c742b82c39d7969c580e7b221705a1707b6bb8cf7780307b9204e334",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R004",
+      "requirement": "Établir une matrice de capacités avec état initial, final et preuve.",
+      "requirement_sha256": "2adc74fd6309d21ff7a7f90b5102d325d1682f30f1b11437eaea3e641aba14c2",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R005",
+      "requirement": "Cartographier les dépendances et identifier le chemin critique vers la démo réelle.",
+      "requirement_sha256": "2e6be1e2ad247b36a1d159ac09fa7bb6cb7ff023626cba9c06e466b4a6ef4bab",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R006",
+      "requirement": "Conserver les interfaces publiques existantes ; versionner tout changement incompatible.",
+      "requirement_sha256": "0baac9f300d57f6e1e87ea73b4e9e1bc9a74657f910dc0f1b1046cec1040b71f",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R007",
+      "requirement": "Définir un contrat d'acceptation machine-readable avec ID stable par exigence.",
+      "requirement_sha256": "2874fc6823c135ec7dd0c563d2285a1a2c5fec4e08c114ac75dbd653fae28dcb",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R008",
+      "requirement": "Relier chaque exigence P0 à un test automatique ou une preuve manuelle explicite.",
+      "requirement_sha256": "19c79601f30afc737447afb2fce32b92b180d31c8f5e594e0c8b55c39ca1e94c",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R009",
+      "requirement": "Livrer un chemin de démarrage minimal qui marche avant les extensions avancées.",
+      "requirement_sha256": "483ac8e673d67ed0ff820c833125ed76ff024196230e650ea4977e3808356843",
+      "prior_report_status": "PASS",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R010",
+      "requirement": "Produire un rapport final « fait / testé / réel / bloqué / restant », sans affirmations non prouvées.",
+      "requirement_sha256": "b05dd14b020505f69be613124e9dc2172f77864f2fc6fa7935e9ad8a864ce385",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R011",
+      "requirement": "Définir et valider ResearchFinding : ID, assertion, URL, date, licence, provenance, confiance, statut.",
+      "requirement_sha256": "8ad16d779b65e01209ff54df4cd83be253209ccfa83db0eb5571de2987dd4d3b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/ocean_web.py; agent/intelligence_evidence.py",
+      "evidence": [
+        "FOREST_FINDINGS.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Metadata and source hashes are present; a single strict ResearchFinding schema including licensing/confidence is incomplete."
+    },
+    {
+      "id": "R012",
+      "requirement": "Définir ExperimentSpec : hypothèse, baseline, variables, contrôles, métriques, seuils, budget.",
+      "requirement_sha256": "be56caeedf23b372308daeee7ad93f4d87c8f95896e86f40029b6e46fdb428cd",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R013",
+      "requirement": "Définir ExperimentResult : exécution, versions, mesures, fichiers, logs, conclusion, erreurs.",
+      "requirement_sha256": "cf3f1f82d42c2692b3b18fde75445ec2f10e6517f8947efffa167a0d24770ddc",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R014",
+      "requirement": "Définir MissionTask : ID, dépendances, permissions, statut, checkpoints, critères de fin.",
+      "requirement_sha256": "22d9e7257955021cff5411fc51987edee9b8ab78072aa9ae19210303c3ba6bfb",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R015",
+      "requirement": "Définir UserFeedback : cible/version, commentaire original, défauts, critères, acceptation.",
+      "requirement_sha256": "94a655b344a0bcba98ab9b03b2f7b30ea28ece818ca28cba3c7554b02a247505",
+      "prior_report_status": "NOT_TESTED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R016",
+      "requirement": "Définir ValidatedSolution : méthode, preuves, compatibilité, limites, version, statut.",
+      "requirement_sha256": "a8ec4ba2392bfc278d98480aecefcbaff9abb621effa419d332a1531ab5bbff2",
+      "prior_report_status": "NOT_TESTED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R017",
+      "requirement": "Utiliser des schémas versionnés et des migrations testées ; éviter les formats implicites.",
+      "requirement_sha256": "20ef542bab3c68d400793cbb0a365592f4ccbfdb0d92b515d2e16be1f231c9a7",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R018",
+      "requirement": "Garantir l'écriture atomique des états critiques et détecter les données corrompues.",
+      "requirement_sha256": "7389ad38a59477b19eb82127b8f18a1ee60d83f9f26938c2755f08eac69bab34",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R019",
+      "requirement": "Associer hashes de contenu, horodatages et versions d'outils aux artefacts.",
+      "requirement_sha256": "a8cbff24d94066aa3e853d35f41e8149669d72bbd15b23614fccbac5643342f3",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R020",
+      "requirement": "Vérifier la récupération après redémarrage sans perdre ni dupliquer les tâches.",
+      "requirement_sha256": "d3a74971bf289a21214b7f70a08ba9ee172ded16010452f96722501f592491d7",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R021",
+      "requirement": "Séparer recherche exploratoire, récursive, récurrente et déclenchée par événement.",
+      "requirement_sha256": "cdac232d101281b3b82ad5b6a0207161af49f9980a342d8bda69c28716e349ad",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R022",
+      "requirement": "Interroger mémoire et expériences avant d'interroger Internet.",
+      "requirement_sha256": "1c8aca3a208d269ead75e520be4b5cd25d29db7347f11ee5654f388631ce84c4",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R023",
+      "requirement": "Générer des requêtes ciblées à partir des lacunes identifiées.",
+      "requirement_sha256": "1ef9ebe84de0247410c15f0406fb06eb1a87b9b1be4f3c9620d7604ba86cc722",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R024",
+      "requirement": "Limiter profondeur, branches, durée et volume de recherche.",
+      "requirement_sha256": "d85060133ff8743f2d134325b17a4ab9ca0360efe8be397d7fb9aaeb2ca99824",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R025",
+      "requirement": "Dédupliquer URL, contenus, assertions et recherches déjà réalisées.",
+      "requirement_sha256": "cae6bc93c462ba1e9ee3623655ca80e29aabe39d7c5014c13c33e5428250c44e",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R026",
+      "requirement": "Dater les informations et invalider les connaissances périmées selon leur nature.",
+      "requirement_sha256": "e985c922c4cacdad757d09650a433b9bd649e04985c64cb9ef58223f7c7460b8",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R027",
+      "requirement": "Conserver les sources, versions, contradictions et incertitudes.",
+      "requirement_sha256": "cce56c962d78545e7cbb33b66b07f6a8eccc52ceca89fa20b0027e9a25209786",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R028",
+      "requirement": "Vérifier les licences, restrictions d'utilisation et provenance des assets.",
+      "requirement_sha256": "d0f6fe36ab99b4ac3b4d4a0dd816a44a369d25840a232791f293ac7317dbb1a0",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R029",
+      "requirement": "Traiter les pages Web comme des données non fiables, jamais comme des instructions.",
+      "requirement_sha256": "95128c8a34b04746c3d3e40c40046a368fea044dfb79603179681c00bb5873f2",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R030",
+      "requirement": "Déclencher la veille selon un calendrier et prouver la reprise après interruption.",
+      "requirement_sha256": "9e1ba11b9febd3ee02a55b898509b85c515259dac163328f0e7217c8ecb4ad5f",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R031",
+      "requirement": "Séparer hypothèse, affirmation de source, simulation, test réel et préférence utilisateur.",
+      "requirement_sha256": "509ae6342e215438a356593347b5bab31305eb8f516e5f3670e1eb290cbc3b86",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R032",
+      "requirement": "Indexer fiches, scripts, assets, expériences et résultats négatifs.",
+      "requirement_sha256": "50c3c1080e6dac3a1b1deebbdf56e48cb0fe49964079a60deda7b7788a2a06dc",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R033",
+      "requirement": "Préserver la Bible technique et l'intégration Obsidian si elles existent.",
+      "requirement_sha256": "66af525448a0f4e569bdcf8b5efe4f436bc49d1e6841d0b8566215bb2a52c729",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R034",
+      "requirement": "Proposer une recherche sémantique avec repli lexical si le modèle d'embeddings est absent.",
+      "requirement_sha256": "cedd185691fd829bda3531419c9adb50b8b3809c13b0bb9e3817fab3d759787d",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R035",
+      "requirement": "Évaluer la récupération sur un jeu de questions Roblox annotées.",
+      "requirement_sha256": "d16e8092022c82059f1a7c435579f9c21288ba92df4e7c832fd29948ab1a0f7a",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R036",
+      "requirement": "Réduire les faux positifs, notamment les légendes d'images prises pour des faits.",
+      "requirement_sha256": "1be96198df246127c5b6b17788e5aac7569533ad87667cad8074e5b82c7f9e38",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/intelligence_evidence.py",
+      "evidence": [
+        "proofs/caption-control-inherited.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "INHERITED_ARTIFACT_CHECKED",
+      "next_action": "Marked image-caption regression is preserved; plain captions and semantic support need external review."
+    },
+    {
+      "id": "R037",
+      "requirement": "Gérer versions, contradictions, dépendances et dépréciation des fiches.",
+      "requirement_sha256": "abb67c0cc5abd8d0e7f3016c6dc41c4a596b4bebd6a552ed8259a45a18d33e84",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/project_work.py; agent/project_quality.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Quality version now invalidates old cards; new sources/experiments are retained; full semantic obsolescence is not demonstrated."
+    },
+    {
+      "id": "R038",
+      "requirement": "Produire des briefings Claude courts avec références et niveaux de preuve.",
+      "requirement_sha256": "9b496233acb1884dcc5b2a5c15c185d0ba3283409288efeb8de47a79d7bb46bf",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R039",
+      "requirement": "Éviter de recommander une méthode incompatible avec la version moteur ou l'asset.",
+      "requirement_sha256": "67cb89e65fb7203d31c8bf4c12c52b2e53b8abb6a6cdb4a20a119168cfc689a9",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/project_quality.py; agent/research_roots.py",
+      "evidence": [
+        "proofs/integration.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Other-asset failures stay visible without universal rejection; unknown/overlapping assets remain blocked, real compatibility still needs assets/build."
+    },
+    {
+      "id": "R040",
+      "requirement": "Tester le transfert : réutiliser une méthode de sapin sur un buisson sans copier aveuglément.",
+      "requirement_sha256": "2254edeae3fa23ad8698a65675c7c3008dcedf5dcce20be72bd018e6018cb59a",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Geometric transfer to a preregistered shrub tested; artistic/B3-C1 transfer and blind generalization are not established."
+    },
+    {
+      "id": "R041",
+      "requirement": "Créer un répertoire de laboratoire isolé, distinct du projet Roblox principal.",
+      "requirement_sha256": "a73d2969483c4fc457ead136a788647dcb7970380b4f9985aaa16ee3b9d84b56",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R042",
+      "requirement": "Définir pour chaque expérience une hypothèse falsifiable et une baseline immuable.",
+      "requirement_sha256": "662bf6812fdb2e996f675ed4c35fcfa5efae1cec475a16d493ea24a9785f0ca9",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R043",
+      "requirement": "Fixer les variables, contrôles, métriques et critères avant de générer les variantes.",
+      "requirement_sha256": "6f6641c33417683709770867b06ee842d8e13ca1c3212f107e69719712813abe",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R044",
+      "requirement": "Produire des variantes traçables avec identifiant, parent et différences exactes.",
+      "requirement_sha256": "58c336df83c09988e2a61f03c9198d5b654022f85386ee6499e7f4b3108c0230",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R045",
+      "requirement": "Exécuter L0 statique, L1 Python, L2 Blender, L3 Roblox, L4 visuel selon disponibilité réelle.",
+      "requirement_sha256": "e50ebff353bbb0417f74d91e4378bb38b98abf07a22c4fdced225bd37f6de1db",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R046",
+      "requirement": "Capturer entrées, sorties, versions, mesures, erreurs et artefacts vérifiables.",
+      "requirement_sha256": "1eedcf677f09d6a0bf3877a5ba446810636669ad8c6b22d482d54313c4f0b589",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R047",
+      "requirement": "Comparer A/B sous conditions constantes : caméra, éclairage, résolution, scène, version.",
+      "requirement_sha256": "e5560f09c861488a69b616c87f57d6e9ae6b214fdd9e2f9e49403bec0d22adc7",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R048",
+      "requirement": "Répéter les mesures bruitées et signaler les résultats inconclusifs.",
+      "requirement_sha256": "95e8d15e14617a741bb9235dde28d180723523fa8661f5003aa52e35c5adb3eb",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R049",
+      "requirement": "Enregistrer aussi les échecs pour éviter la répétition des mêmes expériences.",
+      "requirement_sha256": "02eaf48a682e36e5fbfc32c25251897279fe60ac2550d05ddf1f4afcf5ecd03a",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R050",
+      "requirement": "Promouvoir une solution uniquement si les critères préalables sont atteints sans régression critique.",
+      "requirement_sha256": "5f899bbd4cba59a693a9e59cdf75146c61530ba3a5d3e1edf770fd826b73bbf6",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R051",
+      "requirement": "Créer des benchmarks de développement visibles et un jeu de validation séparé.",
+      "requirement_sha256": "1648fed83df4488c7074b26fc645f5fc44c93998fab3c7da780e0fe0c3296e9a",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "bench/evaluate_roots.py; bench/roots_evaluation.json",
+      "evidence": [
+        "proofs/retrieval.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "12 annotated source-relevance cases replayed; no blind holdout, no engine ground truth."
+    },
+    {
+      "id": "R052",
+      "requirement": "Garder un jeu de tests « holdout » hors du contexte des générateurs ; contrôler son accès.",
+      "requirement_sha256": "59213ca476fd3bdf63dc34cef3a76fb67f0181f219b5d78630c7416b34ebfd9a",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_validate.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "BLOCKED: no genuinely hidden validation set or generator-separated OS identity. Same-user hashes are not access isolation; keep promotion disabled."
+    },
+    {
+      "id": "R053",
+      "requirement": "Empêcher les agents d'adapter directement leurs solutions aux réponses du holdout.",
+      "requirement_sha256": "75d1189ef2446a174036c39137aba1abd3ffec4e3bf801f18ff0a2850fb9aaa2",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_validate.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "BLOCKED: no genuinely hidden validation set or generator-separated OS identity. Same-user hashes are not access isolation; keep promotion disabled."
+    },
+    {
+      "id": "R054",
+      "requirement": "Ajouter des tâches inédites : sapins, buissons, rochers, neige, lampe, caméra, rigging.",
+      "requirement_sha256": "83515ad10adc48744e9c1a0dc01998c73af47d9a84783be7339b5ba6007b95e2",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "bench/intelligence_cases.json; agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Existing domain fixtures and a new shrub are exercised; not every requested domain has a new real-engine case."
+    },
+    {
+      "id": "R055",
+      "requirement": "Tester le transfert inter-domaines et distinguer succès réel de simple mémorisation.",
+      "requirement_sha256": "86a270146ee1aa2830493a8d981ae3314e9d1a0a94787ce4891e5a1ff77d01cd",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Two asset types share a controlled geometric rule; no broad inter-domain or learned generalization claim."
+    },
+    {
+      "id": "R056",
+      "requirement": "Comparer chaque nouvelle version à une baseline fixe et à la meilleure version précédente.",
+      "requirement_sha256": "2f054723df454f5988f183079b6d673d9e0072f5a96f236fd0db8090d46a82fd",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R057",
+      "requirement": "Mesurer succès, régression, durée, coût, récupération et qualité par domaine séparément.",
+      "requirement_sha256": "826fbc6bbb2c793caef7bd113b921f04e2114033565c03d00ae1ed6841f05402",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py; agent/forest_lab.py",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Software outcomes, request counts and geometric metrics measured separately; user GPU, aesthetic quality and full domain costs remain unavailable."
+    },
+    {
+      "id": "R058",
+      "requirement": "Éviter un score global qui masque un échec grave ; définir des seuils éliminatoires.",
+      "requirement_sha256": "bb0beac76250b5aa695363035b62f02f25f914a5a09ec7cee20b33e91df07825",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R059",
+      "requirement": "Détecter le « benchmark gaming » : tests modifiés, cas retirés, fuites et critères assouplis.",
+      "requirement_sha256": "950185287f1d6c1fbf77a027536cdc7d1661579ca53bab2d635c1c8e61e2bd3c",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_validate.py; scripts/eponge_guard.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Tampered inputs/Windows launchers are pinned and rejected; hidden-answer leakage and actual generator isolation remain unproven."
+    },
+    {
+      "id": "R060",
+      "requirement": "Conserver un journal de progrès avec intervalle d'incertitude et contre-exemples.",
+      "requirement_sha256": "df998b2f85d883ed2abbc57c87d8e744264f87d7753a08d758c9adf805b68521",
+      "prior_report_status": "NOT_TESTED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R061",
+      "requirement": "Boucler : défaut → hypothèse → patch/variante isolée → tests → décision → mémoire.",
+      "requirement_sha256": "cf8f71076f9203c0ca2ebf43fd87ec66ae178935824434d654a17261e6faeed6",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R062",
+      "requirement": "Autoriser l'amélioration autonome des fiches, procédures, paramètres et prompts locaux.",
+      "requirement_sha256": "26642ccf29808615b728465d54a348aaad57f16dcf59a15e3c2c39d4b7c32872",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R063",
+      "requirement": "Autoriser la génération de scripts/artefacts expérimentaux dans un bac à sable.",
+      "requirement_sha256": "85abc03e70683d2ccfaf981e5d9cab717cdfed9b89e6222ce79c103c3cc3c930",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R064",
+      "requirement": "Désactiver par défaut l'auto-modification de la branche principale et des règles de sécurité.",
+      "requirement_sha256": "944215a737300076be604b36fbb1c34c83086c93990ffe99691b9142134a7b62",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R065",
+      "requirement": "Séparer générateur, exécuteur, évaluateur et gestionnaire de promotion.",
+      "requirement_sha256": "9f403335182a6324c6cee998f33e35f4f7545e4513b66dab2825c095faa3b489",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R066",
+      "requirement": "Utiliser des vérifications déterministes indépendantes du modèle générateur.",
+      "requirement_sha256": "d0e47fa4b9dab9d877a4577cd83433ad8a0ef03fe66cd0a49f722617d8cf882a",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R067",
+      "requirement": "Exiger rollback, preuves, compatibilité et absence de régression pour promouvoir.",
+      "requirement_sha256": "508b0de70208dc07735a05709af8e792c890b7cb967029bb227d5e1cfd142d94",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R068",
+      "requirement": "Limiter les tentatives ; arrêter les cycles stagnants ou qui se dégradent.",
+      "requirement_sha256": "331a3c6d51b7469072b183cda90a4b585df25c12c432aa43bba59a2dbb17d60a",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R069",
+      "requirement": "Conserver les modifications refusées avec leur cause et éviter de les réessayer à l'identique.",
+      "requirement_sha256": "82f76cf8e5a45ba8953e213b493e7fe62cfc491726c11c95fea918d989227a2b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R070",
+      "requirement": "Démontrer une amélioration sur une tâche nouvelle, pas seulement sur le cas d'entraînement.",
+      "requirement_sha256": "cbe981fc9b37b24eaa9e1e5e0b7cdb969ce907fc983c6424b20506847de4cfb5",
+      "prior_report_status": "BLOCKED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R071",
+      "requirement": "Implémenter une machine à états persistante avec transitions valides et journalisées.",
+      "requirement_sha256": "7b70ca29aa3d3ffc0bac873cf5bf3fe7799f563bf1ba7c155883d7418b173257",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R072",
+      "requirement": "Détecter dépendances circulaires, verrous, doubles exécutions et tâches orphelines.",
+      "requirement_sha256": "ef61d70b94ab01f2d555908574134af1f737b151b36202dc051a1a5cdbc4a406",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R073",
+      "requirement": "Garantir pause, reprise, annulation, timeout et retry borné avec backoff.",
+      "requirement_sha256": "d8c2c9f569edfa03eb3c308aa742335e33244ff6e0afb44b6e907fbd7e3d3e9b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R074",
+      "requirement": "Exposer modes MANUAL, SCHEDULED, IDLE, PAUSED et STOPPED.",
+      "requirement_sha256": "cc23c22f1963344eafa7336e6ca8a2e62bb9d28f1c8a140048288ef319de5ecb",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R075",
+      "requirement": "Respecter budgets CPU/GPU/RAM/disque ; un seul travail GPU lourd par défaut.",
+      "requirement_sha256": "3ee93f9566b09d4c272169380dc93dd372f73ae6fa6a263edcac6a66433c23fa",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_guard.py; agent/mission.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "New supervised missions serialize per OS identity; CPU/GPU load pause and aggregate sequential ledgers are not complete."
+    },
+    {
+      "id": "R076",
+      "requirement": "Suspendre les travaux non urgents lorsque l'utilisateur sollicite fortement le PC.",
+      "requirement_sha256": "0b76e5f514c7838b94692ae13dcb19f2c963e3e21e39d91572c176b747d78db6",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "No automatic user CPU/GPU load suspension is validated. Concurrent/night modes stay unavailable."
+    },
+    {
+      "id": "R077",
+      "requirement": "Tester le mode autonome court avant toute session longue ; ne pas l'activer en secret.",
+      "requirement_sha256": "cc8b300a63c1ac797c82a7b7f824351185cf7549d587cf41fe7dd85c99e4c06d",
+      "prior_report_status": "PASS",
+      "status": "BLOCKED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R078",
+      "requirement": "Appliquer permissions minimales, chemins autorisés, protection des secrets et arrêt d'urgence.",
+      "requirement_sha256": "d1395ce3b1d6a0d9d8ff532a1aca26bb1ce5ba6b29fbb133c8e1b5251005cb3f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R079",
+      "requirement": "Interdire publication, dépenses, exécution Web non fiable et modification du jeu principal.",
+      "requirement_sha256": "3eca8a95c1fb0407f10b8ad1b7d3038b3f60ad88f94c1a6974a5214ee5c4f7af",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R080",
+      "requirement": "Vérifier qu'une panne ou un crash n'endommage pas le projet ni les expériences validées.",
+      "requirement_sha256": "11a703b260ac30dc732e168998e7a84542fdf1d401a09f7ba98817e284dd324b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R081",
+      "requirement": "Auditer et préserver les contrats MCP existants ; tester la découverte réelle des outils.",
+      "requirement_sha256": "bd519c38ada2b7fb71b59978d06cee5a76d29b52c1f29cb9d7bd159151061a69",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R082",
+      "requirement": "Exposer mémoire, mission, expérience, feedback, statut, preuves, annulation et reprise via MCP.",
+      "requirement_sha256": "cd635f4e2d678c18144ca8f7777a66c65f8a263b2de8198e799081a9dd3e59b1",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R083",
+      "requirement": "Tester un client MCP réel avec entrées valides, invalides, timeout et reconnexion.",
+      "requirement_sha256": "2d9c352724c3734090e70f32ea9ffae45ae784a14ea9ba078a67045a810a888d",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/mcp_v8.py",
+      "evidence": [
+        "proofs/integration.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Real stdio discovery/reads and invalid request tested; Desktop reconnection and all transports unavailable."
+    },
+    {
+      "id": "R084",
+      "requirement": "Tester Claude Desktop réellement si accessible ; sinon indiquer « non vérifié ».",
+      "requirement_sha256": "9160af4724725fd91d59e5dfa45d3fb4278a781c99cd2462e67add11eba51c4b",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R085",
+      "requirement": "Tester Blender réel : génération, export, relecture, mesures et échec contrôlé.",
+      "requirement_sha256": "4f4c124c90118ebf9a584a6ae6aa282eaecfcf2232036638714f61f1949b629e",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py; scripts/blender_forest_ab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Real Blender4.3.2 capture/save/reload/OBJ export/reimport passed; optional denoiser failure retained. Not Blender5.2 or B3/C1."
+    },
+    {
+      "id": "R086",
+      "requirement": "Tester Roblox uniquement dans une copie de scène, avec lecture, modification, vérification et rollback.",
+      "requirement_sha256": "2ec26696bce34abdca440aec0a7b537cb020dda16b7bb943fe947a3b058a769e",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R087",
+      "requirement": "Ne jamais assimiler un export Blender à une validation du rendu Roblox.",
+      "requirement_sha256": "c35eb3f6c5a2739dce595783b441244b3643903a358e5d1eb60e1f66cb7b4a2c",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R088",
+      "requirement": "Router les tâches déterministes vers Python et les raisonnements locaux vers Ollama si pertinent.",
+      "requirement_sha256": "98c0cdc4cf505890cd983e615dfdadb3d9c41ade086dacca23cba4fe06818b2f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R089",
+      "requirement": "Comparer missions avec/sans récupération mémoire : appels, tokens observables, temps et qualité.",
+      "requirement_sha256": "a041376299c8ab7a8e267103d82968c9eb1c54426dea5c8d8f08ed65084761c6",
+      "prior_report_status": "BLOCKED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R090",
+      "requirement": "Ne jamais déduire le pourcentage de quota Claude de simples estimations de tokens.",
+      "requirement_sha256": "cf08b3ac8676046298e87da6dd70f7c34a2c9d77eccd79963d7e82da9b7f18e6",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R091",
+      "requirement": "Fournir un point d'entrée unique de diagnostic et de validation, compatible avec l'architecture existante.",
+      "requirement_sha256": "a987a11783598d4ce007cd6835cf48b7a8f12fbb4549d76fa8fe22864509215d",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R092",
+      "requirement": "Faire lancer par Codex lui-même tests statiques, unitaires, intégration et bout en bout accessibles.",
+      "requirement_sha256": "3d9ad4ece795d091b2aca0555c40166d48b1c4f7c8e5c6dd1e9e25812acd4173",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R093",
+      "requirement": "Conserver et réexécuter la suite existante ; référence historique : 492 tests, 8 ignorés.",
+      "requirement_sha256": "21af8e4882cd585ddb7d72fffcc1d0422dcd03adf8f224294a4e15e335ce64e4",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R094",
+      "requirement": "Répéter les tests critiques, notamment test_second_cycle_continues_without_repeating.",
+      "requirement_sha256": "93710445acde5641766a1975009ce21ea78bf1a712584501a5e94083d4eb7b0e",
+      "prior_report_status": "PASS",
+      "status": "PARTIAL",
+      "implementation": "tests/test_operations.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Done-task reuse and historical suite repeated; the specifically named test is absent from this checkout, not invented."
+    },
+    {
+      "id": "R095",
+      "requirement": "Injecter en environnement isolé : crash, réseau absent, Ollama arrêté, cache corrompu, disque plein simulé.",
+      "requirement_sha256": "0bb595af93a1f5227129f728735ecd1762bf7666f0c5265b3876714529219814",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "tests/test_operations.py; tests/test_operations_continuation.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Isolated network/model/cache/disk/crash cases pass; do not infer physical OS/disk hardware recovery."
+    },
+    {
+      "id": "R096",
+      "requirement": "Tester qu'un défaut volontairement introduit est détecté et bloque la promotion.",
+      "requirement_sha256": "463b14817c30fcd844d87b813d30c19fb2863227c5e93935a798581bceae2c8d",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R097",
+      "requirement": "Générer rapports JSON et HTML locaux avec commandes, logs, versions, résultats et preuves.",
+      "requirement_sha256": "da92a5bec1a527bea3ae474513e2373a6580ea8774db08f7745aab6a602bfd50",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R098",
+      "requirement": "Exiger pour chaque P0 un scénario d'acceptation et un résultat PASS/FAIL/BLOCKED explicite.",
+      "requirement_sha256": "5c95594cff545f74fe177d91b7ff5f161901561a2f5f9de1fb6b7d087963f5f1",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R099",
+      "requirement": "Exécuter une démo complète : sapin enneigé → deux variantes → feedback « branches trop plates » → correction → mémoire → récupération MCP ; tester Roblox/Claude si accessibles.",
+      "requirement_sha256": "8515940c56770deeaf97f68a0010c941997f8986f2d460987bb810eeab11e638",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R100",
+      "requirement": "Livrer un état utilisable, la commande de démarrage, les preuves, les limites et les prochaines actions ; ne jamais annoncer « 100 % prêt » sans les tests réels requis.",
+      "requirement_sha256": "48eb062ac511d98ca3479818f2cc24d0fe3b00fe3a6077284f5f24c67d1fa68f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R101",
+      "requirement": "Avant tout développement, exécuter un diagnostic non destructif de Python, dépendances, chemins Windows, permissions, Ollama, MCP, Blender et accès Roblox ; conserver la sortie brute.",
+      "requirement_sha256": "3b87e7fadb22f6b478cab4177fe74c964fce3c1786a4f983498c4e7f70d40786",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R102",
+      "requirement": "Vérifier l'environnement exact d'exécution de Codex : accès au dépôt, au terminal, au réseau, à l'interface graphique et aux applications ; signaler toute frontière inaccessible.",
+      "requirement_sha256": "2d64da585dc85befef77c1c491cb5aab59852b7bf04c0bb358dc0effc81c3418",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R103",
+      "requirement": "Créer un seul lanceur local documenté pour démarrer, arrêter et diagnostiquer L'Éponge ; ne pas exiger une succession de commandes manuelles.",
+      "requirement_sha256": "52a15e3192ad997c1c7b8aaac3f30cc17a62a219925f2616d704894677dd13d7",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R104",
+      "requirement": "Prévoir un mode doctor --json dont le code de sortie distingue prêt, dégradé et bloqué ; aucune erreur silencieuse.",
+      "requirement_sha256": "61e2e5a4e56c7983b764a359c6e348e034fead304d20ea32169b25db1371b0ea",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R105",
+      "requirement": "Créer un orchestrateur de validation automatique qui exécute les contrôles dans l'ordre, sauvegarde les logs et ne masque jamais un code de sortie non nul.",
+      "requirement_sha256": "9d87da45fab2ae08136e28c398b94256685fb38f74af081f2ff33c45e7114a8d",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R106",
+      "requirement": "Produire un manifeste de livraison contenant commit Git, versions d'outils, chemins d'artefacts, empreintes, tests, limitations et instructions de rollback.",
+      "requirement_sha256": "ed63efd4c8ab1816101adf36a787e9d9317175c801f984e9f1e128dae05c0950",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R107",
+      "requirement": "Tester le lanceur sur un environnement propre ou une installation simulée propre ; détecter les dépendances implicites et chemins absolus invalides.",
+      "requirement_sha256": "51e14ee31f94a152685af26b93ff74770efd3cdc58cbfbbf2a82c4d70e85fc94",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R108",
+      "requirement": "Vérifier que chaque commande documentée correspond à une commande réellement existante et qu'elle fonctionne dans l'environnement accessible.",
+      "requirement_sha256": "9467e561c04f1a4c85c488808d59610b95e44be1d0f0d0a13122cdebf64cba4f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R109",
+      "requirement": "Tester les scénarios d'arrêt brutal entre sauvegarde, mise à jour d'état et promotion ; imposer des écritures atomiques et une récupération vérifiée.",
+      "requirement_sha256": "e7f253eb0c5586da3c2d750c48b2b4204f686c53c2fa8b954e6a56ee62972393",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R110",
+      "requirement": "Ajouter un watchdog de tâches avec timeout, heartbeat, détection de blocage et terminaison des processus enfants dans le périmètre autorisé.",
+      "requirement_sha256": "5ac61660bcb6a148a84f69f8cf04388e09409351612abab1f57bcee2d7624b50",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R111",
+      "requirement": "Interdire les promotions automatiques en présence de régressions critiques, données manquantes, résultats incertains ou tests non exécutés obligatoires.",
+      "requirement_sha256": "ff506cb8a1f30d786be05c63bc5f6c52aa1d92da5f364ea67e389af2681f0654",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R112",
+      "requirement": "Séparer strictement l'environnement de test du jeu publié ; utiliser une allowlist des chemins autorisés et vérifier le refus des chemins interdits.",
+      "requirement_sha256": "74e34f825eacaa104baaa88ad41b27ef2ecd30ad167f806fcc14c89c8e266596",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R113",
+      "requirement": "Tester une simulation de panne de disque, réseau, Ollama, Blender et MCP sans détruire ni altérer l'installation réelle.",
+      "requirement_sha256": "d043d4dd7afb56f52172be85e168d20f5e2b470af51c865d64dbf2ff00dc4049",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R114",
+      "requirement": "Exécuter un essai autonome borné de 30 à 60 minutes, avec plusieurs cycles et un rapport de consommation CPU/RAM/GPU/disque lorsque mesurable.",
+      "requirement_sha256": "a416ea231f325ef1ab635268dba43a1861ffc7197a86db6e16e2f174569503cc",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py",
+      "evidence": [
+        "../proofs/campaign-summary.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "INHERITED_ARTIFACT_CHECKED",
+      "next_action": "Inherited 1800.359s pilot verified by hashes, not rerun. Useful initial phases ~38.314s; GPU/child CPU not measured."
+    },
+    {
+      "id": "R115",
+      "requirement": "Mesurer le taux de réussite sur un ensemble fixe de scénarios, puis sur des scénarios tenus à l'écart ; signaler surapprentissage, fuite de données et progrès illusoires.",
+      "requirement_sha256": "95482459109d8526be45ac9d00674cc492efa24179f01bb6bf6462c643dca56a",
+      "prior_report_status": "BLOCKED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R116",
+      "requirement": "Définir des objectifs de service distincts : zéro perte de données lors des tests, zéro écriture non autorisée, 100 % des contrôles critiques applicables réussis, et taux de réussite opérationnel estimé avec incertitude.",
+      "requirement_sha256": "1038837f5432ac6df8e68b5786fc77ea2ad0e7e5d15c1309d48fccaa52430895",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R117",
+      "requirement": "Fournir un rapport quotidien lisible par l'utilisateur : découvertes, expériences, améliorations acceptées, échecs, ressources consommées et prochaines priorités.",
+      "requirement_sha256": "75273a465fd7a0350351cf61f860a010124ce5efe3232f7ff218c28539c3d3ab",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R118",
+      "requirement": "Prévoir un mode dégradé utile si Claude, Roblox, Blender ou Internet sont absents ; aucune fonctionnalité ne doit être présentée comme validée dans un outil indisponible.",
+      "requirement_sha256": "2918d43e571263fcc0ca332edf06b53b90a0de1f2ad3e10d3f067be709fe8762",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R119",
+      "requirement": "Exiger une démonstration réelle de bout en bout du chemin critique accessible ; si Claude Desktop ou Roblox nécessitent une action humaine, documenter exactement cette action minimale et conserver BLOCKED jusqu'à vérification.",
+      "requirement_sha256": "a1eb1d15dbb1e39821143792c4f16bf60c3714eaab049cfe5908d2730e814678",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R120",
+      "requirement": "Livrer seulement après exécution d'un contrôle final indépendant : tests, contrats d'acceptation, restauration, logs, commandes de démarrage et inventaire des blocages. Ne pas promettre zéro bug ni 99 % sans preuve.",
+      "requirement_sha256": "79087c142ae19db6f18b9612bb9a80928efbe8245b61d7cd8ad56c1c5b3532df",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_validate.py; scripts/eponge_recovery.py",
+      "evidence": [
+        "proofs/executable-recovery.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Independent software checks and isolated executable restoration pass; Windows/local GUI acceptance remains incomplete."
+    },
+    {
+      "id": "R121",
+      "requirement": "Journal d'incidents persistant\nEnregistrer chaque échec réel, exception, timeout, dépendance absente, test ignoré critique, régression et blocage dans reports/incidents.jsonl (une ligne JSON par événement, écriture atomique ou mécanisme équivalent). Aucun secret ni chemin personnel sensible en clair. Ne pas enregistrer chaque erreur répétée sans déduplication.",
+      "requirement_sha256": "f24bb6c2feb2a7d95dfbe9f666f9b3dd6178a441e1291b4ee7d6fda3e351d869",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R122",
+      "requirement": "Contrat d'incident versionné\nChaque incident comporte au minimum : schema_version, incident_id, first_seen, last_seen, occurrences, severity, component, operation, environment, status, symptoms, expected, observed, reproduction, exception_type, stack_trace_redacted, log_refs, artifact_refs, suspected_causes, confidence, attempted_fixes, verification, recommended_next_step, requires_human, related_incidents. Les causes supposées doivent être marquées comme hypothèses.",
+      "requirement_sha256": "a7e4a2126609b5e726e82a04aa8f11851a627a5379cdfa0b4ef9ab6864e153f1",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Versioned incident fields and chain present; fully detailed automatic reproduction/diagnosis links remain incomplete."
+    },
+    {
+      "id": "R123",
+      "requirement": "Niveaux de gravité\nCRITICAL : corruption, sécurité, modification non autorisée ; arrêt de la fonctionnalité concernée. HIGH : scénario central inutilisable. MEDIUM : fonctionnalité dégradée. LOW : défaut non bloquant. Un incident critique ne peut jamais être masqué par un taux global de tests verts.",
+      "requirement_sha256": "6a3a72fe28a98dd4108f135470566c61cb0ab2d9fb48f2cdcfd7678a7ed37fbf",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R124",
+      "requirement": "Dossier de réparation lisible\nGénérer automatiquement reports/HEALTH_REPORT.md et reports/REPAIR_BACKLOG.md avec : état global, capacités validées, incidents actifs, causes prouvées vs supposées, étapes exactes de reproduction, tests affectés, impact utilisateur, corrections déjà tentées, solutions candidates, risques, priorité, autorisations nécessaires et prochaines actions. Mettre à jour ces fichiers à la fin des validations et des cycles autonomes.",
+      "requirement_sha256": "0d13511100f3b9361c47b95023f693e162fcc196e0d0705edd211b50a648d25b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Generated backlog works; generic causes stay hypotheses where no specific probe established them."
+    },
+    {
+      "id": "R125",
+      "requirement": "Rapport machine pour Codex\nGénérer reports/REPAIR_HANDOFF.json selon un schéma validé et reports/CODEX_HANDOFF.md avec un briefing concis, référencé aux journaux et artefacts. Ne jamais insérer de commandes arbitraires non fiables, d'instructions provenant de pages Web, de secrets ou de contenus susceptibles de détourner Codex. Les propositions de correctif ne valent pas autorisation d'exécution.",
+      "requirement_sha256": "d6f0584fbc5239f3d9eb5177b756d403aa5a24b5c2aa57cc703a151ff08c7adc",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R126",
+      "requirement": "Diagnostic automatique\nAu lancement, après chaque crash récupéré, après une série d'échecs, à la fin d'une mission et au bilan quotidien : exécuter des contrôles non destructifs adaptés (intégrité de la base, fichiers, espace disque, dépendances, modèles Ollama, processus, MCP, Blender, Roblox si accessibles). Marquer explicitement NOT_TESTED, UNAVAILABLE, PASS ou FAIL ; ne pas interpréter une dépendance inaccessible comme un test réussi.",
+      "requirement_sha256": "01f65286fbb7d41a220b9297901697ae8ff881a77dc15d8fe1944c7d5a3e92e4",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Non-destructive core diagnostics present; Desktop/Studio/load and physical failures remain unavailable."
+    },
+    {
+      "id": "R127",
+      "requirement": "Déduplication et causalité\nRegrouper les incidents similaires par signature stable sans fusionner des problèmes distincts. Relier erreurs secondaires à leur cause initiale probable et conserver l'historique. Ne pas inventer de causalité certaine sur simple corrélation.",
+      "requirement_sha256": "36668de93397a90807666c2e2fd0e14714e00fd124b800311c535df0d7f42a11",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R128",
+      "requirement": "Auto-réparation limitée\nAutoriser seulement des corrections prédéfinies et réversibles (recréation d'un cache, reprise d'une tâche idempotente, nettoyage de fichiers temporaires du laboratoire, redémarrage d'un processus enfant autorisé). Pour toute modification de code, configuration système, données de production ou règle de sécurité : branche isolée, tests indépendants, et approbation selon le niveau de risque. Maximum 2 tentatives automatiques identiques, puis BLOCKED avec rapport.",
+      "requirement_sha256": "c1eddc5155a9c65bdf4e7311ba1a3228250fa7260930bc41af906f3db5d62d3d",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R129",
+      "requirement": "Surveillance et watchdog\nHeartbeat persistant des tâches ; distinguer tâche longue normale, absence de progression, processus mort et saturation des ressources. Timeout configurable par type de tâche ; terminer uniquement les processus enfants créés et suivis par L'Éponge. Éviter les redémarrages infinis.",
+      "requirement_sha256": "6bccee3a3aa460947b911c905a0aea5871184ce3a06574103488a98cbb124b60",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R130",
+      "requirement": "Validation de réparation\nUne erreur n'est RESOLVED que si son scénario de reproduction réussit après correction et si les tests de non-régression applicables passent. Sinon OPEN, MITIGATED, BLOCKED ou NEEDS_REVIEW. Conserver les preuves avant/après.",
+      "requirement_sha256": "3f2239b9a114ccedf27a3b7519ebf2cf23fe8a870e21dc8c4a6868b0f18ddbae",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R131",
+      "requirement": "Bilan avant retour utilisateur\nGénérer reports/DAILY_BRIEF.md : durée active, recherches pertinentes, expériences exécutées, découvertes nouvelles, méthodes améliorées, régressions, erreurs ouvertes, coûts CPU/GPU/disque, statut Claude/MCP/Blender/Roblox, top 3 des actions recommandées. Horodatage local explicite. Aucun nombre inventé.",
+      "requirement_sha256": "e043f57a9e29e5a0b78bfa092f0bf60bb8dc7ab383ce502e278f25b8e3aaadc3",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R132",
+      "requirement": "Interface sans PowerShell répétitif\nFournir un lanceur Windows simple et une commande unique de diagnostic (ou réutiliser l'interface existante). Codex doit exécuter lui-même les validations accessibles et collecter les rapports. Les actions nécessitant un logiciel GUI, une permission ou une authentification doivent être signalées en une instruction courte et précise, sans prétendre pouvoir les automatiser.",
+      "requirement_sha256": "a66c33ec0af737684aa86131c3205083dab5f3e6774a6623a13d9b0a9a197a30",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "Eponge.cmd; eponge.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Single launcher retained and now pinned; actual .cmd execution requires user Windows."
+    },
+    {
+      "id": "R133",
+      "requirement": "Tests obligatoires de la boîte noire\nInjecter en environnement isolé au moins : dépendance manquante, exception Python, timeout, résultat de test échoué, cache corrompu, interruption/reprise, doublon d'incident, échec de réparation, incident critique. Vérifier les fichiers générés, le masquage des secrets, la cohérence des statuts, la non-destruction et la résolution seulement après retest.",
+      "requirement_sha256": "d5f0f5c1d11e0304e2cf45adb77d6b412759e543eebb0972d3797ba866d468b9",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R134",
+      "requirement": "Conditions d'acceptation\nLe module BLACK BOX est REAL_VERIFIED seulement si un incident provoqué dans un environnement réel de test apparaît dans le rapport, possède une reproduction vérifiable, déclenche une réparation autorisée ou un blocage explicite, et se clôt uniquement après retest. Ajouter cette exigence à la matrice d'acceptation. Ne jamais présenter des rapports rédigés manuellement comme preuves d'autodiagnostic.",
+      "requirement_sha256": "52582413286f58417381a29e557990db1f04be7e4b0d4fc62283d8f22a9b1c57",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R135",
+      "requirement": "Comportement en cas d'échec du rapporteur\nSi le système de journalisation principal échoue, tenter une sortie de secours minimale et sûre vers un fichier local distinct, sans boucle infinie. Signaler explicitement la perte éventuelle de télémétrie. Ne jamais déclarer le système sain si son dispositif de diagnostic est indisponible.",
+      "requirement_sha256": "3879171d7bd131c2fd884fd44b69617d19f77569264e3bc32d90c2bc972e3ad7",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R136",
+      "requirement": "Définition du succès de la relève\nDistinguer CODE_COMPLETE, TESTS_PASS, LOCAL_READY, AUTONOMY_RUNNING, OBSIDIAN_SYNC_VERIFIED, MCP_REAL_VERIFIED, BLENDER_REAL_VERIFIED, ROBLOX_REAL_VERIFIED. Ne jamais déduire un état d'un autre.",
+      "requirement_sha256": "684f3ec34fbda9a3d59aee1f891dfbcaafc691b14542b066fc0b53df7812e05f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py; agent/forest_lab.py",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Tool-real / fixture / blocked categories separated; Windows LOCAL_READY and ongoing AUTONOMY_RUNNING not demonstrated."
+    },
+    {
+      "id": "R137",
+      "requirement": "Préflight de mise en service\nAprès validation finale, lancer automatiquement un préflight non destructif : chemins, permissions, dépendances, espace disque, modèles Ollama, coffre Obsidian, accès réseau, accès Blender, état MCP, ressources disponibles. Produire reports/DEPLOYMENT_READINESS.json et .md.",
+      "requirement_sha256": "55b9d8ad8a5de0e88a16163309525ce71db0bf7c203d66d2333ec90dafa9f7bc",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R138",
+      "requirement": "Consentement explicite au fonctionnement autonome\nPrévoir autonomy.enabled=false par défaut. N'activer le lancement automatique après livraison ou au démarrage Windows que si une autorisation explicite et vérifiable existe déjà. Si non autorisé, préparer une activation en un seul geste et signaler AWAITING_APPROVAL ; ne pas installer silencieusement une tâche planifiée.",
+      "requirement_sha256": "39d73b5d3c2e6105cd2dde0f048bcf3e9e46acd0b8f43d3606655e95b5ddbffb",
+      "prior_report_status": "PASS",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R139",
+      "requirement": "Démarrage conditionnel après livraison\nLorsque autonomy.enabled=true, les tests critiques applicables réussissent et les prérequis locaux sont satisfaits, lancer le moteur autonome en mode dégradé si nécessaire. Vérifier l'identité du processus, son heartbeat et au moins un cycle réel. En cas d'échec, enregistrer un incident et ne pas prétendre que la recherche tourne.",
+      "requirement_sha256": "55a6e2b2db333409b981d0dddf2e208fcf7bed91d43d9d86881838f455df94a4",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R140",
+      "requirement": "GitHub n'est pas un ordonnanceur\nDistinguer sauvegarde/commit local, push GitHub et démarrage de processus Windows. Ne pas effectuer de push automatique sans autorisation et dépôt distant configuré. Aucun secret, log privé, fichier volumineux ou donnée personnelle ne doit être poussé. Le système autonome doit fonctionner sans GitHub si le dépôt local est utilisable.",
+      "requirement_sha256": "da08a2bddd0fc59aee3c5f9a686c78ff9f74de3c7bb1b3bbe73e9b75842a57b1",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R141",
+      "requirement": "Découverte et configuration Obsidian\nDétecter le coffre Obsidian seulement dans les chemins autorisés et configurés. Ne pas inventer un chemin de vault. Prévoir obsidian.enabled, vault_path, subfolder, sync_mode et test d'écriture dans un dossier dédié ; demander une seule sélection de dossier si le coffre n'est pas identifiable.",
+      "requirement_sha256": "686275b4b74d1765822136e8fa4bdcb6256ea415b60645048b6a56787b0bc038",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R142",
+      "requirement": "Export Obsidian sûr\nÉcrire des fichiers Markdown avec identifiants stables, titres, provenance, dates, statut de validation, tags et liens internes. Utiliser écriture atomique, noms de fichiers sûrs, déduplication, gestion des collisions et index. Ne jamais écraser les notes personnelles de l'utilisateur ; isoler les notes générées dans un sous-dossier.",
+      "requirement_sha256": "ba647b7365f00edd935b8df30b8a95dd2e655d4a45a5901ae4fdfcde719ea568",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R143",
+      "requirement": "Synchronisation bidirectionnelle contrôlée\nLe mode par défaut est export unidirectionnel des connaissances validées vers Obsidian. Toute lecture/modification de notes utilisateur ou synchronisation bidirectionnelle exige une autorisation et une politique de conflits. Tester redémarrage et export répété sans duplication.",
+      "requirement_sha256": "37e3a43ada4d67cd07e5caf7ee3836eae71335e0af68e4a7ef42a7de028e550f",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R144",
+      "requirement": "Graphe Obsidian et qualité\nCréer des liens pertinents entre fiches, pas des milliers de notes artificielles. Mesurer : fiches nouvelles utiles, fiches mises à jour, doublons évités, sources vérifiées, expériences associées, notes invalidées. Ne pas confondre quantité de nœuds et qualité de la connaissance.",
+      "requirement_sha256": "c0cf728114203f5e627146acc489c115abf78b6e29fe197b77f6cd560e1e6d8b",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R145",
+      "requirement": "File de travail prioritaire nocturne\nInitialiser une file bornée ciblée sur la forêt enneigée Roblox : sapins, sol, neige, éclairage, torche, caméra, performance, Blender→Roblox. Dédupliquer et classer par utilité. Ne pas crawler le Web sans objectif ni budget.",
+      "requirement_sha256": "6e011cd79606c90bc986cfd62e238c5c2bff4716208596f138baca5911218cb7",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/research_roots.py",
+      "evidence": [
+        "FOREST_BRIEF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Eight forest topics prepared with gaps; no continuous/nocturnal campaign activated."
+    },
+    {
+      "id": "R146",
+      "requirement": "Exécution sans Roblox Studio\nSi Roblox Studio est fermé ou inaccessible, continuer recherche, extraction, fiches, tests Python, expériences Blender et préparation des imports. Marquer les validations Roblox UNAVAILABLE ou BLOCKED, jamais PASS.",
+      "requirement_sha256": "67243a2cc2c96555c61110717f3962b75b8f9454377d2a08bf73a6ac88be3fae",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R147",
+      "requirement": "Exécution sans Claude/Codex\nLes cycles ordinaires doivent utiliser l'ordonnanceur, les scripts locaux et éventuellement Ollama si disponible. En cas d'indisponibilité du modèle local, exécuter les tâches déterministes possibles, journaliser le blocage et ne pas inventer des découvertes IA.",
+      "requirement_sha256": "f4471d2019eda847e14ab610ecf4a0f27b552751164ee40da5fc7335f642e11c",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R148",
+      "requirement": "Gestion des sessions Windows\nDocumenter explicitement le comportement si la session Windows est verrouillée, déconnectée, en veille ou si le PC est éteint. Tester les modes accessibles ; ne pas prétendre qu'une application GUI reste pilotable sans session graphique.",
+      "requirement_sha256": "d022b37fdc8c246a1ed55167e06183190c8040d2af4220f1d5996137749d94e5",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R149",
+      "requirement": "Échéance de bilan configurable\nPrévoir daily_report_time en heure locale, par exemple 11:00, et générer un rapport à cette heure si le processus tourne. Générer aussi un rapport au démarrage et après chaque cycle ; ainsi le bilan reste disponible même si la tâche de 11 h ne s'exécute pas.",
+      "requirement_sha256": "e3dddac9e4e92d81df7f3e7cf427410fd393eb8866849d6dbee09caf7bb1e655",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R150",
+      "requirement": "Rapport de matinée actionnable\nProduire reports/MORNING_BRIEF.md avec : durée réellement active, nombre de recherches, fiches utiles, expériences par niveau L0–L5, méthodes validées, artefacts prêts, blocages, santé des intégrations, progression mesurée, trois meilleures actions suivantes. Chaque métrique doit être calculée à partir de journaux réels.",
+      "requirement_sha256": "6d18247396fbeb3bb7e5436bad891e23d1c2705dca7f58435814fd8cec89ea67",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py",
+      "evidence": [
+        "MORNING_BRIEF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Real activities and current STOPPED state available; target Windows/GPU cost remains unavailable."
+    },
+    {
+      "id": "R151",
+      "requirement": "Vérification de présence de vie\nFournir status.json horodaté avec last_heartbeat, last_completed_cycle, queue_depth, active_experiment, last_error, resource_usage lorsque disponible. Si heartbeat trop ancien, afficher STALE et non RUNNING.",
+      "requirement_sha256": "90251435a3fea319f601ddce226442ac6353ca362cbe50eb388fe329fb97852f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R152",
+      "requirement": "Gestion du budget et de l'énergie\nRespecter limites de temps, disque, RAM, CPU/GPU, réseau et consommation configurées ; pause sous forte charge. Éviter la génération illimitée de variantes. Enregistrer les expériences rejetées pour ne pas les répéter sans raison.",
+      "requirement_sha256": "63887d3047f69f13f5452eb64ebc65464d5d2825d7f4fe2883700cf395b5d95b",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R153",
+      "requirement": "Validation réelle du premier cycle\nAvant d'annoncer le lancement autonome, démontrer : tâche sélectionnée → exécution réelle → artefact ou résultat → journal → mémoire → export Obsidian si configuré → rapport → nouveau checkpoint. Tester l'arrêt/reprise et l'absence de doublons.",
+      "requirement_sha256": "a87524f5cd9bce5bafb6530c9bdc70086c8735f2f9f4deac5667f1c037371942",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R154",
+      "requirement": "Dossier de blocage pour Codex\nSi le premier cycle échoue, créer automatiquement reports/CODEX_HANDOFF.md avec reproduction, logs filtrés, dépendance fautive, étapes déjà tentées, risque, test à refaire et correction proposée. Ne pas appliquer de patch sensible sans approbation.",
+      "requirement_sha256": "dd0b16190f80a436d8f680f7d2683ee3b5bd96648acd389458befde5d6de1323",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py",
+      "evidence": [
+        "CODEX_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retained initial denoiser failure has raw logs and isolated recovery; automatic differential classification remains limited."
+    },
+    {
+      "id": "R155",
+      "requirement": "Livrable de mise en service sans PowerShell répétitif\nFournir un lanceur Windows unique pour Démarrer, Arrêter, Statut, Diagnostic, Ouvrir le bilan, plus une configuration simple. Codex doit lui-même tester le lanceur et les scripts dans l'environnement accessible. Si un geste utilisateur reste indispensable, fournir une seule instruction claire. La livraison doit distinguer PRÊT À DÉMARRER de DÉJÀ EN COURS D'EXÉCUTION.",
+      "requirement_sha256": "76184d0340edb80c58c6cc8c75df152228081ed6ba64f6ff2371c48ca9411add",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R156",
+      "requirement": "Registre des incidents normalisé\nChaque échec produit un incident avec ID stable, composant, horodatage, version, empreinte de l'erreur, gravité, fréquence, contexte minimal, reproduction, artefacts et statut. Regrouper les incidents identiques sans masquer leur fréquence.",
+      "requirement_sha256": "5d8d67a98c7f2e03324b13de9267f2efe17273e5a8ff807091e876178219c748",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R157",
+      "requirement": "Diagnostic différentiel avant réparation\nPour chaque incident, distinguer problème de configuration, indisponibilité temporaire, incompatibilité de version, bug du code, permission, ressource saturée ou erreur de données. Tester les hypothèses par sondes non destructives. Si diagnostic incertain : NEEDS_REVIEW.",
+      "requirement_sha256": "876238367517e8df1e87b5f24733e63ca8fa1fdc97604c01b829726f0d985bef",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py; agent/mission.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Actual index, model/dependency failures diagnosed in tested cases; no universal differential diagnosis."
+    },
+    {
+      "id": "R158",
+      "requirement": "Politique de réparation à trois niveaux\nAUTO_SAFE : retry borné, reconnexion, purge de cache dérivé vérifiée, reconstruction d'index, reprise de checkpoint. STAGED : correctif proposé et testé dans copie isolée, jamais promu sans critères prédéfinis. HUMAN_REQUIRED : secrets, installation système, changement d'API majeure, modification du projet principal, publication, dépense, sécurité.",
+      "requirement_sha256": "3c6b3e1a869c33b29c65ca35d328c546ad198732e15f911d5645c7b8e94bcec9",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R159",
+      "requirement": "Réparation des connecteurs de recherche\nDétecter changement de format, erreurs HTTP, quotas, expiration, HTML malformé et résultats vides. Basculer sur sources déjà autorisées, mettre en quarantaine les extracteurs cassés, tester sur fixtures versionnées, ne jamais contourner restrictions d'accès ou conditions d'utilisation.",
+      "requirement_sha256": "4fcdd71c229e4dac6e0bbb69f645c4b80b5e148b08dda13b683bfa3253263f3f",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/ocean_web.py; agent/intelligence_models.py",
+      "evidence": [
+        "proofs/budgets.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Actual six HTTP attempts; HTTP502/retry captured; separate fetch ledger fixed. No restriction bypass or unbounded retries."
+    },
+    {
+      "id": "R160",
+      "requirement": "Réparation de la mémoire et d'Obsidian\nValider chemins, permissions, encodage UTF-8, frontmatter, liens et conflits. Écrire atomiquement via fichier temporaire puis renommage ; sauvegarder avant migration ; éviter doublons par identifiant canonique ; tester aller-retour lecture/écriture et restauration.",
+      "requirement_sha256": "a8b9f86e1afee5d1ad2803a5a0ff31125fea1acaea266c413b53fda5e8ad79c3",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/obsidian.py; agent/reliability.py",
+      "evidence": [
+        "proofs/integration.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Actual export, readback, no duplicates and rollback on copies pass. Broad automatic memory repair still restricted."
+    },
+    {
+      "id": "R161",
+      "requirement": "Réparation du laboratoire Python\nIsoler chaque run, capturer stdout/stderr, code de sortie, timeout, fichiers et versions. En cas d'échec, reproduire sur entrée minimale, tenter seulement les corrections de paramètres autorisées, puis classer le problème. Ne jamais traiter une exception supprimée comme une réussite.",
+      "requirement_sha256": "a397e6f6699e1136e7b54eb2ab801e1bf5a1969b4b75bbb458be3333f40f53e3",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R162",
+      "requirement": "Réparation Blender versionnée\nDétecter exécutable/version/API disponible ; effectuer un smoke test réel avant gros batch. Tester scripts sur scène jetable ; vérifier export en réouvrant le fichier lorsque possible. Sur incompatibilité, sélectionner une implémentation compatible déjà validée ; sinon générer un incident avec traceback et reproduction.",
+      "requirement_sha256": "8a2e9c3a1b52b59316bd19277e6e1db5010e23fb9af0203c5cde223535e67541",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Known local denoiser incompatibility diagnosed then fixed/retested; no arbitrary automatic API patching."
+    },
+    {
+      "id": "R163",
+      "requirement": "Diagnostic Roblox Studio et pont MCP\nSéparer : Studio fermé, plugin absent, transport indisponible, permission refusée, timeout, schéma incompatible, asset invalide, erreur Lua. Utiliser heartbeat et requête de lecture non destructive. Retry uniquement erreurs transitoires ; ne jamais modifier ou publier le jeu principal pour rétablir la connexion.",
+      "requirement_sha256": "29d9f40426f6cc3e8746ff831a61adcbe3888f5ffbb98b9a9ecd5615e0a1b62a",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R164",
+      "requirement": "Réparation des procédures et scripts\nAutoriser des variantes de paramètres et scripts en sandbox ; exécuter tests unitaires, intégration et benchmarks indépendants ; conserver baseline. Promotion automatique uniquement pour changements explicitement classés faible risque, réversibles et couverts par tests. Aucun auto-patch des contrôles de sécurité.",
+      "requirement_sha256": "70cad0f3dbb7f583f6144ff8ea0c08295cb8225c1cc06049cc293b8f8f62df9f",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R165",
+      "requirement": "Contrôle de non-régression indépendant\nConserver un jeu de tests immuable et un jeu de problèmes inédits non exposés au générateur. Séparer création, mesure et décision. Rejeter toute amélioration qui réduit le taux de réussite des scénarios critiques, même si un score secondaire progresse.",
+      "requirement_sha256": "fed2bf88bd855506b54abfa2652941a35e8b16e8363a734ebdb391f110c072cc",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_validate.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "BLOCKED: no genuinely hidden validation set or generator-separated OS identity. Same-user hashes are not access isolation; keep promotion disabled."
+    },
+    {
+      "id": "R166",
+      "requirement": "Détection de faux progrès\nMesurer : taux de tâches utiles validées, succès sur cas inédits, incidents récurrents, coût par résultat et nombre d'interventions humaines. Ne pas compter fiches, tokens, variantes ou cycles comme gains de compétence. Enregistrer aussi les régressions et intervalles d'incertitude.",
+      "requirement_sha256": "993ae46b5738bf603b1d48ea87a2ffaac279bc121f927fb0bb80b8c721f99925",
+      "prior_report_status": "BLOCKED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R167",
+      "requirement": "Généralisation inter-domaines\nTester si une méthode découverte sur les sapins se transpose à buissons, branches ou cheveux, avec nouveaux cas séparés et contraintes explicites. En cas d'échec, limiter la portée de la règle plutôt que généraliser abusivement.",
+      "requirement_sha256": "042ad79bafaa8aa6f3cb56bff635ab77f256f2873b02f527714c52ae7502b9eb",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Geometric effect transferred to a preregistered shrub; not blind, artistic, hair, B3/C1 or Roblox generalization."
+    },
+    {
+      "id": "R168",
+      "requirement": "Surveillance et auto-récupération\nCréer un superviseur distinct de l'agent, avec heartbeat, arrêt propre, redémarrage borné, backoff et détection de crash-loop. Après seuil d'échecs, arrêter le composant fautif, maintenir les autres fonctions et produire un incident exploitable.",
+      "requirement_sha256": "e6d1962e53e4deeb0f8cc598676f6d33fee3480c5272e2eac3144db2c99e0f63",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R169",
+      "requirement": "Tests de panne contrôlée\nSimuler dans des copies isolées : réseau coupé, fichier verrouillé, index corrompu, crash d'un worker, Ollama absent, Blender absent, Studio fermé, disque plein simulé et interruption pendant écriture. Vérifier récupération, absence de corruption et absence de doublons.",
+      "requirement_sha256": "f2df600bfad1b0c7d2e4828bb0cfc0271db244416c7067976c3ef7c329f51c0a",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R170",
+      "requirement": "Validation des ressources nocturnes\nAvant le mode nuit : smoke test, seuil minimal de disque libre, quotas configurés, fenêtre d'activité autorisée, contrôle de charge, mode pause, budget par catégorie et coupe-circuit. Ne pas lancer de longues expériences GUI si la session Windows ne permet pas leur exécution fiable.",
+      "requirement_sha256": "2ff726c871f938a0824b0818d6a4ddb78fa0a404c41abdffab94c21371ce87fb",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R171",
+      "requirement": "Mise en service sans commandes manuelles répétées\nCodex doit fournir et tester un lanceur unique Windows avec Démarrer/Arrêter/Diagnostic/Bilan. Les scripts doivent découvrir leur répertoire, créer les dossiers manquants sans écraser les données et afficher les erreurs lisiblement. Ne demander à l'utilisateur que les actions impossibles à automatiser ou nécessitant permission.",
+      "requirement_sha256": "b413282ef121563431cbea7cc76e12776a1189fd08a51cc25f66c0e458f9e7dc",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R172",
+      "requirement": "Contrat de disponibilité à 11 h\nLe bilan doit indiquer explicitement RUNNING, PAUSED, STALE, BLOCKED ou STOPPED, les heures réelles de fonctionnement, le dernier cycle validé, les travaux utiles terminés et les intégrations indisponibles. Aucun chiffre fictif. Si l'agent s'est arrêté, le rapport existant doit rester consultable.",
+      "requirement_sha256": "3adec97c733de774c73e531803ad7bd048a91b2fe8cf05749e39fbca00d65d71",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R173",
+      "requirement": "Auto-triage avant escalade Codex\nAvant d'ouvrir CODEX_HANDOFF.md, exécuter une seule séquence bornée : diagnostic → réparation sûre si admissible → test ciblé → non-régression → classement. Ne pas réessayer une correction déjà invalidée avec la même configuration. Documenter toutes les tentatives.",
+      "requirement_sha256": "a853fb45adfeead250906c871437f8c6539e27a31d89204ae9258486527683b5",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R174",
+      "requirement": "Dossier de réparation prêt à exécuter\nPour chaque incident non résolu, générer un dossier comprenant : résumé, impact, gravité, environnement, étapes minimales de reproduction, erreur brute expurgée, hypothèses testées, cause probable vs inconnue, fichiers concernés, tests échoués, correction suggérée, risques et critère de validation. Ne jamais inclure de secrets ni inventer une cause.",
+      "requirement_sha256": "468eec287cf10b30db21040513db7143e11aba0935497288e1c23947db2f631e",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R175",
+      "requirement": "Test final de réduction de dépendance à Codex\nEffectuer un essai autonome borné avec au moins : un incident transitoire récupérable, un incident de données récupérable, un incident non réparable automatiquement, un cycle Blender si disponible et une synchronisation Obsidian si configurée. Vérifier que les deux premiers se résolvent sans intervention, que le troisième n'est pas masqué et que le rapport est exploitable. Les dépendances indisponibles restent BLOCKED, jamais PASS.",
+      "requirement_sha256": "d318f94c9e97aa28a8d049c5dcaf230f15287dcd2b1c59ce29ab0ba9944be758",
+      "prior_report_status": "BLOCKED",
+      "status": "NOT_TESTED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R176",
+      "requirement": "Superviseur hors processus et hors IA. Fournir un petit programme autonome, testable sans Ollama ni agent principal, qui observe PID, heartbeat, progression et exit codes. Il ne doit importer aucun module critique du cœur qu'il surveille. Le lancer uniquement après accord sur le mode persistant.",
+      "requirement_sha256": "df05ccdfcf3bdaf5919be25cfe39f2909948f15e4dbdf61282e04b044090b2b4",
+      "prior_report_status": "NOT_TESTED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R177",
+      "requirement": "Chaîne de récupération en trois niveaux. (a) redémarrage borné du worker, (b) bascule vers dernière version saine signée/empreintée, (c) arrêt sûr et diagnostic hors ligne. Un échec du réparateur ne doit pas entraîner une boucle infinie ; plafonner les redémarrages et activer un coupe-circuit.",
+      "requirement_sha256": "1408ddd29847b67930f49aadc17e8806ff260c675aa8e1cd13b8df035ec36c24",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_guard.py; scripts/eponge_recovery.py",
+      "evidence": [
+        "proofs/executable-recovery.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Bounded restart, tested approved image and safe recovery to NEW disabled copy demonstrated; automatic live failover is NOT implemented."
+    },
+    {
+      "id": "R178",
+      "requirement": "Images de restauration vérifiées. Avant chaque promotion, capturer versions, dépendances, configurations non secrètes, schémas et données critiques. Vérifier l'intégrité des sauvegardes par checksum et tester réellement une restauration sur copie jetable.",
+      "requirement_sha256": "ae05b007b46083430a329bd0b8762623c53a71f1ea65ec7d48e659c9201d2293",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_recovery.py; agent/reliability.py",
+      "evidence": [
+        "proofs/executable-recovery.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified code image plus current runtime copied with checkpoint bytes/quotas preserved; no production promotion occurred."
+    },
+    {
+      "id": "R179",
+      "requirement": "Transactions pour migrations et mises à jour. Toute évolution du schéma de mémoire, de file ou de configuration utilise un journal de migration, une copie et une procédure de retour arrière ; écriture atomique et verrouillage inter-processus.",
+      "requirement_sha256": "ce868385b256aab9f77ad46d1b9e6448d3b7c1d1f0f0c3f5475d25ea36bea204",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/storage.py; agent/obsidian.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Atomic writes/checkpoints work; no general multi-schema migration manager implemented."
+    },
+    {
+      "id": "R180",
+      "requirement": "Panne du système de réparation. Injecter une exception et un blocage dans le moteur de réparation lui-même ; prouver que le superviseur indépendant constate la panne, maintient les autres workers sûrs et produit un rapport sans appeler ce moteur.",
+      "requirement_sha256": "a71eab7dffd74a8838a5beb2ea97c76e580c0f5c5d7e1f7af6fddba0b523781c",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_guard.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Core/import/repair failure and killed supervisor tested; transient lease companion stops orphan. OS failure and companion crash still need an external recovery boundary."
+    },
+    {
+      "id": "R181",
+      "requirement": "Démarrage après crash. Tester coupure simulée au milieu d'une expérience, d'un export et d'un checkpoint. Au redémarrage, reprendre ou annuler sans duplications ni promotion d'artefact incomplet.",
+      "requirement_sha256": "47e9ffac19490881d305de60ed64aca4876d2125e4da0135a59722c5c8d69ea0",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_guard.py; agent/mission.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Crash/lease/checkpoint recovery fixtures pass; actual OS power failure is not a tested event."
+    },
+    {
+      "id": "R182",
+      "requirement": "Inventaire des versions et capacités. À chaque lancement, relever versions disponibles de Python, Blender, Ollama, dépendances et ponts Roblox/MCP, puis tester les fonctionnalités effectivement disponibles ; ne pas inférer la compatibilité du seul numéro de version.",
+      "requirement_sha256": "6f5a27a67f8adbbb9bfeedbab7a5b0f5852ab6ec6a1fd47c46c0373ef2a18452",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Python/Blender available, not proof of target Windows/Python3.11/Blender5.2/Studio capabilities."
+    },
+    {
+      "id": "R183",
+      "requirement": "Adaptateurs isolés et versionnés. Séparer le cœur de la logique d'intégration ; définir interfaces, timeouts, codes d'erreur, fixtures et tests de contrat par adaptateur. Conserver un adaptateur précédemment validé comme repli quand c'est sûr.",
+      "requirement_sha256": "fb891142b3c6fe779f24003d78cb80e3ff898c6b6f67ba1cccf5c4e308eb1ad1",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/lab_runner.py; scripts/eponge_recovery.py",
+      "evidence": [
+        "proofs/executable-recovery.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Fixed local adaptors and tested code image exist; cross-version runtime/adapter failover unvalidated."
+    },
+    {
+      "id": "R184",
+      "requirement": "Détection précoce des changements. Effectuer des smoke tests non destructifs avant chaque campagne ; désactiver uniquement la fonction incompatible, poursuivre les autres, enregistrer la différence de contrat et la reproduction minimale.",
+      "requirement_sha256": "08edaaef58c3357adb644ee001165ee81884317072ebdadc01a0aeb36064b181",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py; agent/lab_runner.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Fail closed or partial continuation for tested dependencies; GUI API contract shifts not tested in real tools."
+    },
+    {
+      "id": "R185",
+      "requirement": "MCP/Claude : récupération graduée. Tester serveur, transport, authentification, schéma et appels de lecture ; reconnecter avec backoff uniquement sur erreurs transitoires. Si Claude est absent, continuer les cycles locaux. Ne jamais contourner une autorisation ou demander/collecter un secret dans un journal.",
+      "requirement_sha256": "05b410435d37d85237ebc66c78babf7f7d1f76ff217751452320fcd86d50235d",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R186",
+      "requirement": "Roblox : bac à sable obligatoire. Toute expérimentation modifiant une scène passe par une copie dédiée avec identifiant vérifié ; refus explicite si la cible est le projet principal ou publié. Test réel Studio uniquement si une session graphique, le plugin et les permissions sont présents. Sinon BLOCKED, avec tâche différée.",
+      "requirement_sha256": "f5c9067bfc6ffd079f4ceb55f2dd54d9a085592d8d34dc9361ef45ae1f574c7f",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R187",
+      "requirement": "Blender : matrice de tests. Vérifier lancement headless, chargement scène jetable, exécution script, sauvegarde, réouverture, export et contrôle de maillage. Sur erreur d'API, essayer uniquement des chemins de compatibilité connus et testés ; ne jamais installer une version ou un script distant automatiquement.",
+      "requirement_sha256": "77a5cec280af9d37d199894720ba0fe390a36808af701682b26d23fdecacdb63",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "scripts/blender_forest_ab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Blender4.3.2 generation/save/reopen/OBJ reimport passed on generated foliage; broader versions/inputs remain untested."
+    },
+    {
+      "id": "R188",
+      "requirement": "Tests de contrat après mise à jour. Sur environnement de test, injecter réponses MCP malformées, indisponibilité de Studio, changements de signature Blender et échec d'export ; prouver la dégradation partielle sans corruption et la création d'un correctif candidat si admissible.",
+      "requirement_sha256": "4107584589ce66576d7d73aff182fe67b87652b782ee0433b175817bb2ccb9e4",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "tests/test_operations.py; tests/test_forest_lab.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Contract failure fixtures pass; no real Studio API signature change exercised."
+    },
+    {
+      "id": "R189",
+      "requirement": "Capacités du modèle mesurées. Tester localement les modèles disponibles sur des tâches courtes de planification, extraction, critique et génération de script. Enregistrer erreurs, temps et taux de validation ; ne pas supposer qu'un modèle sait programmer correctement parce qu'il produit du texte plausible.",
+      "requirement_sha256": "22f62ea4e82c64d456881cebb54aa4cd948c0dc23e3d0f226f61102961df85dc",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "agent/intelligence_models.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Installed model inventory is unavailable; no real model evaluation, download or inference claimed."
+    },
+    {
+      "id": "R190",
+      "requirement": "Escalade interne sans Codex. Pour un échec : décomposition en sous-problèmes → recherche dans mémoire → récupération d'exemples validés → variante indépendante → test exécutable → critique indépendante. Limiter profondeur, tentatives et budget ; après épuisement, signaler UNRESOLVED.",
+      "requirement_sha256": "a262d9e7012be66e4b23b74261f0acd9223bb72e41013816de6a57358d494464",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py; agent/forest_lab.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Predefined index repair/local phases work without LLM; general reasoning/independent model critique unavailable."
+    },
+    {
+      "id": "R191",
+      "requirement": "Pas de faux apprentissage. Améliorer les procédures, prompts locaux, paramètres et corpus validé ; ne jamais prétendre que les poids d'Ollama ont été réentraînés sans véritable procédure d'entraînement et mesure.",
+      "requirement_sha256": "84d0eba853c66d05701284fc2618871b55a7beaae1dfe104e0947f8b2b0f135d",
+      "prior_report_status": "PASS",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R192",
+      "requirement": "Métavision : état de croyance versionné. Conserver hypothèses, preuves, contre-exemples, confiance calibrée, coût de vérification et dernière validation. Toute nouvelle observation peut diminuer la confiance, invalider une méthode ou ouvrir une expérience ; préserver la provenance.",
+      "requirement_sha256": "08b0b2c938dc4400514ed5e405faa096c9d587b4808eb8736e36328ffa3ab14b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/reliability.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Versioned beliefs/counterexamples retained; calibration not measured, no weights trained."
+    },
+    {
+      "id": "R193",
+      "requirement": "Priorisation du temps disponible. Ordonnancer les tâches par utilité attendue pour la forêt, gain d'information, probabilité de réussite, coût CPU/GPU, durée, risque et dépendances. Réévaluer à chaque cycle, sans scruter Internet en continu ni épuiser les ressources.",
+      "requirement_sha256": "f03cf4e0cf6ffba19d3b7be9b63ace86eada2abc58538a1da042810de87a487d",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/research_roots.py; agent/research_queue.py",
+      "evidence": [
+        "FOREST_BRIEF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Existing priorities/bounded recursion reused; calibrated success probabilities and automatic user-load scheduling absent."
+    },
+    {
+      "id": "R194",
+      "requirement": "Exploration contrôlée et arrêt intelligent. Réserver une part configurable aux pistes nouvelles, mais arrêter une branche stérile selon critères documentés. Reprendre les tâches interrompues grâce aux checkpoints. Dédupliquer les expériences et conserver les échecs informatifs.",
+      "requirement_sha256": "b728b939979708adf228a4bd2f6121976b7299ab9d772f416d8c9bc34f93ab3b",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "agent/research_roots.py; agent/mission.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Depth/branch/retry/checkpoint bounds work; configurable novelty allocation not fully evaluated."
+    },
+    {
+      "id": "R195",
+      "requirement": "Évaluation aveugle des améliorations. Conserver un benchmark gelé inaccessible au générateur de variantes, avec cas inédits et critères de réussite. Refuser toute promotion qui régresse sur la sécurité, la stabilité, la reproductibilité ou le résultat artistique mesurable.",
+      "requirement_sha256": "f6c672b5b5e0fc1299c92a258a57b84ece524e0b709641451ab011bc17aa7968",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_validate.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "BLOCKED: no genuinely hidden validation set or generator-separated OS identity. Same-user hashes are not access isolation; keep promotion disabled."
+    },
+    {
+      "id": "R196",
+      "requirement": "Objectifs artistiques explicites. Transformer « forêt réaliste, nocturne, enneigée, torche » en critères observables : densité, silhouettes, variété, lisibilité du chemin, textures, budget triangles, temps image, cohérence visuelle. Garder les préférences subjectives comme décisions utilisateur, pas comme métriques inventées.",
+      "requirement_sha256": "fc96ae80ce10a0b0209090f37f82a177f3acf33a87c21405b58da38d554544dd",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "FOREST_BRIEF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "One geometric hypothesis measurable; artistic target, density/FPS and human preference thresholds unconfirmed."
+    },
+    {
+      "id": "R197",
+      "requirement": "Comparaisons A/B reproductibles. Pour chaque variante, enregistrer seed, paramètres, version Blender/Roblox, captures si possibles, métriques et différences ; ne pas déclarer une variante « plus belle » sur la seule opinion d'un modèle local.",
+      "requirement_sha256": "5e479c77b85bddf8c3f8b22a7f6e175d766d2d9743006e2b290a9bd84703da8d",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/forest_lab.py",
+      "evidence": [
+        "proofs/forest-ab.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Same seed/camera/light/resolution, four actual captures; aesthetic winner INCONCLUSIVE."
+    },
+    {
+      "id": "R198",
+      "requirement": "Préférences utilisateur comme contraintes. Permettre un retour simple (« trop plat », « trop clair », « trop répétitif ») ; transformer en hypothèses testables et mémoriser les choix, sans modifier automatiquement le jeu principal.",
+      "requirement_sha256": "01bf5906975078f48ba3489a828a8950ca5708c2ff8eb9c88ef45b6dd73949dc",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/project_visual.py; agent/visual_description.py",
+      "evidence": [
+        "FOREST_BRIEF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Feedback interfaces retained; no new human aesthetic feedback or preference validation received."
+    },
+    {
+      "id": "R199",
+      "requirement": "Mémoire résistante à la corruption. Écriture atomique, snapshots, checksums, validation du schéma, détection de doublons, restauration sur copie et contrôle des liens Obsidian. Interdire la suppression automatique de notes personnelles.",
+      "requirement_sha256": "14728c164fd699890a1f0fba20123bb29830c101df0425c0ac681a1d5e4977ad",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R200",
+      "requirement": "Contradictions et obsolescence. Ne pas écraser silencieusement une fiche : relier les versions, dater les sources, distinguer VERIFIED, HYPOTHESIS, REJECTED, STALE. Réévaluer lorsqu'une API ou une mesure change.",
+      "requirement_sha256": "d793cc878947fdbdd2faebfb783d70efbf63b82af33fd18606078c2c6ecbbf6d",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R201",
+      "requirement": "Restauration Obsidian de bout en bout. Simuler fichier corrompu, conflit de nom, coupure pendant écriture et coffre indisponible. Vérifier qu'aucune note utilisateur n'est perdue et que les exportations reprennent sans doublon.",
+      "requirement_sha256": "35a205c54e4b606001163feedeaa899ee4331085a37606d2210e27b7c1632e9c",
+      "prior_report_status": "BLOCKED",
+      "status": "DONE_VERIFIED",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Verified for the documented isolated software scenario; no universal reliability or Windows claim."
+    },
+    {
+      "id": "R202",
+      "requirement": "Préflight Windows non destructif. Vérifier chemin, droits réels, espace disque, verrouillage session, veille, GPU, processus concurrents et ports. Décrire exactement les limitations de l'exécution en session verrouillée ou déconnectée ; ne pas modifier l'alimentation Windows sans accord.",
+      "requirement_sha256": "c0611c1085f68f9b0f525cb2008323a2fa9df3082b6ed9d3147cc45e8dc12be4",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R203",
+      "requirement": "Aucune élévation silencieuse. Si permission, installation, pare-feu, secret, connexion à un compte ou planificateur Windows requiert l'utilisateur, suspendre cette opération, conserver le reste du service et générer UNE demande d'autorisation précise. Ne pas contourner les protections.",
+      "requirement_sha256": "6f4500f5d105640cbcba8bc46c6af09cc64b9bec408f7666e9c946c54316eb68",
+      "prior_report_status": "NOT_TESTED",
+      "status": "DONE_VERIFIED",
+      "implementation": "Eponge.cmd; agent/mission.py",
+      "evidence": [
+        "LOCAL_HANDOFF.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Windows PC/GUI or explicit persistent-mode authorization unavailable. Open the authorized folder in a local Codex session; no system change or model install performed."
+    },
+    {
+      "id": "R204",
+      "requirement": "Patchs autonomes à privilèges minimaux. Autoriser uniquement une liste explicite de fichiers/scripts non sensibles dans un worktree Git isolé. Refuser l'auto-modification des garde-fous, du superviseur, des permissions, de la politique d'approbation et des données du jeu principal.",
+      "requirement_sha256": "c35ca855c25910db4db503147613ca76cda2ac04fc97677d1a4ee99ae3b5883c",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R205",
+      "requirement": "Pipeline de promotion strict. Un patch candidat doit passer formatage, typage si applicable, tests unitaires, intégration, scénarios de panne, benchmark gelé, contrôle de sécurité, test sur copie et sauvegarde. Promotion seulement si changement faible risque, réversible et explicitement préautorisé ; sinon préparer un dossier à approuver.",
+      "requirement_sha256": "5ddf343f6b9dd99fb615398f5b3fbddeb524597a7980defa142ff17df878603d",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_guard.py; scripts/eponge_validate.py",
+      "evidence": [
+        "BLACK_BOX.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Candidate staging only; no hidden independent evaluation or production promotion approval."
+    },
+    {
+      "id": "R206",
+      "requirement": "Rollback automatique mesuré. Après promotion, canary limité et surveillance de métriques ; si seuil de régression franchi, revenir automatiquement à la dernière version saine, mettre le patch en quarantaine et créer un incident.",
+      "requirement_sha256": "762d7cc9fa0f187117ea22ddcb52318eb8c05f01f37054537f05acf109e4c526",
+      "prior_report_status": "BLOCKED",
+      "status": "BLOCKED",
+      "implementation": "scripts/eponge_recovery.py",
+      "evidence": [
+        "proofs/executable-recovery.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "No production promotion/canary performed; explicit tested recovery copy only. Automatic live rollback remains unimplemented."
+    },
+    {
+      "id": "R207",
+      "requirement": "Gestion de la dette technique. Maintenir un registre de correctifs candidats refusés, incompatibilités non résolues et interventions nécessitant autorisation. Ne pas répéter la même tentative indéfiniment ni cacher les erreurs derrière des retries.",
+      "requirement_sha256": "d0f5a6b966972bd71c93b30533d1cf4fd004529238721749355d75c349338bcd",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "See CAPABILITY_MATRIX.md and existing module inventory",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Retain the existing implementation; validate the full compound requirement separately before accepting it."
+    },
+    {
+      "id": "R208",
+      "requirement": "Huit scénarios d'acceptation obligatoires. Tester : (1) panne du réparateur ; (2) changement d'API Blender/Roblox simulé ; (3) MCP/Claude absent ; (4) modèle Ollama insuffisant ; (5) appréciation artistique ambiguë ; (6) corruption mémoire/Obsidian ; (7) refus de permission Windows ; (8) patch de code risqué. Pour chacun : preuve de diagnostic, comportement sûr, continuité partielle, récupération quand possible et escalade explicite quand nécessaire.",
+      "requirement_sha256": "6c0636e35bdfca83d5ed35bfcb6e0990c97494adc3927b2333e8e4c410962f5b",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "tests/test_operations.py; tests/test_operations_continuation.py",
+      "evidence": [
+        "proofs/validation.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "CURRENT_SOFTWARE_OR_TOOL_PROOF_WITH_SCOPE_LIMITS",
+      "next_action": "Fault suite expanded; real Windows refusal, insufficient installed model and Studio remain blocked, not all eight real tool scenarios accepted."
+    },
+    {
+      "id": "R209",
+      "requirement": "Essai autonome et mesure. Exécuter une campagne locale bornée (30–60 minutes si ressources et temps disponibles), avec au moins une vraie recherche, une vraie écriture de fiche en coffre test, une expérience Python, une expérience Blender si installé et un test Studio si accessible. Produire chronologie, résultats, temps actif, consommation, incidents et preuve d'arrêt/reprise. Ne jamais simuler une intégration réelle pour valider le scénario.",
+      "requirement_sha256": "6c9cbe152e6387648db09770c0d20dfa57492e53ea18234624504eeafb76bca7",
+      "prior_report_status": "BLOCKED",
+      "status": "PARTIAL",
+      "implementation": "agent/mission.py; agent/forest_lab.py",
+      "evidence": [
+        "../proofs/campaign-summary.json"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "INHERITED_ARTIFACT_CHECKED",
+      "next_action": "Inherited 30min pilot plus new forest experiment; no repeated idle campaign, real user Windows/Studio unavailable."
+    },
+    {
+      "id": "R210",
+      "requirement": "Livraison unique et décision honnête. Codex exécute lui-même les tests et fournit lanceur Windows, HEALTH_REPORT.md, REPAIR_BACKLOG.md, CODEX_HANDOFF.md, MORNING_BRIEF.md, résultats machine-readable et une matrice PASS / FAIL / BLOCKED / NOT_TESTED pour les exigences critiques. Afficher séparément « implémenté », « testé en simulation », « validé sur outils réels », « actif en autonomie ». Ne jamais annoncer « prêt à travailler toute la nuit » sans premier cycle réel, budget, autorisation et heartbeat vérifié.",
+      "requirement_sha256": "32317ad4a7b87e347fe4b01023ea073bf3907654674b2986391e0a58a9ea3b54",
+      "prior_report_status": "NOT_TESTED",
+      "status": "PARTIAL",
+      "implementation": "scripts/eponge_validate.py",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "environment": "Cloud Linux/Python3.12.14; Blender4.3.2 only where explicitly stated",
+      "evidence_origin": "AUDITED_DOCUMENT_OR_IMPLEMENTATION",
+      "next_action": "Software delivered with explicit limits; fully local Windows/autonomy/GUI acceptance remains PARTIAL."
+    }
+  ]
+}

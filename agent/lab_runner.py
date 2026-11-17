@@ -19,7 +19,7 @@ class LocalLab:
  def path(self,job_id,name='job.json'):return safe_path(self.root,'lab/runner/'+identity(job_id)+'/'+name)
  def check_storage(self,extra=0):
   total=0;count=0
-  for folder in ('lab/runner','lab/inbox/jobs'):
+  for folder in ('lab/runner','lab/inbox/jobs','lab/inbox/forest'):
    for p in (self.root/folder).rglob('*') if (self.root/folder).exists() else []:
     if p.is_file():safe_path(self.root,p.relative_to(self.root).as_posix());total+=p.stat().st_size;count+=1
   if count>2000 or total+extra>settings(self.root)['storage_bytes']:raise ValueError('local runner storage cap reached')

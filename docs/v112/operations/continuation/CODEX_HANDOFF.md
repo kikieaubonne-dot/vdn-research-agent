@@ -1,0 +1,15 @@
+# Relève exacte
+
+1. Vérifier le manifeste de livraison et le SHA réellement actif. Base de reprise `ebac8f3`, branche existante `codex/project-intelligence-v11-2`. Aucun push/merge/PR créée. `output/queue.json` et `work/` antérieurs exclus des commits.
+2. Lire REPORT, BLACK_BOX, ACCEPTANCE_RECONCILIATION et FOREST_BRIEF. Le contrat210 reste PARTIAL ; ne pas transformer une ligne d’audit en preuve Windows ou artistique.
+3. Preuves brutes privées : `/workspace/eponge-continuation`. Snapshot initial `resume-point.tar`, empreintes `initial-files.json`. Les anciens artefacts `/workspace/eponge-productive` restent présents. La campagne30min n’a pas été recommencée.
+4. Dernier code validé : manifeste `final-inputs.json`, résultat/log `final-check/`, configuration personnelle `personal-config-current.log`.558 tests, grammaire3.11 seulement, runtime3.12.14/Linux. Comparer les empreintes avant de réutiliser ces preuves. Tous les nouveaux tests sont des scénarios isolés ; aucun test Roblox simulé n’est promu.
+5. Runtime utile : `/workspace/eponge-continuation/productive/runtime`. Sources SpotLight/streaming nouvelles, ledger17novembre HTTP9 conservateur/fetch5. Six HTTP réels seulement ; enveloppe close. Ne pas lancer une nouvelle collecte ou remettre le compteur à zéro sous prétexte de reprise.
+6. Essai réel réussi : `lab/inbox/forest/5b6d4b4f-a3bb-4d7c-aa92-08c8caa5622d`. Échec initial : `02616fe0-2b26-4f7a-91f7-fe77620366ff`. Géométrie PASS, esthétique INCONCLUSIVE, Studio/B3/C1 BLOCKED. Les quatre résultats restent non vérifiés humainement.
+7. Expériences réelles réussies : `1d091a01-2012-5e4f-b86c-c3f02832a2b9` et `13342ba3-6dee-5e48-8ae9-13a99e77b449`. MCP get_experiment les restitue. Le briefing B3/C1 reste PARTIAL, avec échecs d’autres assets visibles ; les échecs de mêmes assets/inconnus restent bloquants.
+8. Coffre isolé : `/workspace/eponge-continuation/vault`; preuve de rollback sur `/workspace/eponge-continuation/vault-rollback-copy`. Aucune note personnelle modifiée. Ne pas republier les captures Web comme nouvelles sources indépendantes.
+9. Image finale et copie restaurée : `approved-image-current`, `recovered-workspace-current`, empreinte dans la preuve de restauration/manifeste. Copie désactivée, jamais un failover vivant. Fichiers runtime/checkpoint/budgets conservés ; ancien workspace fautif conservé.
+10. **État d’exploitation STOPPED** à la livraison. Pas de service local, pas d’agent en arrière-plan revendiqué. Si un environnement repart, lire les fichiers et le heartbeat effectifs ; une tâche11 h ne signifie pas un moteur actif.
+11. Étape bloquante suivante : session Codex locale Windows sur le dossier autorisé. Vérifier Desktop/Studio/copies B3/C1 avant essai. La charge utilisateur, le holdout réellement caché, le canary automatique et la calibration de confiance restent incomplets ; aucune autorisation ne doit être fabriquée pour les compléter.
+
+Les nouveaux défauts doivent repartir d’une régression rouge, puis correction minimale et preuve propre. Ne pas réécrire le noyau stable ou ajouter un système agentique pour masquer un manque d’assets/de mesure.

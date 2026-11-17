@@ -1,0 +1,107 @@
+{
+  "schema": "vdn.continuation-retrieval-check/1",
+  "questions": 12,
+  "same_corpus": true,
+  "same_annotations": true,
+  "baseline_code": "ebac8f3478efee05e0e88af635de3dcbc848cace",
+  "before": {
+    "existing_coverage": {
+      "recall_at_5": 0.7916666666666666,
+      "precision_against_listed_labels_at_5": 0.21666666666666667,
+      "reciprocal_rank": 0.6694444444444444,
+      "ndcg_at_5": 0.6776829657427786,
+      "coverage": 0.9166666666666666,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.008350819083716488
+    },
+    "inferred_branch_fusion": {
+      "recall_at_5": 0.875,
+      "precision_against_listed_labels_at_5": 0.25,
+      "reciprocal_rank": 0.7833333333333333,
+      "ndcg_at_5": 0.7616215830304652,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.13246875141339842
+    },
+    "explicit_branch_fusion": {
+      "recall_at_5": 0.9166666666666666,
+      "precision_against_listed_labels_at_5": 0.26666666666666666,
+      "reciprocal_rank": 0.8333333333333334,
+      "ndcg_at_5": 0.8063305748387809,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.12941493508211957
+    }
+  },
+  "after": {
+    "existing_coverage": {
+      "recall_at_5": 0.7916666666666666,
+      "precision_against_listed_labels_at_5": 0.21666666666666667,
+      "reciprocal_rank": 0.6694444444444444,
+      "ndcg_at_5": 0.6776829657427786,
+      "coverage": 0.9166666666666666,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.007945877998281503
+    },
+    "inferred_branch_fusion": {
+      "recall_at_5": 0.875,
+      "precision_against_listed_labels_at_5": 0.25,
+      "reciprocal_rank": 0.7833333333333333,
+      "ndcg_at_5": 0.7616215830304652,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.1300825997471596
+    },
+    "explicit_branch_fusion": {
+      "recall_at_5": 0.9166666666666666,
+      "precision_against_listed_labels_at_5": 0.26666666666666666,
+      "reciprocal_rank": 0.8333333333333334,
+      "ndcg_at_5": 0.8063305748387809,
+      "coverage": 1.0,
+      "empty": 0.0,
+      "duplicates": 0.0,
+      "latency_s": 0.13450293825129242
+    }
+  },
+  "metric_deltas_excluding_latency": {
+    "existing_coverage": {
+      "recall_at_5": 0.0,
+      "precision_against_listed_labels_at_5": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_5": 0.0,
+      "coverage": 0.0,
+      "empty": 0.0,
+      "duplicates": 0.0
+    },
+    "inferred_branch_fusion": {
+      "recall_at_5": 0.0,
+      "precision_against_listed_labels_at_5": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_5": 0.0,
+      "coverage": 0.0,
+      "empty": 0.0,
+      "duplicates": 0.0
+    },
+    "explicit_branch_fusion": {
+      "recall_at_5": 0.0,
+      "precision_against_listed_labels_at_5": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_5": 0.0,
+      "coverage": 0.0,
+      "empty": 0.0,
+      "duplicates": 0.0
+    }
+  },
+  "regressions": {
+    "inferred_branch_fusion": [],
+    "explicit_branch_fusion": []
+  },
+  "no_new_retrieval_gain_claimed": true,
+  "not_blind_or_game_ground_truth": true,
+  "earlier_22_questions": "Inherited evidence hashes checked; not rerun because retrieval code/annotations unchanged"
+}

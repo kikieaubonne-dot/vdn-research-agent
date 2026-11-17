@@ -9,6 +9,7 @@ from agent.obsidian import safe_path
 from agent.ocean_web import OceanWeb,settings
 from agent.project import Bible,request_context
 from agent.project_work import Project,bound_experiments
+from agent.project_quality import failure_applies_to_assets
 from agent.project_recipes import recipe
 from agent.research_library import Library
 from agent.research_session import ResearchSessions
@@ -56,10 +57,11 @@ class Roots:
    if not matched or p['hostile'] or p.get('context_only'):continue
    ref={k:p[k] for k in ('id','document_id','url','document_sha256','section','start','end','version','source_type','accessed','published')};ref['version_known']=p['version'] not in ('unknown','UNKNOWN');ref['original']=p['independent'];ref['incomplete']=p['incomplete_context'];refs.append(ref)
    if p['independent'] and not p['incomplete_context'] and not p['hostile'] and p['retrieved_at'] and time.time()-p['retrieved_at']<=settings(self.root)['cache_ttl_s']:original.append(ref)
-  records=self.experiments(n);failures=[r for r in records if r['results'] and r['results'][-1]['status']=='FAILED'];reviewed=[r for r in records if (r['parameters'].get('research_branch') or r['protocol'].get('research_branch'))==key and r['status']=='VERIFIED' and r.get('review') and r['environment'].get('engine')=='Roblox' and bible.value('engine_version') not in ('UNKNOWN','unknown') and r['environment'].get('engine_version')==bible.value('engine_version') and set(bible.task(n['task'])['assets'])<=set(r['environment'].get('asset_ids',[]))]
+  records=self.experiments(n);all_failures=[r for r in records if r['results'] and r['results'][-1]['status']=='FAILED'];failures=[r for r in all_failures if failure_applies_to_assets(r,bible.task(n['task']))];reviewed=[r for r in records if (r['parameters'].get('research_branch') or r['protocol'].get('research_branch'))==key and r['status']=='VERIFIED' and r.get('review') and r['environment'].get('engine')=='Roblox' and bible.value('engine_version') not in ('UNKNOWN','unknown') and r['environment'].get('engine_version')==bible.value('engine_version') and set(bible.task(n['task'])['assets'])<=set(r['environment'].get('asset_ids',[]))]
   status='HUMAN_REVIEWED_UNDER_RECORDED_CONDITIONS' if reviewed else 'PARTIAL_SOURCE_CONTEXT' if original else 'CANDIDATE_ONLY' if refs else 'NO_EVIDENCE'
   # Keywords/source context never close the technical gap automatically.
   out={'gap_id':'gap-'+digest(key)[:24],'branch':key,'question':n['question'],'importance':n['importance'],'status':status,'sources':refs[:6],'source_matches':len(refs),'original_context_matches':len(original),'gap_open':not bool(reviewed),'required_concepts':n['required_concepts'],'dependencies':n['dependencies'],'failures':[r['id'] for r in failures],'experiment_revisions':[(r['id'],r['event_sha256']) for r in records],'reviewed_experiments':[r['id'] for r in reviewed],'next_query':n['query'],'test':'use task recipe '+n['task']+'; actual scene/build/assets and controls still required','scope':'mechanical context matching, not semantic entailment or engine validation'}
+  out['other_context_failures']=[r['id'] for r in all_failures if r not in failures]
   out['input_fingerprint']=self.input_fingerprint(out,docs)
   p=safe_path(self.root,'lab/ocean/roots/assessments/'+out['input_fingerprint']+'.collection.json')
   out['collection_outcome']=None
@@ -107,7 +109,7 @@ class Roots:
   analysis=self.project.synthesize(n['task'],include_analysis=True);allowed={s['id'] for s in a['sources']}
   params=[p for p in analysis['documented_parameters'] if set(p['passage_ids'])&allowed]
   if a['failures']:r={**r,'steps':[],'blocked_reason':'inspect linked failed conditions and propose a justified alternative before retry'}
-  return {'repeat_blocked':bool(a['failures']),'branch':n,'gap':a,'evidence_passages':[p for p in passages(docs) if p['id'] in allowed],'library':related,'procedure':r,'parameters':params,'parameter_scope':'literal attributed parameters only, no optimal settings inferred','alternatives':r['alternatives'],'known_failures':a['failures'],'related_branches':[x['id'] for x in self.nodes.values() if x['parent']==key]+n['dependencies'],'engine_executed':False,'truth_verified':False}
+  return {'repeat_blocked':bool(a['failures']),'branch':n,'gap':a,'evidence_passages':[p for p in passages(docs) if p['id'] in allowed],'library':related,'procedure':r,'parameters':params,'parameter_scope':'literal attributed parameters only, no optimal settings inferred','alternatives':r['alternatives'],'known_failures':a['failures'],'other_context_failures':a['other_context_failures'],'related_branches':[x['id'] for x in self.nodes.values() if x['parent']==key]+n['dependencies'],'engine_executed':False,'truth_verified':False}
  def brief(self,question,token_budget=1800):
   integer(token_budget,'token_budget',500,8000);plan=self.plan(question)
   if plan['state']=='CONSTRAINT_CONFLICT':return {**plan,'facts':[]}

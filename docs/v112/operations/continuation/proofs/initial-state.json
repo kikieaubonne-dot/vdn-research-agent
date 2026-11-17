@@ -1,0 +1,18 @@
+{
+  "schema": "vdn.continuation-state/1",
+  "time_UTC": 1794873555.3611274,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "head": "ebac8f3478efee05e0e88af635de3dcbc848cace",
+  "status": " M output/queue.json\n?? work/\n",
+  "worktrees": "/workspace/work/vdn-research-agent  ebac8f3 [codex/project-intelligence-v11-2]\n",
+  "backup_files": 579,
+  "backup_verified_by_readback": true,
+  "PC_Windows": "BLOCKED",
+  "Claude_Desktop": "BLOCKED",
+  "Roblox_Studio": "BLOCKED",
+  "inherited_validation_log_hash_matches": true,
+  "inherited_code_test_pin_matches": true,
+  "inherited_zip_integrity": true,
+  "inherited_guard_status": "STOPPED"
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "vdn.continuation-summary/6.4.1",
+  "at_Paris": "2026-11-17T01:56:36.477696+01:00",
+  "state": "PARTIAL",
+  "autonomy_state": "STOPPED",
+  "background_mission_claimed": false,
+  "base_head": "ebac8f3478efee05e0e88af635de3dcbc848cace",
+  "source_data_files_preserved": 126,
+  "historical_knowledge_markdown_preserved": 111,
+  "initial_backup_tracked_files": 579,
+  "new_original_documents": [
+    {
+      "id": "doc-7f6e3b754b544c0e8c949408",
+      "url": "https://create.roblox.com/docs/workspace/streaming",
+      "sha256": "e188ea4d8d88f777c38d5c800350d943c05d1b6d0ba15ba16f34189b0c940622",
+      "accessed": "2026-11-17",
+      "version": "unknown",
+      "license": "UNKNOWN"
+    },
+    {
+      "id": "doc-f03de1f548339691fe69ffb8",
+      "url": "https://create.roblox.com/docs/reference/engine/classes/SpotLight",
+      "sha256": "04899531919b80337d3759004656ea6683ebfd81e0d9ca4d70ac3fc647d10640",
+      "accessed": "2026-11-17",
+      "version": "unknown",
+      "license": "UNKNOWN"
+    }
+  ],
+  "real_HTTP_attempts": 6,
+  "ledger": {
+    "date": "2026-11-17",
+    "fetch": 5,
+    "http_calls": 9,
+    "items": 0
+  },
+  "intelligence_compute_reserved_s": 33.82206421000592,
+  "programmatic_model_calls": 0,
+  "new_Blender": "4.3.2 CPU; four generated foliage variants, four captures, four saves/reloads and OBJ round trips",
+  "geometry": "PASS",
+  "artistic": "INCONCLUSIVE",
+  "Roblox": "BLOCKED",
+  "MCP": "REAL_STDIO_VERIFIED_27_CONTRACTS",
+  "Desktop": "BLOCKED",
+  "Windows": "BLOCKED",
+  "new_persistent_services": 0,
+  "publication": false,
+  "full_contract": "PARTIAL; see 210-item reconciliation",
+  "prior_30min_campaign": "inherited evidence checked, not repeated",
+  "raw_evidence_location": "private continuation workspace, no source snapshots published",
+  "offline_tests": 558,
+  "personal_configuration_tests": 558,
+  "new_distinct_tests": 31,
+  "executable_recovery": "REAL_NEW_DISABLED_COPY_VERIFIED",
+  "MCP_current_tools": 27,
+  "report_at": "2026-11-17T11:00:00+01:00",
+  "report_one_shot_maintained": true,
+  "approved_image_sha256": "ca478bbaf1e50475d546457b7ed4d420fcb858659ee5f4de7b4f23c3cb545272",
+  "updated_at_Paris": "2026-11-17T02:19:00.311334+01:00"
+}
