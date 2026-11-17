@@ -1,0 +1,62 @@
+{
+  "baseline": "ea9549092b2cbca9cabe19c63b6a2dd0efb18277",
+  "code_pin_sha256": "2b320f942c66dd10d70bd182fdbc0981dd9d0b6b4393f01b93c5ff558c3a7d51",
+  "environment": {
+    "OS": "Linux",
+    "Python": "3.12.14",
+    "Blender": "4.3.2",
+    "FFmpeg": "7.1.5"
+  },
+  "tests": {
+    "targeted": {
+      "tests": 29,
+      "elapsed_s": 0.381,
+      "state": "PASS",
+      "log_sha256": "f49cad0eb0f933edc686fa2b1943c7a92369e1ff2cb2e8784360d6b80c6b2b7f"
+    },
+    "offline": {
+      "tests": 587,
+      "elapsed_s": 69.181,
+      "state": "PASS",
+      "log_sha256": "d48576db3a39789e94133659bfa62f76fec0eef862e0d068061bff75c595fac2"
+    },
+    "personal_parallel_failed": {
+      "tests": 587,
+      "elapsed_s": 68.59,
+      "state": "FAIL",
+      "log_sha256": "e1d29d585776672ad27129497b12607c4247120fae3ae49e2389cbb2c8c0589d"
+    },
+    "personal_sequential": {
+      "tests": 587,
+      "elapsed_s": 60.176,
+      "state": "PASS",
+      "log_sha256": "a44e5122ad46e5c04d1e9dabc4cfe11422520d81e6de9b125ca65847bcb30104"
+    }
+  },
+  "protected_files_checked": 126,
+  "protected_files_changed": [],
+  "queue_excluded_from_code_commit": true,
+  "syntax_python311": {
+    "files": 11,
+    "state": "PASS_STATIC_ONLY"
+  },
+  "historical_contract": {
+    "DONE_VERIFIED": 55,
+    "PARTIAL": 118,
+    "BLOCKED": 29,
+    "NOT_TESTED": 8,
+    "status_promotions": 0
+  },
+  "agent_compute_reserved_s": 59.59643073398911,
+  "daily_http": 9,
+  "daily_fetch": 5,
+  "new_network_calls": 0,
+  "model_calls": 0,
+  "process_state": "STOPPED",
+  "Windows": "NOT_TESTED",
+  "Claude_Desktop": "NOT_TESTED",
+  "Studio": "NOT_TESTED",
+  "local_vision": "NOT_TESTED",
+  "YouTube": "NOT_VALIDATED",
+  "delivery": "PARTIAL"
+}

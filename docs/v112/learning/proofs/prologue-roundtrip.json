@@ -1,0 +1,142 @@
+[
+  {
+    "asset": "father_proxy-FK.glb",
+    "inspection_key": "84c6d3ed9583367025fc18872366dd82fa4d33f067bf6ce0ccff96de8185f57f",
+    "comparison": {
+      "state": "PASS",
+      "issues": [],
+      "differences": [
+        {
+          "fraction": 0,
+          "distance": 6.234860475737565e-08
+        },
+        {
+          "fraction": 0.5,
+          "distance": 6.828569911354542e-08
+        },
+        {
+          "fraction": 1,
+          "distance": 6.234860475737565e-08
+        }
+      ],
+      "tolerance": 1e-05,
+      "scope": "three sampled landmark positions only; not exhaustive animation, deformation, aesthetic or Roblox validation",
+      "human_approved": false,
+      "Roblox": "NOT_TESTED"
+    },
+    "structural": {
+      "state": "PASS",
+      "issues": [],
+      "scope": "structural roundtrip only; animation poses, coordinates and Roblox still need separate checks",
+      "Roblox": "NOT_TESTED",
+      "human_approved": false
+    },
+    "native_key": "4752c647ea938b198864d399ed2283fcc9a3ee1b33cfd6ebedfeaa6888bd608f"
+  },
+  {
+    "asset": "father_proxy-IK.glb",
+    "inspection_key": "8f05d5c62cb6da8e0a7edd1f38f98b5d1c571ecdf5d1cf5d9e5475e91ad790e0",
+    "comparison": {
+      "state": "FAIL",
+      "issues": [
+        "pose_changed_at_0.5"
+      ],
+      "differences": [
+        {
+          "fraction": 0,
+          "distance": 6.234860475737565e-08
+        },
+        {
+          "fraction": 0.5,
+          "distance": 0.4137673633603655
+        },
+        {
+          "fraction": 1,
+          "distance": 6.234860475737565e-08
+        }
+      ],
+      "tolerance": 1e-05,
+      "scope": "three sampled landmark positions only; not exhaustive animation, deformation, aesthetic or Roblox validation",
+      "human_approved": false,
+      "Roblox": "NOT_TESTED"
+    },
+    "structural": {
+      "state": "PASS",
+      "issues": [],
+      "scope": "structural roundtrip only; animation poses, coordinates and Roblox still need separate checks",
+      "Roblox": "NOT_TESTED",
+      "human_approved": false
+    },
+    "native_key": "4752c647ea938b198864d399ed2283fcc9a3ee1b33cfd6ebedfeaa6888bd608f"
+  },
+  {
+    "asset": "transfer_proxy-FK.glb",
+    "inspection_key": "9d54f87b2a6f33de1523b97439bd9c480a45599c8d64d9956ff0a2507e76c710",
+    "comparison": {
+      "state": "PASS",
+      "issues": [],
+      "differences": [
+        {
+          "fraction": 0,
+          "distance": 6.05417534455884e-08
+        },
+        {
+          "fraction": 0.5,
+          "distance": 6.664001874625056e-08
+        },
+        {
+          "fraction": 1,
+          "distance": 6.05417534455884e-08
+        }
+      ],
+      "tolerance": 1e-05,
+      "scope": "three sampled landmark positions only; not exhaustive animation, deformation, aesthetic or Roblox validation",
+      "human_approved": false,
+      "Roblox": "NOT_TESTED"
+    },
+    "structural": {
+      "state": "PASS",
+      "issues": [],
+      "scope": "structural roundtrip only; animation poses, coordinates and Roblox still need separate checks",
+      "Roblox": "NOT_TESTED",
+      "human_approved": false
+    },
+    "native_key": "4752c647ea938b198864d399ed2283fcc9a3ee1b33cfd6ebedfeaa6888bd608f"
+  },
+  {
+    "asset": "transfer_proxy-IK.glb",
+    "inspection_key": "e6aad0919d071fb8ae977dcaca6b2ad79242027dfb3c4aa1274a4a323467b5ac",
+    "comparison": {
+      "state": "FAIL",
+      "issues": [
+        "pose_changed_at_0.5"
+      ],
+      "differences": [
+        {
+          "fraction": 0,
+          "distance": 6.05417534455884e-08
+        },
+        {
+          "fraction": 0.5,
+          "distance": 0.4089150832094238
+        },
+        {
+          "fraction": 1,
+          "distance": 6.05417534455884e-08
+        }
+      ],
+      "tolerance": 1e-05,
+      "scope": "three sampled landmark positions only; not exhaustive animation, deformation, aesthetic or Roblox validation",
+      "human_approved": false,
+      "Roblox": "NOT_TESTED"
+    },
+    "structural": {
+      "state": "PASS",
+      "issues": [],
+      "scope": "structural roundtrip only; animation poses, coordinates and Roblox still need separate checks",
+      "Roblox": "NOT_TESTED",
+      "human_approved": false
+    },
+    "native_key": "4752c647ea938b198864d399ed2283fcc9a3ee1b33cfd6ebedfeaa6888bd608f"
+  }
+]

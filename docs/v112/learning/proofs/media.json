@@ -1,0 +1,150 @@
+{
+  "key": "89763fd0778af6d5a46b5e6601e5a9f5073693c424e98b4b4391b4ad8d65e885",
+  "state": "PARTIAL",
+  "duration_s": 2.0,
+  "frames": [
+    {
+      "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+      "observed_pts_s": 0.0,
+      "requested_s": 0.0,
+      "seek_s": 0.0,
+      "sha256": "778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca",
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "cached_from": "31b6e4ed33d1be66a8914b56a403ace3e11ba16285af32a4e3db13179c7751d8"
+    },
+    {
+      "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+      "observed_pts_s": 0.5,
+      "requested_s": 0.25,
+      "seek_s": 0.25,
+      "sha256": "778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca",
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "cached_from": "31b6e4ed33d1be66a8914b56a403ace3e11ba16285af32a4e3db13179c7751d8"
+    },
+    {
+      "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+      "observed_pts_s": 0.5,
+      "requested_s": 0.39,
+      "seek_s": 0.39,
+      "sha256": "778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca",
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "cached_from": "31b6e4ed33d1be66a8914b56a403ace3e11ba16285af32a4e3db13179c7751d8"
+    },
+    {
+      "requested_s": 1.0,
+      "seek_s": 1.0,
+      "observed_pts_s": 1.0,
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "asset": "frame-dcba9c354b01d1b89ba336c3ca83821f1ca175588172e5cdd1ebf2ece0a5d5a7.png",
+      "sha256": "dcba9c354b01d1b89ba336c3ca83821f1ca175588172e5cdd1ebf2ece0a5d5a7"
+    },
+    {
+      "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+      "observed_pts_s": 1.5,
+      "requested_s": 1.5,
+      "seek_s": 1.5,
+      "sha256": "778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca",
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "cached_from": "31b6e4ed33d1be66a8914b56a403ace3e11ba16285af32a4e3db13179c7751d8"
+    },
+    {
+      "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+      "observed_pts_s": 1.5,
+      "requested_s": 1.95,
+      "seek_s": 1.5,
+      "sha256": "778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca",
+      "timestamp_basis": "FFmpeg showinfo with copyts",
+      "cached_from": "31b6e4ed33d1be66a8914b56a403ace3e11ba16285af32a4e3db13179c7751d8"
+    }
+  ],
+  "reused_frames": 5,
+  "unique_images": 2,
+  "steps": [
+    {
+      "caption_id": "caption-33538137ed64b9e5",
+      "start_s": 0.0,
+      "end_s": 0.5,
+      "statement": "Observer le témoin original A.",
+      "basis": "UNTRUSTED_SUBTITLE",
+      "status": "CANDIDATE",
+      "frame_refs": [
+        {
+          "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+          "observed_pts_s": 0.0
+        }
+      ],
+      "operations_mentioned": [],
+      "numeric_literals": [],
+      "observed_on_screen": [],
+      "inferences": [],
+      "unknown": [
+        "actual UI operations/values not verified from pixels",
+        "software build and prerequisites unless separately recorded"
+      ],
+      "executable": false
+    },
+    {
+      "caption_id": "caption-e414d75c1acaee7b",
+      "start_s": 1.0,
+      "end_s": 1.5,
+      "statement": "Comparer la variante B sous la même caméra.",
+      "basis": "UNTRUSTED_SUBTITLE",
+      "status": "CANDIDATE",
+      "frame_refs": [
+        {
+          "asset": "frame-dcba9c354b01d1b89ba336c3ca83821f1ca175588172e5cdd1ebf2ece0a5d5a7.png",
+          "observed_pts_s": 1.0
+        }
+      ],
+      "operations_mentioned": [],
+      "numeric_literals": [],
+      "observed_on_screen": [],
+      "inferences": [],
+      "unknown": [
+        "actual UI operations/values not verified from pixels",
+        "software build and prerequisites unless separately recorded"
+      ],
+      "executable": false
+    },
+    {
+      "caption_id": "caption-5e3b5940ee9d3db2",
+      "start_s": 1.5,
+      "end_s": 2.0,
+      "statement": "Revenir au témoin A ; cela ne prouve pas un rendu Roblox.",
+      "basis": "UNTRUSTED_SUBTITLE",
+      "status": "CANDIDATE",
+      "frame_refs": [
+        {
+          "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+          "observed_pts_s": 1.5
+        },
+        {
+          "asset": "frame-778a9d0fa2483a50225c352dc5c03c38492cebf777c7700a89106d5613b833ca.png",
+          "observed_pts_s": 1.5
+        }
+      ],
+      "operations_mentioned": [],
+      "numeric_literals": [],
+      "observed_on_screen": [],
+      "inferences": [],
+      "unknown": [
+        "actual UI operations/values not verified from pixels",
+        "software build and prerequisites unless separately recorded"
+      ],
+      "executable": false
+    }
+  ],
+  "audio": {
+    "state": "EXTRACTED",
+    "covered_start_s": 0,
+    "covered_end_s": 2.0,
+    "sha256": "84f984c7de3b64a137c6fdfb7493c6dc2289e9f5e90ce9f49684af72cdb95a0c",
+    "transcription": "NOT_TESTED_NO_SELECTED_LOCAL_MODEL"
+  },
+  "vision": {
+    "state": "NOT_TESTED_NO_SELECTED_INSTALLED_MODEL",
+    "observations": []
+  },
+  "YouTube": "NOT_VALIDATED",
+  "scope": "Actual local decoding and literal captions; no autonomous visual understanding, source truth or Blender execution inferred."
+}

@@ -1,0 +1,11 @@
+{
+  "at_Paris": "2026-11-17T06:46:56.043627+01:00",
+  "head": "ea9549092b2cbca9cabe19c63b6a2dd0efb18277",
+  "branch": "codex/project-intelligence-v11-2",
+  "status": " M output/queue.json\n?? work/\n",
+  "tracked_files_backup_verified": 618,
+  "previous_code_test_pin_matches": true,
+  "runtime": "/workspace/eponge-continuation/productive/runtime",
+  "Windows": "BLOCKED",
+  "model_calls": 0
+}

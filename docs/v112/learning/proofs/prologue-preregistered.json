@@ -1,0 +1,44 @@
+{
+  "spec": {
+    "schema": "vdn.prologue-proxy/1",
+    "objective": "Proposed father interaction prototype; actual character appearance/height/narrative presence UNKNOWN",
+    "hypothesis": "Two-bone IK reaches a fixed reachable target more accurately than an initial FK draft, with unchanged triangles and grounded feet.",
+    "criteria": {
+      "IK_endpoint_error_max_normalized": 0.03,
+      "IK_error_less_than_FK": true,
+      "equal_pair_triangles": true,
+      "foot_displacement_max": 1e-06
+    },
+    "controls": {
+      "seed": 0,
+      "camera": [
+        1.7,
+        -3,
+        1.3
+      ],
+      "resolution": [
+        256,
+        256
+      ],
+      "renderer": "CYCLES_CPU",
+      "samples": 2,
+      "timeline": [
+        1,
+        13,
+        25
+      ],
+      "fps": 12,
+      "dimensions": "normalized lab units; actual father dimensions UNKNOWN",
+      "target_positions": "derived from each declared proxy width; not actual game handle coordinates"
+    },
+    "narrative": "Bible parents already gone; prototype does not confirm a new scene",
+    "license": "OWN_CREATED",
+    "script_sha256": "e04aca6b584424baf1cc69748c9923eb7cc48dbb28adc8fd1269a27a2ba98779",
+    "Roblox": "NOT_TESTED",
+    "human_approved": false
+  },
+  "ids": [
+    "286f8242-7936-48de-a64c-7678db419477",
+    "bcd6b612-e35b-40bc-a97c-f7e06745ac70"
+  ]
+}

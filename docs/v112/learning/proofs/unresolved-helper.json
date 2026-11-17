@@ -1,0 +1,14 @@
+{
+  "key": "c12479efb560ccf2f37d8e1885ed2279a0a608298e238336ef1e217927a82551",
+  "triangles": 752,
+  "raw_scene_triangles": 752,
+  "helpers": [],
+  "unweighted_vertices": 42,
+  "source_unchanged": true,
+  "execution": {
+    "elapsed_s": 2.4080688929971075,
+    "exit_code": 0,
+    "log": "lab/learning/assets/c12479efb560ccf2f37d8e1885ed2279a0a608298e238336ef1e217927a82551/process.log",
+    "sha256": "00e16fe83c0b7ccd01f45353ceb4164e50e5c36b590207be45cb59bed7b44ee3"
+  }
+}

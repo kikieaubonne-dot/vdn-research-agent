@@ -11,6 +11,10 @@ class ProjectAPI(IntelligenceAPI):
         from agent.lab_mcp import LabAPI
         self.lab_api=LabAPI(root,allow_experiments)
     def synthesize_technical(self,question,apply=False,allow_model=False,retrieval='lexical'):
+        if question.startswith('learning:'):
+            if apply or allow_model:raise PermissionError('laboratory evidence consultation is read-only')
+            from agent.learning_api import detail
+            return detail(self.root,question)
         if (apply or allow_model) and not self.allow:raise PermissionError('host --allow-intelligence required')
         from agent.research_roots import Roots
         if question.startswith('tree:'):
@@ -37,6 +41,9 @@ class ProjectAPI(IntelligenceAPI):
         from agent.intelligence_evidence import VERSION
         return {**value,'historical_review_required':value.get('pipeline_version')!=VERSION}
     def get_intelligence_brief(self,question,token_budget=1800,key=None):
+        if not key and question.startswith('learning:'):
+            from agent.learning_api import brief
+            return brief(self.root,question,token_budget)
         if key:
             import re
             if not re.fullmatch('[a-f0-9]{64}',key):raise ValueError('invalid analysis key')

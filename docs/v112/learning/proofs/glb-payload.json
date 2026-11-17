@@ -1,0 +1,42 @@
+[
+  {
+    "file": "father_proxy-FK.glb",
+    "sha256": "0f1a5c8b0b7bb3225a9f3f7717ae9e70a59b25987687154d0fd44c08b883a85f",
+    "payload_triangles": 672,
+    "mesh_primitives": 14,
+    "channels": 48,
+    "duplicate_channels": 0,
+    "independent_import_scene_triangles": 752,
+    "scene_helper_contamination": "80 triangles added by importer; conservative helper rule did not identify this case"
+  },
+  {
+    "file": "father_proxy-IK.glb",
+    "sha256": "c235e69732a92d6d7d4ea4c2d0cbfd1449e3c72aca7e3c1b16b5773994a466db",
+    "payload_triangles": 672,
+    "mesh_primitives": 14,
+    "channels": 48,
+    "duplicate_channels": 0,
+    "independent_import_scene_triangles": 752,
+    "scene_helper_contamination": "80 triangles added by importer; conservative helper rule did not identify this case"
+  },
+  {
+    "file": "transfer_proxy-FK.glb",
+    "sha256": "500c724295f63664b4bce22fde7288f035078c686caef3b1696be9be8556fb28",
+    "payload_triangles": 672,
+    "mesh_primitives": 14,
+    "channels": 48,
+    "duplicate_channels": 0,
+    "independent_import_scene_triangles": 752,
+    "scene_helper_contamination": "80 triangles added by importer; conservative helper rule did not identify this case"
+  },
+  {
+    "file": "transfer_proxy-IK.glb",
+    "sha256": "943d70ccb9719b774204e60f3ccdebb6fb8e28e04a35a9f933e3f4f5e7b491fc",
+    "payload_triangles": 672,
+    "mesh_primitives": 14,
+    "channels": 48,
+    "duplicate_channels": 0,
+    "independent_import_scene_triangles": 752,
+    "scene_helper_contamination": "80 triangles added by importer; conservative helper rule did not identify this case"
+  }
+]

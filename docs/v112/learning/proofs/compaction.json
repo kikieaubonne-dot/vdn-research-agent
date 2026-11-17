@@ -1,0 +1,24 @@
+{
+  "schema": "vdn.generated-compaction/1",
+  "state": "COMMITTED",
+  "source": "lab/inbox/learning/prologue-v2/prologue-proxies.blend",
+  "source_sha256_before": "5afe9510a2dcdf10cc5e9f39792db103bfc506b6c01caed2481ad926b970a26d",
+  "source_bytes_before": 1344596,
+  "candidate": "lab/inbox/learning/prologue-v2/prologue-proxies-gzip-candidate.blend",
+  "packed_sha256": "227c15d0cc01ea88b94d393acc0ed7aede4f380fc6c67392c040c17da82ce306",
+  "packed_bytes": 146793,
+  "codec": "GZIP_ENVELOPE",
+  "old_bytes_restorable_exactly": true,
+  "permission": "operator OWN_CREATED only",
+  "promoted_reliable_memory": false,
+  "source_sha256_after": "227c15d0cc01ea88b94d393acc0ed7aede4f380fc6c67392c040c17da82ce306",
+  "execution": {
+    "exit_code": 0,
+    "elapsed_s": 1.9222403230087366,
+    "log": "lab/learning/compact/cb551b4e2721cb07144d4104af8bdc786d329167de21cd00d90b56e1bd4fb49a/independent-load.log",
+    "sha256": "975e9c07e096875d6d209571492e4623a6d23b4bab16b2ed58c5d8987f7f6fc5"
+  },
+  "bytes_saved": 1197803,
+  "saved_fraction": 0.8908274306929368,
+  "source_still_exactly_restorable": true
+}

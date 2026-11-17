@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/eponge-continuation/productive/runtime",
+  "destination": "/workspace/eponge-v9/runtime",
+  "copied_daily": {
+    "date": "2026-11-17",
+    "fetch": 5,
+    "http_calls": 9,
+    "items": 0
+  },
+  "copied_compute": {
+    "date": "2026-11-17",
+    "reserved_s": 33.82206421000592
+  },
+  "prior_protected_unchanged": true,
+  "no_counter_reset": true,
+  "source_runtime_stopped": true
+}

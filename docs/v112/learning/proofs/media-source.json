@@ -1,0 +1,11 @@
+{
+  "license": "OWN_CREATED",
+  "images": "previous own procedural render reused, not B3/C1",
+  "audio": "original sine, no voice",
+  "creation": {
+    "exit_code": 0,
+    "elapsed_s": 0.20343117701122537,
+    "log": "lab/inbox/learning/original-tutorial/creation.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
