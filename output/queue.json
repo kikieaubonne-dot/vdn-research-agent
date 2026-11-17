@@ -1556,11 +1556,23 @@
       "depth": 1,
       "parent": "9c482cd07099182c",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-d5dda0d02f6d)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:05+00:00",
-      "updated": "2026-11-15T23:24:05+00:00",
-      "result": null
+      "updated": "2026-11-17T18:38:31+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794940701.7759123,
+      "finished_ts": 1794940711.7601418
     },
     "880ae21f1a72e18a": {
       "key": "880ae21f1a72e18a",
@@ -1647,11 +1659,31 @@
       "depth": 1,
       "parent": "9d342eeb76b809f1",
       "reason": "API citee par la source : Atmosphere.Offset (vdn-6055d2f0bb67)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:17+00:00",
-      "updated": "2026-11-15T23:24:17+00:00",
-      "result": null
+      "updated": "2026-11-17T18:38:44+00:00",
+      "result": {
+        "returned": 8,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-51334de66134",
+          "vdn-9a47d5fb8bf7"
+        ],
+        "followups": [
+          "Atmosphere Offset settings",
+          "Atmosphere Offset tutorial",
+          "Atmosphere Offset step by step implementation tutorial code",
+          "Atmosphere Offset Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1794940711.7629333,
+      "finished_ts": 1794940724.139829
     },
     "afc374ed09840c9c": {
       "key": "afc374ed09840c9c",
@@ -1860,11 +1892,25 @@
       "depth": 2,
       "parent": "c9b001cca2a23bb2",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-16T17:04:35+00:00",
-      "updated": "2026-11-16T17:04:35+00:00",
-      "result": null
+      "updated": "2026-11-17T18:38:56+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-3e118a38d386"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794940724.1425874,
+      "finished_ts": 1794940736.167951
     },
     "a1f1a2c05a21f8ef": {
       "key": "a1f1a2c05a21f8ef",
@@ -1917,11 +1963,23 @@
       "depth": 2,
       "parent": "5b57235144b127ef",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T00:50:04+00:00",
-      "updated": "2026-11-17T00:50:04+00:00",
-      "result": null
+      "updated": "2026-11-17T18:39:07+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794940736.170816,
+      "finished_ts": 1794940747.5861256
     },
     "d4cda5fb243847f2": {
       "key": "d4cda5fb243847f2",
@@ -1997,11 +2055,71 @@
       "created": "2026-11-17T09:15:09+00:00",
       "updated": "2026-11-17T09:15:09+00:00",
       "result": null
+    },
+    "2645cd92fd695a6d": {
+      "key": "2645cd92fd695a6d",
+      "topic": "forest",
+      "query": "Atmosphere Offset settings",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "2e6e6175393c8c16",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-51334de66134)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T18:38:44+00:00",
+      "updated": "2026-11-17T18:38:44+00:00",
+      "result": null
+    },
+    "b7303b4635014067": {
+      "key": "b7303b4635014067",
+      "topic": "forest",
+      "query": "Atmosphere Offset tutorial",
+      "priority": 9.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "2e6e6175393c8c16",
+      "reason": "lacune : aucune etape exploitable (vdn-51334de66134)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T18:38:44+00:00",
+      "updated": "2026-11-17T18:38:44+00:00",
+      "result": null
+    },
+    "c5997d223d86f260": {
+      "key": "c5997d223d86f260",
+      "topic": "forest",
+      "query": "Atmosphere Offset step by step implementation tutorial code",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "2e6e6175393c8c16",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T18:38:44+00:00",
+      "updated": "2026-11-17T18:38:44+00:00",
+      "result": null
+    },
+    "d1c72ae83dddfe11": {
+      "key": "d1c72ae83dddfe11",
+      "topic": "forest",
+      "query": "Atmosphere Offset Roblox Studio implementation compatibility",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "2e6e6175393c8c16",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-17T18:38:44+00:00",
+      "updated": "2026-11-17T18:38:44+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-17",
-    "items": 8,
-    "fetch": 63
+    "items": 12,
+    "fetch": 94
   }
 }

@@ -455,6 +455,18 @@
   "https://github.com/schemann/phaix-godot-08-light-and-atmosphere": {
    "id": "vdn-fea21e2bbdea",
    "path": "knowledge/lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot.md"
+  },
+  "https://devforum.roblox.com/t/1215598": {
+   "id": "vdn-51334de66134",
+   "path": "knowledge/forest/51334de66134-how-to-make-a-atmosphere-transition.md"
+  },
+  "https://github.com/concorde-speed/concorde": {
+   "id": "vdn-9a47d5fb8bf7",
+   "path": "knowledge/forest/9a47d5fb8bf7-concorde-speed-concorde-date-of-concorde-in-januar.md"
+  },
+  "https://devforum.roblox.com/t/1577448": {
+   "id": "vdn-3e118a38d386",
+   "path": "knowledge/lighting/3e118a38d386-what-are-some-good-atmosphere-settings.md"
   }
  },
  "fingerprints": {
@@ -972,6 +984,21 @@
   "a3563402b1b7aa24": "vdn-6c09cc7a93fd",
   "99966fb11fa4ddf5": "vdn-6c09cc7a93fd",
   "afc3748d4119e95b": "vdn-1a8520e471f5",
-  "67abc079652766bc": "vdn-70c1930c490c"
+  "67abc079652766bc": "vdn-70c1930c490c",
+  "680508169581335b": "vdn-76c2d16534f3",
+  "0ddc2c9678568741": "vdn-76c2d16534f3",
+  "e8065e31843267d9": "vdn-76c2d16534f3",
+  "9f49074ea8c12dc5": "vdn-76c2d16534f3",
+  "dab1f5d2e9515383": "vdn-76c2d16534f3",
+  "36b8041a7fbe9e72": "vdn-76c2d16534f3",
+  "49f65c76c2fae95c": "vdn-9ae46013869b",
+  "23cbfac9933dd41c": "vdn-9ae46013869b",
+  "8c1612cec537375e": "vdn-9ae46013869b",
+  "a0ab7b4d5621d906": "vdn-51334de66134",
+  "d54ff395ec7bd788": "vdn-703895f15aed",
+  "2bde56d5509d72ce": "vdn-3e118a38d386",
+  "5354baa45274a72b": "vdn-2cd968b8062d",
+  "06f4355780f4b898": "vdn-2cd968b8062d",
+  "8f6a9dd6fd42bd55": "vdn-2cd968b8062d"
  }
 }

@@ -348,9 +348,13 @@
     "foliage normal map": 1,
     "Player FrustumStreaming": 1,
     "Atmosphere Density step by step implementation tutorial code": 1,
-    "Player settings tutorial": 1
+    "Player settings tutorial": 1,
+    "foliage alpha distance settings": 1,
+    "Atmosphere Offset": 1,
+    "Atmosphere Haze step by step implementation tutorial code": 1,
+    "Player settings step by step implementation tutorial code": 1
   },
-  "runs": 35,
+  "runs": 39,
   "errors": [],
   "rotation": 4
 }

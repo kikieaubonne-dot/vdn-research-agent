@@ -1,100 +1,53 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-17T09:14:48+00:00",
-  "finished": "2026-11-17T09:15:33+00:00",
+  "started": "2026-11-17T18:38:21+00:00",
+  "finished": "2026-11-17T18:39:07+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "foliage normal map",
+      "query": "foliage alpha distance settings",
       "topic": "spruce",
-      "depth": 0,
-      "origin": "seed",
+      "depth": 1,
+      "origin": "relance",
       "status": "done",
-      "created": 4,
-      "rejected": 3,
-      "duplicates": 3,
+      "created": 0,
+      "rejected": 7,
+      "duplicates": 2,
       "fetched": 7,
-      "notes": [
-        {
-          "id": "vdn-c1379b6d7d62",
-          "path": "knowledge/vegetation/c1379b6d7d62-applying-normal-maps-to-your-characters-in-blender.md",
-          "status": "candidat",
-          "topic": "spruce",
-          "query": "foliage normal map",
-          "url": "https://devforum.roblox.com/t/1373997",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-aef6e9d2f6a8",
-          "path": "knowledge/vegetation/aef6e9d2f6a8-do-normal-maps-have-the-same-effect-in-roblox.md",
-          "status": "documente",
-          "topic": "spruce",
-          "query": "foliage normal map",
-          "url": "https://devforum.roblox.com/t/1412246",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-e59d4172fbca",
-          "path": "knowledge/vegetation/e59d4172fbca-surface-appearance-normal-maps-aren-t-showing-up.md",
-          "status": "documente",
-          "topic": "spruce",
-          "query": "foliage normal map",
-          "url": "https://devforum.roblox.com/t/1304947",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-7e073d17a2e1",
-          "path": "knowledge/vegetation/7e073d17a2e1-nixy1234-dfdfd-all-paths-in-this-configuration-fil.md",
-          "status": "candidat",
-          "topic": "spruce",
-          "query": "foliage normal map",
-          "url": "https://github.com/nixy1234/dfdfd",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "foliage normal map settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c1379b6d7d62)",
-          "topic": "spruce"
-        },
-        {
-          "query": "foliage normal map tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-c1379b6d7d62)",
-          "topic": "spruce"
-        }
-      ]
+      "notes": [],
+      "followups": []
     },
     {
-      "query": "Player FrustumStreaming",
+      "query": "Atmosphere Offset",
       "topic": "forest",
       "depth": 1,
       "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
+      "created": 2,
+      "rejected": 6,
       "duplicates": 0,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-7c556484eae1",
-          "path": "knowledge/forest/7c556484eae1-class-player.md",
+          "id": "vdn-51334de66134",
+          "path": "knowledge/forest/51334de66134-how-to-make-a-atmosphere-transition.md",
           "status": "candidat",
           "topic": "forest",
-          "query": "Player FrustumStreaming",
-          "url": "https://create.roblox.com/docs/reference/engine/classes/Player",
+          "query": "Atmosphere Offset",
+          "url": "https://devforum.roblox.com/t/1215598",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-9a47d5fb8bf7",
+          "path": "knowledge/forest/9a47d5fb8bf7-concorde-speed-concorde-date-of-concorde-in-januar.md",
+          "status": "candidat",
+          "topic": "forest",
+          "query": "Atmosphere Offset",
+          "url": "https://github.com/concorde-speed/concorde",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -104,73 +57,70 @@
       ],
       "followups": [
         {
-          "query": "Player FrustumStreaming settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-7c556484eae1)",
+          "query": "Atmosphere Offset settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-51334de66134)",
           "topic": "forest"
         },
         {
-          "query": "Player FrustumStreaming tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-7c556484eae1)",
-          "topic": "traversal"
+          "query": "Atmosphere Offset tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-51334de66134)",
+          "topic": "forest"
+        },
+        {
+          "query": "Atmosphere Offset step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "forest"
+        },
+        {
+          "query": "Atmosphere Offset Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "forest"
         }
       ]
     },
     {
-      "query": "Atmosphere Density step by step implementation tutorial code",
+      "query": "Atmosphere Haze step by step implementation tutorial code",
       "topic": "lighting",
       "depth": 2,
       "origin": "relance_lacune",
       "status": "done",
-      "created": 2,
-      "rejected": 6,
+      "created": 1,
+      "rejected": 7,
       "duplicates": 3,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-26ba09d37d6d",
-          "path": "knowledge/lighting/26ba09d37d6d-improve-lighting-step-by-step.md",
+          "id": "vdn-3e118a38d386",
+          "path": "knowledge/lighting/3e118a38d386-what-are-some-good-atmosphere-settings.md",
           "status": "candidat",
           "topic": "lighting",
-          "query": "Atmosphere Density step by step implementation tutorial code",
-          "url": "https://devforum.roblox.com/t/1387033",
+          "query": "Atmosphere Haze step by step implementation tutorial code",
+          "url": "https://devforum.roblox.com/t/1577448",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-fea21e2bbdea",
-          "path": "knowledge/lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Density step by step implementation tutorial code",
-          "url": "https://github.com/schemann/phaix-godot-08-light-and-atmosphere",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
           ]
         }
       ],
       "followups": []
     },
     {
-      "query": "Player settings tutorial",
+      "query": "Player settings step by step implementation tutorial code",
       "topic": "traversal",
       "depth": 2,
-      "origin": "relance",
+      "origin": "relance_lacune",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 2,
+      "duplicates": 1,
       "fetched": 8,
       "notes": [],
       "followups": []
     }
   ],
-  "created": 7,
+  "created": 3,
   "fetched": 31,
-  "rejected": 24,
+  "rejected": 28,
   "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
@@ -180,43 +130,43 @@
     "counts": {
       "pending": 81,
       "running": 0,
-      "done": 26,
+      "done": 30,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-17",
-      "items": 8,
-      "fetch": 63
+      "items": 12,
+      "fetch": 94
     },
     "next": [
       {
-        "query": "foliage alpha distance settings",
+        "query": "foliage alpha distance tutorial",
         "topic": "spruce",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Atmosphere Offset",
+        "query": "forest atmosphere fog step by step implementation tutorial code",
         "topic": "forest",
         "priority": 9.5,
         "depth": 1,
-        "origin": "relance"
-      },
-      {
-        "query": "Atmosphere Haze step by step implementation tutorial code",
-        "topic": "lighting",
-        "priority": 9.0,
-        "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "Player settings step by step implementation tutorial code",
+        "query": "Player FrustumStreaming tutorial",
         "topic": "traversal",
         "priority": 9.0,
         "depth": 2,
-        "origin": "relance_lacune"
+        "origin": "relance"
+      },
+      {
+        "query": "ambient exposure night",
+        "topic": "lighting",
+        "priority": 9.0,
+        "depth": 0,
+        "origin": "seed"
       },
       {
         "query": "viewmodel arms camera",
