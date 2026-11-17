@@ -1,0 +1,488 @@
+{
+  "schema": "vdn.frozen-handoff-publication/1",
+  "repository": "kikieaubonne-dot/vdn-research-agent",
+  "publication_branch": "codex/handoff-collisions-sapin-2026-11-17",
+  "preserved_PR8": {
+    "branch": "codex/project-intelligence-v11-2",
+    "sha": "c93fe9bc944a7255752a7eded590ad039f568145",
+    "action": "UNCHANGED, no merge"
+  },
+  "code_commit": "9a7b0b05e04ad3c6feed6886fc5e2c676e7d254f",
+  "included_original_commits": [
+    "ebac8f3478efee05e0e88af635de3dcbc848cace",
+    "ea9549092b2cbca9cabe19c63b6a2dd0efb18277",
+    "9821499822b16f2af91509bfc151480afd56f92b",
+    "17937baf41a3f626975525812e56c66a3fa3cbb9",
+    "9a7b0b05e04ad3c6feed6886fc5e2c676e7d254f"
+  ],
+  "handoff_commit": "Use Git commit containing this manifest; not a self-referential digest",
+  "archive": {
+    "path": "delivery/PROLOGUE_START_NOW_PUBLIC.zip",
+    "state": "PASS",
+    "zip_crc": "PASS",
+    "manifest_hashes_all_match": true,
+    "files": 1737,
+    "bytes": 8803907,
+    "sha256": "f2d8f574bf64849d516e31830b21c949f6760627bf819c07456bdc81e87154f1",
+    "signature_scan_findings": [],
+    "scan_limits": "Known patterns only; not universal secret or legal assurance",
+    "code_commit": "9a7b0b05e04ad3c6feed6886fc5e2c676e7d254f",
+    "real_Studio_experiment": "PENDING_CLAUDE",
+    "original_archive_unchanged": true
+  },
+  "original_private_archive": {
+    "sha256": "78e2fdbf943cb52d034759542d65c683b61e1759c7f83e564edd593b1d609e77",
+    "published_verbatim": false,
+    "reason": "Public derivative omits raw web caches, source HTML/capture revisions, derived DB and uncommitted scratch. Originals preserved locally."
+  },
+  "omissions": [
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/inbox/learning/official-capture-repair/after.json",
+      "bytes": 36093,
+      "sha256": "9c35c69911fb3decdd5e91197287e923304f3c18fc12ea1275d0be19a741229f",
+      "reason": "Full/truncated source capture and raw HTML kept locally; omitted from public bundle."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/inbox/learning/official-capture-repair/before.json",
+      "bytes": 36640,
+      "sha256": "fecc07ccb88be405a4ac635fa109a59f323faf1b5518344d91077108c9d7a391",
+      "reason": "Full/truncated source capture and raw HTML kept locally; omitted from public bundle."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/inbox/learning/official-capture-repair/raw.html",
+      "bytes": 470188,
+      "sha256": "6c094c6fa8a654e31e6251b69016c682bd2766caf5cbe336b60b2fc7e6f454c1",
+      "reason": "Full/truncated source capture and raw HTML kept locally; omitted from public bundle."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/0bc77edbdd03eb0f52ce30adce4b2f7ce78e14c56ced40b614f1c91b6d4a5009.json",
+      "bytes": 6847,
+      "sha256": "238600dff684730450c94e44e79f1be5069ad5e44c083f850bd2d4b430b667c6",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/0c8424aaf7c61a0d2cd0041a88d8d1414b884b16e514efef36203750e48962bb.json",
+      "bytes": 9303,
+      "sha256": "c4b244652c1ba8dcbfd66d7c6a35e9a62e619bdeeb8cf2337b840166b2de7e6e",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/12264adbca109d77e58ffa4f9bb6cd233b16bf946b110f2a3aaceb8b10cd7d94.json",
+      "bytes": 25516,
+      "sha256": "7da84fd7fbff84893ea85ea2b005e1654a0e53bcc06ed7482cbc4c431cff2551",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/16127260304082baee8b1cb2fc5ed2081e07b34e1a2d8a4072913f6912b531e1.json",
+      "bytes": 37105,
+      "sha256": "1fddb3c2d15d9d30264dfd5695d7fc0d700a42f768d2f54803226dde7cc30789",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/3ede077b107a8f80d8bc05fcb89cd03d1b60b898e6bbb0fcff29ac4cf205d9cc.json",
+      "bytes": 22457,
+      "sha256": "85f8900a795f6bd37c41fd767d4a538c02ea69c873e8b87aec5cf08f8ef9159f",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/44b59ae4f9ca2c815bea39b0084db93fb8d11b77626684f88a734565d0d47e99.json",
+      "bytes": 6648,
+      "sha256": "4b0a1d868405f386f3ff11a26a8d1dedb58c0eb69a1746958f75b99421223de4",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/4ed6d659cb0cc7ddf9302291876545fe20dd7eb5756522979d07d3b26337f917.json",
+      "bytes": 23759,
+      "sha256": "bf7cdca2b01c6ee6de8a79922413cb29b153d5b885725ac8bfa84352923cfe29",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/605f68586f7edcb154a6105f0fc3489f1955456451ffefd3b4cdcfef613b3728.json",
+      "bytes": 3364,
+      "sha256": "fd12a12c10bb96b0f70e5b646a9315e5af864a77080264211189f360eda3f58f",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/6181fca7d4b40e61166785a9b8057ade5a8f85f7c0f136fdd053288de7f18a11.json",
+      "bytes": 8545,
+      "sha256": "699663bdc8934c74c450216a06e09ecce9734fdf7961a2d01e4ce5af8619a81e",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/7145bf760c6cac38bb10eb2dc8d230220413c0061c55d8c6258759c886e5e3e5.json",
+      "bytes": 4500,
+      "sha256": "cfed7f3ee4a838e692410deb17daad1adaf8b55e0f4b35b8e9242b5abc2307d0",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/73a996fa5aa68573556cdc0d1b49feffe1cc84c0c6134a99e127b2e53135c82d.json",
+      "bytes": 34072,
+      "sha256": "20512357ed2658443e85adebef2553363539dcbb817f09e51523a383952b27ff",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/81d6e9d2e13aae56d8bf0d256ebae8dddc9dcb0a10320ccc57c821a3526ace31.json",
+      "bytes": 11303,
+      "sha256": "3c35648fcb155abb9580206ad2730bc063e59ee757d0d6f1ae0f7a1e235ba633",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/8935945d007369d89f8daa58683eabc775292f94960052be16df699872dc4042.json",
+      "bytes": 23771,
+      "sha256": "47d2caa5d22a5d93e95a3ddaf35fcdca03bb734ce21b0d96f912dc8dc20348a1",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/976109ed3b4068971092516d3190a3207d0dd6d3b5561f5abd764b9ad01589ea.json",
+      "bytes": 5356,
+      "sha256": "cd01605b57b95eff3819b5d6c02d6875e70520eab7ec6b836149b43b1fe63fff",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/ac16e1f2e5cdfbef622da96504174005840f807ed8e83ab04a91aab939c4c685.json",
+      "bytes": 2688,
+      "sha256": "f89ff0ecec9e90e69a2dc2d03d71983a08e25eaa49dfbb35c623b4aa13e0e3e2",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/af872ad7fb745491c1750ea06b6344e907fcb3921eaea9d5699b770f18b55603.json",
+      "bytes": 36093,
+      "sha256": "9c35c69911fb3decdd5e91197287e923304f3c18fc12ea1275d0be19a741229f",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/bd2b6c5f79e6f4f8fba1fa04df8671fadd93a58f71446c5d412b0a7b62346d66.json",
+      "bytes": 25453,
+      "sha256": "172bed0812a925abdbd9874a8305f240fec2d08609a3c723a9c6463b733f2355",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/c2449e6302676d39b3a6da5166e3bb5685a9b9ce468ba49c5dd3ae18cef9f958.json",
+      "bytes": 20202,
+      "sha256": "2c89ebd14063476327d642b0b287902c221968da184af75130d8e442465b90fc",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/ce7d8654a8a7c514a70ba7565f5f57400fee74e1d814e06887634a5248b508e5.json",
+      "bytes": 30044,
+      "sha256": "4e3da8dee05b019cf8d8a2328128e5635aeb90b9a57ee84e293852fd2037f3ce",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/lab/ocean/sources/e88dcd60abef55e04c0cb919f24daacef14f159ad4930a63e5dc6e385e1c8641.json",
+      "bytes": 34066,
+      "sha256": "b945bf2bbd79d82593a4584e5bf43d5187e635658f171078005119fd7a1b0ea8",
+      "reason": "Raw web snapshots omitted from public distribution; primary URLs/hashes and bounded cited passages retained. Some community republication licences unverified."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/Eponge/runtime/output/knowledge.db",
+      "bytes": 598016,
+      "sha256": "5f63df8afd6395f020666f78553e1b66a42e10abefe98f34bfbb52ff112d95cf",
+      "reason": "Derived index may contain excluded source data/cloud paths; rebuild locally, never source truth."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/PRESERVATION/README.md",
+      "bytes": 160,
+      "sha256": "9b55fd10d4247362523da72fd940725dfb772be1264e185ae2794d9996417a59",
+      "reason": "Pre-existing uncommitted working data/scratch preserved locally; not code approved for publication."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/PRESERVATION/preexisting-refresh_v112.py.txt",
+      "bytes": 1410,
+      "sha256": "1a10e051bd5663acf703ac9b31acecf7625492499a34de1f2c901339cffbc683",
+      "reason": "Pre-existing uncommitted working data/scratch preserved locally; not code approved for publication."
+    },
+    {
+      "path": "PROLOGUE_START_NOW/PRESERVATION/preexisting-working-queue.json",
+      "bytes": 44415,
+      "sha256": "f91e2530ecfe1591384ca448499f3189568e37147f00b26a7054c51085af48c2",
+      "reason": "Pre-existing uncommitted working data/scratch preserved locally; not code approved for publication."
+    }
+  ],
+  "overall": "NON_CERTIFIEE",
+  "source_PC_reported_by_Claude": "c93fe9b plus3local modifications, not overwritten",
+  "validation": {
+    "historical_code_Linux": "634offline+634personal sequential, inherited verified9a7 receipts",
+    "Windows_read_MCP": "reported verified by Claude on PC c93, not rerun",
+    "handoff_software_c93": {
+      "state": "PASS",
+      "category": "ISOLATED_SOFTWARE_FIXTURES_NOT_STUDIO",
+      "tools": 27,
+      "candidate_retrieved": true,
+      "editorial_procedure_retrieved": true,
+      "default_write_denied": true,
+      "three_separate_prepare_start_record_read_roundtrips": true,
+      "VERIFIED": false,
+      "protected_inputs_unchanged": true,
+      "network": "sockets forbidden",
+      "Studio": "NOT_EXECUTED",
+      "Desktop": "NOT_RETESTED",
+      "real_measurements": false
+    },
+    "handoff_software_9a7": {
+      "state": "PASS",
+      "category": "ISOLATED_SOFTWARE_FIXTURES_NOT_STUDIO",
+      "tools": 27,
+      "candidate_retrieved": true,
+      "editorial_procedure_retrieved": true,
+      "default_write_denied": true,
+      "three_separate_prepare_start_record_read_roundtrips": true,
+      "VERIFIED": false,
+      "protected_inputs_unchanged": true,
+      "network": "sockets forbidden",
+      "Studio": "NOT_EXECUTED",
+      "Desktop": "NOT_RETESTED",
+      "real_measurements": false
+    },
+    "public_bundle_mcp": {
+      "state": "PASS",
+      "transport": "actual subprocess stdio",
+      "tools": 27,
+      "briefs_read": 4,
+      "exact_forest_branch": "tree:forest/spruce/foliage/cards/alpha/shadows/flashlight",
+      "write_denied": true,
+      "Claude_Desktop": "NOT_TESTED",
+      "Studio": "NOT_TESTED",
+      "network_or_model_request": false
+    },
+    "real_Studio_AB": "PENDING",
+    "ChatGPT_contradictory_review": "PENDING",
+    "tokens_savings": "NOT_MEASURED"
+  },
+  "freeze": true,
+  "permanent_service": false,
+  "budgets_reset": false,
+  "new_research_mission": false,
+  "main_place_edits": false,
+  "publication_Roblox": false,
+  "file_manifest": {
+    "PROLOGUE_START_NOW/ACCEPTANCE.md": {
+      "bytes": 1603,
+      "sha256": "0939d8adc7743142858a8df782589ad48d5a5f7b51cff2383f7bd9f644adeeb8"
+    },
+    "PROLOGUE_START_NOW/AUTONOMOUS_CYCLE.md": {
+      "bytes": 3259,
+      "sha256": "c78609992b67cafcfc52a4f549cd923ff39824de43ccd3d83bee508a89a0259d"
+    },
+    "PROLOGUE_START_NOW/BLOCKERS.md": {
+      "bytes": 1252,
+      "sha256": "52ae225f401dcacc46ecdd0d0a509cdaa393f82f68684d363b912684e9f22f22"
+    },
+    "PROLOGUE_START_NOW/CLAUDE_FIRST_MESSAGE.md": {
+      "bytes": 2533,
+      "sha256": "b7aedc6425c07beb850ea337334e548c0bd5dcef3f4e2d1946dde67e59986526"
+    },
+    "PROLOGUE_START_NOW/DEPENDENCIES.json": {
+      "bytes": 6597,
+      "sha256": "42e19c27e4c73f55fb5b4cdda38286cbfe987e8a0dbae4f97af63fc810745168"
+    },
+    "PROLOGUE_START_NOW/FOREST_FIRST_BENCHMARK.json": {
+      "bytes": 3325,
+      "sha256": "1f1bd5aed8e0bb672d6104cc2d94ff458cf27358c33dc70b6b66d43e981c2f5b"
+    },
+    "PROLOGUE_START_NOW/IMPORT_RETARGET.md": {
+      "bytes": 2146,
+      "sha256": "83cc3b754f4b7b42c79b820260f87c7352b623bb94ba98d8f0642186b82eface"
+    },
+    "PROLOGUE_START_NOW/MCP_CONNECT.md": {
+      "bytes": 1769,
+      "sha256": "2f613de99c73f6922785329c1a9a586cfdd398609b31bd017b7c56ac74e42eee"
+    },
+    "PROLOGUE_START_NOW/PROPOSED_FOREST_MISSION.json": {
+      "bytes": 1488,
+      "sha256": "51095763853cf2cf4f30215a3d91aba57e29d3a69ba6f20f5afb15e5d6348180"
+    },
+    "PROLOGUE_START_NOW/RESOURCES_36.json": {
+      "bytes": 31126,
+      "sha256": "aa3a684d76faaa7598144a077384f4f48d9e0ae31a5feb75f96d31b3f7101124"
+    },
+    "PROLOGUE_START_NOW/RESOURCES_36.md": {
+      "bytes": 5450,
+      "sha256": "8e26cdc079ab525afe54430404385221e75ca1d6b0d515cceb37b5691e4e0683"
+    },
+    "PROLOGUE_START_NOW/ROBLOX/LabDriver.lua": {
+      "bytes": 2581,
+      "sha256": "878c72e2e3c9edd6c741bd4c13e5512c3aab6271b805205da85d8483fbd59369"
+    },
+    "PROLOGUE_START_NOW/ROBLOX/README.md": {
+      "bytes": 2390,
+      "sha256": "0a49fefe26af14c187462656cc62aac21a0971563630aa0a6dd56d4c48e2b480"
+    },
+    "PROLOGUE_START_NOW/ROBLOX/StarterLab.lua": {
+      "bytes": 3137,
+      "sha256": "e582482a72bbe7415af80124564349f84f0750764852b8dd1cd65a13f629d34b"
+    },
+    "PROLOGUE_START_NOW/ROBLOX_ARCHITECTURE.md": {
+      "bytes": 2026,
+      "sha256": "47283589c5591b49868cd0738055c62b8e04c12e3dc78cecf6781ca49f8257bd"
+    },
+    "PROLOGUE_START_NOW/SCENES_A_E.md": {
+      "bytes": 1769,
+      "sha256": "5e805d28830a025a45ee6def7b9daaa9d48dd273b19c39ea1b924922cae9ba9e"
+    },
+    "PROLOGUE_START_NOW/START_HERE.md": {
+      "bytes": 6671,
+      "sha256": "7c6141ddfaa502b189109b4de8945805177d8fc02782f7920b5d37af5f146a6c"
+    },
+    "PROLOGUE_START_NOW/WINDOWS/DIAGNOSTIC.cmd": {
+      "bytes": 209,
+      "sha256": "e12b0130e9cdb6fa63c054524345f150f7773a7bfc3923a0162bfa6f4ce1684f"
+    },
+    "PROLOGUE_START_NOW/WINDOWS/DIAGNOSTIC.ps1": {
+      "bytes": 272,
+      "sha256": "ada32e40ca849e640041559cd0bd39d5cf34566cd382d5713c814f041a025408"
+    },
+    "PROLOGUE_START_NOW/WINDOWS/START_MCP.cmd": {
+      "bytes": 200,
+      "sha256": "61fa781b082834f052373e31afebe928daceb3bcbeb37421cd204a44aef2e7c6"
+    },
+    "PROLOGUE_START_NOW/WINDOWS/setup.py": {
+      "bytes": 6956,
+      "sha256": "9894d46bb6d686c84f64da683fede973c7cc04e2b72eb33091fa5e667b4a2e71"
+    },
+    "delivery/PROLOGUE_START_NOW_PUBLIC.zip": {
+      "bytes": 8803907,
+      "sha256": "f2d8f574bf64849d516e31830b21c949f6760627bf819c07456bdc81e87154f1"
+    },
+    "delivery/PROLOGUE_START_NOW_PUBLIC.zip.sha256": {
+      "bytes": 96,
+      "sha256": "a4d282bfe6b9d970573d4fea42cfea342acf17c4de13f5556344f2547573f6a8"
+    },
+    "handoff/certification_matrix.md": {
+      "bytes": 2669,
+      "sha256": "4c76854917d41783de3e2c501c844e0e0fea725936f8c98b1af22932c14e42c9"
+    },
+    "handoff/chatgpt_review.md": {
+      "bytes": 1516,
+      "sha256": "a0ef3de58645a30f311ecc8390e6f8b2005c1b3ef208c044c2fdbf5885504e55"
+    },
+    "handoff/claude_to_codex.md": {
+      "bytes": 1714,
+      "sha256": "cd7e19ff8d3eb5d37cde20e1c921e498d6851ab66b78c5eba636762e522360dc"
+    },
+    "handoff/codex_to_claude.md": {
+      "bytes": 3068,
+      "sha256": "4cf303a127672361543a9ead74142b20c777493a4abe95c85930ffccc0a1d98d"
+    },
+    "handoff/collisions_sapin/MCP_RESULTS.md": {
+      "bytes": 3969,
+      "sha256": "73811e27372dc29dd2ce5ae591c048dc1245d33ae5d887cf848d756fc915c78d"
+    },
+    "handoff/collisions_sapin/PROTOCOL.md": {
+      "bytes": 16133,
+      "sha256": "00f3afd9e06ac984be29dcd7682ead816c3a635614eb15e9070482fc3876bdc0"
+    },
+    "handoff/collisions_sapin/RESULTS_PENDING.md": {
+      "bytes": 661,
+      "sha256": "1579d42fc04a68c12fb211d6587898fed7a783aa48bbdc00461a7575e1ff1e79"
+    },
+    "handoff/collisions_sapin/prepare_B1.json": {
+      "bytes": 1905,
+      "sha256": "91ae85d7365969d4540556aa4272166549aa3418e76a27717caa0d9a53972f81"
+    },
+    "handoff/collisions_sapin/prepare_B2.json": {
+      "bytes": 1949,
+      "sha256": "da9bb8420ec3c717e2a929aa596c660b613b721ab55e3419720270d9bc24769f"
+    },
+    "handoff/collisions_sapin/prepare_B3.json": {
+      "bytes": 1974,
+      "sha256": "59c35a8f432e7a1cc6ba41ecfd2d357ec15f2629f54eb52bfe49d2497f170faf"
+    },
+    "handoff/collisions_sapin/protocol.json": {
+      "bytes": 2184,
+      "sha256": "fdc179fc188da827340f081641888c345add688c0d75803a55d45ebd13061d6a"
+    },
+    "handoff/collisions_sapin/record_result.template.json": {
+      "bytes": 1092,
+      "sha256": "503d51ad3aae85d6bf7f80c2c4ac41194a288fa128267d529304f15989323ce1"
+    },
+    "handoff/licenses/CC-BY-4.0.txt": {
+      "bytes": 18658,
+      "sha256": "b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff"
+    },
+    "handoff/licenses/THIRD_PARTY_NOTICES.md": {
+      "bytes": 2214,
+      "sha256": "d5e1bdac0738087d5790073d4f3957ab6fc6df517e8ef160276af7b886ac9f61"
+    },
+    "handoff/proofs/BasePart-provenance.json": {
+      "bytes": 450,
+      "sha256": "53b8144385342786f23948988d5b51650bf3cfd8ea970bd706f649dc86dd56eb"
+    },
+    "handoff/proofs/CollisionFidelity-provenance.json": {
+      "bytes": 464,
+      "sha256": "2d0a896937b71e7a864488464b322f4621a1cc9d1d081e88c218912f29ee52b0"
+    },
+    "handoff/proofs/Part-provenance.json": {
+      "bytes": 440,
+      "sha256": "c4eb056c8f72d80d08bfff3d8ee7e5dbe8a5cbbc3a7391641eb345729e3fd0c5"
+    },
+    "handoff/proofs/Stats-provenance.json": {
+      "bytes": 443,
+      "sha256": "a37c54489c337cb3f8e9a48354ddeed57d9dccd2bdc461db8d534e4de1156960"
+    },
+    "handoff/proofs/Units-provenance.json": {
+      "bytes": 423,
+      "sha256": "cfada64b523a56e4e2a047275d7722bca8fbf1bed48b8f4efd751a515433fd6d"
+    },
+    "handoff/proofs/official-BasePart.txt": {
+      "bytes": 120810,
+      "sha256": "4fa6dd85e98d5a79689e0115ed4d50ba7fc7d7314a55eef85b5de769b8a0c355"
+    },
+    "handoff/proofs/official-CollisionFidelity.txt": {
+      "bytes": 1868,
+      "sha256": "c10dbfef6bad2d7e94b94388a604be1cb43a8e250fec53739792eb5e8142a104"
+    },
+    "handoff/proofs/official-Part.txt": {
+      "bytes": 2256,
+      "sha256": "d824d8f13aae4cb9ce784cf5e100b35e4edc1e24707d7f4500dbafa7825fb6d6"
+    },
+    "handoff/proofs/official-Stats.txt": {
+      "bytes": 26429,
+      "sha256": "1df1681de8e3d2e5a6154f04205106d01bed4597c5436e0cc1fdc4c7fafa43cc"
+    },
+    "handoff/proofs/official-Units.txt": {
+      "bytes": 4676,
+      "sha256": "eca4a44073b05dbb85f1be185ee8bf6601a3ebe9ce979bd667b818575723ff89"
+    },
+    "handoff/proofs/official-sources-manifest.json": {
+      "bytes": 2479,
+      "sha256": "885d55b915f347a7f6cc8a15d3e9f73a5c8cc584008e891659cd4232b01f6757"
+    },
+    "handoff/proofs/public-archive-verification.json": {
+      "bytes": 456,
+      "sha256": "3b42da421f1b92cf7ffe6dd7588960b40b6331a089a79ac1279dbfb10c34881d"
+    },
+    "handoff/proofs/public-bundle-integrity-after.json": {
+      "bytes": 241,
+      "sha256": "429230b545ef50007e3b0e9e590406ce1007ddc7a0dbdb6ee296e34683d8b1fb"
+    },
+    "handoff/proofs/public-bundle-integrity-before.json": {
+      "bytes": 241,
+      "sha256": "429230b545ef50007e3b0e9e590406ce1007ddc7a0dbdb6ee296e34683d8b1fb"
+    },
+    "handoff/proofs/public-bundle-mcp.json": {
+      "bytes": 306,
+      "sha256": "7db7e3b5acfe64bd6d9aad4190646cbfb1ec62b4af975d1499843b9709abf69a"
+    },
+    "handoff/proofs/stdio-software-9a7.json": {
+      "bytes": 439,
+      "sha256": "57599aa9d4f0ce6cd5099115a2a51e9adc8ad91ecc00f15402d6726c7b4a564a"
+    },
+    "handoff/proofs/stdio-software-c93.json": {
+      "bytes": 439,
+      "sha256": "57599aa9d4f0ce6cd5099115a2a51e9adc8ad91ecc00f15402d6726c7b4a564a"
+    },
+    "handoff/proofs/unpublished-object-audit.json": {
+      "bytes": 1390,
+      "sha256": "0c8168b918fd12557e005ffbc16906d84e2cf20319baf1b28fd912b36d8e517b"
+    },
+    "handoff/tests/check_handoff.py": {
+      "bytes": 5304,
+      "sha256": "d8dd31e9b8639be22aabdfb0617e9821853c200a1601d3a1c387f2b8ad571408"
+    },
+    "knowledge/forest/c2b-h001-h002-collisions-troncs.md": {
+      "bytes": 8112,
+      "sha256": "ab7a0ba2d28bd7fca7a59fc1debe4704471884e0a57e51c966c059c2e68f2ade"
+    }
+  }
+}

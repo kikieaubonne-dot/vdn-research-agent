@@ -1,0 +1,11 @@
+{
+  "state": "PASS",
+  "transport": "actual subprocess stdio",
+  "tools": 27,
+  "briefs_read": 4,
+  "exact_forest_branch": "tree:forest/spruce/foliage/cards/alpha/shadows/flashlight",
+  "write_denied": true,
+  "Claude_Desktop": "NOT_TESTED",
+  "Studio": "NOT_TESTED",
+  "network_or_model_request": false
+}

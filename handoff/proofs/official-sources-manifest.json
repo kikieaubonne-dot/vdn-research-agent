@@ -1,0 +1,50 @@
+{
+  "attribution": "Roblox/creator-docs CC-BY4.0",
+  "references": [
+    {
+      "git_blob": "ae420ac0e00c421b6e1aebad29a2869226f9bf01",
+      "url": "https://github.com/Roblox/creator-docs/blob/main/content/en-us/reference/engine/enums/CollisionFidelity.yaml",
+      "path": "handoff/proofs/official-CollisionFidelity.txt",
+      "accessed": "2026-11-17",
+      "version": "GitHub main at retrieved blob, Studio655 compatibility not independently verified",
+      "sha256": "c10dbfef6bad2d7e94b94388a604be1cb43a8e250fec53739792eb5e8142a104",
+      "bytes": 1868
+    },
+    {
+      "git_blob": "bb506c1de4df5cedc6fd641070cefbf236f3c548",
+      "url": "https://github.com/Roblox/creator-docs/blob/main/content/en-us/reference/engine/classes/BasePart.yaml",
+      "path": "handoff/proofs/official-BasePart.txt",
+      "accessed": "2026-11-17",
+      "version": "GitHub main at retrieved blob, Studio655 compatibility not independently verified",
+      "sha256": "4fa6dd85e98d5a79689e0115ed4d50ba7fc7d7314a55eef85b5de769b8a0c355",
+      "bytes": 120810
+    },
+    {
+      "git_blob": "fffe60880e50170d5866d6ad6f730afbc4414c41",
+      "url": "https://github.com/Roblox/creator-docs/blob/main/content/en-us/reference/engine/classes/Part.yaml",
+      "path": "handoff/proofs/official-Part.txt",
+      "accessed": "2026-11-17",
+      "version": "GitHub main at retrieved blob, Studio655 compatibility not independently verified",
+      "sha256": "d824d8f13aae4cb9ce784cf5e100b35e4edc1e24707d7f4500dbafa7825fb6d6",
+      "bytes": 2256
+    },
+    {
+      "git_blob": "09deef9b0a61b1af7d65d68df38bf55837b8f2de",
+      "url": "https://github.com/Roblox/creator-docs/blob/main/content/en-us/reference/engine/classes/Stats.yaml",
+      "path": "handoff/proofs/official-Stats.txt",
+      "accessed": "2026-11-17",
+      "version": "GitHub main at retrieved blob, Studio655 compatibility not independently verified",
+      "sha256": "1df1681de8e3d2e5a6154f04205106d01bed4597c5436e0cc1fdc4c7fafa43cc",
+      "bytes": 26429
+    },
+    {
+      "git_blob": "5f45640567046bfcc50136558b26c5b7549ef860",
+      "url": "https://github.com/Roblox/creator-docs/blob/main/content/en-us/physics/units.md",
+      "path": "handoff/proofs/official-Units.txt",
+      "accessed": "2026-11-17",
+      "version": "GitHub main at retrieved blob, Studio655 compatibility not independently verified",
+      "sha256": "eca4a44073b05dbb85f1be185ee8bf6601a3ebe9ce979bd667b818575723ff89",
+      "bytes": 4676
+    }
+  ]
+}

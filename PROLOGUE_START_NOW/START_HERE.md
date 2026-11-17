@@ -1,3 +1,7 @@
+# GEL17NOVEMBRE — PRIORITÉ COLLISIONS H001/H002
+
+Consulter `../handoff/codex_to_claude.md` et `../handoff/collisions_sapin/PROTOCOL.md` dans la branche. Dans le ZIP, consulter `handoff/` à la racine du paquet. Les préparations prologue ci-dessous sont conservées, mais leur développement et l’auto-amélioration sont gelés. Aucun essai Studio réel n’est encore certifié.
+
 # PROLOGUE_START_NOW — commencer A → E
 
 **Livraison de démarrage PARTIELLE.** Le cœur fourni est la continuation locale de17937ba ; le SHA exact figure dans DELIVERY_SUMMARY.json. Les gestes sont validés sous Blender4.3.2/GLB ; Windows, Claude Desktop, Studio, FBX et les nouveaux scripts Luau n'ont pas été exécutés ici. Aucun fichier de ton jeu n'est inclus ni modifié. Extraire ce dossier dans un NOUVEL emplacement, sans écraser le dépôt ou le coffre Obsidian.

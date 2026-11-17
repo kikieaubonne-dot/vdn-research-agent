@@ -1,0 +1,430 @@
+{
+  "resources": [
+    {
+      "id": "progression",
+      "priority": "P0",
+      "requires": [],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "scene-state",
+      "priority": "P0",
+      "requires": [
+        "progression"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "camera-controller",
+      "priority": "P0",
+      "requires": [
+        "scene-state"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "interaction-contract",
+      "priority": "P0",
+      "requires": [
+        "progression"
+      ],
+      "scenes": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "boy-proxy",
+      "priority": "P0",
+      "requires": [
+        "camera-controller"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "maelle-proxy",
+      "priority": "P0",
+      "requires": [
+        "scene-state"
+      ],
+      "scenes": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "antagonist-proxy",
+      "priority": "P0",
+      "requires": [
+        "scene-state"
+      ],
+      "scenes": [
+        "C"
+      ]
+    },
+    {
+      "id": "investigator-proxy",
+      "priority": "P0",
+      "requires": [
+        "camera-controller"
+      ],
+      "scenes": [
+        "E"
+      ]
+    },
+    {
+      "id": "rig-export",
+      "priority": "P0",
+      "requires": [],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "reach-proxy",
+      "priority": "P1",
+      "requires": [
+        "rig-export"
+      ],
+      "scenes": [
+        "A",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "walk-sprint",
+      "priority": "P0",
+      "requires": [
+        "rig-export",
+        "camera-controller"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "investigation-movements",
+      "priority": "P1",
+      "requires": [
+        "walk-sprint"
+      ],
+      "scenes": [
+        "E"
+      ]
+    },
+    {
+      "id": "house-blockout",
+      "priority": "P0",
+      "requires": [
+        "scene-state"
+      ],
+      "scenes": [
+        "A"
+      ]
+    },
+    {
+      "id": "furniture",
+      "priority": "P2",
+      "requires": [
+        "house-blockout"
+      ],
+      "scenes": [
+        "A"
+      ]
+    },
+    {
+      "id": "postit",
+      "priority": "P0",
+      "requires": [
+        "interaction-contract"
+      ],
+      "scenes": [
+        "A"
+      ]
+    },
+    {
+      "id": "forest-path",
+      "priority": "P0",
+      "requires": [
+        "scene-state"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "snowy-spruce",
+      "priority": "P1",
+      "requires": [
+        "forest-path"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "tree-collision",
+      "priority": "P0",
+      "requires": [
+        "forest-path",
+        "camera-controller"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "snow-ground",
+      "priority": "P1",
+      "requires": [
+        "forest-path"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "footprints",
+      "priority": "P1",
+      "requires": [
+        "snow-ground"
+      ],
+      "scenes": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "night-light",
+      "priority": "P1",
+      "requires": [
+        "forest-path"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "flashlight-v2",
+      "priority": "P1",
+      "requires": [
+        "night-light"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "fog",
+      "priority": "P2",
+      "requires": [
+        "night-light"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "red-eyes",
+      "priority": "P1",
+      "requires": [
+        "antagonist-proxy",
+        "night-light"
+      ],
+      "scenes": [
+        "C"
+      ]
+    },
+    {
+      "id": "chase-ai",
+      "priority": "P0",
+      "requires": [
+        "forest-path",
+        "maelle-proxy",
+        "antagonist-proxy"
+      ],
+      "scenes": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "christmas-room-tone",
+      "priority": "P1",
+      "requires": [
+        "house-blockout"
+      ],
+      "scenes": [
+        "A"
+      ]
+    },
+    {
+      "id": "forest-sound",
+      "priority": "P1",
+      "requires": [
+        "forest-path"
+      ],
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "licensed-music",
+      "priority": "P2",
+      "requires": [],
+      "scenes": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "priority": "P1",
+      "requires": [
+        "forest-sound"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "subtitles-objectives",
+      "priority": "P0",
+      "requires": [
+        "progression"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "phone",
+      "priority": "P0",
+      "requires": [
+        "interaction-contract"
+      ],
+      "scenes": [
+        "D"
+      ]
+    },
+    {
+      "id": "role-transition",
+      "priority": "P0",
+      "requires": [
+        "progression",
+        "boy-proxy",
+        "investigator-proxy"
+      ],
+      "scenes": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "clue-props",
+      "priority": "P1",
+      "requires": [
+        "interaction-contract",
+        "forest-path"
+      ],
+      "scenes": [
+        "E"
+      ]
+    },
+    {
+      "id": "clothes-hair",
+      "priority": "P2",
+      "requires": [
+        "rig-export"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "materials-pbr",
+      "priority": "P2",
+      "requires": [
+        "rig-export"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "id": "performance-protocol",
+      "priority": "P0",
+      "requires": [
+        "camera-controller",
+        "forest-path"
+      ],
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}

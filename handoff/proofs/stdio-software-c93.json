@@ -1,0 +1,15 @@
+{
+  "state": "PASS",
+  "category": "ISOLATED_SOFTWARE_FIXTURES_NOT_STUDIO",
+  "tools": 27,
+  "candidate_retrieved": true,
+  "editorial_procedure_retrieved": true,
+  "default_write_denied": true,
+  "three_separate_prepare_start_record_read_roundtrips": true,
+  "VERIFIED": false,
+  "protected_inputs_unchanged": true,
+  "network": "sockets forbidden",
+  "Studio": "NOT_EXECUTED",
+  "Desktop": "NOT_RETESTED",
+  "real_measurements": false
+}

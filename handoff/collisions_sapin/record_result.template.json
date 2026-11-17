@@ -1,0 +1,35 @@
+{
+  "experiment_id": "REPLACE_WITH_REAL_RETURNED_UUID",
+  "status": "REPLACE_WITH_FAILED_OR_PARTIAL_SUCCESS_OR_SUCCESS",
+  "metrics": {
+    "equipped_targets": null,
+    "passes_A": null,
+    "passes_B": null,
+    "trunk_crossings_B": null,
+    "new_unwanted_blocks_over_0_5s": null,
+    "obstacle_regressions": null,
+    "slide_regressions": null,
+    "new_errors": null,
+    "A_physics_median_ms": null,
+    "B_physics_median_ms": null,
+    "increase_physics_median_ms": null,
+    "A_frame_p95_ms": null,
+    "B_frame_p95_ms": null,
+    "increase_frame_p95_ms": null,
+    "max_visual_physical_gap_studs": null,
+    "max_bark_camera_penetration_studs": null,
+    "raycast_regressions": null,
+    "reopen_regressions": null
+  },
+  "observations": [
+    "REPLACE_WITH_REAL_OBSERVATIONS_AFTER_STUDIO_TEST"
+  ],
+  "errors": [],
+  "artifacts": [],
+  "limits": [
+    "Client report, not independently verified.",
+    "Pathfinding separate, not tested.",
+    "Studio mobile emulation is not real mobile device performance."
+  ],
+  "request_id": "REPLACE_WITH_FRESH_UUID_KEEP_FOR_IDENTICAL_RETRY"
+}

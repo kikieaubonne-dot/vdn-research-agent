@@ -1,0 +1,1030 @@
+{
+  "file_base": "Eponge/source",
+  "scope": "production preparation, not Studio validation",
+  "resources": [
+    {
+      "id": "progression",
+      "category": "scripts",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "function": "Deterministic narrative progression, event ordering and resume",
+      "priority": "P0",
+      "dependencies": [],
+      "format": "Python reference + Luau candidate",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "OWN_CREATED; repository distribution terms to verify",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "TESTED_IN_ISOLATION",
+      "files": [
+        "agent/prologue.py",
+        "roblox/prologue/Progression.lua"
+      ],
+      "tests": [
+        "Python progression/inventory tests only; not Roblox"
+      ],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "scene-state",
+      "category": "scripts",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "function": "Scene ownership, safe copied environment and explicit engine build",
+      "priority": "P0",
+      "dependencies": [
+        "progression"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "camera-controller",
+      "category": "camera",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "function": "First person, immediate player control, proposed interruption limits",
+      "priority": "P0",
+      "dependencies": [
+        "scene-state"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "interaction-contract",
+      "category": "interactions",
+      "scenes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "function": "Post-it, phone and clue events; unknown component names",
+      "priority": "P0",
+      "dependencies": [
+        "progression"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "boy-proxy",
+      "category": "characters",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "function": "Léo playable proxy, no invented height or final appearance",
+      "priority": "P0",
+      "dependencies": [
+        "camera-controller"
+      ],
+      "format": "Studio rig or authorized Blender export",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "maelle-proxy",
+      "category": "characters",
+      "scenes": [
+        "A",
+        "B"
+      ],
+      "function": "Sister visible, leaves house and disappears from line of sight",
+      "priority": "P0",
+      "dependencies": [
+        "scene-state"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "antagonist-proxy",
+      "category": "characters",
+      "scenes": [
+        "C"
+      ],
+      "function": "Brief silhouette and encounter; no family-father presence added",
+      "priority": "P0",
+      "dependencies": [
+        "scene-state"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "investigator-proxy",
+      "category": "characters",
+      "scenes": [
+        "E"
+      ],
+      "function": "Playable police investigator after reported disappearance",
+      "priority": "P0",
+      "dependencies": [
+        "camera-controller"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "rig-export",
+      "category": "rigging",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Visual bake trial and independently measured animation export",
+      "priority": "P0",
+      "dependencies": [],
+      "format": ".blend / .glb; FBX still NOT_TESTED",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "OWN_CREATED",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "TESTED_IN_ISOLATION",
+      "files": [
+        "agent/animation_roundtrip.py",
+        "scripts/blender_animation_trial.py"
+      ],
+      "tests": [
+        "Python progression/inventory tests only; not Roblox"
+      ],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "reach-proxy",
+      "category": "animations",
+      "scenes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "function": "Reusable original lab gesture; not a final character or approved game animation",
+      "priority": "P1",
+      "dependencies": [
+        "rig-export"
+      ],
+      "format": ".blend/.glb laboratory evidence",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "OWN_CREATED",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "TESTED_IN_BLENDER",
+      "files": [
+        "docs/v112/prologue/artifacts/gesture-primary.blend",
+        "docs/v112/prologue/artifacts/gesture-primary.glb",
+        "docs/v112/prologue/artifacts/gesture-transfer.blend",
+        "docs/v112/prologue/artifacts/gesture-transfer.glb"
+      ],
+      "tests": [
+        "Blender4.3.2: visual bake/native trajectory,25 sampled poses, independent GLB import, heads/skin matrices/surfaces/duration."
+      ],
+      "known_problems": [
+        "Original primary .blend includes other unmodified actors; only named primary IK actor is the repaired variant.",
+        "No human aesthetic approval, actual role/height, Studio, Windows, Blender5.2 or Roblox controller validation."
+      ]
+    },
+    {
+      "id": "walk-sprint",
+      "category": "animations",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Character movement and chase readability",
+      "priority": "P0",
+      "dependencies": [
+        "rig-export",
+        "camera-controller"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "investigation-movements",
+      "category": "gameplay",
+      "scenes": [
+        "E"
+      ],
+      "function": "Crouch/vault/climb/slide are candidates introduced during investigation, not B",
+      "priority": "P1",
+      "dependencies": [
+        "walk-sprint"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "house-blockout",
+      "category": "environment",
+      "scenes": [
+        "A"
+      ],
+      "function": "Family house, Christmas contrast and clear exit",
+      "priority": "P0",
+      "dependencies": [
+        "scene-state"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "furniture",
+      "category": "props",
+      "scenes": [
+        "A"
+      ],
+      "function": "Readable domestic silhouettes and navigation",
+      "priority": "P2",
+      "dependencies": [
+        "house-blockout"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "postit",
+      "category": "props",
+      "scenes": [
+        "A"
+      ],
+      "function": "Parents already absent, ask Léo to watch Maëlle",
+      "priority": "P0",
+      "dependencies": [
+        "interaction-contract"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "forest-path",
+      "category": "environment",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Continuous snowy route and line-of-sight events",
+      "priority": "P0",
+      "dependencies": [
+        "scene-state"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "snowy-spruce",
+      "category": "vegetation",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Reuse B3/C1 knowledge, actual assets unavailable",
+      "priority": "P1",
+      "dependencies": [
+        "forest-path"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "tree-collision",
+      "category": "physics",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Player passes branches on a copied route",
+      "priority": "P0",
+      "dependencies": [
+        "forest-path",
+        "camera-controller"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "snow-ground",
+      "category": "materials",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Terrain readability and snow material",
+      "priority": "P1",
+      "dependencies": [
+        "forest-path"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "footprints",
+      "category": "guidance",
+      "scenes": [
+        "C",
+        "E"
+      ],
+      "function": "Adult/child footprint candidates without premature narrative decision",
+      "priority": "P1",
+      "dependencies": [
+        "snow-ground"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "night-light",
+      "category": "lighting",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Flashlight/night visibility under matched test conditions",
+      "priority": "P1",
+      "dependencies": [
+        "forest-path"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "flashlight-v2",
+      "category": "props",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Inspect reported V2 before selecting changes",
+      "priority": "P1",
+      "dependencies": [
+        "night-light"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "fog",
+      "category": "effects",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Light fog; no assumed Roblox parameters",
+      "priority": "P2",
+      "dependencies": [
+        "night-light"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "red-eyes",
+      "category": "effects",
+      "scenes": [
+        "C"
+      ],
+      "function": "Eyes linger in darkness after silhouette disappearance",
+      "priority": "P1",
+      "dependencies": [
+        "antagonist-proxy",
+        "night-light"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "chase-ai",
+      "category": "npc-ai",
+      "scenes": [
+        "B",
+        "C"
+      ],
+      "function": "Bounded line-of-sight/chase triggers; no untested pathfinding guarantee",
+      "priority": "P0",
+      "dependencies": [
+        "forest-path",
+        "maelle-proxy",
+        "antagonist-proxy"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "christmas-room-tone",
+      "category": "audio",
+      "scenes": [
+        "A"
+      ],
+      "function": "Warm atmosphere; originals or licensed content",
+      "priority": "P1",
+      "dependencies": [
+        "house-blockout"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "forest-sound",
+      "category": "audio",
+      "scenes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Tension escalation, spatial clues and silence",
+      "priority": "P1",
+      "dependencies": [
+        "forest-path"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "licensed-music",
+      "category": "music",
+      "scenes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "function": "Optional authorized music, no copied AAA content",
+      "priority": "P2",
+      "dependencies": [],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "dialogue",
+      "category": "voices",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "function": "Authorized voice for Maëlle cry, Ho ho ho and police report; no voice cloning",
+      "priority": "P1",
+      "dependencies": [
+        "forest-sound"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "subtitles-objectives",
+      "category": "ui",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "function": "Short text, Retrouve Maëlle, optional Shift prompt",
+      "priority": "P0",
+      "dependencies": [
+        "progression"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "phone",
+      "category": "props",
+      "scenes": [
+        "D"
+      ],
+      "function": "Safe place and report interaction",
+      "priority": "P0",
+      "dependencies": [
+        "interaction-contract"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "role-transition",
+      "category": "scripts",
+      "scenes": [
+        "D",
+        "E"
+      ],
+      "function": "Switch player role without inventing a confirmed ending",
+      "priority": "P0",
+      "dependencies": [
+        "progression",
+        "boy-proxy",
+        "investigator-proxy"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "clue-props",
+      "category": "props",
+      "scenes": [
+        "E"
+      ],
+      "function": "Inspectable clues; exact evidence and puzzles proposed",
+      "priority": "P1",
+      "dependencies": [
+        "interaction-contract",
+        "forest-path"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "clothes-hair",
+      "category": "appearance",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Character clothing/hair/beard pipeline, actual references UNKNOWN",
+      "priority": "P2",
+      "dependencies": [
+        "rig-export"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "materials-pbr",
+      "category": "materials",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "function": "Documented PBR authoring; no unverified optimal values",
+      "priority": "P2",
+      "dependencies": [
+        "rig-export"
+      ],
+      "format": "UNKNOWN",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "UNKNOWN",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "NOT_TESTED",
+      "files": [],
+      "tests": [],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    },
+    {
+      "id": "performance-protocol",
+      "category": "validation",
+      "scenes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "function": "Device/build, continuous route and measured frame times",
+      "priority": "P0",
+      "dependencies": [
+        "camera-controller",
+        "forest-path"
+      ],
+      "format": "JSON test protocol",
+      "creation_method": "Create or inspect an authorized isolated copy; no paid service selected",
+      "license": "OWN_CREATED",
+      "estimated_cost": {
+        "money": "UNKNOWN; no purchase authorized",
+        "production_time": "UNKNOWN"
+      },
+      "Roblox_compatibility": "NOT_TESTED",
+      "validation": "TESTED_IN_ISOLATION",
+      "files": [
+        "project/prologue.json"
+      ],
+      "tests": [
+        "Python progression/inventory tests only; not Roblox"
+      ],
+      "known_problems": [
+        "Actual Studio build, target device, asset/controller and performance budget require inspection."
+      ]
+    }
+  ]
+}

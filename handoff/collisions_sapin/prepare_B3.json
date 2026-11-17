@@ -1,0 +1,61 @@
+{
+  "problem": "C2B H001 H002 collisions sapin — B3",
+  "technique": "4cylindres indépendants — same_epiceas_as_B2 — measured_skirt",
+  "hypothesis": "Ajouter seulement4proxies mesurés peut empêcher la traversée sans régression des parcours, raycasts ou budgets expérimentaux ; résultat inconnu.",
+  "experiment_id": "a3fa35de-9674-5e53-8293-0fa9e6f07840",
+  "parameters": {
+    "project_task": "collisions",
+    "research_branch": "forest/collisions",
+    "asset_ids": [],
+    "variant": "B3",
+    "targets": [],
+    "radius_coefficient": 0.6,
+    "use_meshpart_size": false,
+    "baseline_evidence_sha256": null
+  },
+  "environment": {
+    "engine": "Roblox",
+    "studio_version": null,
+    "reported_reference_place_version": 655,
+    "device": null,
+    "controller": null,
+    "copy_file_sha256": null,
+    "copy_instance_identity": null,
+    "asset_ids": []
+  },
+  "references": [
+    "https://create.roblox.com/docs/reference/engine/classes/BasePart",
+    "https://create.roblox.com/docs/reference/engine/classes/Part",
+    "https://create.roblox.com/docs/physics/units"
+  ],
+  "protocol": {
+    "source": "handoff/collisions_sapin/PROTOCOL.md",
+    "variant": {
+      "targets": 4,
+      "family": "same_epiceas_as_B2",
+      "radius_source": "measured_skirt",
+      "coefficient": 0.6,
+      "allowed_range": [
+        0.55,
+        0.7
+      ],
+      "same_axis_center_height_as": "B2"
+    },
+    "passes_minimum": 5,
+    "criteria": {
+      "equipped_trunk_crossings": 0,
+      "new_unwanted_blocks_longer_than_s": 0.5,
+      "new_unwanted_blocks_count": 0,
+      "obstacle_regressions": 0,
+      "slide_regressions": 0,
+      "new_errors": 0,
+      "physics_median_increase_strictly_below_ms": 0.2,
+      "frame_p95_increase_strictly_below_ms": 0.5,
+      "noise_or_missing_data": "INDETERMINATE"
+    },
+    "state": "FILL_REAL_INPUTS_BEFORE_START",
+    "independent_variant_from_A": true,
+    "main_place_edits": false,
+    "publish": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "state": "PASS",
+  "checked": 1732,
+  "changed_or_missing": [],
+  "derived_cache_changes": [],
+  "scope": "immutable code/source integrity; changed derived index checked structurally, not promoted as source truth; not game validation"
+}

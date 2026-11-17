@@ -1,0 +1,54 @@
+{
+  "scope": "all unpublished Git blob objects between c93fe9b and9a7b0b0, text and binary byte scan",
+  "blobs": 219,
+  "patterns": [
+    "github_token",
+    "aws_key",
+    "private_key",
+    "api_secret"
+  ],
+  "findings": [],
+  "largest_blobs": [
+    {
+      "bytes": 184369,
+      "path": "docs/v112/start_now/TRACEABILITY_210.json"
+    },
+    {
+      "bytes": 178740,
+      "path": "docs/v112/operations/continuation/ACCEPTANCE_RECONCILIATION.json"
+    },
+    {
+      "bytes": 137122,
+      "path": "docs/v112/prologue/artifacts/gesture-primary.blend"
+    },
+    {
+      "bytes": 119222,
+      "path": "docs/v112/operations/ACCEPTANCE.json"
+    },
+    {
+      "bytes": 114674,
+      "path": "docs/v112/prologue/artifacts/gesture-transfer.blend"
+    },
+    {
+      "bytes": 103864,
+      "path": "docs/v112/prologue/artifacts/gesture-transfer.glb"
+    },
+    {
+      "bytes": 102948,
+      "path": "docs/v112/prologue/artifacts/gesture-primary.glb"
+    },
+    {
+      "bytes": 90238,
+      "path": "docs/v112/start_now/proofs/personal_sequential.log"
+    },
+    {
+      "bytes": 89968,
+      "path": "docs/v112/start_now/proofs/offline.log"
+    },
+    {
+      "bytes": 79557,
+      "path": "docs/v112/operations/continuation/proofs/spruce-B.png"
+    }
+  ],
+  "limits": "Known credential signatures only; not a proof of absence of all secrets. Existing public baseline not relicensed."
+}

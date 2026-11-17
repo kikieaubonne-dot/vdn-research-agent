@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "zip_crc": "PASS",
+  "manifest_hashes_all_match": true,
+  "files": 1737,
+  "bytes": 8803907,
+  "sha256": "f2d8f574bf64849d516e31830b21c949f6760627bf819c07456bdc81e87154f1",
+  "signature_scan_findings": [],
+  "scan_limits": "Known patterns only; not universal secret or legal assurance",
+  "code_commit": "9a7b0b05e04ad3c6feed6886fc5e2c676e7d254f",
+  "real_Studio_experiment": "PENDING_CLAUDE",
+  "original_archive_unchanged": true
+}

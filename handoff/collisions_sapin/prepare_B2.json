@@ -1,0 +1,57 @@
+{
+  "problem": "C2B H001 H002 collisions sapin — B2",
+  "technique": "4cylindres indépendants — epiceas — measured_trunk",
+  "hypothesis": "Ajouter seulement4proxies mesurés peut empêcher la traversée sans régression des parcours, raycasts ou budgets expérimentaux ; résultat inconnu.",
+  "experiment_id": "a4bbbcb6-19ce-525e-ac3d-b6a19b6f6bde",
+  "parameters": {
+    "project_task": "collisions",
+    "research_branch": "forest/collisions",
+    "asset_ids": [],
+    "variant": "B2",
+    "targets": [],
+    "radius_coefficient": 0.9,
+    "use_meshpart_size": false,
+    "baseline_evidence_sha256": null
+  },
+  "environment": {
+    "engine": "Roblox",
+    "studio_version": null,
+    "reported_reference_place_version": 655,
+    "device": null,
+    "controller": null,
+    "copy_file_sha256": null,
+    "copy_instance_identity": null,
+    "asset_ids": []
+  },
+  "references": [
+    "https://create.roblox.com/docs/reference/engine/classes/BasePart",
+    "https://create.roblox.com/docs/reference/engine/classes/Part",
+    "https://create.roblox.com/docs/physics/units"
+  ],
+  "protocol": {
+    "source": "handoff/collisions_sapin/PROTOCOL.md",
+    "variant": {
+      "targets": 4,
+      "family": "epiceas",
+      "radius_source": "measured_trunk",
+      "coefficient": 0.9,
+      "coefficient_status": "explicit engineering choice for narrow trunk, not separately proven"
+    },
+    "passes_minimum": 5,
+    "criteria": {
+      "equipped_trunk_crossings": 0,
+      "new_unwanted_blocks_longer_than_s": 0.5,
+      "new_unwanted_blocks_count": 0,
+      "obstacle_regressions": 0,
+      "slide_regressions": 0,
+      "new_errors": 0,
+      "physics_median_increase_strictly_below_ms": 0.2,
+      "frame_p95_increase_strictly_below_ms": 0.5,
+      "noise_or_missing_data": "INDETERMINATE"
+    },
+    "state": "FILL_REAL_INPUTS_BEFORE_START",
+    "independent_variant_from_A": true,
+    "main_place_edits": false,
+    "publish": false
+  }
+}
