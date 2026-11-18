@@ -16,4 +16,4 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[terrain/_index|terrain]] | 0 | 0 | 2 | 1 | 0 |
 | [[vegetation/_index|vegetation]] | 0 | 0 | 7 | 4 | 4 |
 
-Total : 117 fiches. Mis à jour le 2026-11-17.
+Total : 117 fiches. Mis à jour le 2026-11-18.

@@ -1,114 +1,14 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-17T18:38:21+00:00",
-  "finished": "2026-11-17T18:39:07+00:00",
+  "started": "2026-11-18T01:38:06+00:00",
+  "finished": "2026-11-18T01:38:54+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "foliage alpha distance settings",
+      "query": "foliage alpha distance tutorial",
       "topic": "spruce",
       "depth": 1,
       "origin": "relance",
-      "status": "done",
-      "created": 0,
-      "rejected": 7,
-      "duplicates": 2,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "Atmosphere Offset",
-      "topic": "forest",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 0,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-51334de66134",
-          "path": "knowledge/forest/51334de66134-how-to-make-a-atmosphere-transition.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "Atmosphere Offset",
-          "url": "https://devforum.roblox.com/t/1215598",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-9a47d5fb8bf7",
-          "path": "knowledge/forest/9a47d5fb8bf7-concorde-speed-concorde-date-of-concorde-in-januar.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "Atmosphere Offset",
-          "url": "https://github.com/concorde-speed/concorde",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "Atmosphere Offset settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-51334de66134)",
-          "topic": "forest"
-        },
-        {
-          "query": "Atmosphere Offset tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-51334de66134)",
-          "topic": "forest"
-        },
-        {
-          "query": "Atmosphere Offset step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "forest"
-        },
-        {
-          "query": "Atmosphere Offset Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "forest"
-        }
-      ]
-    },
-    {
-      "query": "Atmosphere Haze step by step implementation tutorial code",
-      "topic": "lighting",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-3e118a38d386",
-          "path": "knowledge/lighting/3e118a38d386-what-are-some-good-atmosphere-settings.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere Haze step by step implementation tutorial code",
-          "url": "https://devforum.roblox.com/t/1577448",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "Player settings step by step implementation tutorial code",
-      "topic": "traversal",
-      "depth": 2,
-      "origin": "relance_lacune",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -116,53 +16,85 @@
       "fetched": 8,
       "notes": [],
       "followups": []
+    },
+    {
+      "query": "forest atmosphere fog step by step implementation tutorial code",
+      "topic": "forest",
+      "depth": 1,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "Player FrustumStreaming tutorial",
+      "topic": "traversal",
+      "depth": 2,
+      "origin": "relance",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "ambient exposure night",
+      "topic": "lighting",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
     }
   ],
-  "created": 3,
-  "fetched": 31,
-  "rejected": 28,
-  "followups_added": 4,
+  "created": 0,
+  "fetched": 32,
+  "rejected": 32,
+  "followups_added": 0,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 81,
+      "pending": 77,
       "running": 0,
-      "done": 30,
+      "done": 34,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-17",
-      "items": 12,
-      "fetch": 94
+      "date": "2026-11-18",
+      "items": 4,
+      "fetch": 32
     },
     "next": [
       {
-        "query": "foliage alpha distance tutorial",
-        "topic": "spruce",
+        "query": "forest atmosphere fog tutorial",
+        "topic": "forest",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "forest atmosphere fog step by step implementation tutorial code",
-        "topic": "forest",
+        "query": "tree leaves texture step by step implementation tutorial code",
+        "topic": "spruce",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance_lacune"
       },
       {
-        "query": "Player FrustumStreaming tutorial",
-        "topic": "traversal",
-        "priority": 9.0,
-        "depth": 2,
-        "origin": "relance"
-      },
-      {
-        "query": "ambient exposure night",
+        "query": "ColorCorrection horror",
         "topic": "lighting",
         "priority": 9.0,
         "depth": 0,
@@ -171,6 +103,13 @@
       {
         "query": "viewmodel arms camera",
         "topic": "fps_camera",
+        "priority": 9.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "snow footprints decal",
+        "topic": "snow",
         "priority": 9.0,
         "depth": 0,
         "origin": "seed"

@@ -322,7 +322,7 @@
     "SurfaceAppearance PBR textures": 1,
     "snow accumulation mesh": 2,
     "light shadows performance": 1,
-    "ambient exposure night": 1,
+    "ambient exposure night": 2,
     "terrain heightmap import": 1,
     "MeshPart RenderFidelity": 1,
     "instance streaming level detail": 1,
@@ -352,9 +352,12 @@
     "foliage alpha distance settings": 1,
     "Atmosphere Offset": 1,
     "Atmosphere Haze step by step implementation tutorial code": 1,
-    "Player settings step by step implementation tutorial code": 1
+    "Player settings step by step implementation tutorial code": 1,
+    "foliage alpha distance tutorial": 1,
+    "forest atmosphere fog step by step implementation tutorial code": 1,
+    "Player FrustumStreaming tutorial": 1
   },
-  "runs": 39,
+  "runs": 43,
   "errors": [],
   "rotation": 4
 }

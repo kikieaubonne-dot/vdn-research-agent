@@ -631,11 +631,23 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-18T01:38:54+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794965923.9077706,
+      "finished_ts": 1794965934.3899176
     },
     "431384b3280bdab2": {
       "key": "431384b3280bdab2",
@@ -1583,11 +1595,23 @@
       "depth": 1,
       "parent": "9c482cd07099182c",
       "reason": "lacune : aucune etape exploitable (vdn-d5dda0d02f6d)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:05+00:00",
-      "updated": "2026-11-15T23:24:05+00:00",
-      "result": null
+      "updated": "2026-11-18T01:38:19+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794965886.532307,
+      "finished_ts": 1794965899.0029418
     },
     "c9b001cca2a23bb2": {
       "key": "c9b001cca2a23bb2",
@@ -1724,11 +1748,23 @@
       "depth": 1,
       "parent": "9d342eeb76b809f1",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:18+00:00",
-      "updated": "2026-11-15T23:24:18+00:00",
-      "result": null
+      "updated": "2026-11-18T01:38:32+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794965899.006265,
+      "finished_ts": 1794965912.1065342
     },
     "d3363902d660e57f": {
       "key": "d3363902d660e57f",
@@ -2050,11 +2086,23 @@
       "depth": 2,
       "parent": "e8be5cb91d09e23a",
       "reason": "lacune : aucune etape exploitable (vdn-7c556484eae1)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T09:15:09+00:00",
-      "updated": "2026-11-17T09:15:09+00:00",
-      "result": null
+      "updated": "2026-11-18T01:38:43+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1794965912.109798,
+      "finished_ts": 1794965923.9045432
     },
     "2645cd92fd695a6d": {
       "key": "2645cd92fd695a6d",
@@ -2118,8 +2166,8 @@
     }
   },
   "daily": {
-    "date": "2026-11-17",
-    "items": 12,
-    "fetch": 94
+    "date": "2026-11-18",
+    "items": 4,
+    "fetch": 32
   }
 }

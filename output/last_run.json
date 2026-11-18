@@ -1,28 +1,27 @@
 {
-  "started_utc": "2026-11-17T18:38:56+00:00",
+  "started_utc": "2026-11-18T01:38:43+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
+  "returned": 11,
   "fetched": 8,
   "accepted": 0,
   "created": 0,
   "updated": 0,
-  "duplicates": 1,
+  "duplicates": 0,
   "rejected": 8,
   "errors": [],
   "rejection_reasons": {
     "hors sujet": 8,
-    "pas assez de contenu technique": 4,
-    "aucun lien avec Roblox ou la chaîne Blender": 1
+    "pas assez de contenu technique": 5
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "traversal",
-      "origin": "relance_lacune",
-      "strategy": "synonyms",
-      "query": "Player settings step tutorial",
+      "topic": "lighting",
+      "origin": "seed",
+      "strategy": "facet",
+      "query": "ambient exposure night limit",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -30,122 +29,122 @@
       "duplicates": 0,
       "offtopic": 4,
       "error": null,
-      "technical_mean": 0.19,
-      "duration_s": 4.21,
+      "technical_mean": 0.05,
+      "duration_s": 4.62,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "traversal",
-      "origin": "relance_lacune",
-      "strategy": "synonyms",
-      "query": "Player settings step tutorial",
-      "returned": 4,
-      "accepted": 0,
-      "new": 0,
-      "updated": 0,
-      "duplicates": 1,
-      "offtopic": 3,
-      "error": null,
-      "technical_mean": 0.16,
-      "duration_s": 4.38,
-      "reward": 0.0
-    },
-    {
-      "provider": "github",
-      "topic": "traversal",
-      "origin": "relance_lacune",
-      "strategy": "synonyms",
-      "query": "Player settings step tutorial",
+      "topic": "lighting",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "ambient exposure night",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 1,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.04,
-      "duration_s": 2.81,
+      "technical_mean": 0.14,
+      "duration_s": 5.3,
+      "reward": 0.0
+    },
+    {
+      "provider": "github",
+      "topic": "lighting",
+      "origin": "seed",
+      "strategy": "synonyms",
+      "query": "lighting exposure night",
+      "returned": 3,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 0.0,
+      "duration_s": 0.55,
       "reward": 0.0
     }
   ],
   "created_notes": [],
   "rejected_candidates": [
     {
-      "topical": 0.4,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.4 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.4,
+      "topical": 0.0,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.4 < 0.5)",
+        "hors sujet (pertinence 0.0 < 0.5)",
         "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.3,
-      "technical": 0.44,
+      "topical": 0.167,
+      "technical": 0.2,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)"
+        "hors sujet (pertinence 0.167 < 0.5)"
       ]
     },
     {
-      "topical": 0.3,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.1,
+      "topical": 0.0,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.1 < 0.5)",
+        "hors sujet (pertinence 0.0 < 0.5)",
         "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.1,
-      "technical": 0.04,
+      "topical": 0.0,
+      "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.1 < 0.5)",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.0 < 0.5)",
+        "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.3,
-      "technical": 0.44,
+      "topical": 0.333,
+      "technical": 0.12,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.12)"
       ]
     },
     {
-      "topical": 0.3,
-      "technical": 0.04,
-      "roblox": false,
+      "topical": 0.333,
+      "technical": 0.0,
+      "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.2,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.24,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
       ]
     }
   ],
@@ -154,5 +153,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-17T18:39:07+00:00"
+  "finished_utc": "2026-11-18T01:38:54+00:00"
 }
