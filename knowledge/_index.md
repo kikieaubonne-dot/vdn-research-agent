@@ -8,7 +8,7 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[architecture/_index|architecture]] | 0 | 0 | 0 | 1 | 9 |
 | [[characters/_index|characters]] | 0 | 0 | 2 | 1 | 9 |
 | [[forest/_index|forest]] | 0 | 0 | 9 | 9 | 12 |
-| [[gameplay/_index|gameplay]] | 0 | 0 | 0 | 2 | 0 |
+| [[gameplay/_index|gameplay]] | 0 | 0 | 0 | 3 | 0 |
 | [[lighting/_index|lighting]] | 0 | 0 | 6 | 9 | 0 |
 | [[performance/_index|performance]] | 0 | 0 | 0 | 4 | 0 |
 | [[rendering/_index|rendering]] | 0 | 0 | 6 | 0 | 0 |
@@ -16,4 +16,4 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[terrain/_index|terrain]] | 0 | 0 | 2 | 1 | 0 |
 | [[vegetation/_index|vegetation]] | 0 | 0 | 7 | 4 | 4 |
 
-Total : 117 fiches. Mis à jour le 2026-11-18.
+Total : 118 fiches. Mis à jour le 2026-11-18.

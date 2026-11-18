@@ -467,6 +467,10 @@
   "https://devforum.roblox.com/t/1577448": {
    "id": "vdn-3e118a38d386",
    "path": "knowledge/lighting/3e118a38d386-what-are-some-good-atmosphere-settings.md"
+  },
+  "https://github.com/jonathankwak/r6-viewmodel-arms": {
+   "id": "vdn-abfb1e76db63",
+   "path": "knowledge/gameplay/abfb1e76db63-jonathankwak-r6-viewmodel-arms-in-a-default-roblox.md"
   }
  },
  "fingerprints": {
@@ -1020,6 +1024,13 @@
   "267a12c3df757b33": "vdn-ff21cd4bc6e9",
   "30b47742e1b0c014": "vdn-ff21cd4bc6e9",
   "4a931be4ebd40326": "vdn-ff21cd4bc6e9",
-  "fde78531c36b40cc": "vdn-d6e7605d6c3a"
+  "fde78531c36b40cc": "vdn-d6e7605d6c3a",
+  "2f42eb6abd5f7e43": "vdn-d9d82a5bf0a0",
+  "78aa20461b19de71": "vdn-dda1bec74747",
+  "e5c6249a78a0c232": "vdn-83a68b9b57f0",
+  "7bd598fe6168e4cb": "vdn-1cc1e90f40db",
+  "babe0bc3a99a36f5": "vdn-1cc1e90f40db",
+  "9dd278bc34f5d6a2": "vdn-1cc1e90f40db",
+  "20735092d466764b": "vdn-abfb1e76db63"
  }
 }

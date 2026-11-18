@@ -317,7 +317,7 @@
     "snowfall particles": 2,
     "snow MaterialVariant": 2,
     "Atmosphere density haze": 1,
-    "ColorCorrection horror": 1,
+    "ColorCorrection horror": 2,
     "terrain MaterialVariant custom": 1,
     "SurfaceAppearance PBR textures": 1,
     "snow accumulation mesh": 2,
@@ -355,9 +355,12 @@
     "Player settings step by step implementation tutorial code": 1,
     "foliage alpha distance tutorial": 1,
     "forest atmosphere fog step by step implementation tutorial code": 1,
-    "Player FrustumStreaming tutorial": 1
+    "Player FrustumStreaming tutorial": 1,
+    "forest atmosphere fog tutorial": 1,
+    "tree leaves texture step by step implementation tutorial code": 1,
+    "viewmodel arms camera": 1
   },
-  "runs": 43,
+  "runs": 47,
   "errors": [],
   "rotation": 4
 }
