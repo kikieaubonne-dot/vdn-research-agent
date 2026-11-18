@@ -1,72 +1,109 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-18T10:12:36+00:00",
-  "finished": "2026-11-18T10:13:15+00:00",
+  "started": "2026-11-18T18:52:40+00:00",
+  "finished": "2026-11-18T18:53:31+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "forest atmosphere fog tutorial",
+      "query": "forest atmosphere fog settings",
       "topic": "forest",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-50a4e88d1caf",
+          "path": "knowledge/forest/50a4e88d1caf-i-dont-get-a-fog-setting-in-lightning-properties.md",
+          "status": "candidat",
+          "topic": "forest",
+          "query": "forest atmosphere fog settings",
+          "url": "https://devforum.roblox.com/t/1341456",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-dfa80e61e0b3",
+          "path": "knowledge/forest/dfa80e61e0b3-how-do-you-make-atmosphere-fog-change-smoothly-to.md",
+          "status": "candidat",
+          "topic": "forest",
+          "query": "forest atmosphere fog settings",
+          "url": "https://devforum.roblox.com/t/1641498",
+          "missing": [
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "forest atmosphere fog settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "forest"
+        }
+      ]
+    },
+    {
+      "query": "foliage normal map tutorial",
+      "topic": "spruce",
       "depth": 1,
       "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 2,
+      "duplicates": 1,
       "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "tree leaves texture step by step implementation tutorial code",
-      "topic": "spruce",
-      "depth": 1,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 7,
-      "duplicates": 2,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "ColorCorrection horror",
+      "query": "light shadows performance",
       "topic": "lighting",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 0,
+      "created": 3,
       "rejected": 4,
-      "duplicates": 0,
-      "fetched": 4,
-      "notes": [],
-      "followups": [
-        {
-          "query": "ColorCorrection horror step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "lighting"
-        }
-      ]
-    },
-    {
-      "query": "viewmodel arms camera",
-      "topic": "fps_camera",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 1,
-      "fetched": 8,
+      "duplicates": 3,
+      "fetched": 7,
       "notes": [
         {
-          "id": "vdn-abfb1e76db63",
-          "path": "knowledge/gameplay/abfb1e76db63-jonathankwak-r6-viewmodel-arms-in-a-default-roblox.md",
+          "id": "vdn-8152f2156515",
+          "path": "knowledge/lighting/8152f2156515-light-shadow-script.md",
           "status": "candidat",
-          "topic": "fps_camera",
-          "query": "viewmodel arms camera",
-          "url": "https://github.com/jonathankwak/r6-viewmodel-arms",
+          "topic": "lighting",
+          "query": "light shadows performance",
+          "url": "https://devforum.roblox.com/t/1764474",
+          "missing": [
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-b7c6aa72293b",
+          "path": "knowledge/lighting/b7c6aa72293b-odd-shadow-bug-future-lighting.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "light shadows performance",
+          "url": "https://devforum.roblox.com/t/1828583",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-cc87b5caa9dc",
+          "path": "knowledge/lighting/cc87b5caa9dc-hm-9130-hmpe-realoaded-shader-resolutions-16x-32x.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "light shadows performance",
+          "url": "https://github.com/hm-9130/hmpe-realoaded-shader",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -76,69 +113,127 @@
       ],
       "followups": [
         {
-          "query": "viewmodel arms camera settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-abfb1e76db63)",
-          "topic": "fps_camera"
+          "query": "light shadows performance tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-8152f2156515)",
+          "topic": "lighting"
         },
         {
-          "query": "viewmodel arms camera tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-abfb1e76db63)",
-          "topic": "fps_camera"
+          "query": "light shadows performance settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-b7c6aa72293b)",
+          "topic": "lighting"
         },
         {
-          "query": "viewmodel arms camera step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
+          "query": "light shadows performance Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "lighting"
+        }
+      ]
+    },
+    {
+      "query": "snow footprints decal",
+      "topic": "snow",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 0,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-0c6ae3fae482",
+          "path": "knowledge/snow/0c6ae3fae482-textures-and-decals.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "snow footprints decal",
+          "url": "https://create.roblox.com/docs/parts/textures-decals",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-fc2e67312ba6",
+          "path": "knowledge/snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn.md",
+          "status": "candidat",
+          "topic": "snow",
+          "query": "snow footprints decal",
+          "url": "https://github.com/cl3mus33/snowfixer",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Decal settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-0c6ae3fae482)",
+          "topic": "snow"
+        },
+        {
+          "query": "Decal Color3",
+          "reason": "API citee par la source : Decal.Color3 (vdn-0c6ae3fae482)",
+          "topic": "snow"
+        },
+        {
+          "query": "Decal Transparency",
+          "reason": "API citee par la source : Decal.Transparency (vdn-0c6ae3fae482)",
+          "topic": "snow"
+        },
+        {
+          "query": "snow footprints decal settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-fc2e67312ba6)",
+          "topic": "snow"
+        },
+        {
+          "query": "snow footprints decal tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-fc2e67312ba6)",
+          "topic": "snow"
         }
       ]
     }
   ],
-  "created": 1,
-  "fetched": 27,
-  "rejected": 26,
-  "followups_added": 4,
+  "created": 7,
+  "fetched": 31,
+  "rejected": 24,
+  "followups_added": 9,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 77,
+      "pending": 82,
       "running": 0,
-      "done": 38,
+      "done": 42,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-18",
-      "items": 8,
-      "fetch": 59
+      "items": 12,
+      "fetch": 90
     },
     "next": [
       {
-        "query": "forest atmosphere fog settings",
+        "query": "large forest performance settings",
         "topic": "forest",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "foliage normal map tutorial",
+        "query": "foliage normal map settings",
         "topic": "spruce",
         "priority": 9.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "light shadows performance",
+        "query": "flashlight SpotLight shadows",
         "topic": "lighting",
-        "priority": 9.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "snow footprints decal",
-        "topic": "snow",
         "priority": 9.0,
         "depth": 0,
         "origin": "seed"
@@ -149,6 +244,13 @@
         "priority": 9.0,
         "depth": 0,
         "origin": "seed"
+      },
+      {
+        "query": "snow accumulation mesh Roblox Studio implementation compatibility",
+        "topic": "snow",
+        "priority": 8.5,
+        "depth": 1,
+        "origin": "relance_lacune"
       }
     ]
   }

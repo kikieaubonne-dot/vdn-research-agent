@@ -56,16 +56,17 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.0,
-        "returned": 12,
+        "returned": 16,
         "accepted": 0,
         "new": 0,
-        "offtopic": 11,
-        "duplicates": 1,
+        "offtopic": 14,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0
@@ -108,12 +109,12 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.552,
-        "returned": 5,
+        "returned": 9,
         "accepted": 1,
         "new": 1,
-        "offtopic": 3,
+        "offtopic": 4,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
@@ -122,7 +123,8 @@
           0.12,
           0.0,
           0.312,
-          0.12
+          0.12,
+          0.0
         ],
         "best_mean": 0.11040000000000001
       },
@@ -267,22 +269,23 @@
         "best_mean": 0.083
       },
       "facet": {
-        "n": 4,
-        "reward": 0.08,
-        "returned": 14,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 12,
-        "duplicates": 1,
+        "n": 5,
+        "reward": 0.442,
+        "returned": 18,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 13,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.0,
           0.0,
           0.0,
-          0.08
+          0.08,
+          0.362
         ],
-        "best_mean": 0.02
+        "best_mean": 0.0884
       }
     },
     "github:forest": {
@@ -324,12 +327,12 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.20079999999999998,
-        "returned": 16,
+        "returned": 20,
         "accepted": 2,
         "new": 2,
-        "offtopic": 8,
+        "offtopic": 11,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
@@ -338,7 +341,8 @@
           0.0,
           0.1568,
           0.0,
-          0.044
+          0.044,
+          0.0
         ],
         "best_mean": 0.05226666666666666
       },
@@ -503,16 +507,17 @@
         "best_mean": 1.0
       },
       "synonyms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 1,
+        "returned": 5,
         "accepted": 0,
         "new": 0,
-        "offtopic": 1,
+        "offtopic": 5,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -575,13 +580,13 @@
         "best_mean": 0.072
       },
       "facet": {
-        "n": 7,
-        "reward": 1.842,
-        "returned": 24,
+        "n": 8,
+        "reward": 1.9660000000000002,
+        "returned": 28,
         "accepted": 5,
         "new": 5,
-        "offtopic": 13,
-        "duplicates": 6,
+        "offtopic": 15,
+        "duplicates": 8,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -591,7 +596,8 @@
           0.7,
           0.0,
           0.036,
-          0.0
+          0.0,
+          0.124
         ],
         "best_mean": 0.4515
       }
@@ -618,18 +624,19 @@
         "best_mean": 0.994
       },
       "synonyms": {
-        "n": 2,
-        "reward": 0.3333,
-        "returned": 4,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 1,
+        "n": 3,
+        "reward": 0.8,
+        "returned": 7,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
         "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.3333,
-          0.0
+          0.0,
+          0.4667
         ],
         "best_mean": 0.3333
       },
@@ -669,18 +676,19 @@
         "best_mean": 0.196
       },
       "synonyms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.208,
-        "returned": 8,
+        "returned": 12,
         "accepted": 1,
         "new": 1,
-        "offtopic": 3,
+        "offtopic": 7,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
           0.0,
           0.208,
+          0.0,
           0.0
         ],
         "best_mean": 0.104
@@ -706,11 +714,11 @@
     },
     "github:snow": {
       "terms": {
-        "n": 3,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
+        "n": 4,
+        "reward": 0.344,
+        "returned": 3,
+        "accepted": 1,
+        "new": 1,
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
@@ -718,9 +726,10 @@
         "recent": [
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.344
         ],
-        "best_mean": 0.0
+        "best_mean": 0.086
       },
       "synonyms": {
         "n": 4,
@@ -780,13 +789,13 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 5,
-        "reward": 0.749,
-        "returned": 12,
+        "n": 6,
+        "reward": 1.099,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 6,
-        "duplicates": 0,
+        "offtopic": 7,
+        "duplicates": 3,
         "errors": 0,
         "empty": 1,
         "recent": [
@@ -794,7 +803,8 @@
           0.485,
           0.264,
           0.0,
-          0.0
+          0.0,
+          0.35
         ],
         "best_mean": 0.24966666666666668
       },
@@ -855,12 +865,12 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 7,
-        "reward": 1.0079999999999998,
-        "returned": 28,
-        "accepted": 7,
-        "new": 7,
-        "offtopic": 12,
+        "n": 8,
+        "reward": 1.3399999999999999,
+        "returned": 32,
+        "accepted": 9,
+        "new": 9,
+        "offtopic": 14,
         "duplicates": 4,
         "errors": 0,
         "empty": 0,
@@ -871,9 +881,10 @@
           0.0,
           0.312,
           0.188,
-          0.148
+          0.148,
+          0.332
         ],
-        "best_mean": 0.14399999999999996
+        "best_mean": 0.16749999999999998
       }
     },
     "github:lighting": {
@@ -917,12 +928,12 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 4,
-        "reward": 0.092,
-        "returned": 8,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 4,
+        "n": 5,
+        "reward": 0.524,
+        "returned": 10,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 5,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
@@ -930,9 +941,10 @@
           0.0,
           0.0,
           0.092,
-          0.0
+          0.0,
+          0.432
         ],
-        "best_mean": 0.030666666666666665
+        "best_mean": 0.1048
       }
     },
     "roblox_docs:terrain": {

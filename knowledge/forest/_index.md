@@ -14,12 +14,14 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[forest/7f5fd0196f65-important-shadow-rendering-problem|Important shadow rendering problem]] — niv. 2 · conf. faible — « ShadowMap Shadows Only Render When Close Building Support »
 - [[forest/a374396f6529-lighting-problems|Lighting problems]] — niv. 2 · conf. faible — « You can try setting it to night, but this will make it a bit darker, but you can up the brightness with color correction. »
 
-## Candidat (9)
+## Candidat (11)
 
 - [[forest/390b00a59e4b-avatar-settings|Avatar Settings]] — niv. 1 · conf. faible — « | **Animation Packs** | <ul><li>**Player Choice** (default): Keep user's platform animation style, including style packs</li><li>**Standard … »
 - [[forest/7c556484eae1-class-player|Class: Player]] — niv. 1 · conf. faible — « This property controls the engine's instance streaming behavior for the »
 - [[forest/0df57a89fa73-design-for-performance|Design for performance]] — niv. 1 · conf. faible — « - If you want to support lower-end devices, choose at least one "baseline" device, [test your game on it](/docs/en-us/performance-optimizati… »
+- [[forest/dfa80e61e0b3-how-do-you-make-atmosphere-fog-change-smoothly-to|How do you make atmosphere fog change smoothly to a red color?]] — niv. 2 · conf. faible — « How do you make atmosphere fog change smoothly to a red color using TweenService? »
 - [[forest/51334de66134-how-to-make-a-atmosphere-transition|How to make a atmosphere transition]] — niv. 2 · conf. faible — « Lighting.FogEnd = --Do your calculations here »
+- [[forest/50a4e88d1caf-i-dont-get-a-fog-setting-in-lightning-properties|I dont get a Fog setting in Lightning properties]] — niv. 2 · conf. faible — « [RÉPONSE ACCEPTÉE] To Enable the Fog Option in The Lighting properties, »
 - [[forest/0e6d296c236e-lighting-settings-saver|Lighting Settings Saver]] — niv. 2 · conf. faible — « Every now and then I struggle to quickly switch between multiple lighting setting presets I have in my mind. »
 - [[forest/7cb447a5113c-problem-setting-a-player-s-face-decal-texture-id|Problem setting a Player's face decal texture Id]] — niv. 2 · conf. faible — « local Decal = Head:WaitForChild("face",15) or Head:WaitForChild("Face",15) »
 - [[forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering|VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa]] — niv. 3 · conf. faible — « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine grove… »

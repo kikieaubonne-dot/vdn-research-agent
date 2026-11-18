@@ -456,11 +456,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-0c6ae3fae482",
+          "vdn-fc2e67312ba6"
+        ],
+        "followups": [
+          "Decal settings",
+          "Decal Color3",
+          "Decal Transparency",
+          "snow footprints decal settings",
+          "snow footprints decal tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795027999.7982788,
+      "finished_ts": 1795028011.7709644
     },
     "706f4ce105f136dc": {
       "key": "706f4ce105f136dc",
@@ -630,11 +651,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-18T18:53:19+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 7,
+        "created": 3,
+        "rejected": 4,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-8152f2156515",
+          "vdn-b7c6aa72293b",
+          "vdn-cc87b5caa9dc"
+        ],
+        "followups": [
+          "light shadows performance tutorial",
+          "light shadows performance settings",
+          "light shadows performance Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795027988.1060185,
+      "finished_ts": 1795027999.7951412
     },
     "5a3acdef17dc70e6": {
       "key": "5a3acdef17dc70e6",
@@ -1750,11 +1791,28 @@
       "depth": 1,
       "parent": "9d342eeb76b809f1",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-9be57b985b77)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:18+00:00",
-      "updated": "2026-11-15T23:24:18+00:00",
-      "result": null
+      "updated": "2026-11-18T18:52:55+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-50a4e88d1caf",
+          "vdn-dfa80e61e0b3"
+        ],
+        "followups": [
+          "forest atmosphere fog settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795027960.6101744,
+      "finished_ts": 1795027975.2767735
     },
     "7c2cc9819381b163": {
       "key": "7c2cc9819381b163",
@@ -2112,11 +2170,23 @@
       "depth": 1,
       "parent": "dfa72d0b0747a3e4",
       "reason": "lacune : aucune etape exploitable (vdn-c1379b6d7d62)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T09:14:58+00:00",
-      "updated": "2026-11-17T09:14:58+00:00",
-      "result": null
+      "updated": "2026-11-18T18:53:08+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795027975.279802,
+      "finished_ts": 1795027988.1029704
     },
     "24faa700bbba7114": {
       "key": "24faa700bbba7114",
@@ -2279,11 +2349,146 @@
       "created": "2026-11-18T10:13:15+00:00",
       "updated": "2026-11-18T10:13:15+00:00",
       "result": null
+    },
+    "6c7b4beff3e16d21": {
+      "key": "6c7b4beff3e16d21",
+      "topic": "forest",
+      "query": "forest atmosphere fog settings step by step implementation tutorial code",
+      "priority": 9.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "afc374ed09840c9c",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:52:55+00:00",
+      "updated": "2026-11-18T18:52:55+00:00",
+      "result": null
+    },
+    "197e12f70aa1401f": {
+      "key": "197e12f70aa1401f",
+      "topic": "lighting",
+      "query": "light shadows performance tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "68a09d5f4792831d",
+      "reason": "lacune : aucune etape exploitable (vdn-8152f2156515)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:19+00:00",
+      "updated": "2026-11-18T18:53:19+00:00",
+      "result": null
+    },
+    "610151593f1217cc": {
+      "key": "610151593f1217cc",
+      "topic": "lighting",
+      "query": "light shadows performance settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "68a09d5f4792831d",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-b7c6aa72293b)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:19+00:00",
+      "updated": "2026-11-18T18:53:19+00:00",
+      "result": null
+    },
+    "ef9833e15fc7491f": {
+      "key": "ef9833e15fc7491f",
+      "topic": "lighting",
+      "query": "light shadows performance Roblox Studio implementation compatibility",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "68a09d5f4792831d",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:19+00:00",
+      "updated": "2026-11-18T18:53:19+00:00",
+      "result": null
+    },
+    "9b834002cfcc973a": {
+      "key": "9b834002cfcc973a",
+      "topic": "snow",
+      "query": "Decal settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b194a61a4d147c60",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-0c6ae3fae482)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:31+00:00",
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": null
+    },
+    "0181c8cbca252c64": {
+      "key": "0181c8cbca252c64",
+      "topic": "snow",
+      "query": "Decal Color3",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b194a61a4d147c60",
+      "reason": "API citee par la source : Decal.Color3 (vdn-0c6ae3fae482)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:31+00:00",
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": null
+    },
+    "3f2b54c407482957": {
+      "key": "3f2b54c407482957",
+      "topic": "snow",
+      "query": "Decal Transparency",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b194a61a4d147c60",
+      "reason": "API citee par la source : Decal.Transparency (vdn-0c6ae3fae482)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:31+00:00",
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": null
+    },
+    "bfa1de5556a6461c": {
+      "key": "bfa1de5556a6461c",
+      "topic": "snow",
+      "query": "snow footprints decal settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b194a61a4d147c60",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-fc2e67312ba6)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:31+00:00",
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": null
+    },
+    "7aaaeb1b839b3096": {
+      "key": "7aaaeb1b839b3096",
+      "topic": "snow",
+      "query": "snow footprints decal tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b194a61a4d147c60",
+      "reason": "lacune : aucune etape exploitable (vdn-fc2e67312ba6)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-18T18:53:31+00:00",
+      "updated": "2026-11-18T18:53:31+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-18",
-    "items": 8,
-    "fetch": 59
+    "items": 12,
+    "fetch": 90
   }
 }

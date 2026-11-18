@@ -309,7 +309,7 @@
     "night forest lighting": 2,
     "forest atmosphere fog": 2,
     "snow terrain material": 3,
-    "snow footprints decal": 1,
+    "snow footprints decal": 2,
     "Future lighting night": 2,
     "flashlight SpotLight shadows": 2,
     "large forest performance": 2,
@@ -321,7 +321,7 @@
     "terrain MaterialVariant custom": 1,
     "SurfaceAppearance PBR textures": 1,
     "snow accumulation mesh": 2,
-    "light shadows performance": 1,
+    "light shadows performance": 2,
     "ambient exposure night": 2,
     "terrain heightmap import": 1,
     "MeshPart RenderFidelity": 1,
@@ -358,9 +358,11 @@
     "Player FrustumStreaming tutorial": 1,
     "forest atmosphere fog tutorial": 1,
     "tree leaves texture step by step implementation tutorial code": 1,
-    "viewmodel arms camera": 1
+    "viewmodel arms camera": 1,
+    "forest atmosphere fog settings": 1,
+    "foliage normal map tutorial": 1
   },
-  "runs": 47,
+  "runs": 51,
   "errors": [],
   "rotation": 4
 }

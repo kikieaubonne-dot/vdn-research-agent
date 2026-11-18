@@ -1,44 +1,44 @@
 {
-  "started_utc": "2026-11-18T10:13:05+00:00",
+  "started_utc": "2026-11-18T18:53:19+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 11,
+  "returned": 10,
   "fetched": 8,
-  "accepted": 1,
-  "created": 1,
+  "accepted": 2,
+  "created": 2,
   "updated": 0,
-  "duplicates": 1,
-  "rejected": 7,
+  "duplicates": 0,
+  "rejected": 6,
   "errors": [],
   "rejection_reasons": {
     "hors sujet": 6,
-    "pas assez de contenu technique": 5
+    "pas assez de contenu technique": 3
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "fps_camera",
+      "topic": "snow",
       "origin": "seed",
       "strategy": "synonyms",
-      "query": "viewmodel arms camera",
-      "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "query": "snowy footprints decal",
+      "returned": 3,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
-      "duplicates": 1,
-      "offtopic": 3,
+      "duplicates": 0,
+      "offtopic": 2,
       "error": null,
-      "technical_mean": 0.213,
-      "duration_s": 3.52,
-      "reward": 0.0
+      "technical_mean": 1.0,
+      "duration_s": 3.58,
+      "reward": 0.4667
     },
     {
       "provider": "devforum",
-      "topic": "fps_camera",
+      "topic": "snow",
       "origin": "seed",
       "strategy": "synonyms",
-      "query": "viewmodel arms camera",
+      "query": "snowy footprints decal",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -46,16 +46,16 @@
       "duplicates": 0,
       "offtopic": 4,
       "error": null,
-      "technical_mean": 0.01,
-      "duration_s": 5.23,
+      "technical_mean": 0.05,
+      "duration_s": 5.22,
       "reward": 0.0
     },
     {
       "provider": "github",
-      "topic": "fps_camera",
+      "topic": "snow",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "viewmodel arms camera",
+      "strategy": "terms",
+      "query": "snow footprints decal",
       "returned": 3,
       "accepted": 1,
       "new": 1,
@@ -63,86 +63,84 @@
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.28,
-      "duration_s": 2.07,
-      "reward": 0.312
+      "technical_mean": 0.36,
+      "duration_s": 3.16,
+      "reward": 0.344
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-abfb1e76db63",
-      "path": "knowledge/gameplay/abfb1e76db63-jonathankwak-r6-viewmodel-arms-in-a-default-roblox.md",
+      "id": "vdn-0c6ae3fae482",
+      "path": "knowledge/snow/0c6ae3fae482-textures-and-decals.md",
+      "status": "documente",
+      "topic": "snow",
+      "query": "snow footprints decal",
+      "url": "https://create.roblox.com/docs/parts/textures-decals"
+    },
+    {
+      "id": "vdn-fc2e67312ba6",
+      "path": "knowledge/snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn.md",
       "status": "candidat",
-      "topic": "fps_camera",
-      "query": "viewmodel arms camera",
-      "url": "https://github.com/jonathankwak/r6-viewmodel-arms"
+      "topic": "snow",
+      "query": "snow footprints decal",
+      "url": "https://github.com/cl3mus33/snowfixer"
     }
   ],
   "rejected_candidates": [
     {
+      "topical": 0.333,
+      "technical": 1.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 1.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.16,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)"
+      ]
+    },
+    {
       "topical": 0.167,
-      "technical": 0.2,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.417,
-      "technical": 0.4,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.417,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
+        "hors sujet (pertinence 0.167 < 0.5)",
         "pas assez de contenu technique (0.04)"
       ]
     },
     {
-      "topical": 0.333,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.583,
+      "topical": 0.167,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
+        "hors sujet (pertinence 0.167 < 0.5)",
         "pas assez de contenu technique (0.0)"
       ]
     }
@@ -152,5 +150,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-18T10:13:15+00:00"
+  "finished_utc": "2026-11-18T18:53:31+00:00"
 }

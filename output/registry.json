@@ -471,6 +471,34 @@
   "https://github.com/jonathankwak/r6-viewmodel-arms": {
    "id": "vdn-abfb1e76db63",
    "path": "knowledge/gameplay/abfb1e76db63-jonathankwak-r6-viewmodel-arms-in-a-default-roblox.md"
+  },
+  "https://devforum.roblox.com/t/1341456": {
+   "id": "vdn-50a4e88d1caf",
+   "path": "knowledge/forest/50a4e88d1caf-i-dont-get-a-fog-setting-in-lightning-properties.md"
+  },
+  "https://devforum.roblox.com/t/1641498": {
+   "id": "vdn-dfa80e61e0b3",
+   "path": "knowledge/forest/dfa80e61e0b3-how-do-you-make-atmosphere-fog-change-smoothly-to.md"
+  },
+  "https://devforum.roblox.com/t/1764474": {
+   "id": "vdn-8152f2156515",
+   "path": "knowledge/lighting/8152f2156515-light-shadow-script.md"
+  },
+  "https://devforum.roblox.com/t/1828583": {
+   "id": "vdn-b7c6aa72293b",
+   "path": "knowledge/lighting/b7c6aa72293b-odd-shadow-bug-future-lighting.md"
+  },
+  "https://github.com/hm-9130/hmpe-realoaded-shader": {
+   "id": "vdn-cc87b5caa9dc",
+   "path": "knowledge/lighting/cc87b5caa9dc-hm-9130-hmpe-realoaded-shader-resolutions-16x-32x.md"
+  },
+  "https://create.roblox.com/docs/parts/textures-decals": {
+   "id": "vdn-0c6ae3fae482",
+   "path": "knowledge/snow/0c6ae3fae482-textures-and-decals.md"
+  },
+  "https://github.com/cl3mus33/snowfixer": {
+   "id": "vdn-fc2e67312ba6",
+   "path": "knowledge/snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn.md"
   }
  },
  "fingerprints": {
@@ -1031,6 +1059,38 @@
   "7bd598fe6168e4cb": "vdn-1cc1e90f40db",
   "babe0bc3a99a36f5": "vdn-1cc1e90f40db",
   "9dd278bc34f5d6a2": "vdn-1cc1e90f40db",
-  "20735092d466764b": "vdn-abfb1e76db63"
+  "20735092d466764b": "vdn-abfb1e76db63",
+  "c13c5d36b93de026": "vdn-50a4e88d1caf",
+  "4b8bffcaaf57f9c0": "vdn-3732eb524068",
+  "e9e74ed76f54deec": "vdn-3732eb524068",
+  "3d7307fe310deacb": "vdn-3732eb524068",
+  "beab8d39b87bee7f": "vdn-c01bb3a53aa2",
+  "b892812bd418b477": "vdn-c01bb3a53aa2",
+  "59e01032621566e5": "vdn-c01bb3a53aa2",
+  "ccf9f47c447c3237": "vdn-c01bb3a53aa2",
+  "e86211f82e0ae764": "vdn-c01bb3a53aa2",
+  "3cf9f4cba0252c1f": "vdn-c01bb3a53aa2",
+  "fcd3e7bc6d2704e2": "vdn-c01bb3a53aa2",
+  "ca341fde707a257f": "vdn-89882883648e",
+  "c0a628668b4725f2": "vdn-2fc163ba8310",
+  "755fad57909ec54e": "vdn-2fc163ba8310",
+  "814a462a6bd4b677": "vdn-89d60347c101",
+  "a79a3da32f3d2494": "vdn-89d60347c101",
+  "48d2eea6e7a1a667": "vdn-1fa4f3065d13",
+  "291d1559fd5457ea": "vdn-1fa4f3065d13",
+  "68b63cf81c5a9c4c": "vdn-f6d6cda24394",
+  "96b7573bff93d05b": "vdn-8152f2156515",
+  "c5b3d631ffcfc979": "vdn-8152f2156515",
+  "510e332da7d5c292": "vdn-8152f2156515",
+  "8c23353c322ef253": "vdn-8152f2156515",
+  "7086433788226c84": "vdn-b7c6aa72293b",
+  "0afc5425bc7e068e": "vdn-cc87b5caa9dc",
+  "b2fef7aff6ac8b2f": "vdn-cc87b5caa9dc",
+  "c5741b7f1988d53d": "vdn-a5f338897d43",
+  "d98a8d642b9b0c25": "vdn-a5f338897d43",
+  "527a56ac2fc22636": "vdn-a5f338897d43",
+  "4ddc233dfbce1f37": "vdn-a5f338897d43",
+  "172e912ae73615bc": "vdn-a5f338897d43",
+  "8122348c42c448a3": "vdn-d724126198fd"
  }
 }
