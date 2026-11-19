@@ -1,109 +1,79 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-18T18:52:40+00:00",
-  "finished": "2026-11-18T18:53:31+00:00",
+  "started": "2026-11-19T01:14:21+00:00",
+  "finished": "2026-11-19T01:15:08+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "forest atmosphere fog settings",
+      "query": "large forest performance settings",
       "topic": "forest",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-50a4e88d1caf",
-          "path": "knowledge/forest/50a4e88d1caf-i-dont-get-a-fog-setting-in-lightning-properties.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "forest atmosphere fog settings",
-          "url": "https://devforum.roblox.com/t/1341456",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-dfa80e61e0b3",
-          "path": "knowledge/forest/dfa80e61e0b3-how-do-you-make-atmosphere-fog-change-smoothly-to.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "forest atmosphere fog settings",
-          "url": "https://devforum.roblox.com/t/1641498",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "forest atmosphere fog settings step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "forest"
-        }
-      ]
-    },
-    {
-      "query": "foliage normal map tutorial",
-      "topic": "spruce",
       "depth": 1,
       "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 1,
+      "duplicates": 3,
       "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "light shadows performance",
-      "topic": "lighting",
-      "depth": 0,
-      "origin": "seed",
+      "query": "foliage normal map settings",
+      "topic": "spruce",
+      "depth": 1,
+      "origin": "relance",
       "status": "done",
-      "created": 3,
-      "rejected": 4,
-      "duplicates": 3,
+      "created": 1,
+      "rejected": 6,
+      "duplicates": 2,
       "fetched": 7,
       "notes": [
         {
-          "id": "vdn-8152f2156515",
-          "path": "knowledge/lighting/8152f2156515-light-shadow-script.md",
+          "id": "vdn-52142c8140aa",
+          "path": "knowledge/vegetation/52142c8140aa-ferkelchen112-probs-im-log-probleme-mit-ad-hab-sch.md",
           "status": "candidat",
-          "topic": "lighting",
-          "query": "light shadows performance",
-          "url": "https://devforum.roblox.com/t/1764474",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-b7c6aa72293b",
-          "path": "knowledge/lighting/b7c6aa72293b-odd-shadow-bug-future-lighting.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "light shadows performance",
-          "url": "https://devforum.roblox.com/t/1828583",
+          "topic": "spruce",
+          "query": "foliage normal map settings",
+          "url": "https://github.com/ferkelchen112/probs-im-log",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
-        },
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "flashlight SpotLight shadows",
+      "topic": "lighting",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 1,
+      "fetched": 8,
+      "notes": [
         {
-          "id": "vdn-cc87b5caa9dc",
-          "path": "knowledge/lighting/cc87b5caa9dc-hm-9130-hmpe-realoaded-shader-resolutions-16x-32x.md",
+          "id": "vdn-da2cc18756a0",
+          "path": "knowledge/lighting/da2cc18756a0-shadows-breaking-when-using-flashlight.md",
           "status": "candidat",
           "topic": "lighting",
-          "query": "light shadows performance",
-          "url": "https://github.com/hm-9130/hmpe-realoaded-shader",
+          "query": "flashlight SpotLight shadows",
+          "url": "https://devforum.roblox.com/t/1514374",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-027640da2e6d",
+          "path": "knowledge/lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "flashlight SpotLight shadows",
+          "url": "https://devforum.roblox.com/t/1364124",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -113,54 +83,71 @@
       ],
       "followups": [
         {
-          "query": "light shadows performance tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-8152f2156515)",
+          "query": "flashlight SpotLight shadows settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-da2cc18756a0)",
           "topic": "lighting"
         },
         {
-          "query": "light shadows performance settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-b7c6aa72293b)",
+          "query": "flashlight SpotLight shadows tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-da2cc18756a0)",
           "topic": "lighting"
         },
         {
-          "query": "light shadows performance Roblox Studio implementation compatibility",
+          "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "lighting"
+        },
+        {
+          "query": "flashlight SpotLight shadows Roblox Studio implementation compatibility",
           "reason": "compatibilite Roblox non etablie",
           "topic": "lighting"
         }
       ]
     },
     {
-      "query": "snow footprints decal",
-      "topic": "snow",
+      "query": "first person camera",
+      "topic": "fps_camera",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 0,
+      "created": 3,
+      "rejected": 5,
+      "duplicates": 2,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-0c6ae3fae482",
-          "path": "knowledge/snow/0c6ae3fae482-textures-and-decals.md",
-          "status": "documente",
-          "topic": "snow",
-          "query": "snow footprints decal",
-          "url": "https://create.roblox.com/docs/parts/textures-decals",
+          "id": "vdn-1cc1e90f40db",
+          "path": "knowledge/gameplay/1cc1e90f40db-control-the-user-s-camera.md",
+          "status": "candidat",
+          "topic": "fps_camera",
+          "query": "first person camera",
+          "url": "https://create.roblox.com/docs/tutorials/use-case-tutorials/input-and-camera/control-the-users-camera",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-4b69f77126dd",
+          "path": "knowledge/gameplay/4b69f77126dd-blender-first-person-shooter-animation-camera-sett.md",
+          "status": "candidat",
+          "topic": "fps_camera",
+          "query": "first person camera",
+          "url": "https://devforum.roblox.com/t/1555081",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee"
           ]
         },
         {
-          "id": "vdn-fc2e67312ba6",
-          "path": "knowledge/snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn.md",
+          "id": "vdn-61a66cca6497",
+          "path": "knowledge/gameplay/61a66cca6497-how-do-i-make-the-camera-follow-the-head-in-first.md",
           "status": "candidat",
-          "topic": "snow",
-          "query": "snow footprints decal",
-          "url": "https://github.com/cl3mus33/snowfixer",
+          "topic": "fps_camera",
+          "query": "first person camera",
+          "url": "https://devforum.roblox.com/t/1899197",
           "missing": [
-            "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
@@ -168,78 +155,66 @@
       ],
       "followups": [
         {
-          "query": "Decal settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-0c6ae3fae482)",
-          "topic": "snow"
+          "query": "first person camera settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-1cc1e90f40db)",
+          "topic": "fps_camera"
         },
         {
-          "query": "Decal Color3",
-          "reason": "API citee par la source : Decal.Color3 (vdn-0c6ae3fae482)",
-          "topic": "snow"
+          "query": "first person camera tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-1cc1e90f40db)",
+          "topic": "fps_camera"
         },
         {
-          "query": "Decal Transparency",
-          "reason": "API citee par la source : Decal.Transparency (vdn-0c6ae3fae482)",
-          "topic": "snow"
+          "query": "first person camera step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fps_camera"
         },
         {
-          "query": "snow footprints decal settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-fc2e67312ba6)",
-          "topic": "snow"
-        },
-        {
-          "query": "snow footprints decal tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-fc2e67312ba6)",
-          "topic": "snow"
+          "query": "first person camera Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "fps_camera"
         }
       ]
     }
   ],
-  "created": 7,
+  "created": 6,
   "fetched": 31,
-  "rejected": 24,
-  "followups_added": 9,
+  "rejected": 25,
+  "followups_added": 8,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 82,
+      "pending": 86,
       "running": 0,
-      "done": 42,
+      "done": 46,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-18",
-      "items": 12,
-      "fetch": 90
+      "date": "2026-11-19",
+      "items": 4,
+      "fetch": 31
     },
     "next": [
       {
-        "query": "large forest performance settings",
+        "query": "Player FrustumStreaming settings",
         "topic": "forest",
-        "priority": 9.5,
-        "depth": 1,
+        "priority": 9.0,
+        "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "foliage normal map settings",
-        "topic": "spruce",
-        "priority": 9.5,
-        "depth": 1,
-        "origin": "relance"
-      },
-      {
-        "query": "flashlight SpotLight shadows",
+        "query": "Future lighting night",
         "topic": "lighting",
         "priority": 9.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "first person camera",
+        "query": "camera sway mouse",
         "topic": "fps_camera",
         "priority": 9.0,
         "depth": 0,
@@ -251,6 +226,13 @@
         "priority": 8.5,
         "depth": 1,
         "origin": "relance_lacune"
+      },
+      {
+        "query": "Blender animation export Roblox",
+        "topic": "blender_animation",
+        "priority": 8.0,
+        "depth": 0,
+        "origin": "seed"
       }
     ]
   }

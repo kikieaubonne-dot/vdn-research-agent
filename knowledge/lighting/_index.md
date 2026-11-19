@@ -11,13 +11,15 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/c2643257b3cc-change-grass-density-and-height|Change Grass Density and Height]] — niv. 2 · conf. faible — « I am assuming you are referring to the Decoration option for smooth terrain, if so you can’t really change anything about its behavior right… »
 - [[lighting/09d38d132c8f-do-mobile-devices-get-future-lighting|Do mobile devices get Future lighting?]] — niv. 2 · conf. faible — « We use future lighting, and for me on my PC the lighting looks great. »
 
-## Candidat (12)
+## Candidat (14)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »
+- [[lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s|How can I use a decal to project shadows using a spotlight?]] — niv. 2 · conf. faible — « I’ve tried it with parts, but i believe none of the lighting systems (including future) dont support that »
 - [[lighting/26ba09d37d6d-improve-lighting-step-by-step|Improve Lighting (STEP BY STEP)]] — niv. 2 · conf. faible — « (Change these settings inside of Terrain at the top of the Workspace in Explorer) »
 - [[lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl|Invisible part that changes atmosphere density only while touched]] — niv. 2 · conf. faible — « (What it would look like in the location if the density switches to 0, ONLY if touching the invisible part). »
 - [[lighting/8152f2156515-light-shadow-script|Light shadow script]] — niv. 2 · conf. faible — « if magnitude > 20 then workspace.Part.PointLight.Shadows = false »
 - [[lighting/b7c6aa72293b-odd-shadow-bug-future-lighting|Odd shadow bug (future lighting)]] — niv. 2 · conf. faible — « It creates 3 layers above and under you within a set render distance. »
+- [[lighting/da2cc18756a0-shadows-breaking-when-using-flashlight|Shadows Breaking when using Flashlight]] — niv. 2 · conf. faible — « Whenever I use a flashlight ingame shadows break around the light most of the time. »
 - [[lighting/3e118a38d386-what-are-some-good-atmosphere-settings|What are some good atmosphere settings]] — niv. 2 · conf. faible — « It’ll help make your game look nicer, also, use the lighting effect instances. »
 - [[lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that|What are the most realistic lighting settings that you use for each time of day?]] — niv. 2 · conf. faible — « https://devforum.roblox.com/t/showcase-your-lighting-settings/1189252/3?u=x5tb »
 - [[lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon|Gleamgriknife/stalker-2-graphics-enhancement — Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade.]] — niv. 3 · conf. faible — « Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade. »

@@ -499,6 +499,30 @@
   "https://github.com/cl3mus33/snowfixer": {
    "id": "vdn-fc2e67312ba6",
    "path": "knowledge/snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn.md"
+  },
+  "https://github.com/ferkelchen112/probs-im-log": {
+   "id": "vdn-52142c8140aa",
+   "path": "knowledge/vegetation/52142c8140aa-ferkelchen112-probs-im-log-probleme-mit-ad-hab-sch.md"
+  },
+  "https://devforum.roblox.com/t/1514374": {
+   "id": "vdn-da2cc18756a0",
+   "path": "knowledge/lighting/da2cc18756a0-shadows-breaking-when-using-flashlight.md"
+  },
+  "https://devforum.roblox.com/t/1364124": {
+   "id": "vdn-027640da2e6d",
+   "path": "knowledge/lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s.md"
+  },
+  "https://create.roblox.com/docs/tutorials/use-case-tutorials/input-and-camera/control-the-users-camera": {
+   "id": "vdn-1cc1e90f40db",
+   "path": "knowledge/gameplay/1cc1e90f40db-control-the-user-s-camera.md"
+  },
+  "https://devforum.roblox.com/t/1555081": {
+   "id": "vdn-4b69f77126dd",
+   "path": "knowledge/gameplay/4b69f77126dd-blender-first-person-shooter-animation-camera-sett.md"
+  },
+  "https://devforum.roblox.com/t/1899197": {
+   "id": "vdn-61a66cca6497",
+   "path": "knowledge/gameplay/61a66cca6497-how-do-i-make-the-camera-follow-the-head-in-first.md"
   }
  },
  "fingerprints": {
@@ -1091,6 +1115,20 @@
   "527a56ac2fc22636": "vdn-a5f338897d43",
   "4ddc233dfbce1f37": "vdn-a5f338897d43",
   "172e912ae73615bc": "vdn-a5f338897d43",
-  "8122348c42c448a3": "vdn-d724126198fd"
+  "8122348c42c448a3": "vdn-d724126198fd",
+  "f34dac8ccea89f40": "vdn-4abf8411a664",
+  "df3a69f75b8d31b7": "vdn-4abf8411a664",
+  "138fa61e99ddd157": "vdn-dd57ac973a80",
+  "df7cd2aefd2977d3": "vdn-dd57ac973a80",
+  "51a2a6a02e0b2541": "vdn-da2cc18756a0",
+  "906af08f87a06bc2": "vdn-da2cc18756a0",
+  "05a6b9d88e815f1d": "vdn-da2cc18756a0",
+  "eaa2a9359cb8c595": "vdn-027640da2e6d",
+  "b241de7e501dc7b6": "vdn-bf06edc38633",
+  "4a0ff33428132661": "vdn-4b69f77126dd",
+  "a0028fc0fa541414": "vdn-61a66cca6497",
+  "749b97b4a1cf8bcc": "vdn-61a66cca6497",
+  "58c1ae78b5d23f29": "vdn-61a66cca6497",
+  "401aba9f276634fb": "vdn-61a66cca6497"
  }
 }

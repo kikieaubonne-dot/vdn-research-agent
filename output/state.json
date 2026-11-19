@@ -311,7 +311,7 @@
     "snow terrain material": 3,
     "snow footprints decal": 2,
     "Future lighting night": 2,
-    "flashlight SpotLight shadows": 2,
+    "flashlight SpotLight shadows": 3,
     "large forest performance": 2,
     "flashlight shadows forest": 2,
     "snowfall particles": 2,
@@ -360,9 +360,12 @@
     "tree leaves texture step by step implementation tutorial code": 1,
     "viewmodel arms camera": 1,
     "forest atmosphere fog settings": 1,
-    "foliage normal map tutorial": 1
+    "foliage normal map tutorial": 1,
+    "large forest performance settings": 1,
+    "foliage normal map settings": 1,
+    "first person camera": 1
   },
-  "runs": 51,
+  "runs": 55,
   "errors": [],
   "rotation": 4
 }

@@ -12,10 +12,11 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[spruce/c20177c2856493a2bece-surfaceappearance-alphamode-transparency-rend|SurfaceAppearance AlphaMode.Transparency renders in bands on opaque MeshParts]] — niv. 2 · conf. faible
 - [[spruce/7de7a1a415ccdf51b0fe-texture-atlases-creating-foliage-texture-and-|Texture Atlases - Creating Foliage Texture and Meshes]] — niv. 2 · conf. faible
 
-## Candidat (4)
+## Candidat (5)
 
 - [[vegetation/d5dda0d02f6d-manage-level-of-detail-settings-on-roblox|Manage level of detail settings on Roblox]] — niv. 1 · conf. faible — « ## Manage level of detail settings on Roblox: Introduction to LOD ([0:00](https://www.youtube.com/watch?v=Wwj8EkMWFhI&t=0s)) »
 - [[vegetation/c1379b6d7d62-applying-normal-maps-to-your-characters-in-blender|Applying Normal Maps to your characters in Blender]] — niv. 2 · conf. faible — « (Please that the rig I may be using will be different from the one you use, it won’t change much of the process but you can download the sam… »
+- [[vegetation/52142c8140aa-ferkelchen112-probs-im-log-probleme-mit-ad-hab-sch|Ferkelchen112/Probs-im-Log — Probleme mit AD hab schon alle mods gelöscht und bekomme trotzdem die log nicht fehlerfrei GIANTS Engine Runtime 8.0.0 (20335) 64bi]] — niv. 3 · conf. faible
 - [[vegetation/7e073d17a2e1-nixy1234-dfdfd-all-paths-in-this-configuration-fil|Nixy1234/dfdfd — # All paths in this configuration file are relative to Dynmap's data-folder: minecraft_server/dynmap/ # All map templates are defined in the te]] — niv. 3 · conf. faible — « webpath: web # The path were the /dynmapexp command exports OBJ ZIP files exportpath: export # The network-interface the webserver will bind… »
 - [[spruce/4b3e4c63ddab358ee1df-nightcycle-quick-part|nightcycle/quick-part]] — niv. 3 · conf. faible
 

@@ -592,11 +592,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-19T01:14:56+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-da2cc18756a0",
+          "vdn-027640da2e6d"
+        ],
+        "followups": [
+          "flashlight SpotLight shadows settings",
+          "flashlight SpotLight shadows tutorial",
+          "flashlight SpotLight shadows step by step implementation tutorial code",
+          "flashlight SpotLight shadows Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795050884.2753203,
+      "finished_ts": 1795050896.604718
     },
     "c822d6de5ef20240": {
       "key": "c822d6de5ef20240",
@@ -1118,11 +1138,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-19T01:15:08+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-1cc1e90f40db",
+          "vdn-4b69f77126dd",
+          "vdn-61a66cca6497"
+        ],
+        "followups": [
+          "first person camera settings",
+          "first person camera tutorial",
+          "first person camera step by step implementation tutorial code",
+          "first person camera Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795050896.6085663,
+      "finished_ts": 1795050908.6787727
     },
     "3909733dfcfef203": {
       "key": "3909733dfcfef203",
@@ -2027,11 +2068,23 @@
       "depth": 1,
       "parent": "c482fcd060522414",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-38cabb39874f)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-16T17:04:23+00:00",
-      "updated": "2026-11-16T17:04:23+00:00",
-      "result": null
+      "updated": "2026-11-19T01:14:34+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795050861.2040243,
+      "finished_ts": 1795050874.5838196
     },
     "1c7ecf13490658f1": {
       "key": "1c7ecf13490658f1",
@@ -2155,11 +2208,25 @@
       "depth": 1,
       "parent": "dfa72d0b0747a3e4",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-c1379b6d7d62)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T09:14:58+00:00",
-      "updated": "2026-11-17T09:14:58+00:00",
-      "result": null
+      "updated": "2026-11-19T01:14:44+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-52142c8140aa"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795050874.5877767,
+      "finished_ts": 1795050884.2715757
     },
     "1289b125b95b402f": {
       "key": "1289b125b95b402f",
@@ -2484,11 +2551,131 @@
       "created": "2026-11-18T18:53:31+00:00",
       "updated": "2026-11-18T18:53:31+00:00",
       "result": null
+    },
+    "a3b36bb8e2bae314": {
+      "key": "a3b36bb8e2bae314",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "7add448f671e6e27",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-da2cc18756a0)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:14:56+00:00",
+      "updated": "2026-11-19T01:14:56+00:00",
+      "result": null
+    },
+    "d71006fd1ad55f2c": {
+      "key": "d71006fd1ad55f2c",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "7add448f671e6e27",
+      "reason": "lacune : aucune etape exploitable (vdn-da2cc18756a0)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:14:56+00:00",
+      "updated": "2026-11-19T01:14:56+00:00",
+      "result": null
+    },
+    "b016a9fe65d38a16": {
+      "key": "b016a9fe65d38a16",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "7add448f671e6e27",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:14:56+00:00",
+      "updated": "2026-11-19T01:14:56+00:00",
+      "result": null
+    },
+    "361c4157325d13d8": {
+      "key": "361c4157325d13d8",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows Roblox Studio implementation compatibility",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "7add448f671e6e27",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:14:56+00:00",
+      "updated": "2026-11-19T01:14:56+00:00",
+      "result": null
+    },
+    "26691311b060f3eb": {
+      "key": "26691311b060f3eb",
+      "topic": "fps_camera",
+      "query": "first person camera settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b8df3720537dcf96",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-1cc1e90f40db)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:15:08+00:00",
+      "updated": "2026-11-19T01:15:08+00:00",
+      "result": null
+    },
+    "d94688e24f89ea5b": {
+      "key": "d94688e24f89ea5b",
+      "topic": "fps_camera",
+      "query": "first person camera tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b8df3720537dcf96",
+      "reason": "lacune : aucune etape exploitable (vdn-1cc1e90f40db)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:15:08+00:00",
+      "updated": "2026-11-19T01:15:08+00:00",
+      "result": null
+    },
+    "e1a94a965e74b27d": {
+      "key": "e1a94a965e74b27d",
+      "topic": "fps_camera",
+      "query": "first person camera step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "b8df3720537dcf96",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:15:08+00:00",
+      "updated": "2026-11-19T01:15:08+00:00",
+      "result": null
+    },
+    "4d15fe5b6d6ca012": {
+      "key": "4d15fe5b6d6ca012",
+      "topic": "fps_camera",
+      "query": "first person camera Roblox Studio implementation compatibility",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "b8df3720537dcf96",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T01:15:08+00:00",
+      "updated": "2026-11-19T01:15:08+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-18",
-    "items": 12,
-    "fetch": 90
+    "date": "2026-11-19",
+    "items": 4,
+    "fetch": 31
   }
 }
