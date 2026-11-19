@@ -577,11 +577,28 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-19T08:52:03+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-c867b97f5f0b",
+          "vdn-8d66e9dc20f3"
+        ],
+        "followups": [
+          "Future lighting night step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795078309.6365037,
+      "finished_ts": 1795078323.1895547
     },
     "7add448f671e6e27": {
       "key": "7add448f671e6e27",
@@ -1241,11 +1258,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-19T08:52:14+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-861abcc4858c",
+          "vdn-20871b10ce2c"
+        ],
+        "followups": [
+          "camera sway mouse settings",
+          "camera sway mouse tutorial",
+          "camera sway mouse step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795078323.1933246,
+      "finished_ts": 1795078334.7041812
     },
     "d0e4428b919a818d": {
       "key": "d0e4428b919a818d",
@@ -2053,11 +2089,23 @@
       "depth": 1,
       "parent": "229b64e9399ff504",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-16T06:33:31+00:00",
-      "updated": "2026-11-16T06:33:31+00:00",
-      "result": null
+      "updated": "2026-11-19T08:52:26+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795078334.708322,
+      "finished_ts": 1795078346.5182405
     },
     "eb2bf4adc01ce79a": {
       "key": "eb2bf4adc01ce79a",
@@ -2264,11 +2312,23 @@
       "depth": 2,
       "parent": "e8be5cb91d09e23a",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-7c556484eae1)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T09:15:09+00:00",
-      "updated": "2026-11-17T09:15:09+00:00",
-      "result": null
+      "updated": "2026-11-19T08:51:49+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795078296.9810097,
+      "finished_ts": 1795078309.632153
     },
     "2c79a8e92a414422": {
       "key": "2c79a8e92a414422",
@@ -2671,11 +2731,71 @@
       "created": "2026-11-19T01:15:08+00:00",
       "updated": "2026-11-19T01:15:08+00:00",
       "result": null
+    },
+    "f6c2f7ad10b58b38": {
+      "key": "f6c2f7ad10b58b38",
+      "topic": "lighting",
+      "query": "Future lighting night step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "86c3ffd38ee265dc",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T08:52:03+00:00",
+      "updated": "2026-11-19T08:52:03+00:00",
+      "result": null
+    },
+    "10eafb9faef1fee8": {
+      "key": "10eafb9faef1fee8",
+      "topic": "fps_camera",
+      "query": "camera sway mouse settings",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "dfc37f98415f61fa",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-861abcc4858c)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T08:52:14+00:00",
+      "updated": "2026-11-19T08:52:14+00:00",
+      "result": null
+    },
+    "a56f8ff57d077d61": {
+      "key": "a56f8ff57d077d61",
+      "topic": "fps_camera",
+      "query": "camera sway mouse tutorial",
+      "priority": 8.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "dfc37f98415f61fa",
+      "reason": "lacune : aucune etape exploitable (vdn-861abcc4858c)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T08:52:14+00:00",
+      "updated": "2026-11-19T08:52:14+00:00",
+      "result": null
+    },
+    "93935960da8ca89c": {
+      "key": "93935960da8ca89c",
+      "topic": "fps_camera",
+      "query": "camera sway mouse step by step implementation tutorial code",
+      "priority": 8.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "dfc37f98415f61fa",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-19T08:52:14+00:00",
+      "updated": "2026-11-19T08:52:14+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-19",
-    "items": 4,
-    "fetch": 31
+    "items": 8,
+    "fetch": 63
   }
 }

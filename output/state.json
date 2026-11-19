@@ -310,7 +310,7 @@
     "forest atmosphere fog": 2,
     "snow terrain material": 3,
     "snow footprints decal": 2,
-    "Future lighting night": 2,
+    "Future lighting night": 3,
     "flashlight SpotLight shadows": 3,
     "large forest performance": 2,
     "flashlight shadows forest": 2,
@@ -363,9 +363,12 @@
     "foliage normal map tutorial": 1,
     "large forest performance settings": 1,
     "foliage normal map settings": 1,
-    "first person camera": 1
+    "first person camera": 1,
+    "Player FrustumStreaming settings": 1,
+    "camera sway mouse": 1,
+    "snow accumulation mesh Roblox Studio implementation compatibility": 1
   },
-  "runs": 55,
+  "runs": 59,
   "errors": [],
   "rotation": 4
 }

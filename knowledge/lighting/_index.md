@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (6)
+## Documenté (8)
 
 - [[lighting/5d6828741270-future-lighting-not-working|Future Lighting not working]] — niv. 1 · conf. moyenne — « If you are talking about the small lighting change, refer to what @Self_Reflexive suggested. »
 - [[lighting/0c907f49b2f4-light-sources|Light sources]] — niv. 1 · conf. moyenne — « By using the different types of light sources instead of just general global lighting through the `Class.Lighting` service, you can create i… »
@@ -10,6 +10,8 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/a4893023e7c3-class-spotlight|Class: SpotLight]] — niv. 1 · conf. faible — « - **Property `Brightness`** (`float`): Sets how bright the emitted light is, defaults to 1. »
 - [[lighting/c2643257b3cc-change-grass-density-and-height|Change Grass Density and Height]] — niv. 2 · conf. faible — « I am assuming you are referring to the Decoration option for smooth terrain, if so you can’t really change anything about its behavior right… »
 - [[lighting/09d38d132c8f-do-mobile-devices-get-future-lighting|Do mobile devices get Future lighting?]] — niv. 2 · conf. faible — « We use future lighting, and for me on my PC the lighting looks great. »
+- [[lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem|Glowing Future Lighting Bug? Or Mesh Problem?]] — niv. 2 · conf. faible — « ^I have 4 spotlights (60 range, brightness 2.5, shadow on, future lighting) set up pointing at the mesh part. »
+- [[lighting/8d66e9dc20f3-weird-lighting-behavior-at-night|Weird lighting behavior at night]] — niv. 2 · conf. faible — « local toTween = game.Lighting.ClockTime+timeShift »
 
 ## Candidat (14)
 

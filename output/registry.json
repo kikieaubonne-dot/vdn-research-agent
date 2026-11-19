@@ -523,6 +523,22 @@
   "https://devforum.roblox.com/t/1899197": {
    "id": "vdn-61a66cca6497",
    "path": "knowledge/gameplay/61a66cca6497-how-do-i-make-the-camera-follow-the-head-in-first.md"
+  },
+  "https://devforum.roblox.com/t/1224076": {
+   "id": "vdn-c867b97f5f0b",
+   "path": "knowledge/lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem.md"
+  },
+  "https://devforum.roblox.com/t/1944091": {
+   "id": "vdn-8d66e9dc20f3",
+   "path": "knowledge/lighting/8d66e9dc20f3-weird-lighting-behavior-at-night.md"
+  },
+  "https://devforum.roblox.com/t/1507930": {
+   "id": "vdn-861abcc4858c",
+   "path": "knowledge/gameplay/861abcc4858c-scope-sway-camera.md"
+  },
+  "https://github.com/naufalalamsyah453/savagewindrecomp-tbench": {
+   "id": "vdn-20871b10ce2c",
+   "path": "knowledge/gameplay/20871b10ce2c-naufalalamsyah453-savagewindrecomp-tbench-personal.md"
   }
  },
  "fingerprints": {
@@ -1129,6 +1145,27 @@
   "a0028fc0fa541414": "vdn-61a66cca6497",
   "749b97b4a1cf8bcc": "vdn-61a66cca6497",
   "58c1ae78b5d23f29": "vdn-61a66cca6497",
-  "401aba9f276634fb": "vdn-61a66cca6497"
+  "401aba9f276634fb": "vdn-61a66cca6497",
+  "ac7cc73acd86203d": "vdn-f28e04b51484",
+  "28d0c900ea8905f9": "vdn-f28e04b51484",
+  "abfffb8cee46da52": "vdn-f28e04b51484",
+  "734265e7f3d21671": "vdn-c867b97f5f0b",
+  "2fdd744ced9ee0a2": "vdn-c867b97f5f0b",
+  "4078242303b461f7": "vdn-8d66e9dc20f3",
+  "014af5d410f3b834": "vdn-8d66e9dc20f3",
+  "d7f62c8f2ee25ccb": "vdn-8d66e9dc20f3",
+  "be4c8f764d4c1651": "vdn-8d66e9dc20f3",
+  "b178e041e1e4d289": "vdn-ccc7b8a21d59",
+  "e7a41d79149b824b": "vdn-ccc7b8a21d59",
+  "4d511c4c8edab181": "vdn-861abcc4858c",
+  "41faf2622f9c3b5c": "vdn-20871b10ce2c",
+  "6592dce9404e2c69": "vdn-20871b10ce2c",
+  "47c4b8da9f2ddf80": "vdn-20871b10ce2c",
+  "1ac3fe2ff06541ab": "vdn-20871b10ce2c",
+  "471f3761e8d174d6": "vdn-20871b10ce2c",
+  "0a43ecae8aa8e448": "vdn-20871b10ce2c",
+  "5d9f350ae89eefb5": "vdn-20871b10ce2c",
+  "840b4554d4b08f09": "vdn-33be21efe7db",
+  "d36fd39ad48bbe4d": "vdn-33be21efe7db"
  }
 }

@@ -1,52 +1,65 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-19T01:14:21+00:00",
-  "finished": "2026-11-19T01:15:08+00:00",
+  "started": "2026-11-19T08:51:36+00:00",
+  "finished": "2026-11-19T08:52:26+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "large forest performance settings",
+      "query": "Player FrustumStreaming settings",
       "topic": "forest",
-      "depth": 1,
+      "depth": 2,
       "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 3,
+      "duplicates": 2,
       "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "foliage normal map settings",
-      "topic": "spruce",
-      "depth": 1,
-      "origin": "relance",
+      "query": "Future lighting night",
+      "topic": "lighting",
+      "depth": 0,
+      "origin": "seed",
       "status": "done",
-      "created": 1,
+      "created": 2,
       "rejected": 6,
-      "duplicates": 2,
-      "fetched": 7,
+      "duplicates": 4,
+      "fetched": 8,
       "notes": [
         {
-          "id": "vdn-52142c8140aa",
-          "path": "knowledge/vegetation/52142c8140aa-ferkelchen112-probs-im-log-probleme-mit-ad-hab-sch.md",
-          "status": "candidat",
-          "topic": "spruce",
-          "query": "foliage normal map settings",
-          "url": "https://github.com/ferkelchen112/probs-im-log",
+          "id": "vdn-c867b97f5f0b",
+          "path": "knowledge/lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Future lighting night",
+          "url": "https://devforum.roblox.com/t/1224076",
+          "missing": []
+        },
+        {
+          "id": "vdn-8d66e9dc20f3",
+          "path": "knowledge/lighting/8d66e9dc20f3-weird-lighting-behavior-at-night.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Future lighting night",
+          "url": "https://devforum.roblox.com/t/1944091",
           "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
+            "aucune limite Roblox citee"
           ]
         }
       ],
-      "followups": []
+      "followups": [
+        {
+          "query": "Future lighting night step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "lighting"
+        }
+      ]
     },
     {
-      "query": "flashlight SpotLight shadows",
-      "topic": "lighting",
+      "query": "camera sway mouse",
+      "topic": "fps_camera",
       "depth": 0,
       "origin": "seed",
       "status": "done",
@@ -56,131 +69,65 @@
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-da2cc18756a0",
-          "path": "knowledge/lighting/da2cc18756a0-shadows-breaking-when-using-flashlight.md",
+          "id": "vdn-861abcc4858c",
+          "path": "knowledge/gameplay/861abcc4858c-scope-sway-camera.md",
           "status": "candidat",
-          "topic": "lighting",
-          "query": "flashlight SpotLight shadows",
-          "url": "https://devforum.roblox.com/t/1514374",
+          "topic": "fps_camera",
+          "query": "camera sway mouse",
+          "url": "https://devforum.roblox.com/t/1507930",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-027640da2e6d",
-          "path": "knowledge/lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s.md",
+          "id": "vdn-20871b10ce2c",
+          "path": "knowledge/gameplay/20871b10ce2c-naufalalamsyah453-savagewindrecomp-tbench-personal.md",
           "status": "candidat",
-          "topic": "lighting",
-          "query": "flashlight SpotLight shadows",
-          "url": "https://devforum.roblox.com/t/1364124",
+          "topic": "fps_camera",
+          "query": "camera sway mouse",
+          "url": "https://github.com/naufalalamsyah453/savagewindrecomp-tbench",
           "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "flashlight SpotLight shadows settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-da2cc18756a0)",
-          "topic": "lighting"
+          "query": "camera sway mouse settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-861abcc4858c)",
+          "topic": "fps_camera"
         },
         {
-          "query": "flashlight SpotLight shadows tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-da2cc18756a0)",
-          "topic": "lighting"
+          "query": "camera sway mouse tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-861abcc4858c)",
+          "topic": "fps_camera"
         },
         {
-          "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+          "query": "camera sway mouse step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "lighting"
-        },
-        {
-          "query": "flashlight SpotLight shadows Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "lighting"
+          "topic": "fps_camera"
         }
       ]
     },
     {
-      "query": "first person camera",
-      "topic": "fps_camera",
-      "depth": 0,
-      "origin": "seed",
+      "query": "snow accumulation mesh Roblox Studio implementation compatibility",
+      "topic": "snow",
+      "depth": 1,
+      "origin": "relance_lacune",
       "status": "done",
-      "created": 3,
-      "rejected": 5,
-      "duplicates": 2,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 1,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-1cc1e90f40db",
-          "path": "knowledge/gameplay/1cc1e90f40db-control-the-user-s-camera.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "first person camera",
-          "url": "https://create.roblox.com/docs/tutorials/use-case-tutorials/input-and-camera/control-the-users-camera",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-4b69f77126dd",
-          "path": "knowledge/gameplay/4b69f77126dd-blender-first-person-shooter-animation-camera-sett.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "first person camera",
-          "url": "https://devforum.roblox.com/t/1555081",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-61a66cca6497",
-          "path": "knowledge/gameplay/61a66cca6497-how-do-i-make-the-camera-follow-the-head-in-first.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "first person camera",
-          "url": "https://devforum.roblox.com/t/1899197",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "first person camera settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-1cc1e90f40db)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "first person camera tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-1cc1e90f40db)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "first person camera step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "first person camera Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "fps_camera"
-        }
-      ]
+      "notes": [],
+      "followups": []
     }
   ],
-  "created": 6,
-  "fetched": 31,
-  "rejected": 25,
-  "followups_added": 8,
+  "created": 4,
+  "fetched": 32,
+  "rejected": 28,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -189,43 +136,43 @@
     "counts": {
       "pending": 86,
       "running": 0,
-      "done": 46,
+      "done": 50,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-19",
-      "items": 4,
-      "fetch": 31
+      "items": 8,
+      "fetch": 63
     },
     "next": [
       {
-        "query": "Player FrustumStreaming settings",
+        "query": "Atmosphere Offset settings",
         "topic": "forest",
         "priority": 9.0,
         "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "Future lighting night",
+        "query": "Atmosphere density haze",
         "topic": "lighting",
         "priority": 9.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "camera sway mouse",
+        "query": "camera bobbing CFrame tutorial",
         "topic": "fps_camera",
-        "priority": 9.0,
-        "depth": 0,
-        "origin": "seed"
+        "priority": 8.5,
+        "depth": 1,
+        "origin": "relance"
       },
       {
-        "query": "snow accumulation mesh Roblox Studio implementation compatibility",
+        "query": "snow terrain material tutorial",
         "topic": "snow",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
         "query": "Blender animation export Roblox",
