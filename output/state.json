@@ -316,7 +316,7 @@
     "flashlight shadows forest": 2,
     "snowfall particles": 2,
     "snow MaterialVariant": 2,
-    "Atmosphere density haze": 1,
+    "Atmosphere density haze": 2,
     "ColorCorrection horror": 2,
     "terrain MaterialVariant custom": 1,
     "SurfaceAppearance PBR textures": 1,
@@ -366,9 +366,12 @@
     "first person camera": 1,
     "Player FrustumStreaming settings": 1,
     "camera sway mouse": 1,
-    "snow accumulation mesh Roblox Studio implementation compatibility": 1
+    "snow accumulation mesh Roblox Studio implementation compatibility": 1,
+    "Atmosphere Offset settings": 1,
+    "camera bobbing CFrame tutorial": 1,
+    "snow terrain material tutorial": 1
   },
-  "runs": 59,
+  "runs": 63,
   "errors": [],
   "rotation": 4
 }

@@ -14,7 +14,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[forest/7f5fd0196f65-important-shadow-rendering-problem|Important shadow rendering problem]] — niv. 2 · conf. faible — « ShadowMap Shadows Only Render When Close Building Support »
 - [[forest/a374396f6529-lighting-problems|Lighting problems]] — niv. 2 · conf. faible — « You can try setting it to night, but this will make it a bit darker, but you can up the brightness with color correction. »
 
-## Candidat (11)
+## Candidat (12)
 
 - [[forest/390b00a59e4b-avatar-settings|Avatar Settings]] — niv. 1 · conf. faible — « | **Animation Packs** | <ul><li>**Player Choice** (default): Keep user's platform animation style, including style packs</li><li>**Standard … »
 - [[forest/7c556484eae1-class-player|Class: Player]] — niv. 1 · conf. faible — « This property controls the engine's instance streaming behavior for the »
@@ -24,6 +24,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[forest/50a4e88d1caf-i-dont-get-a-fog-setting-in-lightning-properties|I dont get a Fog setting in Lightning properties]] — niv. 2 · conf. faible — « [RÉPONSE ACCEPTÉE] To Enable the Fog Option in The Lighting properties, »
 - [[forest/0e6d296c236e-lighting-settings-saver|Lighting Settings Saver]] — niv. 2 · conf. faible — « Every now and then I struggle to quickly switch between multiple lighting setting presets I have in my mind. »
 - [[forest/7cb447a5113c-problem-setting-a-player-s-face-decal-texture-id|Problem setting a Player's face decal texture Id]] — niv. 2 · conf. faible — « local Decal = Head:WaitForChild("face",15) or Head:WaitForChild("Face",15) »
+- [[forest/7471e0fe17f9-velizarseleznev-switch-quick-settings-pixel-style|VelizarSeleznev/switch-quick-settings — Pixel-style quick settings overlay for a modded Nintendo Switch: swipe from the screen edge for headphones, Wi-Fi, airpl]] — niv. 3 · conf. faible — « Tested on one console with HOS 21.1.0 and Atmosphère. »
 - [[forest/9be57b985b77-victorzakharov-dark-strands-real-time-3d-rendering|VictorZakharov/dark-strands — Real-time 3D rendering & engine tech demo in Babylon.js 9 (WebGPU/WebGL2) — procedural village, forests, weather, Gerstner-wave wa]] — niv. 3 · conf. faible — « - **Forests** — Procedurally generated trees via [ez-tree](https://github.com/dgreenheck/ez-tree): oak/ash/aspen deciduous trees, pine grove… »
 - [[forest/9a47d5fb8bf7-concorde-speed-concorde-date-of-concorde-in-januar|concorde-speed/Concorde — Date of Concorde In January of the year 1976 after 29 years of the first to penetrate to the speed of sound military aircraft jet - Tw]] — niv. 3 · conf. faible
 - [[forest/713de5a2c6e6644d3390-leonisbel-night-hunt|leonisbel/night-hunt]] — niv. 3 · conf. faible

@@ -1,120 +1,90 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-19T08:51:36+00:00",
-  "finished": "2026-11-19T08:52:26+00:00",
+  "started": "2026-11-19T18:18:49+00:00",
+  "finished": "2026-11-19T18:19:41+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "Player FrustumStreaming settings",
+      "query": "Atmosphere Offset settings",
       "topic": "forest",
       "depth": 2,
       "origin": "relance",
       "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 2,
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 4,
       "fetched": 8,
-      "notes": [],
+      "notes": [
+        {
+          "id": "vdn-7471e0fe17f9",
+          "path": "knowledge/forest/7471e0fe17f9-velizarseleznev-switch-quick-settings-pixel-style.md",
+          "status": "candidat",
+          "topic": "forest",
+          "query": "Atmosphere Offset settings",
+          "url": "https://github.com/velizarseleznev/switch-quick-settings",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
       "followups": []
     },
     {
-      "query": "Future lighting night",
+      "query": "Atmosphere density haze",
       "topic": "lighting",
       "depth": 0,
       "origin": "seed",
       "status": "done",
       "created": 2,
-      "rejected": 6,
+      "rejected": 1,
       "duplicates": 4,
-      "fetched": 8,
+      "fetched": 3,
       "notes": [
         {
-          "id": "vdn-c867b97f5f0b",
-          "path": "knowledge/lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem.md",
-          "status": "documente",
+          "id": "vdn-dcf7d5f0a361",
+          "path": "knowledge/lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox.md",
+          "status": "candidat",
           "topic": "lighting",
-          "query": "Future lighting night",
-          "url": "https://devforum.roblox.com/t/1224076",
-          "missing": []
+          "query": "Atmosphere density haze",
+          "url": "https://devforum.roblox.com/t/1978458",
+          "missing": [
+            "aucune etape exploitable"
+          ]
         },
         {
-          "id": "vdn-8d66e9dc20f3",
-          "path": "knowledge/lighting/8d66e9dc20f3-weird-lighting-behavior-at-night.md",
-          "status": "documente",
+          "id": "vdn-217fa5a553eb",
+          "path": "knowledge/lighting/217fa5a553eb-opensimfx-atomsfx-atmosfx-builds-a-complete-atmosp.md",
+          "status": "candidat",
           "topic": "lighting",
-          "query": "Future lighting night",
-          "url": "https://devforum.roblox.com/t/1944091",
+          "query": "Atmosphere density haze",
+          "url": "https://github.com/opensimfx/atomsfx",
           "missing": [
-            "aucune limite Roblox citee"
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "Future lighting night step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "query": "Atmosphere density haze tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-dcf7d5f0a361)",
+          "topic": "lighting"
+        },
+        {
+          "query": "Atmosphere density haze settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-217fa5a553eb)",
           "topic": "lighting"
         }
       ]
     },
     {
-      "query": "camera sway mouse",
+      "query": "camera bobbing CFrame tutorial",
       "topic": "fps_camera",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-861abcc4858c",
-          "path": "knowledge/gameplay/861abcc4858c-scope-sway-camera.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "camera sway mouse",
-          "url": "https://devforum.roblox.com/t/1507930",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-20871b10ce2c",
-          "path": "knowledge/gameplay/20871b10ce2c-naufalalamsyah453-savagewindrecomp-tbench-personal.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "camera sway mouse",
-          "url": "https://github.com/naufalalamsyah453/savagewindrecomp-tbench",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "camera sway mouse settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-861abcc4858c)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "camera sway mouse tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-861abcc4858c)",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "camera sway mouse step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
-        }
-      ]
-    },
-    {
-      "query": "snow accumulation mesh Roblox Studio implementation compatibility",
-      "topic": "snow",
       "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -122,11 +92,47 @@
       "fetched": 8,
       "notes": [],
       "followups": []
+    },
+    {
+      "query": "snow terrain material tutorial",
+      "topic": "snow",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-bea2db0c0eb0",
+          "path": "knowledge/snow/bea2db0c0eb0-create-an-environment-with-terrain.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "snow terrain material tutorial",
+          "url": "https://create.roblox.com/docs/tutorials/curriculums/core/building/create-an-environment-with-terrain",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "snow terrain material settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-bea2db0c0eb0)",
+          "topic": "snow"
+        },
+        {
+          "query": "snow terrain material tutorial step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "snow"
+        }
+      ]
     }
   ],
   "created": 4,
-  "fetched": 32,
-  "rejected": 28,
+  "fetched": 27,
+  "rejected": 23,
   "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
@@ -136,43 +142,43 @@
     "counts": {
       "pending": 86,
       "running": 0,
-      "done": 50,
+      "done": 54,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-19",
-      "items": 8,
-      "fetch": 63
+      "items": 12,
+      "fetch": 90
     },
     "next": [
       {
-        "query": "Atmosphere Offset settings",
+        "query": "Atmosphere Offset tutorial",
         "topic": "forest",
         "priority": 9.0,
         "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "Atmosphere density haze",
-        "topic": "lighting",
-        "priority": 9.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "camera bobbing CFrame tutorial",
+        "query": "camera bobbing CFrame step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "snow terrain material tutorial",
+        "query": "snowfall particles step by step implementation tutorial code",
         "topic": "snow",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
+      },
+      {
+        "query": "ColorCorrection horror step by step implementation tutorial code",
+        "topic": "lighting",
+        "priority": 8.5,
+        "depth": 1,
+        "origin": "relance_lacune"
       },
       {
         "query": "Blender animation export Roblox",

@@ -539,6 +539,22 @@
   "https://github.com/naufalalamsyah453/savagewindrecomp-tbench": {
    "id": "vdn-20871b10ce2c",
    "path": "knowledge/gameplay/20871b10ce2c-naufalalamsyah453-savagewindrecomp-tbench-personal.md"
+  },
+  "https://github.com/velizarseleznev/switch-quick-settings": {
+   "id": "vdn-7471e0fe17f9",
+   "path": "knowledge/forest/7471e0fe17f9-velizarseleznev-switch-quick-settings-pixel-style.md"
+  },
+  "https://devforum.roblox.com/t/1978458": {
+   "id": "vdn-dcf7d5f0a361",
+   "path": "knowledge/lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox.md"
+  },
+  "https://github.com/opensimfx/atomsfx": {
+   "id": "vdn-217fa5a553eb",
+   "path": "knowledge/lighting/217fa5a553eb-opensimfx-atomsfx-atmosfx-builds-a-complete-atmosp.md"
+  },
+  "https://create.roblox.com/docs/tutorials/curriculums/core/building/create-an-environment-with-terrain": {
+   "id": "vdn-bea2db0c0eb0",
+   "path": "knowledge/snow/bea2db0c0eb0-create-an-environment-with-terrain.md"
   }
  },
  "fingerprints": {
@@ -1166,6 +1182,21 @@
   "0a43ecae8aa8e448": "vdn-20871b10ce2c",
   "5d9f350ae89eefb5": "vdn-20871b10ce2c",
   "840b4554d4b08f09": "vdn-33be21efe7db",
-  "d36fd39ad48bbe4d": "vdn-33be21efe7db"
+  "d36fd39ad48bbe4d": "vdn-33be21efe7db",
+  "deaeb65bff4727ec": "vdn-0c63acb00605",
+  "2fb1bb9116d5d27c": "vdn-0c63acb00605",
+  "a68be9acc787f54a": "vdn-0c63acb00605",
+  "8bf1743636027e0b": "vdn-dcf7d5f0a361",
+  "d14bb97fcce5324e": "vdn-217fa5a553eb",
+  "4dc1a8bef3ebc104": "vdn-217fa5a553eb",
+  "6b9beb5b00b209f9": "vdn-217fa5a553eb",
+  "c9de4856dc3cee62": "vdn-bea2db0c0eb0",
+  "608c312382799bbe": "vdn-bea2db0c0eb0",
+  "a0f5a1169759fb5f": "vdn-bea2db0c0eb0",
+  "812cfb51cbc2a7de": "vdn-bea2db0c0eb0",
+  "8e1c3a028a147eaf": "vdn-bea2db0c0eb0",
+  "dcf20f686cd5bded": "vdn-bea2db0c0eb0",
+  "73b22b9bd06fd040": "vdn-bea2db0c0eb0",
+  "fd1be76cf389cb9e": "vdn-bea2db0c0eb0"
  }
 }
