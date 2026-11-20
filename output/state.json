@@ -377,9 +377,13 @@
     "Atmosphere Offset step by step implementation tutorial code": 1,
     "camera bobbing CFrame settings": 1,
     "light shadows performance tutorial": 1,
-    "Decal Color3": 1
+    "Decal Color3": 1,
+    "Atmosphere Offset Roblox Studio implementation compatibility": 1,
+    "viewmodel arms camera step by step implementation tutorial code": 1,
+    "light shadows performance settings": 1,
+    "Decal Transparency": 1
   },
-  "runs": 71,
+  "runs": 75,
   "errors": [],
   "rotation": 4
 }

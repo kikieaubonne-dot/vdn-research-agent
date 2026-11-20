@@ -232,18 +232,19 @@
         "returned": 0
       },
       "terms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.208,
-        "returned": 24,
+        "returned": 28,
         "accepted": 2,
         "new": 2,
-        "offtopic": 20,
-        "duplicates": 2,
+        "offtopic": 23,
+        "duplicates": 3,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.12,
           0.088,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -315,16 +316,17 @@
         "returned": 3
       },
       "terms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.0,
-        "returned": 16,
+        "returned": 20,
         "accepted": 0,
         "new": 0,
-        "offtopic": 4,
+        "offtopic": 8,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -579,18 +581,19 @@
         "best_mean": 0.8
       },
       "synonyms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.144,
-        "returned": 8,
+        "returned": 9,
         "accepted": 1,
         "new": 1,
-        "offtopic": 6,
+        "offtopic": 7,
         "duplicates": 1,
         "errors": 0,
         "empty": 2,
         "recent": [
           0.0,
           0.144,
+          0.0,
           0.0,
           0.0
         ],
@@ -621,24 +624,24 @@
     },
     "roblox_docs:snow": {
       "terms": {
-        "n": 9,
+        "n": 10,
         "reward": 3.2360000000000007,
-        "returned": 31,
+        "returned": 34,
         "accepted": 8,
         "new": 8,
         "offtopic": 11,
-        "duplicates": 12,
+        "duplicates": 15,
         "errors": 0,
         "empty": 0,
         "recent": [
-          1.0,
           0.088,
           0.0,
           0.088,
           0.0,
           0.55,
           0.0,
-          0.522
+          0.522,
+          0.0
         ],
         "best_mean": 0.994
       },
@@ -717,12 +720,12 @@
         "best_mean": 0.104
       },
       "facet": {
-        "n": 5,
-        "reward": 0.352,
-        "returned": 20,
-        "accepted": 2,
-        "new": 2,
-        "offtopic": 18,
+        "n": 6,
+        "reward": 0.492,
+        "returned": 24,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 21,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -731,19 +734,20 @@
           0.0,
           0.352,
           0.0,
-          0.0
+          0.0,
+          0.14
         ],
         "best_mean": 0.11733333333333333
       }
     },
     "github:snow": {
       "terms": {
-        "n": 6,
-        "reward": 0.5579999999999999,
-        "returned": 11,
-        "accepted": 2,
-        "new": 2,
-        "offtopic": 1,
+        "n": 7,
+        "reward": 1.0659999999999998,
+        "returned": 15,
+        "accepted": 5,
+        "new": 5,
+        "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
         "empty": 3,
@@ -753,9 +757,10 @@
           0.0,
           0.344,
           0.0,
-          0.214
+          0.214,
+          0.508
         ],
-        "best_mean": 0.09299999999999999
+        "best_mean": 0.15228571428571427
       },
       "synonyms": {
         "n": 5,
@@ -819,24 +824,24 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 8,
-        "reward": 1.599,
-        "returned": 22,
-        "accepted": 2,
-        "new": 2,
+        "n": 9,
+        "reward": 2.149,
+        "returned": 26,
+        "accepted": 3,
+        "new": 3,
         "offtopic": 9,
-        "duplicates": 6,
+        "duplicates": 9,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.0,
           0.485,
           0.264,
           0.0,
           0.0,
           0.35,
           0.0,
-          0.5
+          0.5,
+          0.55
         ],
         "best_mean": 0.24966666666666668
       },
@@ -881,12 +886,12 @@
         "best_mean": 0.03344
       },
       "synonyms": {
-        "n": 4,
-        "reward": 0.0,
-        "returned": 16,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 12,
+        "n": 5,
+        "reward": 0.048,
+        "returned": 20,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 15,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -894,9 +899,10 @@
           0.0,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.048
         ],
-        "best_mean": 0.0
+        "best_mean": 0.009600000000000001
       },
       "facet": {
         "n": 12,
@@ -944,13 +950,13 @@
         "best_mean": 0.1276
       },
       "synonyms": {
-        "n": 7,
-        "reward": 1.2928,
-        "returned": 8,
-        "accepted": 3,
-        "new": 3,
-        "offtopic": 1,
-        "duplicates": 0,
+        "n": 8,
+        "reward": 1.444,
+        "returned": 12,
+        "accepted": 4,
+        "new": 4,
+        "offtopic": 3,
+        "duplicates": 1,
         "errors": 0,
         "empty": 4,
         "recent": [
@@ -960,7 +966,8 @@
           0.0,
           0.888,
           0.0,
-          0.4048
+          0.4048,
+          0.1512
         ],
         "best_mean": 0.1846857142857143
       },
@@ -1530,17 +1537,18 @@
     },
     "roblox_docs:fps_camera": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.056,
-        "returned": 8,
+        "returned": 12,
         "accepted": 1,
         "new": 1,
-        "offtopic": 6,
-        "duplicates": 1,
+        "offtopic": 8,
+        "duplicates": 3,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.056,
+          0.0,
           0.0
         ],
         "best_mean": 0.056
@@ -1581,17 +1589,18 @@
     },
     "devforum:fps_camera": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.036,
-        "returned": 8,
+        "returned": 12,
         "accepted": 1,
         "new": 1,
-        "offtopic": 7,
-        "duplicates": 0,
+        "offtopic": 10,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.036,
+          0.0,
           0.0
         ],
         "best_mean": 0.036
@@ -1666,16 +1675,17 @@
         "best_mean": 0.43100000000000005
       },
       "facet": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 5,
         "accepted": 0,
         "new": 0,
-        "offtopic": 2,
+        "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0

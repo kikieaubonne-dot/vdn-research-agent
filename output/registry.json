@@ -587,6 +587,34 @@
   "https://github.com/igotthebaggggggg/easy": {
    "id": "vdn-6db19d230bc3",
    "path": "knowledge/snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de.md"
+  },
+  "https://create.roblox.com/docs/environment/lighting": {
+   "id": "vdn-a96e07091a68",
+   "path": "knowledge/lighting/a96e07091a68-global-lighting.md"
+  },
+  "https://devforum.roblox.com/t/1517723": {
+   "id": "vdn-6fb4cade25ec",
+   "path": "knowledge/lighting/6fb4cade25ec-lighting-and-shadows-issue.md"
+  },
+  "https://github.com/paimonemergencyf00d/fivem-fps-optimizer": {
+   "id": "vdn-6feceb8ca722",
+   "path": "knowledge/lighting/6feceb8ca722-paimonemergencyf00d-fivem-fps-optimizer-fivem-esx.md"
+  },
+  "https://devforum.roblox.com/t/1212598": {
+   "id": "vdn-3f6876f2e6c4",
+   "path": "knowledge/snow/3f6876f2e6c4-decal-overlapping-bug.md"
+  },
+  "https://github.com/derpatron666/uh-something": {
+   "id": "vdn-0173454d7a6e",
+   "path": "knowledge/snow/0173454d7a6e-derpatron666-uh-something-fridgeclan-strikes-again.md"
+  },
+  "https://github.com/m77203211/eeeeeee": {
+   "id": "vdn-de5c2f83a861",
+   "path": "knowledge/snow/de5c2f83a861-m77203211-eeeeeee-id-custom-rooms-classname-folder.md"
+  },
+  "https://github.com/m77203211/w": {
+   "id": "vdn-7c9737244b82",
+   "path": "knowledge/snow/7c9737244b82-m77203211-w-22-32-56-755-id-custom-rooms-classname.md"
   }
  },
  "fingerprints": {
@@ -1259,6 +1287,17 @@
   "529efdf75997c6ef": "vdn-82c6546401ed",
   "f55c845eabe033ac": "vdn-82c6546401ed",
   "4979fef39a00accd": "vdn-1f56feeb8e65",
-  "51c64b014b72323a": "vdn-4171a6c5328d"
+  "51c64b014b72323a": "vdn-4171a6c5328d",
+  "29e9e6a641dc56ba": "vdn-ce394cf64c24",
+  "cd3c9300ef66ce57": "vdn-c20a569bd1f5",
+  "c702946882212f8e": "vdn-6feceb8ca722",
+  "b7c814d262c7d194": "vdn-a7a307c283b0",
+  "7749fa837c7c0c6d": "vdn-a7a307c283b0",
+  "15c13d45c2f4baa0": "vdn-a7a307c283b0",
+  "1d7465f77158fab6": "vdn-a7a307c283b0",
+  "47c2e444651c9cc6": "vdn-1ae480ace265",
+  "4e183793778fa799": "vdn-80f790b43547",
+  "f63f0d0d797542b0": "vdn-3f6876f2e6c4",
+  "f30ffafac021733d": "vdn-3f6876f2e6c4"
  }
 }

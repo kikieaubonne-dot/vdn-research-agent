@@ -3,3 +3,5 @@
 {"utc": "2026-11-19T18:19:09+00:00", "event": "regression", "arm": "roblox_docs:forest:facet", "recent_mean": 0.172, "best_mean": 0.4515, "action": "retour à « terms »"}
 {"utc": "2026-11-20T01:16:52+00:00", "event": "regression", "arm": "roblox_docs:forest:facet", "recent_mean": 0.172, "best_mean": 0.4515, "action": "retour à « terms »"}
 {"utc": "2026-11-20T08:40:25+00:00", "event": "regression", "arm": "roblox_docs:forest:facet", "recent_mean": 0.172, "best_mean": 0.4515, "action": "retour à « terms »"}
+{"utc": "2026-11-20T17:50:40+00:00", "event": "regression", "arm": "roblox_docs:forest:facet", "recent_mean": 0.172, "best_mean": 0.4515, "action": "retour à « terms »"}
+{"utc": "2026-11-20T17:50:40+00:00", "event": "regression", "arm": "github:forest:synonyms", "recent_mean": 0.0088, "best_mean": 0.0523, "action": "retour à « terms »"}

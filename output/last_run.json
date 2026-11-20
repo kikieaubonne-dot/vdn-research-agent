@@ -1,19 +1,19 @@
 {
-  "started_utc": "2026-11-20T08:40:50+00:00",
+  "started_utc": "2026-11-20T17:51:01+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
+  "returned": 11,
   "fetched": 8,
   "accepted": 4,
   "created": 4,
   "updated": 0,
-  "duplicates": 1,
+  "duplicates": 3,
   "rejected": 4,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 4,
-    "pas assez de contenu technique": 4
+    "hors sujet": 3,
+    "aucun lien avec Roblox ou la chaîne Blender": 1
   },
   "trials_detail": [
     {
@@ -21,24 +21,24 @@
       "topic": "snow",
       "origin": "relance",
       "strategy": "terms",
-      "query": "Decal Color3",
-      "returned": 4,
-      "accepted": 2,
-      "new": 2,
+      "query": "Decal Transparency",
+      "returned": 3,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
-      "duplicates": 1,
-      "offtopic": 1,
+      "duplicates": 3,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.68,
-      "duration_s": 3.44,
-      "reward": 0.522
+      "technical_mean": 0.0,
+      "duration_s": 0.02,
+      "reward": 0.0
     },
     {
       "provider": "devforum",
       "topic": "snow",
       "origin": "relance",
-      "strategy": "terms",
-      "query": "Decal Color3",
+      "strategy": "facet",
+      "query": "Decal Transparency bug",
       "returned": 4,
       "accepted": 1,
       "new": 1,
@@ -46,101 +46,97 @@
       "duplicates": 0,
       "offtopic": 3,
       "error": null,
-      "technical_mean": 0.09,
-      "duration_s": 5.1,
-      "reward": 0.036
+      "technical_mean": 0.35,
+      "duration_s": 6.19,
+      "reward": 0.14
     },
     {
       "provider": "github",
       "topic": "snow",
       "origin": "relance",
       "strategy": "terms",
-      "query": "Decal Color3",
+      "query": "Decal Transparency",
       "returned": 4,
-      "accepted": 1,
-      "new": 1,
+      "accepted": 3,
+      "new": 3,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 1,
       "error": null,
-      "technical_mean": 0.16,
-      "duration_s": 2.55,
-      "reward": 0.214
+      "technical_mean": 0.27,
+      "duration_s": 8.41,
+      "reward": 0.508
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-14f415164625",
-      "path": "knowledge/snow/14f415164625-class-decal.md",
+      "id": "vdn-3f6876f2e6c4",
+      "path": "knowledge/snow/3f6876f2e6c4-decal-overlapping-bug.md",
       "status": "documente",
       "topic": "snow",
-      "query": "Decal Color3",
-      "url": "https://create.roblox.com/docs/reference/engine/classes/Decal"
+      "query": "Decal Transparency",
+      "url": "https://devforum.roblox.com/t/1212598"
     },
     {
-      "id": "vdn-1f56feeb8e65",
-      "path": "knowledge/snow/1f56feeb8e65-class-texture.md",
-      "status": "documente",
-      "topic": "snow",
-      "query": "Decal Color3",
-      "url": "https://create.roblox.com/docs/reference/engine/classes/Texture"
-    },
-    {
-      "id": "vdn-4171a6c5328d",
-      "path": "knowledge/snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone.md",
+      "id": "vdn-0173454d7a6e",
+      "path": "knowledge/snow/0173454d7a6e-derpatron666-uh-something-fridgeclan-strikes-again.md",
       "status": "candidat",
       "topic": "snow",
-      "query": "Decal Color3",
-      "url": "https://devforum.roblox.com/t/1178206"
+      "query": "Decal Transparency",
+      "url": "https://github.com/derpatron666/uh-something"
     },
     {
-      "id": "vdn-6db19d230bc3",
-      "path": "knowledge/snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de.md",
+      "id": "vdn-de5c2f83a861",
+      "path": "knowledge/snow/de5c2f83a861-m77203211-eeeeeee-id-custom-rooms-classname-folder.md",
       "status": "candidat",
       "topic": "snow",
-      "query": "Decal Color3",
-      "url": "https://github.com/igotthebaggggggg/easy"
+      "query": "Decal Transparency",
+      "url": "https://github.com/m77203211/eeeeeee"
+    },
+    {
+      "id": "vdn-7c9737244b82",
+      "path": "knowledge/snow/7c9737244b82-m77203211-w-22-32-56-755-id-custom-rooms-classname.md",
+      "status": "candidat",
+      "topic": "snow",
+      "query": "Decal Transparency",
+      "url": "https://github.com/m77203211/w"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.25,
-      "technical": 0.04,
+      "topical": 0.375,
+      "technical": 0.52,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.375 < 0.5)"
       ]
     },
     {
-      "topical": 0.25,
-      "technical": 0.04,
+      "topical": 0.375,
+      "technical": 0.16,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.375 < 0.5)"
       ]
     },
     {
-      "topical": 0.417,
-      "technical": 0.04,
+      "topical": 0.375,
+      "technical": 0.2,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.375 < 0.5)"
       ]
     },
     {
-      "topical": 0.25,
-      "technical": 0.0,
-      "roblox": true,
+      "topical": 0.75,
+      "technical": 0.24,
+      "roblox": false,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)",
-        "pas assez de contenu technique (0.0)"
+        "aucun lien avec Roblox ou la chaîne Blender"
       ]
     }
   ],
@@ -149,5 +145,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-20T08:41:01+00:00"
+  "finished_utc": "2026-11-20T17:51:15+00:00"
 }

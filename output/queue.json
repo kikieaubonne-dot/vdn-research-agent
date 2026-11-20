@@ -2534,11 +2534,23 @@
       "depth": 2,
       "parent": "2e6e6175393c8c16",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T18:38:44+00:00",
-      "updated": "2026-11-17T18:38:44+00:00",
-      "result": null
+      "updated": "2026-11-20T17:50:40+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795197026.5385993,
+      "finished_ts": 1795197040.0659251
     },
     "357b1a7b22a8cd8f": {
       "key": "357b1a7b22a8cd8f",
@@ -2606,11 +2618,23 @@
       "depth": 1,
       "parent": "969d6a82cbe10bef",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T10:13:15+00:00",
-      "updated": "2026-11-18T10:13:15+00:00",
-      "result": null
+      "updated": "2026-11-20T17:50:48+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 6,
+        "created": 0,
+        "rejected": 6,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795197040.0691826,
+      "finished_ts": 1795197048.5740736
     },
     "6c7b4beff3e16d21": {
       "key": "6c7b4beff3e16d21",
@@ -2670,11 +2694,33 @@
       "depth": 1,
       "parent": "68a09d5f4792831d",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-b7c6aa72293b)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:19+00:00",
-      "updated": "2026-11-18T18:53:19+00:00",
-      "result": null
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-a96e07091a68",
+          "vdn-6fb4cade25ec",
+          "vdn-6feceb8ca722"
+        ],
+        "followups": [
+          "Lighting settings",
+          "Lighting Ambient",
+          "Lighting OutdoorAmbient",
+          "light shadows performance settings step by step implementation tutorial code",
+          "light shadows performance settings Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795197048.5772502,
+      "finished_ts": 1795197061.0571053
     },
     "ef9833e15fc7491f": {
       "key": "ef9833e15fc7491f",
@@ -2750,11 +2796,32 @@
       "depth": 1,
       "parent": "b194a61a4d147c60",
       "reason": "API citee par la source : Decal.Transparency (vdn-0c6ae3fae482)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:31+00:00",
-      "updated": "2026-11-18T18:53:31+00:00",
-      "result": null
+      "updated": "2026-11-20T17:51:15+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-3f6876f2e6c4",
+          "vdn-0173454d7a6e",
+          "vdn-de5c2f83a861",
+          "vdn-7c9737244b82"
+        ],
+        "followups": [
+          "Decal Transparency settings",
+          "Decal Transparency tutorial",
+          "Decal Transparency Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795197061.060445,
+      "finished_ts": 1795197075.680327
     },
     "bfa1de5556a6461c": {
       "key": "bfa1de5556a6461c",
@@ -3085,11 +3152,131 @@
       "created": "2026-11-20T08:41:01+00:00",
       "updated": "2026-11-20T08:41:01+00:00",
       "result": null
+    },
+    "72ea94af2e518401": {
+      "key": "72ea94af2e518401",
+      "topic": "lighting",
+      "query": "Lighting settings",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "610151593f1217cc",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-a96e07091a68)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:01+00:00",
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": null
+    },
+    "babc95e7880fc212": {
+      "key": "babc95e7880fc212",
+      "topic": "lighting",
+      "query": "Lighting Ambient",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "610151593f1217cc",
+      "reason": "API citee par la source : Lighting.Ambient (vdn-a96e07091a68)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:01+00:00",
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": null
+    },
+    "3903c26d5d590e32": {
+      "key": "3903c26d5d590e32",
+      "topic": "lighting",
+      "query": "Lighting OutdoorAmbient",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "610151593f1217cc",
+      "reason": "API citee par la source : Lighting.OutdoorAmbient (vdn-a96e07091a68)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:01+00:00",
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": null
+    },
+    "0bf9bef7a2ec915e": {
+      "key": "0bf9bef7a2ec915e",
+      "topic": "lighting",
+      "query": "light shadows performance settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "610151593f1217cc",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:01+00:00",
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": null
+    },
+    "b4ee0a348ed8cf8a": {
+      "key": "b4ee0a348ed8cf8a",
+      "topic": "lighting",
+      "query": "light shadows performance settings Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "610151593f1217cc",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:01+00:00",
+      "updated": "2026-11-20T17:51:01+00:00",
+      "result": null
+    },
+    "c854c043e17ab83b": {
+      "key": "c854c043e17ab83b",
+      "topic": "snow",
+      "query": "Decal Transparency settings",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "3f2b54c407482957",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-3f6876f2e6c4)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:15+00:00",
+      "updated": "2026-11-20T17:51:15+00:00",
+      "result": null
+    },
+    "dbeb96195a43b20a": {
+      "key": "dbeb96195a43b20a",
+      "topic": "snow",
+      "query": "Decal Transparency tutorial",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "3f2b54c407482957",
+      "reason": "lacune : aucune etape exploitable (vdn-0173454d7a6e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:15+00:00",
+      "updated": "2026-11-20T17:51:15+00:00",
+      "result": null
+    },
+    "672de6dddabad248": {
+      "key": "672de6dddabad248",
+      "topic": "snow",
+      "query": "Decal Transparency Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "3f2b54c407482957",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T17:51:15+00:00",
+      "updated": "2026-11-20T17:51:15+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-20",
-    "items": 8,
-    "fetch": 63
+    "items": 12,
+    "fetch": 93
   }
 }
