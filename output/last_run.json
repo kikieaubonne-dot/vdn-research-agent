@@ -1,137 +1,146 @@
 {
-  "started_utc": "2026-11-20T01:17:15+00:00",
+  "started_utc": "2026-11-20T08:40:50+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 8,
-  "fetched": 7,
-  "accepted": 0,
-  "created": 0,
+  "returned": 12,
+  "fetched": 8,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
   "duplicates": 1,
-  "rejected": 7,
+  "rejected": 4,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 7,
-    "pas assez de contenu technique": 1
+    "hors sujet": 4,
+    "pas assez de contenu technique": 4
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "lighting",
-      "origin": "relance_lacune",
-      "strategy": "facet",
-      "query": "ColorCorrection horror step bug",
+      "topic": "snow",
+      "origin": "relance",
+      "strategy": "terms",
+      "query": "Decal Color3",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 2,
+      "new": 2,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 4,
+      "duplicates": 1,
+      "offtopic": 1,
       "error": null,
-      "technical_mean": 0.19,
-      "duration_s": 4.42,
-      "reward": 0.0
+      "technical_mean": 0.68,
+      "duration_s": 3.44,
+      "reward": 0.522
     },
     {
       "provider": "devforum",
-      "topic": "lighting",
-      "origin": "relance_lacune",
-      "strategy": "facet",
-      "query": "ColorCorrection horror step bug",
+      "topic": "snow",
+      "origin": "relance",
+      "strategy": "terms",
+      "query": "Decal Color3",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
-      "duplicates": 1,
+      "duplicates": 0,
       "offtopic": 3,
       "error": null,
-      "technical_mean": 0.32,
-      "duration_s": 3.96,
-      "reward": 0.0
+      "technical_mean": 0.09,
+      "duration_s": 5.1,
+      "reward": 0.036
     },
     {
       "provider": "github",
-      "topic": "lighting",
-      "origin": "relance_lacune",
-      "strategy": "synonyms",
-      "query": "ColorCorrection horror step tutorial",
-      "returned": 0,
-      "accepted": 0,
-      "new": 0,
+      "topic": "snow",
+      "origin": "relance",
+      "strategy": "terms",
+      "query": "Decal Color3",
+      "returned": 4,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.96,
-      "reward": 0.0
+      "technical_mean": 0.16,
+      "duration_s": 2.55,
+      "reward": 0.214
     }
   ],
-  "created_notes": [],
+  "created_notes": [
+    {
+      "id": "vdn-14f415164625",
+      "path": "knowledge/snow/14f415164625-class-decal.md",
+      "status": "documente",
+      "topic": "snow",
+      "query": "Decal Color3",
+      "url": "https://create.roblox.com/docs/reference/engine/classes/Decal"
+    },
+    {
+      "id": "vdn-1f56feeb8e65",
+      "path": "knowledge/snow/1f56feeb8e65-class-texture.md",
+      "status": "documente",
+      "topic": "snow",
+      "query": "Decal Color3",
+      "url": "https://create.roblox.com/docs/reference/engine/classes/Texture"
+    },
+    {
+      "id": "vdn-4171a6c5328d",
+      "path": "knowledge/snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone.md",
+      "status": "candidat",
+      "topic": "snow",
+      "query": "Decal Color3",
+      "url": "https://devforum.roblox.com/t/1178206"
+    },
+    {
+      "id": "vdn-6db19d230bc3",
+      "path": "knowledge/snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de.md",
+      "status": "candidat",
+      "topic": "snow",
+      "query": "Decal Color3",
+      "url": "https://github.com/igotthebaggggggg/easy"
+    }
+  ],
   "rejected_candidates": [
     {
-      "topical": 0.3,
-      "technical": 0.16,
+      "topical": 0.25,
+      "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)"
+        "hors sujet (pertinence 0.25 < 0.5)",
+        "pas assez de contenu technique (0.04)"
       ]
     },
     {
-      "topical": 0.3,
+      "topical": 0.25,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.25 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.25,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.3 < 0.5)",
+        "hors sujet (pertinence 0.25 < 0.5)",
         "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.2,
-      "technical": 0.44,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.2 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.2,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.2 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.267,
-      "technical": 0.44,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.267 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.367,
-      "technical": 0.32,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.367 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.267,
-      "technical": 0.2,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.267 < 0.5)"
       ]
     }
   ],
@@ -140,5 +149,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-20T01:17:25+00:00"
+  "finished_utc": "2026-11-20T08:41:01+00:00"
 }

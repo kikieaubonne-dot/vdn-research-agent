@@ -1,14 +1,14 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-20T01:16:38+00:00",
-  "finished": "2026-11-20T01:17:25+00:00",
+  "started": "2026-11-20T08:40:12+00:00",
+  "finished": "2026-11-20T08:41:02+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "Atmosphere Offset tutorial",
+      "query": "Atmosphere Offset step by step implementation tutorial code",
       "topic": "forest",
       "depth": 2,
-      "origin": "relance",
+      "origin": "relance_lacune",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -18,49 +18,168 @@
       "followups": []
     },
     {
-      "query": "camera bobbing CFrame step by step implementation tutorial code",
+      "query": "camera bobbing CFrame settings",
       "topic": "fps_camera",
       "depth": 1,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "snowfall particles step by step implementation tutorial code",
-      "topic": "snow",
-      "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
       "duplicates": 1,
       "fetched": 8,
       "notes": [],
-      "followups": []
+      "followups": [
+        {
+          "query": "camera bobbing CFrame settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fps_camera"
+        }
+      ]
     },
     {
-      "query": "ColorCorrection horror step by step implementation tutorial code",
+      "query": "light shadows performance tutorial",
       "topic": "lighting",
       "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
-      "created": 0,
-      "rejected": 7,
+      "created": 4,
+      "rejected": 4,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-d58d7cf22396",
+          "path": "knowledge/lighting/d58d7cf22396-customize-global-lighting.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "light shadows performance tutorial",
+          "url": "https://create.roblox.com/docs/tutorials/curriculums/core/building/customize-global-lighting",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-3b9900893d4b",
+          "path": "knowledge/lighting/3b9900893d4b-colored-shadows-tutorial.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "light shadows performance tutorial",
+          "url": "https://devforum.roblox.com/t/2069401",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-2a7fa8075366",
+          "path": "knowledge/lighting/2a7fa8075366-salehahmed99-opengl-tutorials-modern-opengl-3-3-co.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "light shadows performance tutorial",
+          "url": "https://github.com/salehahmed99/opengl-tutorials",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-82c6546401ed",
+          "path": "knowledge/lighting/82c6546401ed-matinas-unityshadersclc-unity-shaders-based-on-cat.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "light shadows performance tutorial",
+          "url": "https://github.com/matinas/unityshadersclc",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Lighting limitations",
+          "reason": "lacune : aucune limite Roblox citee (vdn-d58d7cf22396)",
+          "topic": "lighting"
+        }
+      ]
+    },
+    {
+      "query": "Decal Color3",
+      "topic": "snow",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 4,
+      "rejected": 4,
       "duplicates": 1,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-14f415164625",
+          "path": "knowledge/snow/14f415164625-class-decal.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "Decal Color3",
+          "url": "https://create.roblox.com/docs/reference/engine/classes/Decal",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-1f56feeb8e65",
+          "path": "knowledge/snow/1f56feeb8e65-class-texture.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "Decal Color3",
+          "url": "https://create.roblox.com/docs/reference/engine/classes/Texture",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-4171a6c5328d",
+          "path": "knowledge/snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone.md",
+          "status": "candidat",
+          "topic": "snow",
+          "query": "Decal Color3",
+          "url": "https://devforum.roblox.com/t/1178206",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-6db19d230bc3",
+          "path": "knowledge/snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de.md",
+          "status": "candidat",
+          "topic": "snow",
+          "query": "Decal Color3",
+          "url": "https://github.com/igotthebaggggggg/easy",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Decal Color3 settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-4171a6c5328d)",
+          "topic": "snow"
+        },
+        {
+          "query": "Decal Color3 tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-6db19d230bc3)",
+          "topic": "snow"
+        }
+      ]
     }
   ],
-  "created": 0,
-  "fetched": 31,
-  "rejected": 31,
-  "followups_added": 0,
+  "created": 8,
+  "fetched": 32,
+  "rejected": 24,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -69,39 +188,39 @@
     "counts": {
       "pending": 82,
       "running": 0,
-      "done": 58,
+      "done": 62,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-20",
-      "items": 4,
-      "fetch": 31
+      "items": 8,
+      "fetch": 63
     },
     "next": [
       {
-        "query": "Atmosphere Offset step by step implementation tutorial code",
+        "query": "Atmosphere Offset Roblox Studio implementation compatibility",
         "topic": "forest",
         "priority": 9.0,
         "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "camera bobbing CFrame settings",
+        "query": "viewmodel arms camera step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "light shadows performance tutorial",
+        "query": "light shadows performance settings",
         "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Decal Color3",
+        "query": "Decal Transparency",
         "topic": "snow",
         "priority": 8.5,
         "depth": 1,

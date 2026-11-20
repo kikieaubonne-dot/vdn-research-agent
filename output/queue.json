@@ -1972,11 +1972,25 @@
       "depth": 1,
       "parent": "3909733dfcfef203",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-eb19a9fed396)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T23:24:29+00:00",
-      "updated": "2026-11-15T23:24:29+00:00",
-      "result": null
+      "updated": "2026-11-20T08:40:37+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "camera bobbing CFrame settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795164025.95821,
+      "finished_ts": 1795164037.7032082
     },
     "1171a056ceef0437": {
       "key": "1171a056ceef0437",
@@ -2493,11 +2507,23 @@
       "depth": 2,
       "parent": "2e6e6175393c8c16",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-17T18:38:44+00:00",
-      "updated": "2026-11-17T18:38:44+00:00",
-      "result": null
+      "updated": "2026-11-20T08:40:25+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795164012.3069515,
+      "finished_ts": 1795164025.9542367
     },
     "d1c72ae83dddfe11": {
       "key": "d1c72ae83dddfe11",
@@ -2610,11 +2636,30 @@
       "depth": 1,
       "parent": "68a09d5f4792831d",
       "reason": "lacune : aucune etape exploitable (vdn-8152f2156515)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:19+00:00",
-      "updated": "2026-11-18T18:53:19+00:00",
-      "result": null
+      "updated": "2026-11-20T08:40:50+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-d58d7cf22396",
+          "vdn-3b9900893d4b",
+          "vdn-2a7fa8075366",
+          "vdn-82c6546401ed"
+        ],
+        "followups": [
+          "Lighting limitations"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795164037.7104585,
+      "finished_ts": 1795164050.7947998
     },
     "610151593f1217cc": {
       "key": "610151593f1217cc",
@@ -2670,11 +2715,31 @@
       "depth": 1,
       "parent": "b194a61a4d147c60",
       "reason": "API citee par la source : Decal.Color3 (vdn-0c6ae3fae482)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:31+00:00",
-      "updated": "2026-11-18T18:53:31+00:00",
-      "result": null
+      "updated": "2026-11-20T08:41:01+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-14f415164625",
+          "vdn-1f56feeb8e65",
+          "vdn-4171a6c5328d",
+          "vdn-6db19d230bc3"
+        ],
+        "followups": [
+          "Decal Color3 settings",
+          "Decal Color3 tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795164050.8011775,
+      "finished_ts": 1795164061.91071
     },
     "3f2b54c407482957": {
       "key": "3f2b54c407482957",
@@ -2960,11 +3025,71 @@
       "created": "2026-11-19T18:19:40+00:00",
       "updated": "2026-11-19T18:19:40+00:00",
       "result": null
+    },
+    "5102fa99d4041c33": {
+      "key": "5102fa99d4041c33",
+      "topic": "fps_camera",
+      "query": "camera bobbing CFrame settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "d3363902d660e57f",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T08:40:37+00:00",
+      "updated": "2026-11-20T08:40:37+00:00",
+      "result": null
+    },
+    "3eeb51742b25d926": {
+      "key": "3eeb51742b25d926",
+      "topic": "lighting",
+      "query": "Lighting limitations",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "197e12f70aa1401f",
+      "reason": "lacune : aucune limite Roblox citee (vdn-d58d7cf22396)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T08:40:50+00:00",
+      "updated": "2026-11-20T08:40:50+00:00",
+      "result": null
+    },
+    "c992bb70e0e8f4b1": {
+      "key": "c992bb70e0e8f4b1",
+      "topic": "snow",
+      "query": "Decal Color3 settings",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "0181c8cbca252c64",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-4171a6c5328d)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T08:41:01+00:00",
+      "updated": "2026-11-20T08:41:01+00:00",
+      "result": null
+    },
+    "f8105569d866307a": {
+      "key": "f8105569d866307a",
+      "topic": "snow",
+      "query": "Decal Color3 tutorial",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "0181c8cbca252c64",
+      "reason": "lacune : aucune etape exploitable (vdn-6db19d230bc3)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-20T08:41:01+00:00",
+      "updated": "2026-11-20T08:41:01+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-20",
-    "items": 4,
-    "fetch": 31
+    "items": 8,
+    "fetch": 63
   }
 }

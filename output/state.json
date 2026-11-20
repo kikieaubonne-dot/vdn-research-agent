@@ -373,9 +373,13 @@
     "Atmosphere Offset tutorial": 1,
     "camera bobbing CFrame step by step implementation tutorial code": 1,
     "snowfall particles step by step implementation tutorial code": 1,
-    "ColorCorrection horror step by step implementation tutorial code": 1
+    "ColorCorrection horror step by step implementation tutorial code": 1,
+    "Atmosphere Offset step by step implementation tutorial code": 1,
+    "camera bobbing CFrame settings": 1,
+    "light shadows performance tutorial": 1,
+    "Decal Color3": 1
   },
-  "runs": 67,
+  "runs": 71,
   "errors": [],
   "rotation": 4
 }

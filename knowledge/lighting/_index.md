@@ -2,8 +2,9 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (8)
+## Documenté (9)
 
+- [[lighting/d58d7cf22396-customize-global-lighting|Customize global lighting]] — niv. 1 · conf. moyenne — « description: "Explains how to use global lighting settings to refine the look and feel of your game." »
 - [[lighting/5d6828741270-future-lighting-not-working|Future Lighting not working]] — niv. 1 · conf. moyenne — « If you are talking about the small lighting change, refer to what @Self_Reflexive suggested. »
 - [[lighting/0c907f49b2f4-light-sources|Light sources]] — niv. 1 · conf. moyenne — « By using the different types of light sources instead of just general global lighting through the `Class.Lighting` service, you can create i… »
 - [[lighting/2691c88af330-use-case-tutorials|Use case tutorials]] — niv. 1 · conf. moyenne — « Use third-party modeling tools like Blender to create meshes, then import them into Studio using the Importer. »
@@ -13,10 +14,11 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem|Glowing Future Lighting Bug? Or Mesh Problem?]] — niv. 2 · conf. faible — « ^I have 4 spotlights (60 range, brightness 2.5, shadow on, future lighting) set up pointing at the mesh part. »
 - [[lighting/8d66e9dc20f3-weird-lighting-behavior-at-night|Weird lighting behavior at night]] — niv. 2 · conf. faible — « local toTween = game.Lighting.ClockTime+timeShift »
 
-## Candidat (16)
+## Candidat (19)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »
 - [[lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox|Atmosphere haze not covering entire skybox]] — niv. 2 · conf. faible — « The issue is, the atmosphere haze at max value won’t cover the entire skybox, leaving a strange hole of sky on top. »
+- [[lighting/3b9900893d4b-colored-shadows-tutorial|Colored Shadows Tutorial]] — niv. 2 · conf. faible
 - [[lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s|How can I use a decal to project shadows using a spotlight?]] — niv. 2 · conf. faible — « I’ve tried it with parts, but i believe none of the lighting systems (including future) dont support that »
 - [[lighting/26ba09d37d6d-improve-lighting-step-by-step|Improve Lighting (STEP BY STEP)]] — niv. 2 · conf. faible — « (Change these settings inside of Terrain at the top of the Workspace in Explorer) »
 - [[lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl|Invisible part that changes atmosphere density only while touched]] — niv. 2 · conf. faible — « (What it would look like in the location if the density switches to 0, ONLY if touching the invisible part). »
@@ -27,7 +29,9 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/179abb099a56-what-are-the-most-realistic-lighting-settings-that|What are the most realistic lighting settings that you use for each time of day?]] — niv. 2 · conf. faible — « https://devforum.roblox.com/t/showcase-your-lighting-settings/1189252/3?u=x5tb »
 - [[lighting/afa9d6ba6850-gleamgriknife-stalker-2-graphics-enhancement-beyon|Gleamgriknife/stalker-2-graphics-enhancement — Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade.]] — niv. 3 · conf. faible — « Beyond Epic settings: ray-traced GI, reworked Zone atmosphere, 8K texture streaming, and hand-tuned ReShade. »
 - [[lighting/cc87b5caa9dc-hm-9130-hmpe-realoaded-shader-resolutions-16x-32x|HM-9130/HMPE-REALOADED-Shader — Resolutions: 16x, 32x, 64x, Shaders Brief Introduction: HMPE REALOADED is a shader for MCPE which supports 1.16 and Android and ]] — niv. 3 · conf. faible — « SOME PICTURES OF HMPERELOADED SHADER: MAP USED FOR SCREENSHOTS : CRYATAL PALACE MAP BY GEMINI TAY ADVANCED & EXPERIMENTAL SETTINGS: And this… »
+- [[lighting/82c6546401ed-matinas-unityshadersclc-unity-shaders-based-on-cat|matinas/unityshadersclc — Unity Shaders based on CatlikeCoding rendering tutorials from here: http://catlikecoding.com/unity/tutorials/rendering. Includes basic]] — niv. 3 · conf. faible — « The set includes basic shaders, diffuse, specular and PBS lighting shaders, bump and normal mapping, shadow rendering, etc. »
 - [[lighting/217fa5a553eb-opensimfx-atomsfx-atmosfx-builds-a-complete-atmosp|opensimfx/atomsfx — AtmosFX builds a complete atmosphere in one click: a Nishita sky driven by a real sun position, a star field with recognisable constellation]] — niv. 3 · conf. faible — « - **28 presets** in five categories ([docs/PRESETS.md](docs/PRESETS.md)); export/import your own as JSON. »
+- [[lighting/2a7fa8075366-salehahmed99-opengl-tutorials-modern-opengl-3-3-co|salehahmed99/opengl-tutorials — Modern OpenGL 3.3 Core Profile C++ tutorials and examples, covering everything from fundamental rendering to advanced lighting a]] — niv. 3 · conf. faible — « - **[stb_image](https://github.com/nothings/stb)** — Image loading (projects that use textures) »
 - [[lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot|schemann/phaix-godot-08-light-and-atmosphere — Godot 4 tutorial 08 by Phaix: Light and Atmosphere in Godot 4 (project files, every step as its own folder)]] — niv. 3 · conf. faible — « Godot 4 tutorial 08 by Phaix: Light and Atmosphere in Godot 4 (project files, every step as its own folder) »
 - [[lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori|stewartchrisecmwf/training — Jupyter notebook tutorials on climate and atmosphere data]] — niv. 3 · conf. faible — « # Jupyter notebook tutorials for the Copernicus Climate Change and Atmosphere Monitoring Services »
 - [[lighting/823b92f997eb-tessac2-copernicus-training-this-repository-hosts|tessac2/copernicus-training — This repository hosts Jupyter notebook tutorials on the Copernicus Climate Change (C3S) and Atmosphere Monitoring (CAMS) Services.]] — niv. 3 · conf. faible — « This repository hosts Jupyter notebook tutorials on the Copernicus Climate Change (C3S) and Atmosphere Monitoring (CAMS) Services. »

@@ -555,6 +555,38 @@
   "https://create.roblox.com/docs/tutorials/curriculums/core/building/create-an-environment-with-terrain": {
    "id": "vdn-bea2db0c0eb0",
    "path": "knowledge/snow/bea2db0c0eb0-create-an-environment-with-terrain.md"
+  },
+  "https://create.roblox.com/docs/tutorials/curriculums/core/building/customize-global-lighting": {
+   "id": "vdn-d58d7cf22396",
+   "path": "knowledge/lighting/d58d7cf22396-customize-global-lighting.md"
+  },
+  "https://devforum.roblox.com/t/2069401": {
+   "id": "vdn-3b9900893d4b",
+   "path": "knowledge/lighting/3b9900893d4b-colored-shadows-tutorial.md"
+  },
+  "https://github.com/salehahmed99/opengl-tutorials": {
+   "id": "vdn-2a7fa8075366",
+   "path": "knowledge/lighting/2a7fa8075366-salehahmed99-opengl-tutorials-modern-opengl-3-3-co.md"
+  },
+  "https://github.com/matinas/unityshadersclc": {
+   "id": "vdn-82c6546401ed",
+   "path": "knowledge/lighting/82c6546401ed-matinas-unityshadersclc-unity-shaders-based-on-cat.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Decal": {
+   "id": "vdn-14f415164625",
+   "path": "knowledge/snow/14f415164625-class-decal.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Texture": {
+   "id": "vdn-1f56feeb8e65",
+   "path": "knowledge/snow/1f56feeb8e65-class-texture.md"
+  },
+  "https://devforum.roblox.com/t/1178206": {
+   "id": "vdn-4171a6c5328d",
+   "path": "knowledge/snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone.md"
+  },
+  "https://github.com/igotthebaggggggg/easy": {
+   "id": "vdn-6db19d230bc3",
+   "path": "knowledge/snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de.md"
   }
  },
  "fingerprints": {
@@ -1210,6 +1242,23 @@
   "2ebd887a7b3ffda1": "vdn-8d161367f414",
   "e457cbcc4f1e52a2": "vdn-8d161367f414",
   "8f7444bbdc03b4e5": "vdn-472351e3fa2d",
-  "ba5c18eb87f6522e": "vdn-472351e3fa2d"
+  "ba5c18eb87f6522e": "vdn-472351e3fa2d",
+  "8c8b598707384a47": "vdn-ef3e0a4fd7c4",
+  "d5c3ec49563ac359": "vdn-d58d7cf22396",
+  "aa1afd9b4e003d3f": "vdn-d58d7cf22396",
+  "b299a49d829ea3cc": "vdn-d58d7cf22396",
+  "cf9c89ea57e5e34d": "vdn-d58d7cf22396",
+  "245a89561a9ec252": "vdn-d58d7cf22396",
+  "46805a9124bc427c": "vdn-d58d7cf22396",
+  "9c764621684aaa10": "vdn-d58d7cf22396",
+  "7bd5f3e649dcfc54": "vdn-d58d7cf22396",
+  "5dd1aaff0a2b7867": "vdn-c84c688ead4e",
+  "0e4ece16ce1ae3c0": "vdn-c84c688ead4e",
+  "425ebbf8c1c07552": "vdn-c84c688ead4e",
+  "873d6b9c202b27fd": "vdn-2a7fa8075366",
+  "529efdf75997c6ef": "vdn-82c6546401ed",
+  "f55c845eabe033ac": "vdn-82c6546401ed",
+  "4979fef39a00accd": "vdn-1f56feeb8e65",
+  "51c64b014b72323a": "vdn-4171a6c5328d"
  }
 }
