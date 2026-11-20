@@ -26,3 +26,4 @@
 {"utc": "2026-11-19T08:52:26+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.9, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-19T11:55:25+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.9, "negatives_clean": 1.0, "planner_ok": 1.0}}
 {"utc": "2026-11-19T18:19:41+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.9, "negatives_clean": 1.0, "planner_ok": 1.0}}
+{"utc": "2026-11-20T01:17:25+00:00", "fingerprint": "5af458231264", "metrics": {"relevance_f1": 0.762, "relevance_precision": 0.667, "rag_hit_at_3": 0.9, "rag_mrr": 0.9, "negatives_clean": 1.0, "planner_ok": 1.0}}

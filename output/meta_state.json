@@ -252,12 +252,12 @@
         "best_mean": 0.12
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.332,
-        "returned": 24,
+        "returned": 28,
         "accepted": 2,
         "new": 2,
-        "offtopic": 22,
+        "offtopic": 26,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -266,6 +266,7 @@
           0.0,
           0.0,
           0.332,
+          0.0,
           0.0,
           0.0
         ],
@@ -354,12 +355,12 @@
         "best_mean": 0.05226666666666666
       },
       "facet": {
-        "n": 6,
+        "n": 7,
         "reward": 0.1088,
-        "returned": 20,
+        "returned": 24,
         "accepted": 1,
         "new": 1,
-        "offtopic": 12,
+        "offtopic": 15,
         "duplicates": 1,
         "errors": 0,
         "empty": 1,
@@ -369,7 +370,8 @@
           0.0,
           0.0,
           0.0,
-          0.1088
+          0.1088,
+          0.0
         ],
         "best_mean": 0.01813333333333333
       }
@@ -553,13 +555,13 @@
     },
     "roblox_docs:forest": {
       "terms": {
-        "n": 7,
-        "reward": 1.1179999999999999,
-        "returned": 20,
+        "n": 8,
+        "reward": 1.3399999999999999,
+        "returned": 24,
         "accepted": 4,
         "new": 4,
-        "offtopic": 10,
-        "duplicates": 6,
+        "offtopic": 11,
+        "duplicates": 9,
         "errors": 0,
         "empty": 2,
         "recent": [
@@ -569,7 +571,8 @@
           0.132,
           0.0,
           0.062,
-          0.124
+          0.124,
+          0.222
         ],
         "best_mean": 0.8
       },
@@ -616,12 +619,12 @@
     },
     "roblox_docs:snow": {
       "terms": {
-        "n": 7,
+        "n": 8,
         "reward": 2.7140000000000004,
-        "returned": 23,
+        "returned": 27,
         "accepted": 6,
         "new": 6,
-        "offtopic": 6,
+        "offtopic": 10,
         "duplicates": 11,
         "errors": 0,
         "empty": 0,
@@ -632,7 +635,8 @@
           0.0,
           0.088,
           0.0,
-          0.55
+          0.55,
+          0.0
         ],
         "best_mean": 0.994
       },
@@ -691,18 +695,19 @@
         "best_mean": 0.196
       },
       "synonyms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.208,
-        "returned": 12,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 7,
-        "duplicates": 0,
+        "offtopic": 10,
+        "duplicates": 1,
         "errors": 0,
         "empty": 1,
         "recent": [
           0.0,
           0.208,
+          0.0,
           0.0,
           0.0
         ],
@@ -749,12 +754,12 @@
         "best_mean": 0.086
       },
       "synonyms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.188,
-        "returned": 6,
+        "returned": 9,
         "accepted": 0,
         "new": 0,
-        "offtopic": 1,
+        "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
@@ -762,6 +767,7 @@
           0.0,
           0.0,
           0.188,
+          0.0,
           0.0
         ],
         "best_mean": 0.06266666666666666
@@ -830,12 +836,12 @@
         "best_mean": 0.24966666666666668
       },
       "facet": {
-        "n": 4,
+        "n": 5,
         "reward": 0.21,
-        "returned": 12,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 10,
+        "offtopic": 14,
         "duplicates": 1,
         "errors": 0,
         "empty": 1,
@@ -843,6 +849,7 @@
           0.184,
           0.0,
           0.026,
+          0.0,
           0.0
         ],
         "best_mean": 0.184
@@ -886,24 +893,24 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 11,
+        "n": 12,
         "reward": 2.1271999999999998,
-        "returned": 44,
+        "returned": 48,
         "accepted": 14,
         "new": 14,
-        "offtopic": 18,
-        "duplicates": 7,
+        "offtopic": 21,
+        "duplicates": 8,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.0,
           0.312,
           0.188,
           0.148,
           0.332,
           0.272,
           0.3832,
-          0.132
+          0.132,
+          0.0
         ],
         "best_mean": 0.19951999999999998
       }
@@ -931,7 +938,7 @@
         "best_mean": 0.1276
       },
       "synonyms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.888,
         "returned": 4,
         "accepted": 1,
@@ -939,13 +946,14 @@
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
-        "empty": 3,
+        "empty": 4,
         "recent": [
           0.0,
           0.0,
           0.0,
           0.0,
-          0.888
+          0.888,
+          0.0
         ],
         "best_mean": 0.1776
       },
@@ -1531,16 +1539,17 @@
         "best_mean": 0.056
       },
       "synonyms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
-        "offtopic": 3,
-        "duplicates": 1,
+        "offtopic": 6,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0
@@ -1580,16 +1589,17 @@
         "best_mean": 0.036
       },
       "synonyms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.0,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
-        "offtopic": 4,
-        "duplicates": 0,
+        "offtopic": 7,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0
         ],
         "best_mean": 0.0
@@ -1628,18 +1638,19 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.8620000000000001,
-        "returned": 11,
+        "returned": 15,
         "accepted": 2,
         "new": 2,
-        "offtopic": 1,
+        "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.312,
           0.55,
+          0.0,
           0.0
         ],
         "best_mean": 0.43100000000000005

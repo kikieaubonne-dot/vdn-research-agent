@@ -1,90 +1,40 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-19T18:18:49+00:00",
-  "finished": "2026-11-19T18:19:41+00:00",
+  "started": "2026-11-20T01:16:38+00:00",
+  "finished": "2026-11-20T01:17:25+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "Atmosphere Offset settings",
+      "query": "Atmosphere Offset tutorial",
       "topic": "forest",
       "depth": 2,
       "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 4,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 3,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-7471e0fe17f9",
-          "path": "knowledge/forest/7471e0fe17f9-velizarseleznev-switch-quick-settings-pixel-style.md",
-          "status": "candidat",
-          "topic": "forest",
-          "query": "Atmosphere Offset settings",
-          "url": "https://github.com/velizarseleznev/switch-quick-settings",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": []
     },
     {
-      "query": "Atmosphere density haze",
-      "topic": "lighting",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 1,
-      "duplicates": 4,
-      "fetched": 3,
-      "notes": [
-        {
-          "id": "vdn-dcf7d5f0a361",
-          "path": "knowledge/lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere density haze",
-          "url": "https://devforum.roblox.com/t/1978458",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-217fa5a553eb",
-          "path": "knowledge/lighting/217fa5a553eb-opensimfx-atomsfx-atmosfx-builds-a-complete-atmosp.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Atmosphere density haze",
-          "url": "https://github.com/opensimfx/atomsfx",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "Atmosphere density haze tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-dcf7d5f0a361)",
-          "topic": "lighting"
-        },
-        {
-          "query": "Atmosphere density haze settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-217fa5a553eb)",
-          "topic": "lighting"
-        }
-      ]
-    },
-    {
-      "query": "camera bobbing CFrame tutorial",
+      "query": "camera bobbing CFrame step by step implementation tutorial code",
       "topic": "fps_camera",
       "depth": 1,
-      "origin": "relance",
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "snowfall particles step by step implementation tutorial code",
+      "topic": "snow",
+      "depth": 1,
+      "origin": "relance_lacune",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -94,91 +44,68 @@
       "followups": []
     },
     {
-      "query": "snow terrain material tutorial",
-      "topic": "snow",
+      "query": "ColorCorrection horror step by step implementation tutorial code",
+      "topic": "lighting",
       "depth": 1,
-      "origin": "relance",
+      "origin": "relance_lacune",
       "status": "done",
-      "created": 1,
+      "created": 0,
       "rejected": 7,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-bea2db0c0eb0",
-          "path": "knowledge/snow/bea2db0c0eb0-create-an-environment-with-terrain.md",
-          "status": "documente",
-          "topic": "snow",
-          "query": "snow terrain material tutorial",
-          "url": "https://create.roblox.com/docs/tutorials/curriculums/core/building/create-an-environment-with-terrain",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "snow terrain material settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-bea2db0c0eb0)",
-          "topic": "snow"
-        },
-        {
-          "query": "snow terrain material tutorial step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "snow"
-        }
-      ]
+      "duplicates": 1,
+      "fetched": 7,
+      "notes": [],
+      "followups": []
     }
   ],
-  "created": 4,
-  "fetched": 27,
-  "rejected": 23,
-  "followups_added": 4,
+  "created": 0,
+  "fetched": 31,
+  "rejected": 31,
+  "followups_added": 0,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 86,
+      "pending": 82,
       "running": 0,
-      "done": 54,
+      "done": 58,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-19",
-      "items": 12,
-      "fetch": 90
+      "date": "2026-11-20",
+      "items": 4,
+      "fetch": 31
     },
     "next": [
       {
-        "query": "Atmosphere Offset tutorial",
+        "query": "Atmosphere Offset step by step implementation tutorial code",
         "topic": "forest",
         "priority": 9.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "camera bobbing CFrame step by step implementation tutorial code",
+        "query": "camera bobbing CFrame settings",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "snowfall particles step by step implementation tutorial code",
-        "topic": "snow",
-        "priority": 8.5,
-        "depth": 1,
-        "origin": "relance_lacune"
-      },
-      {
-        "query": "ColorCorrection horror step by step implementation tutorial code",
+        "query": "light shadows performance tutorial",
         "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
+      },
+      {
+        "query": "Decal Color3",
+        "topic": "snow",
+        "priority": 8.5,
+        "depth": 1,
+        "origin": "relance"
       },
       {
         "query": "Blender animation export Roblox",

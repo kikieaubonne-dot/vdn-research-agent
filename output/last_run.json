@@ -1,45 +1,27 @@
 {
-  "started_utc": "2026-11-19T18:19:27+00:00",
+  "started_utc": "2026-11-20T01:17:15+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
-  "fetched": 8,
-  "accepted": 1,
-  "created": 1,
+  "returned": 8,
+  "fetched": 7,
+  "accepted": 0,
+  "created": 0,
   "updated": 0,
-  "duplicates": 3,
+  "duplicates": 1,
   "rejected": 7,
   "errors": [],
   "rejection_reasons": {
-    "pas assez de contenu technique": 6,
-    "hors sujet": 4,
-    "aucun lien avec Roblox ou la chaîne Blender": 3
+    "hors sujet": 7,
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "snow",
-      "origin": "relance",
-      "strategy": "terms",
-      "query": "snow terrain material tutorial",
-      "returned": 4,
-      "accepted": 1,
-      "new": 1,
-      "updated": 0,
-      "duplicates": 3,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 1.0,
-      "duration_s": 1.2,
-      "reward": 0.55
-    },
-    {
-      "provider": "devforum",
-      "topic": "snow",
-      "origin": "relance",
+      "topic": "lighting",
+      "origin": "relance_lacune",
       "strategy": "facet",
-      "query": "snow terrain material bug",
+      "query": "ColorCorrection horror step bug",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -47,106 +29,109 @@
       "duplicates": 0,
       "offtopic": 4,
       "error": null,
-      "technical_mean": 0.06,
-      "duration_s": 5.33,
+      "technical_mean": 0.19,
+      "duration_s": 4.42,
       "reward": 0.0
     },
     {
-      "provider": "github",
-      "topic": "snow",
-      "origin": "relance",
+      "provider": "devforum",
+      "topic": "lighting",
+      "origin": "relance_lacune",
       "strategy": "facet",
-      "query": "snow terrain material bug",
+      "query": "ColorCorrection horror step bug",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 0,
+      "duplicates": 1,
       "offtopic": 3,
       "error": null,
-      "technical_mean": 0.053,
-      "duration_s": 7.38,
+      "technical_mean": 0.32,
+      "duration_s": 3.96,
+      "reward": 0.0
+    },
+    {
+      "provider": "github",
+      "topic": "lighting",
+      "origin": "relance_lacune",
+      "strategy": "synonyms",
+      "query": "ColorCorrection horror step tutorial",
+      "returned": 0,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 0.0,
+      "duration_s": 0.96,
       "reward": 0.0
     }
   ],
-  "created_notes": [
-    {
-      "id": "vdn-bea2db0c0eb0",
-      "path": "knowledge/snow/bea2db0c0eb0-create-an-environment-with-terrain.md",
-      "status": "documente",
-      "topic": "snow",
-      "query": "snow terrain material tutorial",
-      "url": "https://create.roblox.com/docs/tutorials/curriculums/core/building/create-an-environment-with-terrain"
-    }
-  ],
+  "created_notes": [],
   "rejected_candidates": [
     {
-      "topical": 0.583,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.708,
-      "technical": 0.08,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.08)"
-      ]
-    },
-    {
-      "topical": 0.583,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.292,
-      "technical": 0.08,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.292 < 0.5)",
-        "pas assez de contenu technique (0.08)"
-      ]
-    },
-    {
-      "topical": 0.292,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.292 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.167,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.167,
+      "topical": 0.3,
       "technical": 0.16,
-      "roblox": false,
+      "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender"
+        "hors sujet (pertinence 0.3 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.3,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.3 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.2,
+      "technical": 0.44,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.2 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.2,
+      "technical": 0.16,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.2 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.267,
+      "technical": 0.44,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.267 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.367,
+      "technical": 0.32,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.367 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.267,
+      "technical": 0.2,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.267 < 0.5)"
       ]
     }
   ],
@@ -155,5 +140,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-19T18:19:40+00:00"
+  "finished_utc": "2026-11-20T01:17:25+00:00"
 }
