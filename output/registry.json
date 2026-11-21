@@ -615,6 +615,10 @@
   "https://github.com/m77203211/w": {
    "id": "vdn-7c9737244b82",
    "path": "knowledge/snow/7c9737244b82-m77203211-w-22-32-56-755-id-custom-rooms-classname.md"
+  },
+  "https://github.com/cschladetsch/rustraymarcher": {
+   "id": "vdn-1eeec06b8f0f",
+   "path": "knowledge/lighting/1eeec06b8f0f-cschladetsch-rustraymarcher-3d-fractal-ray-marcher.md"
   }
  },
  "fingerprints": {
@@ -1298,6 +1302,13 @@
   "47c2e444651c9cc6": "vdn-1ae480ace265",
   "4e183793778fa799": "vdn-80f790b43547",
   "f63f0d0d797542b0": "vdn-3f6876f2e6c4",
-  "f30ffafac021733d": "vdn-3f6876f2e6c4"
+  "f30ffafac021733d": "vdn-3f6876f2e6c4",
+  "60a77a51eafa1d0d": "vdn-1eeec06b8f0f",
+  "af5ebea2c9605fed": "vdn-5fe0c7749076",
+  "34ef72c291e1ff49": "vdn-5fe0c7749076",
+  "70e81d5f84e8ae86": "vdn-0ab84d1b35db",
+  "9dff452a323d61fc": "vdn-0ab84d1b35db",
+  "d7b5415a0cfeb23d": "vdn-0ab84d1b35db",
+  "35a8f5b086359e4e": "vdn-11630d9087d5"
  }
 }

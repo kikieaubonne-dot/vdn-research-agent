@@ -1,32 +1,33 @@
 {
-  "started_utc": "2026-11-20T17:51:01+00:00",
+  "started_utc": "2026-11-21T00:00:29+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 11,
+  "returned": 12,
   "fetched": 8,
-  "accepted": 4,
-  "created": 4,
+  "accepted": 0,
+  "created": 0,
   "updated": 0,
-  "duplicates": 3,
-  "rejected": 4,
+  "duplicates": 4,
+  "rejected": 8,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 3,
-    "aucun lien avec Roblox ou la chaîne Blender": 1
+    "hors sujet": 8,
+    "aucun lien avec Roblox ou la chaîne Blender": 4,
+    "pas assez de contenu technique": 4
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
       "topic": "snow",
       "origin": "relance",
-      "strategy": "terms",
-      "query": "Decal Transparency",
-      "returned": 3,
+      "strategy": "synonyms",
+      "query": "snowy footprints decal tutorial",
+      "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 3,
+      "duplicates": 4,
       "offtopic": 0,
       "error": null,
       "technical_mean": 0.0,
@@ -38,105 +39,116 @@
       "topic": "snow",
       "origin": "relance",
       "strategy": "facet",
-      "query": "Decal Transparency bug",
+      "query": "snow footprints decal settings",
       "returned": 4,
-      "accepted": 1,
-      "new": 1,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 3,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.35,
-      "duration_s": 6.19,
-      "reward": 0.14
+      "technical_mean": 0.3,
+      "duration_s": 5.15,
+      "reward": 0.0
     },
     {
       "provider": "github",
       "topic": "snow",
       "origin": "relance",
       "strategy": "terms",
-      "query": "Decal Transparency",
+      "query": "snow footprints decal tutorial",
       "returned": 4,
-      "accepted": 3,
-      "new": 3,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 1,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.27,
-      "duration_s": 8.41,
-      "reward": 0.508
+      "technical_mean": 0.0,
+      "duration_s": 8.05,
+      "reward": 0.0
     }
   ],
-  "created_notes": [
-    {
-      "id": "vdn-3f6876f2e6c4",
-      "path": "knowledge/snow/3f6876f2e6c4-decal-overlapping-bug.md",
-      "status": "documente",
-      "topic": "snow",
-      "query": "Decal Transparency",
-      "url": "https://devforum.roblox.com/t/1212598"
-    },
-    {
-      "id": "vdn-0173454d7a6e",
-      "path": "knowledge/snow/0173454d7a6e-derpatron666-uh-something-fridgeclan-strikes-again.md",
-      "status": "candidat",
-      "topic": "snow",
-      "query": "Decal Transparency",
-      "url": "https://github.com/derpatron666/uh-something"
-    },
-    {
-      "id": "vdn-de5c2f83a861",
-      "path": "knowledge/snow/de5c2f83a861-m77203211-eeeeeee-id-custom-rooms-classname-folder.md",
-      "status": "candidat",
-      "topic": "snow",
-      "query": "Decal Transparency",
-      "url": "https://github.com/m77203211/eeeeeee"
-    },
-    {
-      "id": "vdn-7c9737244b82",
-      "path": "knowledge/snow/7c9737244b82-m77203211-w-22-32-56-755-id-custom-rooms-classname.md",
-      "status": "candidat",
-      "topic": "snow",
-      "query": "Decal Transparency",
-      "url": "https://github.com/m77203211/w"
-    }
-  ],
+  "created_notes": [],
   "rejected_candidates": [
     {
-      "topical": 0.375,
-      "technical": 0.52,
+      "topical": 0.125,
+      "technical": 0.44,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.375 < 0.5)"
+        "hors sujet (pertinence 0.125 < 0.5)"
       ]
     },
     {
-      "topical": 0.375,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.375 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.375,
+      "topical": 0.292,
       "technical": 0.2,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.375 < 0.5)"
+        "hors sujet (pertinence 0.292 < 0.5)"
       ]
     },
     {
-      "topical": 0.75,
+      "topical": 0.292,
+      "technical": 0.32,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.292 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.458,
       "technical": 0.24,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.458 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.0,
       "roblox": false,
       "noise": [],
       "reasons": [
-        "aucun lien avec Roblox ou la chaîne Blender"
+        "hors sujet (pertinence 0.417 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.292,
+      "technical": 0.0,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.292 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.0,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.0,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
       ]
     }
   ],
@@ -145,5 +157,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-20T17:51:15+00:00"
+  "finished_utc": "2026-11-21T00:00:42+00:00"
 }
