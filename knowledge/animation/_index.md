@@ -2,11 +2,22 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Candidat (3)
+## Documenté (5)
 
+- [[animation/77a67eafabb0-export-avatar-animations-from-maya|Export avatar animations from Maya]] — niv. 1 · conf. moyenne — « title: "Export avatar animations from Maya" »
+- [[animation/1a66b4f33bae-blender-export-trouble|Blender export trouble]] — niv. 2 · conf. faible — « I have made a barrel in Blender and want to export it into Roblox Studio. »
+- [[animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender|How do you export Roblox animations into blender]] — niv. 2 · conf. faible — « I’ve developed a plugin for Roblox that can export any Roblox rig into Blender and generate a Blender Armature (rig) equivalent to the Roblo… »
+- [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
+- [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
+
+## Candidat (6)
+
+- [[animation/7ce009e766f3-export-and-import-animations|Export and Import Animations]] — niv. 1 · conf. faible — « Export animations to share with other developers." »
+- [[animation/0a9d12ab6395-export-animations|Export animations]] — niv. 1 · conf. faible — « To use the animation, it will need to be exported from the animation editor to the Roblox platform. »
 - [[traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo|Building a parkour system cuz i'm bored(devlog)]] — niv. 2 · conf. faible
 - [[traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system|Creating an advanced ledge climbing system]] — niv. 2 · conf. faible
 - [[traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system|How do I create a ledge climbing system?]] — niv. 2 · conf. faible
+- [[animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest|Jim-Kroovy/mr_mannequins_tools — Install the latest release for intuitive Blender imports and easy Unreal exports!]] — niv. 3 · conf. faible — « Alongside the core Manny and Quinn import/export workflow, you'll find tools for: »
 
 ## Rejetées / obsolètes (8)
 

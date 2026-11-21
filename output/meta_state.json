@@ -667,16 +667,17 @@
         "best_mean": 0.3333
       },
       "facet": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 12,
         "accepted": 0,
         "new": 0,
         "offtopic": 8,
-        "duplicates": 0,
+        "duplicates": 4,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -685,13 +686,13 @@
     },
     "devforum:snow": {
       "terms": {
-        "n": 5,
-        "reward": 0.232,
-        "returned": 17,
-        "accepted": 2,
-        "new": 2,
-        "offtopic": 15,
-        "duplicates": 0,
+        "n": 6,
+        "reward": 0.362,
+        "returned": 21,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 17,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -699,7 +700,8 @@
           0.0,
           0.0,
           0.0,
-          0.036
+          0.036,
+          0.13
         ],
         "best_mean": 0.196
       },
@@ -746,23 +748,23 @@
     },
     "github:snow": {
       "terms": {
-        "n": 8,
+        "n": 9,
         "reward": 1.0659999999999998,
-        "returned": 19,
+        "returned": 23,
         "accepted": 5,
         "new": 5,
-        "offtopic": 6,
+        "offtopic": 10,
         "duplicates": 0,
         "errors": 0,
         "empty": 3,
         "recent": [
           0.0,
           0.0,
-          0.0,
           0.344,
           0.0,
           0.214,
           0.508,
+          0.0,
           0.0
         ],
         "best_mean": 0.15228571428571427
@@ -829,23 +831,23 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 10,
+        "n": 11,
         "reward": 2.149,
-        "returned": 30,
+        "returned": 33,
         "accepted": 3,
         "new": 3,
-        "offtopic": 10,
-        "duplicates": 12,
+        "offtopic": 12,
+        "duplicates": 13,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.264,
           0.0,
           0.0,
           0.35,
           0.0,
           0.5,
           0.55,
+          0.0,
           0.0
         ],
         "best_mean": 0.24966666666666668
@@ -872,13 +874,13 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.1672,
-        "returned": 18,
+        "returned": 22,
         "accepted": 1,
         "new": 1,
-        "offtopic": 11,
-        "duplicates": 1,
+        "offtopic": 13,
+        "duplicates": 3,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -886,7 +888,8 @@
           0.0,
           0.0,
           0.0,
-          0.1672
+          0.1672,
+          0.0
         ],
         "best_mean": 0.03344
       },
@@ -955,24 +958,24 @@
         "best_mean": 0.1276
       },
       "synonyms": {
-        "n": 9,
+        "n": 10,
         "reward": 1.5899999999999999,
-        "returned": 16,
+        "returned": 20,
         "accepted": 5,
         "new": 5,
-        "offtopic": 5,
+        "offtopic": 9,
         "duplicates": 1,
         "errors": 0,
         "empty": 4,
         "recent": [
           0.0,
           0.0,
-          0.0,
           0.888,
           0.0,
           0.4048,
           0.1512,
-          0.146
+          0.146,
+          0.0
         ],
         "best_mean": 0.1846857142857143
       },
@@ -1576,17 +1579,18 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.22,
-        "returned": 12,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 7,
-        "duplicates": 4,
+        "offtopic": 9,
+        "duplicates": 6,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.22,
+          0.0,
           0.0,
           0.0
         ],
@@ -1629,18 +1633,19 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.28400000000000003,
-        "returned": 12,
+        "returned": 16,
         "accepted": 3,
         "new": 3,
-        "offtopic": 9,
+        "offtopic": 13,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.268,
           0.016,
+          0.0,
           0.0
         ],
         "best_mean": 0.268
@@ -1648,16 +1653,17 @@
     },
     "github:fps_camera": {
       "terms": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 9,
         "accepted": 0,
         "new": 0,
-        "offtopic": 1,
+        "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -1744,6 +1750,57 @@
           0.0
         ],
         "best_mean": 0.0
+      }
+    },
+    "roblox_docs:blender_animation": {
+      "terms": {
+        "n": 1,
+        "reward": 0.7272,
+        "returned": 4,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 0,
+        "duplicates": 1,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.7272
+        ],
+        "best_mean": 0.7272
+      }
+    },
+    "devforum:blender_animation": {
+      "terms": {
+        "n": 1,
+        "reward": 0.892,
+        "returned": 4,
+        "accepted": 4,
+        "new": 4,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.892
+        ],
+        "best_mean": 0.892
+      }
+    },
+    "github:blender_animation": {
+      "terms": {
+        "n": 1,
+        "reward": 0.294,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 0,
+        "duplicates": 1,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.294
+        ],
+        "best_mean": 0.294
       }
     }
   }

@@ -1430,11 +1430,37 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-21T07:12:33+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 8,
+        "rejected": 0,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-77a67eafabb0",
+          "vdn-0a9d12ab6395",
+          "vdn-7ce009e766f3",
+          "vdn-c8a336cbfc57",
+          "vdn-2b0a19448bca",
+          "vdn-1a66b4f33bae",
+          "vdn-b69331a599eb",
+          "vdn-1f830f8d303a"
+        ],
+        "followups": [
+          "Blender animation export settings",
+          "Blender animation export tutorial",
+          "Keyframe settings",
+          "Keyframe tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795245141.9081688,
+      "finished_ts": 1795245153.4041152
     },
     "a12910e1f9d69453": {
       "key": "a12910e1f9d69453",
@@ -2588,11 +2614,25 @@
       "depth": 1,
       "parent": "969d6a82cbe10bef",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-abfb1e76db63)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T10:13:15+00:00",
-      "updated": "2026-11-18T10:13:15+00:00",
-      "result": null
+      "updated": "2026-11-21T07:11:55+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "viewmodel arms camera settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795245105.695488,
+      "finished_ts": 1795245115.6548889
     },
     "49b6aad2836fb0ff": {
       "key": "49b6aad2836fb0ff",
@@ -2784,11 +2824,29 @@
       "depth": 1,
       "parent": "b194a61a4d147c60",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-0c6ae3fae482)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:31+00:00",
-      "updated": "2026-11-18T18:53:31+00:00",
-      "result": null
+      "updated": "2026-11-21T07:12:07+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [
+          "vdn-0ab84d1b35db"
+        ],
+        "followups": [
+          "Decal settings tutorial",
+          "Decal settings step by step implementation tutorial code",
+          "Decal settings Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795245115.6589227,
+      "finished_ts": 1795245127.8506422
     },
     "0181c8cbca252c64": {
       "key": "0181c8cbca252c64",
@@ -2957,11 +3015,23 @@
       "depth": 1,
       "parent": "7add448f671e6e27",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:14:56+00:00",
-      "updated": "2026-11-19T01:14:56+00:00",
-      "result": null
+      "updated": "2026-11-21T07:12:21+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795245127.8550777,
+      "finished_ts": 1795245141.9035618
     },
     "26691311b060f3eb": {
       "key": "26691311b060f3eb",
@@ -3322,11 +3392,131 @@
       "created": "2026-11-20T17:51:15+00:00",
       "updated": "2026-11-20T17:51:15+00:00",
       "result": null
+    },
+    "57862448cd1622c7": {
+      "key": "57862448cd1622c7",
+      "topic": "fps_camera",
+      "query": "viewmodel arms camera settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "e5d223c78a9503e7",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:11:55+00:00",
+      "updated": "2026-11-21T07:11:55+00:00",
+      "result": null
+    },
+    "0c303f9b0cde4ca5": {
+      "key": "0c303f9b0cde4ca5",
+      "topic": "snow",
+      "query": "Decal settings tutorial",
+      "priority": 8.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "9b834002cfcc973a",
+      "reason": "lacune : aucune etape exploitable (vdn-0ab84d1b35db)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:07+00:00",
+      "updated": "2026-11-21T07:12:07+00:00",
+      "result": null
+    },
+    "cefc6a8b14fa07f8": {
+      "key": "cefc6a8b14fa07f8",
+      "topic": "snow",
+      "query": "Decal settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "9b834002cfcc973a",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:07+00:00",
+      "updated": "2026-11-21T07:12:07+00:00",
+      "result": null
+    },
+    "8b7f634eebdf94a2": {
+      "key": "8b7f634eebdf94a2",
+      "topic": "snow",
+      "query": "Decal settings Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "9b834002cfcc973a",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:07+00:00",
+      "updated": "2026-11-21T07:12:07+00:00",
+      "result": null
+    },
+    "3d52ecb6c129d3af": {
+      "key": "3d52ecb6c129d3af",
+      "topic": "blender_animation",
+      "query": "Blender animation export settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "039742376eb01a03",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-77a67eafabb0)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:33+00:00",
+      "updated": "2026-11-21T07:12:33+00:00",
+      "result": null
+    },
+    "3a3f58984dec6c38": {
+      "key": "3a3f58984dec6c38",
+      "topic": "blender_animation",
+      "query": "Blender animation export tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "039742376eb01a03",
+      "reason": "lacune : aucune etape exploitable (vdn-0a9d12ab6395)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:33+00:00",
+      "updated": "2026-11-21T07:12:33+00:00",
+      "result": null
+    },
+    "1a43539e612fbf6a": {
+      "key": "1a43539e612fbf6a",
+      "topic": "blender_animation",
+      "query": "Keyframe settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "039742376eb01a03",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-7ce009e766f3)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:33+00:00",
+      "updated": "2026-11-21T07:12:33+00:00",
+      "result": null
+    },
+    "ea1603d9e154c0e3": {
+      "key": "ea1603d9e154c0e3",
+      "topic": "blender_animation",
+      "query": "Keyframe tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "039742376eb01a03",
+      "reason": "lacune : aucune etape exploitable (vdn-7ce009e766f3)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T07:12:33+00:00",
+      "updated": "2026-11-21T07:12:33+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-21",
-    "items": 4,
-    "fetch": 32
+    "items": 8,
+    "fetch": 62
   }
 }

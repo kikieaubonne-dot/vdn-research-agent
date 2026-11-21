@@ -619,6 +619,42 @@
   "https://github.com/cschladetsch/rustraymarcher": {
    "id": "vdn-1eeec06b8f0f",
    "path": "knowledge/lighting/1eeec06b8f0f-cschladetsch-rustraymarcher-3d-fractal-ray-marcher.md"
+  },
+  "https://devforum.roblox.com/t/2082347": {
+   "id": "vdn-0ab84d1b35db",
+   "path": "knowledge/snow/0ab84d1b35db-setting-decal-by-id-does-not-work.md"
+  },
+  "https://create.roblox.com/docs/art/characters/export-avatar-animations-from-maya": {
+   "id": "vdn-77a67eafabb0",
+   "path": "knowledge/animation/77a67eafabb0-export-avatar-animations-from-maya.md"
+  },
+  "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/exporting-animations": {
+   "id": "vdn-0a9d12ab6395",
+   "path": "knowledge/animation/0a9d12ab6395-export-animations.md"
+  },
+  "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/sharing-animations": {
+   "id": "vdn-7ce009e766f3",
+   "path": "knowledge/animation/7ce009e766f3-export-and-import-animations.md"
+  },
+  "https://devforum.roblox.com/t/2050308": {
+   "id": "vdn-c8a336cbfc57",
+   "path": "knowledge/animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender.md"
+  },
+  "https://devforum.roblox.com/t/2570890": {
+   "id": "vdn-2b0a19448bca",
+   "path": "knowledge/animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox.md"
+  },
+  "https://devforum.roblox.com/t/1268254": {
+   "id": "vdn-1a66b4f33bae",
+   "path": "knowledge/animation/1a66b4f33bae-blender-export-trouble.md"
+  },
+  "https://devforum.roblox.com/t/1523296": {
+   "id": "vdn-b69331a599eb",
+   "path": "knowledge/animation/b69331a599eb-how-to-export-textures-from-blender.md"
+  },
+  "https://github.com/jim-kroovy/mr_mannequins_tools": {
+   "id": "vdn-1f830f8d303a",
+   "path": "knowledge/animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest.md"
   }
  },
  "fingerprints": {
@@ -1309,6 +1345,52 @@
   "70e81d5f84e8ae86": "vdn-0ab84d1b35db",
   "9dff452a323d61fc": "vdn-0ab84d1b35db",
   "d7b5415a0cfeb23d": "vdn-0ab84d1b35db",
-  "35a8f5b086359e4e": "vdn-11630d9087d5"
+  "35a8f5b086359e4e": "vdn-11630d9087d5",
+  "7c88132fb0556c8e": "vdn-46aa7620aa62",
+  "2fee97e0a84477b3": "vdn-46aa7620aa62",
+  "36670ce4663a1b6f": "vdn-46aa7620aa62",
+  "bc64250a7393fc15": "vdn-46aa7620aa62",
+  "d173cbff697802e6": "vdn-46aa7620aa62",
+  "5771acacb4fd3712": "vdn-46aa7620aa62",
+  "d88bbf6c352599f3": "vdn-46aa7620aa62",
+  "b9fb74b8fb8a3092": "vdn-46aa7620aa62",
+  "81d4c589b1a6f7d1": "vdn-9651a929d03e",
+  "94260c7e06cd2ed5": "vdn-68fa93f7dc77",
+  "839662bf9e719482": "vdn-68fa93f7dc77",
+  "8128eaa6d451c2cf": "vdn-aec47a266aa9",
+  "cd917b7ab8841c1c": "vdn-aec47a266aa9",
+  "30ff2418f579b724": "vdn-77a67eafabb0",
+  "1f467023d6acd856": "vdn-77a67eafabb0",
+  "11afb950c40049d7": "vdn-77a67eafabb0",
+  "5dbd0f6fd9889af3": "vdn-77a67eafabb0",
+  "e9fe0fffb2a24ea5": "vdn-77a67eafabb0",
+  "ed3d494d5314d301": "vdn-77a67eafabb0",
+  "077811cf8af0e6be": "vdn-77a67eafabb0",
+  "3bcb8f639e170da4": "vdn-77a67eafabb0",
+  "e2d1118b1b30e9d1": "vdn-0a9d12ab6395",
+  "c289f4bd5640f0da": "vdn-0a9d12ab6395",
+  "838d8a7c634e68e2": "vdn-7ce009e766f3",
+  "53494b6bcb48a2a5": "vdn-7ce009e766f3",
+  "60b92f52ff4c27fd": "vdn-7ce009e766f3",
+  "a23075ba765c7a71": "vdn-7ce009e766f3",
+  "79c5b1780952edd7": "vdn-7ce009e766f3",
+  "b25a7ff60d0d2317": "vdn-c8a336cbfc57",
+  "49206cd8ccbd9bde": "vdn-c8a336cbfc57",
+  "d5e3de5d2a0e1920": "vdn-c8a336cbfc57",
+  "2cf8f6f49fe803a4": "vdn-c8a336cbfc57",
+  "a5f3e706e1cde776": "vdn-2b0a19448bca",
+  "e3436d06c8563a2f": "vdn-2b0a19448bca",
+  "587d98cd2523bd36": "vdn-2b0a19448bca",
+  "8072b0fe9fc65ae7": "vdn-2b0a19448bca",
+  "62e432d728810e48": "vdn-2b0a19448bca",
+  "b53656cf6a8aceea": "vdn-2b0a19448bca",
+  "902241b2f2fc6efd": "vdn-1a66b4f33bae",
+  "ceda0a5a91aa7baf": "vdn-1a66b4f33bae",
+  "5a437cc23e5fba1f": "vdn-b69331a599eb",
+  "41a27ea77c567a19": "vdn-b69331a599eb",
+  "e445c4a4ab75a505": "vdn-b69331a599eb",
+  "ed11c39d39870312": "vdn-b69331a599eb",
+  "8fe84cdef962315c": "vdn-1f830f8d303a",
+  "bb78a282d8143d25": "vdn-1f830f8d303a"
  }
 }

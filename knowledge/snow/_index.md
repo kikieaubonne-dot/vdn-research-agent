@@ -16,8 +16,9 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate|[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements]] — niv. 1 · conf. moyenne — « As of today (10/27), the performance improvements are only available in Studio. »
 - [[snow/3f6876f2e6c4-decal-overlapping-bug|Decal Overlapping Bug]] — niv. 2 · conf. faible — « If what you’re implying is that the grey cube on the right is actually supposed to be behind the cube on the left, then the only reason this… »
 
-## Candidat (9)
+## Candidat (10)
 
+- [[snow/0ab84d1b35db-setting-decal-by-id-does-not-work|Setting decal by ID does not work]] — niv. 1 · conf. faible — « game.Workspace.Background.Decal.Texture = "rbxassetid//"..txt »
 - [[snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone|Because Color3 tint not working on textures: Clone texture and flip it for Decal]] — niv. 2 · conf. faible — « Because textures do not use Color3 to get tinted but decals do (If you know how to make color3 tint on textures, let me know…), I have to us… »
 - [[snow/fe4c577081af-collisions-on-meshs|Collisions On Meshs]] — niv. 2 · conf. faible — « You can get polygon perfect collisions by setting the “collision fidelity” option to Precise Convex Decomposition »
 - [[snow/dc0fb8c0f0a2-how-to-detect-terrain-material|How to Detect Terrain Material]] — niv. 2 · conf. faible — « Detect smooth terrain material under part Scripting Support »

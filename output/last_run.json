@@ -1,161 +1,141 @@
 {
-  "started_utc": "2026-11-21T00:00:29+00:00",
+  "started_utc": "2026-11-21T07:12:21+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 0,
-  "created": 0,
+  "accepted": 8,
+  "created": 8,
   "updated": 0,
-  "duplicates": 4,
-  "rejected": 8,
+  "duplicates": 2,
+  "rejected": 0,
   "errors": [],
-  "rejection_reasons": {
-    "hors sujet": 8,
-    "aucun lien avec Roblox ou la chaîne Blender": 4,
-    "pas assez de contenu technique": 4
-  },
+  "rejection_reasons": {},
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "snow",
-      "origin": "relance",
-      "strategy": "synonyms",
-      "query": "snowy footprints decal tutorial",
+      "topic": "blender_animation",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "Blender animation export",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 3,
+      "new": 3,
       "updated": 0,
-      "duplicates": 4,
+      "duplicates": 1,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.02,
-      "reward": 0.0
+      "technical_mean": 0.693,
+      "duration_s": 3.54,
+      "reward": 0.7272
     },
     {
       "provider": "devforum",
-      "topic": "snow",
-      "origin": "relance",
-      "strategy": "facet",
-      "query": "snow footprints decal settings",
+      "topic": "blender_animation",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "Blender animation export",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 4,
+      "new": 4,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 4,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.3,
-      "duration_s": 5.15,
-      "reward": 0.0
+      "technical_mean": 0.73,
+      "duration_s": 5.25,
+      "reward": 0.892
     },
     {
       "provider": "github",
-      "topic": "snow",
-      "origin": "relance",
+      "topic": "blender_animation",
+      "origin": "seed",
       "strategy": "terms",
-      "query": "snow footprints decal tutorial",
+      "query": "Blender animation export",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 4,
+      "duplicates": 1,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 8.05,
-      "reward": 0.0
+      "technical_mean": 0.36,
+      "duration_s": 2.69,
+      "reward": 0.294
     }
   ],
-  "created_notes": [],
-  "rejected_candidates": [
+  "created_notes": [
     {
-      "topical": 0.125,
-      "technical": 0.44,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.125 < 0.5)"
-      ]
+      "id": "vdn-77a67eafabb0",
+      "path": "knowledge/animation/77a67eafabb0-export-avatar-animations-from-maya.md",
+      "status": "documente",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://create.roblox.com/docs/art/characters/export-avatar-animations-from-maya"
     },
     {
-      "topical": 0.292,
-      "technical": 0.2,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.292 < 0.5)"
-      ]
+      "id": "vdn-0a9d12ab6395",
+      "path": "knowledge/animation/0a9d12ab6395-export-animations.md",
+      "status": "candidat",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/exporting-animations"
     },
     {
-      "topical": 0.292,
-      "technical": 0.32,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.292 < 0.5)"
-      ]
+      "id": "vdn-7ce009e766f3",
+      "path": "knowledge/animation/7ce009e766f3-export-and-import-animations.md",
+      "status": "candidat",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/sharing-animations"
     },
     {
-      "topical": 0.458,
-      "technical": 0.24,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.458 < 0.5)"
-      ]
+      "id": "vdn-c8a336cbfc57",
+      "path": "knowledge/animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender.md",
+      "status": "documente",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://devforum.roblox.com/t/2050308"
     },
     {
-      "topical": 0.417,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
+      "id": "vdn-2b0a19448bca",
+      "path": "knowledge/animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox.md",
+      "status": "documente",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://devforum.roblox.com/t/2570890"
     },
     {
-      "topical": 0.292,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.292 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
+      "id": "vdn-1a66b4f33bae",
+      "path": "knowledge/animation/1a66b4f33bae-blender-export-trouble.md",
+      "status": "documente",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://devforum.roblox.com/t/1268254"
     },
     {
-      "topical": 0.417,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
+      "id": "vdn-b69331a599eb",
+      "path": "knowledge/animation/b69331a599eb-how-to-export-textures-from-blender.md",
+      "status": "documente",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://devforum.roblox.com/t/1523296"
     },
     {
-      "topical": 0.417,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
+      "id": "vdn-1f830f8d303a",
+      "path": "knowledge/animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest.md",
+      "status": "candidat",
+      "topic": "blender_animation",
+      "query": "Blender animation export Roblox",
+      "url": "https://github.com/jim-kroovy/mr_mannequins_tools"
     }
   ],
+  "rejected_candidates": [],
   "providers": [
     "roblox_docs",
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-21T00:00:42+00:00"
+  "finished_utc": "2026-11-21T07:12:33+00:00"
 }
