@@ -1400,11 +1400,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-21T15:24:18+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-c5e3853e32ee",
+          "vdn-56c111b389f7"
+        ],
+        "followups": [
+          "hands flashlight animation settings",
+          "hands flashlight animation tutorial",
+          "hands flashlight animation step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795274647.8809092,
+      "finished_ts": 1795274658.4894044
     },
     "2db072073b5322ec": {
       "key": "2db072073b5322ec",
@@ -2928,11 +2947,25 @@
       "depth": 1,
       "parent": "b194a61a4d147c60",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-fc2e67312ba6)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-18T18:53:31+00:00",
-      "updated": "2026-11-18T18:53:31+00:00",
-      "result": null
+      "updated": "2026-11-21T15:23:45+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-0258c29be0fa"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795274612.318433,
+      "finished_ts": 1795274625.7923598
     },
     "7aaaeb1b839b3096": {
       "key": "7aaaeb1b839b3096",
@@ -2970,11 +3003,25 @@
       "depth": 1,
       "parent": "7add448f671e6e27",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-da2cc18756a0)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:14:56+00:00",
-      "updated": "2026-11-19T01:14:56+00:00",
-      "result": null
+      "updated": "2026-11-21T15:23:58+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-473db3854bb2"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795274625.79574,
+      "finished_ts": 1795274638.896125
     },
     "d71006fd1ad55f2c": {
       "key": "d71006fd1ad55f2c",
@@ -3042,11 +3089,26 @@
       "depth": 1,
       "parent": "b8df3720537dcf96",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-1cc1e90f40db)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:15:08+00:00",
-      "updated": "2026-11-19T01:15:08+00:00",
-      "result": null
+      "updated": "2026-11-21T15:24:07+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 6,
+        "created": 0,
+        "rejected": 6,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "first person camera settings step by step implementation tutorial code",
+          "first person camera settings Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795274638.9035354,
+      "finished_ts": 1795274647.8773007
     },
     "d94688e24f89ea5b": {
       "key": "d94688e24f89ea5b",
@@ -3512,11 +3574,86 @@
       "created": "2026-11-21T07:12:33+00:00",
       "updated": "2026-11-21T07:12:33+00:00",
       "result": null
+    },
+    "3ccf366f6c814c91": {
+      "key": "3ccf366f6c814c91",
+      "topic": "fps_camera",
+      "query": "first person camera settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "26691311b060f3eb",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T15:24:07+00:00",
+      "updated": "2026-11-21T15:24:07+00:00",
+      "result": null
+    },
+    "dafdf4f89f0e7ebb": {
+      "key": "dafdf4f89f0e7ebb",
+      "topic": "fps_camera",
+      "query": "first person camera settings Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "26691311b060f3eb",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T15:24:07+00:00",
+      "updated": "2026-11-21T15:24:07+00:00",
+      "result": null
+    },
+    "3852d5ba0c10c7bd": {
+      "key": "3852d5ba0c10c7bd",
+      "topic": "fp_hands",
+      "query": "hands flashlight animation settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "0e24a017125fd352",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-c5e3853e32ee)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T15:24:18+00:00",
+      "updated": "2026-11-21T15:24:18+00:00",
+      "result": null
+    },
+    "896956d115281969": {
+      "key": "896956d115281969",
+      "topic": "fp_hands",
+      "query": "hands flashlight animation tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "0e24a017125fd352",
+      "reason": "lacune : aucune etape exploitable (vdn-56c111b389f7)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T15:24:18+00:00",
+      "updated": "2026-11-21T15:24:18+00:00",
+      "result": null
+    },
+    "a79cbd954930d6fb": {
+      "key": "a79cbd954930d6fb",
+      "topic": "fp_hands",
+      "query": "hands flashlight animation step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "0e24a017125fd352",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T15:24:18+00:00",
+      "updated": "2026-11-21T15:24:18+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-21",
-    "items": 8,
-    "fetch": 62
+    "items": 12,
+    "fetch": 92
   }
 }

@@ -655,6 +655,22 @@
   "https://github.com/jim-kroovy/mr_mannequins_tools": {
    "id": "vdn-1f830f8d303a",
    "path": "knowledge/animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest.md"
+  },
+  "https://devforum.roblox.com/t/3029622": {
+   "id": "vdn-0258c29be0fa",
+   "path": "knowledge/snow/0258c29be0fa-footprint-decals-overlapping.md"
+  },
+  "https://devforum.roblox.com/t/2398908": {
+   "id": "vdn-473db3854bb2",
+   "path": "knowledge/lighting/473db3854bb2-f-for-realistic-flashlight.md"
+  },
+  "https://create.roblox.com/docs/animation/editor": {
+   "id": "vdn-c5e3853e32ee",
+   "path": "knowledge/animation/c5e3853e32ee-animation-editor.md"
+  },
+  "https://devforum.roblox.com/t/1434813": {
+   "id": "vdn-56c111b389f7",
+   "path": "knowledge/animation/56c111b389f7-problem-with-animation-for-right-hand-only.md"
   }
  },
  "fingerprints": {
@@ -1391,6 +1407,53 @@
   "e445c4a4ab75a505": "vdn-b69331a599eb",
   "ed11c39d39870312": "vdn-b69331a599eb",
   "8fe84cdef962315c": "vdn-1f830f8d303a",
-  "bb78a282d8143d25": "vdn-1f830f8d303a"
+  "bb78a282d8143d25": "vdn-1f830f8d303a",
+  "0ab79b1476ce27d5": "vdn-0258c29be0fa",
+  "b5a2a4e4f21e85d6": "vdn-0258c29be0fa",
+  "ed942964d79ee96e": "vdn-5feb96283a6a",
+  "1926db856536692b": "vdn-5feb96283a6a",
+  "f9f3e85d9ed74f2d": "vdn-5feb96283a6a",
+  "f1cd339e57a0154d": "vdn-5feb96283a6a",
+  "4e26b15d93f172b7": "vdn-5feb96283a6a",
+  "2487e0f89c1ead79": "vdn-5feb96283a6a",
+  "a564daf95e8ea121": "vdn-5feb96283a6a",
+  "94290d9ed78de4d7": "vdn-5feb96283a6a",
+  "35ef6849d4eef1f5": "vdn-9ecfcd6024b0",
+  "810a9274aa79e1c8": "vdn-9ecfcd6024b0",
+  "b6e046fa3dca760a": "vdn-9ecfcd6024b0",
+  "0705b0129b9b9e29": "vdn-9ecfcd6024b0",
+  "53f612b1883c6ee6": "vdn-9ecfcd6024b0",
+  "84a9205c32a33d8e": "vdn-473db3854bb2",
+  "0cec4a63d1e36322": "vdn-473db3854bb2",
+  "7ddd1e7fd8d65569": "vdn-0d00c8d38dfc",
+  "e85f5f3744c80a54": "vdn-0d00c8d38dfc",
+  "9eb85a7af9191f1d": "vdn-0d00c8d38dfc",
+  "a1757743bc155111": "vdn-0d00c8d38dfc",
+  "7ab68cab6386fc54": "vdn-0d00c8d38dfc",
+  "056be7c739c98528": "vdn-0d00c8d38dfc",
+  "4ece09d14ed31da9": "vdn-0d00c8d38dfc",
+  "f458caf59609139c": "vdn-0d00c8d38dfc",
+  "579d41e360e804d0": "vdn-c5e3853e32ee",
+  "a57c945fb8d398b3": "vdn-c5e3853e32ee",
+  "140677bb7e7ed826": "vdn-c5e3853e32ee",
+  "2e4b74de3ab1014f": "vdn-c5e3853e32ee",
+  "8ca03ac9d1f6a23f": "vdn-c5e3853e32ee",
+  "f9740bbe281e339c": "vdn-c5e3853e32ee",
+  "206e554e1aa6e267": "vdn-c5e3853e32ee",
+  "12dc83d52cdc72f8": "vdn-c5e3853e32ee",
+  "26440dd72a7a1275": "vdn-49bb7932b65f",
+  "ec59b9a5880a2f44": "vdn-49bb7932b65f",
+  "5d849b0f1a198b01": "vdn-49bb7932b65f",
+  "eb43579ea9773ae9": "vdn-49bb7932b65f",
+  "b053de867a147a24": "vdn-49bb7932b65f",
+  "0401963778257fa1": "vdn-b78fc99bfc43",
+  "328763ae23f46494": "vdn-b78fc99bfc43",
+  "c55486c68848e57d": "vdn-b78fc99bfc43",
+  "5f0f73378c1147b2": "vdn-b78fc99bfc43",
+  "bb9114efc2091976": "vdn-b78fc99bfc43",
+  "04fcc7f951e9e49c": "vdn-b78fc99bfc43",
+  "363e0852db390f9a": "vdn-b78fc99bfc43",
+  "3fe3aa1f2c5d20ee": "vdn-b78fc99bfc43",
+  "719a86f520d295b6": "vdn-56c111b389f7"
  }
 }

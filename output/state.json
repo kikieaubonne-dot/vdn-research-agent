@@ -389,9 +389,13 @@
     "viewmodel arms camera settings": 1,
     "Decal settings": 1,
     "flashlight SpotLight shadows Roblox Studio implementation compatibility": 1,
-    "Blender animation export Roblox": 1
+    "Blender animation export Roblox": 1,
+    "snow footprints decal settings": 1,
+    "flashlight SpotLight shadows settings": 1,
+    "first person camera settings": 1,
+    "hands flashlight animation": 1
   },
-  "runs": 83,
+  "runs": 87,
   "errors": [],
   "rotation": 4
 }

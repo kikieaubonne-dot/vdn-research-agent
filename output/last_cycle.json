@@ -1,258 +1,182 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-21T07:11:45+00:00",
-  "finished": "2026-11-21T07:12:33+00:00",
+  "started": "2026-11-21T15:23:32+00:00",
+  "finished": "2026-11-21T15:24:18+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "viewmodel arms camera settings",
-      "topic": "fps_camera",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 0,
-      "rejected": 7,
-      "duplicates": 2,
-      "fetched": 7,
-      "notes": [],
-      "followups": [
-        {
-          "query": "viewmodel arms camera settings step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
-        }
-      ]
-    },
-    {
-      "query": "Decal settings",
+      "query": "snow footprints decal settings",
       "topic": "snow",
       "depth": 1,
       "origin": "relance",
       "status": "done",
       "created": 1,
-      "rejected": 6,
-      "duplicates": 5,
-      "fetched": 7,
+      "rejected": 7,
+      "duplicates": 3,
+      "fetched": 8,
       "notes": [
         {
-          "id": "vdn-0ab84d1b35db",
-          "path": "knowledge/snow/0ab84d1b35db-setting-decal-by-id-does-not-work.md",
+          "id": "vdn-0258c29be0fa",
+          "path": "knowledge/snow/0258c29be0fa-footprint-decals-overlapping.md",
           "status": "candidat",
           "topic": "snow",
-          "query": "Decal settings",
-          "url": "https://devforum.roblox.com/t/2082347",
+          "query": "snow footprints decal settings",
+          "url": "https://devforum.roblox.com/t/3029622",
           "missing": [
-            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
       ],
+      "followups": []
+    },
+    {
+      "query": "flashlight SpotLight shadows settings",
+      "topic": "lighting",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 4,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-473db3854bb2",
+          "path": "knowledge/lighting/473db3854bb2-f-for-realistic-flashlight.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "flashlight SpotLight shadows settings",
+          "url": "https://devforum.roblox.com/t/2398908",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "first person camera settings",
+      "topic": "fps_camera",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 0,
+      "rejected": 6,
+      "duplicates": 4,
+      "fetched": 6,
+      "notes": [],
       "followups": [
         {
-          "query": "Decal settings tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-0ab84d1b35db)",
-          "topic": "snow"
-        },
-        {
-          "query": "Decal settings step by step implementation tutorial code",
+          "query": "first person camera settings step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "snow"
+          "topic": "fps_camera"
         },
         {
-          "query": "Decal settings Roblox Studio implementation compatibility",
+          "query": "first person camera settings Roblox Studio implementation compatibility",
           "reason": "compatibilite Roblox non etablie",
-          "topic": "snow"
+          "topic": "fps_camera"
         }
       ]
     },
     {
-      "query": "flashlight SpotLight shadows Roblox Studio implementation compatibility",
-      "topic": "lighting",
-      "depth": 1,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "Blender animation export Roblox",
-      "topic": "blender_animation",
+      "query": "hands flashlight animation",
+      "topic": "fp_hands",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 8,
-      "rejected": 0,
-      "duplicates": 2,
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 0,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-77a67eafabb0",
-          "path": "knowledge/animation/77a67eafabb0-export-avatar-animations-from-maya.md",
+          "id": "vdn-c5e3853e32ee",
+          "path": "knowledge/animation/c5e3853e32ee-animation-editor.md",
           "status": "documente",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://create.roblox.com/docs/art/characters/export-avatar-animations-from-maya",
+          "topic": "fp_hands",
+          "query": "hands flashlight animation",
+          "url": "https://create.roblox.com/docs/animation/editor",
           "missing": [
             "aucun parametre chiffre dans la source"
           ]
         },
         {
-          "id": "vdn-0a9d12ab6395",
-          "path": "knowledge/animation/0a9d12ab6395-export-animations.md",
+          "id": "vdn-56c111b389f7",
+          "path": "knowledge/animation/56c111b389f7-problem-with-animation-for-right-hand-only.md",
           "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/exporting-animations",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-7ce009e766f3",
-          "path": "knowledge/animation/7ce009e766f3-export-and-import-animations.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://create.roblox.com/docs/education/build-it-play-it-island-of-move/sharing-animations",
+          "topic": "fp_hands",
+          "query": "hands flashlight animation",
+          "url": "https://devforum.roblox.com/t/1434813",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-c8a336cbfc57",
-          "path": "knowledge/animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender.md",
-          "status": "documente",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://devforum.roblox.com/t/2050308",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-2b0a19448bca",
-          "path": "knowledge/animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox.md",
-          "status": "documente",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://devforum.roblox.com/t/2570890",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-1a66b4f33bae",
-          "path": "knowledge/animation/1a66b4f33bae-blender-export-trouble.md",
-          "status": "documente",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://devforum.roblox.com/t/1268254",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-b69331a599eb",
-          "path": "knowledge/animation/b69331a599eb-how-to-export-textures-from-blender.md",
-          "status": "documente",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://devforum.roblox.com/t/1523296",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-1f830f8d303a",
-          "path": "knowledge/animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Blender animation export Roblox",
-          "url": "https://github.com/jim-kroovy/mr_mannequins_tools",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
           ]
         }
       ],
       "followups": [
         {
-          "query": "Blender animation export settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-77a67eafabb0)",
-          "topic": "blender_animation"
+          "query": "hands flashlight animation settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c5e3853e32ee)",
+          "topic": "fp_hands"
         },
         {
-          "query": "Blender animation export tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-0a9d12ab6395)",
-          "topic": "blender_animation"
+          "query": "hands flashlight animation tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-56c111b389f7)",
+          "topic": "fp_hands"
         },
         {
-          "query": "Keyframe settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-7ce009e766f3)",
-          "topic": "blender_animation"
-        },
-        {
-          "query": "Keyframe tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-7ce009e766f3)",
-          "topic": "blender_animation"
+          "query": "hands flashlight animation step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fp_hands"
         }
       ]
     }
   ],
-  "created": 9,
+  "created": 4,
   "fetched": 30,
-  "rejected": 21,
-  "followups_added": 8,
+  "rejected": 26,
+  "followups_added": 5,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 86,
+      "pending": 87,
       "running": 0,
-      "done": 74,
+      "done": 78,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-21",
-      "items": 8,
-      "fetch": 62
+      "items": 12,
+      "fetch": 92
     },
     "next": [
       {
-        "query": "snow footprints decal settings",
-        "topic": "snow",
-        "priority": 8.5,
-        "depth": 1,
-        "origin": "relance"
-      },
-      {
-        "query": "flashlight SpotLight shadows settings",
+        "query": "flashlight SpotLight shadows step by step implementation tutorial code",
         "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "first person camera settings",
+        "query": "first person camera Roblox Studio implementation compatibility",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "hands flashlight animation",
+        "query": "snow terrain material tutorial step by step implementation tutorial code",
+        "topic": "snow",
+        "priority": 8.0,
+        "depth": 2,
+        "origin": "relance_lacune"
+      },
+      {
+        "query": "arms Motor6D viewmodel",
         "topic": "fp_hands",
         "priority": 8.0,
         "depth": 0,

@@ -626,23 +626,23 @@
     },
     "roblox_docs:snow": {
       "terms": {
-        "n": 10,
+        "n": 11,
         "reward": 3.2360000000000007,
-        "returned": 34,
+        "returned": 38,
         "accepted": 8,
         "new": 8,
-        "offtopic": 11,
-        "duplicates": 15,
+        "offtopic": 12,
+        "duplicates": 18,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.088,
           0.0,
           0.088,
           0.0,
           0.55,
           0.0,
           0.522,
+          0.0,
           0.0
         ],
         "best_mean": 0.994
@@ -706,12 +706,12 @@
         "best_mean": 0.196
       },
       "synonyms": {
-        "n": 5,
-        "reward": 0.208,
-        "returned": 16,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 10,
+        "n": 6,
+        "reward": 0.42,
+        "returned": 20,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 13,
         "duplicates": 1,
         "errors": 0,
         "empty": 1,
@@ -720,7 +720,8 @@
           0.208,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.212
         ],
         "best_mean": 0.104
       },
@@ -789,16 +790,17 @@
         "best_mean": 0.06266666666666666
       },
       "facet": {
-        "n": 4,
+        "n": 5,
         "reward": 0.0,
-        "returned": 8,
+        "returned": 12,
         "accepted": 0,
         "new": 0,
-        "offtopic": 7,
+        "offtopic": 10,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -809,23 +811,23 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 8,
+        "n": 9,
         "reward": 1.224,
-        "returned": 22,
+        "returned": 26,
         "accepted": 2,
         "new": 2,
-        "offtopic": 6,
-        "duplicates": 8,
+        "offtopic": 8,
+        "duplicates": 10,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.0,
           0.438,
           0.0,
           0.436,
           0.0,
           0.0,
           0.35,
+          0.0,
           0.0
         ],
         "best_mean": 0.219
@@ -913,24 +915,24 @@
         "best_mean": 0.009600000000000001
       },
       "facet": {
-        "n": 13,
-        "reward": 2.1271999999999998,
-        "returned": 52,
-        "accepted": 14,
-        "new": 14,
-        "offtopic": 25,
-        "duplicates": 8,
+        "n": 14,
+        "reward": 2.2992,
+        "returned": 56,
+        "accepted": 15,
+        "new": 15,
+        "offtopic": 26,
+        "duplicates": 10,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.188,
           0.148,
           0.332,
           0.272,
           0.3832,
           0.132,
           0.0,
-          0.0
+          0.0,
+          0.172
         ],
         "best_mean": 0.19951999999999998
       }
@@ -958,23 +960,23 @@
         "best_mean": 0.1276
       },
       "synonyms": {
-        "n": 10,
+        "n": 11,
         "reward": 1.5899999999999999,
-        "returned": 20,
+        "returned": 24,
         "accepted": 5,
         "new": 5,
-        "offtopic": 9,
+        "offtopic": 13,
         "duplicates": 1,
         "errors": 0,
         "empty": 4,
         "recent": [
-          0.0,
           0.0,
           0.888,
           0.0,
           0.4048,
           0.1512,
           0.146,
+          0.0,
           0.0
         ],
         "best_mean": 0.1846857142857143
@@ -1545,19 +1547,20 @@
     },
     "roblox_docs:fps_camera": {
       "terms": {
-        "n": 3,
-        "reward": 0.056,
-        "returned": 12,
+        "n": 4,
+        "reward": 0.086,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 8,
-        "duplicates": 3,
+        "offtopic": 9,
+        "duplicates": 6,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.056,
           0.0,
-          0.0
+          0.0,
+          0.03
         ],
         "best_mean": 0.056
       },
@@ -1599,17 +1602,18 @@
     },
     "devforum:fps_camera": {
       "terms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.036,
-        "returned": 12,
+        "returned": 16,
         "accepted": 1,
         "new": 1,
-        "offtopic": 10,
-        "duplicates": 1,
+        "offtopic": 13,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.036,
+          0.0,
           0.0,
           0.0
         ],
@@ -1689,16 +1693,17 @@
         "best_mean": 0.43100000000000005
       },
       "facet": {
-        "n": 2,
+        "n": 3,
         "reward": 0.0,
-        "returned": 5,
+        "returned": 7,
         "accepted": 0,
         "new": 0,
-        "offtopic": 3,
+        "offtopic": 5,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0
         ],
@@ -1801,6 +1806,57 @@
           0.294
         ],
         "best_mean": 0.294
+      }
+    },
+    "roblox_docs:fp_hands": {
+      "terms": {
+        "n": 1,
+        "reward": 0.364,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.364
+        ],
+        "best_mean": 0.364
+      }
+    },
+    "devforum:fp_hands": {
+      "terms": {
+        "n": 1,
+        "reward": 0.028,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.028
+        ],
+        "best_mean": 0.028
+      }
+    },
+    "github:fp_hands": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
       }
     }
   }
