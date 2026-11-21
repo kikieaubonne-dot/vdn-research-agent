@@ -1434,11 +1434,25 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-21T21:41:03+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "arms Motor6D viewmodel step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795297251.1146142,
+      "finished_ts": 1795297263.637452
     },
     "039742376eb01a03": {
       "key": "039742376eb01a03",
@@ -3047,11 +3061,25 @@
       "depth": 1,
       "parent": "7add448f671e6e27",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:14:56+00:00",
-      "updated": "2026-11-19T01:14:56+00:00",
-      "result": null
+      "updated": "2026-11-21T21:40:26+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795297214.4749053,
+      "finished_ts": 1795297226.8979125
     },
     "361c4157325d13d8": {
       "key": "361c4157325d13d8",
@@ -3149,11 +3177,27 @@
       "depth": 1,
       "parent": "b8df3720537dcf96",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:15:08+00:00",
-      "updated": "2026-11-19T01:15:08+00:00",
-      "result": null
+      "updated": "2026-11-21T21:40:38+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-429ee16a736d"
+        ],
+        "followups": [
+          "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795297226.9032443,
+      "finished_ts": 1795297238.3828404
     },
     "f6c2f7ad10b58b38": {
       "key": "f6c2f7ad10b58b38",
@@ -3269,11 +3313,23 @@
       "depth": 2,
       "parent": "a1f1a2c05a21f8ef",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T18:19:40+00:00",
-      "updated": "2026-11-19T18:19:40+00:00",
-      "result": null
+      "updated": "2026-11-21T21:40:51+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795297238.388411,
+      "finished_ts": 1795297251.10923
     },
     "5102fa99d4041c33": {
       "key": "5102fa99d4041c33",
@@ -3649,11 +3705,56 @@
       "created": "2026-11-21T15:24:18+00:00",
       "updated": "2026-11-21T15:24:18+00:00",
       "result": null
+    },
+    "3be3ba8e04161e03": {
+      "key": "3be3ba8e04161e03",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "b016a9fe65d38a16",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T21:40:26+00:00",
+      "updated": "2026-11-21T21:40:26+00:00",
+      "result": null
+    },
+    "f497d9c595210774": {
+      "key": "f497d9c595210774",
+      "topic": "fps_camera",
+      "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "4d15fe5b6d6ca012",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T21:40:38+00:00",
+      "updated": "2026-11-21T21:40:38+00:00",
+      "result": null
+    },
+    "5c521d8f5dd87d1a": {
+      "key": "5c521d8f5dd87d1a",
+      "topic": "fp_hands",
+      "query": "arms Motor6D viewmodel step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "2db072073b5322ec",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-21T21:41:03+00:00",
+      "updated": "2026-11-21T21:41:03+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-21",
-    "items": 12,
-    "fetch": 92
+    "items": 16,
+    "fetch": 124
   }
 }

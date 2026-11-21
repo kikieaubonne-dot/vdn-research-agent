@@ -671,6 +671,10 @@
   "https://devforum.roblox.com/t/1434813": {
    "id": "vdn-56c111b389f7",
    "path": "knowledge/animation/56c111b389f7-problem-with-animation-for-right-hand-only.md"
+  },
+  "https://github.com/mbushuev/fighting-force-recharged": {
+   "id": "vdn-429ee16a736d",
+   "path": "knowledge/gameplay/429ee16a736d-mbushuev-fighting-force-recharged-compatibility-an.md"
   }
  },
  "fingerprints": {
@@ -1454,6 +1458,13 @@
   "04fcc7f951e9e49c": "vdn-b78fc99bfc43",
   "363e0852db390f9a": "vdn-b78fc99bfc43",
   "3fe3aa1f2c5d20ee": "vdn-b78fc99bfc43",
-  "719a86f520d295b6": "vdn-56c111b389f7"
+  "719a86f520d295b6": "vdn-56c111b389f7",
+  "dde3075b407befc3": "vdn-429ee16a736d",
+  "b9d8a0212280c263": "vdn-429ee16a736d",
+  "a0267145d6df6569": "vdn-429ee16a736d",
+  "cb6e1eca2e8e9d19": "vdn-9af28411e939",
+  "ce826f46178ca254": "vdn-9da387fdc585",
+  "17795b12f489c5b2": "vdn-cfbab3cddd3a",
+  "03d6897672b8c28f": "vdn-35bcf456029a"
  }
 }

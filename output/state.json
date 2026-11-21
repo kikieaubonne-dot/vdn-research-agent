@@ -393,9 +393,13 @@
     "snow footprints decal settings": 1,
     "flashlight SpotLight shadows settings": 1,
     "first person camera settings": 1,
-    "hands flashlight animation": 1
+    "hands flashlight animation": 1,
+    "flashlight SpotLight shadows step by step implementation tutorial code": 1,
+    "first person camera Roblox Studio implementation compatibility": 1,
+    "snow terrain material tutorial step by step implementation tutorial code": 1,
+    "arms Motor6D viewmodel": 1
   },
-  "runs": 87,
+  "runs": 91,
   "errors": [],
   "rotation": 4
 }

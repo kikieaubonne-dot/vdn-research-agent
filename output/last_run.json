@@ -1,95 +1,88 @@
 {
-  "started_utc": "2026-11-21T15:24:07+00:00",
+  "started_utc": "2026-11-21T21:40:51+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
+  "returned": 9,
   "fetched": 8,
-  "accepted": 2,
-  "created": 2,
+  "accepted": 0,
+  "created": 0,
   "updated": 0,
-  "duplicates": 0,
-  "rejected": 6,
+  "duplicates": 1,
+  "rejected": 8,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 3,
-    "pas assez de contenu technique": 3
+    "hors sujet": 7,
+    "pas assez de contenu technique": 6,
+    "aucun lien avec Roblox ou la chaîne Blender": 2
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
       "topic": "fp_hands",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "hands flashlight animation",
-      "returned": 4,
-      "accepted": 1,
-      "new": 1,
+      "strategy": "synonyms",
+      "query": "arms Motor6D viewmodel",
+      "returned": 1,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 3,
+      "offtopic": 1,
       "error": null,
-      "technical_mean": 0.91,
-      "duration_s": 4.5,
-      "reward": 0.364
+      "technical_mean": 0.32,
+      "duration_s": 1.18,
+      "reward": 0.0
     },
     {
       "provider": "devforum",
       "topic": "fp_hands",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "hands flashlight animation",
-      "returned": 4,
-      "accepted": 1,
-      "new": 1,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 3,
-      "error": null,
-      "technical_mean": 0.07,
-      "duration_s": 4.97,
-      "reward": 0.028
-    },
-    {
-      "provider": "github",
-      "topic": "fp_hands",
-      "origin": "seed",
-      "strategy": "terms",
-      "query": "hands flashlight animation",
+      "strategy": "synonyms",
+      "query": "arms Motor6D viewmodel",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 1.11,
+      "technical_mean": 0.07,
+      "duration_s": 5.32,
+      "reward": 0.0
+    },
+    {
+      "provider": "github",
+      "topic": "fp_hands",
+      "origin": "seed",
+      "strategy": "synonyms",
+      "query": "arms Motor6D viewmodel",
+      "returned": 4,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 1,
+      "offtopic": 3,
+      "error": null,
+      "technical_mean": 0.013,
+      "duration_s": 5.99,
       "reward": 0.0
     }
   ],
-  "created_notes": [
-    {
-      "id": "vdn-c5e3853e32ee",
-      "path": "knowledge/animation/c5e3853e32ee-animation-editor.md",
-      "status": "documente",
-      "topic": "fp_hands",
-      "query": "hands flashlight animation",
-      "url": "https://create.roblox.com/docs/animation/editor"
-    },
-    {
-      "id": "vdn-56c111b389f7",
-      "path": "knowledge/animation/56c111b389f7-problem-with-animation-for-right-hand-only.md",
-      "status": "candidat",
-      "topic": "fp_hands",
-      "query": "hands flashlight animation",
-      "url": "https://devforum.roblox.com/t/1434813"
-    }
-  ],
+  "created_notes": [],
   "rejected_candidates": [
     {
+      "topical": 0.167,
+      "technical": 0.32,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)"
+      ]
+    },
+    {
       "topical": 0.333,
-      "technical": 1.0,
+      "technical": 0.16,
       "roblox": true,
       "noise": [],
       "reasons": [
@@ -98,24 +91,16 @@
     },
     {
       "topical": 0.333,
-      "technical": 0.64,
+      "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.04)"
       ]
     },
     {
-      "topical": 0.333,
-      "technical": 1.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.833,
+      "topical": 0.583,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
@@ -124,21 +109,45 @@
       ]
     },
     {
-      "topical": 0.5,
-      "technical": 0.08,
+      "topical": 0.333,
+      "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.08)"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.04)"
       ]
     },
     {
-      "topical": 0.5,
+      "topical": 0.167,
+      "technical": 0.0,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.333,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)",
         "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.333,
+      "technical": 0.04,
+      "roblox": false,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "aucun lien avec Roblox ou la chaîne Blender",
+        "pas assez de contenu technique (0.04)"
       ]
     }
   ],
@@ -147,5 +156,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-21T15:24:18+00:00"
+  "finished_utc": "2026-11-21T21:41:03+00:00"
 }

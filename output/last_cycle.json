@@ -1,190 +1,146 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-21T15:23:32+00:00",
-  "finished": "2026-11-21T15:24:18+00:00",
+  "started": "2026-11-21T21:40:14+00:00",
+  "finished": "2026-11-21T21:41:03+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "snow footprints decal settings",
-      "topic": "snow",
+      "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+      "topic": "lighting",
       "depth": 1,
-      "origin": "relance",
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [],
+      "followups": [
+        {
+          "query": "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "lighting"
+        }
+      ]
+    },
+    {
+      "query": "first person camera Roblox Studio implementation compatibility",
+      "topic": "fps_camera",
+      "depth": 1,
+      "origin": "relance_lacune",
       "status": "done",
       "created": 1,
       "rejected": 7,
-      "duplicates": 3,
+      "duplicates": 2,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-0258c29be0fa",
-          "path": "knowledge/snow/0258c29be0fa-footprint-decals-overlapping.md",
+          "id": "vdn-429ee16a736d",
+          "path": "knowledge/gameplay/429ee16a736d-mbushuev-fighting-force-recharged-compatibility-an.md",
           "status": "candidat",
-          "topic": "snow",
-          "query": "snow footprints decal settings",
-          "url": "https://devforum.roblox.com/t/3029622",
+          "topic": "fps_camera",
+          "query": "first person camera Roblox Studio implementation compatibility",
+          "url": "https://github.com/mbushuev/fighting-force-recharged",
           "missing": [
+            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
       ],
-      "followups": []
-    },
-    {
-      "query": "flashlight SpotLight shadows settings",
-      "topic": "lighting",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 4,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-473db3854bb2",
-          "path": "knowledge/lighting/473db3854bb2-f-for-realistic-flashlight.md",
-          "status": "documente",
-          "topic": "lighting",
-          "query": "flashlight SpotLight shadows settings",
-          "url": "https://devforum.roblox.com/t/2398908",
-          "missing": [
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "first person camera settings",
-      "topic": "fps_camera",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 0,
-      "rejected": 6,
-      "duplicates": 4,
-      "fetched": 6,
-      "notes": [],
       "followups": [
         {
-          "query": "first person camera settings step by step implementation tutorial code",
+          "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
-        },
-        {
-          "query": "first person camera settings Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
           "topic": "fps_camera"
         }
       ]
     },
     {
-      "query": "hands flashlight animation",
+      "query": "snow terrain material tutorial step by step implementation tutorial code",
+      "topic": "snow",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 4,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "arms Motor6D viewmodel",
       "topic": "fp_hands",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 0,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 1,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-c5e3853e32ee",
-          "path": "knowledge/animation/c5e3853e32ee-animation-editor.md",
-          "status": "documente",
-          "topic": "fp_hands",
-          "query": "hands flashlight animation",
-          "url": "https://create.roblox.com/docs/animation/editor",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-56c111b389f7",
-          "path": "knowledge/animation/56c111b389f7-problem-with-animation-for-right-hand-only.md",
-          "status": "candidat",
-          "topic": "fp_hands",
-          "query": "hands flashlight animation",
-          "url": "https://devforum.roblox.com/t/1434813",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": [
         {
-          "query": "hands flashlight animation settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c5e3853e32ee)",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "hands flashlight animation tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-56c111b389f7)",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "hands flashlight animation step by step implementation tutorial code",
+          "query": "arms Motor6D viewmodel step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "fp_hands"
         }
       ]
     }
   ],
-  "created": 4,
-  "fetched": 30,
-  "rejected": 26,
-  "followups_added": 5,
+  "created": 1,
+  "fetched": 32,
+  "rejected": 31,
+  "followups_added": 3,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 87,
+      "pending": 86,
       "running": 0,
-      "done": 78,
+      "done": 82,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-21",
-      "items": 12,
-      "fetch": 92
+      "items": 16,
+      "fetch": 124
     },
     "next": [
       {
-        "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+        "query": "flashlight SpotLight shadows tutorial",
         "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "first person camera Roblox Studio implementation compatibility",
+        "query": "first person camera tutorial",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "snow terrain material tutorial step by step implementation tutorial code",
+        "query": "snow terrain material settings",
         "topic": "snow",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "arms Motor6D viewmodel",
-        "topic": "fp_hands",
+        "query": "triangle count performance",
+        "topic": "performance",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "triangle count performance",
-        "topic": "performance",
+        "query": "terrain MaterialVariant custom",
+        "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
