@@ -691,6 +691,38 @@
   "https://github.com/kokusaitomita-blip/vrm-platform-preflight": {
    "id": "vdn-aee340f3dc1c",
    "path": "knowledge/performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender.md"
+  },
+  "https://github.com/aiagentstarter/zombie-hunter": {
+   "id": "vdn-8bf656dd2188",
+   "path": "knowledge/gameplay/8bf656dd2188-aiagentstarter-zombie-hunter-first-person-3d-zombi.md"
+  },
+  "https://devforum.roblox.com/t/1969074": {
+   "id": "vdn-2755cfa54ad6",
+   "path": "knowledge/terrain/2755cfa54ad6-custom-material-layers-for-materialvariants.md"
+  },
+  "https://devforum.roblox.com/t/4544417": {
+   "id": "vdn-fbaa093ac63a",
+   "path": "knowledge/terrain/fbaa093ac63a-when-materialvariant-alpha-mode-is-enabled-custom.md"
+  },
+  "https://devforum.roblox.com/t/3978624": {
+   "id": "vdn-8c572c591a85",
+   "path": "knowledge/terrain/8c572c591a85-materialvariant-help.md"
+  },
+  "https://devforum.roblox.com/t/2692682": {
+   "id": "vdn-39ef9ccd1d87",
+   "path": "knowledge/terrain/39ef9ccd1d87-setting-materialvariant-doesn-t-auto-set-base-mate.md"
+  },
+  "https://github.com/biomebundle/biomebundle": {
+   "id": "vdn-8046ba4fe5c0",
+   "path": "knowledge/terrain/8046ba4fe5c0-biomebundle-biomebundle-custom-terrain-generator.md"
+  },
+  "https://github.com/sanielx/hollow-terrainsystem": {
+   "id": "vdn-ecbc96807ed9",
+   "path": "knowledge/terrain/ecbc96807ed9-sanielx-hollow-terrainsystem-prototype-project-for.md"
+  },
+  "https://github.com/ozzr/godot_terrain": {
+   "id": "vdn-1a17791819dc",
+   "path": "knowledge/terrain/1a17791819dc-ozzr-godot-terrain-custom-godot-engine-build-with.md"
   }
  },
  "fingerprints": {
@@ -1509,6 +1541,46 @@
   "bbe29a138c931872": "vdn-aee340f3dc1c",
   "122d83a11996235b": "vdn-aee340f3dc1c",
   "81ed80d2f0abae55": "vdn-aee340f3dc1c",
-  "bc1bb930e0f1f4c3": "vdn-aee340f3dc1c"
+  "bc1bb930e0f1f4c3": "vdn-aee340f3dc1c",
+  "a99608462005f333": "vdn-8bf656dd2188",
+  "f15c7a71807dfe2c": "vdn-8bf656dd2188",
+  "9294c474bd9a81f9": "vdn-8bf656dd2188",
+  "bdf901eee8bfded2": "vdn-8bf656dd2188",
+  "8f70cf3cb3bde959": "vdn-8bf656dd2188",
+  "7215f46f47093d26": "vdn-8bf656dd2188",
+  "74404e141216e2fa": "vdn-8bf656dd2188",
+  "f1a92a7f94bf1d30": "vdn-8bf656dd2188",
+  "1287d47c0d141b0d": "vdn-96d27f44bdf1",
+  "92800e5f29f0f1dc": "vdn-96d27f44bdf1",
+  "a998f3587bdf361b": "vdn-f0d98f2ae11f",
+  "acbc791cb43ca180": "vdn-f0d98f2ae11f",
+  "e3c3dd603bf21752": "vdn-f0d98f2ae11f",
+  "6697bbbffbcaf520": "vdn-2755cfa54ad6",
+  "adc0ae43d01f58e4": "vdn-2755cfa54ad6",
+  "0ca10c064246949a": "vdn-fbaa093ac63a",
+  "e94925e1840ee8b1": "vdn-fbaa093ac63a",
+  "cb2f35f0d7845df8": "vdn-8c572c591a85",
+  "1c85fbc717dd877d": "vdn-8c572c591a85",
+  "ced43d131ed1e727": "vdn-8c572c591a85",
+  "a052e2a55973acda": "vdn-8c572c591a85",
+  "1ce29eccdd836016": "vdn-39ef9ccd1d87",
+  "e9be9363e38ba169": "vdn-39ef9ccd1d87",
+  "dd9a557a7195edd4": "vdn-39ef9ccd1d87",
+  "5a6d65af8e67fb99": "vdn-39ef9ccd1d87",
+  "5b503a9bf7b24d03": "vdn-39ef9ccd1d87",
+  "cbeddedc848dc988": "vdn-39ef9ccd1d87",
+  "af5376e4019da4a3": "vdn-39ef9ccd1d87",
+  "bc2cd87b9ac2c84c": "vdn-8046ba4fe5c0",
+  "6556573c407d9a71": "vdn-ecbc96807ed9",
+  "6c6273effb5b2a5f": "vdn-ecbc96807ed9",
+  "e4f522655ea6d576": "vdn-ecbc96807ed9",
+  "fa22f4362085055f": "vdn-ecbc96807ed9",
+  "02818d04a22f87dd": "vdn-ecbc96807ed9",
+  "f41037b2c858c9d8": "vdn-ecbc96807ed9",
+  "561aaad9ed8314b3": "vdn-1a17791819dc",
+  "b2b788a4f0fdf117": "vdn-1a17791819dc",
+  "c9e8e29589f7bd7d": "vdn-1a17791819dc",
+  "b30bca15e1744015": "vdn-1a17791819dc",
+  "a4420e019f1aba74": "vdn-1a17791819dc"
  }
 }

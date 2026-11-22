@@ -318,7 +318,7 @@
     "snow MaterialVariant": 2,
     "Atmosphere density haze": 2,
     "ColorCorrection horror": 2,
-    "terrain MaterialVariant custom": 1,
+    "terrain MaterialVariant custom": 2,
     "SurfaceAppearance PBR textures": 1,
     "snow accumulation mesh": 2,
     "light shadows performance": 2,
@@ -401,9 +401,12 @@
     "flashlight SpotLight shadows tutorial": 1,
     "first person camera tutorial": 1,
     "snow terrain material settings": 1,
-    "triangle count performance": 1
+    "triangle count performance": 1,
+    "first person camera step by step implementation tutorial code": 1,
+    "Future lighting night step by step implementation tutorial code": 1,
+    "Decal Color3 settings": 1
   },
-  "runs": 95,
+  "runs": 99,
   "errors": [],
   "rotation": 4
 }

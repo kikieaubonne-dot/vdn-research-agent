@@ -626,21 +626,21 @@
     },
     "roblox_docs:snow": {
       "terms": {
-        "n": 12,
+        "n": 13,
         "reward": 3.2360000000000007,
-        "returned": 42,
+        "returned": 46,
         "accepted": 8,
         "new": 8,
-        "offtopic": 12,
-        "duplicates": 22,
+        "offtopic": 13,
+        "duplicates": 25,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.088,
           0.0,
           0.55,
           0.0,
           0.522,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -729,13 +729,13 @@
         "best_mean": 0.104
       },
       "facet": {
-        "n": 7,
-        "reward": 0.492,
-        "returned": 28,
+        "n": 8,
+        "reward": 0.5768,
+        "returned": 32,
         "accepted": 3,
         "new": 3,
-        "offtopic": 25,
-        "duplicates": 0,
+        "offtopic": 28,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -745,7 +745,8 @@
           0.0,
           0.0,
           0.14,
-          0.0
+          0.0,
+          0.0848
         ],
         "best_mean": 0.11733333333333333
       }
@@ -794,16 +795,17 @@
         "best_mean": 0.06266666666666666
       },
       "facet": {
-        "n": 5,
+        "n": 6,
         "reward": 0.0,
-        "returned": 12,
+        "returned": 16,
         "accepted": 0,
         "new": 0,
-        "offtopic": 10,
+        "offtopic": 14,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -837,21 +839,21 @@
         "best_mean": 0.219
       },
       "synonyms": {
-        "n": 12,
+        "n": 13,
         "reward": 2.149,
-        "returned": 37,
+        "returned": 41,
         "accepted": 3,
         "new": 3,
         "offtopic": 15,
-        "duplicates": 14,
+        "duplicates": 18,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.0,
           0.35,
           0.0,
           0.5,
           0.55,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -881,13 +883,13 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.1672,
-        "returned": 22,
+        "returned": 26,
         "accepted": 1,
         "new": 1,
-        "offtopic": 13,
-        "duplicates": 3,
+        "offtopic": 16,
+        "duplicates": 4,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -896,6 +898,7 @@
           0.0,
           0.0,
           0.1672,
+          0.0,
           0.0
         ],
         "best_mean": 0.03344
@@ -989,12 +992,12 @@
         "best_mean": 0.1846857142857143
       },
       "facet": {
-        "n": 7,
+        "n": 8,
         "reward": 0.524,
-        "returned": 18,
+        "returned": 22,
         "accepted": 2,
         "new": 2,
-        "offtopic": 12,
+        "offtopic": 16,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
@@ -1004,6 +1007,7 @@
           0.092,
           0.0,
           0.432,
+          0.0,
           0.0,
           0.0
         ],
@@ -1042,17 +1046,18 @@
         "best_mean": 0.2682
       },
       "facet": {
-        "n": 1,
+        "n": 2,
         "reward": 0.5618,
-        "returned": 4,
+        "returned": 8,
         "accepted": 2,
         "new": 2,
         "offtopic": 1,
-        "duplicates": 0,
+        "duplicates": 4,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.5618
+          0.5618,
+          0.0
         ],
         "best_mean": 0.5618
       }
@@ -1089,36 +1094,38 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 1,
-        "reward": 0.096,
-        "returned": 4,
-        "accepted": 1,
-        "new": 1,
+        "n": 2,
+        "reward": 0.9319999999999999,
+        "returned": 8,
+        "accepted": 5,
+        "new": 5,
         "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.096
+          0.096,
+          0.836
         ],
-        "best_mean": 0.096
+        "best_mean": 0.46599999999999997
       }
     },
     "github:terrain": {
       "terms": {
-        "n": 1,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 0,
+        "n": 2,
+        "reward": 0.62,
+        "returned": 4,
+        "accepted": 3,
+        "new": 3,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.0
+          0.0,
+          0.62
         ],
-        "best_mean": 0.0
+        "best_mean": 0.31
       },
       "synonyms": {
         "n": 1,
@@ -1599,20 +1606,21 @@
     },
     "roblox_docs:fps_camera": {
       "terms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.086,
-        "returned": 16,
+        "returned": 20,
         "accepted": 1,
         "new": 1,
-        "offtopic": 9,
-        "duplicates": 6,
+        "offtopic": 11,
+        "duplicates": 8,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.056,
           0.0,
           0.0,
-          0.03
+          0.03,
+          0.0
         ],
         "best_mean": 0.056
       },
@@ -1692,18 +1700,19 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 5,
+        "n": 6,
         "reward": 0.28400000000000003,
-        "returned": 20,
+        "returned": 24,
         "accepted": 3,
         "new": 3,
-        "offtopic": 17,
-        "duplicates": 0,
+        "offtopic": 20,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.268,
           0.016,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -1730,12 +1739,12 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 7,
-        "reward": 1.1740000000000002,
-        "returned": 25,
-        "accepted": 3,
-        "new": 3,
-        "offtopic": 9,
+        "n": 8,
+        "reward": 1.3795000000000002,
+        "returned": 28,
+        "accepted": 4,
+        "new": 4,
+        "offtopic": 11,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -1746,7 +1755,8 @@
           0.0,
           0.0,
           0.312,
-          0.0
+          0.0,
+          0.2055
         ],
         "best_mean": 0.43100000000000005
       },

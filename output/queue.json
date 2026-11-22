@@ -768,11 +768,34 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-22T09:54:46+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 7,
+        "rejected": 1,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-2755cfa54ad6",
+          "vdn-fbaa093ac63a",
+          "vdn-8c572c591a85",
+          "vdn-39ef9ccd1d87",
+          "vdn-8046ba4fe5c0",
+          "vdn-ecbc96807ed9",
+          "vdn-1a17791819dc"
+        ],
+        "followups": [
+          "terrain MaterialVariant custom settings",
+          "terrain MaterialVariant custom step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795341273.3051538,
+      "finished_ts": 1795341286.403828
     },
     "81f23bb09d9de9a5": {
       "key": "81f23bb09d9de9a5",
@@ -3210,11 +3233,25 @@
       "depth": 1,
       "parent": "b8df3720537dcf96",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:15:08+00:00",
-      "updated": "2026-11-19T01:15:08+00:00",
-      "result": null
+      "updated": "2026-11-22T09:54:08+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-8bf656dd2188"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795341235.9994168,
+      "finished_ts": 1795341248.3313222
     },
     "4d15fe5b6d6ca012": {
       "key": "4d15fe5b6d6ca012",
@@ -3256,11 +3293,23 @@
       "depth": 1,
       "parent": "86c3ffd38ee265dc",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T08:52:03+00:00",
-      "updated": "2026-11-19T08:52:03+00:00",
-      "result": null
+      "updated": "2026-11-22T09:54:20+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795341248.337511,
+      "finished_ts": 1795341260.3521628
     },
     "10eafb9faef1fee8": {
       "key": "10eafb9faef1fee8",
@@ -3430,11 +3479,23 @@
       "depth": 2,
       "parent": "0181c8cbca252c64",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-4171a6c5328d)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T08:41:01+00:00",
-      "updated": "2026-11-20T08:41:01+00:00",
-      "result": null
+      "updated": "2026-11-22T09:54:33+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795341260.3586404,
+      "finished_ts": 1795341273.2989717
     },
     "f8105569d866307a": {
       "key": "f8105569d866307a",
@@ -3870,11 +3931,41 @@
       "created": "2026-11-22T02:16:39+00:00",
       "updated": "2026-11-22T02:16:39+00:00",
       "result": null
+    },
+    "baecc51f6595586c": {
+      "key": "baecc51f6595586c",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "431384b3280bdab2",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-2755cfa54ad6)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T09:54:46+00:00",
+      "updated": "2026-11-22T09:54:46+00:00",
+      "result": null
+    },
+    "70f58c7333bcf942": {
+      "key": "70f58c7333bcf942",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "431384b3280bdab2",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T09:54:46+00:00",
+      "updated": "2026-11-22T09:54:46+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-22",
-    "items": 4,
-    "fetch": 32
+    "items": 8,
+    "fetch": 63
   }
 }

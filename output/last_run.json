@@ -1,144 +1,138 @@
 {
-  "started_utc": "2026-11-22T02:16:27+00:00",
+  "started_utc": "2026-11-22T09:54:33+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 4,
-  "created": 4,
+  "accepted": 7,
+  "created": 7,
   "updated": 0,
-  "duplicates": 2,
-  "rejected": 4,
+  "duplicates": 4,
+  "rejected": 1,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 4,
-    "pas assez de contenu technique": 2
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "performance",
+      "topic": "terrain",
       "origin": "seed",
       "strategy": "facet",
-      "query": "triangle count performance limit",
+      "query": "terrain MaterialVariant custom settings",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 2,
-      "offtopic": 2,
+      "duplicates": 4,
+      "offtopic": 0,
       "error": null,
       "technical_mean": 0.0,
-      "duration_s": 2.12,
+      "duration_s": 0.02,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "performance",
+      "topic": "terrain",
       "origin": "seed",
       "strategy": "facet",
-      "query": "triangle count performance limit",
+      "query": "terrain MaterialVariant custom settings",
       "returned": 4,
-      "accepted": 2,
-      "new": 2,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 2,
-      "error": null,
-      "technical_mean": 0.54,
-      "duration_s": 5.34,
-      "reward": 0.416
-    },
-    {
-      "provider": "github",
-      "topic": "performance",
-      "origin": "seed",
-      "strategy": "facet",
-      "query": "triangle count performance limit",
-      "returned": 4,
-      "accepted": 2,
-      "new": 2,
+      "accepted": 4,
+      "new": 4,
       "updated": 0,
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.58,
-      "duration_s": 4.76,
-      "reward": 0.532
+      "technical_mean": 0.59,
+      "duration_s": 5.23,
+      "reward": 0.836
+    },
+    {
+      "provider": "github",
+      "topic": "terrain",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "terrain MaterialVariant custom",
+      "returned": 4,
+      "accepted": 3,
+      "new": 3,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 1,
+      "error": null,
+      "technical_mean": 0.55,
+      "duration_s": 7.82,
+      "reward": 0.62
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-69741c3a1232",
-      "path": "knowledge/performance/69741c3a1232-how-do-i-reduce-triangle-count.md",
+      "id": "vdn-2755cfa54ad6",
+      "path": "knowledge/terrain/2755cfa54ad6-custom-material-layers-for-materialvariants.md",
       "status": "documente",
-      "topic": "performance",
-      "query": "triangle count performance",
-      "url": "https://devforum.roblox.com/t/2060610"
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://devforum.roblox.com/t/1969074"
     },
     {
-      "id": "vdn-4262958e24ac",
-      "path": "knowledge/performance/4262958e24ac-different-triangle-count.md",
+      "id": "vdn-fbaa093ac63a",
+      "path": "knowledge/terrain/fbaa093ac63a-when-materialvariant-alpha-mode-is-enabled-custom.md",
       "status": "documente",
-      "topic": "performance",
-      "query": "triangle count performance",
-      "url": "https://devforum.roblox.com/t/2928590"
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://devforum.roblox.com/t/4544417"
     },
     {
-      "id": "vdn-385c531820f0",
-      "path": "knowledge/performance/385c531820f0-roblox-ugc-tri-count-tool-d219-roblox-ugc-tri-coun.md",
-      "status": "candidat",
-      "topic": "performance",
-      "query": "triangle count performance",
-      "url": "https://github.com/roblox-ugc-tri-count-tool-d219/roblox-ugc-tri-count-tool-d219.github.io"
+      "id": "vdn-8c572c591a85",
+      "path": "knowledge/terrain/8c572c591a85-materialvariant-help.md",
+      "status": "documente",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://devforum.roblox.com/t/3978624"
     },
     {
-      "id": "vdn-aee340f3dc1c",
-      "path": "knowledge/performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender.md",
+      "id": "vdn-39ef9ccd1d87",
+      "path": "knowledge/terrain/39ef9ccd1d87-setting-materialvariant-doesn-t-auto-set-base-mate.md",
+      "status": "documente",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://devforum.roblox.com/t/2692682"
+    },
+    {
+      "id": "vdn-8046ba4fe5c0",
+      "path": "knowledge/terrain/8046ba4fe5c0-biomebundle-biomebundle-custom-terrain-generator.md",
       "status": "candidat",
-      "topic": "performance",
-      "query": "triangle count performance",
-      "url": "https://github.com/kokusaitomita-blip/vrm-platform-preflight"
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://github.com/biomebundle/biomebundle"
+    },
+    {
+      "id": "vdn-ecbc96807ed9",
+      "path": "knowledge/terrain/ecbc96807ed9-sanielx-hollow-terrainsystem-prototype-project-for.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://github.com/sanielx/hollow-terrainsystem"
+    },
+    {
+      "id": "vdn-1a17791819dc",
+      "path": "knowledge/terrain/1a17791819dc-ozzr-godot-terrain-custom-godot-engine-build-with.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom",
+      "url": "https://github.com/ozzr/godot_terrain"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.0,
-      "technical": 0.0,
+      "topical": 0.833,
+      "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.0 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.0,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.0 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.417,
-      "technical": 0.76,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.417,
-      "technical": 0.52,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
+        "pas assez de contenu technique (0.04)"
       ]
     }
   ],
@@ -147,5 +141,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-22T02:16:39+00:00"
+  "finished_utc": "2026-11-22T09:54:46+00:00"
 }

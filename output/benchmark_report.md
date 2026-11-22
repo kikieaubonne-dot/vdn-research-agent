@@ -1,6 +1,6 @@
 # Benchmark VDN
 
-_2026-11-22T02:16:40+00:00 · jeux de test 5af458231264_
+_2026-11-22T09:54:46+00:00 · jeux de test 5af458231264_
 
 | Indicateur | Valeur |
 |---|---:|
@@ -19,7 +19,7 @@ Filtre de pertinence sur 54 cas réels étiquetés à la main : VP 8, FP 4, FN 1
 - faux positif : Feedback on this horror house interior (limite : retours d'apparence, peu technique)
 - faux positif : nightcycle/quick-part 
 
-RAG : 10 questions (FR/EN), réussite@1 0.9, réussite@3 0.9, MRR 0.9, tokens moyens 1099 (max 1499), questions négatives propres 1.0.
+RAG : 10 questions (FR/EN), réussite@1 0.9, réussite@3 0.9, MRR 0.9, tokens moyens 1098 (max 1499), questions négatives propres 1.0.
 
 - manqué : « importer un squelette personnalisé, os qui buguent » (rang None)
 
