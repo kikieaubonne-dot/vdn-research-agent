@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (11)
+## Documenté (12)
 
 - [[snow/14f415164625-class-decal|Class: Decal]] — niv. 1 · conf. moyenne — « [Face](/docs/reference/engine/classes/Decal.md) property, and the size of the decal is dependent on »
 - [[snow/35696693c238-class-materialvariant|Class: MaterialVariant]] — niv. 1 · conf. moyenne — « built-in material, or set in the [BasePart.MaterialVariant](/docs/reference/engine/classes/BasePart.md) property to »
@@ -15,9 +15,11 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/0c6ae3fae482-textures-and-decals|Textures and decals]] — niv. 1 · conf. moyenne — « - Change the texture or decal `Class.Decal.Color3|Color3` property to set a color tint using RGB color codes. »
 - [[snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate|[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements]] — niv. 1 · conf. moyenne — « As of today (10/27), the performance improvements are only available in Studio. »
 - [[snow/3f6876f2e6c4-decal-overlapping-bug|Decal Overlapping Bug]] — niv. 2 · conf. faible — « If what you’re implying is that the grey cube on the right is actually supposed to be behind the cube on the left, then the only reason this… »
+- [[snow/ecd5e079b965-decals-on-meshparts-decal-transparency-broken|Decals on meshparts = decal transparency broken]] — niv. 2 · conf. faible — « Just opened up my team create studio place today only to notice that the transparency value of decals which are inside meshparts isnt workin… »
 
-## Candidat (11)
+## Candidat (13)
 
+- [[snow/d0775e8e13bd-decal-transparency-not-working-for-heads|Decal Transparency not working for heads]] — niv. 1 · conf. faible — « I looked into making the transparency property work for faces briefly a few weeks ago and didn’t see an obvious way to do it. »
 - [[snow/0258c29be0fa-footprint-decals-overlapping|Footprint Decals Overlapping]] — niv. 1 · conf. faible — « It works well but the only issue is that sometimes if you get to the edge of the snow the decal may overlap onto the concrete instead of the… »
 - [[snow/0ab84d1b35db-setting-decal-by-id-does-not-work|Setting decal by ID does not work]] — niv. 1 · conf. faible — « game.Workspace.Background.Decal.Texture = "rbxassetid//"..txt »
 - [[snow/4171a6c5328d-because-color3-tint-not-working-on-textures-clone|Because Color3 tint not working on textures: Clone texture and flip it for Decal]] — niv. 2 · conf. faible — « Because textures do not use Color3 to get tinted but decals do (If you know how to make color3 tint on textures, let me know…), I have to us… »
@@ -25,6 +27,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/dc0fb8c0f0a2-how-to-detect-terrain-material|How to Detect Terrain Material]] — niv. 2 · conf. faible — « Detect smooth terrain material under part Scripting Support »
 - [[snow/84b0dbab4cb6-invisible-terrain-bug|Invisible terrain bug]] — niv. 2 · conf. faible — « What is actually going on is that there is a single voxel that has a very low value, in a material that has a weird shape, which makes this … »
 - [[snow/fc2e67312ba6-cl3mus33-snowfixer-skyrim-se-le-tool-that-fixes-sn|Cl3mus33/SnowFixer — Skyrim SE/LE tool that fixes snow visuals across your load order - vertex colors, shader flags, footstep sounds, decal z-fighting, glacier ]] — niv. 3 · conf. faible
+- [[snow/05e396579185-antzgames-godot-compatibility-decal-node-this-plug|antzGames/Godot-Compatibility-Decal-Node — This plugin provides both instanced and non-instanced animated decal node functionality for all Renderers in Godot 4.]] — niv. 3 · conf. faible — « This plugin provides both instanced and non-instanced animated decal node functionality for all Renderers in Godot 4.4-4.7, packaged as an e… »
 - [[snow/0173454d7a6e-derpatron666-uh-something-fridgeclan-strikes-again|derpatron666/uh-something — -- FridgeClan strikes again! -- Sensuke, this is why you DON'T goto Voidacity's -- Jaja has been absent, so I've taken it upon mysel]] — niv. 3 · conf. faible
 - [[snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de|igotthebaggggggg/EASY — -- make sure to subscribe to dexisthebest416 on youtube local b=game:GetService("Players").LocalPlayer;local d=2;function JailbreakTp(..]] — niv. 3 · conf. faible
 - [[snow/de5c2f83a861-m77203211-eeeeeee-id-custom-rooms-classname-folder|m77203211/eeeeeee — {"id":"Custom_Rooms","ClassName":"Folder","properties":[],"children":[{"id":"{D50DE7C3-D3CD-4EFC-9474-AD673158026E}","ClassName":"Model","pr]] — niv. 3 · conf. faible

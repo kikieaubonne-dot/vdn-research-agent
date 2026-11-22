@@ -1,27 +1,28 @@
 {
-  "started_utc": "2026-11-22T17:52:06+00:00",
+  "started_utc": "2026-11-22T23:37:54+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
+  "returned": 11,
   "fetched": 8,
-  "accepted": 4,
-  "created": 4,
+  "accepted": 1,
+  "created": 1,
   "updated": 0,
   "duplicates": 1,
-  "rejected": 4,
+  "rejected": 7,
   "errors": [],
   "rejection_reasons": {
     "hors sujet": 4,
-    "pas assez de contenu technique": 2
+    "pas assez de contenu technique": 4,
+    "aucun lien avec Roblox ou la chaîne Blender": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "rendering",
+      "topic": "fp_hands",
       "origin": "seed",
       "strategy": "facet",
-      "query": "texture resolution limit settings",
+      "query": "viewmodel animation settings",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -29,116 +30,119 @@
       "duplicates": 1,
       "offtopic": 3,
       "error": null,
-      "technical_mean": 0.333,
-      "duration_s": 3.29,
-      "reward": 0.0
+      "technical_mean": 0.707,
+      "duration_s": 3.25,
+      "reward": 0.1328
     },
     {
       "provider": "devforum",
-      "topic": "rendering",
+      "topic": "fp_hands",
       "origin": "seed",
       "strategy": "facet",
-      "query": "texture resolution limit settings",
-      "returned": 4,
-      "accepted": 3,
-      "new": 3,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 1,
-      "error": null,
-      "technical_mean": 0.5,
-      "duration_s": 4.98,
-      "reward": 0.6
-    },
-    {
-      "provider": "github",
-      "topic": "rendering",
-      "origin": "seed",
-      "strategy": "terms",
-      "query": "texture resolution limit",
+      "query": "viewmodel animation settings",
       "returned": 4,
       "accepted": 1,
       "new": 1,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 1.0,
-      "duration_s": 2.04,
-      "reward": 0.55
+      "technical_mean": 0.08,
+      "duration_s": 5.18,
+      "reward": 0.032
+    },
+    {
+      "provider": "github",
+      "topic": "fp_hands",
+      "origin": "seed",
+      "strategy": "facet",
+      "query": "viewmodel animation settings",
+      "returned": 3,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 1,
+      "error": null,
+      "technical_mean": 0.16,
+      "duration_s": 2.26,
+      "reward": 0.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-5bc3a24df7c6",
-      "path": "knowledge/rendering/5bc3a24df7c6-align-editableimage-size-limit-with-the-new-high-t.md",
+      "id": "vdn-e4e6085d9485",
+      "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md",
       "status": "candidat",
-      "topic": "rendering",
-      "query": "texture resolution limit",
-      "url": "https://devforum.roblox.com/t/4528815"
-    },
-    {
-      "id": "vdn-d03d2ba87091",
-      "path": "knowledge/rendering/d03d2ba87091-editableimage-higher-resolution-and-memory-limit.md",
-      "status": "candidat",
-      "topic": "rendering",
-      "query": "texture resolution limit",
-      "url": "https://devforum.roblox.com/t/4389575"
-    },
-    {
-      "id": "vdn-2286d543e24d",
-      "path": "knowledge/rendering/2286d543e24d-texture-is-low-resolution.md",
-      "status": "documente",
-      "topic": "rendering",
-      "query": "texture resolution limit",
-      "url": "https://devforum.roblox.com/t/2084584"
-    },
-    {
-      "id": "vdn-347b565a57a3",
-      "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md",
-      "status": "candidat",
-      "topic": "rendering",
-      "query": "texture resolution limit",
-      "url": "https://github.com/gaming-multiverse/texray"
+      "topic": "fp_hands",
+      "query": "viewmodel animation",
+      "url": "https://devforum.roblox.com/t/1575077"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.467,
+      "topical": 0.167,
+      "technical": 0.12,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.12)"
+      ]
+    },
+    {
+      "topical": 0.417,
       "technical": 1.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.467 < 0.5)"
+        "hors sujet (pertinence 0.417 < 0.5)"
       ]
     },
     {
-      "topical": 0.167,
+      "topical": 0.417,
+      "technical": 1.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.667,
+      "technical": 0.08,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "pas assez de contenu technique (0.08)"
+      ]
+    },
+    {
+      "topical": 0.667,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.25,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
+        "hors sujet (pertinence 0.25 < 0.5)",
         "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.167,
-      "technical": 0.0,
-      "roblox": true,
+      "topical": 0.667,
+      "technical": 0.16,
+      "roblox": false,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.267,
-      "technical": 0.64,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.267 < 0.5)"
+        "aucun lien avec Roblox ou la chaîne Blender"
       ]
     }
   ],
@@ -147,5 +151,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-22T17:52:16+00:00"
+  "finished_utc": "2026-11-22T23:38:04+00:00"
 }

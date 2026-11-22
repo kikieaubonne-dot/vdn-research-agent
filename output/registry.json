@@ -739,6 +739,30 @@
   "https://github.com/gaming-multiverse/texray": {
    "id": "vdn-347b565a57a3",
    "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md"
+  },
+  "https://create.roblox.com/docs/environment/global-wind": {
+   "id": "vdn-20e7161fffdf",
+   "path": "knowledge/gameplay/20e7161fffdf-global-wind.md"
+  },
+  "https://devforum.roblox.com/t/2803743": {
+   "id": "vdn-50126df39330",
+   "path": "knowledge/lighting/50126df39330-atmosphere-cant-change-color-on-0-haze.md"
+  },
+  "https://devforum.roblox.com/t/38846": {
+   "id": "vdn-ecd5e079b965",
+   "path": "knowledge/snow/ecd5e079b965-decals-on-meshparts-decal-transparency-broken.md"
+  },
+  "https://devforum.roblox.com/t/34357": {
+   "id": "vdn-d0775e8e13bd",
+   "path": "knowledge/snow/d0775e8e13bd-decal-transparency-not-working-for-heads.md"
+  },
+  "https://github.com/antzgames/godot-compatibility-decal-node": {
+   "id": "vdn-05e396579185",
+   "path": "knowledge/snow/05e396579185-antzgames-godot-compatibility-decal-node-this-plug.md"
+  },
+  "https://devforum.roblox.com/t/1575077": {
+   "id": "vdn-e4e6085d9485",
+   "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md"
   }
  },
  "fingerprints": {
@@ -1628,6 +1652,39 @@
   "10afaa3281e16fa7": "vdn-347b565a57a3",
   "aaba1ea5e9a8693a": "vdn-347b565a57a3",
   "d62d5a00830b825c": "vdn-347b565a57a3",
-  "826f154ecff16c6d": "vdn-347b565a57a3"
+  "826f154ecff16c6d": "vdn-347b565a57a3",
+  "bdbe514f27935dbc": "vdn-9f0837c6d92a",
+  "2451d09212c81dc6": "vdn-50126df39330",
+  "ebd9cfac4f2bae4c": "vdn-50126df39330",
+  "251593ba9f0535eb": "vdn-50126df39330",
+  "2512a5051ba4ddb1": "vdn-6a01f7d25e5d",
+  "efe9d1c2c0fe91b8": "vdn-6a01f7d25e5d",
+  "b7890b24b456a66a": "vdn-5ab56379ca09",
+  "229f99f502054015": "vdn-5ab56379ca09",
+  "f9bbaeee65423538": "vdn-407451862bca",
+  "d24e09841b734c7f": "vdn-ecd5e079b965",
+  "f9936e019e5c6902": "vdn-ecd5e079b965",
+  "524343015cc409fb": "vdn-ecd5e079b965",
+  "e21c366a586d38fa": "vdn-7724b2f0d570",
+  "28adf9cbc32fd876": "vdn-7724b2f0d570",
+  "bd7b4e7d75c99b1c": "vdn-7724b2f0d570",
+  "7279bd95154e34a4": "vdn-7724b2f0d570",
+  "3bc11c74baf5c90c": "vdn-7724b2f0d570",
+  "c558569ed9950e85": "vdn-7724b2f0d570",
+  "6ca75356ee400343": "vdn-d0775e8e13bd",
+  "01152a3d9bf8f990": "vdn-05e396579185",
+  "11922b7d218d776c": "vdn-05e396579185",
+  "856451c97916b23b": "vdn-05e396579185",
+  "2feaf28aaee9beb8": "vdn-05e396579185",
+  "448548eee51f5502": "vdn-05e396579185",
+  "aeaf15f036c643fe": "vdn-05e396579185",
+  "def1d05235cf5ac0": "vdn-05e396579185",
+  "3a1148202c813666": "vdn-05e396579185",
+  "1268f6d87caf7d2e": "vdn-f64ce0394d27",
+  "a5cb9da3554c44a3": "vdn-f64ce0394d27",
+  "2b35bf9fc16fdcfa": "vdn-1bdf076fb081",
+  "ae1a6d889bab75b4": "vdn-1bdf076fb081",
+  "d60fe7133884d5b5": "vdn-e4e6085d9485",
+  "3e7df57ab5b1d202": "vdn-a08dfc3000f7"
  }
 }

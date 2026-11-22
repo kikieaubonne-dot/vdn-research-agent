@@ -1447,11 +1447,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-22T23:38:04+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-e4e6085d9485"
+        ],
+        "followups": [
+          "viewmodel animation settings",
+          "viewmodel animation tutorial",
+          "viewmodel animation step by step implementation tutorial code",
+          "viewmodel animation Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795390674.270587,
+      "finished_ts": 1795390684.9894502
     },
     "0e24a017125fd352": {
       "key": "0e24a017125fd352",
@@ -3383,11 +3402,25 @@
       "depth": 1,
       "parent": "dfc37f98415f61fa",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T08:52:14+00:00",
-      "updated": "2026-11-19T08:52:14+00:00",
-      "result": null
+      "updated": "2026-11-22T23:37:27+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-20e7161fffdf"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795390634.8837693,
+      "finished_ts": 1795390647.04691
     },
     "4f6b726aa0a5fb0a": {
       "key": "4f6b726aa0a5fb0a",
@@ -3425,11 +3458,25 @@
       "depth": 1,
       "parent": "c822d6de5ef20240",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-217fa5a553eb)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T18:19:14+00:00",
-      "updated": "2026-11-19T18:19:14+00:00",
-      "result": null
+      "updated": "2026-11-22T23:37:41+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-50126df39330"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795390647.0528176,
+      "finished_ts": 1795390661.2797976
     },
     "44e8fc13dad5cbf5": {
       "key": "44e8fc13dad5cbf5",
@@ -3683,11 +3730,27 @@
       "depth": 2,
       "parent": "3f2b54c407482957",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:15+00:00",
-      "updated": "2026-11-20T17:51:15+00:00",
-      "result": null
+      "updated": "2026-11-22T23:37:54+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-ecd5e079b965",
+          "vdn-d0775e8e13bd",
+          "vdn-05e396579185"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795390661.2856681,
+      "finished_ts": 1795390674.264644
     },
     "57862448cd1622c7": {
       "key": "57862448cd1622c7",
@@ -4048,11 +4111,71 @@
       "created": "2026-11-22T17:52:16+00:00",
       "updated": "2026-11-22T17:52:16+00:00",
       "result": null
+    },
+    "ea10632e9f17e42c": {
+      "key": "ea10632e9f17e42c",
+      "topic": "fp_hands",
+      "query": "viewmodel animation settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "54fe7778a47312b7",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-e4e6085d9485)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T23:38:04+00:00",
+      "updated": "2026-11-22T23:38:04+00:00",
+      "result": null
+    },
+    "b7a90f71968b5613": {
+      "key": "b7a90f71968b5613",
+      "topic": "fp_hands",
+      "query": "viewmodel animation tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "54fe7778a47312b7",
+      "reason": "lacune : aucune etape exploitable (vdn-e4e6085d9485)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T23:38:04+00:00",
+      "updated": "2026-11-22T23:38:04+00:00",
+      "result": null
+    },
+    "2932cbf3330061ed": {
+      "key": "2932cbf3330061ed",
+      "topic": "fp_hands",
+      "query": "viewmodel animation step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "54fe7778a47312b7",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T23:38:04+00:00",
+      "updated": "2026-11-22T23:38:04+00:00",
+      "result": null
+    },
+    "86af1786f7bc1c83": {
+      "key": "86af1786f7bc1c83",
+      "topic": "fp_hands",
+      "query": "viewmodel animation Roblox Studio implementation compatibility",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "54fe7778a47312b7",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T23:38:04+00:00",
+      "updated": "2026-11-22T23:38:04+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-22",
-    "items": 12,
-    "fetch": 94
+    "items": 16,
+    "fetch": 126
   }
 }

@@ -1,121 +1,163 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-22T17:51:32+00:00",
-  "finished": "2026-11-22T17:52:17+00:00",
+  "started": "2026-11-22T23:37:14+00:00",
+  "finished": "2026-11-22T23:38:05+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "camera sway mouse settings",
+      "query": "camera sway mouse step by step implementation tutorial code",
       "topic": "fps_camera",
       "depth": 1,
-      "origin": "relance",
+      "origin": "relance_lacune",
       "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [],
-      "followups": [
-        {
-          "query": "camera sway mouse settings step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fps_camera"
-        }
-      ]
-    },
-    {
-      "query": "Atmosphere density haze tutorial",
-      "topic": "lighting",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 0,
+      "created": 1,
       "rejected": 7,
-      "duplicates": 5,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "Decal Color3 tutorial",
-      "topic": "snow",
-      "depth": 2,
-      "origin": "relance",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "texture resolution limit",
-      "topic": "rendering",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 4,
-      "rejected": 4,
       "duplicates": 1,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-5bc3a24df7c6",
-          "path": "knowledge/rendering/5bc3a24df7c6-align-editableimage-size-limit-with-the-new-high-t.md",
+          "id": "vdn-20e7161fffdf",
+          "path": "knowledge/gameplay/20e7161fffdf-global-wind.md",
           "status": "candidat",
-          "topic": "rendering",
-          "query": "texture resolution limit",
-          "url": "https://devforum.roblox.com/t/4528815",
+          "topic": "fps_camera",
+          "query": "camera sway mouse step by step implementation tutorial code",
+          "url": "https://create.roblox.com/docs/environment/global-wind",
           "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
-        },
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "Atmosphere density haze settings",
+      "topic": "lighting",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 4,
+      "fetched": 8,
+      "notes": [
         {
-          "id": "vdn-d03d2ba87091",
-          "path": "knowledge/rendering/d03d2ba87091-editableimage-higher-resolution-and-memory-limit.md",
-          "status": "candidat",
-          "topic": "rendering",
-          "query": "texture resolution limit",
-          "url": "https://devforum.roblox.com/t/4389575",
-          "missing": [
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-2286d543e24d",
-          "path": "knowledge/rendering/2286d543e24d-texture-is-low-resolution.md",
+          "id": "vdn-50126df39330",
+          "path": "knowledge/lighting/50126df39330-atmosphere-cant-change-color-on-0-haze.md",
           "status": "documente",
-          "topic": "rendering",
-          "query": "texture resolution limit",
-          "url": "https://devforum.roblox.com/t/2084584",
-          "missing": []
+          "topic": "lighting",
+          "query": "Atmosphere density haze settings",
+          "url": "https://devforum.roblox.com/t/2803743",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "Decal Transparency Roblox Studio implementation compatibility",
+      "topic": "snow",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 3,
+      "rejected": 5,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-ecd5e079b965",
+          "path": "knowledge/snow/ecd5e079b965-decals-on-meshparts-decal-transparency-broken.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "Decal Transparency Roblox Studio implementation compatibility",
+          "url": "https://devforum.roblox.com/t/38846",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
         },
         {
-          "id": "vdn-347b565a57a3",
-          "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md",
+          "id": "vdn-d0775e8e13bd",
+          "path": "knowledge/snow/d0775e8e13bd-decal-transparency-not-working-for-heads.md",
           "status": "candidat",
-          "topic": "rendering",
-          "query": "texture resolution limit",
-          "url": "https://github.com/gaming-multiverse/texray",
+          "topic": "snow",
+          "query": "Decal Transparency Roblox Studio implementation compatibility",
+          "url": "https://devforum.roblox.com/t/34357",
           "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-05e396579185",
+          "path": "knowledge/snow/05e396579185-antzgames-godot-compatibility-decal-node-this-plug.md",
+          "status": "candidat",
+          "topic": "snow",
+          "query": "Decal Transparency Roblox Studio implementation compatibility",
+          "url": "https://github.com/antzgames/godot-compatibility-decal-node",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "viewmodel animation",
+      "topic": "fp_hands",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 1,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-e4e6085d9485",
+          "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md",
+          "status": "candidat",
+          "topic": "fp_hands",
+          "query": "viewmodel animation",
+          "url": "https://devforum.roblox.com/t/1575077",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "texture resolution limit tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-5bc3a24df7c6)",
-          "topic": "rendering"
+          "query": "viewmodel animation settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-e4e6085d9485)",
+          "topic": "fp_hands"
+        },
+        {
+          "query": "viewmodel animation tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-e4e6085d9485)",
+          "topic": "fp_hands"
+        },
+        {
+          "query": "viewmodel animation step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fp_hands"
+        },
+        {
+          "query": "viewmodel animation Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "fp_hands"
         }
       ]
     }
   ],
-  "created": 4,
-  "fetched": 31,
-  "rejected": 27,
-  "followups_added": 2,
+  "created": 6,
+  "fetched": 32,
+  "rejected": 26,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -124,47 +166,47 @@
     "counts": {
       "pending": 82,
       "running": 0,
-      "done": 94,
+      "done": 98,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-22",
-      "items": 12,
-      "fetch": 94
+      "items": 16,
+      "fetch": 126
     },
     "next": [
       {
-        "query": "camera sway mouse step by step implementation tutorial code",
+        "query": "camera sway mouse tutorial",
         "topic": "fps_camera",
-        "priority": 8.5,
-        "depth": 1,
-        "origin": "relance_lacune"
-      },
-      {
-        "query": "Atmosphere density haze settings",
-        "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Decal Transparency Roblox Studio implementation compatibility",
+        "query": "Lighting limitations",
+        "topic": "lighting",
+        "priority": 8.0,
+        "depth": 2,
+        "origin": "relance"
+      },
+      {
+        "query": "Decal Transparency settings",
         "topic": "snow",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "viewmodel animation",
-        "topic": "fp_hands",
+        "query": "animation priority blending",
+        "topic": "blender_animation",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "animation priority blending",
-        "topic": "blender_animation",
+        "query": "terrain heightmap import",
+        "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"

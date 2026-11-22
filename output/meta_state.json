@@ -648,13 +648,13 @@
         "best_mean": 0.994
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.81,
-        "returned": 19,
+        "returned": 23,
         "accepted": 1,
         "new": 1,
-        "offtopic": 6,
-        "duplicates": 10,
+        "offtopic": 7,
+        "duplicates": 13,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -662,6 +662,7 @@
           0.0,
           0.4667,
           0.01,
+          0.0,
           0.0,
           0.0
         ],
@@ -688,12 +689,12 @@
     },
     "devforum:snow": {
       "terms": {
-        "n": 7,
-        "reward": 0.362,
-        "returned": 25,
-        "accepted": 3,
-        "new": 3,
-        "offtopic": 21,
+        "n": 8,
+        "reward": 0.746,
+        "returned": 29,
+        "accepted": 5,
+        "new": 5,
+        "offtopic": 23,
         "duplicates": 1,
         "errors": 0,
         "empty": 0,
@@ -704,7 +705,8 @@
           0.0,
           0.036,
           0.13,
-          0.0
+          0.0,
+          0.384
         ],
         "best_mean": 0.196
       },
@@ -755,24 +757,24 @@
     },
     "github:snow": {
       "terms": {
-        "n": 10,
-        "reward": 1.0659999999999998,
-        "returned": 27,
-        "accepted": 5,
-        "new": 5,
-        "offtopic": 14,
+        "n": 11,
+        "reward": 1.3239999999999998,
+        "returned": 31,
+        "accepted": 6,
+        "new": 6,
+        "offtopic": 16,
         "duplicates": 0,
         "errors": 0,
         "empty": 3,
         "recent": [
-          0.0,
           0.344,
           0.0,
           0.214,
           0.508,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.258
         ],
         "best_mean": 0.15228571428571427
       },
@@ -820,24 +822,24 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 10,
-        "reward": 1.446,
-        "returned": 30,
+        "n": 11,
+        "reward": 1.5699999999999998,
+        "returned": 34,
         "accepted": 2,
         "new": 2,
-        "offtopic": 9,
-        "duplicates": 13,
+        "offtopic": 11,
+        "duplicates": 15,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.0,
           0.436,
           0.0,
           0.0,
           0.35,
           0.0,
           0.0,
-          0.222
+          0.222,
+          0.124
         ],
         "best_mean": 0.219
       },
@@ -886,13 +888,13 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 7,
-        "reward": 0.1672,
-        "returned": 26,
-        "accepted": 1,
-        "new": 1,
-        "offtopic": 16,
-        "duplicates": 4,
+        "n": 8,
+        "reward": 0.3712,
+        "returned": 30,
+        "accepted": 2,
+        "new": 2,
+        "offtopic": 17,
+        "duplicates": 6,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -902,9 +904,10 @@
           0.0,
           0.1672,
           0.0,
-          0.0
+          0.0,
+          0.204
         ],
-        "best_mean": 0.03344
+        "best_mean": 0.0464
       },
       "synonyms": {
         "n": 7,
@@ -996,21 +999,21 @@
         "best_mean": 0.1846857142857143
       },
       "facet": {
-        "n": 8,
+        "n": 9,
         "reward": 0.524,
-        "returned": 22,
+        "returned": 26,
         "accepted": 2,
         "new": 2,
-        "offtopic": 16,
+        "offtopic": 20,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
         "recent": [
           0.0,
-          0.0,
           0.092,
           0.0,
           0.432,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -1632,12 +1635,12 @@
         "best_mean": 0.056
       },
       "synonyms": {
-        "n": 4,
-        "reward": 0.0,
-        "returned": 16,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 10,
+        "n": 5,
+        "reward": 0.052,
+        "returned": 20,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 13,
         "duplicates": 6,
         "errors": 0,
         "empty": 0,
@@ -1645,9 +1648,10 @@
           0.0,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.052
         ],
-        "best_mean": 0.0
+        "best_mean": 0.0104
       },
       "facet": {
         "n": 6,
@@ -1691,16 +1695,17 @@
         "best_mean": 0.036
       },
       "synonyms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.0,
-        "returned": 16,
+        "returned": 20,
         "accepted": 0,
         "new": 0,
-        "offtopic": 15,
-        "duplicates": 1,
+        "offtopic": 18,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -1771,16 +1776,17 @@
         "best_mean": 0.43100000000000005
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.0,
-        "returned": 7,
+        "returned": 11,
         "accepted": 0,
         "new": 0,
-        "offtopic": 5,
+        "offtopic": 6,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0
@@ -1916,6 +1922,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.1328,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 3,
+        "duplicates": 1,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.1328
+        ],
+        "best_mean": 0.1328
       }
     },
     "devforum:fp_hands": {
@@ -1948,6 +1969,21 @@
           0.0
         ],
         "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.032,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 3,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.032
+        ],
+        "best_mean": 0.032
       }
     },
     "github:fp_hands": {
@@ -1974,6 +2010,21 @@
         "new": 0,
         "offtopic": 3,
         "duplicates": 1,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      },
+      "facet": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 3,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 1,
+        "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [

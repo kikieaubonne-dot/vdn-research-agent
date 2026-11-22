@@ -408,9 +408,13 @@
     "camera sway mouse settings": 1,
     "Atmosphere density haze tutorial": 1,
     "Decal Color3 tutorial": 1,
-    "texture resolution limit": 1
+    "texture resolution limit": 1,
+    "camera sway mouse step by step implementation tutorial code": 1,
+    "Atmosphere density haze settings": 1,
+    "Decal Transparency Roblox Studio implementation compatibility": 1,
+    "viewmodel animation": 1
   },
-  "runs": 103,
+  "runs": 107,
   "errors": [],
   "rotation": 4
 }
