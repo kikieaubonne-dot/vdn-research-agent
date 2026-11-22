@@ -723,6 +723,22 @@
   "https://github.com/ozzr/godot_terrain": {
    "id": "vdn-1a17791819dc",
    "path": "knowledge/terrain/1a17791819dc-ozzr-godot-terrain-custom-godot-engine-build-with.md"
+  },
+  "https://devforum.roblox.com/t/4528815": {
+   "id": "vdn-5bc3a24df7c6",
+   "path": "knowledge/rendering/5bc3a24df7c6-align-editableimage-size-limit-with-the-new-high-t.md"
+  },
+  "https://devforum.roblox.com/t/4389575": {
+   "id": "vdn-d03d2ba87091",
+   "path": "knowledge/rendering/d03d2ba87091-editableimage-higher-resolution-and-memory-limit.md"
+  },
+  "https://devforum.roblox.com/t/2084584": {
+   "id": "vdn-2286d543e24d",
+   "path": "knowledge/rendering/2286d543e24d-texture-is-low-resolution.md"
+  },
+  "https://github.com/gaming-multiverse/texray": {
+   "id": "vdn-347b565a57a3",
+   "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md"
   }
  },
  "fingerprints": {
@@ -1581,6 +1597,37 @@
   "b2b788a4f0fdf117": "vdn-1a17791819dc",
   "c9e8e29589f7bd7d": "vdn-1a17791819dc",
   "b30bca15e1744015": "vdn-1a17791819dc",
-  "a4420e019f1aba74": "vdn-1a17791819dc"
+  "a4420e019f1aba74": "vdn-1a17791819dc",
+  "c084f3670b1f7ed0": "vdn-3f04a0cc567d",
+  "b2a45bdcbd280734": "vdn-c607eb3a956e",
+  "a20120df2617cf02": "vdn-e239041a0f56",
+  "cdc004f16471f273": "vdn-e239041a0f56",
+  "1ca01493baf99c8a": "vdn-bc64ded91fcb",
+  "55234bca44c6aac0": "vdn-47a5aeae2fef",
+  "cbfcf6c09554817f": "vdn-47a5aeae2fef",
+  "61becdb88a76384a": "vdn-47a5aeae2fef",
+  "05c3044bd812e3c7": "vdn-47a5aeae2fef",
+  "dfd0835621f6745b": "vdn-47a5aeae2fef",
+  "d5f23c79b6ed8680": "vdn-47a5aeae2fef",
+  "c7aee6a5fbf7f960": "vdn-47a5aeae2fef",
+  "22e0a0cf9b537c23": "vdn-b555b2adedef",
+  "708fe4e34279c772": "vdn-b555b2adedef",
+  "68de31ce4383f35d": "vdn-b555b2adedef",
+  "bd0e4ff123c7be14": "vdn-b555b2adedef",
+  "d1c76c178c46ad6d": "vdn-5bc3a24df7c6",
+  "7cf326885ca91529": "vdn-5bc3a24df7c6",
+  "71a1d4369097b8db": "vdn-d03d2ba87091",
+  "3dd0885d563a98a5": "vdn-d03d2ba87091",
+  "d83c335ff5ef74a1": "vdn-d03d2ba87091",
+  "7536f88b8f8c7bf8": "vdn-2286d543e24d",
+  "dd5a63d02066be48": "vdn-2286d543e24d",
+  "a0d0cc72739072d4": "vdn-347b565a57a3",
+  "72c248bd05f59481": "vdn-347b565a57a3",
+  "831fdfb0d981b67a": "vdn-347b565a57a3",
+  "5628af0e1dae9142": "vdn-347b565a57a3",
+  "10afaa3281e16fa7": "vdn-347b565a57a3",
+  "aaba1ea5e9a8693a": "vdn-347b565a57a3",
+  "d62d5a00830b825c": "vdn-347b565a57a3",
+  "826f154ecff16c6d": "vdn-347b565a57a3"
  }
 }

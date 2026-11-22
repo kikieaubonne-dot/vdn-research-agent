@@ -404,9 +404,13 @@
     "triangle count performance": 1,
     "first person camera step by step implementation tutorial code": 1,
     "Future lighting night step by step implementation tutorial code": 1,
-    "Decal Color3 settings": 1
+    "Decal Color3 settings": 1,
+    "camera sway mouse settings": 1,
+    "Atmosphere density haze tutorial": 1,
+    "Decal Color3 tutorial": 1,
+    "texture resolution limit": 1
   },
-  "runs": 99,
+  "runs": 103,
   "errors": [],
   "rotation": 4
 }

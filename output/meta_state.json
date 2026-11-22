@@ -668,16 +668,17 @@
         "best_mean": 0.3333
       },
       "facet": {
-        "n": 3,
+        "n": 4,
         "reward": 0.0,
-        "returned": 12,
+        "returned": 16,
         "accepted": 0,
         "new": 0,
-        "offtopic": 8,
-        "duplicates": 4,
+        "offtopic": 9,
+        "duplicates": 7,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0
@@ -708,12 +709,12 @@
         "best_mean": 0.196
       },
       "synonyms": {
-        "n": 7,
+        "n": 8,
         "reward": 0.42,
-        "returned": 24,
+        "returned": 28,
         "accepted": 2,
         "new": 2,
-        "offtopic": 17,
+        "offtopic": 21,
         "duplicates": 1,
         "errors": 0,
         "empty": 1,
@@ -724,6 +725,7 @@
           0.0,
           0.0,
           0.212,
+          0.0,
           0.0
         ],
         "best_mean": 0.104
@@ -775,12 +777,12 @@
         "best_mean": 0.15228571428571427
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.188,
-        "returned": 13,
+        "returned": 17,
         "accepted": 0,
         "new": 0,
-        "offtopic": 6,
+        "offtopic": 9,
         "duplicates": 0,
         "errors": 0,
         "empty": 2,
@@ -788,6 +790,7 @@
           0.0,
           0.0,
           0.188,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -817,24 +820,24 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 9,
-        "reward": 1.224,
-        "returned": 26,
+        "n": 10,
+        "reward": 1.446,
+        "returned": 30,
         "accepted": 2,
         "new": 2,
-        "offtopic": 8,
-        "duplicates": 10,
+        "offtopic": 9,
+        "duplicates": 13,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.438,
           0.0,
           0.436,
           0.0,
           0.0,
           0.35,
           0.0,
-          0.0
+          0.0,
+          0.222
         ],
         "best_mean": 0.219
       },
@@ -904,12 +907,12 @@
         "best_mean": 0.03344
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.048,
-        "returned": 24,
+        "returned": 28,
         "accepted": 1,
         "new": 1,
-        "offtopic": 17,
+        "offtopic": 21,
         "duplicates": 2,
         "errors": 0,
         "empty": 0,
@@ -919,6 +922,7 @@
           0.0,
           0.0,
           0.048,
+          0.0,
           0.0
         ],
         "best_mean": 0.009600000000000001
@@ -948,21 +952,21 @@
     },
     "github:lighting": {
       "terms": {
-        "n": 8,
+        "n": 9,
         "reward": 0.638,
-        "returned": 16,
+        "returned": 20,
         "accepted": 3,
         "new": 3,
-        "offtopic": 7,
-        "duplicates": 1,
+        "offtopic": 9,
+        "duplicates": 3,
         "errors": 0,
         "empty": 4,
         "recent": [
           0.0,
           0.0,
-          0.0,
           0.492,
           0.146,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -1190,17 +1194,18 @@
         "best_mean": 0.1328
       },
       "facet": {
-        "n": 1,
+        "n": 2,
         "reward": 0.79,
-        "returned": 4,
+        "returned": 8,
         "accepted": 2,
         "new": 2,
-        "offtopic": 0,
-        "duplicates": 0,
+        "offtopic": 3,
+        "duplicates": 1,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.79
+          0.79,
+          0.0
         ],
         "best_mean": 0.79
       }
@@ -1237,36 +1242,38 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 1,
-        "reward": 0.952,
-        "returned": 4,
-        "accepted": 4,
-        "new": 4,
-        "offtopic": 0,
+        "n": 2,
+        "reward": 1.552,
+        "returned": 8,
+        "accepted": 7,
+        "new": 7,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.952
+          0.952,
+          0.6
         ],
         "best_mean": 0.952
       }
     },
     "github:rendering": {
       "terms": {
-        "n": 1,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
+        "n": 2,
+        "reward": 0.55,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
         "offtopic": 0,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.0
+          0.0,
+          0.55
         ],
-        "best_mean": 0.0
+        "best_mean": 0.275
       },
       "synonyms": {
         "n": 1,
@@ -1643,13 +1650,13 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 5,
+        "n": 6,
         "reward": 0.25,
-        "returned": 20,
+        "returned": 24,
         "accepted": 1,
         "new": 1,
-        "offtopic": 10,
-        "duplicates": 9,
+        "offtopic": 13,
+        "duplicates": 10,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -1657,24 +1664,26 @@
           0.0,
           0.0,
           0.0,
-          0.03
+          0.03,
+          0.0
         ],
         "best_mean": 0.22
       }
     },
     "devforum:fps_camera": {
       "terms": {
-        "n": 4,
+        "n": 5,
         "reward": 0.036,
-        "returned": 16,
+        "returned": 20,
         "accepted": 1,
         "new": 1,
-        "offtopic": 13,
-        "duplicates": 2,
+        "offtopic": 16,
+        "duplicates": 3,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.036,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -1722,16 +1731,17 @@
     },
     "github:fps_camera": {
       "terms": {
-        "n": 3,
+        "n": 4,
         "reward": 0.0,
-        "returned": 9,
+        "returned": 13,
         "accepted": 0,
         "new": 0,
-        "offtopic": 2,
+        "offtopic": 4,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0

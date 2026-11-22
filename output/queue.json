@@ -941,11 +941,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-22T17:52:16+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-5bc3a24df7c6",
+          "vdn-d03d2ba87091",
+          "vdn-2286d543e24d",
+          "vdn-347b565a57a3"
+        ],
+        "followups": [
+          "texture resolution limit tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795369926.6284957,
+      "finished_ts": 1795369936.972334
     },
     "b5b8432e62745841": {
       "key": "b5b8432e62745841",
@@ -3320,11 +3339,25 @@
       "depth": 1,
       "parent": "dfc37f98415f61fa",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-861abcc4858c)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T08:52:14+00:00",
-      "updated": "2026-11-19T08:52:14+00:00",
-      "result": null
+      "updated": "2026-11-22T17:51:44+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "camera sway mouse settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795369892.7262514,
+      "finished_ts": 1795369904.0200207
     },
     "a56f8ff57d077d61": {
       "key": "a56f8ff57d077d61",
@@ -3365,11 +3398,23 @@
       "depth": 1,
       "parent": "c822d6de5ef20240",
       "reason": "lacune : aucune etape exploitable (vdn-dcf7d5f0a361)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T18:19:14+00:00",
-      "updated": "2026-11-19T18:19:14+00:00",
-      "result": null
+      "updated": "2026-11-22T17:51:54+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795369904.0241563,
+      "finished_ts": 1795369914.6469765
     },
     "decfbf8ce765bf27": {
       "key": "decfbf8ce765bf27",
@@ -3506,11 +3551,23 @@
       "depth": 2,
       "parent": "0181c8cbca252c64",
       "reason": "lacune : aucune etape exploitable (vdn-6db19d230bc3)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T08:41:01+00:00",
-      "updated": "2026-11-20T08:41:01+00:00",
-      "result": null
+      "updated": "2026-11-22T17:52:06+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795369914.6515615,
+      "finished_ts": 1795369926.6244318
     },
     "72ea94af2e518401": {
       "key": "72ea94af2e518401",
@@ -3961,11 +4018,41 @@
       "created": "2026-11-22T09:54:46+00:00",
       "updated": "2026-11-22T09:54:46+00:00",
       "result": null
+    },
+    "8827f9ab79d71e36": {
+      "key": "8827f9ab79d71e36",
+      "topic": "fps_camera",
+      "query": "camera sway mouse settings step by step implementation tutorial code",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "10eafb9faef1fee8",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T17:51:44+00:00",
+      "updated": "2026-11-22T17:51:44+00:00",
+      "result": null
+    },
+    "c6146a50d3662f77": {
+      "key": "c6146a50d3662f77",
+      "topic": "rendering",
+      "query": "texture resolution limit tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "50050bd6dff60982",
+      "reason": "lacune : aucune etape exploitable (vdn-5bc3a24df7c6)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T17:52:16+00:00",
+      "updated": "2026-11-22T17:52:16+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-22",
-    "items": 8,
-    "fetch": 63
+    "items": 12,
+    "fetch": 94
   }
 }

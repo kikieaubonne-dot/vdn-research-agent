@@ -1,60 +1,44 @@
 {
-  "started_utc": "2026-11-22T09:54:33+00:00",
+  "started_utc": "2026-11-22T17:52:06+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 7,
-  "created": 7,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
-  "duplicates": 4,
-  "rejected": 1,
+  "duplicates": 1,
+  "rejected": 4,
   "errors": [],
   "rejection_reasons": {
-    "pas assez de contenu technique": 1
+    "hors sujet": 4,
+    "pas assez de contenu technique": 2
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "terrain",
+      "topic": "rendering",
       "origin": "seed",
       "strategy": "facet",
-      "query": "terrain MaterialVariant custom settings",
+      "query": "texture resolution limit settings",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 4,
-      "offtopic": 0,
+      "duplicates": 1,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.02,
+      "technical_mean": 0.333,
+      "duration_s": 3.29,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "terrain",
+      "topic": "rendering",
       "origin": "seed",
       "strategy": "facet",
-      "query": "terrain MaterialVariant custom settings",
-      "returned": 4,
-      "accepted": 4,
-      "new": 4,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 0.59,
-      "duration_s": 5.23,
-      "reward": 0.836
-    },
-    {
-      "provider": "github",
-      "topic": "terrain",
-      "origin": "seed",
-      "strategy": "terms",
-      "query": "terrain MaterialVariant custom",
+      "query": "texture resolution limit settings",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -62,77 +46,99 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.55,
-      "duration_s": 7.82,
-      "reward": 0.62
+      "technical_mean": 0.5,
+      "duration_s": 4.98,
+      "reward": 0.6
+    },
+    {
+      "provider": "github",
+      "topic": "rendering",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "texture resolution limit",
+      "returned": 4,
+      "accepted": 1,
+      "new": 1,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 1.0,
+      "duration_s": 2.04,
+      "reward": 0.55
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-2755cfa54ad6",
-      "path": "knowledge/terrain/2755cfa54ad6-custom-material-layers-for-materialvariants.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://devforum.roblox.com/t/1969074"
-    },
-    {
-      "id": "vdn-fbaa093ac63a",
-      "path": "knowledge/terrain/fbaa093ac63a-when-materialvariant-alpha-mode-is-enabled-custom.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://devforum.roblox.com/t/4544417"
-    },
-    {
-      "id": "vdn-8c572c591a85",
-      "path": "knowledge/terrain/8c572c591a85-materialvariant-help.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://devforum.roblox.com/t/3978624"
-    },
-    {
-      "id": "vdn-39ef9ccd1d87",
-      "path": "knowledge/terrain/39ef9ccd1d87-setting-materialvariant-doesn-t-auto-set-base-mate.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://devforum.roblox.com/t/2692682"
-    },
-    {
-      "id": "vdn-8046ba4fe5c0",
-      "path": "knowledge/terrain/8046ba4fe5c0-biomebundle-biomebundle-custom-terrain-generator.md",
+      "id": "vdn-5bc3a24df7c6",
+      "path": "knowledge/rendering/5bc3a24df7c6-align-editableimage-size-limit-with-the-new-high-t.md",
       "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://github.com/biomebundle/biomebundle"
+      "topic": "rendering",
+      "query": "texture resolution limit",
+      "url": "https://devforum.roblox.com/t/4528815"
     },
     {
-      "id": "vdn-ecbc96807ed9",
-      "path": "knowledge/terrain/ecbc96807ed9-sanielx-hollow-terrainsystem-prototype-project-for.md",
+      "id": "vdn-d03d2ba87091",
+      "path": "knowledge/rendering/d03d2ba87091-editableimage-higher-resolution-and-memory-limit.md",
       "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://github.com/sanielx/hollow-terrainsystem"
+      "topic": "rendering",
+      "query": "texture resolution limit",
+      "url": "https://devforum.roblox.com/t/4389575"
     },
     {
-      "id": "vdn-1a17791819dc",
-      "path": "knowledge/terrain/1a17791819dc-ozzr-godot-terrain-custom-godot-engine-build-with.md",
+      "id": "vdn-2286d543e24d",
+      "path": "knowledge/rendering/2286d543e24d-texture-is-low-resolution.md",
+      "status": "documente",
+      "topic": "rendering",
+      "query": "texture resolution limit",
+      "url": "https://devforum.roblox.com/t/2084584"
+    },
+    {
+      "id": "vdn-347b565a57a3",
+      "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md",
       "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom",
-      "url": "https://github.com/ozzr/godot_terrain"
+      "topic": "rendering",
+      "query": "texture resolution limit",
+      "url": "https://github.com/gaming-multiverse/texray"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.833,
-      "technical": 0.04,
+      "topical": 0.467,
+      "technical": 1.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.467 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.267,
+      "technical": 0.64,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.267 < 0.5)"
       ]
     }
   ],
@@ -141,5 +147,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-22T09:54:46+00:00"
+  "finished_utc": "2026-11-22T17:52:16+00:00"
 }

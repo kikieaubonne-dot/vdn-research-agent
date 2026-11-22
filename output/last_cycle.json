@@ -1,39 +1,33 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-22T09:53:55+00:00",
-  "finished": "2026-11-22T09:54:46+00:00",
+  "started": "2026-11-22T17:51:32+00:00",
+  "finished": "2026-11-22T17:52:17+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "first person camera step by step implementation tutorial code",
+      "query": "camera sway mouse settings",
       "topic": "fps_camera",
       "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 3,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 2,
       "fetched": 8,
-      "notes": [
+      "notes": [],
+      "followups": [
         {
-          "id": "vdn-8bf656dd2188",
-          "path": "knowledge/gameplay/8bf656dd2188-aiagentstarter-zombie-hunter-first-person-3d-zombi.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "first person camera step by step implementation tutorial code",
-          "url": "https://github.com/aiagentstarter/zombie-hunter",
-          "missing": [
-            "aucune etape exploitable"
-          ]
+          "query": "camera sway mouse settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fps_camera"
         }
-      ],
-      "followups": []
+      ]
     },
     {
-      "query": "Future lighting night step by step implementation tutorial code",
+      "query": "Atmosphere density haze tutorial",
       "topic": "lighting",
       "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 7,
@@ -43,121 +37,84 @@
       "followups": []
     },
     {
-      "query": "Decal Color3 settings",
+      "query": "Decal Color3 tutorial",
       "topic": "snow",
       "depth": 2,
       "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 4,
+      "duplicates": 3,
       "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "terrain MaterialVariant custom",
-      "topic": "terrain",
+      "query": "texture resolution limit",
+      "topic": "rendering",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 7,
-      "rejected": 1,
-      "duplicates": 4,
+      "created": 4,
+      "rejected": 4,
+      "duplicates": 1,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-2755cfa54ad6",
-          "path": "knowledge/terrain/2755cfa54ad6-custom-material-layers-for-materialvariants.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://devforum.roblox.com/t/1969074",
+          "id": "vdn-5bc3a24df7c6",
+          "path": "knowledge/rendering/5bc3a24df7c6-align-editableimage-size-limit-with-the-new-high-t.md",
+          "status": "candidat",
+          "topic": "rendering",
+          "query": "texture resolution limit",
+          "url": "https://devforum.roblox.com/t/4528815",
           "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
+            "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-fbaa093ac63a",
-          "path": "knowledge/terrain/fbaa093ac63a-when-materialvariant-alpha-mode-is-enabled-custom.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://devforum.roblox.com/t/4544417",
-          "missing": []
-        },
-        {
-          "id": "vdn-8c572c591a85",
-          "path": "knowledge/terrain/8c572c591a85-materialvariant-help.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://devforum.roblox.com/t/3978624",
-          "missing": []
-        },
-        {
-          "id": "vdn-39ef9ccd1d87",
-          "path": "knowledge/terrain/39ef9ccd1d87-setting-materialvariant-doesn-t-auto-set-base-mate.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://devforum.roblox.com/t/2692682",
-          "missing": []
-        },
-        {
-          "id": "vdn-8046ba4fe5c0",
-          "path": "knowledge/terrain/8046ba4fe5c0-biomebundle-biomebundle-custom-terrain-generator.md",
+          "id": "vdn-d03d2ba87091",
+          "path": "knowledge/rendering/d03d2ba87091-editableimage-higher-resolution-and-memory-limit.md",
           "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://github.com/biomebundle/biomebundle",
+          "topic": "rendering",
+          "query": "texture resolution limit",
+          "url": "https://devforum.roblox.com/t/4389575",
           "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
+            "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-ecbc96807ed9",
-          "path": "knowledge/terrain/ecbc96807ed9-sanielx-hollow-terrainsystem-prototype-project-for.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://github.com/sanielx/hollow-terrainsystem",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
+          "id": "vdn-2286d543e24d",
+          "path": "knowledge/rendering/2286d543e24d-texture-is-low-resolution.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "texture resolution limit",
+          "url": "https://devforum.roblox.com/t/2084584",
+          "missing": []
         },
         {
-          "id": "vdn-1a17791819dc",
-          "path": "knowledge/terrain/1a17791819dc-ozzr-godot-terrain-custom-godot-engine-build-with.md",
+          "id": "vdn-347b565a57a3",
+          "path": "knowledge/rendering/347b565a57a3-gaming-multiverse-texray-windows-gui-tool-that-sca.md",
           "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom",
-          "url": "https://github.com/ozzr/godot_terrain",
+          "topic": "rendering",
+          "query": "texture resolution limit",
+          "url": "https://github.com/gaming-multiverse/texray",
           "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
+            "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "terrain MaterialVariant custom settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-2755cfa54ad6)",
-          "topic": "terrain"
-        },
-        {
-          "query": "terrain MaterialVariant custom step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "terrain"
+          "query": "texture resolution limit tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-5bc3a24df7c6)",
+          "topic": "rendering"
         }
       ]
     }
   ],
-  "created": 8,
+  "created": 4,
   "fetched": 31,
-  "rejected": 23,
+  "rejected": 27,
   "followups_added": 2,
   "seeded": 0,
   "recovered": 0,
@@ -165,49 +122,49 @@
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 84,
+      "pending": 82,
       "running": 0,
-      "done": 90,
+      "done": 94,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-22",
-      "items": 8,
-      "fetch": 63
+      "items": 12,
+      "fetch": 94
     },
     "next": [
       {
-        "query": "camera sway mouse settings",
+        "query": "camera sway mouse step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "Atmosphere density haze tutorial",
+        "query": "Atmosphere density haze settings",
         "topic": "lighting",
         "priority": 8.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "Decal Color3 tutorial",
+        "query": "Decal Transparency Roblox Studio implementation compatibility",
         "topic": "snow",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "texture resolution limit",
-        "topic": "rendering",
+        "query": "viewmodel animation",
+        "topic": "fp_hands",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "viewmodel animation",
-        "topic": "fp_hands",
+        "query": "animation priority blending",
+        "topic": "blender_animation",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
