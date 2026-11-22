@@ -675,6 +675,22 @@
   "https://github.com/mbushuev/fighting-force-recharged": {
    "id": "vdn-429ee16a736d",
    "path": "knowledge/gameplay/429ee16a736d-mbushuev-fighting-force-recharged-compatibility-an.md"
+  },
+  "https://devforum.roblox.com/t/2060610": {
+   "id": "vdn-69741c3a1232",
+   "path": "knowledge/performance/69741c3a1232-how-do-i-reduce-triangle-count.md"
+  },
+  "https://devforum.roblox.com/t/2928590": {
+   "id": "vdn-4262958e24ac",
+   "path": "knowledge/performance/4262958e24ac-different-triangle-count.md"
+  },
+  "https://github.com/roblox-ugc-tri-count-tool-d219/roblox-ugc-tri-count-tool-d219.github.io": {
+   "id": "vdn-385c531820f0",
+   "path": "knowledge/performance/385c531820f0-roblox-ugc-tri-count-tool-d219-roblox-ugc-tri-coun.md"
+  },
+  "https://github.com/kokusaitomita-blip/vrm-platform-preflight": {
+   "id": "vdn-aee340f3dc1c",
+   "path": "knowledge/performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender.md"
   }
  },
  "fingerprints": {
@@ -1465,6 +1481,34 @@
   "cb6e1eca2e8e9d19": "vdn-9af28411e939",
   "ce826f46178ca254": "vdn-9da387fdc585",
   "17795b12f489c5b2": "vdn-cfbab3cddd3a",
-  "03d6897672b8c28f": "vdn-35bcf456029a"
+  "03d6897672b8c28f": "vdn-35bcf456029a",
+  "a4212e51b7a0c222": "vdn-76395a8707ec",
+  "9d66384600ef2bbc": "vdn-0a6279b64a88",
+  "6982144b0205cbb3": "vdn-0a6279b64a88",
+  "400dbf8cd845f96f": "vdn-0a6279b64a88",
+  "ada1674ad4d704cf": "vdn-0a6279b64a88",
+  "a47fa340106f3d40": "vdn-0a6279b64a88",
+  "fb40ca24b2311fa7": "vdn-0a6279b64a88",
+  "734439e20ae679bb": "vdn-0a6279b64a88",
+  "4ec6a97b5053752e": "vdn-0a6279b64a88",
+  "4c322f88ea94d153": "vdn-c51df586cf9e",
+  "4f1d4944a07760d7": "vdn-372d42278003",
+  "7a22377ef80bc4ae": "vdn-69741c3a1232",
+  "393b6c6d641304cf": "vdn-69741c3a1232",
+  "c4d019cb3cdbd96f": "vdn-69741c3a1232",
+  "096b3f06363d8a16": "vdn-4262958e24ac",
+  "b3f098a31e5362ab": "vdn-4262958e24ac",
+  "faa67c43676d0446": "vdn-01cae77b9993",
+  "7edda9af47e5881d": "vdn-01cae77b9993",
+  "5161177a92ceecd3": "vdn-01cae77b9993",
+  "444577276389f67b": "vdn-385c531820f0",
+  "5ccd912420516720": "vdn-aee340f3dc1c",
+  "3695ed1f7bec7b8e": "vdn-aee340f3dc1c",
+  "e39c96dd5d50e8f6": "vdn-aee340f3dc1c",
+  "3d18ad90dd29650f": "vdn-aee340f3dc1c",
+  "bbe29a138c931872": "vdn-aee340f3dc1c",
+  "122d83a11996235b": "vdn-aee340f3dc1c",
+  "81ed80d2f0abae55": "vdn-aee340f3dc1c",
+  "bc1bb930e0f1f4c3": "vdn-aee340f3dc1c"
  }
 }

@@ -978,11 +978,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-22T02:16:39+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-69741c3a1232",
+          "vdn-4262958e24ac",
+          "vdn-385c531820f0",
+          "vdn-aee340f3dc1c"
+        ],
+        "followups": [
+          "triangle count performance settings",
+          "triangle count performance tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795313787.689357,
+      "finished_ts": 1795313799.9280643
     },
     "ae35f28ec3968555": {
       "key": "ae35f28ec3968555",
@@ -3046,11 +3066,25 @@
       "depth": 1,
       "parent": "7add448f671e6e27",
       "reason": "lacune : aucune etape exploitable (vdn-da2cc18756a0)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:14:56+00:00",
-      "updated": "2026-11-19T01:14:56+00:00",
-      "result": null
+      "updated": "2026-11-22T02:16:02+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795313749.4428296,
+      "finished_ts": 1795313762.4429297
     },
     "b016a9fe65d38a16": {
       "key": "b016a9fe65d38a16",
@@ -3147,11 +3181,25 @@
       "depth": 1,
       "parent": "b8df3720537dcf96",
       "reason": "lacune : aucune etape exploitable (vdn-1cc1e90f40db)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T01:15:08+00:00",
-      "updated": "2026-11-19T01:15:08+00:00",
-      "result": null
+      "updated": "2026-11-22T02:16:14+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "first person camera tutorial Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795313762.4477084,
+      "finished_ts": 1795313774.434329
     },
     "e1a94a965e74b27d": {
       "key": "e1a94a965e74b27d",
@@ -3298,11 +3346,23 @@
       "depth": 2,
       "parent": "a1f1a2c05a21f8ef",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-bea2db0c0eb0)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T18:19:40+00:00",
-      "updated": "2026-11-19T18:19:40+00:00",
-      "result": null
+      "updated": "2026-11-22T02:16:27+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795313774.43957,
+      "finished_ts": 1795313787.6846557
     },
     "05f080f3498a5fd1": {
       "key": "05f080f3498a5fd1",
@@ -3750,11 +3810,71 @@
       "created": "2026-11-21T21:41:03+00:00",
       "updated": "2026-11-21T21:41:03+00:00",
       "result": null
+    },
+    "a604388b4162012b": {
+      "key": "a604388b4162012b",
+      "topic": "lighting",
+      "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "d71006fd1ad55f2c",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T02:16:02+00:00",
+      "updated": "2026-11-22T02:16:02+00:00",
+      "result": null
+    },
+    "9f86cb30f6e3755f": {
+      "key": "9f86cb30f6e3755f",
+      "topic": "fps_camera",
+      "query": "first person camera tutorial Roblox Studio implementation compatibility",
+      "priority": 8.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "d94688e24f89ea5b",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T02:16:14+00:00",
+      "updated": "2026-11-22T02:16:14+00:00",
+      "result": null
+    },
+    "c06efab921f8e47f": {
+      "key": "c06efab921f8e47f",
+      "topic": "performance",
+      "query": "triangle count performance settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "4220ef7674bfaeca",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-69741c3a1232)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T02:16:39+00:00",
+      "updated": "2026-11-22T02:16:39+00:00",
+      "result": null
+    },
+    "cdffbf36f24058fc": {
+      "key": "cdffbf36f24058fc",
+      "topic": "performance",
+      "query": "triangle count performance tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "4220ef7674bfaeca",
+      "reason": "lacune : aucune etape exploitable (vdn-385c531820f0)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-22T02:16:39+00:00",
+      "updated": "2026-11-22T02:16:39+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-21",
-    "items": 16,
-    "fetch": 124
+    "date": "2026-11-22",
+    "items": 4,
+    "fetch": 32
   }
 }

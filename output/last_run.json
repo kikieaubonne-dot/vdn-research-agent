@@ -1,153 +1,144 @@
 {
-  "started_utc": "2026-11-21T21:40:51+00:00",
+  "started_utc": "2026-11-22T02:16:27+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 9,
+  "returned": 12,
   "fetched": 8,
-  "accepted": 0,
-  "created": 0,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
-  "duplicates": 1,
-  "rejected": 8,
+  "duplicates": 2,
+  "rejected": 4,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 7,
-    "pas assez de contenu technique": 6,
-    "aucun lien avec Roblox ou la chaîne Blender": 2
+    "hors sujet": 4,
+    "pas assez de contenu technique": 2
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "fp_hands",
+      "topic": "performance",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "arms Motor6D viewmodel",
-      "returned": 1,
+      "strategy": "facet",
+      "query": "triangle count performance limit",
+      "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 1,
+      "duplicates": 2,
+      "offtopic": 2,
       "error": null,
-      "technical_mean": 0.32,
-      "duration_s": 1.18,
+      "technical_mean": 0.0,
+      "duration_s": 2.12,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "fp_hands",
+      "topic": "performance",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "arms Motor6D viewmodel",
+      "strategy": "facet",
+      "query": "triangle count performance limit",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 2,
+      "new": 2,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 4,
+      "offtopic": 2,
       "error": null,
-      "technical_mean": 0.07,
-      "duration_s": 5.32,
-      "reward": 0.0
+      "technical_mean": 0.54,
+      "duration_s": 5.34,
+      "reward": 0.416
     },
     {
       "provider": "github",
-      "topic": "fp_hands",
+      "topic": "performance",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "arms Motor6D viewmodel",
+      "strategy": "facet",
+      "query": "triangle count performance limit",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 2,
+      "new": 2,
       "updated": 0,
-      "duplicates": 1,
-      "offtopic": 3,
+      "duplicates": 0,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.013,
-      "duration_s": 5.99,
-      "reward": 0.0
+      "technical_mean": 0.58,
+      "duration_s": 4.76,
+      "reward": 0.532
     }
   ],
-  "created_notes": [],
+  "created_notes": [
+    {
+      "id": "vdn-69741c3a1232",
+      "path": "knowledge/performance/69741c3a1232-how-do-i-reduce-triangle-count.md",
+      "status": "documente",
+      "topic": "performance",
+      "query": "triangle count performance",
+      "url": "https://devforum.roblox.com/t/2060610"
+    },
+    {
+      "id": "vdn-4262958e24ac",
+      "path": "knowledge/performance/4262958e24ac-different-triangle-count.md",
+      "status": "documente",
+      "topic": "performance",
+      "query": "triangle count performance",
+      "url": "https://devforum.roblox.com/t/2928590"
+    },
+    {
+      "id": "vdn-385c531820f0",
+      "path": "knowledge/performance/385c531820f0-roblox-ugc-tri-count-tool-d219-roblox-ugc-tri-coun.md",
+      "status": "candidat",
+      "topic": "performance",
+      "query": "triangle count performance",
+      "url": "https://github.com/roblox-ugc-tri-count-tool-d219/roblox-ugc-tri-count-tool-d219.github.io"
+    },
+    {
+      "id": "vdn-aee340f3dc1c",
+      "path": "knowledge/performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender.md",
+      "status": "candidat",
+      "topic": "performance",
+      "query": "triangle count performance",
+      "url": "https://github.com/kokusaitomita-blip/vrm-platform-preflight"
+    }
+  ],
   "rejected_candidates": [
     {
-      "topical": 0.167,
-      "technical": 0.32,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.16,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.583,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.333,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.167,
-      "technical": 0.0,
-      "roblox": false,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.333,
+      "topical": 0.0,
       "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
+        "hors sujet (pertinence 0.0 < 0.5)",
         "pas assez de contenu technique (0.0)"
       ]
     },
     {
-      "topical": 0.333,
-      "technical": 0.04,
-      "roblox": false,
+      "topical": 0.0,
+      "technical": 0.0,
+      "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.333 < 0.5)",
-        "aucun lien avec Roblox ou la chaîne Blender",
-        "pas assez de contenu technique (0.04)"
+        "hors sujet (pertinence 0.0 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.76,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.417,
+      "technical": 0.52,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
       ]
     }
   ],
@@ -156,5 +147,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-21T21:41:03+00:00"
+  "finished_utc": "2026-11-22T02:16:39+00:00"
 }

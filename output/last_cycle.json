@@ -1,14 +1,33 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-21T21:40:14+00:00",
-  "finished": "2026-11-21T21:41:03+00:00",
+  "started": "2026-11-22T02:15:49+00:00",
+  "finished": "2026-11-22T02:16:40+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "flashlight SpotLight shadows step by step implementation tutorial code",
+      "query": "flashlight SpotLight shadows tutorial",
       "topic": "lighting",
       "depth": 1,
-      "origin": "relance_lacune",
+      "origin": "relance",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 4,
+      "fetched": 8,
+      "notes": [],
+      "followups": [
+        {
+          "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "lighting"
+        }
+      ]
+    },
+    {
+      "query": "first person camera tutorial",
+      "topic": "fps_camera",
+      "depth": 1,
+      "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -17,49 +36,17 @@
       "notes": [],
       "followups": [
         {
-          "query": "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility",
+          "query": "first person camera tutorial Roblox Studio implementation compatibility",
           "reason": "compatibilite Roblox non etablie",
-          "topic": "lighting"
-        }
-      ]
-    },
-    {
-      "query": "first person camera Roblox Studio implementation compatibility",
-      "topic": "fps_camera",
-      "depth": 1,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-429ee16a736d",
-          "path": "knowledge/gameplay/429ee16a736d-mbushuev-fighting-force-recharged-compatibility-an.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "first person camera Roblox Studio implementation compatibility",
-          "url": "https://github.com/mbushuev/fighting-force-recharged",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "fps_camera"
         }
       ]
     },
     {
-      "query": "snow terrain material tutorial step by step implementation tutorial code",
+      "query": "snow terrain material settings",
       "topic": "snow",
       "depth": 2,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
       "created": 0,
       "rejected": 8,
@@ -69,29 +56,82 @@
       "followups": []
     },
     {
-      "query": "arms Motor6D viewmodel",
-      "topic": "fp_hands",
+      "query": "triangle count performance",
+      "topic": "performance",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 1,
+      "created": 4,
+      "rejected": 4,
+      "duplicates": 2,
       "fetched": 8,
-      "notes": [],
+      "notes": [
+        {
+          "id": "vdn-69741c3a1232",
+          "path": "knowledge/performance/69741c3a1232-how-do-i-reduce-triangle-count.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "triangle count performance",
+          "url": "https://devforum.roblox.com/t/2060610",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-4262958e24ac",
+          "path": "knowledge/performance/4262958e24ac-different-triangle-count.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "triangle count performance",
+          "url": "https://devforum.roblox.com/t/2928590",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-385c531820f0",
+          "path": "knowledge/performance/385c531820f0-roblox-ugc-tri-count-tool-d219-roblox-ugc-tri-coun.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "triangle count performance",
+          "url": "https://github.com/roblox-ugc-tri-count-tool-d219/roblox-ugc-tri-count-tool-d219.github.io",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-aee340f3dc1c",
+          "path": "knowledge/performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "triangle count performance",
+          "url": "https://github.com/kokusaitomita-blip/vrm-platform-preflight",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
       "followups": [
         {
-          "query": "arms Motor6D viewmodel step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fp_hands"
+          "query": "triangle count performance settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-69741c3a1232)",
+          "topic": "performance"
+        },
+        {
+          "query": "triangle count performance tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-385c531820f0)",
+          "topic": "performance"
         }
       ]
     }
   ],
-  "created": 1,
+  "created": 4,
   "fetched": 32,
-  "rejected": 31,
-  "followups_added": 3,
+  "rejected": 28,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -100,47 +140,47 @@
     "counts": {
       "pending": 86,
       "running": 0,
-      "done": 82,
+      "done": 86,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-21",
-      "items": 16,
-      "fetch": 124
+      "date": "2026-11-22",
+      "items": 4,
+      "fetch": 32
     },
     "next": [
       {
-        "query": "flashlight SpotLight shadows tutorial",
-        "topic": "lighting",
-        "priority": 8.5,
-        "depth": 1,
-        "origin": "relance"
-      },
-      {
-        "query": "first person camera tutorial",
+        "query": "first person camera step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "snow terrain material settings",
+        "query": "Future lighting night step by step implementation tutorial code",
+        "topic": "lighting",
+        "priority": 8.5,
+        "depth": 1,
+        "origin": "relance_lacune"
+      },
+      {
+        "query": "Decal Color3 settings",
         "topic": "snow",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "triangle count performance",
-        "topic": "performance",
+        "query": "terrain MaterialVariant custom",
+        "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "terrain MaterialVariant custom",
-        "topic": "terrain",
+        "query": "texture resolution limit",
+        "topic": "rendering",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
