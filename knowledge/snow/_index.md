@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (14)
+## Documenté (15)
 
 - [[snow/14f415164625-class-decal|Class: Decal]] — niv. 1 · conf. moyenne — « [Face](/docs/reference/engine/classes/Decal.md) property, and the size of the decal is dependent on »
 - [[snow/35696693c238-class-materialvariant|Class: MaterialVariant]] — niv. 1 · conf. moyenne — « built-in material, or set in the [BasePart.MaterialVariant](/docs/reference/engine/classes/BasePart.md) property to »
@@ -15,6 +15,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/0c6ae3fae482-textures-and-decals|Textures and decals]] — niv. 1 · conf. moyenne — « - Change the texture or decal `Class.Decal.Color3|Color3` property to set a color tint using RGB color codes. »
 - [[snow/56797d0952ca-full-launch-publish-games-with-custom-terrain-mate|[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements]] — niv. 1 · conf. moyenne — « As of today (10/27), the performance improvements are only available in Studio. »
 - [[snow/3f6876f2e6c4-decal-overlapping-bug|Decal Overlapping Bug]] — niv. 2 · conf. faible — « If what you’re implying is that the grey cube on the right is actually supposed to be behind the cube on the left, then the only reason this… »
+- [[snow/b98787e7a99a-decal-transparency-not-changing-from-a-script|Decal transparency not changing from a script]] — niv. 2 · conf. faible — « For some reason when i change a decals transparency inside a script it does nothing but works when i change in-game manually. »
 - [[snow/ecd5e079b965-decals-on-meshparts-decal-transparency-broken|Decals on meshparts = decal transparency broken]] — niv. 2 · conf. faible — « Just opened up my team create studio place today only to notice that the transparency value of decals which are inside meshparts isnt workin… »
 - [[snow/9ecfcd6024b0-setting-a-decal|Setting a Decal]] — niv. 2 · conf. faible — « So far, I’ve got the function working, but the decal (the id is 11201552339) would not set itself. »
 - [[snow/0bbf5df63d38-setting-transparency-of-an-accessory|Setting transparency of an accessory?]] — niv. 2 · conf. faible — « The problem is that I cannot get the transparency of the accessory to display correctly as transparency is not a child of the accessory. »

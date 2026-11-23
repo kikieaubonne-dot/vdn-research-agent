@@ -806,11 +806,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-23T20:16:55+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-4314f4f2160d",
+          "vdn-d6a3bf3127c3",
+          "vdn-91060ef3bf99",
+          "vdn-f43d601ade9d"
+        ],
+        "followups": [
+          "terrain heightmap import settings",
+          "terrain heightmap import step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795465004.2970755,
+      "finished_ts": 1795465015.4141693
     },
     "e9bbb564405d01c5": {
       "key": "e9bbb564405d01c5",
@@ -3571,11 +3591,23 @@
       "depth": 2,
       "parent": "d3363902d660e57f",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T08:40:37+00:00",
-      "updated": "2026-11-20T08:40:37+00:00",
-      "result": null
+      "updated": "2026-11-23T20:16:24+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795464972.8207753,
+      "finished_ts": 1795464984.7222342
     },
     "3eeb51742b25d926": {
       "key": "3eeb51742b25d926",
@@ -3720,11 +3752,25 @@
       "depth": 2,
       "parent": "610151593f1217cc",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:01+00:00",
-      "updated": "2026-11-20T17:51:01+00:00",
-      "result": null
+      "updated": "2026-11-23T20:16:33+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 6,
+        "created": 1,
+        "rejected": 5,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [
+          "vdn-28a3ff82aeeb"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795464984.7289226,
+      "finished_ts": 1795464993.5707924
     },
     "b4ee0a348ed8cf8a": {
       "key": "b4ee0a348ed8cf8a",
@@ -3780,11 +3826,25 @@
       "depth": 2,
       "parent": "3f2b54c407482957",
       "reason": "lacune : aucune etape exploitable (vdn-0173454d7a6e)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:15+00:00",
-      "updated": "2026-11-20T17:51:15+00:00",
-      "result": null
+      "updated": "2026-11-23T20:16:44+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 6,
+        "created": 1,
+        "rejected": 5,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [
+          "vdn-b98787e7a99a"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795464993.5772192,
+      "finished_ts": 1795465004.2906537
     },
     "672de6dddabad248": {
       "key": "672de6dddabad248",
@@ -4266,11 +4326,41 @@
       "created": "2026-11-23T07:42:30+00:00",
       "updated": "2026-11-23T07:42:30+00:00",
       "result": null
+    },
+    "27b56184be646af4": {
+      "key": "27b56184be646af4",
+      "topic": "terrain",
+      "query": "terrain heightmap import settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "81f23bb09d9de9a5",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-d6a3bf3127c3)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-23T20:16:55+00:00",
+      "updated": "2026-11-23T20:16:55+00:00",
+      "result": null
+    },
+    "d96b102425df5587": {
+      "key": "d96b102425df5587",
+      "topic": "terrain",
+      "query": "terrain heightmap import step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "81f23bb09d9de9a5",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-23T20:16:55+00:00",
+      "updated": "2026-11-23T20:16:55+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-23",
-    "items": 4,
-    "fetch": 32
+    "items": 8,
+    "fetch": 60
   }
 }

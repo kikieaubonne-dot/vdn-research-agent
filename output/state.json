@@ -323,7 +323,7 @@
     "snow accumulation mesh": 2,
     "light shadows performance": 2,
     "ambient exposure night": 2,
-    "terrain heightmap import": 1,
+    "terrain heightmap import": 2,
     "MeshPart RenderFidelity": 1,
     "instance streaming level detail": 1,
     "rock mesh SurfaceAppearance": 1,
@@ -416,9 +416,12 @@
     "camera sway mouse tutorial": 1,
     "Lighting limitations": 1,
     "Decal Transparency settings": 1,
-    "animation priority blending": 1
+    "animation priority blending": 1,
+    "camera bobbing CFrame settings step by step implementation tutorial code": 1,
+    "light shadows performance settings step by step implementation tutorial code": 1,
+    "Decal Transparency tutorial": 1
   },
-  "runs": 111,
+  "runs": 115,
   "errors": [],
   "rotation": 4
 }

@@ -807,6 +807,30 @@
   "https://devforum.roblox.com/t/2071910": {
    "id": "vdn-a1e8285a8e0c",
    "path": "knowledge/animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a.md"
+  },
+  "https://github.com/scofferr/autoexec": {
+   "id": "vdn-28a3ff82aeeb",
+   "path": "knowledge/lighting/28a3ff82aeeb-scofferr-autoexec-these-configs-were-generated-by.md"
+  },
+  "https://devforum.roblox.com/t/1735760": {
+   "id": "vdn-b98787e7a99a",
+   "path": "knowledge/snow/b98787e7a99a-decal-transparency-not-changing-from-a-script.md"
+  },
+  "https://devforum.roblox.com/t/58469": {
+   "id": "vdn-4314f4f2160d",
+   "path": "knowledge/terrain/4314f4f2160d-terrain-heightmap-import.md"
+  },
+  "https://devforum.roblox.com/t/2951241": {
+   "id": "vdn-d6a3bf3127c3",
+   "path": "knowledge/terrain/d6a3bf3127c3-heightmap-terrain-help-possible-bug.md"
+  },
+  "https://devforum.roblox.com/t/1486119": {
+   "id": "vdn-91060ef3bf99",
+   "path": "knowledge/terrain/91060ef3bf99-heightmap-terrain-problem.md"
+  },
+  "https://github.com/rendszerguru/arte-qgis-plugin": {
+   "id": "vdn-f43d601ade9d",
+   "path": "knowledge/terrain/f43d601ade9d-rendszerguru-arte-qgis-plugin-advanced-qgis-terrai.md"
   }
  },
  "fingerprints": {
@@ -1775,6 +1799,28 @@
   "57aeba1c2bd50334": "vdn-c8713a79ef8e",
   "ca623120c6df53dd": "vdn-c8713a79ef8e",
   "7871cffebbb31300": "vdn-a1e8285a8e0c",
-  "1b419a674ca764ce": "vdn-a1e8285a8e0c"
+  "1b419a674ca764ce": "vdn-a1e8285a8e0c",
+  "312c2287200cd078": "vdn-40333460d178",
+  "aab6826a5c692d97": "vdn-40333460d178",
+  "66dca3833f1ab586": "vdn-28a3ff82aeeb",
+  "40a132acf580e29a": "vdn-b98787e7a99a",
+  "0a8b0e84c0d5d366": "vdn-b98787e7a99a",
+  "52004332e903f70b": "vdn-b98787e7a99a",
+  "6ea78181862056fb": "vdn-b98787e7a99a",
+  "97267b49bb9383cc": "vdn-b98787e7a99a",
+  "faad4ff63e27e0bf": "vdn-b98787e7a99a",
+  "ba991cef2acb81fa": "vdn-4314f4f2160d",
+  "e016e02587cf5947": "vdn-4314f4f2160d",
+  "c668a775812bcfd7": "vdn-4314f4f2160d",
+  "85a2567640602f11": "vdn-d6a3bf3127c3",
+  "40bbf418147c3b04": "vdn-91060ef3bf99",
+  "d4748dd5bec26d6d": "vdn-f43d601ade9d",
+  "165bab78f0be98b4": "vdn-f43d601ade9d",
+  "7cc1bf3936e51636": "vdn-f43d601ade9d",
+  "272e9afe019d4daf": "vdn-f43d601ade9d",
+  "8e68a7a8a986a4ff": "vdn-f43d601ade9d",
+  "ab8296ec5998bcaa": "vdn-f43d601ade9d",
+  "ad8d692d068b4eec": "vdn-f43d601ade9d",
+  "dfa7fcf6418cbd97": "vdn-f43d601ade9d"
  }
 }

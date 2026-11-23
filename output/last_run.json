@@ -1,92 +1,117 @@
 {
-  "started_utc": "2026-11-23T07:42:20+00:00",
+  "started_utc": "2026-11-23T20:16:44+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 9,
+  "returned": 12,
   "fetched": 8,
-  "accepted": 2,
-  "created": 2,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
-  "duplicates": 0,
-  "rejected": 6,
+  "duplicates": 1,
+  "rejected": 4,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 6,
-    "pas assez de contenu technique": 3
+    "hors sujet": 3,
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "blender_animation",
+      "topic": "terrain",
       "origin": "seed",
       "strategy": "synonyms",
-      "query": "animator priority blending",
+      "query": "materialvariant heightmap import",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 4,
+      "duplicates": 1,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.54,
-      "duration_s": 4.42,
-      "reward": 0.016
+      "technical_mean": 0.933,
+      "duration_s": 3.31,
+      "reward": 0.2232
     },
     {
       "provider": "devforum",
-      "topic": "blender_animation",
+      "topic": "terrain",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "animator priority blending",
+      "strategy": "facet",
+      "query": "terrain heightmap import bug",
       "returned": 4,
-      "accepted": 2,
-      "new": 2,
+      "accepted": 3,
+      "new": 3,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 2,
+      "offtopic": 1,
       "error": null,
-      "technical_mean": 0.19,
-      "duration_s": 5.09,
-      "reward": 0.276
+      "technical_mean": 0.24,
+      "duration_s": 5.14,
+      "reward": 0.496
     },
     {
       "provider": "github",
-      "topic": "blender_animation",
+      "topic": "terrain",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "animator priority blending",
-      "returned": 1,
-      "accepted": 0,
-      "new": 0,
+      "strategy": "terms",
+      "query": "terrain heightmap import",
+      "returned": 4,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.31,
-      "reward": 0.0
+      "technical_mean": 1.0,
+      "duration_s": 2.62,
+      "reward": 0.55
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-c8713a79ef8e",
-      "path": "knowledge/animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "animation priority blending",
-      "url": "https://devforum.roblox.com/t/1784433"
+      "id": "vdn-4314f4f2160d",
+      "path": "knowledge/terrain/4314f4f2160d-terrain-heightmap-import.md",
+      "status": "documente",
+      "topic": "terrain",
+      "query": "terrain heightmap import",
+      "url": "https://devforum.roblox.com/t/58469"
     },
     {
-      "id": "vdn-a1e8285a8e0c",
-      "path": "knowledge/animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a.md",
+      "id": "vdn-d6a3bf3127c3",
+      "path": "knowledge/terrain/d6a3bf3127c3-heightmap-terrain-help-possible-bug.md",
       "status": "candidat",
-      "topic": "blender_animation",
-      "query": "animation priority blending",
-      "url": "https://devforum.roblox.com/t/2071910"
+      "topic": "terrain",
+      "query": "terrain heightmap import",
+      "url": "https://devforum.roblox.com/t/2951241"
+    },
+    {
+      "id": "vdn-91060ef3bf99",
+      "path": "knowledge/terrain/91060ef3bf99-heightmap-terrain-problem.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain heightmap import",
+      "url": "https://devforum.roblox.com/t/1486119"
+    },
+    {
+      "id": "vdn-f43d601ade9d",
+      "path": "knowledge/terrain/f43d601ade9d-rendszerguru-arte-qgis-plugin-advanced-qgis-terrai.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain heightmap import",
+      "url": "https://github.com/rendszerguru/arte-qgis-plugin"
     }
   ],
   "rejected_candidates": [
+    {
+      "topical": 0.417,
+      "technical": 0.8,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
     {
       "topical": 0.417,
       "technical": 1.0,
@@ -98,17 +123,7 @@
     },
     {
       "topical": 0.417,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)",
-        "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.417,
-      "technical": 0.44,
+      "technical": 1.0,
       "roblox": true,
       "noise": [],
       "reasons": [
@@ -116,32 +131,12 @@
       ]
     },
     {
-      "topical": 0.417,
-      "technical": 0.68,
+      "topical": 0.833,
+      "technical": 0.12,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.167,
-      "technical": 0.08,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "pas assez de contenu technique (0.08)"
-      ]
-    },
-    {
-      "topical": 0.167,
-      "technical": 0.08,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "pas assez de contenu technique (0.08)"
+        "pas assez de contenu technique (0.12)"
       ]
     }
   ],
@@ -150,5 +145,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-23T07:42:30+00:00"
+  "finished_utc": "2026-11-23T20:16:55+00:00"
 }
