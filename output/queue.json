@@ -1600,11 +1600,29 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-23T07:42:30+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-c8713a79ef8e",
+          "vdn-a1e8285a8e0c"
+        ],
+        "followups": [
+          "animation priority blending settings",
+          "animation priority blending tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795419740.2279437,
+      "finished_ts": 1795419750.077536
     },
     "abcdc6487f350b33": {
       "key": "abcdc6487f350b33",
@@ -3387,11 +3405,23 @@
       "depth": 1,
       "parent": "dfc37f98415f61fa",
       "reason": "lacune : aucune etape exploitable (vdn-861abcc4858c)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-19T08:52:14+00:00",
-      "updated": "2026-11-19T08:52:14+00:00",
-      "result": null
+      "updated": "2026-11-23T07:41:56+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795419704.665103,
+      "finished_ts": 1795419716.269251
     },
     "93935960da8ca89c": {
       "key": "93935960da8ca89c",
@@ -3556,11 +3586,31 @@
       "depth": 2,
       "parent": "197e12f70aa1401f",
       "reason": "lacune : aucune limite Roblox citee (vdn-d58d7cf22396)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T08:40:50+00:00",
-      "updated": "2026-11-20T08:40:50+00:00",
-      "result": null
+      "updated": "2026-11-23T07:42:08+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 7,
+        "rejected": 1,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-6f9509608a5e",
+          "vdn-e18a99b6f1c8",
+          "vdn-83913efc3c12",
+          "vdn-8c737cd56a02",
+          "vdn-550a8df9794e",
+          "vdn-f4e96353224f",
+          "vdn-e9edf90f8ef2"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795419716.2753282,
+      "finished_ts": 1795419728.4356456
     },
     "c992bb70e0e8f4b1": {
       "key": "c992bb70e0e8f4b1",
@@ -3700,11 +3750,26 @@
       "depth": 2,
       "parent": "3f2b54c407482957",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-3f6876f2e6c4)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:15+00:00",
-      "updated": "2026-11-20T17:51:15+00:00",
-      "result": null
+      "updated": "2026-11-23T07:42:20+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-9ecfcd6024b0",
+          "vdn-0bbf5df63d38"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795419728.4418364,
+      "finished_ts": 1795419740.2205625
     },
     "dbeb96195a43b20a": {
       "key": "dbeb96195a43b20a",
@@ -4171,11 +4236,41 @@
       "created": "2026-11-22T23:38:04+00:00",
       "updated": "2026-11-22T23:38:04+00:00",
       "result": null
+    },
+    "1e270d01f7a791c4": {
+      "key": "1e270d01f7a791c4",
+      "topic": "blender_animation",
+      "query": "animation priority blending settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "618a5caa07ac3daf",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-c8713a79ef8e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-23T07:42:30+00:00",
+      "updated": "2026-11-23T07:42:30+00:00",
+      "result": null
+    },
+    "d879de82bba4aa7a": {
+      "key": "d879de82bba4aa7a",
+      "topic": "blender_animation",
+      "query": "animation priority blending tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "618a5caa07ac3daf",
+      "reason": "lacune : aucune etape exploitable (vdn-c8713a79ef8e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-23T07:42:30+00:00",
+      "updated": "2026-11-23T07:42:30+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-22",
-    "items": 16,
-    "fetch": 126
+    "date": "2026-11-23",
+    "items": 4,
+    "fetch": 32
   }
 }

@@ -412,9 +412,13 @@
     "camera sway mouse step by step implementation tutorial code": 1,
     "Atmosphere density haze settings": 1,
     "Decal Transparency Roblox Studio implementation compatibility": 1,
-    "viewmodel animation": 1
+    "viewmodel animation": 1,
+    "camera sway mouse tutorial": 1,
+    "Lighting limitations": 1,
+    "Decal Transparency settings": 1,
+    "animation priority blending": 1
   },
-  "runs": 107,
+  "runs": 111,
   "errors": [],
   "rotation": 4
 }

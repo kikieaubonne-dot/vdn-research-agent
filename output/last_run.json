@@ -1,96 +1,93 @@
 {
-  "started_utc": "2026-11-22T23:37:54+00:00",
+  "started_utc": "2026-11-23T07:42:20+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 11,
+  "returned": 9,
   "fetched": 8,
-  "accepted": 1,
-  "created": 1,
+  "accepted": 2,
+  "created": 2,
   "updated": 0,
-  "duplicates": 1,
-  "rejected": 7,
+  "duplicates": 0,
+  "rejected": 6,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 4,
-    "pas assez de contenu technique": 4,
-    "aucun lien avec Roblox ou la chaîne Blender": 1
+    "hors sujet": 6,
+    "pas assez de contenu technique": 3
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "fp_hands",
+      "topic": "blender_animation",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "viewmodel animation settings",
+      "strategy": "synonyms",
+      "query": "animator priority blending",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 1,
-      "offtopic": 3,
+      "duplicates": 0,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.707,
-      "duration_s": 3.25,
-      "reward": 0.1328
+      "technical_mean": 0.54,
+      "duration_s": 4.42,
+      "reward": 0.016
     },
     {
       "provider": "devforum",
-      "topic": "fp_hands",
+      "topic": "blender_animation",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "viewmodel animation settings",
+      "strategy": "synonyms",
+      "query": "animator priority blending",
       "returned": 4,
-      "accepted": 1,
-      "new": 1,
+      "accepted": 2,
+      "new": 2,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 3,
+      "offtopic": 2,
       "error": null,
-      "technical_mean": 0.08,
-      "duration_s": 5.18,
-      "reward": 0.032
+      "technical_mean": 0.19,
+      "duration_s": 5.09,
+      "reward": 0.276
     },
     {
       "provider": "github",
-      "topic": "fp_hands",
+      "topic": "blender_animation",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "viewmodel animation settings",
-      "returned": 3,
+      "strategy": "synonyms",
+      "query": "animator priority blending",
+      "returned": 1,
       "accepted": 0,
       "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 1,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.16,
-      "duration_s": 2.26,
+      "technical_mean": 0.0,
+      "duration_s": 0.31,
       "reward": 0.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-e4e6085d9485",
-      "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md",
+      "id": "vdn-c8713a79ef8e",
+      "path": "knowledge/animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of.md",
       "status": "candidat",
-      "topic": "fp_hands",
-      "query": "viewmodel animation",
-      "url": "https://devforum.roblox.com/t/1575077"
+      "topic": "blender_animation",
+      "query": "animation priority blending",
+      "url": "https://devforum.roblox.com/t/1784433"
+    },
+    {
+      "id": "vdn-a1e8285a8e0c",
+      "path": "knowledge/animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a.md",
+      "status": "candidat",
+      "topic": "blender_animation",
+      "query": "animation priority blending",
+      "url": "https://devforum.roblox.com/t/2071910"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.167,
-      "technical": 0.12,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
-        "pas assez de contenu technique (0.12)"
-      ]
-    },
-    {
       "topical": 0.417,
       "technical": 1.0,
       "roblox": true,
@@ -101,48 +98,50 @@
     },
     {
       "topical": 0.417,
-      "technical": 1.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.667,
-      "technical": 0.08,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.08)"
-      ]
-    },
-    {
-      "topical": 0.667,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)",
         "pas assez de contenu technique (0.04)"
       ]
     },
     {
-      "topical": 0.25,
-      "technical": 0.0,
+      "topical": 0.417,
+      "technical": 0.44,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)",
-        "pas assez de contenu technique (0.0)"
+        "hors sujet (pertinence 0.417 < 0.5)"
       ]
     },
     {
-      "topical": 0.667,
-      "technical": 0.16,
-      "roblox": false,
+      "topical": 0.417,
+      "technical": 0.68,
+      "roblox": true,
       "noise": [],
       "reasons": [
-        "aucun lien avec Roblox ou la chaîne Blender"
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.08,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.08)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.08,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.08)"
       ]
     }
   ],
@@ -151,5 +150,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-22T23:38:04+00:00"
+  "finished_utc": "2026-11-23T07:42:30+00:00"
 }

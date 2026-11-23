@@ -1,90 +1,95 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-22T23:37:14+00:00",
-  "finished": "2026-11-22T23:38:05+00:00",
+  "started": "2026-11-23T07:41:44+00:00",
+  "finished": "2026-11-23T07:42:30+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "camera sway mouse step by step implementation tutorial code",
+      "query": "camera sway mouse tutorial",
       "topic": "fps_camera",
-      "depth": 1,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-20e7161fffdf",
-          "path": "knowledge/gameplay/20e7161fffdf-global-wind.md",
-          "status": "candidat",
-          "topic": "fps_camera",
-          "query": "camera sway mouse step by step implementation tutorial code",
-          "url": "https://create.roblox.com/docs/environment/global-wind",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "Atmosphere density haze settings",
-      "topic": "lighting",
       "depth": 1,
       "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "Lighting limitations",
+      "topic": "lighting",
+      "depth": 2,
+      "origin": "relance",
+      "status": "done",
+      "created": 7,
+      "rejected": 1,
       "duplicates": 4,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-50126df39330",
-          "path": "knowledge/lighting/50126df39330-atmosphere-cant-change-color-on-0-haze.md",
+          "id": "vdn-6f9509608a5e",
+          "path": "knowledge/lighting/6f9509608a5e-help-with-a-lighting-issue.md",
           "status": "documente",
           "topic": "lighting",
-          "query": "Atmosphere density haze settings",
-          "url": "https://devforum.roblox.com/t/2803743",
-          "missing": [
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "Decal Transparency Roblox Studio implementation compatibility",
-      "topic": "snow",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 3,
-      "rejected": 5,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-ecd5e079b965",
-          "path": "knowledge/snow/ecd5e079b965-decals-on-meshparts-decal-transparency-broken.md",
-          "status": "documente",
-          "topic": "snow",
-          "query": "Decal Transparency Roblox Studio implementation compatibility",
-          "url": "https://devforum.roblox.com/t/38846",
+          "query": "Lighting limitations",
+          "url": "https://devforum.roblox.com/t/1173617",
           "missing": [
             "aucun parametre chiffre dans la source"
           ]
         },
         {
-          "id": "vdn-d0775e8e13bd",
-          "path": "knowledge/snow/d0775e8e13bd-decal-transparency-not-working-for-heads.md",
+          "id": "vdn-e18a99b6f1c8",
+          "path": "knowledge/lighting/e18a99b6f1c8-how-to-have-good-lighting.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://devforum.roblox.com/t/1220495",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-83913efc3c12",
+          "path": "knowledge/lighting/83913efc3c12-help-with-lighting.md",
           "status": "candidat",
-          "topic": "snow",
-          "query": "Decal Transparency Roblox Studio implementation compatibility",
-          "url": "https://devforum.roblox.com/t/34357",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://devforum.roblox.com/t/1256869",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-8c737cd56a02",
+          "path": "knowledge/lighting/8c737cd56a02-basnijholt-adaptive-lighting-adaptive-lighting-cus.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://github.com/basnijholt/adaptive-lighting",
+          "missing": []
+        },
+        {
+          "id": "vdn-550a8df9794e",
+          "path": "knowledge/lighting/550a8df9794e-unity-technologies-volumetriclighting-lighting-eff.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://github.com/unity-technologies/volumetriclighting",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-f4e96353224f",
+          "path": "knowledge/lighting/f4e96353224f-toblum-mclighting-the-esp8266-based-multi-client-l.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://github.com/toblum/mclighting",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -92,12 +97,50 @@
           ]
         },
         {
-          "id": "vdn-05e396579185",
-          "path": "knowledge/snow/05e396579185-antzgames-godot-compatibility-decal-node-this-plug.md",
+          "id": "vdn-e9edf90f8ef2",
+          "path": "knowledge/lighting/e9edf90f8ef2-openlightingproject-ola-the-open-lighting-architec.md",
           "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting limitations",
+          "url": "https://github.com/openlightingproject/ola",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "Decal Transparency settings",
+      "topic": "snow",
+      "depth": 2,
+      "origin": "relance",
+      "status": "done",
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-9ecfcd6024b0",
+          "path": "knowledge/snow/9ecfcd6024b0-setting-a-decal.md",
+          "status": "documente",
           "topic": "snow",
-          "query": "Decal Transparency Roblox Studio implementation compatibility",
-          "url": "https://github.com/antzgames/godot-compatibility-decal-node",
+          "query": "Decal Transparency settings",
+          "url": "https://devforum.roblox.com/t/3054267",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-0bbf5df63d38",
+          "path": "knowledge/snow/0bbf5df63d38-setting-transparency-of-an-accessory.md",
+          "status": "documente",
+          "topic": "snow",
+          "query": "Decal Transparency settings",
+          "url": "https://devforum.roblox.com/t/1777283",
           "missing": [
             "aucun parametre chiffre dans la source"
           ]
@@ -106,23 +149,36 @@
       "followups": []
     },
     {
-      "query": "viewmodel animation",
-      "topic": "fp_hands",
+      "query": "animation priority blending",
+      "topic": "blender_animation",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 1,
+      "created": 2,
+      "rejected": 6,
+      "duplicates": 0,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-e4e6085d9485",
-          "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md",
+          "id": "vdn-c8713a79ef8e",
+          "path": "knowledge/animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of.md",
           "status": "candidat",
-          "topic": "fp_hands",
-          "query": "viewmodel animation",
-          "url": "https://devforum.roblox.com/t/1575077",
+          "topic": "blender_animation",
+          "query": "animation priority blending",
+          "url": "https://devforum.roblox.com/t/1784433",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-a1e8285a8e0c",
+          "path": "knowledge/animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "animation priority blending",
+          "url": "https://devforum.roblox.com/t/2071910",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -132,81 +188,71 @@
       ],
       "followups": [
         {
-          "query": "viewmodel animation settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-e4e6085d9485)",
-          "topic": "fp_hands"
+          "query": "animation priority blending settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c8713a79ef8e)",
+          "topic": "blender_animation"
         },
         {
-          "query": "viewmodel animation tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-e4e6085d9485)",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "viewmodel animation step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "viewmodel animation Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "fp_hands"
+          "query": "animation priority blending tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-c8713a79ef8e)",
+          "topic": "blender_animation"
         }
       ]
     }
   ],
-  "created": 6,
+  "created": 11,
   "fetched": 32,
-  "rejected": 26,
-  "followups_added": 4,
+  "rejected": 21,
+  "followups_added": 2,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 82,
+      "pending": 80,
       "running": 0,
-      "done": 98,
+      "done": 102,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-22",
-      "items": 16,
-      "fetch": 126
+      "date": "2026-11-23",
+      "items": 4,
+      "fetch": 32
     },
     "next": [
       {
-        "query": "camera sway mouse tutorial",
+        "query": "camera bobbing CFrame settings step by step implementation tutorial code",
         "topic": "fps_camera",
-        "priority": 8.5,
-        "depth": 1,
-        "origin": "relance"
+        "priority": 8.0,
+        "depth": 2,
+        "origin": "relance_lacune"
       },
       {
-        "query": "Lighting limitations",
+        "query": "light shadows performance settings step by step implementation tutorial code",
         "topic": "lighting",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "Decal Transparency settings",
+        "query": "Decal Transparency tutorial",
         "topic": "snow",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "animation priority blending",
-        "topic": "blender_animation",
+        "query": "terrain heightmap import",
+        "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "terrain heightmap import",
-        "topic": "terrain",
+        "query": "crouch sprint stamina",
+        "topic": "movement",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"

@@ -763,6 +763,50 @@
   "https://devforum.roblox.com/t/1575077": {
    "id": "vdn-e4e6085d9485",
    "path": "knowledge/animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod.md"
+  },
+  "https://devforum.roblox.com/t/1173617": {
+   "id": "vdn-6f9509608a5e",
+   "path": "knowledge/lighting/6f9509608a5e-help-with-a-lighting-issue.md"
+  },
+  "https://devforum.roblox.com/t/1220495": {
+   "id": "vdn-e18a99b6f1c8",
+   "path": "knowledge/lighting/e18a99b6f1c8-how-to-have-good-lighting.md"
+  },
+  "https://devforum.roblox.com/t/1256869": {
+   "id": "vdn-83913efc3c12",
+   "path": "knowledge/lighting/83913efc3c12-help-with-lighting.md"
+  },
+  "https://github.com/basnijholt/adaptive-lighting": {
+   "id": "vdn-8c737cd56a02",
+   "path": "knowledge/lighting/8c737cd56a02-basnijholt-adaptive-lighting-adaptive-lighting-cus.md"
+  },
+  "https://github.com/unity-technologies/volumetriclighting": {
+   "id": "vdn-550a8df9794e",
+   "path": "knowledge/lighting/550a8df9794e-unity-technologies-volumetriclighting-lighting-eff.md"
+  },
+  "https://github.com/toblum/mclighting": {
+   "id": "vdn-f4e96353224f",
+   "path": "knowledge/lighting/f4e96353224f-toblum-mclighting-the-esp8266-based-multi-client-l.md"
+  },
+  "https://github.com/openlightingproject/ola": {
+   "id": "vdn-e9edf90f8ef2",
+   "path": "knowledge/lighting/e9edf90f8ef2-openlightingproject-ola-the-open-lighting-architec.md"
+  },
+  "https://devforum.roblox.com/t/3054267": {
+   "id": "vdn-9ecfcd6024b0",
+   "path": "knowledge/snow/9ecfcd6024b0-setting-a-decal.md"
+  },
+  "https://devforum.roblox.com/t/1777283": {
+   "id": "vdn-0bbf5df63d38",
+   "path": "knowledge/snow/0bbf5df63d38-setting-transparency-of-an-accessory.md"
+  },
+  "https://devforum.roblox.com/t/1784433": {
+   "id": "vdn-c8713a79ef8e",
+   "path": "knowledge/animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of.md"
+  },
+  "https://devforum.roblox.com/t/2071910": {
+   "id": "vdn-a1e8285a8e0c",
+   "path": "knowledge/animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a.md"
   }
  },
  "fingerprints": {
@@ -1685,6 +1729,52 @@
   "2b35bf9fc16fdcfa": "vdn-1bdf076fb081",
   "ae1a6d889bab75b4": "vdn-1bdf076fb081",
   "d60fe7133884d5b5": "vdn-e4e6085d9485",
-  "3e7df57ab5b1d202": "vdn-a08dfc3000f7"
+  "3e7df57ab5b1d202": "vdn-a08dfc3000f7",
+  "752a0ef4d0415404": "vdn-e18a99b6f1c8",
+  "87397f2efb2b06ab": "vdn-e18a99b6f1c8",
+  "e74b318c62039519": "vdn-e18a99b6f1c8",
+  "ac2c302735b2c1f2": "vdn-83913efc3c12",
+  "2d3e63b1272b0adf": "vdn-8c737cd56a02",
+  "5ceb37c1c94f160b": "vdn-8c737cd56a02",
+  "7bbd53c9799ceb61": "vdn-8c737cd56a02",
+  "869180d4cbc68550": "vdn-8c737cd56a02",
+  "f727b53bc9a98613": "vdn-8c737cd56a02",
+  "8aa35bcc68852c0c": "vdn-8c737cd56a02",
+  "df2b8649a305c31e": "vdn-8c737cd56a02",
+  "23689e40e9e94fc3": "vdn-8c737cd56a02",
+  "14c1a5a879ef4667": "vdn-550a8df9794e",
+  "8c167e8db89570dd": "vdn-550a8df9794e",
+  "5e394195fcdad04f": "vdn-550a8df9794e",
+  "f326b436cc75e684": "vdn-550a8df9794e",
+  "744117c7d34a7245": "vdn-f4e96353224f",
+  "630a62b877126814": "vdn-e9edf90f8ef2",
+  "8ee63fbb665881db": "vdn-0bbf5df63d38",
+  "fc27034df5118c77": "vdn-0bbf5df63d38",
+  "9cdcd88a6ef39257": "vdn-0bbf5df63d38",
+  "a2f13f117a93b3c7": "vdn-0bbf5df63d38",
+  "ac5e0ca69f8b8a6a": "vdn-0bbf5df63d38",
+  "ff0a4357aace22ee": "vdn-0bbf5df63d38",
+  "31ac296615484ca9": "vdn-3a7ea2807987",
+  "75a3ceb01924058b": "vdn-3a7ea2807987",
+  "6a1367d676d4bdaf": "vdn-3a7ea2807987",
+  "7ee6cf2a61ebf4c1": "vdn-3a7ea2807987",
+  "030e85fbdd7cbb23": "vdn-96da2f2efb24",
+  "8dd3a2564420b06f": "vdn-96da2f2efb24",
+  "fe9ab46278a14e0b": "vdn-96da2f2efb24",
+  "7b35d1d27c89d731": "vdn-96da2f2efb24",
+  "0d53d7d709c76807": "vdn-96da2f2efb24",
+  "78e4e1da70aced75": "vdn-96da2f2efb24",
+  "26336a1d262f73ec": "vdn-3415f7f6d341",
+  "fd7d41ddab984a5b": "vdn-3415f7f6d341",
+  "3bd88374ded8011d": "vdn-3415f7f6d341",
+  "1b3e4e0d35b08f0e": "vdn-bbdbb4ec4598",
+  "394cfc49350e9897": "vdn-bbdbb4ec4598",
+  "6de73ee0667acdca": "vdn-bbdbb4ec4598",
+  "70e52024dc255dea": "vdn-bbdbb4ec4598",
+  "ef17141d8df36712": "vdn-bbdbb4ec4598",
+  "57aeba1c2bd50334": "vdn-c8713a79ef8e",
+  "ca623120c6df53dd": "vdn-c8713a79ef8e",
+  "7871cffebbb31300": "vdn-a1e8285a8e0c",
+  "1b419a674ca764ce": "vdn-a1e8285a8e0c"
  }
 }

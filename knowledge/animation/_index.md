@@ -11,12 +11,14 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
 - [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
 
-## Candidat (8)
+## Candidat (10)
 
 - [[animation/7ce009e766f3-export-and-import-animations|Export and Import Animations]] — niv. 1 · conf. faible — « Export animations to share with other developers." »
 - [[animation/0a9d12ab6395-export-animations|Export animations]] — niv. 1 · conf. faible — « To use the animation, it will need to be exported from the animation editor to the Roblox platform. »
+- [[animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a|Is it possible to set animation priority in moon animator?]] — niv. 1 · conf. faible — « So just asking if I can set animation priority in it »
 - [[traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo|Building a parkour system cuz i'm bored(devlog)]] — niv. 2 · conf. faible
 - [[traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system|Creating an advanced ledge climbing system]] — niv. 2 · conf. faible
+- [[animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of|How can I change the animation priority inside of Moon Animator?]] — niv. 2 · conf. faible — « How can I change the animation priority inside of Moon Animator? »
 - [[animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod|How can I go about setting up Skinned Mesh Viewmodel]] — niv. 2 · conf. faible — « How can I go about setting up a skinned mesh view model? »
 - [[traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system|How do I create a ledge climbing system?]] — niv. 2 · conf. faible
 - [[animation/56c111b389f7-problem-with-animation-for-right-hand-only|Problem with animation for right hand only]] — niv. 2 · conf. faible — « When I create my Idle animation for my Pistol, this issue is occurring: »
