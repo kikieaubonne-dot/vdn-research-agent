@@ -20,7 +20,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/9ecfcd6024b0-setting-a-decal|Setting a Decal]] — niv. 2 · conf. faible — « So far, I’ve got the function working, but the decal (the id is 11201552339) would not set itself. »
 - [[snow/0bbf5df63d38-setting-transparency-of-an-accessory|Setting transparency of an accessory?]] — niv. 2 · conf. faible — « The problem is that I cannot get the transparency of the accessory to display correctly as transparency is not a child of the accessory. »
 
-## Candidat (13)
+## Candidat (14)
 
 - [[snow/d0775e8e13bd-decal-transparency-not-working-for-heads|Decal Transparency not working for heads]] — niv. 1 · conf. faible — « I looked into making the transparency property work for faces briefly a few weeks ago and didn’t see an obvious way to do it. »
 - [[snow/0258c29be0fa-footprint-decals-overlapping|Footprint Decals Overlapping]] — niv. 1 · conf. faible — « It works well but the only issue is that sometimes if you get to the edge of the snow the decal may overlap onto the concrete instead of the… »
@@ -33,6 +33,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[snow/05e396579185-antzgames-godot-compatibility-decal-node-this-plug|antzGames/Godot-Compatibility-Decal-Node — This plugin provides both instanced and non-instanced animated decal node functionality for all Renderers in Godot 4.]] — niv. 3 · conf. faible — « This plugin provides both instanced and non-instanced animated decal node functionality for all Renderers in Godot 4.4-4.7, packaged as an e… »
 - [[snow/0173454d7a6e-derpatron666-uh-something-fridgeclan-strikes-again|derpatron666/uh-something — -- FridgeClan strikes again! -- Sensuke, this is why you DON'T goto Voidacity's -- Jaja has been absent, so I've taken it upon mysel]] — niv. 3 · conf. faible
 - [[snow/6db19d230bc3-igotthebaggggggg-easy-make-sure-to-subscribe-to-de|igotthebaggggggg/EASY — -- make sure to subscribe to dexisthebest416 on youtube local b=game:GetService("Players").LocalPlayer;local d=2;function JailbreakTp(..]] — niv. 3 · conf. faible
+- [[snow/1bdf076fb081-lkasser-decal-acunreal-decal-for-ac-unreal-a-udp-p|lkasser/Decal-ACUnreal — Decal for AC:Unreal: a UDP-proxy plugin host, Decal compatibility layer and in-game overlay for the Unreal Engine 5 Asheron's Call clie]] — niv. 3 · conf. faible — « **Letting plugins act** is deliberate: `--enable-actions` (or "Let plugins act" in Decal's »
 - [[snow/de5c2f83a861-m77203211-eeeeeee-id-custom-rooms-classname-folder|m77203211/eeeeeee — {"id":"Custom_Rooms","ClassName":"Folder","properties":[],"children":[{"id":"{D50DE7C3-D3CD-4EFC-9474-AD673158026E}","ClassName":"Model","pr]] — niv. 3 · conf. faible
 - [[snow/7c9737244b82-m77203211-w-22-32-56-755-id-custom-rooms-classname|m77203211/w — 22:32:56.755 {"id":"Custom_Rooms","ClassName":"Folder","properties":[],"children":[{"id":"{D50DE7C3-D3CD-4EFC-9474-AD673158026E}","ClassName":"Mod]] — niv. 3 · conf. faible
 

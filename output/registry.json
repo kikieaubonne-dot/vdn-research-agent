@@ -835,6 +835,42 @@
   "https://devforum.roblox.com/t/246126": {
    "id": "vdn-e1c00bb1490d",
    "path": "knowledge/lighting/e1c00bb1490d-help-with-lighting.md"
+  },
+  "https://github.com/sundaymoments/ds5_bridge": {
+   "id": "vdn-8e4533bb8a9d",
+   "path": "knowledge/lighting/8e4533bb8a9d-sundaymoments-ds5-bridge-wireless-dualsense-and-du.md"
+  },
+  "https://github.com/lkasser/decal-acunreal": {
+   "id": "vdn-1bdf076fb081",
+   "path": "knowledge/snow/1bdf076fb081-lkasser-decal-acunreal-decal-for-ac-unreal-a-udp-p.md"
+  },
+  "https://create.roblox.com/docs/animation/graph-editor": {
+   "id": "vdn-901178697d43",
+   "path": "knowledge/animation/901178697d43-animation-graph-editor.md"
+  },
+  "https://create.roblox.com/docs/animation/curve-editor": {
+   "id": "vdn-21ce8aee4188",
+   "path": "knowledge/animation/21ce8aee4188-curve-editor.md"
+  },
+  "https://create.roblox.com/docs/tutorials/curriculums/animator/work-with-the-animation-editor": {
+   "id": "vdn-0b316a523626",
+   "path": "knowledge/animation/0b316a523626-work-with-the-animation-editor.md"
+  },
+  "https://devforum.roblox.com/t/10600": {
+   "id": "vdn-d2d2f8df3bea",
+   "path": "knowledge/animation/d2d2f8df3bea-animation-editor-messing-up-on-import.md"
+  },
+  "https://devforum.roblox.com/t/4562031": {
+   "id": "vdn-25c3adc09550",
+   "path": "knowledge/animation/25c3adc09550-you-can-no-longer-import-by-animation-id-in-the-ed.md"
+  },
+  "https://devforum.roblox.com/t/4908403": {
+   "id": "vdn-8d7fe56a4e24",
+   "path": "knowledge/animation/8d7fe56a4e24-import-option-for-marketplace-animations-in-animat.md"
+  },
+  "https://devforum.roblox.com/t/2737945": {
+   "id": "vdn-6e258226bbf7",
+   "path": "knowledge/animation/6e258226bbf7-import-from-roblox-in-animation-editor-clears-clip.md"
   }
  },
  "fingerprints": {
@@ -1843,6 +1879,43 @@
   "309e57f713fc9edd": "vdn-a91d53f0a080",
   "3034c32de774d604": "vdn-a91d53f0a080",
   "0479ef7c4a806183": "vdn-47555f804f3e",
-  "4a2bb5ed31bd97e3": "vdn-47555f804f3e"
+  "4a2bb5ed31bd97e3": "vdn-47555f804f3e",
+  "4e90072e14b71ef9": "vdn-47fce55f1149",
+  "c60f30072e036a5c": "vdn-a76750074021",
+  "36ef19d6d5b30ec4": "vdn-a76750074021",
+  "ffea4cc76b5c7939": "vdn-a76750074021",
+  "f9a79f374bba6bbe": "vdn-a76750074021",
+  "df380c403a5e195b": "vdn-8e4533bb8a9d",
+  "ea1a559d0ee56e98": "vdn-901178697d43",
+  "524864c3d8acaa5c": "vdn-901178697d43",
+  "0a1eea8b20d29e13": "vdn-901178697d43",
+  "cd6366528ab90490": "vdn-901178697d43",
+  "00e9094505b03636": "vdn-901178697d43",
+  "6389f60c90c659ae": "vdn-901178697d43",
+  "a3249d08ac96e8fc": "vdn-901178697d43",
+  "441273f761aa3a49": "vdn-901178697d43",
+  "cde06cdeea1a45ce": "vdn-21ce8aee4188",
+  "6deb9bc62e69d42b": "vdn-21ce8aee4188",
+  "3c2a320f370eea48": "vdn-21ce8aee4188",
+  "d04e56761f49a4f6": "vdn-21ce8aee4188",
+  "847d36be914f6e8c": "vdn-21ce8aee4188",
+  "eb6314d265a13a2e": "vdn-21ce8aee4188",
+  "57c76ed1b4d64950": "vdn-21ce8aee4188",
+  "7cd34a7300a0eb74": "vdn-0b316a523626",
+  "a08bae18c333ba6f": "vdn-0b316a523626",
+  "56d0ca93b8c109b1": "vdn-0b316a523626",
+  "43099c64bbbd2fce": "vdn-0b316a523626",
+  "f735054c75f9b9ca": "vdn-0b316a523626",
+  "3250f5e4ad085f7e": "vdn-0b316a523626",
+  "12aab9debb9a5972": "vdn-0b316a523626",
+  "da09852685fdb84a": "vdn-0b316a523626",
+  "df43d3a20493573f": "vdn-d2d2f8df3bea",
+  "bd0a230642d6069f": "vdn-25c3adc09550",
+  "e8eee1a86a7a3f7f": "vdn-25c3adc09550",
+  "613d56d7b966268a": "vdn-8d7fe56a4e24",
+  "8dbd69971ba0f311": "vdn-8d7fe56a4e24",
+  "d237a559a9e89cda": "vdn-6e258226bbf7",
+  "1d4b36890e8816e9": "vdn-6e258226bbf7",
+  "e4ca44cd3385c1d9": "vdn-6e258226bbf7"
  }
 }

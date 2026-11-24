@@ -2,26 +2,33 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (6)
+## Documenté (7)
 
 - [[animation/c5e3853e32ee-animation-editor|Animation Editor]] — niv. 1 · conf. moyenne — « You can move these joints to [create poses](#create-poses) and then smoothly animate the rig from pose to pose. »
+- [[animation/901178697d43-animation-graph-editor|Animation Graph Editor]] — niv. 1 · conf. moyenne — « - **Animation Graph Editor**: Use this tool to take those clips and organize them into a logic tree to drive sophisticated gameplay behavior… »
 - [[animation/77a67eafabb0-export-avatar-animations-from-maya|Export avatar animations from Maya]] — niv. 1 · conf. moyenne — « title: "Export avatar animations from Maya" »
 - [[animation/1a66b4f33bae-blender-export-trouble|Blender export trouble]] — niv. 2 · conf. faible — « I have made a barrel in Blender and want to export it into Roblox Studio. »
 - [[animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender|How do you export Roblox animations into blender]] — niv. 2 · conf. faible — « I’ve developed a plugin for Roblox that can export any Roblox rig into Blender and generate a Blender Armature (rig) equivalent to the Roblo… »
 - [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
 - [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
 
-## Candidat (10)
+## Candidat (16)
 
+- [[animation/21ce8aee4188-curve-editor|Curve Editor]] — niv. 1 · conf. faible — « Instead of using the default dope sheet editor's method of manually moving the scrubber from one frame to another to see how a rig's positio… »
 - [[animation/7ce009e766f3-export-and-import-animations|Export and Import Animations]] — niv. 1 · conf. faible — « Export animations to share with other developers." »
 - [[animation/0a9d12ab6395-export-animations|Export animations]] — niv. 1 · conf. faible — « To use the animation, it will need to be exported from the animation editor to the Roblox platform. »
 - [[animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a|Is it possible to set animation priority in moon animator?]] — niv. 1 · conf. faible — « So just asking if I can set animation priority in it »
+- [[animation/0b316a523626-work-with-the-animation-editor|Work with the Animation Editor]] — niv. 1 · conf. faible — « description: "Explains how to work with the Animation Editor to create a custom animation." »
+- [[animation/d2d2f8df3bea-animation-editor-messing-up-on-import|Animation Editor messing up on import]] — niv. 2 · conf. faible — « The weird thing is that it plays fine in online mode, but hitting Play in the animator looks different (making me assume the import is faili… »
 - [[traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo|Building a parkour system cuz i'm bored(devlog)]] — niv. 2 · conf. faible
 - [[traversal/968a46a8b1f239345201-creating-an-advanced-ledge-climbing-system|Creating an advanced ledge climbing system]] — niv. 2 · conf. faible
 - [[animation/c8713a79ef8e-how-can-i-change-the-animation-priority-inside-of|How can I change the animation priority inside of Moon Animator?]] — niv. 2 · conf. faible — « How can I change the animation priority inside of Moon Animator? »
 - [[animation/e4e6085d9485-how-can-i-go-about-setting-up-skinned-mesh-viewmod|How can I go about setting up Skinned Mesh Viewmodel]] — niv. 2 · conf. faible — « How can I go about setting up a skinned mesh view model? »
 - [[traversal/5466d1866451bdfac82f-how-do-i-create-a-ledge-climbing-system|How do I create a ledge climbing system?]] — niv. 2 · conf. faible
+- [[animation/6e258226bbf7-import-from-roblox-in-animation-editor-clears-clip|Import from Roblox in Animation Editor clears Clipboard]] — niv. 2 · conf. faible — « Copy an animation id to your clipboard (or anything really), insert a rig, open the Animation Editor and import an animation from Roblox. »
+- [[animation/8d7fe56a4e24-import-option-for-marketplace-animations-in-animat|Import option for Marketplace animations in Animation Editor]] — niv. 2 · conf. faible — « Please add a quick asset “Import” feature under the “Export” button. »
 - [[animation/56c111b389f7-problem-with-animation-for-right-hand-only|Problem with animation for right hand only]] — niv. 2 · conf. faible — « When I create my Idle animation for my Pistol, this issue is occurring: »
+- [[animation/25c3adc09550-you-can-no-longer-import-by-animation-id-in-the-ed|You can no longer import by Animation ID in the editor.]] — niv. 2 · conf. faible — « You can no longer import by Animation ID in the editor. »
 - [[animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest|Jim-Kroovy/mr_mannequins_tools — Install the latest release for intuitive Blender imports and easy Unreal exports!]] — niv. 3 · conf. faible — « Alongside the core Manny and Quinn import/export workflow, you'll find tools for: »
 
 ## Rejetées / obsolètes (8)

@@ -1620,11 +1620,38 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 8,
+        "created": 7,
+        "rejected": 1,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-901178697d43",
+          "vdn-21ce8aee4188",
+          "vdn-0b316a523626",
+          "vdn-d2d2f8df3bea",
+          "vdn-25c3adc09550",
+          "vdn-8d7fe56a4e24",
+          "vdn-6e258226bbf7"
+        ],
+        "followups": [
+          "Animation Editor import settings",
+          "KeyframeSequence settings",
+          "KeyframeSequence tutorial",
+          "Animation Editor import tutorial",
+          "Animation Editor import fbx step by step implementation tutorial code",
+          "Animation Editor import fbx Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795535716.063377,
+      "finished_ts": 1795535727.2523317
     },
     "618a5caa07ac3daf": {
       "key": "618a5caa07ac3daf",
@@ -3722,11 +3749,25 @@
       "depth": 2,
       "parent": "610151593f1217cc",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-a96e07091a68)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:01+00:00",
-      "updated": "2026-11-20T17:51:01+00:00",
-      "result": null
+      "updated": "2026-11-24T15:54:56+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-8e4533bb8a9d"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795535682.3987818,
+      "finished_ts": 1795535696.2299948
     },
     "babc95e7880fc212": {
       "key": "babc95e7880fc212",
@@ -3984,11 +4025,25 @@
       "depth": 2,
       "parent": "9b834002cfcc973a",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:07+00:00",
-      "updated": "2026-11-21T07:12:07+00:00",
-      "result": null
+      "updated": "2026-11-24T15:55:06+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 6,
+        "created": 1,
+        "rejected": 5,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [
+          "vdn-1bdf076fb081"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795535696.2368019,
+      "finished_ts": 1795535706.7462416
     },
     "3d52ecb6c129d3af": {
       "key": "3d52ecb6c129d3af",
@@ -4059,11 +4114,23 @@
       "depth": 2,
       "parent": "26691311b060f3eb",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T15:24:07+00:00",
-      "updated": "2026-11-21T15:24:07+00:00",
-      "result": null
+      "updated": "2026-11-24T15:55:16+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 6,
+        "created": 0,
+        "rejected": 6,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795535706.7565062,
+      "finished_ts": 1795535716.0559232
     },
     "dafdf4f89f0e7ebb": {
       "key": "dafdf4f89f0e7ebb",
@@ -4439,11 +4506,101 @@
       "created": "2026-11-24T04:51:13+00:00",
       "updated": "2026-11-24T04:51:13+00:00",
       "result": null
+    },
+    "73196a8361f8fc3e": {
+      "key": "73196a8361f8fc3e",
+      "topic": "blender_animation",
+      "query": "Animation Editor import settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-901178697d43)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
+    },
+    "6a4cbb07f2c0c1ae": {
+      "key": "6a4cbb07f2c0c1ae",
+      "topic": "blender_animation",
+      "query": "KeyframeSequence settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-21ce8aee4188)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
+    },
+    "dbe88d05e5f4e373": {
+      "key": "dbe88d05e5f4e373",
+      "topic": "blender_animation",
+      "query": "KeyframeSequence tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "lacune : aucune etape exploitable (vdn-21ce8aee4188)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
+    },
+    "94f01012435661ff": {
+      "key": "94f01012435661ff",
+      "topic": "blender_animation",
+      "query": "Animation Editor import tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "lacune : aucune etape exploitable (vdn-0b316a523626)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
+    },
+    "6b372a5c178cb32d": {
+      "key": "6b372a5c178cb32d",
+      "topic": "blender_animation",
+      "query": "Animation Editor import fbx step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
+    },
+    "5b1cc1824bb4228e": {
+      "key": "5b1cc1824bb4228e",
+      "topic": "blender_animation",
+      "query": "Animation Editor import fbx Roblox Studio implementation compatibility",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "a12910e1f9d69453",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T15:55:27+00:00",
+      "updated": "2026-11-24T15:55:27+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-24",
-    "items": 4,
-    "fetch": 28
+    "items": 8,
+    "fetch": 56
   }
 }
