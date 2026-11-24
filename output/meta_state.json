@@ -648,13 +648,13 @@
         "best_mean": 0.994
       },
       "synonyms": {
-        "n": 7,
+        "n": 8,
         "reward": 0.81,
-        "returned": 23,
+        "returned": 27,
         "accepted": 1,
         "new": 1,
-        "offtopic": 7,
-        "duplicates": 13,
+        "offtopic": 8,
+        "duplicates": 16,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -662,6 +662,7 @@
           0.0,
           0.4667,
           0.01,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -689,24 +690,24 @@
     },
     "devforum:snow": {
       "terms": {
-        "n": 10,
-        "reward": 1.546,
-        "returned": 37,
+        "n": 11,
+        "reward": 1.6460000000000001,
+        "returned": 41,
         "accepted": 8,
         "new": 8,
-        "offtopic": 26,
-        "duplicates": 3,
+        "offtopic": 28,
+        "duplicates": 5,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.0,
           0.0,
           0.036,
           0.13,
           0.0,
           0.384,
           0.5,
-          0.3
+          0.3,
+          0.1
         ],
         "best_mean": 0.196
       },
@@ -800,13 +801,13 @@
         "best_mean": 0.06266666666666666
       },
       "facet": {
-        "n": 6,
-        "reward": 0.0,
-        "returned": 16,
+        "n": 7,
+        "reward": 0.074,
+        "returned": 20,
         "accepted": 0,
         "new": 0,
-        "offtopic": 14,
-        "duplicates": 0,
+        "offtopic": 17,
+        "duplicates": 1,
         "errors": 0,
         "empty": 2,
         "recent": [
@@ -815,30 +816,31 @@
           0.0,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.074
         ],
-        "best_mean": 0.0
+        "best_mean": 0.01057142857142857
       }
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 12,
+        "n": 13,
         "reward": 1.5699999999999998,
-        "returned": 38,
+        "returned": 42,
         "accepted": 2,
         "new": 2,
         "offtopic": 11,
-        "duplicates": 19,
+        "duplicates": 23,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.0,
           0.0,
           0.35,
           0.0,
           0.0,
           0.222,
           0.124,
+          0.0,
           0.0
         ],
         "best_mean": 0.219
@@ -889,24 +891,24 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 10,
-        "reward": 0.876,
-        "returned": 38,
-        "accepted": 5,
-        "new": 5,
-        "offtopic": 21,
+        "n": 11,
+        "reward": 0.916,
+        "returned": 42,
+        "accepted": 6,
+        "new": 6,
+        "offtopic": 24,
         "duplicates": 7,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.0,
           0.0,
           0.1672,
           0.0,
           0.0,
           0.204,
           0.5,
-          0.0048
+          0.0048,
+          0.04
         ],
         "best_mean": 0.0968
       },
@@ -956,24 +958,24 @@
     },
     "github:lighting": {
       "terms": {
-        "n": 11,
+        "n": 12,
         "reward": 1.882,
-        "returned": 28,
+        "returned": 31,
         "accepted": 8,
         "new": 8,
-        "offtopic": 10,
+        "offtopic": 13,
         "duplicates": 5,
         "errors": 0,
         "empty": 4,
         "recent": [
-          0.492,
           0.146,
           0.0,
           0.0,
           0.0,
           0.0,
           0.832,
-          0.412
+          0.412,
+          0.0
         ],
         "best_mean": 0.17109090909090907
       },
@@ -1660,13 +1662,13 @@
         "best_mean": 0.0104
       },
       "facet": {
-        "n": 6,
+        "n": 7,
         "reward": 0.25,
-        "returned": 24,
+        "returned": 28,
         "accepted": 1,
         "new": 1,
-        "offtopic": 13,
-        "duplicates": 10,
+        "offtopic": 15,
+        "duplicates": 12,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -1675,6 +1677,7 @@
           0.0,
           0.0,
           0.03,
+          0.0,
           0.0
         ],
         "best_mean": 0.22
@@ -1702,16 +1705,17 @@
         "best_mean": 0.036
       },
       "synonyms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.0,
-        "returned": 20,
+        "returned": 24,
         "accepted": 0,
         "new": 0,
-        "offtopic": 18,
+        "offtopic": 22,
         "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -1744,16 +1748,17 @@
     },
     "github:fps_camera": {
       "terms": {
-        "n": 5,
+        "n": 6,
         "reward": 0.0,
-        "returned": 17,
+        "returned": 18,
         "accepted": 0,
         "new": 0,
-        "offtopic": 6,
+        "offtopic": 7,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -2079,6 +2084,57 @@
         "accepted": 0,
         "new": 0,
         "offtopic": 1,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "roblox_docs:movement": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 0,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 0,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 1,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "devforum:movement": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 4,
+        "duplicates": 0,
+        "errors": 0,
+        "empty": 0,
+        "recent": [
+          0.0
+        ],
+        "best_mean": 0.0
+      }
+    },
+    "github:movement": {
+      "terms": {
+        "n": 1,
+        "reward": 0.0,
+        "returned": 4,
+        "accepted": 0,
+        "new": 0,
+        "offtopic": 4,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,

@@ -1407,11 +1407,26 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-24T04:51:13+00:00",
+      "result": {
+        "returned": 8,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "crouch sprint stamina step by step implementation tutorial code",
+          "crouch sprint stamina Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795495859.6482306,
+      "finished_ts": 1795495873.4185703
     },
     "ee4bfdf6484967d2": {
       "key": "ee4bfdf6484967d2",
@@ -3737,11 +3752,25 @@
       "depth": 2,
       "parent": "610151593f1217cc",
       "reason": "API citee par la source : Lighting.OutdoorAmbient (vdn-a96e07091a68)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:01+00:00",
-      "updated": "2026-11-20T17:51:01+00:00",
-      "result": null
+      "updated": "2026-11-24T04:50:38+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-e1c00bb1490d"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795495827.1631954,
+      "finished_ts": 1795495838.7924902
     },
     "0bf9bef7a2ec915e": {
       "key": "0bf9bef7a2ec915e",
@@ -3886,11 +3915,23 @@
       "depth": 2,
       "parent": "e5d223c78a9503e7",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:11:55+00:00",
-      "updated": "2026-11-21T07:11:55+00:00",
-      "result": null
+      "updated": "2026-11-24T04:50:48+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795495838.7970042,
+      "finished_ts": 1795495848.8025143
     },
     "0c303f9b0cde4ca5": {
       "key": "0c303f9b0cde4ca5",
@@ -3901,11 +3942,23 @@
       "depth": 2,
       "parent": "9b834002cfcc973a",
       "reason": "lacune : aucune etape exploitable (vdn-0ab84d1b35db)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:07+00:00",
-      "updated": "2026-11-21T07:12:07+00:00",
-      "result": null
+      "updated": "2026-11-24T04:50:59+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 6,
+        "created": 0,
+        "rejected": 6,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795495848.806242,
+      "finished_ts": 1795495859.6439176
     },
     "cefc6a8b14fa07f8": {
       "key": "cefc6a8b14fa07f8",
@@ -4356,11 +4409,41 @@
       "created": "2026-11-23T20:16:55+00:00",
       "updated": "2026-11-23T20:16:55+00:00",
       "result": null
+    },
+    "4bb40ec2ebc1224d": {
+      "key": "4bb40ec2ebc1224d",
+      "topic": "movement",
+      "query": "crouch sprint stamina step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "9a7dbdf69f016311",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T04:51:13+00:00",
+      "updated": "2026-11-24T04:51:13+00:00",
+      "result": null
+    },
+    "4c599817396ee7e3": {
+      "key": "4c599817396ee7e3",
+      "topic": "movement",
+      "query": "crouch sprint stamina Roblox Studio implementation compatibility",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "9a7dbdf69f016311",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-24T04:51:13+00:00",
+      "updated": "2026-11-24T04:51:13+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-23",
-    "items": 8,
-    "fetch": 60
+    "date": "2026-11-24",
+    "items": 4,
+    "fetch": 28
   }
 }

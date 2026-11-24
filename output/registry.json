@@ -831,6 +831,10 @@
   "https://github.com/rendszerguru/arte-qgis-plugin": {
    "id": "vdn-f43d601ade9d",
    "path": "knowledge/terrain/f43d601ade9d-rendszerguru-arte-qgis-plugin-advanced-qgis-terrai.md"
+  },
+  "https://devforum.roblox.com/t/246126": {
+   "id": "vdn-e1c00bb1490d",
+   "path": "knowledge/lighting/e1c00bb1490d-help-with-lighting.md"
   }
  },
  "fingerprints": {
@@ -1821,6 +1825,24 @@
   "8e68a7a8a986a4ff": "vdn-f43d601ade9d",
   "ab8296ec5998bcaa": "vdn-f43d601ade9d",
   "ad8d692d068b4eec": "vdn-f43d601ade9d",
-  "dfa7fcf6418cbd97": "vdn-f43d601ade9d"
+  "dfa7fcf6418cbd97": "vdn-f43d601ade9d",
+  "9d0c7b4746b5f43b": "vdn-64bc5ededb87",
+  "7c818d0ea3ab0bdc": "vdn-70fc4838381f",
+  "e2ce496613cc3e22": "vdn-70fc4838381f",
+  "d872b51055fd1176": "vdn-70fc4838381f",
+  "3e96a7772f84ecf6": "vdn-70fc4838381f",
+  "5457e8e8b3e71a1a": "vdn-70fc4838381f",
+  "f226100e62154431": "vdn-70fc4838381f",
+  "f3ffc8dbb1f314f9": "vdn-70fc4838381f",
+  "f4326aca494ac903": "vdn-70fc4838381f",
+  "9bc49a5b895ba5cd": "vdn-b37734795aee",
+  "1123d906558a2cd9": "vdn-b37734795aee",
+  "9ffd2a8eaa59460c": "vdn-a91d53f0a080",
+  "59e0ee6efbe83eb7": "vdn-a91d53f0a080",
+  "56f249a4001ac477": "vdn-a91d53f0a080",
+  "309e57f713fc9edd": "vdn-a91d53f0a080",
+  "3034c32de774d604": "vdn-a91d53f0a080",
+  "0479ef7c4a806183": "vdn-47555f804f3e",
+  "4a2bb5ed31bd97e3": "vdn-47555f804f3e"
  }
 }

@@ -1,42 +1,30 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-23T20:16:12+00:00",
-  "finished": "2026-11-23T20:16:55+00:00",
+  "started": "2026-11-24T04:50:27+00:00",
+  "finished": "2026-11-24T04:51:13+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "camera bobbing CFrame settings step by step implementation tutorial code",
-      "topic": "fps_camera",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "light shadows performance settings step by step implementation tutorial code",
+      "query": "Lighting OutdoorAmbient",
       "topic": "lighting",
       "depth": 2,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
       "created": 1,
-      "rejected": 5,
-      "duplicates": 6,
-      "fetched": 6,
+      "rejected": 6,
+      "duplicates": 4,
+      "fetched": 7,
       "notes": [
         {
-          "id": "vdn-28a3ff82aeeb",
-          "path": "knowledge/lighting/28a3ff82aeeb-scofferr-autoexec-these-configs-were-generated-by.md",
+          "id": "vdn-e1c00bb1490d",
+          "path": "knowledge/lighting/e1c00bb1490d-help-with-lighting.md",
           "status": "candidat",
           "topic": "lighting",
-          "query": "light shadows performance settings step by step implementation tutorial code",
-          "url": "https://github.com/scofferr/autoexec",
+          "query": "Lighting OutdoorAmbient",
+          "url": "https://devforum.roblox.com/t/246126",
           "missing": [
             "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         }
@@ -44,102 +32,59 @@
       "followups": []
     },
     {
-      "query": "Decal Transparency tutorial",
+      "query": "viewmodel arms camera settings step by step implementation tutorial code",
+      "topic": "fps_camera",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 7,
+      "duplicates": 2,
+      "fetched": 7,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "Decal settings tutorial",
       "topic": "snow",
       "depth": 2,
       "origin": "relance",
       "status": "done",
-      "created": 1,
-      "rejected": 5,
+      "created": 0,
+      "rejected": 6,
       "duplicates": 6,
       "fetched": 6,
-      "notes": [
-        {
-          "id": "vdn-b98787e7a99a",
-          "path": "knowledge/snow/b98787e7a99a-decal-transparency-not-changing-from-a-script.md",
-          "status": "documente",
-          "topic": "snow",
-          "query": "Decal Transparency tutorial",
-          "url": "https://devforum.roblox.com/t/1735760",
-          "missing": [
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": []
     },
     {
-      "query": "terrain heightmap import",
-      "topic": "terrain",
+      "query": "crouch sprint stamina",
+      "topic": "movement",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 4,
-      "rejected": 4,
-      "duplicates": 1,
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 0,
       "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-4314f4f2160d",
-          "path": "knowledge/terrain/4314f4f2160d-terrain-heightmap-import.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain heightmap import",
-          "url": "https://devforum.roblox.com/t/58469",
-          "missing": []
-        },
-        {
-          "id": "vdn-d6a3bf3127c3",
-          "path": "knowledge/terrain/d6a3bf3127c3-heightmap-terrain-help-possible-bug.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain heightmap import",
-          "url": "https://devforum.roblox.com/t/2951241",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-91060ef3bf99",
-          "path": "knowledge/terrain/91060ef3bf99-heightmap-terrain-problem.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain heightmap import",
-          "url": "https://devforum.roblox.com/t/1486119",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-f43d601ade9d",
-          "path": "knowledge/terrain/f43d601ade9d-rendszerguru-arte-qgis-plugin-advanced-qgis-terrai.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain heightmap import",
-          "url": "https://github.com/rendszerguru/arte-qgis-plugin",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
+      "notes": [],
       "followups": [
         {
-          "query": "terrain heightmap import settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-d6a3bf3127c3)",
-          "topic": "terrain"
+          "query": "crouch sprint stamina step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "movement"
         },
         {
-          "query": "terrain heightmap import step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "terrain"
+          "query": "crouch sprint stamina Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "movement"
         }
       ]
     }
   ],
-  "created": 6,
+  "created": 1,
   "fetched": 28,
-  "rejected": 22,
+  "rejected": 27,
   "followups_added": 2,
   "seeded": 0,
   "recovered": 0,
@@ -147,49 +92,49 @@
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 78,
+      "pending": 76,
       "running": 0,
-      "done": 106,
+      "done": 110,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-23",
-      "items": 8,
-      "fetch": 60
+      "date": "2026-11-24",
+      "items": 4,
+      "fetch": 28
     },
     "next": [
       {
-        "query": "Lighting OutdoorAmbient",
+        "query": "Lighting settings",
         "topic": "lighting",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance"
       },
       {
-        "query": "viewmodel arms camera settings step by step implementation tutorial code",
+        "query": "Decal settings Roblox Studio implementation compatibility",
+        "topic": "snow",
+        "priority": 8.0,
+        "depth": 2,
+        "origin": "relance_lacune"
+      },
+      {
+        "query": "first person camera settings step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "Decal settings tutorial",
-        "topic": "snow",
-        "priority": 8.0,
-        "depth": 2,
-        "origin": "relance"
-      },
-      {
-        "query": "crouch sprint stamina",
-        "topic": "movement",
+        "query": "Animation Editor import fbx",
+        "topic": "blender_animation",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "Animation Editor import fbx",
-        "topic": "blender_animation",
+        "query": "MicroProfiler rendering",
+        "topic": "performance",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"

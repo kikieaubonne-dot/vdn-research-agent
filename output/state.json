@@ -419,9 +419,13 @@
     "animation priority blending": 1,
     "camera bobbing CFrame settings step by step implementation tutorial code": 1,
     "light shadows performance settings step by step implementation tutorial code": 1,
-    "Decal Transparency tutorial": 1
+    "Decal Transparency tutorial": 1,
+    "Lighting OutdoorAmbient": 1,
+    "viewmodel arms camera settings step by step implementation tutorial code": 1,
+    "Decal settings tutorial": 1,
+    "crouch sprint stamina": 1
   },
-  "runs": 115,
+  "runs": 119,
   "errors": [],
   "rotation": 4
 }

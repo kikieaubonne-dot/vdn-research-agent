@@ -19,11 +19,12 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/e18a99b6f1c8-how-to-have-good-lighting|How to have good lighting?]] — niv. 2 · conf. faible — « Hi, I’m creating a Parkour game, but so far I can’t decide which lighting to use. »
 - [[lighting/8d66e9dc20f3-weird-lighting-behavior-at-night|Weird lighting behavior at night]] — niv. 2 · conf. faible — « local toTween = game.Lighting.ClockTime+timeShift »
 
-## Candidat (28)
+## Candidat (29)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »
 - [[lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox|Atmosphere haze not covering entire skybox]] — niv. 2 · conf. faible — « The issue is, the atmosphere haze at max value won’t cover the entire skybox, leaving a strange hole of sky on top. »
 - [[lighting/3b9900893d4b-colored-shadows-tutorial|Colored Shadows Tutorial]] — niv. 2 · conf. faible
+- [[lighting/e1c00bb1490d-help-with-lighting|Help With Lighting]] — niv. 2 · conf. faible
 - [[lighting/83913efc3c12-help-with-lighting|Help with lighting]] — niv. 2 · conf. faible — « Disable GlobalShadows, or use Compatibility Lighting Technology. »
 - [[lighting/027640da2e6d-how-can-i-use-a-decal-to-project-shadows-using-a-s|How can I use a decal to project shadows using a spotlight?]] — niv. 2 · conf. faible — « I’ve tried it with parts, but i believe none of the lighting systems (including future) dont support that »
 - [[lighting/26ba09d37d6d-improve-lighting-step-by-step|Improve Lighting (STEP BY STEP)]] — niv. 2 · conf. faible — « (Change these settings inside of Terrain at the top of the Workspace in Explorer) »
