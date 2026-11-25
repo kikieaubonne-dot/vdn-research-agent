@@ -1,19 +1,20 @@
 {
-  "started_utc": "2026-11-25T00:46:54+00:00",
+  "started_utc": "2026-11-25T09:53:04+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 9,
   "fetched": 6,
-  "accepted": 4,
-  "created": 4,
+  "accepted": 3,
+  "created": 3,
   "updated": 0,
   "duplicates": 3,
-  "rejected": 2,
+  "rejected": 3,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 1,
-    "pas assez de contenu technique": 1
+    "hors sujet": 2,
+    "pas assez de contenu technique": 1,
+    "bruit : titre : « looking for »": 1
   },
   "trials_detail": [
     {
@@ -21,7 +22,7 @@
       "topic": "performance",
       "origin": "seed",
       "strategy": "synonyms",
-      "query": "performance rendering",
+      "query": "performance calls instancing",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -30,15 +31,15 @@
       "offtopic": 1,
       "error": null,
       "technical_mean": 0.28,
-      "duration_s": 1.17,
+      "duration_s": 1.18,
       "reward": 0.062
     },
     {
       "provider": "devforum",
       "topic": "performance",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "performance rendering",
+      "strategy": "facet",
+      "query": "draw calls instancing bug",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -46,60 +47,52 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.32,
-      "duration_s": 5.59,
-      "reward": 0.528
+      "technical_mean": 0.55,
+      "duration_s": 5.5,
+      "reward": 0.62
     },
     {
       "provider": "github",
       "topic": "performance",
       "origin": "seed",
       "strategy": "facet",
-      "query": "MicroProfiler rendering bug",
+      "query": "draw calls instancing bug",
       "returned": 1,
-      "accepted": 1,
-      "new": 1,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 1,
       "error": null,
       "technical_mean": 0.8,
-      "duration_s": 3.02,
-      "reward": 0.92
+      "duration_s": 2.13,
+      "reward": 0.12
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-3b5c7e612d30",
-      "path": "knowledge/performance/3b5c7e612d30-performance-regression-for-text-rendering.md",
-      "status": "candidat",
-      "topic": "performance",
-      "query": "MicroProfiler rendering",
-      "url": "https://devforum.roblox.com/t/147958"
-    },
-    {
-      "id": "vdn-0ded63993d38",
-      "path": "knowledge/performance/0ded63993d38-regression-major-performance-regression-for-text-r.md",
-      "status": "candidat",
-      "topic": "performance",
-      "query": "MicroProfiler rendering",
-      "url": "https://devforum.roblox.com/t/195029"
-    },
-    {
-      "id": "vdn-a4b4bd37eed3",
-      "path": "knowledge/performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel.md",
+      "id": "vdn-d50c027e54d0",
+      "path": "knowledge/performance/d50c027e54d0-draw-calls-increased-by-5x.md",
       "status": "documente",
       "topic": "performance",
-      "query": "MicroProfiler rendering",
-      "url": "https://devforum.roblox.com/t/1534040"
+      "query": "draw calls instancing",
+      "url": "https://devforum.roblox.com/t/1489845"
     },
     {
-      "id": "vdn-b1ce7b18b41f",
-      "path": "knowledge/performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b.md",
-      "status": "candidat",
+      "id": "vdn-6714a9b2cd01",
+      "path": "knowledge/performance/6714a9b2cd01-shadow-draw-calls-are-broken.md",
+      "status": "documente",
       "topic": "performance",
-      "query": "MicroProfiler rendering",
-      "url": "https://github.com/dev-zetta/heavenbench"
+      "query": "draw calls instancing",
+      "url": "https://devforum.roblox.com/t/4045934"
+    },
+    {
+      "id": "vdn-fc8ba15fa1f6",
+      "path": "knowledge/performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w.md",
+      "status": "documente",
+      "topic": "performance",
+      "query": "draw calls instancing",
+      "url": "https://devforum.roblox.com/t/3988136"
     }
   ],
   "rejected_candidates": [
@@ -113,12 +106,24 @@
       ]
     },
     {
-      "topical": 0.5,
+      "topical": 0.167,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
         "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.833,
+      "technical": 0.8,
+      "roblox": true,
+      "noise": [
+        "titre : « looking for »"
+      ],
+      "reasons": [
+        "bruit : titre : « looking for »"
       ]
     }
   ],
@@ -127,5 +132,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-25T00:47:04+00:00"
+  "finished_utc": "2026-11-25T09:53:13+00:00"
 }

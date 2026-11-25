@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (14)
+## Documenté (17)
 
 - [[lighting/d58d7cf22396-customize-global-lighting|Customize global lighting]] — niv. 1 · conf. moyenne — « description: "Explains how to use global lighting settings to refine the look and feel of your game." »
 - [[lighting/5d6828741270-future-lighting-not-working|Future Lighting not working]] — niv. 1 · conf. moyenne — « If you are talking about the small lighting change, refer to what @Self_Reflexive suggested. »
@@ -11,15 +11,18 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/2691c88af330-use-case-tutorials|Use case tutorials]] — niv. 1 · conf. moyenne — « Use third-party modeling tools like Blender to create meshes, then import them into Studio using the Importer. »
 - [[lighting/a4893023e7c3-class-spotlight|Class: SpotLight]] — niv. 1 · conf. faible — « - **Property `Brightness`** (`float`): Sets how bright the emitted light is, defaults to 1. »
 - [[lighting/473db3854bb2-f-for-realistic-flashlight|F for Realistic Flashlight]] — niv. 1 · conf. faible — « Is your Technology in Lighting set to Future? »
+- [[lighting/85f7463d6af1-ambient-lighting-not-working|Ambient lighting not working]] — niv. 2 · conf. faible — « To see it, you need to change Lighting.Technology to Voxel or Compatibility. »
 - [[lighting/50126df39330-atmosphere-cant-change-color-on-0-haze|Atmosphere cant change color on 0 Haze]] — niv. 2 · conf. faible — « If you insist on not using Fog, you can try adding slight haze and then messing with the Density property at the top of the Atmosphere prope… »
 - [[lighting/c2643257b3cc-change-grass-density-and-height|Change Grass Density and Height]] — niv. 2 · conf. faible — « I am assuming you are referring to the Decoration option for smooth terrain, if so you can’t really change anything about its behavior right… »
 - [[lighting/09d38d132c8f-do-mobile-devices-get-future-lighting|Do mobile devices get Future lighting?]] — niv. 2 · conf. faible — « We use future lighting, and for me on my PC the lighting looks great. »
 - [[lighting/c867b97f5f0b-glowing-future-lighting-bug-or-mesh-problem|Glowing Future Lighting Bug? Or Mesh Problem?]] — niv. 2 · conf. faible — « ^I have 4 spotlights (60 range, brightness 2.5, shadow on, future lighting) set up pointing at the mesh part. »
 - [[lighting/6f9509608a5e-help-with-a-lighting-issue|Help with a lighting issue]] — niv. 2 · conf. faible — « So I am having a really annoying issue with lighting, where it looks a certain way for me in studio, but it looks different for other team c… »
+- [[lighting/7ec6bcdb75a2-how-to-add-ambient-lighting|How to Add Ambient Lighting?]] — niv. 2 · conf. faible — « Every time I Google this, it only shows the lighting objects for parts. »
 - [[lighting/e18a99b6f1c8-how-to-have-good-lighting|How to have good lighting?]] — niv. 2 · conf. faible — « Hi, I’m creating a Parkour game, but so far I can’t decide which lighting to use. »
+- [[lighting/11a992f67514-localized-ambient-lighting-volumes|Localized Ambient Lighting Volumes]] — niv. 2 · conf. faible — « BaseParts inside Zone A will use its value (ex: Color3.new(0.5,0.5,0.5)) instead of Lighting.Ambient’s and become bright while BaseParts in … »
 - [[lighting/8d66e9dc20f3-weird-lighting-behavior-at-night|Weird lighting behavior at night]] — niv. 2 · conf. faible — « local toTween = game.Lighting.ClockTime+timeShift »
 
-## Candidat (30)
+## Candidat (34)
 
 - [[lighting/862f8f5abfce-class-atmosphere|Class: Atmosphere]] — niv. 1 · conf. faible — « - [Atmospheric Effects](/docs/en-us/environment/atmosphere.md) for property »
 - [[lighting/dcf7d5f0a361-atmosphere-haze-not-covering-entire-skybox|Atmosphere haze not covering entire skybox]] — niv. 2 · conf. faible — « The issue is, the atmosphere haze at max value won’t cover the entire skybox, leaving a strange hole of sky on top. »
@@ -30,6 +33,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/26ba09d37d6d-improve-lighting-step-by-step|Improve Lighting (STEP BY STEP)]] — niv. 2 · conf. faible — « (Change these settings inside of Terrain at the top of the Workspace in Explorer) »
 - [[lighting/7a3826117dfd-invisible-part-that-changes-atmosphere-density-onl|Invisible part that changes atmosphere density only while touched]] — niv. 2 · conf. faible — « (What it would look like in the location if the density switches to 0, ONLY if touching the invisible part). »
 - [[lighting/8152f2156515-light-shadow-script|Light shadow script]] — niv. 2 · conf. faible — « if magnitude > 20 then workspace.Part.PointLight.Shadows = false »
+- [[lighting/0beff042bfb3-lighting-custom-ambient|Lighting - Custom Ambient]] — niv. 2 · conf. faible — « You can use this M̶i̶n̶i̶m̶a̶p̶ ̶C̶r̶e̶a̶t̶o̶r̶ ̶[̶R̶o̶R̶e̶n̶d̶e̶r̶]̶ DEPRECATED to render your game. »
 - [[lighting/6fb4cade25ec-lighting-and-shadows-issue|Lighting and shadows issue]] — niv. 2 · conf. faible
 - [[lighting/b7c6aa72293b-odd-shadow-bug-future-lighting|Odd shadow bug (future lighting)]] — niv. 2 · conf. faible — « It creates 3 layers above and under you within a set render distance. »
 - [[lighting/da2cc18756a0-shadows-breaking-when-using-flashlight|Shadows Breaking when using Flashlight]] — niv. 2 · conf. faible — « Whenever I use a flashlight ingame shadows break around the light most of the time. »
@@ -42,13 +46,16 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[lighting/550a8df9794e-unity-technologies-volumetriclighting-lighting-eff|Unity-Technologies/VolumetricLighting — Lighting effects implemented for the Adam demo: volumetric fog, area lights and tube lights]] — niv. 3 · conf. faible — « - Volumetric shadows in the fog use Variance Shadow Maps. »
 - [[lighting/8c737cd56a02-basnijholt-adaptive-lighting-adaptive-lighting-cus|basnijholt/adaptive-lighting — Adaptive Lighting custom component for Home Assistant]] — niv. 3 · conf. faible — « ![Version](https://img.shields.io/github/v/release/basnijholt/adaptive-lighting?style=for-the-badge) »
 - [[lighting/1eeec06b8f0f-cschladetsch-rustraymarcher-3d-fractal-ray-marcher|cschladetsch/RustRayMarcher — 3D Fractal Ray Marcher - Real-time GPU-accelerated 3D fractal visualization using Rust and WebGPU. Explore Mandelbulbs, Julia sets]] — niv. 3 · conf. faible — « - **GPU Acceleration** - WebGPU compute shaders for maximum performance »
+- [[lighting/f991c0c3210d-drxzcl-neppielight-fpga-based-hdmi-ambient-lightin|drxzcl/neppielight — FPGA-based HDMI ambient lighting]] — niv. 3 · conf. faible — « In this project we will create a basic FPGA-based ambient lighting system that reads the video signal over HDMI. »
 - [[lighting/82c6546401ed-matinas-unityshadersclc-unity-shaders-based-on-cat|matinas/unityshadersclc — Unity Shaders based on CatlikeCoding rendering tutorials from here: http://catlikecoding.com/unity/tutorials/rendering. Includes basic]] — niv. 3 · conf. faible — « The set includes basic shaders, diffuse, specular and PBS lighting shaders, bump and normal mapping, shadow rendering, etc. »
 - [[lighting/217fa5a553eb-opensimfx-atomsfx-atmosfx-builds-a-complete-atmosp|opensimfx/atomsfx — AtmosFX builds a complete atmosphere in one click: a Nishita sky driven by a real sun position, a star field with recognisable constellation]] — niv. 3 · conf. faible — « - **28 presets** in five categories ([docs/PRESETS.md](docs/PRESETS.md)); export/import your own as JSON. »
 - [[lighting/6feceb8ca722-paimonemergencyf00d-fivem-fps-optimizer-fivem-esx|paimonemergencyf00d/fivem-fps-optimizer — FiveM ESX client script optimizing game performance by dynamically adjusting graphics quality, shadows, lighting, and ]] — niv. 3 · conf. faible — « Adjust graphical settings dynamically to improve performance on lower-end machines or customize visuals to your liking. »
 - [[lighting/2a7fa8075366-salehahmed99-opengl-tutorials-modern-opengl-3-3-co|salehahmed99/opengl-tutorials — Modern OpenGL 3.3 Core Profile C++ tutorials and examples, covering everything from fundamental rendering to advanced lighting a]] — niv. 3 · conf. faible — « - **[stb_image](https://github.com/nothings/stb)** — Image loading (projects that use textures) »
 - [[lighting/fea21e2bbdea-schemann-phaix-godot-08-light-and-atmosphere-godot|schemann/phaix-godot-08-light-and-atmosphere — Godot 4 tutorial 08 by Phaix: Light and Atmosphere in Godot 4 (project files, every step as its own folder)]] — niv. 3 · conf. faible — « Godot 4 tutorial 08 by Phaix: Light and Atmosphere in Godot 4 (project files, every step as its own folder) »
 - [[lighting/28a3ff82aeeb-scofferr-autoexec-these-configs-were-generated-by|scofferr/autoexec — // These configs were generated by the tf2mate configuration file generator by compton. // Create your own tailored configs at: http://clugu]] — niv. 3 · conf. faible — « r_queued_post_processing "1" r_renderoverlayfragment "0" r_rootlod "2" // Root LOD r_ropetranslucent "0" r_drawdetailprops "0" r_spray_lifet… »
+- [[lighting/1496c6c564bb-staggartcreations-ambientprobesunity-ambient-light|staggartcreations/AmbientProbesUnity — Ambient lighting probe sampling]] — niv. 3 · conf. faible — « Create an empty object and `Add Component->Rendering->Ambient Probes->Group`. »
 - [[lighting/a784092cde44-stewartchrisecmwf-training-jupyter-notebook-tutori|stewartchrisecmwf/training — Jupyter notebook tutorials on climate and atmosphere data]] — niv. 3 · conf. faible — « # Jupyter notebook tutorials for the Copernicus Climate Change and Atmosphere Monitoring Services »
 - [[lighting/823b92f997eb-tessac2-copernicus-training-this-repository-hosts|tessac2/copernicus-training — This repository hosts Jupyter notebook tutorials on the Copernicus Climate Change (C3S) and Atmosphere Monitoring (CAMS) Services.]] — niv. 3 · conf. faible — « This repository hosts Jupyter notebook tutorials on the Copernicus Climate Change (C3S) and Atmosphere Monitoring (CAMS) Services. »
 - [[lighting/f4e96353224f-toblum-mclighting-the-esp8266-based-multi-client-l|toblum/McLighting — The ESP8266 based multi-client lighting gadget]] — niv. 3 · conf. faible — « McLighting (the multi-client lighting gadget) is a very cheap internet-controllable lighting solution based on the famous ESP8266 microcontr… »
+- [[lighting/3e04cb56f6ae-vasmarfas-universal-ambient-light-immersive-ambien|vasmarfas/universal-ambient-light — Immersive ambient lighting for TV & mobile. (Hyperion, WLED, Adalight support)]] — niv. 3 · conf. faible — « - **Phone remote**: pair with the TV by QR code, then start, stop and change every lighting »
 

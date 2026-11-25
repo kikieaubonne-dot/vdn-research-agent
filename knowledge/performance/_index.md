@@ -2,11 +2,14 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (3)
+## Documenté (6)
 
 - [[performance/4262958e24ac-different-triangle-count|Different triangle count?]] — niv. 2 · conf. faible — « My object mode and edit mode triangle count is different, if the object mode is the triangle count that will actually import into roblox, is… »
+- [[performance/d50c027e54d0-draw-calls-increased-by-5x|Draw calls increased by 5x]] — niv. 2 · conf. faible — « FWIW a proper solution to this problem has been found (other than turning the feature off.) And this new solution coincidentally also improv… »
 - [[performance/69741c3a1232-how-do-i-reduce-triangle-count|How do I reduce triangle count?]] — niv. 2 · conf. faible — « Im trying to import this bed model into studio from blender and it says triangle count is to high, ive already decimated it and tried import… »
+- [[performance/6714a9b2cd01-shadow-draw-calls-are-broken|Shadow Draw Calls are broken]] — niv. 2 · conf. faible — « Recently, during the summer, I asked a colleague to create a post regarding severe FPS drops in games caused by an excessive number of “Draw… »
 - [[performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel|Sudden horrible performance in all experiences related to rendering]] — niv. 2 · conf. faible — « If I remove all lights, particles, terrain, transparent parts, and change everything to smooth plastic, In my game the best I can manage is … »
+- [[performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w|Why does the same mesh use more than 1 draw call when duped a lot?]] — niv. 2 · conf. faible — « When set to Vulkan, on the 74 instances i had 2 draw calls, on 147 i had 3, on 220 4, thats new draw call each 73 instances. »
 
 ## Candidat (9)
 

@@ -1,66 +1,27 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-25T00:46:17+00:00",
-  "finished": "2026-11-25T00:47:04+00:00",
+  "started": "2026-11-25T09:52:29+00:00",
+  "finished": "2026-11-25T09:53:13+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "light shadows performance settings Roblox Studio implementation compatibility",
+      "query": "Lighting Ambient",
       "topic": "lighting",
       "depth": 2,
-      "origin": "relance_lacune",
+      "origin": "relance",
       "status": "done",
-      "created": 0,
-      "rejected": 7,
-      "duplicates": 5,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "Decal settings step by step implementation tutorial code",
-      "topic": "snow",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 7,
-      "duplicates": 5,
-      "fetched": 7,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "first person camera settings Roblox Studio implementation compatibility",
-      "topic": "fps_camera",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 3,
+      "created": 7,
+      "rejected": 1,
+      "duplicates": 4,
       "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "MicroProfiler rendering",
-      "topic": "performance",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 4,
-      "rejected": 2,
-      "duplicates": 3,
-      "fetched": 6,
       "notes": [
         {
-          "id": "vdn-3b5c7e612d30",
-          "path": "knowledge/performance/3b5c7e612d30-performance-regression-for-text-rendering.md",
+          "id": "vdn-0beff042bfb3",
+          "path": "knowledge/lighting/0beff042bfb3-lighting-custom-ambient.md",
           "status": "candidat",
-          "topic": "performance",
-          "query": "MicroProfiler rendering",
-          "url": "https://devforum.roblox.com/t/147958",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://devforum.roblox.com/t/252416",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee",
@@ -68,112 +29,307 @@
           ]
         },
         {
-          "id": "vdn-0ded63993d38",
-          "path": "knowledge/performance/0ded63993d38-regression-major-performance-regression-for-text-r.md",
+          "id": "vdn-7ec6bcdb75a2",
+          "path": "knowledge/lighting/7ec6bcdb75a2-how-to-add-ambient-lighting.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://devforum.roblox.com/t/345881",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-85f7463d6af1",
+          "path": "knowledge/lighting/85f7463d6af1-ambient-lighting-not-working.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://devforum.roblox.com/t/2214191",
+          "missing": [
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-11a992f67514",
+          "path": "knowledge/lighting/11a992f67514-localized-ambient-lighting-volumes.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://devforum.roblox.com/t/5000799",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-f991c0c3210d",
+          "path": "knowledge/lighting/f991c0c3210d-drxzcl-neppielight-fpga-based-hdmi-ambient-lightin.md",
           "status": "candidat",
-          "topic": "performance",
-          "query": "MicroProfiler rendering",
-          "url": "https://devforum.roblox.com/t/195029",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://github.com/drxzcl/neppielight",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-1496c6c564bb",
+          "path": "knowledge/lighting/1496c6c564bb-staggartcreations-ambientprobesunity-ambient-light.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://github.com/staggartcreations/ambientprobesunity",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-3e04cb56f6ae",
+          "path": "knowledge/lighting/3e04cb56f6ae-vasmarfas-universal-ambient-light-immersive-ambien.md",
+          "status": "candidat",
+          "topic": "lighting",
+          "query": "Lighting Ambient",
+          "url": "https://github.com/vasmarfas/universal-ambient-light",
+          "missing": []
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
+      "topic": "fps_camera",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "KeyframeSequence import",
+      "topic": "blender_animation",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 6,
+      "rejected": 1,
+      "duplicates": 1,
+      "fetched": 7,
+      "notes": [
+        {
+          "id": "vdn-30313273c7d0",
+          "path": "knowledge/animation/30313273c7d0-class-keyframesequence.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://create.roblox.com/docs/reference/engine/classes/KeyframeSequence",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-9214ce5c650c",
+          "path": "knowledge/animation/9214ce5c650c-import-into-studio.md",
+          "status": "documente",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://create.roblox.com/docs/avatar/makeup/import",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-8a2ae33e44e7",
+          "path": "knowledge/animation/8a2ae33e44e7-import-emotes.md",
+          "status": "documente",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://create.roblox.com/docs/avatar/emotes/import",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-c21d4af8f129",
+          "path": "knowledge/animation/c21d4af8f129-how-do-i-export-a-keyframesequence-to-a-file.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://devforum.roblox.com/t/1214619",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-a4b4bd37eed3",
-          "path": "knowledge/performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel.md",
+          "id": "vdn-e638bf90fc40",
+          "path": "knowledge/animation/e638bf90fc40-exported-an-animation-only-for-it-to-be-a-keyframe.md",
           "status": "documente",
-          "topic": "performance",
-          "query": "MicroProfiler rendering",
-          "url": "https://devforum.roblox.com/t/1534040",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://devforum.roblox.com/t/2460277",
           "missing": [
-            "aucun parametre chiffre dans la source"
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
           ]
         },
         {
-          "id": "vdn-b1ce7b18b41f",
-          "path": "knowledge/performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b.md",
+          "id": "vdn-b57f0f16fbeb",
+          "path": "knowledge/animation/b57f0f16fbeb-create-animations-from-keyframesequences-in-live-g.md",
           "status": "candidat",
-          "topic": "performance",
-          "query": "MicroProfiler rendering",
-          "url": "https://github.com/dev-zetta/heavenbench",
+          "topic": "blender_animation",
+          "query": "KeyframeSequence import",
+          "url": "https://devforum.roblox.com/t/2222384",
           "missing": [
-            "aucune limite Roblox citee"
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "MicroProfiler rendering settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-3b5c7e612d30)",
-          "topic": "performance"
+          "query": "KeyframeSequence import settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-30313273c7d0)",
+          "topic": "blender_animation"
         },
         {
-          "query": "MicroProfiler rendering tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-3b5c7e612d30)",
-          "topic": "performance"
+          "query": "KeyframeSequence import tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-30313273c7d0)",
+          "topic": "blender_animation"
         },
         {
-          "query": "MicroProfiler rendering step by step implementation tutorial code",
+          "query": "Animation settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-8a2ae33e44e7)",
+          "topic": "blender_animation"
+        },
+        {
+          "query": "Animation limitations",
+          "reason": "lacune : aucune limite Roblox citee (vdn-8a2ae33e44e7)",
+          "topic": "blender_animation"
+        },
+        {
+          "query": "KeyframeSequence import step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "blender_animation"
+        }
+      ]
+    },
+    {
+      "query": "draw calls instancing",
+      "topic": "performance",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 3,
+      "rejected": 3,
+      "duplicates": 3,
+      "fetched": 6,
+      "notes": [
+        {
+          "id": "vdn-d50c027e54d0",
+          "path": "knowledge/performance/d50c027e54d0-draw-calls-increased-by-5x.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "draw calls instancing",
+          "url": "https://devforum.roblox.com/t/1489845",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-6714a9b2cd01",
+          "path": "knowledge/performance/6714a9b2cd01-shadow-draw-calls-are-broken.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "draw calls instancing",
+          "url": "https://devforum.roblox.com/t/4045934",
+          "missing": []
+        },
+        {
+          "id": "vdn-fc8ba15fa1f6",
+          "path": "knowledge/performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "draw calls instancing",
+          "url": "https://devforum.roblox.com/t/3988136",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "draw calls instancing settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-d50c027e54d0)",
           "topic": "performance"
         }
       ]
     }
   ],
-  "created": 4,
-  "fetched": 28,
-  "rejected": 24,
-  "followups_added": 3,
+  "created": 16,
+  "fetched": 29,
+  "rejected": 13,
+  "followups_added": 6,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 77,
+      "pending": 79,
       "running": 0,
-      "done": 118,
+      "done": 122,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-25",
-      "items": 4,
-      "fetch": 28
+      "items": 8,
+      "fetch": 57
     },
     "next": [
       {
-        "query": "Lighting Ambient",
+        "query": "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility",
         "topic": "lighting",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
-        "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
+        "query": "first person camera tutorial Roblox Studio implementation compatibility",
         "topic": "fps_camera",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "KeyframeSequence import",
-        "topic": "blender_animation",
-        "priority": 8.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "draw calls instancing",
-        "topic": "performance",
-        "priority": 8.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
         "query": "Humanoid WalkSpeed smoothing",
         "topic": "movement",
+        "priority": 8.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "normal map baking Blender",
+        "topic": "rendering",
+        "priority": 8.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "terrain texture realistic",
+        "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"

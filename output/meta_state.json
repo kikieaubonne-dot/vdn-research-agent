@@ -826,21 +826,21 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 14,
+        "n": 15,
         "reward": 1.5699999999999998,
-        "returned": 46,
+        "returned": 50,
         "accepted": 2,
         "new": 2,
         "offtopic": 13,
-        "duplicates": 25,
+        "duplicates": 29,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.35,
           0.0,
           0.0,
           0.222,
           0.124,
+          0.0,
           0.0,
           0.0,
           0.0
@@ -894,26 +894,26 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 12,
-        "reward": 0.916,
-        "returned": 46,
-        "accepted": 6,
-        "new": 6,
+        "n": 13,
+        "reward": 1.6640000000000001,
+        "returned": 50,
+        "accepted": 10,
+        "new": 10,
         "offtopic": 28,
         "duplicates": 7,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.1672,
           0.0,
           0.0,
           0.204,
           0.5,
           0.0048,
           0.04,
-          0.0
+          0.0,
+          0.748
         ],
-        "best_mean": 0.0968
+        "best_mean": 0.128
       },
       "synonyms": {
         "n": 8,
@@ -962,26 +962,26 @@
     },
     "github:lighting": {
       "terms": {
-        "n": 14,
-        "reward": 2.218,
-        "returned": 39,
-        "accepted": 9,
-        "new": 9,
-        "offtopic": 16,
+        "n": 15,
+        "reward": 2.786,
+        "returned": 43,
+        "accepted": 12,
+        "new": 12,
+        "offtopic": 17,
         "duplicates": 8,
         "errors": 0,
         "empty": 4,
         "recent": [
           0.0,
           0.0,
-          0.0,
           0.832,
           0.412,
           0.0,
           0.098,
-          0.238
+          0.238,
+          0.568
         ],
-        "best_mean": 0.17109090909090907
+        "best_mean": 0.18573333333333333
       },
       "synonyms": {
         "n": 12,
@@ -1336,17 +1336,18 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 2,
-        "reward": 0.404,
-        "returned": 8,
+        "n": 3,
+        "reward": 0.466,
+        "returned": 12,
         "accepted": 1,
         "new": 1,
-        "offtopic": 2,
-        "duplicates": 3,
+        "offtopic": 3,
+        "duplicates": 6,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.342,
+          0.062,
           0.062
         ],
         "best_mean": 0.342
@@ -1400,19 +1401,20 @@
         "best_mean": 0.4941
       },
       "facet": {
-        "n": 1,
-        "reward": 0.416,
-        "returned": 4,
-        "accepted": 2,
-        "new": 2,
-        "offtopic": 2,
+        "n": 2,
+        "reward": 1.036,
+        "returned": 8,
+        "accepted": 5,
+        "new": 5,
+        "offtopic": 3,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.416
+          0.416,
+          0.62
         ],
-        "best_mean": 0.416
+        "best_mean": 0.518
       }
     },
     "github:performance": {
@@ -1447,18 +1449,19 @@
         "best_mean": 0.18
       },
       "facet": {
-        "n": 2,
-        "reward": 1.452,
-        "returned": 5,
+        "n": 3,
+        "reward": 1.572,
+        "returned": 6,
         "accepted": 3,
         "new": 3,
-        "offtopic": 0,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
           0.532,
-          0.92
+          0.92,
+          0.12
         ],
         "best_mean": 0.726
       }
@@ -1650,13 +1653,13 @@
         "best_mean": 0.056
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.052,
-        "returned": 24,
+        "returned": 28,
         "accepted": 1,
         "new": 1,
-        "offtopic": 16,
-        "duplicates": 7,
+        "offtopic": 18,
+        "duplicates": 9,
         "errors": 0,
         "empty": 0,
         "recent": [
@@ -1665,6 +1668,7 @@
           0.0,
           0.0,
           0.052,
+          0.0,
           0.0
         ],
         "best_mean": 0.0104
@@ -1715,16 +1719,17 @@
         "best_mean": 0.036
       },
       "synonyms": {
-        "n": 6,
+        "n": 7,
         "reward": 0.0,
-        "returned": 24,
+        "returned": 28,
         "accepted": 0,
         "new": 0,
-        "offtopic": 22,
+        "offtopic": 26,
         "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -1802,12 +1807,12 @@
         "best_mean": 0.43100000000000005
       },
       "facet": {
-        "n": 6,
-        "reward": 0.0,
-        "returned": 16,
+        "n": 7,
+        "reward": 0.004,
+        "returned": 20,
         "accepted": 0,
         "new": 0,
-        "offtopic": 8,
+        "offtopic": 10,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
@@ -1817,9 +1822,10 @@
           0.0,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.004
         ],
-        "best_mean": 0.0
+        "best_mean": 0.0005714285714285715
       }
     },
     "roblox_docs:traversal": {
@@ -1901,34 +1907,36 @@
         "best_mean": 0.016
       },
       "facet": {
-        "n": 1,
-        "reward": 0.8392,
-        "returned": 4,
-        "accepted": 3,
-        "new": 3,
+        "n": 2,
+        "reward": 1.5504,
+        "returned": 8,
+        "accepted": 6,
+        "new": 6,
         "offtopic": 0,
-        "duplicates": 1,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.8392
+          0.8392,
+          0.7112
         ],
         "best_mean": 0.8392
       }
     },
     "devforum:blender_animation": {
       "terms": {
-        "n": 1,
-        "reward": 0.892,
-        "returned": 4,
-        "accepted": 4,
-        "new": 4,
-        "offtopic": 0,
+        "n": 2,
+        "reward": 1.392,
+        "returned": 8,
+        "accepted": 7,
+        "new": 7,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.892
+          0.892,
+          0.5
         ],
         "best_mean": 0.892
       },
@@ -1965,7 +1973,7 @@
     },
     "github:blender_animation": {
       "terms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.294,
         "returned": 4,
         "accepted": 1,
@@ -1973,9 +1981,10 @@
         "offtopic": 0,
         "duplicates": 1,
         "errors": 0,
-        "empty": 0,
+        "empty": 1,
         "recent": [
-          0.294
+          0.294,
+          0.0
         ],
         "best_mean": 0.294
       },
