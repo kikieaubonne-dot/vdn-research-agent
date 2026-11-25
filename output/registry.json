@@ -871,6 +871,22 @@
   "https://devforum.roblox.com/t/2737945": {
    "id": "vdn-6e258226bbf7",
    "path": "knowledge/animation/6e258226bbf7-import-from-roblox-in-animation-editor-clears-clip.md"
+  },
+  "https://devforum.roblox.com/t/147958": {
+   "id": "vdn-3b5c7e612d30",
+   "path": "knowledge/performance/3b5c7e612d30-performance-regression-for-text-rendering.md"
+  },
+  "https://devforum.roblox.com/t/195029": {
+   "id": "vdn-0ded63993d38",
+   "path": "knowledge/performance/0ded63993d38-regression-major-performance-regression-for-text-r.md"
+  },
+  "https://devforum.roblox.com/t/1534040": {
+   "id": "vdn-a4b4bd37eed3",
+   "path": "knowledge/performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel.md"
+  },
+  "https://github.com/dev-zetta/heavenbench": {
+   "id": "vdn-b1ce7b18b41f",
+   "path": "knowledge/performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b.md"
   }
  },
  "fingerprints": {
@@ -1916,6 +1932,16 @@
   "8dbd69971ba0f311": "vdn-8d7fe56a4e24",
   "d237a559a9e89cda": "vdn-6e258226bbf7",
   "1d4b36890e8816e9": "vdn-6e258226bbf7",
-  "e4ca44cd3385c1d9": "vdn-6e258226bbf7"
+  "e4ca44cd3385c1d9": "vdn-6e258226bbf7",
+  "280ebed8fc442c02": "vdn-3b5c7e612d30",
+  "5b23d488f37f40b5": "vdn-0ded63993d38",
+  "fd12eddfcfe45f2c": "vdn-0ded63993d38",
+  "0664bd721db16c8a": "vdn-0ded63993d38",
+  "32cec9c9f68f9df7": "vdn-a4b4bd37eed3",
+  "cb47be490a036a88": "vdn-a4b4bd37eed3",
+  "617ce4ff4d1c361d": "vdn-a4b4bd37eed3",
+  "03486ced51da2014": "vdn-b1ce7b18b41f",
+  "ef4eb2f1a59a16df": "vdn-b1ce7b18b41f",
+  "cf9b652d89f2a5ee": "vdn-b1ce7b18b41f"
  }
 }

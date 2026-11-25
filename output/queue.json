@@ -1025,11 +1025,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-25T00:47:04+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 6,
+        "created": 4,
+        "rejected": 2,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-3b5c7e612d30",
+          "vdn-0ded63993d38",
+          "vdn-a4b4bd37eed3",
+          "vdn-b1ce7b18b41f"
+        ],
+        "followups": [
+          "MicroProfiler rendering settings",
+          "MicroProfiler rendering tutorial",
+          "MicroProfiler rendering step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795567614.4104946,
+      "finished_ts": 1795567624.2324138
     },
     "4220ef7674bfaeca": {
       "key": "4220ef7674bfaeca",
@@ -3851,11 +3872,23 @@
       "depth": 2,
       "parent": "610151593f1217cc",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-20T17:51:01+00:00",
-      "updated": "2026-11-20T17:51:01+00:00",
-      "result": null
+      "updated": "2026-11-25T00:46:28+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795567577.6719193,
+      "finished_ts": 1795567588.7427616
     },
     "c854c043e17ab83b": {
       "key": "c854c043e17ab83b",
@@ -4010,11 +4043,23 @@
       "depth": 2,
       "parent": "9b834002cfcc973a",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:07+00:00",
-      "updated": "2026-11-21T07:12:07+00:00",
-      "result": null
+      "updated": "2026-11-25T00:46:41+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 0,
+        "rejected": 7,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795567588.7511826,
+      "finished_ts": 1795567601.520257
     },
     "8b7f634eebdf94a2": {
       "key": "8b7f634eebdf94a2",
@@ -4141,11 +4186,23 @@
       "depth": 2,
       "parent": "26691311b060f3eb",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T15:24:07+00:00",
-      "updated": "2026-11-21T15:24:07+00:00",
-      "result": null
+      "updated": "2026-11-25T00:46:54+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795567601.5267963,
+      "finished_ts": 1795567614.4032314
     },
     "3852d5ba0c10c7bd": {
       "key": "3852d5ba0c10c7bd",
@@ -4596,11 +4653,56 @@
       "created": "2026-11-24T15:55:27+00:00",
       "updated": "2026-11-24T15:55:27+00:00",
       "result": null
+    },
+    "b6c74a232717df2e": {
+      "key": "b6c74a232717df2e",
+      "topic": "performance",
+      "query": "MicroProfiler rendering settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a731a4bdaf945fb2",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-3b5c7e612d30)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T00:47:04+00:00",
+      "updated": "2026-11-25T00:47:04+00:00",
+      "result": null
+    },
+    "20b46bff02a68b97": {
+      "key": "20b46bff02a68b97",
+      "topic": "performance",
+      "query": "MicroProfiler rendering tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "a731a4bdaf945fb2",
+      "reason": "lacune : aucune etape exploitable (vdn-3b5c7e612d30)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T00:47:04+00:00",
+      "updated": "2026-11-25T00:47:04+00:00",
+      "result": null
+    },
+    "f6e829dbefb32840": {
+      "key": "f6e829dbefb32840",
+      "topic": "performance",
+      "query": "MicroProfiler rendering step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "a731a4bdaf945fb2",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T00:47:04+00:00",
+      "updated": "2026-11-25T00:47:04+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-24",
-    "items": 8,
-    "fetch": 56
+    "date": "2026-11-25",
+    "items": 4,
+    "fetch": 28
   }
 }

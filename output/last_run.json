@@ -1,139 +1,123 @@
 {
-  "started_utc": "2026-11-24T15:55:16+00:00",
+  "started_utc": "2026-11-25T00:46:54+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 9,
-  "fetched": 8,
-  "accepted": 7,
-  "created": 7,
+  "fetched": 6,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
-  "duplicates": 1,
-  "rejected": 1,
+  "duplicates": 3,
+  "rejected": 2,
   "errors": [],
   "rejection_reasons": {
-    "aucun lien avec Roblox ou la chaîne Blender": 1,
+    "hors sujet": 1,
     "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "blender_animation",
+      "topic": "performance",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "Animation Editor import performance",
+      "strategy": "synonyms",
+      "query": "performance rendering",
+      "returned": 4,
+      "accepted": 0,
+      "new": 0,
+      "updated": 0,
+      "duplicates": 3,
+      "offtopic": 1,
+      "error": null,
+      "technical_mean": 0.28,
+      "duration_s": 1.17,
+      "reward": 0.062
+    },
+    {
+      "provider": "devforum",
+      "topic": "performance",
+      "origin": "seed",
+      "strategy": "synonyms",
+      "query": "performance rendering",
       "returned": 4,
       "accepted": 3,
       "new": 3,
       "updated": 0,
-      "duplicates": 1,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 0.973,
-      "duration_s": 3.47,
-      "reward": 0.8392
-    },
-    {
-      "provider": "devforum",
-      "topic": "blender_animation",
-      "origin": "seed",
-      "strategy": "facet",
-      "query": "Animation Editor import performance",
-      "returned": 4,
-      "accepted": 4,
-      "new": 4,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 0.34,
-      "duration_s": 5.31,
-      "reward": 0.736
-    },
-    {
-      "provider": "github",
-      "topic": "blender_animation",
-      "origin": "seed",
-      "strategy": "facet",
-      "query": "Animation Editor import performance",
-      "returned": 1,
-      "accepted": 0,
-      "new": 0,
-      "updated": 0,
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.04,
-      "duration_s": 2.36,
-      "reward": 0.0
+      "technical_mean": 0.32,
+      "duration_s": 5.59,
+      "reward": 0.528
+    },
+    {
+      "provider": "github",
+      "topic": "performance",
+      "origin": "seed",
+      "strategy": "facet",
+      "query": "MicroProfiler rendering bug",
+      "returned": 1,
+      "accepted": 1,
+      "new": 1,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 0.8,
+      "duration_s": 3.02,
+      "reward": 0.92
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-901178697d43",
-      "path": "knowledge/animation/901178697d43-animation-graph-editor.md",
+      "id": "vdn-3b5c7e612d30",
+      "path": "knowledge/performance/3b5c7e612d30-performance-regression-for-text-rendering.md",
+      "status": "candidat",
+      "topic": "performance",
+      "query": "MicroProfiler rendering",
+      "url": "https://devforum.roblox.com/t/147958"
+    },
+    {
+      "id": "vdn-0ded63993d38",
+      "path": "knowledge/performance/0ded63993d38-regression-major-performance-regression-for-text-r.md",
+      "status": "candidat",
+      "topic": "performance",
+      "query": "MicroProfiler rendering",
+      "url": "https://devforum.roblox.com/t/195029"
+    },
+    {
+      "id": "vdn-a4b4bd37eed3",
+      "path": "knowledge/performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel.md",
       "status": "documente",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://create.roblox.com/docs/animation/graph-editor"
+      "topic": "performance",
+      "query": "MicroProfiler rendering",
+      "url": "https://devforum.roblox.com/t/1534040"
     },
     {
-      "id": "vdn-21ce8aee4188",
-      "path": "knowledge/animation/21ce8aee4188-curve-editor.md",
+      "id": "vdn-b1ce7b18b41f",
+      "path": "knowledge/performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b.md",
       "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://create.roblox.com/docs/animation/curve-editor"
-    },
-    {
-      "id": "vdn-0b316a523626",
-      "path": "knowledge/animation/0b316a523626-work-with-the-animation-editor.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://create.roblox.com/docs/tutorials/curriculums/animator/work-with-the-animation-editor"
-    },
-    {
-      "id": "vdn-d2d2f8df3bea",
-      "path": "knowledge/animation/d2d2f8df3bea-animation-editor-messing-up-on-import.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://devforum.roblox.com/t/10600"
-    },
-    {
-      "id": "vdn-25c3adc09550",
-      "path": "knowledge/animation/25c3adc09550-you-can-no-longer-import-by-animation-id-in-the-ed.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://devforum.roblox.com/t/4562031"
-    },
-    {
-      "id": "vdn-8d7fe56a4e24",
-      "path": "knowledge/animation/8d7fe56a4e24-import-option-for-marketplace-animations-in-animat.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://devforum.roblox.com/t/4908403"
-    },
-    {
-      "id": "vdn-6e258226bbf7",
-      "path": "knowledge/animation/6e258226bbf7-import-from-roblox-in-animation-editor-clears-clip.md",
-      "status": "candidat",
-      "topic": "blender_animation",
-      "query": "Animation Editor import fbx",
-      "url": "https://devforum.roblox.com/t/2737945"
+      "topic": "performance",
+      "query": "MicroProfiler rendering",
+      "url": "https://github.com/dev-zetta/heavenbench"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.875,
-      "technical": 0.04,
-      "roblox": false,
+      "topical": 0.25,
+      "technical": 0.28,
+      "roblox": true,
       "noise": [],
       "reasons": [
-        "aucun lien avec Roblox ou la chaîne Blender",
+        "hors sujet (pertinence 0.25 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.5,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
         "pas assez de contenu technique (0.04)"
       ]
     }
@@ -143,5 +127,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-24T15:55:27+00:00"
+  "finished_utc": "2026-11-25T00:47:04+00:00"
 }

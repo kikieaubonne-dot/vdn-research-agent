@@ -329,7 +329,7 @@
     "rock mesh SurfaceAppearance": 1,
     "terrain decoration grass": 1,
     "Blender export Roblox fbx": 1,
-    "MicroProfiler rendering": 1,
+    "MicroProfiler rendering": 2,
     "photogrammetry rock import": 1,
     "skinned mesh facial animation": 1,
     "modular building kit": 1,
@@ -427,9 +427,12 @@
     "Lighting settings": 1,
     "Decal settings Roblox Studio implementation compatibility": 1,
     "first person camera settings step by step implementation tutorial code": 1,
-    "Animation Editor import fbx": 1
+    "Animation Editor import fbx": 1,
+    "light shadows performance settings Roblox Studio implementation compatibility": 1,
+    "Decal settings step by step implementation tutorial code": 1,
+    "first person camera settings Roblox Studio implementation compatibility": 1
   },
-  "runs": 123,
+  "runs": 127,
   "errors": [],
   "rotation": 4
 }

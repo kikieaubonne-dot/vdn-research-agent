@@ -10,10 +10,10 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[forest/_index|forest]] | 0 | 0 | 9 | 12 | 12 |
 | [[gameplay/_index|gameplay]] | 0 | 0 | 0 | 11 | 0 |
 | [[lighting/_index|lighting]] | 0 | 0 | 14 | 30 | 0 |
-| [[performance/_index|performance]] | 0 | 0 | 2 | 6 | 0 |
+| [[performance/_index|performance]] | 0 | 0 | 3 | 9 | 0 |
 | [[rendering/_index|rendering]] | 0 | 0 | 7 | 3 | 0 |
 | [[snow/_index|snow]] | 0 | 0 | 15 | 14 | 0 |
 | [[terrain/_index|terrain]] | 0 | 0 | 7 | 7 | 0 |
 | [[vegetation/_index|vegetation]] | 0 | 0 | 7 | 5 | 4 |
 
-Total : 218 fiches. Mis à jour le 2026-11-24.
+Total : 222 fiches. Mis à jour le 2026-11-25.

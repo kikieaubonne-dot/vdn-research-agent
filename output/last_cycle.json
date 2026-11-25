@@ -1,260 +1,179 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-24T15:54:42+00:00",
-  "finished": "2026-11-24T15:55:27+00:00",
+  "started": "2026-11-25T00:46:17+00:00",
+  "finished": "2026-11-25T00:47:04+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "Lighting settings",
+      "query": "light shadows performance settings Roblox Studio implementation compatibility",
       "topic": "lighting",
       "depth": 2,
-      "origin": "relance",
+      "origin": "relance_lacune",
       "status": "done",
-      "created": 1,
+      "created": 0,
       "rejected": 7,
-      "duplicates": 3,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-8e4533bb8a9d",
-          "path": "knowledge/lighting/8e4533bb8a9d-sundaymoments-ds5-bridge-wireless-dualsense-and-du.md",
-          "status": "candidat",
-          "topic": "lighting",
-          "query": "Lighting settings",
-          "url": "https://github.com/sundaymoments/ds5_bridge",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "duplicates": 5,
+      "fetched": 7,
+      "notes": [],
       "followups": []
     },
     {
-      "query": "Decal settings Roblox Studio implementation compatibility",
+      "query": "Decal settings step by step implementation tutorial code",
       "topic": "snow",
       "depth": 2,
       "origin": "relance_lacune",
       "status": "done",
-      "created": 1,
-      "rejected": 5,
-      "duplicates": 6,
-      "fetched": 6,
-      "notes": [
-        {
-          "id": "vdn-1bdf076fb081",
-          "path": "knowledge/snow/1bdf076fb081-lkasser-decal-acunreal-decal-for-ac-unreal-a-udp-p.md",
-          "status": "candidat",
-          "topic": "snow",
-          "query": "Decal settings Roblox Studio implementation compatibility",
-          "url": "https://github.com/lkasser/decal-acunreal",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
+      "created": 0,
+      "rejected": 7,
+      "duplicates": 5,
+      "fetched": 7,
+      "notes": [],
       "followups": []
     },
     {
-      "query": "first person camera settings step by step implementation tutorial code",
+      "query": "first person camera settings Roblox Studio implementation compatibility",
       "topic": "fps_camera",
       "depth": 2,
       "origin": "relance_lacune",
       "status": "done",
       "created": 0,
-      "rejected": 6,
+      "rejected": 8,
       "duplicates": 3,
-      "fetched": 6,
+      "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "Animation Editor import fbx",
-      "topic": "blender_animation",
+      "query": "MicroProfiler rendering",
+      "topic": "performance",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 7,
-      "rejected": 1,
-      "duplicates": 1,
-      "fetched": 8,
+      "created": 4,
+      "rejected": 2,
+      "duplicates": 3,
+      "fetched": 6,
       "notes": [
         {
-          "id": "vdn-901178697d43",
-          "path": "knowledge/animation/901178697d43-animation-graph-editor.md",
+          "id": "vdn-3b5c7e612d30",
+          "path": "knowledge/performance/3b5c7e612d30-performance-regression-for-text-rendering.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "MicroProfiler rendering",
+          "url": "https://devforum.roblox.com/t/147958",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-0ded63993d38",
+          "path": "knowledge/performance/0ded63993d38-regression-major-performance-regression-for-text-r.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "MicroProfiler rendering",
+          "url": "https://devforum.roblox.com/t/195029",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-a4b4bd37eed3",
+          "path": "knowledge/performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel.md",
           "status": "documente",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://create.roblox.com/docs/animation/graph-editor",
+          "topic": "performance",
+          "query": "MicroProfiler rendering",
+          "url": "https://devforum.roblox.com/t/1534040",
           "missing": [
-            "aucun parametre chiffre dans la source",
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-b1ce7b18b41f",
+          "path": "knowledge/performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "MicroProfiler rendering",
+          "url": "https://github.com/dev-zetta/heavenbench",
+          "missing": [
             "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-21ce8aee4188",
-          "path": "knowledge/animation/21ce8aee4188-curve-editor.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://create.roblox.com/docs/animation/curve-editor",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-0b316a523626",
-          "path": "knowledge/animation/0b316a523626-work-with-the-animation-editor.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://create.roblox.com/docs/tutorials/curriculums/animator/work-with-the-animation-editor",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-d2d2f8df3bea",
-          "path": "knowledge/animation/d2d2f8df3bea-animation-editor-messing-up-on-import.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://devforum.roblox.com/t/10600",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-25c3adc09550",
-          "path": "knowledge/animation/25c3adc09550-you-can-no-longer-import-by-animation-id-in-the-ed.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://devforum.roblox.com/t/4562031",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-8d7fe56a4e24",
-          "path": "knowledge/animation/8d7fe56a4e24-import-option-for-marketplace-animations-in-animat.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://devforum.roblox.com/t/4908403",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-6e258226bbf7",
-          "path": "knowledge/animation/6e258226bbf7-import-from-roblox-in-animation-editor-clears-clip.md",
-          "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Animation Editor import fbx",
-          "url": "https://devforum.roblox.com/t/2737945",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "Animation Editor import settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-901178697d43)",
-          "topic": "blender_animation"
+          "query": "MicroProfiler rendering settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-3b5c7e612d30)",
+          "topic": "performance"
         },
         {
-          "query": "KeyframeSequence settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-21ce8aee4188)",
-          "topic": "blender_animation"
+          "query": "MicroProfiler rendering tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-3b5c7e612d30)",
+          "topic": "performance"
         },
         {
-          "query": "KeyframeSequence tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-21ce8aee4188)",
-          "topic": "blender_animation"
-        },
-        {
-          "query": "Animation Editor import tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-0b316a523626)",
-          "topic": "blender_animation"
-        },
-        {
-          "query": "Animation Editor import fbx step by step implementation tutorial code",
+          "query": "MicroProfiler rendering step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "blender_animation"
-        },
-        {
-          "query": "Animation Editor import fbx Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "blender_animation"
+          "topic": "performance"
         }
       ]
     }
   ],
-  "created": 9,
+  "created": 4,
   "fetched": 28,
-  "rejected": 19,
-  "followups_added": 6,
+  "rejected": 24,
+  "followups_added": 3,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 78,
+      "pending": 77,
       "running": 0,
-      "done": 114,
+      "done": 118,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-24",
-      "items": 8,
-      "fetch": 56
+      "date": "2026-11-25",
+      "items": 4,
+      "fetch": 28
     },
     "next": [
       {
-        "query": "light shadows performance settings Roblox Studio implementation compatibility",
+        "query": "Lighting Ambient",
         "topic": "lighting",
         "priority": 8.0,
         "depth": 2,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
-        "query": "Decal settings step by step implementation tutorial code",
-        "topic": "snow",
-        "priority": 8.0,
-        "depth": 2,
-        "origin": "relance_lacune"
-      },
-      {
-        "query": "first person camera settings Roblox Studio implementation compatibility",
+        "query": "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code",
         "topic": "fps_camera",
         "priority": 8.0,
         "depth": 2,
         "origin": "relance_lacune"
       },
       {
-        "query": "MicroProfiler rendering",
+        "query": "KeyframeSequence import",
+        "topic": "blender_animation",
+        "priority": 8.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "draw calls instancing",
         "topic": "performance",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "KeyframeSequence import",
-        "topic": "blender_animation",
+        "query": "Humanoid WalkSpeed smoothing",
+        "topic": "movement",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
