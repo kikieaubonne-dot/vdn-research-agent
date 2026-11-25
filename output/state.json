@@ -434,9 +434,13 @@
     "Lighting Ambient": 1,
     "first person camera Roblox Studio implementation compatibility step by step implementation tutorial code": 1,
     "KeyframeSequence import": 1,
-    "draw calls instancing": 1
+    "draw calls instancing": 1,
+    "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility": 1,
+    "first person camera tutorial Roblox Studio implementation compatibility": 1,
+    "Humanoid WalkSpeed smoothing": 1,
+    "normal map baking Blender": 1
   },
-  "runs": 131,
+  "runs": 135,
   "errors": [],
   "rotation": 4
 }

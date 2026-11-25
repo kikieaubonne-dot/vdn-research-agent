@@ -995,11 +995,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-25T19:57:50+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-5bc56469e395",
+          "vdn-567afc44b4d7",
+          "vdn-18dfaa91718a"
+        ],
+        "followups": [
+          "normal map baking settings",
+          "normal map baking tutorial",
+          "normal map baking Blender step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795636659.626173,
+      "finished_ts": 1795636670.2750044
     },
     "d9e7846fb1a3799d": {
       "key": "d9e7846fb1a3799d",
@@ -1491,11 +1511,29 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-25T19:57:39+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-4500a9943930",
+          "vdn-a0af8915f7ed"
+        ],
+        "followups": [
+          "Humanoid WalkSpeed smoothing settings",
+          "Humanoid WalkSpeed smoothing tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795636646.8034565,
+      "finished_ts": 1795636659.6206467
     },
     "f266a170010bde36": {
       "key": "f266a170010bde36",
@@ -4321,11 +4359,23 @@
       "depth": 2,
       "parent": "b016a9fe65d38a16",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T21:40:26+00:00",
-      "updated": "2026-11-21T21:40:26+00:00",
-      "result": null
+      "updated": "2026-11-25T19:57:15+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795636621.4324596,
+      "finished_ts": 1795636635.272663
     },
     "f497d9c595210774": {
       "key": "f497d9c595210774",
@@ -4393,11 +4443,25 @@
       "depth": 2,
       "parent": "d94688e24f89ea5b",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T02:16:14+00:00",
-      "updated": "2026-11-22T02:16:14+00:00",
-      "result": null
+      "updated": "2026-11-25T19:57:26+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-65401376af00"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795636635.2771022,
+      "finished_ts": 1795636646.7982254
     },
     "c06efab921f8e47f": {
       "key": "c06efab921f8e47f",
@@ -4863,11 +4927,86 @@
       "created": "2026-11-25T09:53:13+00:00",
       "updated": "2026-11-25T09:53:13+00:00",
       "result": null
+    },
+    "25d6e742952ff0c2": {
+      "key": "25d6e742952ff0c2",
+      "topic": "movement",
+      "query": "Humanoid WalkSpeed smoothing settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "ae45aee36b28d726",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-4500a9943930)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T19:57:39+00:00",
+      "updated": "2026-11-25T19:57:39+00:00",
+      "result": null
+    },
+    "3fe00e22c473295f": {
+      "key": "3fe00e22c473295f",
+      "topic": "movement",
+      "query": "Humanoid WalkSpeed smoothing tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "ae45aee36b28d726",
+      "reason": "lacune : aucune etape exploitable (vdn-a0af8915f7ed)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T19:57:39+00:00",
+      "updated": "2026-11-25T19:57:39+00:00",
+      "result": null
+    },
+    "884c5df2d8d7fc01": {
+      "key": "884c5df2d8d7fc01",
+      "topic": "rendering",
+      "query": "normal map baking settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b5b8432e62745841",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-5bc56469e395)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T19:57:50+00:00",
+      "updated": "2026-11-25T19:57:50+00:00",
+      "result": null
+    },
+    "e76781c469fdac3c": {
+      "key": "e76781c469fdac3c",
+      "topic": "rendering",
+      "query": "normal map baking tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "b5b8432e62745841",
+      "reason": "lacune : aucune etape exploitable (vdn-18dfaa91718a)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T19:57:50+00:00",
+      "updated": "2026-11-25T19:57:50+00:00",
+      "result": null
+    },
+    "39424125d2a3afab": {
+      "key": "39424125d2a3afab",
+      "topic": "rendering",
+      "query": "normal map baking Blender step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "b5b8432e62745841",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-25T19:57:50+00:00",
+      "updated": "2026-11-25T19:57:50+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-25",
-    "items": 8,
-    "fetch": 57
+    "items": 12,
+    "fetch": 89
   }
 }

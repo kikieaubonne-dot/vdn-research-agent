@@ -951,6 +951,30 @@
   "https://devforum.roblox.com/t/3988136": {
    "id": "vdn-fc8ba15fa1f6",
    "path": "knowledge/performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w.md"
+  },
+  "https://create.roblox.com/docs/tutorials/first-experience": {
+   "id": "vdn-65401376af00",
+   "path": "knowledge/gameplay/65401376af00-create-your-first-game.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Humanoid": {
+   "id": "vdn-4500a9943930",
+   "path": "knowledge/gameplay/4500a9943930-class-humanoid.md"
+  },
+  "https://devforum.roblox.com/t/847421": {
+   "id": "vdn-a0af8915f7ed",
+   "path": "knowledge/gameplay/a0af8915f7ed-animation-speed-changes-according-to-humanoid-walk.md"
+  },
+  "https://devforum.roblox.com/t/2026322": {
+   "id": "vdn-5bc56469e395",
+   "path": "knowledge/rendering/5bc56469e395-baking-high-poly-features-into-normal-map-blender.md"
+  },
+  "https://devforum.roblox.com/t/370063": {
+   "id": "vdn-567afc44b4d7",
+   "path": "knowledge/rendering/567afc44b4d7-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md"
+  },
+  "https://devforum.roblox.com/t/371238": {
+   "id": "vdn-18dfaa91718a",
+   "path": "knowledge/rendering/18dfaa91718a-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md"
   }
  },
  "fingerprints": {
@@ -2044,6 +2068,50 @@
   "1b49c4864529a393": "vdn-6714a9b2cd01",
   "c1c9d1857b143615": "vdn-fc8ba15fa1f6",
   "1ee9fc647d345cf1": "vdn-fc8ba15fa1f6",
-  "5524bb6de95b0a98": "vdn-fc8ba15fa1f6"
+  "5524bb6de95b0a98": "vdn-fc8ba15fa1f6",
+  "b0fcda834906005b": "vdn-2781b6aeb5da",
+  "d263fb12257d73bb": "vdn-156e21190ff4",
+  "e776ef6279b2e4dd": "vdn-65401376af00",
+  "659d690ffcb2e068": "vdn-65401376af00",
+  "887a0a014831e728": "vdn-4500a9943930",
+  "427ec704ec4ec16c": "vdn-4500a9943930",
+  "6ade5c9fc9f26772": "vdn-4500a9943930",
+  "dc4ad8de842d4fe5": "vdn-4500a9943930",
+  "7fd72e193b5c2f8c": "vdn-4500a9943930",
+  "adb1c660a39395d7": "vdn-4500a9943930",
+  "fd0b8b120c6d95e8": "vdn-431b23ac4fb9",
+  "6be79ec8cc28ef45": "vdn-431b23ac4fb9",
+  "4bdbb00d06532451": "vdn-431b23ac4fb9",
+  "cddd1a04cc4532c2": "vdn-431b23ac4fb9",
+  "63d48b911267f047": "vdn-431b23ac4fb9",
+  "0fe011d4855f1a08": "vdn-431b23ac4fb9",
+  "b0f577627aec7fcd": "vdn-431b23ac4fb9",
+  "3f83bfcd925c1066": "vdn-431b23ac4fb9",
+  "f2e12342d6a4a987": "vdn-963760ee1393",
+  "1c6995569d4cd8ab": "vdn-963760ee1393",
+  "e1c48601451255fd": "vdn-963760ee1393",
+  "7301bf56fdb520ce": "vdn-963760ee1393",
+  "cacfdd81cf151580": "vdn-963760ee1393",
+  "1481c7a66658c430": "vdn-963760ee1393",
+  "90857a5fc79b5a62": "vdn-963760ee1393",
+  "fe5802eb95323362": "vdn-a0af8915f7ed",
+  "350f0ff0abc0715c": "vdn-a0af8915f7ed",
+  "ca8144d1553d2259": "vdn-a0af8915f7ed",
+  "27f8df5d1fbde6f9": "vdn-e7b336c02d2e",
+  "f6a2005ee6ccf5eb": "vdn-e7b336c02d2e",
+  "c2b4b2f5c95788ef": "vdn-e7b336c02d2e",
+  "c2cc8e648ba3d4aa": "vdn-e7b336c02d2e",
+  "8bd6e6d4ab895fe3": "vdn-e7b336c02d2e",
+  "6c8c0aacb52f6329": "vdn-926d3a8d4f87",
+  "523245855721df11": "vdn-5bc56469e395",
+  "dafb9b4263d79f1b": "vdn-5bc56469e395",
+  "a591af69247c6aa1": "vdn-567afc44b4d7",
+  "f6b27a01f7d33a6c": "vdn-567afc44b4d7",
+  "d4dae49bea23e01e": "vdn-567afc44b4d7",
+  "b898c77e32acec73": "vdn-567afc44b4d7",
+  "1b3941b8fa34511b": "vdn-567afc44b4d7",
+  "15e9c66a5ad99015": "vdn-567afc44b4d7",
+  "7f263fc317abe512": "vdn-567afc44b4d7",
+  "5355b93db6c6f0ce": "vdn-567afc44b4d7"
  }
 }

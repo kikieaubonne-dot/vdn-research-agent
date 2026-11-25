@@ -1,45 +1,44 @@
 {
-  "started_utc": "2026-11-25T09:53:04+00:00",
+  "started_utc": "2026-11-25T19:57:39+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 9,
-  "fetched": 6,
+  "returned": 12,
+  "fetched": 8,
   "accepted": 3,
   "created": 3,
   "updated": 0,
-  "duplicates": 3,
-  "rejected": 3,
+  "duplicates": 0,
+  "rejected": 5,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 2,
-    "pas assez de contenu technique": 1,
-    "bruit : titre : « looking for »": 1
+    "hors sujet": 4,
+    "pas assez de contenu technique": 3
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "performance",
+      "topic": "rendering",
       "origin": "seed",
-      "strategy": "synonyms",
-      "query": "performance calls instancing",
+      "strategy": "facet",
+      "query": "normal map baking bug",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 3,
-      "offtopic": 1,
+      "duplicates": 0,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.28,
-      "duration_s": 1.18,
-      "reward": 0.062
+      "technical_mean": 0.29,
+      "duration_s": 4.56,
+      "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "performance",
+      "topic": "rendering",
       "origin": "seed",
       "strategy": "facet",
-      "query": "draw calls instancing bug",
+      "query": "normal map baking bug",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -47,83 +46,100 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.55,
-      "duration_s": 5.5,
-      "reward": 0.62
+      "technical_mean": 0.62,
+      "duration_s": 5.21,
+      "reward": 0.648
     },
     {
       "provider": "github",
-      "topic": "performance",
+      "topic": "rendering",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "draw calls instancing bug",
-      "returned": 1,
+      "strategy": "terms",
+      "query": "normal map baking Blender",
+      "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 1,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.8,
-      "duration_s": 2.13,
-      "reward": 0.12
+      "technical_mean": 0.0,
+      "duration_s": 0.85,
+      "reward": 0.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-d50c027e54d0",
-      "path": "knowledge/performance/d50c027e54d0-draw-calls-increased-by-5x.md",
+      "id": "vdn-5bc56469e395",
+      "path": "knowledge/rendering/5bc56469e395-baking-high-poly-features-into-normal-map-blender.md",
       "status": "documente",
-      "topic": "performance",
-      "query": "draw calls instancing",
-      "url": "https://devforum.roblox.com/t/1489845"
+      "topic": "rendering",
+      "query": "normal map baking Blender",
+      "url": "https://devforum.roblox.com/t/2026322"
     },
     {
-      "id": "vdn-6714a9b2cd01",
-      "path": "knowledge/performance/6714a9b2cd01-shadow-draw-calls-are-broken.md",
+      "id": "vdn-567afc44b4d7",
+      "path": "knowledge/rendering/567afc44b4d7-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
       "status": "documente",
-      "topic": "performance",
-      "query": "draw calls instancing",
-      "url": "https://devforum.roblox.com/t/4045934"
+      "topic": "rendering",
+      "query": "normal map baking Blender",
+      "url": "https://devforum.roblox.com/t/370063"
     },
     {
-      "id": "vdn-fc8ba15fa1f6",
-      "path": "knowledge/performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w.md",
-      "status": "documente",
-      "topic": "performance",
-      "query": "draw calls instancing",
-      "url": "https://devforum.roblox.com/t/3988136"
+      "id": "vdn-18dfaa91718a",
+      "path": "knowledge/rendering/18dfaa91718a-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
+      "status": "candidat",
+      "topic": "rendering",
+      "query": "normal map baking Blender",
+      "url": "https://devforum.roblox.com/t/371238"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.25,
-      "technical": 0.28,
+      "topical": 0.125,
+      "technical": 0.92,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)"
+        "hors sujet (pertinence 0.125 < 0.5)"
       ]
     },
     {
-      "topical": 0.167,
+      "topical": 0.417,
+      "technical": 0.24,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.417 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.125,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.125 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.125,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.125 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.542,
       "technical": 0.04,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.167 < 0.5)",
         "pas assez de contenu technique (0.04)"
-      ]
-    },
-    {
-      "topical": 0.833,
-      "technical": 0.8,
-      "roblox": true,
-      "noise": [
-        "titre : « looking for »"
-      ],
-      "reasons": [
-        "bruit : titre : « looking for »"
       ]
     }
   ],
@@ -132,5 +148,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-25T09:53:13+00:00"
+  "finished_utc": "2026-11-25T19:57:50+00:00"
 }
