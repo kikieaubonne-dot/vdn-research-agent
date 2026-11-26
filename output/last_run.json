@@ -1,44 +1,60 @@
 {
-  "started_utc": "2026-11-25T19:57:39+00:00",
+  "started_utc": "2026-11-26T02:52:35+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 3,
-  "created": 3,
+  "accepted": 7,
+  "created": 7,
   "updated": 0,
-  "duplicates": 0,
-  "rejected": 5,
+  "duplicates": 4,
+  "rejected": 1,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 4,
-    "pas assez de contenu technique": 3
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "rendering",
+      "topic": "terrain",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "normal map baking bug",
+      "strategy": "terms",
+      "query": "terrain texture",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 4,
+      "duplicates": 4,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.29,
-      "duration_s": 4.56,
+      "technical_mean": 0.0,
+      "duration_s": 0.01,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "rendering",
+      "topic": "terrain",
       "origin": "seed",
       "strategy": "facet",
-      "query": "normal map baking bug",
+      "query": "terrain texture performance",
+      "returned": 4,
+      "accepted": 4,
+      "new": 4,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 0,
+      "error": null,
+      "technical_mean": 0.53,
+      "duration_s": 5.38,
+      "reward": 0.812
+    },
+    {
+      "provider": "github",
+      "topic": "terrain",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "terrain texture",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -46,100 +62,77 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.62,
-      "duration_s": 5.21,
-      "reward": 0.648
-    },
-    {
-      "provider": "github",
-      "topic": "rendering",
-      "origin": "seed",
-      "strategy": "terms",
-      "query": "normal map baking Blender",
-      "returned": 4,
-      "accepted": 0,
-      "new": 0,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.85,
-      "reward": 0.0
+      "technical_mean": 0.65,
+      "duration_s": 8.3,
+      "reward": 0.66
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-5bc56469e395",
-      "path": "knowledge/rendering/5bc56469e395-baking-high-poly-features-into-normal-map-blender.md",
+      "id": "vdn-1de3faf48f35",
+      "path": "knowledge/terrain/1de3faf48f35-textures-and-performance.md",
       "status": "documente",
-      "topic": "rendering",
-      "query": "normal map baking Blender",
-      "url": "https://devforum.roblox.com/t/2026322"
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://devforum.roblox.com/t/899994"
     },
     {
-      "id": "vdn-567afc44b4d7",
-      "path": "knowledge/rendering/567afc44b4d7-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
+      "id": "vdn-e4f3f46ebbe5",
+      "path": "knowledge/terrain/e4f3f46ebbe5-smooth-terrain-performance.md",
       "status": "documente",
-      "topic": "rendering",
-      "query": "normal map baking Blender",
-      "url": "https://devforum.roblox.com/t/370063"
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://devforum.roblox.com/t/173087"
     },
     {
-      "id": "vdn-18dfaa91718a",
-      "path": "knowledge/rendering/18dfaa91718a-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
+      "id": "vdn-2113507f0f10",
+      "path": "knowledge/terrain/2113507f0f10-terrain-water-performance.md",
+      "status": "documente",
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://devforum.roblox.com/t/245664"
+    },
+    {
+      "id": "vdn-c42cb917d054",
+      "path": "knowledge/terrain/c42cb917d054-performance-by-carving-out-terrain.md",
       "status": "candidat",
-      "topic": "rendering",
-      "query": "normal map baking Blender",
-      "url": "https://devforum.roblox.com/t/371238"
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://devforum.roblox.com/t/486182"
+    },
+    {
+      "id": "vdn-c87d9ae4fd6b",
+      "path": "knowledge/terrain/c87d9ae4fd6b-jinsek-mightyterrainmesh-a-unity-plugin-for-conver.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://github.com/jinsek/mightyterrainmesh"
+    },
+    {
+      "id": "vdn-0f85dc1dda7d",
+      "path": "knowledge/terrain/0f85dc1dda7d-ideefixze-dterrain-destructible-terrain-in-unity.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://github.com/ideefixze/dterrain"
+    },
+    {
+      "id": "vdn-d28a18737780",
+      "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain texture realistic",
+      "url": "https://github.com/acskyline/pvtut"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.125,
-      "technical": 0.92,
+      "topical": 1.0,
+      "technical": 0.08,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.125 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.417,
-      "technical": 0.24,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.417 < 0.5)"
-      ]
-    },
-    {
-      "topical": 0.125,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.125 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.125,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.125 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 0.542,
-      "technical": 0.04,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "pas assez de contenu technique (0.04)"
+        "pas assez de contenu technique (0.08)"
       ]
     }
   ],
@@ -148,5 +141,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-25T19:57:50+00:00"
+  "finished_utc": "2026-11-26T02:52:49+00:00"
 }

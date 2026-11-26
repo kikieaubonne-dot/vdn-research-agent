@@ -856,11 +856,35 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T02:52:49+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 7,
+        "rejected": 1,
+        "duplicates": 4,
+        "updated": 0,
+        "notes": [
+          "vdn-1de3faf48f35",
+          "vdn-e4f3f46ebbe5",
+          "vdn-2113507f0f10",
+          "vdn-c42cb917d054",
+          "vdn-c87d9ae4fd6b",
+          "vdn-0f85dc1dda7d",
+          "vdn-d28a18737780"
+        ],
+        "followups": [
+          "terrain texture realistic settings",
+          "terrain texture realistic tutorial",
+          "terrain texture realistic step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795661555.5893497,
+      "finished_ts": 1795661569.3104062
     },
     "e488da8cd88abdb1": {
       "key": "e488da8cd88abdb1",
@@ -946,11 +970,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T02:52:35+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 6,
+        "rejected": 2,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-096995d55f8c",
+          "vdn-0501fb41e792",
+          "vdn-e6e9969de53f",
+          "vdn-89a349a71adf",
+          "vdn-68e5ce93ec65",
+          "vdn-0a0efcbe2052"
+        ],
+        "followups": [
+          "Blender export Roblox settings"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795661543.444559,
+      "finished_ts": 1795661555.5848572
     },
     "50050bd6dff60982": {
       "key": "50050bd6dff60982",
@@ -4428,11 +4473,25 @@
       "depth": 2,
       "parent": "d71006fd1ad55f2c",
       "reason": "compatibilite Roblox non etablie",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T02:16:02+00:00",
-      "updated": "2026-11-22T02:16:02+00:00",
-      "result": null
+      "updated": "2026-11-26T02:52:11+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [
+          "vdn-f6dd6843cd6b"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795661518.012154,
+      "finished_ts": 1795661531.3744528
     },
     "9f86cb30f6e3755f": {
       "key": "9f86cb30f6e3755f",
@@ -4532,11 +4591,23 @@
       "depth": 2,
       "parent": "10eafb9faef1fee8",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T17:51:44+00:00",
-      "updated": "2026-11-22T17:51:44+00:00",
-      "result": null
+      "updated": "2026-11-26T02:52:23+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795661531.3784132,
+      "finished_ts": 1795661543.4307928
     },
     "c6146a50d3662f77": {
       "key": "c6146a50d3662f77",
@@ -5002,11 +5073,71 @@
       "created": "2026-11-25T19:57:50+00:00",
       "updated": "2026-11-25T19:57:50+00:00",
       "result": null
+    },
+    "47ff651e6cc26b89": {
+      "key": "47ff651e6cc26b89",
+      "topic": "rendering",
+      "query": "Blender export Roblox settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "bd0fccb725190e36",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-096995d55f8c)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T02:52:35+00:00",
+      "updated": "2026-11-26T02:52:35+00:00",
+      "result": null
+    },
+    "9a16a31b6f4c72b4": {
+      "key": "9a16a31b6f4c72b4",
+      "topic": "terrain",
+      "query": "terrain texture realistic settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "ced05002fb282f60",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-1de3faf48f35)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T02:52:49+00:00",
+      "updated": "2026-11-26T02:52:49+00:00",
+      "result": null
+    },
+    "7cff9a2c8a3de561": {
+      "key": "7cff9a2c8a3de561",
+      "topic": "terrain",
+      "query": "terrain texture realistic tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "ced05002fb282f60",
+      "reason": "lacune : aucune etape exploitable (vdn-c42cb917d054)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T02:52:49+00:00",
+      "updated": "2026-11-26T02:52:49+00:00",
+      "result": null
+    },
+    "0748b52288159ef8": {
+      "key": "0748b52288159ef8",
+      "topic": "terrain",
+      "query": "terrain texture realistic step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "ced05002fb282f60",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T02:52:49+00:00",
+      "updated": "2026-11-26T02:52:49+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-25",
-    "items": 12,
-    "fetch": 89
+    "date": "2026-11-26",
+    "items": 4,
+    "fetch": 31
   }
 }

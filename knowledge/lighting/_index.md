@@ -2,12 +2,13 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (17)
+## Documenté (18)
 
 - [[lighting/d58d7cf22396-customize-global-lighting|Customize global lighting]] — niv. 1 · conf. moyenne — « description: "Explains how to use global lighting settings to refine the look and feel of your game." »
 - [[lighting/5d6828741270-future-lighting-not-working|Future Lighting not working]] — niv. 1 · conf. moyenne — « If you are talking about the small lighting change, refer to what @Self_Reflexive suggested. »
 - [[lighting/a96e07091a68-global-lighting|Global lighting]] — niv. 1 · conf. moyenne — « The `Class.Lighting` service contains properties that you can adjust to update and customize the global lighting in a game. »
 - [[lighting/0c907f49b2f4-light-sources|Light sources]] — niv. 1 · conf. moyenne — « By using the different types of light sources instead of just general global lighting through the `Class.Lighting` service, you can create i… »
+- [[lighting/f6dd6843cd6b-spotlight-not-working-in-certain-positions-due-to|SpotLight not working in certain positions due to shadow]] — niv. 1 · conf. moyenne — « Further testing has shown that the problem is due to the ‘Shadows’ property. »
 - [[lighting/2691c88af330-use-case-tutorials|Use case tutorials]] — niv. 1 · conf. moyenne — « Use third-party modeling tools like Blender to create meshes, then import them into Studio using the Importer. »
 - [[lighting/a4893023e7c3-class-spotlight|Class: SpotLight]] — niv. 1 · conf. faible — « - **Property `Brightness`** (`float`): Sets how bright the emitted light is, defaults to 1. »
 - [[lighting/473db3854bb2-f-for-realistic-flashlight|F for Realistic Flashlight]] — niv. 1 · conf. faible — « Is your Technology in Lighting set to Future? »

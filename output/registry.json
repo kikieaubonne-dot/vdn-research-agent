@@ -975,6 +975,62 @@
   "https://devforum.roblox.com/t/371238": {
    "id": "vdn-18dfaa91718a",
    "path": "knowledge/rendering/18dfaa91718a-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md"
+  },
+  "https://devforum.roblox.com/t/625545": {
+   "id": "vdn-f6dd6843cd6b",
+   "path": "knowledge/lighting/f6dd6843cd6b-spotlight-not-working-in-certain-positions-due-to.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/rig-a-simple-mesh": {
+   "id": "vdn-096995d55f8c",
+   "path": "knowledge/rendering/096995d55f8c-rig-a-simple-mesh.md"
+  },
+  "https://devforum.roblox.com/t/13773": {
+   "id": "vdn-0501fb41e792",
+   "path": "knowledge/rendering/0501fb41e792-fbx-export.md"
+  },
+  "https://devforum.roblox.com/t/2083080": {
+   "id": "vdn-e6e9969de53f",
+   "path": "knowledge/rendering/e6e9969de53f-blender-fbx-cannot-export-texture-colours.md"
+  },
+  "https://devforum.roblox.com/t/1742824": {
+   "id": "vdn-89a349a71adf",
+   "path": "knowledge/rendering/89a349a71adf-any-way-to-export-rig-as-fbx-to-be-animated-in-ble.md"
+  },
+  "https://devforum.roblox.com/t/2189477": {
+   "id": "vdn-68e5ce93ec65",
+   "path": "knowledge/rendering/68e5ce93ec65-how-to-export-an-fbx-file-from-blender-into-roblox.md"
+  },
+  "https://github.com/libinzyu/blender-3dgs-oil-paint": {
+   "id": "vdn-0a0efcbe2052",
+   "path": "knowledge/rendering/0a0efcbe2052-libinzyu-blender-3dgs-oil-paint-blender-add-on-tur.md"
+  },
+  "https://devforum.roblox.com/t/899994": {
+   "id": "vdn-1de3faf48f35",
+   "path": "knowledge/terrain/1de3faf48f35-textures-and-performance.md"
+  },
+  "https://devforum.roblox.com/t/173087": {
+   "id": "vdn-e4f3f46ebbe5",
+   "path": "knowledge/terrain/e4f3f46ebbe5-smooth-terrain-performance.md"
+  },
+  "https://devforum.roblox.com/t/245664": {
+   "id": "vdn-2113507f0f10",
+   "path": "knowledge/terrain/2113507f0f10-terrain-water-performance.md"
+  },
+  "https://devforum.roblox.com/t/486182": {
+   "id": "vdn-c42cb917d054",
+   "path": "knowledge/terrain/c42cb917d054-performance-by-carving-out-terrain.md"
+  },
+  "https://github.com/jinsek/mightyterrainmesh": {
+   "id": "vdn-c87d9ae4fd6b",
+   "path": "knowledge/terrain/c87d9ae4fd6b-jinsek-mightyterrainmesh-a-unity-plugin-for-conver.md"
+  },
+  "https://github.com/ideefixze/dterrain": {
+   "id": "vdn-0f85dc1dda7d",
+   "path": "knowledge/terrain/0f85dc1dda7d-ideefixze-dterrain-destructible-terrain-in-unity.md"
+  },
+  "https://github.com/acskyline/pvtut": {
+   "id": "vdn-d28a18737780",
+   "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md"
   }
  },
  "fingerprints": {
@@ -2112,6 +2168,68 @@
   "1b3941b8fa34511b": "vdn-567afc44b4d7",
   "15e9c66a5ad99015": "vdn-567afc44b4d7",
   "7f263fc317abe512": "vdn-567afc44b4d7",
-  "5355b93db6c6f0ce": "vdn-567afc44b4d7"
+  "5355b93db6c6f0ce": "vdn-567afc44b4d7",
+  "0f7d0d8025f1ee48": "vdn-f6dd6843cd6b",
+  "23b450a01da29bc8": "vdn-f6dd6843cd6b",
+  "d76251862c48e276": "vdn-f6dd6843cd6b",
+  "4c18c4913d9a0c97": "vdn-f6dd6843cd6b",
+  "2822250e5782982e": "vdn-0501fb41e792",
+  "a34e580a0520628f": "vdn-0501fb41e792",
+  "af5887ae5913ea28": "vdn-0501fb41e792",
+  "50dcdea95a5a0ba2": "vdn-e6e9969de53f",
+  "0dde68049976c542": "vdn-e6e9969de53f",
+  "37d11095a1d6f5ec": "vdn-89a349a71adf",
+  "264961cf792e4ff3": "vdn-89a349a71adf",
+  "cffa1394cf5bff95": "vdn-68e5ce93ec65",
+  "dacb630efbc1669a": "vdn-68e5ce93ec65",
+  "1789f0f8b2715f89": "vdn-68e5ce93ec65",
+  "0d92c32bfdafbcb1": "vdn-68e5ce93ec65",
+  "a4ceddfa3e4f7e9f": "vdn-68e5ce93ec65",
+  "02d9313216ea1398": "vdn-68e5ce93ec65",
+  "f6aa26e17cd5f278": "vdn-68e5ce93ec65",
+  "90e3cc4e1cf82bb1": "vdn-68e5ce93ec65",
+  "3d9702fc96e6c63e": "vdn-b0d65218fb8e",
+  "3ef55309969cdd95": "vdn-b0d65218fb8e",
+  "dd8b29391a153e82": "vdn-b0d65218fb8e",
+  "09236a85652d781f": "vdn-b0d65218fb8e",
+  "70c00c0d2b5002d7": "vdn-b0d65218fb8e",
+  "612d4d9dcd556a95": "vdn-b0d65218fb8e",
+  "50f9eee3a75668cf": "vdn-b0d65218fb8e",
+  "ffca9f8522ca55d5": "vdn-b0d65218fb8e",
+  "ccc69e2e3e4a1402": "vdn-0a0efcbe2052",
+  "e0e1b636d6dbd505": "vdn-0a0efcbe2052",
+  "b4e9875dee3649d9": "vdn-0a0efcbe2052",
+  "7859602009393623": "vdn-0a0efcbe2052",
+  "a35fd33614bf2479": "vdn-0a0efcbe2052",
+  "1062109fcd968bc2": "vdn-0a0efcbe2052",
+  "357988edeaf0f237": "vdn-1de3faf48f35",
+  "dc04302e779ee073": "vdn-1de3faf48f35",
+  "52d6e15305f752a0": "vdn-1de3faf48f35",
+  "5a557cd397460618": "vdn-e4f3f46ebbe5",
+  "a55327ee95d2ee58": "vdn-e4f3f46ebbe5",
+  "fb344d0380878226": "vdn-e4f3f46ebbe5",
+  "a65aa6bc0a1c4140": "vdn-2113507f0f10",
+  "cf5e198f2c81e67b": "vdn-2113507f0f10",
+  "dd9232caca582b94": "vdn-2113507f0f10",
+  "4b01f614f0736b71": "vdn-2113507f0f10",
+  "125eb323b5b7672b": "vdn-2113507f0f10",
+  "b93b1d4375fd7a9f": "vdn-2113507f0f10",
+  "78fe6b560871641b": "vdn-c42cb917d054",
+  "9a74b9f5521e0a52": "vdn-c87d9ae4fd6b",
+  "ff9819c6976909a5": "vdn-c87d9ae4fd6b",
+  "a9e7626ef6c9c930": "vdn-c87d9ae4fd6b",
+  "f3f68999791e4a52": "vdn-c87d9ae4fd6b",
+  "dd7c8036a9004778": "vdn-c87d9ae4fd6b",
+  "61975b4b956b5d46": "vdn-0f85dc1dda7d",
+  "3f956fedf4f40fba": "vdn-0f85dc1dda7d",
+  "fedf58ba96b20f73": "vdn-0f85dc1dda7d",
+  "3fdea988d88ae4d7": "vdn-d28a18737780",
+  "c5cb01b3398220b6": "vdn-d28a18737780",
+  "a3a83ac1c443bd27": "vdn-d28a18737780",
+  "f098d817890b905b": "vdn-d28a18737780",
+  "b4f7c89557e99006": "vdn-d28a18737780",
+  "75742c522c14a95e": "vdn-d28a18737780",
+  "374dbde60b4b72ea": "vdn-d28a18737780",
+  "a219b8bc1c87ecfb": "vdn-d28a18737780"
  }
 }

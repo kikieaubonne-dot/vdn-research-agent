@@ -69,3 +69,10 @@
 {"utc": "2026-11-25T19:57:26+00:00", "event": "regression", "arm": "roblox_docs:fps_camera:facet", "recent_mean": 0.006, "best_mean": 0.22, "action": "retour à « terms »"}
 {"utc": "2026-11-25T19:57:26+00:00", "event": "regression", "arm": "devforum:fps_camera:facet", "recent_mean": 0.0, "best_mean": 0.268, "action": "retour à « terms »"}
 {"utc": "2026-11-25T19:57:26+00:00", "event": "regression", "arm": "github:fps_camera:synonyms", "recent_mean": 0.1035, "best_mean": 0.431, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:11+00:00", "event": "regression", "arm": "roblox_docs:lighting:synonyms", "recent_mean": 0.11, "best_mean": 0.2497, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:11+00:00", "event": "regression", "arm": "roblox_docs:lighting:facet", "recent_mean": 0.0092, "best_mean": 0.184, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:11+00:00", "event": "regression", "arm": "devforum:lighting:facet", "recent_mean": 0.0608, "best_mean": 0.1995, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:11+00:00", "event": "regression", "arm": "github:lighting:synonyms", "recent_mean": 0.0594, "best_mean": 0.1847, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:23+00:00", "event": "regression", "arm": "roblox_docs:fps_camera:facet", "recent_mean": 0.006, "best_mean": 0.22, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:23+00:00", "event": "regression", "arm": "devforum:fps_camera:facet", "recent_mean": 0.0, "best_mean": 0.268, "action": "retour à « terms »"}
+{"utc": "2026-11-26T02:52:23+00:00", "event": "regression", "arm": "github:fps_camera:synonyms", "recent_mean": 0.1035, "best_mean": 0.431, "action": "retour à « terms »"}

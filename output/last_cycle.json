@@ -1,166 +1,253 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-25T19:57:01+00:00",
-  "finished": "2026-11-25T19:57:50+00:00",
+  "started": "2026-11-26T02:51:58+00:00",
+  "finished": "2026-11-26T02:52:49+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility",
+      "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
       "topic": "lighting",
+      "depth": 2,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 1,
+      "rejected": 6,
+      "duplicates": 5,
+      "fetched": 7,
+      "notes": [
+        {
+          "id": "vdn-f6dd6843cd6b",
+          "path": "knowledge/lighting/f6dd6843cd6b-spotlight-not-working-in-certain-positions-due-to.md",
+          "status": "documente",
+          "topic": "lighting",
+          "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
+          "url": "https://devforum.roblox.com/t/625545",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "camera sway mouse settings step by step implementation tutorial code",
+      "topic": "fps_camera",
       "depth": 2,
       "origin": "relance_lacune",
       "status": "done",
       "created": 0,
       "rejected": 8,
-      "duplicates": 4,
+      "duplicates": 1,
       "fetched": 8,
       "notes": [],
       "followups": []
     },
     {
-      "query": "first person camera tutorial Roblox Studio implementation compatibility",
-      "topic": "fps_camera",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 1,
-      "rejected": 7,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-65401376af00",
-          "path": "knowledge/gameplay/65401376af00-create-your-first-game.md",
-          "status": "documente",
-          "topic": "fps_camera",
-          "query": "first person camera tutorial Roblox Studio implementation compatibility",
-          "url": "https://create.roblox.com/docs/tutorials/first-experience",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "Humanoid WalkSpeed smoothing",
-      "topic": "movement",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 0,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-4500a9943930",
-          "path": "knowledge/gameplay/4500a9943930-class-humanoid.md",
-          "status": "documente",
-          "topic": "movement",
-          "query": "Humanoid WalkSpeed smoothing",
-          "url": "https://create.roblox.com/docs/reference/engine/classes/Humanoid",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-a0af8915f7ed",
-          "path": "knowledge/gameplay/a0af8915f7ed-animation-speed-changes-according-to-humanoid-walk.md",
-          "status": "candidat",
-          "topic": "movement",
-          "query": "Humanoid WalkSpeed smoothing",
-          "url": "https://devforum.roblox.com/t/847421",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "Humanoid WalkSpeed smoothing settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-4500a9943930)",
-          "topic": "movement"
-        },
-        {
-          "query": "Humanoid WalkSpeed smoothing tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-a0af8915f7ed)",
-          "topic": "movement"
-        }
-      ]
-    },
-    {
-      "query": "normal map baking Blender",
+      "query": "Blender export Roblox fbx",
       "topic": "rendering",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 3,
-      "rejected": 5,
-      "duplicates": 0,
+      "created": 6,
+      "rejected": 2,
+      "duplicates": 2,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-5bc56469e395",
-          "path": "knowledge/rendering/5bc56469e395-baking-high-poly-features-into-normal-map-blender.md",
+          "id": "vdn-096995d55f8c",
+          "path": "knowledge/rendering/096995d55f8c-rig-a-simple-mesh.md",
           "status": "documente",
           "topic": "rendering",
-          "query": "normal map baking Blender",
-          "url": "https://devforum.roblox.com/t/2026322",
+          "query": "Blender export Roblox fbx",
+          "url": "https://create.roblox.com/docs/art/modeling/rig-a-simple-mesh",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-0501fb41e792",
+          "path": "knowledge/rendering/0501fb41e792-fbx-export.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "Blender export Roblox fbx",
+          "url": "https://devforum.roblox.com/t/13773",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-e6e9969de53f",
+          "path": "knowledge/rendering/e6e9969de53f-blender-fbx-cannot-export-texture-colours.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "Blender export Roblox fbx",
+          "url": "https://devforum.roblox.com/t/2083080",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-89a349a71adf",
+          "path": "knowledge/rendering/89a349a71adf-any-way-to-export-rig-as-fbx-to-be-animated-in-ble.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "Blender export Roblox fbx",
+          "url": "https://devforum.roblox.com/t/1742824",
           "missing": [
             "aucun parametre chiffre dans la source"
           ]
         },
         {
-          "id": "vdn-567afc44b4d7",
-          "path": "knowledge/rendering/567afc44b4d7-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
+          "id": "vdn-68e5ce93ec65",
+          "path": "knowledge/rendering/68e5ce93ec65-how-to-export-an-fbx-file-from-blender-into-roblox.md",
           "status": "documente",
           "topic": "rendering",
-          "query": "normal map baking Blender",
-          "url": "https://devforum.roblox.com/t/370063",
+          "query": "Blender export Roblox fbx",
+          "url": "https://devforum.roblox.com/t/2189477",
           "missing": [
-            "aucune limite Roblox citee"
+            "aucun parametre chiffre dans la source"
           ]
         },
         {
-          "id": "vdn-18dfaa91718a",
-          "path": "knowledge/rendering/18dfaa91718a-roblox-and-normal-maps-a-guide-to-baking-and-hacks.md",
+          "id": "vdn-0a0efcbe2052",
+          "path": "knowledge/rendering/0a0efcbe2052-libinzyu-blender-3dgs-oil-paint-blender-add-on-tur.md",
           "status": "candidat",
           "topic": "rendering",
-          "query": "normal map baking Blender",
-          "url": "https://devforum.roblox.com/t/371238",
+          "query": "Blender export Roblox fbx",
+          "url": "https://github.com/libinzyu/blender-3dgs-oil-paint",
           "missing": [
             "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
+            "aucune limite Roblox citee"
           ]
         }
       ],
       "followups": [
         {
-          "query": "normal map baking settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-5bc56469e395)",
+          "query": "Blender export Roblox settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-096995d55f8c)",
           "topic": "rendering"
+        }
+      ]
+    },
+    {
+      "query": "terrain texture realistic",
+      "topic": "terrain",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 7,
+      "rejected": 1,
+      "duplicates": 4,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-1de3faf48f35",
+          "path": "knowledge/terrain/1de3faf48f35-textures-and-performance.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://devforum.roblox.com/t/899994",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
         },
         {
-          "query": "normal map baking tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-18dfaa91718a)",
-          "topic": "rendering"
+          "id": "vdn-e4f3f46ebbe5",
+          "path": "knowledge/terrain/e4f3f46ebbe5-smooth-terrain-performance.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://devforum.roblox.com/t/173087",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
         },
         {
-          "query": "normal map baking Blender step by step implementation tutorial code",
+          "id": "vdn-2113507f0f10",
+          "path": "knowledge/terrain/2113507f0f10-terrain-water-performance.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://devforum.roblox.com/t/245664",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-c42cb917d054",
+          "path": "knowledge/terrain/c42cb917d054-performance-by-carving-out-terrain.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://devforum.roblox.com/t/486182",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-c87d9ae4fd6b",
+          "path": "knowledge/terrain/c87d9ae4fd6b-jinsek-mightyterrainmesh-a-unity-plugin-for-conver.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://github.com/jinsek/mightyterrainmesh",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-0f85dc1dda7d",
+          "path": "knowledge/terrain/0f85dc1dda7d-ideefixze-dterrain-destructible-terrain-in-unity.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://github.com/ideefixze/dterrain",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-d28a18737780",
+          "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain texture realistic",
+          "url": "https://github.com/acskyline/pvtut",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "terrain texture realistic settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-1de3faf48f35)",
+          "topic": "terrain"
+        },
+        {
+          "query": "terrain texture realistic tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-c42cb917d054)",
+          "topic": "terrain"
+        },
+        {
+          "query": "terrain texture realistic step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "rendering"
+          "topic": "terrain"
         }
       ]
     }
   ],
-  "created": 6,
-  "fetched": 32,
-  "rejected": 26,
-  "followups_added": 5,
+  "created": 14,
+  "fetched": 31,
+  "rejected": 17,
+  "followups_added": 4,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
@@ -169,47 +256,47 @@
     "counts": {
       "pending": 80,
       "running": 0,
-      "done": 126,
+      "done": 130,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-25",
-      "items": 12,
-      "fetch": 89
+      "date": "2026-11-26",
+      "items": 4,
+      "fetch": 31
     },
     "next": [
       {
-        "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
-        "topic": "lighting",
+        "query": "custom character controller",
+        "topic": "movement",
         "priority": 8.0,
-        "depth": 2,
-        "origin": "relance_lacune"
+        "depth": 0,
+        "origin": "seed"
       },
       {
-        "query": "camera sway mouse settings step by step implementation tutorial code",
-        "topic": "fps_camera",
+        "query": "instance streaming level detail",
+        "topic": "performance",
         "priority": 8.0,
-        "depth": 2,
-        "origin": "relance_lacune"
+        "depth": 0,
+        "origin": "seed"
       },
       {
-        "query": "Blender export Roblox fbx",
+        "query": "SurfaceAppearance PBR textures",
         "topic": "rendering",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "terrain texture realistic",
+        "query": "terrain decoration grass",
         "topic": "terrain",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "custom character controller",
-        "topic": "movement",
+        "query": "first person arms rig",
+        "topic": "fp_hands",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"

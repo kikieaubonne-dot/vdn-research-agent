@@ -826,24 +826,24 @@
     },
     "roblox_docs:lighting": {
       "terms": {
-        "n": 16,
-        "reward": 1.5699999999999998,
-        "returned": 54,
+        "n": 17,
+        "reward": 1.6059999999999999,
+        "returned": 58,
         "accepted": 2,
         "new": 2,
-        "offtopic": 16,
-        "duplicates": 30,
+        "offtopic": 18,
+        "duplicates": 32,
         "errors": 0,
         "empty": 2,
         "recent": [
-          0.0,
           0.222,
           0.124,
           0.0,
           0.0,
           0.0,
           0.0,
-          0.0
+          0.0,
+          0.036
         ],
         "best_mean": 0.219
       },
@@ -894,26 +894,26 @@
     },
     "devforum:lighting": {
       "terms": {
-        "n": 14,
-        "reward": 1.6780000000000002,
-        "returned": 54,
-        "accepted": 10,
-        "new": 10,
+        "n": 15,
+        "reward": 2.052,
+        "returned": 58,
+        "accepted": 11,
+        "new": 11,
         "offtopic": 29,
-        "duplicates": 10,
+        "duplicates": 13,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.0,
           0.204,
           0.5,
           0.0048,
           0.04,
           0.0,
           0.748,
-          0.014
+          0.014,
+          0.374
         ],
-        "best_mean": 0.128
+        "best_mean": 0.1368
       },
       "synonyms": {
         "n": 8,
@@ -962,23 +962,23 @@
     },
     "github:lighting": {
       "terms": {
-        "n": 16,
+        "n": 17,
         "reward": 2.786,
-        "returned": 47,
+        "returned": 51,
         "accepted": 12,
         "new": 12,
-        "offtopic": 21,
+        "offtopic": 25,
         "duplicates": 8,
         "errors": 0,
         "empty": 4,
         "recent": [
-          0.0,
           0.832,
           0.412,
           0.0,
           0.098,
           0.238,
           0.568,
+          0.0,
           0.0
         ],
         "best_mean": 0.18573333333333333
@@ -1030,17 +1030,18 @@
     },
     "roblox_docs:terrain": {
       "terms": {
-        "n": 1,
+        "n": 2,
         "reward": 0.135,
-        "returned": 4,
+        "returned": 8,
         "accepted": 0,
         "new": 0,
         "offtopic": 0,
-        "duplicates": 0,
+        "duplicates": 4,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.135
+          0.135,
+          0.0
         ],
         "best_mean": 0.135
       },
@@ -1109,11 +1110,11 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 3,
-        "reward": 1.428,
-        "returned": 12,
-        "accepted": 8,
-        "new": 8,
+        "n": 4,
+        "reward": 2.24,
+        "returned": 16,
+        "accepted": 12,
+        "new": 12,
         "offtopic": 4,
         "duplicates": 0,
         "errors": 0,
@@ -1121,28 +1122,30 @@
         "recent": [
           0.096,
           0.836,
-          0.496
+          0.496,
+          0.812
         ],
-        "best_mean": 0.476
+        "best_mean": 0.56
       }
     },
     "github:terrain": {
       "terms": {
-        "n": 3,
-        "reward": 1.17,
-        "returned": 8,
-        "accepted": 4,
-        "new": 4,
-        "offtopic": 1,
+        "n": 4,
+        "reward": 1.83,
+        "returned": 12,
+        "accepted": 7,
+        "new": 7,
+        "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
           0.0,
           0.62,
-          0.55
+          0.55,
+          0.66
         ],
-        "best_mean": 0.38999999999999996
+        "best_mean": 0.4575
       },
       "synonyms": {
         "n": 1,
@@ -1192,19 +1195,20 @@
         "best_mean": 0.0
       },
       "synonyms": {
-        "n": 1,
-        "reward": 0.1328,
-        "returned": 4,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 3,
-        "duplicates": 0,
+        "n": 2,
+        "reward": 0.4648,
+        "returned": 8,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 4,
+        "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.1328
+          0.1328,
+          0.332
         ],
-        "best_mean": 0.1328
+        "best_mean": 0.2324
       },
       "facet": {
         "n": 3,
@@ -1256,11 +1260,11 @@
         "best_mean": 0.0
       },
       "facet": {
-        "n": 3,
-        "reward": 2.2,
-        "returned": 12,
-        "accepted": 10,
-        "new": 10,
+        "n": 4,
+        "reward": 3.044,
+        "returned": 16,
+        "accepted": 14,
+        "new": 14,
         "offtopic": 2,
         "duplicates": 0,
         "errors": 0,
@@ -1268,7 +1272,8 @@
         "recent": [
           0.952,
           0.6,
-          0.648
+          0.648,
+          0.844
         ],
         "best_mean": 0.952
       }
@@ -1292,19 +1297,20 @@
         "best_mean": 0.275
       },
       "synonyms": {
-        "n": 1,
-        "reward": 0.0,
-        "returned": 0,
-        "accepted": 0,
-        "new": 0,
-        "offtopic": 0,
+        "n": 2,
+        "reward": 0.5,
+        "returned": 4,
+        "accepted": 1,
+        "new": 1,
+        "offtopic": 1,
         "duplicates": 0,
         "errors": 0,
         "empty": 1,
         "recent": [
-          0.0
+          0.0,
+          0.5
         ],
-        "best_mean": 0.0
+        "best_mean": 0.25
       },
       "facet": {
         "n": 1,
@@ -1635,24 +1641,24 @@
     },
     "roblox_docs:fps_camera": {
       "terms": {
-        "n": 8,
+        "n": 9,
         "reward": 0.2672,
-        "returned": 32,
+        "returned": 36,
         "accepted": 2,
         "new": 2,
-        "offtopic": 17,
-        "duplicates": 13,
+        "offtopic": 20,
+        "duplicates": 14,
         "errors": 0,
         "empty": 0,
         "recent": [
-          0.056,
           0.0,
           0.0,
           0.03,
           0.0,
           0.0,
           0.03,
-          0.1512
+          0.1512,
+          0.0
         ],
         "best_mean": 0.056
       },
@@ -1724,16 +1730,17 @@
         "best_mean": 0.036
       },
       "synonyms": {
-        "n": 7,
+        "n": 8,
         "reward": 0.0,
-        "returned": 28,
+        "returned": 32,
         "accepted": 0,
         "new": 0,
-        "offtopic": 26,
+        "offtopic": 30,
         "duplicates": 2,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -1769,16 +1776,17 @@
     },
     "github:fps_camera": {
       "terms": {
-        "n": 7,
+        "n": 8,
         "reward": 0.0,
-        "returned": 22,
+        "returned": 26,
         "accepted": 0,
         "new": 0,
-        "offtopic": 10,
+        "offtopic": 11,
         "duplicates": 0,
         "errors": 0,
         "empty": 0,
         "recent": [
+          0.0,
           0.0,
           0.0,
           0.0,

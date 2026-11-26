@@ -328,7 +328,7 @@
     "instance streaming level detail": 1,
     "rock mesh SurfaceAppearance": 1,
     "terrain decoration grass": 1,
-    "Blender export Roblox fbx": 1,
+    "Blender export Roblox fbx": 2,
     "MicroProfiler rendering": 2,
     "photogrammetry rock import": 1,
     "skinned mesh facial animation": 1,
@@ -438,9 +438,12 @@
     "flashlight SpotLight shadows step by step implementation tutorial code Roblox Studio implementation compatibility": 1,
     "first person camera tutorial Roblox Studio implementation compatibility": 1,
     "Humanoid WalkSpeed smoothing": 1,
-    "normal map baking Blender": 1
+    "normal map baking Blender": 1,
+    "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility": 1,
+    "camera sway mouse settings step by step implementation tutorial code": 1,
+    "terrain texture realistic": 1
   },
-  "runs": 135,
+  "runs": 139,
   "errors": [],
   "rotation": 4
 }
