@@ -1000,11 +1000,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T22:23:02+00:00",
+      "result": {
+        "returned": 8,
+        "fetched": 6,
+        "created": 3,
+        "rejected": 3,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-1e603e723691",
+          "vdn-ef7ba3f21991",
+          "vdn-b67efd4fc571"
+        ],
+        "followups": [
+          "MeshPart RenderFidelity tutorial",
+          "MeshPart RenderFidelity settings"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795731774.613396,
+      "finished_ts": 1795731782.4509976
     },
     "bd0fccb725190e36": {
       "key": "bd0fccb725190e36",
@@ -1262,11 +1281,30 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T22:22:32+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-4a784889b34c",
+          "vdn-10cbddb87318"
+        ],
+        "followups": [
+          "mobile graphics performance tutorial",
+          "mobile graphics performance step by step implementation tutorial code",
+          "mobile graphics performance Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795731740.2744184,
+      "finished_ts": 1795731752.9820247
     },
     "02fc5d6a6303ed65": {
       "key": "02fc5d6a6303ed65",
@@ -1629,11 +1667,29 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T22:22:44+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 2,
+        "rejected": 6,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-26e4159f41cf",
+          "vdn-bfe59be5ec6a"
+        ],
+        "followups": [
+          "vault mantle system tutorial",
+          "vault mantle system step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795731752.9903312,
+      "finished_ts": 1795731764.3637109
     },
     "ae45aee36b28d726": {
       "key": "ae45aee36b28d726",
@@ -1677,11 +1733,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T22:22:54+00:00",
+      "result": {
+        "returned": 10,
+        "fetched": 7,
+        "created": 3,
+        "rejected": 4,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-431b23ac4fb9",
+          "vdn-b388cda6f2c8",
+          "vdn-f539071d8938"
+        ],
+        "followups": [
+          "first person arms settings",
+          "first person arms tutorial",
+          "first person arms rig step by step implementation tutorial code",
+          "first person arms rig Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795731764.3718867,
+      "finished_ts": 1795731774.6048884
     },
     "54fe7778a47312b7": {
       "key": "54fe7778a47312b7",
@@ -5416,11 +5493,176 @@
       "created": "2026-11-26T12:38:41+00:00",
       "updated": "2026-11-26T12:38:41+00:00",
       "result": null
+    },
+    "9ad29bd020a4a7b3": {
+      "key": "9ad29bd020a4a7b3",
+      "topic": "performance",
+      "query": "mobile graphics performance tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "dc7f783368a90c35",
+      "reason": "lacune : aucune etape exploitable (vdn-4a784889b34c)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:32+00:00",
+      "updated": "2026-11-26T22:22:32+00:00",
+      "result": null
+    },
+    "fe591c1a739d05c2": {
+      "key": "fe591c1a739d05c2",
+      "topic": "performance",
+      "query": "mobile graphics performance step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "dc7f783368a90c35",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:32+00:00",
+      "updated": "2026-11-26T22:22:32+00:00",
+      "result": null
+    },
+    "41cadcb66e88f881": {
+      "key": "41cadcb66e88f881",
+      "topic": "performance",
+      "query": "mobile graphics performance Roblox Studio implementation compatibility",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "dc7f783368a90c35",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:32+00:00",
+      "updated": "2026-11-26T22:22:32+00:00",
+      "result": null
+    },
+    "25ad6c299269545d": {
+      "key": "25ad6c299269545d",
+      "topic": "movement",
+      "query": "vault mantle system tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "ee4bfdf6484967d2",
+      "reason": "lacune : aucune etape exploitable (vdn-26e4159f41cf)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:44+00:00",
+      "updated": "2026-11-26T22:22:44+00:00",
+      "result": null
+    },
+    "dbb8d5bde028acc2": {
+      "key": "dbb8d5bde028acc2",
+      "topic": "movement",
+      "query": "vault mantle system step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "ee4bfdf6484967d2",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:44+00:00",
+      "updated": "2026-11-26T22:22:44+00:00",
+      "result": null
+    },
+    "031b31377a919a0f": {
+      "key": "031b31377a919a0f",
+      "topic": "fp_hands",
+      "query": "first person arms settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "f266a170010bde36",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-431b23ac4fb9)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:54+00:00",
+      "updated": "2026-11-26T22:22:54+00:00",
+      "result": null
+    },
+    "0055c03ab4a18c9e": {
+      "key": "0055c03ab4a18c9e",
+      "topic": "fp_hands",
+      "query": "first person arms tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "f266a170010bde36",
+      "reason": "lacune : aucune etape exploitable (vdn-f539071d8938)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:54+00:00",
+      "updated": "2026-11-26T22:22:54+00:00",
+      "result": null
+    },
+    "7351ba8fe3e5a12c": {
+      "key": "7351ba8fe3e5a12c",
+      "topic": "fp_hands",
+      "query": "first person arms rig step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "f266a170010bde36",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:54+00:00",
+      "updated": "2026-11-26T22:22:54+00:00",
+      "result": null
+    },
+    "07857fb5bcfcc709": {
+      "key": "07857fb5bcfcc709",
+      "topic": "fp_hands",
+      "query": "first person arms rig Roblox Studio implementation compatibility",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "f266a170010bde36",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:22:54+00:00",
+      "updated": "2026-11-26T22:22:54+00:00",
+      "result": null
+    },
+    "c1bfa1d3f83b9be8": {
+      "key": "c1bfa1d3f83b9be8",
+      "topic": "rendering",
+      "query": "MeshPart RenderFidelity tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "fa55108933f4501e",
+      "reason": "lacune : aucune etape exploitable (vdn-1e603e723691)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:23:02+00:00",
+      "updated": "2026-11-26T22:23:02+00:00",
+      "result": null
+    },
+    "88b605ea162621c0": {
+      "key": "88b605ea162621c0",
+      "topic": "rendering",
+      "query": "MeshPart RenderFidelity settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "fa55108933f4501e",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-b67efd4fc571)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T22:23:02+00:00",
+      "updated": "2026-11-26T22:23:02+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-26",
-    "items": 8,
-    "fetch": 63
+    "items": 12,
+    "fetch": 92
   }
 }

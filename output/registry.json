@@ -1107,6 +1107,46 @@
   "https://github.com/erichu33/unitygrassindirectrenderingexample": {
    "id": "vdn-f5cae6217847",
    "path": "knowledge/terrain/f5cae6217847-erichu33-unitygrassindirectrenderingexample-an-exa.md"
+  },
+  "https://devforum.roblox.com/t/4751395": {
+   "id": "vdn-4a784889b34c",
+   "path": "knowledge/performance/4a784889b34c-trying-to-make-optimization-and-beautiful-graphics.md"
+  },
+  "https://github.com/krish-malik/battlegrounds_gfx": {
+   "id": "vdn-10cbddb87318",
+   "path": "knowledge/performance/10cbddb87318-krish-malik-battlegrounds-gfx-battlegrounds-gfx-to.md"
+  },
+  "https://devforum.roblox.com/t/3043055": {
+   "id": "vdn-26e4159f41cf",
+   "path": "knowledge/gameplay/26e4159f41cf-how-would-i-make-a-vault-system.md"
+  },
+  "https://devforum.roblox.com/t/1785246": {
+   "id": "vdn-bfe59be5ec6a",
+   "path": "knowledge/gameplay/bfe59be5ec6a-how-can-i-accomplish-a-vault-system.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/rig-a-humanoid-model": {
+   "id": "vdn-431b23ac4fb9",
+   "path": "knowledge/animation/431b23ac4fb9-rig-a-humanoid-model.md"
+  },
+  "https://devforum.roblox.com/t/2232713": {
+   "id": "vdn-b388cda6f2c8",
+   "path": "knowledge/animation/b388cda6f2c8-how-to-make-head-and-arms-face-camera-lookvector-i.md"
+  },
+  "https://github.com/aravkp/godot-dungeon-crawler-fps": {
+   "id": "vdn-f539071d8938",
+   "path": "knowledge/animation/f539071d8938-aravkp-godot-dungeon-crawler-fps-first-person-acti.md"
+  },
+  "https://devforum.roblox.com/t/1249569": {
+   "id": "vdn-1e603e723691",
+   "path": "knowledge/rendering/1e603e723691-weird-meshpart-shading-on-renderfidelity-performan.md"
+  },
+  "https://devforum.roblox.com/t/807197": {
+   "id": "vdn-ef7ba3f21991",
+   "path": "knowledge/rendering/ef7ba3f21991-all-meshparts-render-in-precise-renderfidelity.md"
+  },
+  "https://devforum.roblox.com/t/280119": {
+   "id": "vdn-b67efd4fc571",
+   "path": "knowledge/rendering/b67efd4fc571-renderfidelity-update-for-meshparts-broke-obj-expo.md"
   }
  },
  "fingerprints": {
@@ -2386,6 +2426,42 @@
   "689ac281a8b22cb6": "vdn-f5cae6217847",
   "9a9942279ca21219": "vdn-f5cae6217847",
   "d92a197eadf20a2d": "vdn-f5cae6217847",
-  "93246ebf98538b6e": "vdn-f5cae6217847"
+  "93246ebf98538b6e": "vdn-f5cae6217847",
+  "b83acb9249ba73a9": "vdn-80a396562751",
+  "9595bdb84b4ffe7b": "vdn-80a396562751",
+  "fe54503e06967296": "vdn-4a784889b34c",
+  "3f7e070497091c0f": "vdn-cfdfda67d71b",
+  "3f9d838f9e874403": "vdn-10cbddb87318",
+  "66c05184d07254d6": "vdn-10cbddb87318",
+  "0cf4524043b0363f": "vdn-10cbddb87318",
+  "09fd04ea45293841": "vdn-5aa3823a6ff6",
+  "6234a328c72ea7ad": "vdn-5aa3823a6ff6",
+  "1ea5a5dd50b4ca54": "vdn-5aa3823a6ff6",
+  "2378b27123d47e07": "vdn-5aa3823a6ff6",
+  "9906b7750c6fc62d": "vdn-5aa3823a6ff6",
+  "ac0101368d5592f0": "vdn-5aa3823a6ff6",
+  "8ab2249667502a7e": "vdn-5aa3823a6ff6",
+  "4f2a27acb177e400": "vdn-5aa3823a6ff6",
+  "afd4f9627ab0518b": "vdn-26e4159f41cf",
+  "89a5d041253dbf72": "vdn-bfe59be5ec6a",
+  "fc837358066b8ff6": "vdn-bfe59be5ec6a",
+  "b2b2f9c2f5a61a38": "vdn-bfe59be5ec6a",
+  "6a86083a26ae97d1": "vdn-11f17ca2f511",
+  "016d11d00d3d2f67": "vdn-4c01cb4a85c6",
+  "d03c9e2ee548a77f": "vdn-4c01cb4a85c6",
+  "17226caee3968417": "vdn-4c01cb4a85c6",
+  "b1283c8735c4864c": "vdn-b388cda6f2c8",
+  "4c77099effe3e025": "vdn-b388cda6f2c8",
+  "fb4d2e5538766cc5": "vdn-b388cda6f2c8",
+  "252388b02f988bc9": "vdn-f539071d8938",
+  "f44baf96569681e2": "vdn-1e603e723691",
+  "9d466faa93f424d9": "vdn-1e603e723691",
+  "9aefb6b62fce96e9": "vdn-1e603e723691",
+  "64b2a5cac0798174": "vdn-ef7ba3f21991",
+  "b5832a25ad95570f": "vdn-ef7ba3f21991",
+  "b2637cbb53b9d517": "vdn-9ca12a8e4c06",
+  "3d77b959b913bafb": "vdn-b67efd4fc571",
+  "bfd7db72b2c11aa9": "vdn-b67efd4fc571",
+  "d590334ccc4be82e": "vdn-b67efd4fc571"
  }
 }

@@ -2,20 +2,22 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (10)
+## Documenté (12)
 
 - [[animation/c5e3853e32ee-animation-editor|Animation Editor]] — niv. 1 · conf. moyenne — « You can move these joints to [create poses](#create-poses) and then smoothly animate the rig from pose to pose. »
 - [[animation/901178697d43-animation-graph-editor|Animation Graph Editor]] — niv. 1 · conf. moyenne — « - **Animation Graph Editor**: Use this tool to take those clips and organize them into a logic tree to drive sophisticated gameplay behavior… »
 - [[animation/77a67eafabb0-export-avatar-animations-from-maya|Export avatar animations from Maya]] — niv. 1 · conf. moyenne — « title: "Export avatar animations from Maya" »
+- [[animation/b388cda6f2c8-how-to-make-head-and-arms-face-camera-lookvector-i|How to make head and arms face camera LookVector IN FIRST PERSON?]] — niv. 1 · conf. moyenne — « You can weld the arms and head together to make what we call a “ViewModel” or “Rig” and set the CFrame to the Camera CFrame in a RenderStepp… »
 - [[animation/8a2ae33e44e7-import-emotes|Import emotes]] — niv. 1 · conf. moyenne — « description: "Use the Animation Editor to import and convert animations into emotes." »
 - [[animation/9214ce5c650c-import-into-studio|Import into Studio]] — niv. 1 · conf. moyenne — « Studio's Importer lets you import 3D assets into your projects, such as avatar clothing, accessories, and Roblox's [template heads](/docs/en… »
+- [[animation/431b23ac4fb9-rig-a-humanoid-model|Rig a humanoid model]] — niv. 1 · conf. moyenne — « Models made up of multiple meshes require additional steps to rig in a third-party modeling tool such as [Blender](https://www.blender.org) … »
 - [[animation/e638bf90fc40-exported-an-animation-only-for-it-to-be-a-keyframe|Exported an animation, only for it to be a "KeyframeSequence"]] — niv. 1 · conf. faible — « How would I export my Moon Animator 2 animation into The inbuild roblox’s animation rather than a “KeyframeSequence”. »
 - [[animation/1a66b4f33bae-blender-export-trouble|Blender export trouble]] — niv. 2 · conf. faible — « I have made a barrel in Blender and want to export it into Roblox Studio. »
 - [[animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender|How do you export Roblox animations into blender]] — niv. 2 · conf. faible — « I’ve developed a plugin for Roblox that can export any Roblox rig into Blender and generate a Blender Armature (rig) equivalent to the Roblo… »
 - [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
 - [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
 
-## Candidat (19)
+## Candidat (20)
 
 - [[animation/30313273c7d0-class-keyframesequence|Class: KeyframeSequence]] — niv. 1 · conf. faible — « - **Property `Loop`** (`boolean`): Determines whether the animation stored in this AnimationClip is »
 - [[animation/21ce8aee4188-curve-editor|Curve Editor]] — niv. 1 · conf. faible — « Instead of using the default dope sheet editor's method of manually moving the scrubber from one frame to another to see how a rig's positio… »
@@ -36,6 +38,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[animation/56c111b389f7-problem-with-animation-for-right-hand-only|Problem with animation for right hand only]] — niv. 2 · conf. faible — « When I create my Idle animation for my Pistol, this issue is occurring: »
 - [[animation/25c3adc09550-you-can-no-longer-import-by-animation-id-in-the-ed|You can no longer import by Animation ID in the editor.]] — niv. 2 · conf. faible — « You can no longer import by Animation ID in the editor. »
 - [[animation/1f830f8d303a-jim-kroovy-mr-mannequins-tools-install-the-latest|Jim-Kroovy/mr_mannequins_tools — Install the latest release for intuitive Blender imports and easy Unreal exports!]] — niv. 3 · conf. faible — « Alongside the core Manny and Quinn import/export workflow, you'll find tools for: »
+- [[animation/f539071d8938-aravkp-godot-dungeon-crawler-fps-first-person-acti|aravkp/godot-dungeon-crawler-fps — First-person action prototype in Godot 4.7.1: rigged arms viewmodel, wall running, destructible dungeon corridors and an enem]] — niv. 3 · conf. faible — « Only the texture pack's licence (CC0) and the sky panorama's restriction are »
 
 ## Rejetées / obsolètes (8)
 

@@ -1,44 +1,45 @@
 {
-  "started_utc": "2026-11-26T12:38:28+00:00",
+  "started_utc": "2026-11-26T22:22:54+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
-  "fetched": 8,
-  "accepted": 5,
-  "created": 5,
+  "returned": 8,
+  "fetched": 6,
+  "accepted": 3,
+  "created": 3,
   "updated": 0,
-  "duplicates": 3,
+  "duplicates": 2,
   "rejected": 3,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 1,
-    "pas assez de contenu technique": 3
+    "hors sujet": 2,
+    "pas assez de contenu technique": 1,
+    "bruit : début du texte : « looking for »": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "terrain",
+      "topic": "rendering",
       "origin": "seed",
-      "strategy": "facet",
-      "query": "terrain decoration grass limit",
+      "strategy": "synonyms",
+      "query": "mesh RenderFidelity",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 3,
-      "offtopic": 1,
+      "duplicates": 2,
+      "offtopic": 2,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 1.17,
+      "technical_mean": 0.14,
+      "duration_s": 2.26,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "terrain",
+      "topic": "rendering",
       "origin": "seed",
       "strategy": "facet",
-      "query": "terrain decoration grass limit",
+      "query": "MeshPart RenderFidelity performance",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -46,97 +47,83 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.51,
-      "duration_s": 5.48,
-      "reward": 0.604
+      "technical_mean": 0.43,
+      "duration_s": 5.26,
+      "reward": 0.572
     },
     {
       "provider": "github",
-      "topic": "terrain",
+      "topic": "rendering",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "terrain decoration grass",
-      "returned": 4,
-      "accepted": 2,
-      "new": 2,
+      "strategy": "synonyms",
+      "query": "mesh RenderFidelity",
+      "returned": 0,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 1,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.707,
-      "duration_s": 6.15,
-      "reward": 0.5328
+      "technical_mean": 0.0,
+      "duration_s": 0.28,
+      "reward": 0.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-b88229b7be8a",
-      "path": "knowledge/terrain/b88229b7be8a-allow-for-terrain-grass-decoration-on-parts.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain decoration grass",
-      "url": "https://devforum.roblox.com/t/704289"
-    },
-    {
-      "id": "vdn-529f429b1f54",
-      "path": "knowledge/terrain/529f429b1f54-use-the-grass-decoration-material-on-parts.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain decoration grass",
-      "url": "https://devforum.roblox.com/t/456046"
-    },
-    {
-      "id": "vdn-6f282b64e7db",
-      "path": "knowledge/terrain/6f282b64e7db-can-grass-decoration-be-customized-3-problems.md",
-      "status": "documente",
-      "topic": "terrain",
-      "query": "terrain decoration grass",
-      "url": "https://devforum.roblox.com/t/2401411"
-    },
-    {
-      "id": "vdn-101a65982f6a",
-      "path": "knowledge/terrain/101a65982f6a-spacejack-terra-webgl-grass-on-a-terrain.md",
+      "id": "vdn-1e603e723691",
+      "path": "knowledge/rendering/1e603e723691-weird-meshpart-shading-on-renderfidelity-performan.md",
       "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain decoration grass",
-      "url": "https://github.com/spacejack/terra"
+      "topic": "rendering",
+      "query": "MeshPart RenderFidelity",
+      "url": "https://devforum.roblox.com/t/1249569"
     },
     {
-      "id": "vdn-f5cae6217847",
-      "path": "knowledge/terrain/f5cae6217847-erichu33-unitygrassindirectrenderingexample-an-exa.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain decoration grass",
-      "url": "https://github.com/erichu33/unitygrassindirectrenderingexample"
+      "id": "vdn-ef7ba3f21991",
+      "path": "knowledge/rendering/ef7ba3f21991-all-meshparts-render-in-precise-renderfidelity.md",
+      "status": "documente",
+      "topic": "rendering",
+      "query": "MeshPart RenderFidelity",
+      "url": "https://devforum.roblox.com/t/807197"
+    },
+    {
+      "id": "vdn-b67efd4fc571",
+      "path": "knowledge/rendering/b67efd4fc571-renderfidelity-update-for-meshparts-broke-obj-expo.md",
+      "status": "documente",
+      "topic": "rendering",
+      "query": "MeshPart RenderFidelity",
+      "url": "https://devforum.roblox.com/t/280119"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.25,
-      "technical": 0.0,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.25 < 0.5)",
-        "pas assez de contenu technique (0.0)"
-      ]
-    },
-    {
-      "topical": 1.0,
+      "topical": 0.45,
       "technical": 0.12,
       "roblox": true,
       "noise": [],
       "reasons": [
+        "hors sujet (pertinence 0.45 < 0.5)",
         "pas assez de contenu technique (0.12)"
       ]
     },
     {
-      "topical": 0.833,
-      "technical": 0.12,
+      "topical": 0.1,
+      "technical": 0.16,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.12)"
+        "hors sujet (pertinence 0.1 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.7,
+      "technical": 0.24,
+      "roblox": true,
+      "noise": [
+        "début du texte : « looking for »"
+      ],
+      "reasons": [
+        "bruit : début du texte : « looking for »"
       ]
     }
   ],
@@ -145,5 +132,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-26T12:38:41+00:00"
+  "finished_utc": "2026-11-26T22:23:02+00:00"
 }

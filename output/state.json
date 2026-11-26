@@ -324,7 +324,7 @@
     "light shadows performance": 2,
     "ambient exposure night": 2,
     "terrain heightmap import": 2,
-    "MeshPart RenderFidelity": 1,
+    "MeshPart RenderFidelity": 2,
     "instance streaming level detail": 2,
     "rock mesh SurfaceAppearance": 1,
     "terrain decoration grass": 2,
@@ -442,9 +442,12 @@
     "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility": 1,
     "camera sway mouse settings step by step implementation tutorial code": 1,
     "terrain texture realistic": 1,
-    "custom character controller": 1
+    "custom character controller": 1,
+    "mobile graphics performance": 1,
+    "vault mantle system": 1,
+    "first person arms rig": 1
   },
-  "runs": 143,
+  "runs": 147,
   "errors": [],
   "rotation": 4
 }
