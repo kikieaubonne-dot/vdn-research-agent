@@ -1,295 +1,373 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-26T02:51:58+00:00",
-  "finished": "2026-11-26T02:52:49+00:00",
+  "started": "2026-11-26T12:37:54+00:00",
+  "finished": "2026-11-26T12:38:42+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
-      "topic": "lighting",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 1,
-      "rejected": 6,
-      "duplicates": 5,
-      "fetched": 7,
-      "notes": [
-        {
-          "id": "vdn-f6dd6843cd6b",
-          "path": "knowledge/lighting/f6dd6843cd6b-spotlight-not-working-in-certain-positions-due-to.md",
-          "status": "documente",
-          "topic": "lighting",
-          "query": "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility",
-          "url": "https://devforum.roblox.com/t/625545",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "camera sway mouse settings step by step implementation tutorial code",
-      "topic": "fps_camera",
-      "depth": 2,
-      "origin": "relance_lacune",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 1,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "Blender export Roblox fbx",
-      "topic": "rendering",
+      "query": "custom character controller",
+      "topic": "movement",
       "depth": 0,
       "origin": "seed",
       "status": "done",
-      "created": 6,
-      "rejected": 2,
-      "duplicates": 2,
+      "created": 3,
+      "rejected": 5,
+      "duplicates": 0,
       "fetched": 8,
       "notes": [
         {
-          "id": "vdn-096995d55f8c",
-          "path": "knowledge/rendering/096995d55f8c-rig-a-simple-mesh.md",
+          "id": "vdn-0e2647f71d95",
+          "path": "knowledge/gameplay/0e2647f71d95-custom-characters.md",
           "status": "documente",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://create.roblox.com/docs/art/modeling/rig-a-simple-mesh",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
+          "topic": "movement",
+          "query": "custom character controller",
+          "url": "https://create.roblox.com/docs/resources/beyond-the-dark/custom-characters",
+          "missing": []
         },
         {
-          "id": "vdn-0501fb41e792",
-          "path": "knowledge/rendering/0501fb41e792-fbx-export.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://devforum.roblox.com/t/13773",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-e6e9969de53f",
-          "path": "knowledge/rendering/e6e9969de53f-blender-fbx-cannot-export-texture-colours.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://devforum.roblox.com/t/2083080",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-89a349a71adf",
-          "path": "knowledge/rendering/89a349a71adf-any-way-to-export-rig-as-fbx-to-be-animated-in-ble.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://devforum.roblox.com/t/1742824",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-68e5ce93ec65",
-          "path": "knowledge/rendering/68e5ce93ec65-how-to-export-an-fbx-file-from-blender-into-roblox.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://devforum.roblox.com/t/2189477",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-0a0efcbe2052",
-          "path": "knowledge/rendering/0a0efcbe2052-libinzyu-blender-3dgs-oil-paint-blender-add-on-tur.md",
+          "id": "vdn-cf52e612683e",
+          "path": "knowledge/gameplay/cf52e612683e-custom-character-controller-collision-response-alg.md",
           "status": "candidat",
-          "topic": "rendering",
-          "query": "Blender export Roblox fbx",
-          "url": "https://github.com/libinzyu/blender-3dgs-oil-paint",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "Blender export Roblox settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-096995d55f8c)",
-          "topic": "rendering"
-        }
-      ]
-    },
-    {
-      "query": "terrain texture realistic",
-      "topic": "terrain",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 7,
-      "rejected": 1,
-      "duplicates": 4,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-1de3faf48f35",
-          "path": "knowledge/terrain/1de3faf48f35-textures-and-performance.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://devforum.roblox.com/t/899994",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-e4f3f46ebbe5",
-          "path": "knowledge/terrain/e4f3f46ebbe5-smooth-terrain-performance.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://devforum.roblox.com/t/173087",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-2113507f0f10",
-          "path": "knowledge/terrain/2113507f0f10-terrain-water-performance.md",
-          "status": "documente",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://devforum.roblox.com/t/245664",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-c42cb917d054",
-          "path": "knowledge/terrain/c42cb917d054-performance-by-carving-out-terrain.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://devforum.roblox.com/t/486182",
+          "topic": "movement",
+          "query": "custom character controller",
+          "url": "https://devforum.roblox.com/t/2947005",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-c87d9ae4fd6b",
-          "path": "knowledge/terrain/c87d9ae4fd6b-jinsek-mightyterrainmesh-a-unity-plugin-for-conver.md",
+          "id": "vdn-60c115e3f8a7",
+          "path": "knowledge/gameplay/60c115e3f8a7-how-can-i-add-working-collisions-to-a-custom-chara.md",
           "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://github.com/jinsek/mightyterrainmesh",
+          "topic": "movement",
+          "query": "custom character controller",
+          "url": "https://devforum.roblox.com/t/3052676",
           "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-0f85dc1dda7d",
-          "path": "knowledge/terrain/0f85dc1dda7d-ideefixze-dterrain-destructible-terrain-in-unity.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://github.com/ideefixze/dterrain",
-          "missing": [
-            "aucun parametre chiffre dans la source"
-          ]
-        },
-        {
-          "id": "vdn-d28a18737780",
-          "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain texture realistic",
-          "url": "https://github.com/acskyline/pvtut",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
           ]
         }
       ],
       "followups": [
         {
-          "query": "terrain texture realistic settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-1de3faf48f35)",
+          "query": "custom character controller settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-cf52e612683e)",
+          "topic": "movement"
+        },
+        {
+          "query": "custom character controller tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-cf52e612683e)",
+          "topic": "movement"
+        },
+        {
+          "query": "custom character controller step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "movement"
+        }
+      ]
+    },
+    {
+      "query": "instance streaming level detail",
+      "topic": "performance",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 4,
+      "rejected": 4,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-06fe4174654e",
+          "path": "knowledge/performance/06fe4174654e-instance-streaming.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "instance streaming level detail",
+          "url": "https://create.roblox.com/docs/workspace/streaming",
+          "missing": []
+        },
+        {
+          "id": "vdn-56f63407c909",
+          "path": "knowledge/performance/56f63407c909-slim.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "instance streaming level detail",
+          "url": "https://create.roblox.com/docs/workspace/streaming/slim",
+          "missing": []
+        },
+        {
+          "id": "vdn-c10b1fdbc126",
+          "path": "knowledge/performance/c10b1fdbc126-streaming-instance-blacklist-whitelist.md",
+          "status": "candidat",
+          "topic": "performance",
+          "query": "instance streaming level detail",
+          "url": "https://devforum.roblox.com/t/4513447",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-203abcb9f990",
+          "path": "knowledge/performance/203abcb9f990-instance-streaming-issue-with-a-locker-system.md",
+          "status": "documente",
+          "topic": "performance",
+          "query": "instance streaming level detail",
+          "url": "https://devforum.roblox.com/t/2761488",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Workspace StreamingEnabled",
+          "reason": "API citee par la source : Workspace.StreamingEnabled (vdn-06fe4174654e)",
+          "topic": "performance"
+        },
+        {
+          "query": "Model LevelOfDetail",
+          "reason": "API citee par la source : Model.LevelOfDetail (vdn-06fe4174654e)",
+          "topic": "performance"
+        },
+        {
+          "query": "instance streaming level settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-c10b1fdbc126)",
+          "topic": "performance"
+        },
+        {
+          "query": "instance streaming level tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-c10b1fdbc126)",
+          "topic": "performance"
+        },
+        {
+          "query": "instance streaming level detail step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "performance"
+        }
+      ]
+    },
+    {
+      "query": "SurfaceAppearance PBR textures",
+      "topic": "rendering",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 7,
+      "rejected": 1,
+      "duplicates": 2,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-96452caa5ebb",
+          "path": "knowledge/rendering/96452caa5ebb-pbr-textures-optional.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://create.roblox.com/docs/art/characters/creating/texturing-pbr",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-0ac56bac073b",
+          "path": "knowledge/rendering/0ac56bac073b-pbr-textures.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://create.roblox.com/docs/art/modeling/surface-appearance",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-b6d15099418e",
+          "path": "knowledge/rendering/b6d15099418e-best-albedo-for-pbr-surfaceappearance.md",
+          "status": "candidat",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://devforum.roblox.com/t/1488578",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-9fb309e3452b",
+          "path": "knowledge/rendering/9fb309e3452b-layered-pbr-surfaceappearance.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://devforum.roblox.com/t/4501956",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-ad23edd62d3f",
+          "path": "knowledge/rendering/ad23edd62d3f-pbr-textures-help.md",
+          "status": "candidat",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://devforum.roblox.com/t/552158",
+          "missing": [
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-9cba45e13151",
+          "path": "knowledge/rendering/9cba45e13151-pbr-textures-help.md",
+          "status": "documente",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://devforum.roblox.com/t/696501",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-4470b7a15658",
+          "path": "knowledge/rendering/4470b7a15658-danielenger-principled-baker-blender-add-on-bake-p.md",
+          "status": "candidat",
+          "topic": "rendering",
+          "query": "SurfaceAppearance PBR textures",
+          "url": "https://github.com/danielenger/principled-baker",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "SurfaceAppearance PBR textures settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-96452caa5ebb)",
+          "topic": "rendering"
+        },
+        {
+          "query": "SurfaceAppearance settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-0ac56bac073b)",
+          "topic": "rendering"
+        },
+        {
+          "query": "SurfaceAppearance PBR textures tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-b6d15099418e)",
+          "topic": "rendering"
+        }
+      ]
+    },
+    {
+      "query": "terrain decoration grass",
+      "topic": "terrain",
+      "depth": 0,
+      "origin": "seed",
+      "status": "done",
+      "created": 5,
+      "rejected": 3,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-b88229b7be8a",
+          "path": "knowledge/terrain/b88229b7be8a-allow-for-terrain-grass-decoration-on-parts.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain decoration grass",
+          "url": "https://devforum.roblox.com/t/704289",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-529f429b1f54",
+          "path": "knowledge/terrain/529f429b1f54-use-the-grass-decoration-material-on-parts.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain decoration grass",
+          "url": "https://devforum.roblox.com/t/456046",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-6f282b64e7db",
+          "path": "knowledge/terrain/6f282b64e7db-can-grass-decoration-be-customized-3-problems.md",
+          "status": "documente",
+          "topic": "terrain",
+          "query": "terrain decoration grass",
+          "url": "https://devforum.roblox.com/t/2401411",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        },
+        {
+          "id": "vdn-101a65982f6a",
+          "path": "knowledge/terrain/101a65982f6a-spacejack-terra-webgl-grass-on-a-terrain.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain decoration grass",
+          "url": "https://github.com/spacejack/terra",
+          "missing": []
+        },
+        {
+          "id": "vdn-f5cae6217847",
+          "path": "knowledge/terrain/f5cae6217847-erichu33-unitygrassindirectrenderingexample-an-exa.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain decoration grass",
+          "url": "https://github.com/erichu33/unitygrassindirectrenderingexample",
+          "missing": [
+            "aucun parametre chiffre dans la source"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "terrain decoration grass settings",
+          "reason": "lacune : aucun parametre chiffre dans la source (vdn-b88229b7be8a)",
           "topic": "terrain"
         },
         {
-          "query": "terrain texture realistic tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-c42cb917d054)",
-          "topic": "terrain"
-        },
-        {
-          "query": "terrain texture realistic step by step implementation tutorial code",
+          "query": "terrain decoration grass step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "terrain"
         }
       ]
     }
   ],
-  "created": 14,
-  "fetched": 31,
-  "rejected": 17,
-  "followups_added": 4,
+  "created": 19,
+  "fetched": 32,
+  "rejected": 13,
+  "followups_added": 13,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 80,
+      "pending": 89,
       "running": 0,
-      "done": 130,
+      "done": 134,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-26",
-      "items": 4,
-      "fetch": 31
+      "items": 8,
+      "fetch": 63
     },
     "next": [
       {
-        "query": "custom character controller",
-        "topic": "movement",
-        "priority": 8.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "instance streaming level detail",
+        "query": "mobile graphics performance",
         "topic": "performance",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
       },
       {
-        "query": "SurfaceAppearance PBR textures",
-        "topic": "rendering",
-        "priority": 8.0,
-        "depth": 0,
-        "origin": "seed"
-      },
-      {
-        "query": "terrain decoration grass",
-        "topic": "terrain",
+        "query": "vault mantle system",
+        "topic": "movement",
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
@@ -300,6 +378,20 @@
         "priority": 8.0,
         "depth": 0,
         "origin": "seed"
+      },
+      {
+        "query": "MeshPart RenderFidelity",
+        "topic": "rendering",
+        "priority": 8.0,
+        "depth": 0,
+        "origin": "seed"
+      },
+      {
+        "query": "Keyframe settings",
+        "topic": "blender_animation",
+        "priority": 7.5,
+        "depth": 1,
+        "origin": "relance"
       }
     ]
   }

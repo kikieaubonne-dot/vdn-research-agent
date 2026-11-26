@@ -841,11 +841,32 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T12:38:41+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 5,
+        "rejected": 3,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-b88229b7be8a",
+          "vdn-529f429b1f54",
+          "vdn-6f282b64e7db",
+          "vdn-101a65982f6a",
+          "vdn-f5cae6217847"
+        ],
+        "followups": [
+          "terrain decoration grass settings",
+          "terrain decoration grass step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795696708.8963013,
+      "finished_ts": 1795696721.7251492
     },
     "ced05002fb282f60": {
       "key": "ced05002fb282f60",
@@ -940,11 +961,35 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T12:38:28+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 7,
+        "rejected": 1,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-96452caa5ebb",
+          "vdn-0ac56bac073b",
+          "vdn-b6d15099418e",
+          "vdn-9fb309e3452b",
+          "vdn-ad23edd62d3f",
+          "vdn-9cba45e13151",
+          "vdn-4470b7a15658"
+        ],
+        "followups": [
+          "SurfaceAppearance PBR textures settings",
+          "SurfaceAppearance settings",
+          "SurfaceAppearance PBR textures tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795696697.1946466,
+      "finished_ts": 1795696708.889753
     },
     "fa55108933f4501e": {
       "key": "fa55108933f4501e",
@@ -1075,11 +1120,34 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 8,
+        "created": 4,
+        "rejected": 4,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [
+          "vdn-06fe4174654e",
+          "vdn-56f63407c909",
+          "vdn-c10b1fdbc126",
+          "vdn-203abcb9f990"
+        ],
+        "followups": [
+          "Workspace StreamingEnabled",
+          "Model LevelOfDetail",
+          "instance streaming level settings",
+          "instance streaming level tutorial",
+          "instance streaming level detail step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795696685.5421598,
+      "finished_ts": 1795696697.188282
     },
     "a731a4bdaf945fb2": {
       "key": "a731a4bdaf945fb2",
@@ -1496,11 +1564,31 @@
       "depth": 0,
       "parent": null,
       "reason": "requete de base du sujet",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-15T20:12:16+00:00",
-      "updated": "2026-11-15T20:12:16+00:00",
-      "result": null
+      "updated": "2026-11-26T12:38:05+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 0,
+        "updated": 0,
+        "notes": [
+          "vdn-0e2647f71d95",
+          "vdn-cf52e612683e",
+          "vdn-60c115e3f8a7"
+        ],
+        "followups": [
+          "custom character controller settings",
+          "custom character controller tutorial",
+          "custom character controller step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795696674.7758954,
+      "finished_ts": 1795696685.5360744
     },
     "9a7dbdf69f016311": {
       "key": "9a7dbdf69f016311",
@@ -5133,11 +5221,206 @@
       "created": "2026-11-26T02:52:49+00:00",
       "updated": "2026-11-26T02:52:49+00:00",
       "result": null
+    },
+    "747cb18fd09d886d": {
+      "key": "747cb18fd09d886d",
+      "topic": "movement",
+      "query": "custom character controller settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d0e4428b919a818d",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-cf52e612683e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:05+00:00",
+      "updated": "2026-11-26T12:38:05+00:00",
+      "result": null
+    },
+    "f0ab0d2212aca046": {
+      "key": "f0ab0d2212aca046",
+      "topic": "movement",
+      "query": "custom character controller tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d0e4428b919a818d",
+      "reason": "lacune : aucune etape exploitable (vdn-cf52e612683e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:05+00:00",
+      "updated": "2026-11-26T12:38:05+00:00",
+      "result": null
+    },
+    "0c30a6709c653042": {
+      "key": "0c30a6709c653042",
+      "topic": "movement",
+      "query": "custom character controller step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "d0e4428b919a818d",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:05+00:00",
+      "updated": "2026-11-26T12:38:05+00:00",
+      "result": null
+    },
+    "263412e85c3d11a3": {
+      "key": "263412e85c3d11a3",
+      "topic": "performance",
+      "query": "Workspace StreamingEnabled",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d9e7846fb1a3799d",
+      "reason": "API citee par la source : Workspace.StreamingEnabled (vdn-06fe4174654e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:17+00:00",
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": null
+    },
+    "818cd08188f8cd99": {
+      "key": "818cd08188f8cd99",
+      "topic": "performance",
+      "query": "Model LevelOfDetail",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d9e7846fb1a3799d",
+      "reason": "API citee par la source : Model.LevelOfDetail (vdn-06fe4174654e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:17+00:00",
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": null
+    },
+    "9b7b1d72f2da03f9": {
+      "key": "9b7b1d72f2da03f9",
+      "topic": "performance",
+      "query": "instance streaming level settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d9e7846fb1a3799d",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-c10b1fdbc126)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:17+00:00",
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": null
+    },
+    "3c602d39ae37ac74": {
+      "key": "3c602d39ae37ac74",
+      "topic": "performance",
+      "query": "instance streaming level tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "d9e7846fb1a3799d",
+      "reason": "lacune : aucune etape exploitable (vdn-c10b1fdbc126)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:17+00:00",
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": null
+    },
+    "a397aa22f46fa6c9": {
+      "key": "a397aa22f46fa6c9",
+      "topic": "performance",
+      "query": "instance streaming level detail step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "d9e7846fb1a3799d",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:17+00:00",
+      "updated": "2026-11-26T12:38:17+00:00",
+      "result": null
+    },
+    "711f4ed7e7792197": {
+      "key": "711f4ed7e7792197",
+      "topic": "rendering",
+      "query": "SurfaceAppearance PBR textures settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "e1149e4177ccdd55",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-96452caa5ebb)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:28+00:00",
+      "updated": "2026-11-26T12:38:28+00:00",
+      "result": null
+    },
+    "03959f6f58a1af23": {
+      "key": "03959f6f58a1af23",
+      "topic": "rendering",
+      "query": "SurfaceAppearance settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "e1149e4177ccdd55",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-0ac56bac073b)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:28+00:00",
+      "updated": "2026-11-26T12:38:28+00:00",
+      "result": null
+    },
+    "03bd14433a5c11ed": {
+      "key": "03bd14433a5c11ed",
+      "topic": "rendering",
+      "query": "SurfaceAppearance PBR textures tutorial",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "e1149e4177ccdd55",
+      "reason": "lacune : aucune etape exploitable (vdn-b6d15099418e)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:28+00:00",
+      "updated": "2026-11-26T12:38:28+00:00",
+      "result": null
+    },
+    "53d3dbaa91a31695": {
+      "key": "53d3dbaa91a31695",
+      "topic": "terrain",
+      "query": "terrain decoration grass settings",
+      "priority": 7.5,
+      "origin": "relance",
+      "depth": 1,
+      "parent": "e9bbb564405d01c5",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-b88229b7be8a)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:41+00:00",
+      "updated": "2026-11-26T12:38:41+00:00",
+      "result": null
+    },
+    "c2071d36f3279e51": {
+      "key": "c2071d36f3279e51",
+      "topic": "terrain",
+      "query": "terrain decoration grass step by step implementation tutorial code",
+      "priority": 7.5,
+      "origin": "relance_lacune",
+      "depth": 1,
+      "parent": "e9bbb564405d01c5",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-26T12:38:41+00:00",
+      "updated": "2026-11-26T12:38:41+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-26",
-    "items": 4,
-    "fetch": 31
+    "items": 8,
+    "fetch": 63
   }
 }

@@ -1031,6 +1031,82 @@
   "https://github.com/acskyline/pvtut": {
    "id": "vdn-d28a18737780",
    "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md"
+  },
+  "https://create.roblox.com/docs/resources/beyond-the-dark/custom-characters": {
+   "id": "vdn-0e2647f71d95",
+   "path": "knowledge/gameplay/0e2647f71d95-custom-characters.md"
+  },
+  "https://devforum.roblox.com/t/2947005": {
+   "id": "vdn-cf52e612683e",
+   "path": "knowledge/gameplay/cf52e612683e-custom-character-controller-collision-response-alg.md"
+  },
+  "https://devforum.roblox.com/t/3052676": {
+   "id": "vdn-60c115e3f8a7",
+   "path": "knowledge/gameplay/60c115e3f8a7-how-can-i-add-working-collisions-to-a-custom-chara.md"
+  },
+  "https://create.roblox.com/docs/workspace/streaming": {
+   "id": "vdn-06fe4174654e",
+   "path": "knowledge/performance/06fe4174654e-instance-streaming.md"
+  },
+  "https://create.roblox.com/docs/workspace/streaming/slim": {
+   "id": "vdn-56f63407c909",
+   "path": "knowledge/performance/56f63407c909-slim.md"
+  },
+  "https://devforum.roblox.com/t/4513447": {
+   "id": "vdn-c10b1fdbc126",
+   "path": "knowledge/performance/c10b1fdbc126-streaming-instance-blacklist-whitelist.md"
+  },
+  "https://devforum.roblox.com/t/2761488": {
+   "id": "vdn-203abcb9f990",
+   "path": "knowledge/performance/203abcb9f990-instance-streaming-issue-with-a-locker-system.md"
+  },
+  "https://create.roblox.com/docs/art/characters/creating/texturing-pbr": {
+   "id": "vdn-96452caa5ebb",
+   "path": "knowledge/rendering/96452caa5ebb-pbr-textures-optional.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/surface-appearance": {
+   "id": "vdn-0ac56bac073b",
+   "path": "knowledge/rendering/0ac56bac073b-pbr-textures.md"
+  },
+  "https://devforum.roblox.com/t/1488578": {
+   "id": "vdn-b6d15099418e",
+   "path": "knowledge/rendering/b6d15099418e-best-albedo-for-pbr-surfaceappearance.md"
+  },
+  "https://devforum.roblox.com/t/4501956": {
+   "id": "vdn-9fb309e3452b",
+   "path": "knowledge/rendering/9fb309e3452b-layered-pbr-surfaceappearance.md"
+  },
+  "https://devforum.roblox.com/t/552158": {
+   "id": "vdn-ad23edd62d3f",
+   "path": "knowledge/rendering/ad23edd62d3f-pbr-textures-help.md"
+  },
+  "https://devforum.roblox.com/t/696501": {
+   "id": "vdn-9cba45e13151",
+   "path": "knowledge/rendering/9cba45e13151-pbr-textures-help.md"
+  },
+  "https://github.com/danielenger/principled-baker": {
+   "id": "vdn-4470b7a15658",
+   "path": "knowledge/rendering/4470b7a15658-danielenger-principled-baker-blender-add-on-bake-p.md"
+  },
+  "https://devforum.roblox.com/t/704289": {
+   "id": "vdn-b88229b7be8a",
+   "path": "knowledge/terrain/b88229b7be8a-allow-for-terrain-grass-decoration-on-parts.md"
+  },
+  "https://devforum.roblox.com/t/456046": {
+   "id": "vdn-529f429b1f54",
+   "path": "knowledge/terrain/529f429b1f54-use-the-grass-decoration-material-on-parts.md"
+  },
+  "https://devforum.roblox.com/t/2401411": {
+   "id": "vdn-6f282b64e7db",
+   "path": "knowledge/terrain/6f282b64e7db-can-grass-decoration-be-customized-3-problems.md"
+  },
+  "https://github.com/spacejack/terra": {
+   "id": "vdn-101a65982f6a",
+   "path": "knowledge/terrain/101a65982f6a-spacejack-terra-webgl-grass-on-a-terrain.md"
+  },
+  "https://github.com/erichu33/unitygrassindirectrenderingexample": {
+   "id": "vdn-f5cae6217847",
+   "path": "knowledge/terrain/f5cae6217847-erichu33-unitygrassindirectrenderingexample-an-exa.md"
   }
  },
  "fingerprints": {
@@ -2230,6 +2306,86 @@
   "b4f7c89557e99006": "vdn-d28a18737780",
   "75742c522c14a95e": "vdn-d28a18737780",
   "374dbde60b4b72ea": "vdn-d28a18737780",
-  "a219b8bc1c87ecfb": "vdn-d28a18737780"
+  "a219b8bc1c87ecfb": "vdn-d28a18737780",
+  "1fa44f5b72d90f77": "vdn-0e2647f71d95",
+  "96cda4890f2b1322": "vdn-0e2647f71d95",
+  "8706817eaaf7020c": "vdn-0e2647f71d95",
+  "c3ca9b83e35eb49e": "vdn-0e2647f71d95",
+  "2e0e4bf8814a88d7": "vdn-0e2647f71d95",
+  "f6a8f216e4229180": "vdn-0e2647f71d95",
+  "1eead97f3db409fa": "vdn-0e2647f71d95",
+  "0d2889ff0e302c2c": "vdn-0e2647f71d95",
+  "31c0ef23d022f907": "vdn-cf52e612683e",
+  "8f4fd0ec19e9397d": "vdn-60c115e3f8a7",
+  "c27e5966c23900ca": "vdn-60c115e3f8a7",
+  "b59d3a347974bf1a": "vdn-60c115e3f8a7",
+  "311c39a1369dec5a": "vdn-06fe4174654e",
+  "98d4e7e4fc2ab711": "vdn-c10b1fdbc126",
+  "2ec5c23b40b1a466": "vdn-c10b1fdbc126",
+  "092a60acd4e3044c": "vdn-203abcb9f990",
+  "afdf10d3921a4571": "vdn-203abcb9f990",
+  "43bb6734aff91312": "vdn-96452caa5ebb",
+  "02a3e3c8aa45df9b": "vdn-96452caa5ebb",
+  "7db0b0d4915cf2b1": "vdn-0ac56bac073b",
+  "f5c3191c42550b03": "vdn-0ac56bac073b",
+  "ec84a39ce760ad94": "vdn-0ac56bac073b",
+  "04539863c8c50b76": "vdn-0ac56bac073b",
+  "b2c6236f5c055833": "vdn-0ac56bac073b",
+  "5aa8b42e28bedb2b": "vdn-0ac56bac073b",
+  "f7a209defe11bd89": "vdn-0ac56bac073b",
+  "f26986cdd32cc318": "vdn-0ac56bac073b",
+  "be8fc6de7b9eeff7": "vdn-b6d15099418e",
+  "b9277c05d395fb3a": "vdn-9fb309e3452b",
+  "b1164096facf153c": "vdn-9fb309e3452b",
+  "7c7a8783e84cf585": "vdn-9fb309e3452b",
+  "a95aed98154346f7": "vdn-9fb309e3452b",
+  "6e070ff5b1ab902e": "vdn-9fb309e3452b",
+  "c86e81a245fb3636": "vdn-9fb309e3452b",
+  "95a378cfb24a7be9": "vdn-9fb309e3452b",
+  "675b0e7c0af85214": "vdn-9fb309e3452b",
+  "5acd55430864e42d": "vdn-ad23edd62d3f",
+  "404505e6b4211179": "vdn-9cba45e13151",
+  "7a53d9483b9c322f": "vdn-9cba45e13151",
+  "a56936fa5629f9f1": "vdn-4470b7a15658",
+  "f19c94e120bc7a79": "vdn-4470b7a15658",
+  "28408058f29e3a76": "vdn-4470b7a15658",
+  "89ff7166d0057b0d": "vdn-4470b7a15658",
+  "4ca3726c365648ed": "vdn-4470b7a15658",
+  "d2886a0f19a2c9fe": "vdn-4470b7a15658",
+  "223d875f0b42c2c2": "vdn-4470b7a15658",
+  "03e7e8d5e0a92328": "vdn-4470b7a15658",
+  "87d0de0abedbb697": "vdn-69e19bc6b044",
+  "3b592359a5906b1a": "vdn-69e19bc6b044",
+  "0b25e68752cd4d87": "vdn-69e19bc6b044",
+  "15f3ea63d717aa6e": "vdn-69e19bc6b044",
+  "94f2d5ee5e77fc66": "vdn-69e19bc6b044",
+  "76209420a52a27a4": "vdn-69e19bc6b044",
+  "3bb15116c05c4b60": "vdn-69e19bc6b044",
+  "e6184ab8d9314aa3": "vdn-69e19bc6b044",
+  "033cc37b935cc91e": "vdn-b88229b7be8a",
+  "4e02b1e2a92fbdde": "vdn-b88229b7be8a",
+  "61b5dd661ab749a9": "vdn-b88229b7be8a",
+  "5c19ad33beef32b1": "vdn-529f429b1f54",
+  "0278e125d56bdd88": "vdn-529f429b1f54",
+  "af1de26adb7b3fdb": "vdn-529f429b1f54",
+  "6c96c25ca54ea96b": "vdn-529f429b1f54",
+  "a0f0c4f6a73b3b11": "vdn-529f429b1f54",
+  "190660d50a849269": "vdn-6f282b64e7db",
+  "14f75535b31511a5": "vdn-6f282b64e7db",
+  "4cbbbc04b79f8b95": "vdn-6f282b64e7db",
+  "48c712877c0b7202": "vdn-6f282b64e7db",
+  "6bd4428136e9638e": "vdn-6f282b64e7db",
+  "cb8f24b944071f80": "vdn-101a65982f6a",
+  "28267e71e027ffb2": "vdn-101a65982f6a",
+  "47a3293e3a065b21": "vdn-101a65982f6a",
+  "ee269b56bb1be2a4": "vdn-101a65982f6a",
+  "bfb6d1f235b52c7e": "vdn-101a65982f6a",
+  "8f3fd3f706ef3c5d": "vdn-101a65982f6a",
+  "d35a4ba3d043f158": "vdn-101a65982f6a",
+  "bc2dad28f2275647": "vdn-f5cae6217847",
+  "689ac281a8b22cb6": "vdn-f5cae6217847",
+  "9a9942279ca21219": "vdn-f5cae6217847",
+  "d92a197eadf20a2d": "vdn-f5cae6217847",
+  "93246ebf98538b6e": "vdn-f5cae6217847"
  }
 }

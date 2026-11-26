@@ -2,18 +2,21 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (2)
+## Documenté (3)
 
 - [[gameplay/4500a9943930-class-humanoid|Class: Humanoid]] — niv. 1 · conf. moyenne — « This is a read-only property that describes the [Material](/docs/reference/engine/enums/Material.md) the »
+- [[gameplay/0e2647f71d95-custom-characters|Custom characters]] — niv. 1 · conf. moyenne — « You can import custom meshes to create everything from NPCs to an animated cloth of a sail boat. »
 - [[gameplay/65401376af00-create-your-first-game|Create your first game]] — niv. 1 · conf. faible — « Change the third projectile's material to have the right amount of mass to travel to your third platform's targets. »
 
-## Candidat (12)
+## Candidat (14)
 
 - [[gameplay/eb19a9fed396-class-camera|Class: Camera]] — niv. 1 · conf. faible — « The camera's render [CFrame](/docs/reference/engine/datatypes/CFrame.md) will only be changed to account for »
 - [[gameplay/1cc1e90f40db-control-the-user-s-camera|Control the user's camera]] — niv. 1 · conf. faible — « The split second it takes to do all of the calculations necessary is called the **render step**. »
 - [[gameplay/20e7161fffdf-global-wind|Global wind]] — niv. 1 · conf. faible — « > **Info:** Note that the speed of [animated grass](/docs/en-us/parts/terrain.md#grass-animation) — but not its vector direction — will be r… »
 - [[gameplay/a0af8915f7ed-animation-speed-changes-according-to-humanoid-walk|Animation speed changes according to humanoid walkspeed]] — niv. 2 · conf. faible — « What I mean by that is that if I change the humanoid walkspeed to 100, my run animation would look as if the walkspeed is set to the default… »
 - [[gameplay/4b69f77126dd-blender-first-person-shooter-animation-camera-sett|Blender first person shooter animation camera settings]] — niv. 2 · conf. faible — « i already change blender camera to FOV and set at 70, but it never seems to be correct when i import it back to roblox. »
+- [[gameplay/cf52e612683e-custom-character-controller-collision-response-alg|Custom Character Controller Collision Response Algorithm]] — niv. 2 · conf. faible — « The only collision that I could get to be 100% accurate is the ground collision, with walls though, the sliding mechanic is really complex t… »
+- [[gameplay/60c115e3f8a7-how-can-i-add-working-collisions-to-a-custom-chara|How can I add working collisions to a custom character controller?]] — niv. 2 · conf. faible — « local DoesFloorExist = workspace:Raycast(self.CFrame.Position, Vector3.new(0, -1, 0) * 2.6, PhysicsRaycastParams) »
 - [[gameplay/3fe122d267fa-how-can-i-attach-my-characters-joints-to-the-camer|How can I attach my characters joints to the camera with CFrame and make animations still work?]] — niv. 2 · conf. faible — « local animationcf = LeftShoulder.Transform -- cframe value of the changing offset caused by a playing animation »
 - [[gameplay/61a66cca6497-how-do-i-make-the-camera-follow-the-head-in-first|How do I make the camera follow the head in first person animation?]] — niv. 2 · conf. faible — « local animation = Instance.new("Animation") »
 - [[gameplay/861abcc4858c-scope-sway-camera|Scope sway (Camera)]] — niv. 2 · conf. faible — « a way this can work is by setting the idle animation to one with movement so a player cannot steady movement, »

@@ -1,35 +1,36 @@
 {
-  "started_utc": "2026-11-26T02:52:35+00:00",
+  "started_utc": "2026-11-26T12:38:28+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
   "returned": 12,
   "fetched": 8,
-  "accepted": 7,
-  "created": 7,
+  "accepted": 5,
+  "created": 5,
   "updated": 0,
-  "duplicates": 4,
-  "rejected": 1,
+  "duplicates": 3,
+  "rejected": 3,
   "errors": [],
   "rejection_reasons": {
-    "pas assez de contenu technique": 1
+    "hors sujet": 1,
+    "pas assez de contenu technique": 3
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
       "topic": "terrain",
       "origin": "seed",
-      "strategy": "terms",
-      "query": "terrain texture",
+      "strategy": "facet",
+      "query": "terrain decoration grass limit",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 4,
-      "offtopic": 0,
+      "duplicates": 3,
+      "offtopic": 1,
       "error": null,
       "technical_mean": 0.0,
-      "duration_s": 0.01,
+      "duration_s": 1.17,
       "reward": 0.0
     },
     {
@@ -37,24 +38,7 @@
       "topic": "terrain",
       "origin": "seed",
       "strategy": "facet",
-      "query": "terrain texture performance",
-      "returned": 4,
-      "accepted": 4,
-      "new": 4,
-      "updated": 0,
-      "duplicates": 0,
-      "offtopic": 0,
-      "error": null,
-      "technical_mean": 0.53,
-      "duration_s": 5.38,
-      "reward": 0.812
-    },
-    {
-      "provider": "github",
-      "topic": "terrain",
-      "origin": "seed",
-      "strategy": "terms",
-      "query": "terrain texture",
+      "query": "terrain decoration grass limit",
       "returned": 4,
       "accepted": 3,
       "new": 3,
@@ -62,77 +46,97 @@
       "duplicates": 0,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.65,
-      "duration_s": 8.3,
-      "reward": 0.66
+      "technical_mean": 0.51,
+      "duration_s": 5.48,
+      "reward": 0.604
+    },
+    {
+      "provider": "github",
+      "topic": "terrain",
+      "origin": "seed",
+      "strategy": "terms",
+      "query": "terrain decoration grass",
+      "returned": 4,
+      "accepted": 2,
+      "new": 2,
+      "updated": 0,
+      "duplicates": 0,
+      "offtopic": 1,
+      "error": null,
+      "technical_mean": 0.707,
+      "duration_s": 6.15,
+      "reward": 0.5328
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-1de3faf48f35",
-      "path": "knowledge/terrain/1de3faf48f35-textures-and-performance.md",
+      "id": "vdn-b88229b7be8a",
+      "path": "knowledge/terrain/b88229b7be8a-allow-for-terrain-grass-decoration-on-parts.md",
       "status": "documente",
       "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://devforum.roblox.com/t/899994"
+      "query": "terrain decoration grass",
+      "url": "https://devforum.roblox.com/t/704289"
     },
     {
-      "id": "vdn-e4f3f46ebbe5",
-      "path": "knowledge/terrain/e4f3f46ebbe5-smooth-terrain-performance.md",
+      "id": "vdn-529f429b1f54",
+      "path": "knowledge/terrain/529f429b1f54-use-the-grass-decoration-material-on-parts.md",
       "status": "documente",
       "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://devforum.roblox.com/t/173087"
+      "query": "terrain decoration grass",
+      "url": "https://devforum.roblox.com/t/456046"
     },
     {
-      "id": "vdn-2113507f0f10",
-      "path": "knowledge/terrain/2113507f0f10-terrain-water-performance.md",
+      "id": "vdn-6f282b64e7db",
+      "path": "knowledge/terrain/6f282b64e7db-can-grass-decoration-be-customized-3-problems.md",
       "status": "documente",
       "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://devforum.roblox.com/t/245664"
+      "query": "terrain decoration grass",
+      "url": "https://devforum.roblox.com/t/2401411"
     },
     {
-      "id": "vdn-c42cb917d054",
-      "path": "knowledge/terrain/c42cb917d054-performance-by-carving-out-terrain.md",
+      "id": "vdn-101a65982f6a",
+      "path": "knowledge/terrain/101a65982f6a-spacejack-terra-webgl-grass-on-a-terrain.md",
       "status": "candidat",
       "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://devforum.roblox.com/t/486182"
+      "query": "terrain decoration grass",
+      "url": "https://github.com/spacejack/terra"
     },
     {
-      "id": "vdn-c87d9ae4fd6b",
-      "path": "knowledge/terrain/c87d9ae4fd6b-jinsek-mightyterrainmesh-a-unity-plugin-for-conver.md",
+      "id": "vdn-f5cae6217847",
+      "path": "knowledge/terrain/f5cae6217847-erichu33-unitygrassindirectrenderingexample-an-exa.md",
       "status": "candidat",
       "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://github.com/jinsek/mightyterrainmesh"
-    },
-    {
-      "id": "vdn-0f85dc1dda7d",
-      "path": "knowledge/terrain/0f85dc1dda7d-ideefixze-dterrain-destructible-terrain-in-unity.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://github.com/ideefixze/dterrain"
-    },
-    {
-      "id": "vdn-d28a18737780",
-      "path": "knowledge/terrain/d28a18737780-acskyline-pvtut-procedural-virtual-texture-with-un.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain texture realistic",
-      "url": "https://github.com/acskyline/pvtut"
+      "query": "terrain decoration grass",
+      "url": "https://github.com/erichu33/unitygrassindirectrenderingexample"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 1.0,
-      "technical": 0.08,
+      "topical": 0.25,
+      "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.08)"
+        "hors sujet (pertinence 0.25 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 1.0,
+      "technical": 0.12,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "pas assez de contenu technique (0.12)"
+      ]
+    },
+    {
+      "topical": 0.833,
+      "technical": 0.12,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "pas assez de contenu technique (0.12)"
       ]
     }
   ],
@@ -141,5 +145,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-26T02:52:49+00:00"
+  "finished_utc": "2026-11-26T12:38:41+00:00"
 }

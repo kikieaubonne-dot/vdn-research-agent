@@ -319,15 +319,15 @@
     "Atmosphere density haze": 2,
     "ColorCorrection horror": 2,
     "terrain MaterialVariant custom": 2,
-    "SurfaceAppearance PBR textures": 1,
+    "SurfaceAppearance PBR textures": 2,
     "snow accumulation mesh": 2,
     "light shadows performance": 2,
     "ambient exposure night": 2,
     "terrain heightmap import": 2,
     "MeshPart RenderFidelity": 1,
-    "instance streaming level detail": 1,
+    "instance streaming level detail": 2,
     "rock mesh SurfaceAppearance": 1,
-    "terrain decoration grass": 1,
+    "terrain decoration grass": 2,
     "Blender export Roblox fbx": 2,
     "MicroProfiler rendering": 2,
     "photogrammetry rock import": 1,
@@ -441,9 +441,10 @@
     "normal map baking Blender": 1,
     "flashlight SpotLight shadows tutorial Roblox Studio implementation compatibility": 1,
     "camera sway mouse settings step by step implementation tutorial code": 1,
-    "terrain texture realistic": 1
+    "terrain texture realistic": 1,
+    "custom character controller": 1
   },
-  "runs": 139,
+  "runs": 143,
   "errors": [],
   "rotation": 4
 }
