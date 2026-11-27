@@ -15,7 +15,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[performance/d261dc0cba32-what-is-a-good-triangle-count-for-a-mesh|What is a good triangle count for a mesh?]] — niv. 2 · conf. faible — « CSG parts are now limited to 5k triangles (instead of the old limit of 3k). »
 - [[performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w|Why does the same mesh use more than 1 draw call when duped a lot?]] — niv. 2 · conf. faible — « When set to Vulkan, on the 74 instances i had 2 draw calls, on 147 i had 3, on 220 4, thats new draw call each 73 instances. »
 
-## Candidat (12)
+## Candidat (13)
 
 - [[performance/ecfc9381818e-performance|Performance]] — niv. 1 · conf. faible — « To access the performance dashboard, you must either be the game owner or have [analytics group permissions](/docs/en-us/production/analytic… »
 - [[performance/429655fffbe0-foveated-vr-rendering|Foveated VR Rendering]] — niv. 2 · conf. faible — « Whereas, eye tracked foveated rendering not only delivers a greater performance gain (since a smaller area has to be rendered because it mov… »
@@ -29,4 +29,5 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[performance/4a6402c8990e-srendpty-roblox-roblox-optimizer-suite-v1-3-enhanc|Srendpty/Roblox — Roblox Optimizer Suite v1.3 **Enhanced Player Rendering Management + Performance Optimization** A powerful, all-in-one optimization script for]] — niv. 3 · conf. faible — « - **Performance** - Maximum FPS, minimal graphics »
 - [[performance/b1ce7b18b41f-dev-zetta-heavenbench-cross-platform-cpu-and-gpu-b|dev-zetta/HeavenBench — Cross-platform CPU and GPU benchmark built on Filament, with the Heaven scene, optional 4K textures, advanced rendering and a live micro]] — niv. 3 · conf. faible — « Cross-platform CPU and GPU benchmark built on Filament, with the Heaven scene, optional 4K textures, advanced rendering and a live microprof… »
 - [[performance/aee340f3dc1c-kokusaitomita-blip-vrm-platform-preflight-blender|kokusaitomita-blip/vrm-platform-preflight — Blender add-on that checks VRM 1.0 avatars against cluster's published upload limits — counted in triangles, the way]] — niv. 3 · conf. faible — « Check your avatar against cluster's VRM 1.0 upload limits **inside Blender, before you export** — with polygon counts done the way upload si… »
+- [[performance/fd51e0661dd1-lonelydevil-vulkan-triangle-a-good-scheuled-c-impl|lonelydevil/Vulkan-Triangle — A good-scheuled C implementation of vulkan-tutorial.com]] — niv. 3 · conf. faible — « Open file manager(or use **cd** if you like typing command) and open your build folder, double click the program named 'vulkan-triangle', a … »
 

@@ -1179,6 +1179,34 @@
   "https://github.com/kalebking217/step-terrain-tracker": {
    "id": "vdn-bc5b64c20e3a",
    "path": "knowledge/terrain/bc5b64c20e3a-kalebking217-step-terrain-tracker-step-tracker-1-0.md"
+  },
+  "https://devforum.roblox.com/t/669626": {
+   "id": "vdn-6099c3899f79",
+   "path": "knowledge/animation/6099c3899f79-model-animation-tutorial-blender-and-studio.md"
+  },
+  "https://github.com/recp/assetkit-blender": {
+   "id": "vdn-b7dd232478c4",
+   "path": "knowledge/animation/b7dd232478c4-recp-assetkit-blender-blender-extension-to-import.md"
+  },
+  "https://github.com/lonelydevil/vulkan-triangle": {
+   "id": "vdn-fd51e0661dd1",
+   "path": "knowledge/performance/fd51e0661dd1-lonelydevil-vulkan-triangle-a-good-scheuled-c-impl.md"
+  },
+  "https://github.com/kerkkoh/nyheim": {
+   "id": "vdn-0ee28bdbe404",
+   "path": "knowledge/terrain/0ee28bdbe404-kerkkoh-nyheim-nyheim-is-a-8x8-km-sized-environmen.md"
+  },
+  "https://github.com/wlfiess/unstable-terrain": {
+   "id": "vdn-93c78b7881bd",
+   "path": "knowledge/terrain/93c78b7881bd-wlfiess-unstable-terrain-unstable-terrain-adds-cus.md"
+  },
+  "https://github.com/rushabhdhoke/terrains_for_quadrupeds": {
+   "id": "vdn-98e5aecd8db9",
+   "path": "knowledge/terrain/98e5aecd8db9-rushabhdhoke-terrains-for-quadrupeds-repo-for-sett.md"
+  },
+  "https://github.com/norlab-ulaval/borealtc": {
+   "id": "vdn-e726721bb0a9",
+   "path": "knowledge/terrain/e726721bb0a9-norlab-ulaval-borealtc-borealtc-deep-learning-for.md"
   }
  },
  "fingerprints": {
@@ -2525,6 +2553,41 @@
   "0b76153e761c6b58": "vdn-b38e26e0c8fb",
   "8da6f14fb5590810": "vdn-d9a6e00a34a7",
   "662ec0fb4234ed93": "vdn-bc5b64c20e3a",
-  "c41afb7a00c8875c": "vdn-bc5b64c20e3a"
+  "c41afb7a00c8875c": "vdn-bc5b64c20e3a",
+  "1101a99aae8b5f23": "vdn-4b1207f29a28",
+  "7aa2d5140102db23": "vdn-6099c3899f79",
+  "a808e2f4ff04475c": "vdn-b7dd232478c4",
+  "2c1c1f5581c1c734": "vdn-b7dd232478c4",
+  "9fe8777fb9e07245": "vdn-b7dd232478c4",
+  "c18ce1a86b704592": "vdn-b7dd232478c4",
+  "5a9ffd521d766f9b": "vdn-b7dd232478c4",
+  "a2b0c31716944c47": "vdn-b7dd232478c4",
+  "249124904f125c30": "vdn-b7dd232478c4",
+  "80e02a0f6542153d": "vdn-b7dd232478c4",
+  "61d0388de28e0dcc": "vdn-246e03110e88",
+  "b018418abfcabb22": "vdn-b497ca8620ee",
+  "6b2be19923918333": "vdn-b497ca8620ee",
+  "d4312f4eb2ff1c6a": "vdn-b497ca8620ee",
+  "10ad6ccd513ec27c": "vdn-b497ca8620ee",
+  "8374d7b9e4b54e24": "vdn-b497ca8620ee",
+  "4b07baa2f26ab3f7": "vdn-90ec3a0ff909",
+  "d02947a79c60607f": "vdn-90ec3a0ff909",
+  "8e57cd9369986a37": "vdn-3d272880257b",
+  "12e76e4fef8f98d3": "vdn-fd51e0661dd1",
+  "0e1cd6d7a9885057": "vdn-fd51e0661dd1",
+  "58457e0dec687053": "vdn-0ee28bdbe404",
+  "aa6ecde3dbfee593": "vdn-0ee28bdbe404",
+  "a4be68a47a627293": "vdn-0ee28bdbe404",
+  "11e5d4d5030892db": "vdn-0ee28bdbe404",
+  "4b408b6619080445": "vdn-93c78b7881bd",
+  "36a08d56d3aa90b9": "vdn-98e5aecd8db9",
+  "97e91b44b5001342": "vdn-98e5aecd8db9",
+  "d75306952850de77": "vdn-98e5aecd8db9",
+  "20d09b593dad8970": "vdn-98e5aecd8db9",
+  "479836aaf285f3bd": "vdn-98e5aecd8db9",
+  "2f8ac7ebe6b0937f": "vdn-98e5aecd8db9",
+  "3a619f08d2e3e74e": "vdn-e726721bb0a9",
+  "b454c4cfc0cf492c": "vdn-e726721bb0a9",
+  "bc365548d83ab667": "vdn-e726721bb0a9"
  }
 }

@@ -4425,11 +4425,26 @@
       "depth": 1,
       "parent": "039742376eb01a03",
       "reason": "lacune : aucune etape exploitable (vdn-0a9d12ab6395)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:33+00:00",
-      "updated": "2026-11-21T07:12:33+00:00",
-      "result": null
+      "updated": "2026-11-27T15:07:47+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 3,
+        "created": 2,
+        "rejected": 1,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [
+          "vdn-6099c3899f79",
+          "vdn-b7dd232478c4"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795792062.008466,
+      "finished_ts": 1795792067.6123657
     },
     "1a43539e612fbf6a": {
       "key": "1a43539e612fbf6a",
@@ -4572,11 +4587,23 @@
       "depth": 1,
       "parent": "0e24a017125fd352",
       "reason": "lacune : aucune etape exploitable (vdn-56c111b389f7)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T15:24:18+00:00",
-      "updated": "2026-11-21T15:24:18+00:00",
-      "result": null
+      "updated": "2026-11-27T15:08:01+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 2,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795792067.6206884,
+      "finished_ts": 1795792081.2980492
     },
     "a79cbd954930d6fb": {
       "key": "a79cbd954930d6fb",
@@ -4761,11 +4788,27 @@
       "depth": 1,
       "parent": "4220ef7674bfaeca",
       "reason": "lacune : aucune etape exploitable (vdn-385c531820f0)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T02:16:39+00:00",
-      "updated": "2026-11-22T02:16:39+00:00",
-      "result": null
+      "updated": "2026-11-27T15:08:15+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [
+          "vdn-fd51e0661dd1"
+        ],
+        "followups": [
+          "triangle count performance tutorial Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795792081.306572,
+      "finished_ts": 1795792095.358734
     },
     "baecc51f6595586c": {
       "key": "baecc51f6595586c",
@@ -4776,11 +4819,30 @@
       "depth": 1,
       "parent": "431384b3280bdab2",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-2755cfa54ad6)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T09:54:46+00:00",
-      "updated": "2026-11-22T09:54:46+00:00",
-      "result": null
+      "updated": "2026-11-27T15:08:26+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 5,
+        "created": 4,
+        "rejected": 1,
+        "duplicates": 7,
+        "updated": 0,
+        "notes": [
+          "vdn-0ee28bdbe404",
+          "vdn-93c78b7881bd",
+          "vdn-98e5aecd8db9",
+          "vdn-e726721bb0a9"
+        ],
+        "followups": [
+          "terrain MaterialVariant custom tutorial"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795792095.3671172,
+      "finished_ts": 1795792106.5177295
     },
     "70f58c7333bcf942": {
       "key": "70f58c7333bcf942",
@@ -5800,11 +5862,41 @@
       "created": "2026-11-27T05:04:59+00:00",
       "updated": "2026-11-27T05:04:59+00:00",
       "result": null
+    },
+    "05ca85cf64973952": {
+      "key": "05ca85cf64973952",
+      "topic": "performance",
+      "query": "triangle count performance tutorial Roblox Studio implementation compatibility",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "cdffbf36f24058fc",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T15:08:15+00:00",
+      "updated": "2026-11-27T15:08:15+00:00",
+      "result": null
+    },
+    "156aa42a50a8aaa2": {
+      "key": "156aa42a50a8aaa2",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom tutorial",
+      "priority": 7.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "baecc51f6595586c",
+      "reason": "lacune : aucune etape exploitable (vdn-93c78b7881bd)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T15:08:26+00:00",
+      "updated": "2026-11-27T15:08:26+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-27",
-    "items": 4,
-    "fetch": 30
+    "items": 8,
+    "fetch": 53
   }
 }
