@@ -1,292 +1,239 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-26T22:22:20+00:00",
-  "finished": "2026-11-26T22:23:02+00:00",
+  "started": "2026-11-27T05:04:23+00:00",
+  "finished": "2026-11-27T05:05:10+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "mobile graphics performance",
-      "topic": "performance",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-4a784889b34c",
-          "path": "knowledge/performance/4a784889b34c-trying-to-make-optimization-and-beautiful-graphics.md",
-          "status": "candidat",
-          "topic": "performance",
-          "query": "mobile graphics performance",
-          "url": "https://devforum.roblox.com/t/4751395",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-10cbddb87318",
-          "path": "knowledge/performance/10cbddb87318-krish-malik-battlegrounds-gfx-battlegrounds-gfx-to.md",
-          "status": "candidat",
-          "topic": "performance",
-          "query": "mobile graphics performance",
-          "url": "https://github.com/krish-malik/battlegrounds_gfx",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "mobile graphics performance tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-4a784889b34c)",
-          "topic": "performance"
-        },
-        {
-          "query": "mobile graphics performance step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "performance"
-        },
-        {
-          "query": "mobile graphics performance Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "performance"
-        }
-      ]
-    },
-    {
-      "query": "vault mantle system",
-      "topic": "movement",
-      "depth": 0,
-      "origin": "seed",
-      "status": "done",
-      "created": 2,
-      "rejected": 6,
-      "duplicates": 0,
-      "fetched": 8,
-      "notes": [
-        {
-          "id": "vdn-26e4159f41cf",
-          "path": "knowledge/gameplay/26e4159f41cf-how-would-i-make-a-vault-system.md",
-          "status": "candidat",
-          "topic": "movement",
-          "query": "vault mantle system",
-          "url": "https://devforum.roblox.com/t/3043055",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-bfe59be5ec6a",
-          "path": "knowledge/gameplay/bfe59be5ec6a-how-can-i-accomplish-a-vault-system.md",
-          "status": "candidat",
-          "topic": "movement",
-          "query": "vault mantle system",
-          "url": "https://devforum.roblox.com/t/1785246",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "vault mantle system tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-26e4159f41cf)",
-          "topic": "movement"
-        },
-        {
-          "query": "vault mantle system step by step implementation tutorial code",
-          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "movement"
-        }
-      ]
-    },
-    {
-      "query": "first person arms rig",
-      "topic": "fp_hands",
-      "depth": 0,
-      "origin": "seed",
+      "query": "Keyframe settings",
+      "topic": "blender_animation",
+      "depth": 1,
+      "origin": "relance",
       "status": "done",
       "created": 3,
-      "rejected": 4,
+      "rejected": 5,
+      "duplicates": 1,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-31039f3b0285",
+          "path": "knowledge/animation/31039f3b0285-class-keyframe.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "Keyframe settings",
+          "url": "https://create.roblox.com/docs/reference/engine/classes/Keyframe",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-240a9f115b98",
+          "path": "knowledge/animation/240a9f115b98-export-settings.md",
+          "status": "documente",
+          "topic": "blender_animation",
+          "query": "Keyframe settings",
+          "url": "https://create.roblox.com/docs/art/modeling/export-requirements",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-fb9fb728a09f",
+          "path": "knowledge/animation/fb9fb728a09f-setting-the-animation-priority-of-a-single-keyfram.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "Keyframe settings",
+          "url": "https://devforum.roblox.com/t/2082796",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": [
+        {
+          "query": "Keyframe settings tutorial",
+          "reason": "lacune : aucune etape exploitable (vdn-31039f3b0285)",
+          "topic": "blender_animation"
+        },
+        {
+          "query": "Keyframe settings Roblox Studio implementation compatibility",
+          "reason": "compatibilite Roblox non etablie",
+          "topic": "blender_animation"
+        }
+      ]
+    },
+    {
+      "query": "hands flashlight animation settings",
+      "topic": "fp_hands",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 0,
+      "rejected": 8,
       "duplicates": 3,
+      "fetched": 8,
+      "notes": [],
+      "followups": [
+        {
+          "query": "hands flashlight animation settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+          "topic": "fp_hands"
+        }
+      ]
+    },
+    {
+      "query": "triangle count performance settings",
+      "topic": "performance",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 1,
+      "rejected": 6,
+      "duplicates": 5,
       "fetched": 7,
       "notes": [
         {
-          "id": "vdn-431b23ac4fb9",
-          "path": "knowledge/animation/431b23ac4fb9-rig-a-humanoid-model.md",
+          "id": "vdn-d261dc0cba32",
+          "path": "knowledge/performance/d261dc0cba32-what-is-a-good-triangle-count-for-a-mesh.md",
           "status": "documente",
-          "topic": "fp_hands",
-          "query": "first person arms rig",
-          "url": "https://create.roblox.com/docs/art/modeling/rig-a-humanoid-model",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-b388cda6f2c8",
-          "path": "knowledge/animation/b388cda6f2c8-how-to-make-head-and-arms-face-camera-lookvector-i.md",
-          "status": "documente",
-          "topic": "fp_hands",
-          "query": "first person arms rig",
-          "url": "https://devforum.roblox.com/t/2232713",
-          "missing": [
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-f539071d8938",
-          "path": "knowledge/animation/f539071d8938-aravkp-godot-dungeon-crawler-fps-first-person-acti.md",
-          "status": "candidat",
-          "topic": "fp_hands",
-          "query": "first person arms rig",
-          "url": "https://github.com/aravkp/godot-dungeon-crawler-fps",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune etape exploitable"
-          ]
+          "topic": "performance",
+          "query": "triangle count performance settings",
+          "url": "https://devforum.roblox.com/t/197600",
+          "missing": []
         }
       ],
       "followups": [
         {
-          "query": "first person arms settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-431b23ac4fb9)",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "first person arms tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-f539071d8938)",
-          "topic": "fp_hands"
-        },
-        {
-          "query": "first person arms rig step by step implementation tutorial code",
+          "query": "triangle count performance settings step by step implementation tutorial code",
           "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-          "topic": "fp_hands"
+          "topic": "performance"
         },
         {
-          "query": "first person arms rig Roblox Studio implementation compatibility",
+          "query": "triangle count performance settings Roblox Studio implementation compatibility",
           "reason": "compatibilite Roblox non etablie",
-          "topic": "fp_hands"
+          "topic": "performance"
         }
       ]
     },
     {
-      "query": "MeshPart RenderFidelity",
-      "topic": "rendering",
-      "depth": 0,
-      "origin": "seed",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "topic": "terrain",
+      "depth": 1,
+      "origin": "relance_lacune",
       "status": "done",
-      "created": 3,
+      "created": 4,
       "rejected": 3,
-      "duplicates": 2,
-      "fetched": 6,
+      "duplicates": 5,
+      "fetched": 7,
       "notes": [
         {
-          "id": "vdn-1e603e723691",
-          "path": "knowledge/rendering/1e603e723691-weird-meshpart-shading-on-renderfidelity-performan.md",
+          "id": "vdn-48eedddb3f16",
+          "path": "knowledge/terrain/48eedddb3f16-sadpeanut-pz-reallifemap-a-tool-to-automatize-the.md",
           "status": "candidat",
-          "topic": "rendering",
-          "query": "MeshPart RenderFidelity",
-          "url": "https://devforum.roblox.com/t/1249569",
+          "topic": "terrain",
+          "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+          "url": "https://github.com/sadpeanut/pz-reallifemap",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-b38e26e0c8fb",
+          "path": "knowledge/terrain/b38e26e0c8fb-christopher-beckham-gan-heightmaps-procedural-terr.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+          "url": "https://github.com/christopher-beckham/gan-heightmaps",
           "missing": [
             "aucune limite Roblox citee",
             "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-ef7ba3f21991",
-          "path": "knowledge/rendering/ef7ba3f21991-all-meshparts-render-in-precise-renderfidelity.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "MeshPart RenderFidelity",
-          "url": "https://devforum.roblox.com/t/807197",
+          "id": "vdn-d9a6e00a34a7",
+          "path": "knowledge/terrain/d9a6e00a34a7-rafiulm-mythos-minecraft-minecraft-style-voxel-san.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+          "url": "https://github.com/rafiulm/mythos-minecraft",
           "missing": [
-            "aucune limite Roblox citee"
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
           ]
         },
         {
-          "id": "vdn-b67efd4fc571",
-          "path": "knowledge/rendering/b67efd4fc571-renderfidelity-update-for-meshparts-broke-obj-expo.md",
-          "status": "documente",
-          "topic": "rendering",
-          "query": "MeshPart RenderFidelity",
-          "url": "https://devforum.roblox.com/t/280119",
+          "id": "vdn-bc5b64c20e3a",
+          "path": "knowledge/terrain/bc5b64c20e3a-kalebking217-step-terrain-tracker-step-tracker-1-0.md",
+          "status": "candidat",
+          "topic": "terrain",
+          "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+          "url": "https://github.com/kalebking217/step-terrain-tracker",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee"
           ]
         }
       ],
-      "followups": [
-        {
-          "query": "MeshPart RenderFidelity tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-1e603e723691)",
-          "topic": "rendering"
-        },
-        {
-          "query": "MeshPart RenderFidelity settings",
-          "reason": "lacune : aucun parametre chiffre dans la source (vdn-b67efd4fc571)",
-          "topic": "rendering"
-        }
-      ]
+      "followups": []
     }
   ],
-  "created": 10,
-  "fetched": 29,
-  "rejected": 19,
-  "followups_added": 11,
+  "created": 8,
+  "fetched": 30,
+  "rejected": 22,
+  "followups_added": 5,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 96,
+      "pending": 97,
       "running": 0,
-      "done": 138,
+      "done": 142,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
-      "date": "2026-11-26",
-      "items": 12,
-      "fetch": 92
+      "date": "2026-11-27",
+      "items": 4,
+      "fetch": 30
     },
     "next": [
       {
-        "query": "Keyframe settings",
+        "query": "Blender animation export tutorial",
         "topic": "blender_animation",
         "priority": 7.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "hands flashlight animation settings",
+        "query": "hands flashlight animation tutorial",
         "topic": "fp_hands",
         "priority": 7.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "triangle count performance settings",
+        "query": "triangle count performance tutorial",
         "topic": "performance",
         "priority": 7.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+        "query": "terrain MaterialVariant custom settings",
         "topic": "terrain",
         "priority": 7.5,
         "depth": 1,
-        "origin": "relance_lacune"
+        "origin": "relance"
       },
       {
         "query": "texture resolution limit tutorial",

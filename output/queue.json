@@ -4440,11 +4440,30 @@
       "depth": 1,
       "parent": "039742376eb01a03",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-7ce009e766f3)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:33+00:00",
-      "updated": "2026-11-21T07:12:33+00:00",
-      "result": null
+      "updated": "2026-11-27T05:04:35+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-31039f3b0285",
+          "vdn-240a9f115b98",
+          "vdn-fb9fb728a09f"
+        ],
+        "followups": [
+          "Keyframe settings tutorial",
+          "Keyframe settings Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795755864.0014532,
+      "finished_ts": 1795755875.526416
     },
     "ea1603d9e154c0e3": {
       "key": "ea1603d9e154c0e3",
@@ -4524,11 +4543,25 @@
       "depth": 1,
       "parent": "0e24a017125fd352",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-c5e3853e32ee)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T15:24:18+00:00",
-      "updated": "2026-11-21T15:24:18+00:00",
-      "result": null
+      "updated": "2026-11-27T05:04:47+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [],
+        "followups": [
+          "hands flashlight animation settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795755875.5315933,
+      "finished_ts": 1795755887.840394
     },
     "896956d115281969": {
       "key": "896956d115281969",
@@ -4696,11 +4729,28 @@
       "depth": 1,
       "parent": "4220ef7674bfaeca",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-69741c3a1232)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T02:16:39+00:00",
-      "updated": "2026-11-22T02:16:39+00:00",
-      "result": null
+      "updated": "2026-11-27T05:04:59+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 1,
+        "rejected": 6,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [
+          "vdn-d261dc0cba32"
+        ],
+        "followups": [
+          "triangle count performance settings step by step implementation tutorial code",
+          "triangle count performance settings Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795755887.8459425,
+      "finished_ts": 1795755899.4743938
     },
     "cdffbf36f24058fc": {
       "key": "cdffbf36f24058fc",
@@ -4741,11 +4791,28 @@
       "depth": 1,
       "parent": "431384b3280bdab2",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T09:54:46+00:00",
-      "updated": "2026-11-22T09:54:46+00:00",
-      "result": null
+      "updated": "2026-11-27T05:05:10+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 7,
+        "created": 4,
+        "rejected": 3,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [
+          "vdn-48eedddb3f16",
+          "vdn-b38e26e0c8fb",
+          "vdn-d9a6e00a34a7",
+          "vdn-bc5b64c20e3a"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795755899.484738,
+      "finished_ts": 1795755910.6045873
     },
     "8827f9ab79d71e36": {
       "key": "8827f9ab79d71e36",
@@ -5658,11 +5725,86 @@
       "created": "2026-11-26T22:23:02+00:00",
       "updated": "2026-11-26T22:23:02+00:00",
       "result": null
+    },
+    "959cee96bd719d92": {
+      "key": "959cee96bd719d92",
+      "topic": "blender_animation",
+      "query": "Keyframe settings tutorial",
+      "priority": 7.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "1a43539e612fbf6a",
+      "reason": "lacune : aucune etape exploitable (vdn-31039f3b0285)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T05:04:35+00:00",
+      "updated": "2026-11-27T05:04:35+00:00",
+      "result": null
+    },
+    "1eac12ebe3075fce": {
+      "key": "1eac12ebe3075fce",
+      "topic": "blender_animation",
+      "query": "Keyframe settings Roblox Studio implementation compatibility",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "1a43539e612fbf6a",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T05:04:35+00:00",
+      "updated": "2026-11-27T05:04:35+00:00",
+      "result": null
+    },
+    "beafabb0fd2db759": {
+      "key": "beafabb0fd2db759",
+      "topic": "fp_hands",
+      "query": "hands flashlight animation settings step by step implementation tutorial code",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "3852d5ba0c10c7bd",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T05:04:47+00:00",
+      "updated": "2026-11-27T05:04:47+00:00",
+      "result": null
+    },
+    "176ceba5dcc6a16b": {
+      "key": "176ceba5dcc6a16b",
+      "topic": "performance",
+      "query": "triangle count performance settings step by step implementation tutorial code",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "c06efab921f8e47f",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T05:04:59+00:00",
+      "updated": "2026-11-27T05:04:59+00:00",
+      "result": null
+    },
+    "6109c5787632cc34": {
+      "key": "6109c5787632cc34",
+      "topic": "performance",
+      "query": "triangle count performance settings Roblox Studio implementation compatibility",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "c06efab921f8e47f",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T05:04:59+00:00",
+      "updated": "2026-11-27T05:04:59+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-26",
-    "items": 12,
-    "fetch": 92
+    "date": "2026-11-27",
+    "items": 4,
+    "fetch": 30
   }
 }

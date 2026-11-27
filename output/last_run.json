@@ -1,129 +1,134 @@
 {
-  "started_utc": "2026-11-26T22:22:54+00:00",
+  "started_utc": "2026-11-27T05:04:59+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 8,
-  "fetched": 6,
-  "accepted": 3,
-  "created": 3,
+  "returned": 12,
+  "fetched": 7,
+  "accepted": 4,
+  "created": 4,
   "updated": 0,
-  "duplicates": 2,
+  "duplicates": 5,
   "rejected": 3,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 2,
-    "pas assez de contenu technique": 1,
-    "bruit : début du texte : « looking for »": 1
+    "hors sujet": 3,
+    "pas assez de contenu technique": 1
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "rendering",
-      "origin": "seed",
+      "topic": "terrain",
+      "origin": "relance_lacune",
       "strategy": "synonyms",
-      "query": "mesh RenderFidelity",
+      "query": "materialvariant MaterialVariant custom step",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 2,
-      "offtopic": 2,
+      "duplicates": 1,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.14,
-      "duration_s": 2.26,
+      "technical_mean": 0.2,
+      "duration_s": 3.5,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "rendering",
-      "origin": "seed",
+      "topic": "terrain",
+      "origin": "relance_lacune",
       "strategy": "facet",
-      "query": "MeshPart RenderFidelity performance",
+      "query": "terrain MaterialVariant custom settings",
       "returned": 4,
-      "accepted": 3,
-      "new": 3,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
-      "duplicates": 0,
-      "offtopic": 1,
+      "duplicates": 4,
+      "offtopic": 0,
       "error": null,
-      "technical_mean": 0.43,
-      "duration_s": 5.26,
-      "reward": 0.572
+      "technical_mean": 0.0,
+      "duration_s": 0.25,
+      "reward": 0.0
     },
     {
       "provider": "github",
-      "topic": "rendering",
-      "origin": "seed",
-      "strategy": "synonyms",
-      "query": "mesh RenderFidelity",
-      "returned": 0,
-      "accepted": 0,
-      "new": 0,
+      "topic": "terrain",
+      "origin": "relance_lacune",
+      "strategy": "terms",
+      "query": "terrain MaterialVariant custom step",
+      "returned": 4,
+      "accepted": 4,
+      "new": 4,
       "updated": 0,
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.28,
-      "reward": 0.0
+      "technical_mean": 0.46,
+      "duration_s": 7.34,
+      "reward": 0.784
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-1e603e723691",
-      "path": "knowledge/rendering/1e603e723691-weird-meshpart-shading-on-renderfidelity-performan.md",
+      "id": "vdn-48eedddb3f16",
+      "path": "knowledge/terrain/48eedddb3f16-sadpeanut-pz-reallifemap-a-tool-to-automatize-the.md",
       "status": "candidat",
-      "topic": "rendering",
-      "query": "MeshPart RenderFidelity",
-      "url": "https://devforum.roblox.com/t/1249569"
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "url": "https://github.com/sadpeanut/pz-reallifemap"
     },
     {
-      "id": "vdn-ef7ba3f21991",
-      "path": "knowledge/rendering/ef7ba3f21991-all-meshparts-render-in-precise-renderfidelity.md",
-      "status": "documente",
-      "topic": "rendering",
-      "query": "MeshPart RenderFidelity",
-      "url": "https://devforum.roblox.com/t/807197"
+      "id": "vdn-b38e26e0c8fb",
+      "path": "knowledge/terrain/b38e26e0c8fb-christopher-beckham-gan-heightmaps-procedural-terr.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "url": "https://github.com/christopher-beckham/gan-heightmaps"
     },
     {
-      "id": "vdn-b67efd4fc571",
-      "path": "knowledge/rendering/b67efd4fc571-renderfidelity-update-for-meshparts-broke-obj-expo.md",
-      "status": "documente",
-      "topic": "rendering",
-      "query": "MeshPart RenderFidelity",
-      "url": "https://devforum.roblox.com/t/280119"
+      "id": "vdn-d9a6e00a34a7",
+      "path": "knowledge/terrain/d9a6e00a34a7-rafiulm-mythos-minecraft-minecraft-style-voxel-san.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "url": "https://github.com/rafiulm/mythos-minecraft"
+    },
+    {
+      "id": "vdn-bc5b64c20e3a",
+      "path": "knowledge/terrain/bc5b64c20e3a-kalebking217-step-terrain-tracker-step-tracker-1-0.md",
+      "status": "candidat",
+      "topic": "terrain",
+      "query": "terrain MaterialVariant custom step by step implementation tutorial code",
+      "url": "https://github.com/kalebking217/step-terrain-tracker"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.45,
-      "technical": 0.12,
-      "roblox": true,
-      "noise": [],
-      "reasons": [
-        "hors sujet (pertinence 0.45 < 0.5)",
-        "pas assez de contenu technique (0.12)"
-      ]
-    },
-    {
-      "topical": 0.1,
+      "topical": 0.25,
       "technical": 0.16,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.1 < 0.5)"
+        "hors sujet (pertinence 0.25 < 0.5)"
       ]
     },
     {
-      "topical": 0.7,
-      "technical": 0.24,
+      "topical": 0.333,
+      "technical": 0.0,
       "roblox": true,
-      "noise": [
-        "début du texte : « looking for »"
-      ],
+      "noise": [],
       "reasons": [
-        "bruit : début du texte : « looking for »"
+        "hors sujet (pertinence 0.333 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.25,
+      "technical": 0.44,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.25 < 0.5)"
       ]
     }
   ],
@@ -132,5 +137,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-26T22:23:02+00:00"
+  "finished_utc": "2026-11-27T05:05:10+00:00"
 }

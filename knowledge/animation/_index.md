@@ -2,11 +2,12 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (12)
+## Documenté (13)
 
 - [[animation/c5e3853e32ee-animation-editor|Animation Editor]] — niv. 1 · conf. moyenne — « You can move these joints to [create poses](#create-poses) and then smoothly animate the rig from pose to pose. »
 - [[animation/901178697d43-animation-graph-editor|Animation Graph Editor]] — niv. 1 · conf. moyenne — « - **Animation Graph Editor**: Use this tool to take those clips and organize them into a logic tree to drive sophisticated gameplay behavior… »
 - [[animation/77a67eafabb0-export-avatar-animations-from-maya|Export avatar animations from Maya]] — niv. 1 · conf. moyenne — « title: "Export avatar animations from Maya" »
+- [[animation/240a9f115b98-export-settings|Export settings]] — niv. 1 · conf. moyenne — « url: /docs/en-us/art/modeling/export-requirements »
 - [[animation/b388cda6f2c8-how-to-make-head-and-arms-face-camera-lookvector-i|How to make head and arms face camera LookVector IN FIRST PERSON?]] — niv. 1 · conf. moyenne — « You can weld the arms and head together to make what we call a “ViewModel” or “Rig” and set the CFrame to the Camera CFrame in a RenderStepp… »
 - [[animation/8a2ae33e44e7-import-emotes|Import emotes]] — niv. 1 · conf. moyenne — « description: "Use the Animation Editor to import and convert animations into emotes." »
 - [[animation/9214ce5c650c-import-into-studio|Import into Studio]] — niv. 1 · conf. moyenne — « Studio's Importer lets you import 3D assets into your projects, such as avatar clothing, accessories, and Roblox's [template heads](/docs/en… »
@@ -17,13 +18,15 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
 - [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
 
-## Candidat (20)
+## Candidat (22)
 
+- [[animation/31039f3b0285-class-keyframe|Class: Keyframe]] — niv. 1 · conf. faible — « [Keyframe](/docs/reference/engine/classes/Keyframe.md) names can be set in the Roblox Animation Editor when »
 - [[animation/30313273c7d0-class-keyframesequence|Class: KeyframeSequence]] — niv. 1 · conf. faible — « - **Property `Loop`** (`boolean`): Determines whether the animation stored in this AnimationClip is »
 - [[animation/21ce8aee4188-curve-editor|Curve Editor]] — niv. 1 · conf. faible — « Instead of using the default dope sheet editor's method of manually moving the scrubber from one frame to another to see how a rig's positio… »
 - [[animation/7ce009e766f3-export-and-import-animations|Export and Import Animations]] — niv. 1 · conf. faible — « Export animations to share with other developers." »
 - [[animation/0a9d12ab6395-export-animations|Export animations]] — niv. 1 · conf. faible — « To use the animation, it will need to be exported from the animation editor to the Roblox platform. »
 - [[animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a|Is it possible to set animation priority in moon animator?]] — niv. 1 · conf. faible — « So just asking if I can set animation priority in it »
+- [[animation/fb9fb728a09f-setting-the-animation-priority-of-a-single-keyfram|Setting the animation priority of a single keyframe]] — niv. 1 · conf. faible — « Thus, is there a way to set the animation priority of a single keyframe (e.g. »
 - [[animation/0b316a523626-work-with-the-animation-editor|Work with the Animation Editor]] — niv. 1 · conf. faible — « description: "Explains how to work with the Animation Editor to create a custom animation." »
 - [[animation/d2d2f8df3bea-animation-editor-messing-up-on-import|Animation Editor messing up on import]] — niv. 2 · conf. faible — « The weird thing is that it plays fine in online mode, but hitting Play in the animator looks different (making me assume the import is faili… »
 - [[traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo|Building a parkour system cuz i'm bored(devlog)]] — niv. 2 · conf. faible

@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (9)
+## Documenté (10)
 
 - [[performance/06fe4174654e-instance-streaming|Instance streaming]] — niv. 1 · conf. moyenne — « Instance streaming is controlled through the `Class.Workspace.StreamingEnabled` property, enabled by default for new places created in Studi… »
 - [[performance/56f63407c909-slim|SLIM]] — niv. 1 · conf. moyenne — « SLIM works best on models that represent **static world geometry** — buildings, props, vehicles, terrain features, and other environment obj… »
@@ -12,6 +12,7 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[performance/69741c3a1232-how-do-i-reduce-triangle-count|How do I reduce triangle count?]] — niv. 2 · conf. faible — « Im trying to import this bed model into studio from blender and it says triangle count is to high, ive already decimated it and tried import… »
 - [[performance/6714a9b2cd01-shadow-draw-calls-are-broken|Shadow Draw Calls are broken]] — niv. 2 · conf. faible — « Recently, during the summer, I asked a colleague to create a post regarding severe FPS drops in games caused by an excessive number of “Draw… »
 - [[performance/a4b4bd37eed3-sudden-horrible-performance-in-all-experiences-rel|Sudden horrible performance in all experiences related to rendering]] — niv. 2 · conf. faible — « If I remove all lights, particles, terrain, transparent parts, and change everything to smooth plastic, In my game the best I can manage is … »
+- [[performance/d261dc0cba32-what-is-a-good-triangle-count-for-a-mesh|What is a good triangle count for a mesh?]] — niv. 2 · conf. faible — « CSG parts are now limited to 5k triangles (instead of the old limit of 3k). »
 - [[performance/fc8ba15fa1f6-why-does-the-same-mesh-use-more-than-1-draw-call-w|Why does the same mesh use more than 1 draw call when duped a lot?]] — niv. 2 · conf. faible — « When set to Vulkan, on the 74 instances i had 2 draw calls, on 147 i had 3, on 220 4, thats new draw call each 73 instances. »
 
 ## Candidat (12)

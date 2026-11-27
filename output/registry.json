@@ -1147,6 +1147,38 @@
   "https://devforum.roblox.com/t/280119": {
    "id": "vdn-b67efd4fc571",
    "path": "knowledge/rendering/b67efd4fc571-renderfidelity-update-for-meshparts-broke-obj-expo.md"
+  },
+  "https://create.roblox.com/docs/reference/engine/classes/Keyframe": {
+   "id": "vdn-31039f3b0285",
+   "path": "knowledge/animation/31039f3b0285-class-keyframe.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/export-requirements": {
+   "id": "vdn-240a9f115b98",
+   "path": "knowledge/animation/240a9f115b98-export-settings.md"
+  },
+  "https://devforum.roblox.com/t/2082796": {
+   "id": "vdn-fb9fb728a09f",
+   "path": "knowledge/animation/fb9fb728a09f-setting-the-animation-priority-of-a-single-keyfram.md"
+  },
+  "https://devforum.roblox.com/t/197600": {
+   "id": "vdn-d261dc0cba32",
+   "path": "knowledge/performance/d261dc0cba32-what-is-a-good-triangle-count-for-a-mesh.md"
+  },
+  "https://github.com/sadpeanut/pz-reallifemap": {
+   "id": "vdn-48eedddb3f16",
+   "path": "knowledge/terrain/48eedddb3f16-sadpeanut-pz-reallifemap-a-tool-to-automatize-the.md"
+  },
+  "https://github.com/christopher-beckham/gan-heightmaps": {
+   "id": "vdn-b38e26e0c8fb",
+   "path": "knowledge/terrain/b38e26e0c8fb-christopher-beckham-gan-heightmaps-procedural-terr.md"
+  },
+  "https://github.com/rafiulm/mythos-minecraft": {
+   "id": "vdn-d9a6e00a34a7",
+   "path": "knowledge/terrain/d9a6e00a34a7-rafiulm-mythos-minecraft-minecraft-style-voxel-san.md"
+  },
+  "https://github.com/kalebking217/step-terrain-tracker": {
+   "id": "vdn-bc5b64c20e3a",
+   "path": "knowledge/terrain/bc5b64c20e3a-kalebking217-step-terrain-tracker-step-tracker-1-0.md"
   }
  },
  "fingerprints": {
@@ -2462,6 +2494,37 @@
   "b2637cbb53b9d517": "vdn-9ca12a8e4c06",
   "3d77b959b913bafb": "vdn-b67efd4fc571",
   "bfd7db72b2c11aa9": "vdn-b67efd4fc571",
-  "d590334ccc4be82e": "vdn-b67efd4fc571"
+  "d590334ccc4be82e": "vdn-b67efd4fc571",
+  "cfff47d59019fd81": "vdn-31039f3b0285",
+  "3745006a57440057": "vdn-279d35a99b0e",
+  "59e0fa6ae1310f4c": "vdn-279d35a99b0e",
+  "3a9df5026ea8c4cf": "vdn-fb9fb728a09f",
+  "710133b57ae174ec": "vdn-fb9fb728a09f",
+  "33e1824c1400be28": "vdn-900858a6e339",
+  "1c1223283b76c5b9": "vdn-900858a6e339",
+  "a7a9dc5019170c5d": "vdn-900858a6e339",
+  "0b3d36ba7c699a35": "vdn-c440cc760cd0",
+  "3968d783a2af9165": "vdn-c440cc760cd0",
+  "1932d6c4d9838263": "vdn-c440cc760cd0",
+  "6f6f073b722d606f": "vdn-c440cc760cd0",
+  "1e2ec773d02a3be3": "vdn-d261dc0cba32",
+  "27d2d370ca3d379b": "vdn-d261dc0cba32",
+  "354745eb6bcc61dd": "vdn-d261dc0cba32",
+  "d73ce3e9728fd5a4": "vdn-d261dc0cba32",
+  "e0975802b09d099b": "vdn-d261dc0cba32",
+  "b867d58466959c49": "vdn-c39c8f409a00",
+  "cd690ad2332fe9ed": "vdn-c39c8f409a00",
+  "4ad106c356d3b917": "vdn-ff38a6ac8341",
+  "15dc36af6b4c0912": "vdn-ff38a6ac8341",
+  "eeaef73d07b82665": "vdn-2951b4435f13",
+  "c5d4f0bd784b51ed": "vdn-48eedddb3f16",
+  "3138a452be074fe9": "vdn-b38e26e0c8fb",
+  "f9a9ea5376c0dec0": "vdn-b38e26e0c8fb",
+  "ed80835d94ca4423": "vdn-b38e26e0c8fb",
+  "eae0c14f1be9c379": "vdn-b38e26e0c8fb",
+  "0b76153e761c6b58": "vdn-b38e26e0c8fb",
+  "8da6f14fb5590810": "vdn-d9a6e00a34a7",
+  "662ec0fb4234ed93": "vdn-bc5b64c20e3a",
+  "c41afb7a00c8875c": "vdn-bc5b64c20e3a"
  }
 }
