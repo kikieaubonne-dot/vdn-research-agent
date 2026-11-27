@@ -4410,11 +4410,29 @@
       "depth": 1,
       "parent": "039742376eb01a03",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-77a67eafabb0)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:33+00:00",
-      "updated": "2026-11-21T07:12:33+00:00",
-      "result": null
+      "updated": "2026-11-27T23:28:43+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 5,
+        "rejected": 3,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-47a5aeae2fef",
+          "vdn-cb328174acf3",
+          "vdn-6b1aec16f010",
+          "vdn-e5c1be2df836",
+          "vdn-cbba47158be6"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795822111.0550277,
+      "finished_ts": 1795822123.3640437
     },
     "3a3f58984dec6c38": {
       "key": "3a3f58984dec6c38",
@@ -4614,11 +4632,25 @@
       "depth": 1,
       "parent": "0e24a017125fd352",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T15:24:18+00:00",
-      "updated": "2026-11-21T15:24:18+00:00",
-      "result": null
+      "updated": "2026-11-27T23:28:54+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-c4ec9a89a5d5"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795822123.3709612,
+      "finished_ts": 1795822134.2505255
     },
     "3be3ba8e04161e03": {
       "key": "3be3ba8e04161e03",
@@ -4912,11 +4944,23 @@
       "depth": 1,
       "parent": "50050bd6dff60982",
       "reason": "lacune : aucune etape exploitable (vdn-5bc3a24df7c6)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-22T17:52:16+00:00",
-      "updated": "2026-11-22T17:52:16+00:00",
-      "result": null
+      "updated": "2026-11-27T23:29:02+00:00",
+      "result": {
+        "returned": 11,
+        "fetched": 6,
+        "created": 0,
+        "rejected": 6,
+        "duplicates": 5,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795822134.2575734,
+      "finished_ts": 1795822142.232423
     },
     "ea10632e9f17e42c": {
       "key": "ea10632e9f17e42c",
@@ -5017,11 +5061,28 @@
       "depth": 1,
       "parent": "81f23bb09d9de9a5",
       "reason": "lacune : aucun parametre chiffre dans la source (vdn-d6a3bf3127c3)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-23T20:16:55+00:00",
-      "updated": "2026-11-23T20:16:55+00:00",
-      "result": null
+      "updated": "2026-11-27T23:29:06+00:00",
+      "result": {
+        "returned": 9,
+        "fetched": 3,
+        "created": 2,
+        "rejected": 1,
+        "duplicates": 6,
+        "updated": 0,
+        "notes": [
+          "vdn-97dd72db2091",
+          "vdn-adf4e96a6572"
+        ],
+        "followups": [
+          "terrain heightmap import settings step by step implementation tutorial code"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795822142.2396002,
+      "finished_ts": 1795822146.9299319
     },
     "d96b102425df5587": {
       "key": "d96b102425df5587",
@@ -5892,11 +5953,26 @@
       "created": "2026-11-27T15:08:26+00:00",
       "updated": "2026-11-27T15:08:26+00:00",
       "result": null
+    },
+    "f706d4811efe9ebd": {
+      "key": "f706d4811efe9ebd",
+      "topic": "terrain",
+      "query": "terrain heightmap import settings step by step implementation tutorial code",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "27b56184be646af4",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-27T23:29:06+00:00",
+      "updated": "2026-11-27T23:29:06+00:00",
+      "result": null
     }
   },
   "daily": {
     "date": "2026-11-27",
-    "items": 8,
-    "fetch": 53
+    "items": 12,
+    "fetch": 78
   }
 }

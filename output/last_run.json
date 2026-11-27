@@ -1,18 +1,17 @@
 {
-  "started_utc": "2026-11-27T15:08:15+00:00",
+  "started_utc": "2026-11-27T23:29:02+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 12,
-  "fetched": 5,
-  "accepted": 4,
-  "created": 4,
+  "returned": 9,
+  "fetched": 3,
+  "accepted": 2,
+  "created": 2,
   "updated": 0,
-  "duplicates": 7,
+  "duplicates": 6,
   "rejected": 1,
   "errors": [],
   "rejection_reasons": {
-    "hors sujet": 1,
     "pas assez de contenu technique": 1
   },
   "trials_detail": [
@@ -20,8 +19,8 @@
       "provider": "roblox_docs",
       "topic": "terrain",
       "origin": "relance",
-      "strategy": "facet",
-      "query": "terrain MaterialVariant custom limit",
+      "strategy": "terms",
+      "query": "terrain heightmap import settings",
       "returned": 4,
       "accepted": 0,
       "new": 0,
@@ -37,80 +36,63 @@
       "provider": "devforum",
       "topic": "terrain",
       "origin": "relance",
-      "strategy": "facet",
-      "query": "terrain MaterialVariant custom limit",
+      "strategy": "terms",
+      "query": "terrain heightmap import settings",
       "returned": 4,
-      "accepted": 0,
-      "new": 0,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
-      "duplicates": 3,
+      "duplicates": 2,
       "offtopic": 1,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 1.66,
-      "reward": 0.0
+      "technical_mean": 0.14,
+      "duration_s": 2.83,
+      "reward": 0.156
     },
     {
       "provider": "github",
       "topic": "terrain",
       "origin": "relance",
       "strategy": "terms",
-      "query": "terrain MaterialVariant custom settings",
-      "returned": 4,
-      "accepted": 4,
-      "new": 4,
+      "query": "terrain heightmap import settings",
+      "returned": 1,
+      "accepted": 1,
+      "new": 1,
       "updated": 0,
       "duplicates": 0,
       "offtopic": 0,
       "error": null,
-      "technical_mean": 0.5,
-      "duration_s": 9.42,
-      "reward": 0.8
+      "technical_mean": 1.0,
+      "duration_s": 1.81,
+      "reward": 1.0
     }
   ],
   "created_notes": [
     {
-      "id": "vdn-0ee28bdbe404",
-      "path": "knowledge/terrain/0ee28bdbe404-kerkkoh-nyheim-nyheim-is-a-8x8-km-sized-environmen.md",
+      "id": "vdn-97dd72db2091",
+      "path": "knowledge/terrain/97dd72db2091-terrain-heightmap.md",
       "status": "candidat",
       "topic": "terrain",
-      "query": "terrain MaterialVariant custom settings",
-      "url": "https://github.com/kerkkoh/nyheim"
+      "query": "terrain heightmap import settings",
+      "url": "https://devforum.roblox.com/t/1930057"
     },
     {
-      "id": "vdn-93c78b7881bd",
-      "path": "knowledge/terrain/93c78b7881bd-wlfiess-unstable-terrain-unstable-terrain-adds-cus.md",
+      "id": "vdn-adf4e96a6572",
+      "path": "knowledge/terrain/adf4e96a6572-pavilion4games-heightbridge-blender-terrain3d-blen.md",
       "status": "candidat",
       "topic": "terrain",
-      "query": "terrain MaterialVariant custom settings",
-      "url": "https://github.com/wlfiess/unstable-terrain"
-    },
-    {
-      "id": "vdn-98e5aecd8db9",
-      "path": "knowledge/terrain/98e5aecd8db9-rushabhdhoke-terrains-for-quadrupeds-repo-for-sett.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom settings",
-      "url": "https://github.com/rushabhdhoke/terrains_for_quadrupeds"
-    },
-    {
-      "id": "vdn-e726721bb0a9",
-      "path": "knowledge/terrain/e726721bb0a9-norlab-ulaval-borealtc-borealtc-deep-learning-for.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain MaterialVariant custom settings",
-      "url": "https://github.com/norlab-ulaval/borealtc"
+      "query": "terrain heightmap import settings",
+      "url": "https://github.com/pavilion4games/heightbridge-blender-terrain3d"
     }
   ],
   "rejected_candidates": [
     {
-      "topical": 0.125,
-      "technical": 0.0,
+      "topical": 0.75,
+      "technical": 0.12,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "hors sujet (pertinence 0.125 < 0.5)",
-        "pas assez de contenu technique (0.0)"
+        "pas assez de contenu technique (0.12)"
       ]
     }
   ],
@@ -119,5 +101,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-27T15:08:26+00:00"
+  "finished_utc": "2026-11-27T23:29:06+00:00"
 }

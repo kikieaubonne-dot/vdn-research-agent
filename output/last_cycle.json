@@ -1,12 +1,128 @@
 {
   "schema": "vdn.cycle/1",
-  "started": "2026-11-27T15:07:42+00:00",
-  "finished": "2026-11-27T15:08:26+00:00",
+  "started": "2026-11-27T23:28:31+00:00",
+  "finished": "2026-11-27T23:29:07+00:00",
   "stop_reason": "cycle termine",
   "items": [
     {
-      "query": "Blender animation export tutorial",
+      "query": "Blender animation export settings",
       "topic": "blender_animation",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 5,
+      "rejected": 3,
+      "duplicates": 3,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-47a5aeae2fef",
+          "path": "knowledge/animation/47a5aeae2fef-blender-and-maya-texture-settings.md",
+          "status": "documente",
+          "topic": "blender_animation",
+          "query": "Blender animation export settings",
+          "url": "https://create.roblox.com/docs/art/modeling/assign-textures",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-cb328174acf3",
+          "path": "knowledge/animation/cb328174acf3-how-would-i-export-a-blender-cutscene-to-moon-anim.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "Blender animation export settings",
+          "url": "https://devforum.roblox.com/t/3559467",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-6b1aec16f010",
+          "path": "knowledge/animation/6b1aec16f010-how-to-export-from-blender-with-color.md",
+          "status": "documente",
+          "topic": "blender_animation",
+          "query": "Blender animation export settings",
+          "url": "https://devforum.roblox.com/t/285166",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        },
+        {
+          "id": "vdn-e5c1be2df836",
+          "path": "knowledge/animation/e5c1be2df836-blender-export-failed.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "Blender animation export settings",
+          "url": "https://devforum.roblox.com/t/734840",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        },
+        {
+          "id": "vdn-cbba47158be6",
+          "path": "knowledge/animation/cbba47158be6-pherakki-blender-tools-for-dscs-this-repository-pr.md",
+          "status": "candidat",
+          "topic": "blender_animation",
+          "query": "Blender animation export settings",
+          "url": "https://github.com/pherakki/blender-tools-for-dscs",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "hands flashlight animation step by step implementation tutorial code",
+      "topic": "fp_hands",
+      "depth": 1,
+      "origin": "relance_lacune",
+      "status": "done",
+      "created": 1,
+      "rejected": 7,
+      "duplicates": 1,
+      "fetched": 8,
+      "notes": [
+        {
+          "id": "vdn-c4ec9a89a5d5",
+          "path": "knowledge/animation/c4ec9a89a5d5-next-steps.md",
+          "status": "candidat",
+          "topic": "fp_hands",
+          "query": "hands flashlight animation step by step implementation tutorial code",
+          "url": "https://create.roblox.com/docs/tutorials/curriculums/studio/next-steps",
+          "missing": [
+            "aucun parametre chiffre dans la source",
+            "aucune limite Roblox citee",
+            "aucune etape exploitable"
+          ]
+        }
+      ],
+      "followups": []
+    },
+    {
+      "query": "texture resolution limit tutorial",
+      "topic": "rendering",
+      "depth": 1,
+      "origin": "relance",
+      "status": "done",
+      "created": 0,
+      "rejected": 6,
+      "duplicates": 5,
+      "fetched": 6,
+      "notes": [],
+      "followups": []
+    },
+    {
+      "query": "terrain heightmap import settings",
+      "topic": "terrain",
       "depth": 1,
       "origin": "relance",
       "status": "done",
@@ -16,60 +132,24 @@
       "fetched": 3,
       "notes": [
         {
-          "id": "vdn-6099c3899f79",
-          "path": "knowledge/animation/6099c3899f79-model-animation-tutorial-blender-and-studio.md",
+          "id": "vdn-97dd72db2091",
+          "path": "knowledge/terrain/97dd72db2091-terrain-heightmap.md",
           "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Blender animation export tutorial",
-          "url": "https://devforum.roblox.com/t/669626",
+          "topic": "terrain",
+          "query": "terrain heightmap import settings",
+          "url": "https://devforum.roblox.com/t/1930057",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee"
           ]
         },
         {
-          "id": "vdn-b7dd232478c4",
-          "path": "knowledge/animation/b7dd232478c4-recp-assetkit-blender-blender-extension-to-import.md",
+          "id": "vdn-adf4e96a6572",
+          "path": "knowledge/terrain/adf4e96a6572-pavilion4games-heightbridge-blender-terrain3d-blen.md",
           "status": "candidat",
-          "topic": "blender_animation",
-          "query": "Blender animation export tutorial",
-          "url": "https://github.com/recp/assetkit-blender",
-          "missing": []
-        }
-      ],
-      "followups": []
-    },
-    {
-      "query": "hands flashlight animation tutorial",
-      "topic": "fp_hands",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 0,
-      "rejected": 8,
-      "duplicates": 2,
-      "fetched": 8,
-      "notes": [],
-      "followups": []
-    },
-    {
-      "query": "triangle count performance tutorial",
-      "topic": "performance",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 1,
-      "rejected": 6,
-      "duplicates": 5,
-      "fetched": 7,
-      "notes": [
-        {
-          "id": "vdn-fd51e0661dd1",
-          "path": "knowledge/performance/fd51e0661dd1-lonelydevil-vulkan-triangle-a-good-scheuled-c-impl.md",
-          "status": "candidat",
-          "topic": "performance",
-          "query": "triangle count performance tutorial",
-          "url": "https://github.com/lonelydevil/vulkan-triangle",
+          "topic": "terrain",
+          "query": "terrain heightmap import settings",
+          "url": "https://github.com/pavilion4games/heightbridge-blender-terrain3d",
           "missing": [
             "aucun parametre chiffre dans la source",
             "aucune limite Roblox citee"
@@ -78,131 +158,55 @@
       ],
       "followups": [
         {
-          "query": "triangle count performance tutorial Roblox Studio implementation compatibility",
-          "reason": "compatibilite Roblox non etablie",
-          "topic": "performance"
-        }
-      ]
-    },
-    {
-      "query": "terrain MaterialVariant custom settings",
-      "topic": "terrain",
-      "depth": 1,
-      "origin": "relance",
-      "status": "done",
-      "created": 4,
-      "rejected": 1,
-      "duplicates": 7,
-      "fetched": 5,
-      "notes": [
-        {
-          "id": "vdn-0ee28bdbe404",
-          "path": "knowledge/terrain/0ee28bdbe404-kerkkoh-nyheim-nyheim-is-a-8x8-km-sized-environmen.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom settings",
-          "url": "https://github.com/kerkkoh/nyheim",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-93c78b7881bd",
-          "path": "knowledge/terrain/93c78b7881bd-wlfiess-unstable-terrain-unstable-terrain-adds-cus.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom settings",
-          "url": "https://github.com/wlfiess/unstable-terrain",
-          "missing": [
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        },
-        {
-          "id": "vdn-98e5aecd8db9",
-          "path": "knowledge/terrain/98e5aecd8db9-rushabhdhoke-terrains-for-quadrupeds-repo-for-sett.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom settings",
-          "url": "https://github.com/rushabhdhoke/terrains_for_quadrupeds",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee"
-          ]
-        },
-        {
-          "id": "vdn-e726721bb0a9",
-          "path": "knowledge/terrain/e726721bb0a9-norlab-ulaval-borealtc-borealtc-deep-learning-for.md",
-          "status": "candidat",
-          "topic": "terrain",
-          "query": "terrain MaterialVariant custom settings",
-          "url": "https://github.com/norlab-ulaval/borealtc",
-          "missing": [
-            "aucun parametre chiffre dans la source",
-            "aucune limite Roblox citee",
-            "aucune etape exploitable"
-          ]
-        }
-      ],
-      "followups": [
-        {
-          "query": "terrain MaterialVariant custom tutorial",
-          "reason": "lacune : aucune etape exploitable (vdn-93c78b7881bd)",
+          "query": "terrain heightmap import settings step by step implementation tutorial code",
+          "reason": "sources pertinentes mais sans etapes techniques suffisantes",
           "topic": "terrain"
         }
       ]
     }
   ],
-  "created": 7,
-  "fetched": 23,
-  "rejected": 16,
-  "followups_added": 2,
+  "created": 8,
+  "fetched": 25,
+  "rejected": 17,
+  "followups_added": 1,
   "seeded": 0,
   "recovered": 0,
   "errors": [],
   "lock_taken_over": false,
   "queue": {
     "counts": {
-      "pending": 95,
+      "pending": 92,
       "running": 0,
-      "done": 146,
+      "done": 150,
       "failed": 0,
       "skipped": 0
     },
     "daily": {
       "date": "2026-11-27",
-      "items": 8,
-      "fetch": 53
+      "items": 12,
+      "fetch": 78
     },
     "next": [
       {
-        "query": "Blender animation export settings",
+        "query": "Keyframe tutorial",
         "topic": "blender_animation",
         "priority": 7.5,
         "depth": 1,
         "origin": "relance"
       },
       {
-        "query": "hands flashlight animation step by step implementation tutorial code",
+        "query": "arms Motor6D viewmodel step by step implementation tutorial code",
         "topic": "fp_hands",
         "priority": 7.5,
         "depth": 1,
         "origin": "relance_lacune"
       },
       {
-        "query": "texture resolution limit tutorial",
-        "topic": "rendering",
-        "priority": 7.5,
-        "depth": 1,
-        "origin": "relance"
-      },
-      {
-        "query": "terrain heightmap import settings",
+        "query": "terrain heightmap import step by step implementation tutorial code",
         "topic": "terrain",
         "priority": 7.5,
         "depth": 1,
-        "origin": "relance"
+        "origin": "relance_lacune"
       },
       {
         "query": "crouch sprint stamina step by step implementation tutorial code",
@@ -210,6 +214,13 @@
         "priority": 7.5,
         "depth": 1,
         "origin": "relance_lacune"
+      },
+      {
+        "query": "MicroProfiler rendering tutorial",
+        "topic": "performance",
+        "priority": 7.5,
+        "depth": 1,
+        "origin": "relance"
       }
     ]
   }

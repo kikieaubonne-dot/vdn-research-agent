@@ -1207,6 +1207,38 @@
   "https://github.com/norlab-ulaval/borealtc": {
    "id": "vdn-e726721bb0a9",
    "path": "knowledge/terrain/e726721bb0a9-norlab-ulaval-borealtc-borealtc-deep-learning-for.md"
+  },
+  "https://create.roblox.com/docs/art/modeling/assign-textures": {
+   "id": "vdn-47a5aeae2fef",
+   "path": "knowledge/animation/47a5aeae2fef-blender-and-maya-texture-settings.md"
+  },
+  "https://devforum.roblox.com/t/3559467": {
+   "id": "vdn-cb328174acf3",
+   "path": "knowledge/animation/cb328174acf3-how-would-i-export-a-blender-cutscene-to-moon-anim.md"
+  },
+  "https://devforum.roblox.com/t/285166": {
+   "id": "vdn-6b1aec16f010",
+   "path": "knowledge/animation/6b1aec16f010-how-to-export-from-blender-with-color.md"
+  },
+  "https://devforum.roblox.com/t/734840": {
+   "id": "vdn-e5c1be2df836",
+   "path": "knowledge/animation/e5c1be2df836-blender-export-failed.md"
+  },
+  "https://github.com/pherakki/blender-tools-for-dscs": {
+   "id": "vdn-cbba47158be6",
+   "path": "knowledge/animation/cbba47158be6-pherakki-blender-tools-for-dscs-this-repository-pr.md"
+  },
+  "https://create.roblox.com/docs/tutorials/curriculums/studio/next-steps": {
+   "id": "vdn-c4ec9a89a5d5",
+   "path": "knowledge/animation/c4ec9a89a5d5-next-steps.md"
+  },
+  "https://devforum.roblox.com/t/1930057": {
+   "id": "vdn-97dd72db2091",
+   "path": "knowledge/terrain/97dd72db2091-terrain-heightmap.md"
+  },
+  "https://github.com/pavilion4games/heightbridge-blender-terrain3d": {
+   "id": "vdn-adf4e96a6572",
+   "path": "knowledge/terrain/adf4e96a6572-pavilion4games-heightbridge-blender-terrain3d-blen.md"
   }
  },
  "fingerprints": {
@@ -2588,6 +2620,36 @@
   "2f8ac7ebe6b0937f": "vdn-98e5aecd8db9",
   "3a619f08d2e3e74e": "vdn-e726721bb0a9",
   "b454c4cfc0cf492c": "vdn-e726721bb0a9",
-  "bc365548d83ab667": "vdn-e726721bb0a9"
+  "bc365548d83ab667": "vdn-e726721bb0a9",
+  "4a4b71b970bd655f": "vdn-cb328174acf3",
+  "01205417ecad67a6": "vdn-7e078bca4084",
+  "9f2352b338b56ed9": "vdn-7e078bca4084",
+  "4378b4d95ddea437": "vdn-7e078bca4084",
+  "b1321226ca47fce5": "vdn-7e078bca4084",
+  "052603e955bea96b": "vdn-6b1aec16f010",
+  "85b86ce2b9ed3322": "vdn-6b1aec16f010",
+  "9c937ec110477c4e": "vdn-6b1aec16f010",
+  "47dbb56ead480e1e": "vdn-6b1aec16f010",
+  "3c8620d56b5e4da3": "vdn-e5c1be2df836",
+  "99bbff76008727d5": "vdn-cbba47158be6",
+  "98b28bb27daa3d6e": "vdn-cbba47158be6",
+  "6cb6c8f9c6822554": "vdn-cbba47158be6",
+  "00059d7e2e3664aa": "vdn-cbba47158be6",
+  "c77bf16752a75361": "vdn-cbba47158be6",
+  "8cb57641c03ad08b": "vdn-cbba47158be6",
+  "2289fe5d6febe3c9": "vdn-cbba47158be6",
+  "456341e90e2a7ed0": "vdn-10eddcf003c8",
+  "dac30464c21647a2": "vdn-2fc1d10acf2f",
+  "17e11a1f153e032b": "vdn-6784b6b2c4b2",
+  "8f3cee5ee696985e": "vdn-b03b470431f7",
+  "f21d0a421c043840": "vdn-97dd72db2091",
+  "3dd865d15350248b": "vdn-adf4e96a6572",
+  "763596bbdf257724": "vdn-adf4e96a6572",
+  "64ecbd0336d4c434": "vdn-adf4e96a6572",
+  "26a2234fb805a778": "vdn-adf4e96a6572",
+  "8d28674a78ea7894": "vdn-adf4e96a6572",
+  "0f00fa7f8cb0209f": "vdn-adf4e96a6572",
+  "3099f59860f7f371": "vdn-adf4e96a6572",
+  "49edbe5d6d3eaa4f": "vdn-adf4e96a6572"
  }
 }
