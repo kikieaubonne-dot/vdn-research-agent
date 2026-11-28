@@ -18,10 +18,11 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[terrain/529f429b1f54-use-the-grass-decoration-material-on-parts|Use the grass decoration material on parts?]] — niv. 2 · conf. faible — « I believe the grass, or “Decoration” can only be used on terrain and can’t be applied on parts unfortunately. »
 - [[terrain/fbaa093ac63a-when-materialvariant-alpha-mode-is-enabled-custom|When MaterialVariant Alpha Mode is enabled, custom MaterialVariant doesn't load]] — niv. 2 · conf. faible — « I set up a custom material variant which works in studio & in studio play test sessions. »
 
-## Candidat (23)
+## Candidat (24)
 
 - [[terrain/d6a3bf3127c3-heightmap-terrain-help-possible-bug|Heightmap / Terrain Help (Possible Bug)]] — niv. 2 · conf. faible — « Recently, the new terrain UI had been giving me problems with heightmaps, you cannot remove an image that served as a heightmap, image below… »
 - [[terrain/91060ef3bf99-heightmap-terrain-problem|Heightmap terrain problem]] — niv. 2 · conf. faible — « so i keep getting bugs whenever import my heigtmaps, these weird black shading things appear they only disappear when you get close to them … »
+- [[terrain/c354c7432bf0-how-i-can-import-massive-map-with-heightmap|How i can import massive map with heightmap?]] — niv. 2 · conf. faible — « How i can import massive map with heightmap? »
 - [[terrain/c42cb917d054-performance-by-carving-out-terrain|Performance by carving out terrain]] — niv. 2 · conf. faible — « Yes, So say I setup a mountain and players are only going to climb it, would it improve performance is I shave out the entire inside of said… »
 - [[terrain/3e6f3194acb0-some-grass-doesn-t-load-while-using-expanded-terra|Some grass doesn't load while using expanded terrain]] — niv. 2 · conf. faible — « You can find step-by-step instructions on how to generate and send the microprofiler [How to post a Bug Report - Bug Reports - Developer For… »
 - [[terrain/97dd72db2091-terrain-heightmap|Terrain Heightmap]] — niv. 2 · conf. faible — « Do you ever get random sharp spikes of terrain when you use the heightmaps? »

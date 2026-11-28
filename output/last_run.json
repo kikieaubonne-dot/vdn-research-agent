@@ -1,98 +1,151 @@
 {
-  "started_utc": "2026-11-27T23:29:02+00:00",
+  "started_utc": "2026-11-28T07:52:00+00:00",
   "version": "5.0",
   "queries": 1,
   "trials": 3,
-  "returned": 9,
-  "fetched": 3,
-  "accepted": 2,
-  "created": 2,
+  "returned": 12,
+  "fetched": 8,
+  "accepted": 0,
+  "created": 0,
   "updated": 0,
-  "duplicates": 6,
-  "rejected": 1,
+  "duplicates": 1,
+  "rejected": 8,
   "errors": [],
   "rejection_reasons": {
-    "pas assez de contenu technique": 1
+    "hors sujet": 8,
+    "pas assez de contenu technique": 6
   },
   "trials_detail": [
     {
       "provider": "roblox_docs",
-      "topic": "terrain",
-      "origin": "relance",
-      "strategy": "terms",
-      "query": "terrain heightmap import settings",
+      "topic": "movement",
+      "origin": "relance_lacune",
+      "strategy": "facet",
+      "query": "crouch sprint stamina limit",
       "returned": 4,
       "accepted": 0,
       "new": 0,
       "updated": 0,
-      "duplicates": 4,
-      "offtopic": 0,
+      "duplicates": 0,
+      "offtopic": 4,
       "error": null,
-      "technical_mean": 0.0,
-      "duration_s": 0.02,
+      "technical_mean": 0.05,
+      "duration_s": 4.34,
       "reward": 0.0
     },
     {
       "provider": "devforum",
-      "topic": "terrain",
-      "origin": "relance",
-      "strategy": "terms",
-      "query": "terrain heightmap import settings",
+      "topic": "movement",
+      "origin": "relance_lacune",
+      "strategy": "synonyms",
+      "query": "crouch sprint stamina step",
       "returned": 4,
-      "accepted": 1,
-      "new": 1,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
-      "duplicates": 2,
-      "offtopic": 1,
+      "duplicates": 1,
+      "offtopic": 3,
       "error": null,
-      "technical_mean": 0.14,
-      "duration_s": 2.83,
-      "reward": 0.156
+      "technical_mean": 0.027,
+      "duration_s": 4.01,
+      "reward": 0.0
     },
     {
       "provider": "github",
-      "topic": "terrain",
-      "origin": "relance",
+      "topic": "movement",
+      "origin": "relance_lacune",
       "strategy": "terms",
-      "query": "terrain heightmap import settings",
-      "returned": 1,
-      "accepted": 1,
-      "new": 1,
+      "query": "crouch sprint stamina step",
+      "returned": 4,
+      "accepted": 0,
+      "new": 0,
       "updated": 0,
       "duplicates": 0,
-      "offtopic": 0,
+      "offtopic": 1,
       "error": null,
-      "technical_mean": 1.0,
-      "duration_s": 1.81,
-      "reward": 1.0
+      "technical_mean": 0.28,
+      "duration_s": 2.19,
+      "reward": 0.062
     }
   ],
-  "created_notes": [
-    {
-      "id": "vdn-97dd72db2091",
-      "path": "knowledge/terrain/97dd72db2091-terrain-heightmap.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain heightmap import settings",
-      "url": "https://devforum.roblox.com/t/1930057"
-    },
-    {
-      "id": "vdn-adf4e96a6572",
-      "path": "knowledge/terrain/adf4e96a6572-pavilion4games-heightbridge-blender-terrain3d-blen.md",
-      "status": "candidat",
-      "topic": "terrain",
-      "query": "terrain heightmap import settings",
-      "url": "https://github.com/pavilion4games/heightbridge-blender-terrain3d"
-    }
-  ],
+  "created_notes": [],
   "rejected_candidates": [
     {
-      "topical": 0.75,
-      "technical": 0.12,
+      "topical": 0.083,
+      "technical": 0.0,
       "roblox": true,
       "noise": [],
       "reasons": [
-        "pas assez de contenu technique (0.12)"
+        "hors sujet (pertinence 0.083 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.083,
+      "technical": 0.2,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.083 < 0.5)"
+      ]
+    },
+    {
+      "topical": 0.083,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.083 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.0,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)",
+        "pas assez de contenu technique (0.0)"
+      ]
+    },
+    {
+      "topical": 0.083,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.083 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.083,
+      "technical": 0.04,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.083 < 0.5)",
+        "pas assez de contenu technique (0.04)"
+      ]
+    },
+    {
+      "topical": 0.167,
+      "technical": 0.28,
+      "roblox": true,
+      "noise": [],
+      "reasons": [
+        "hors sujet (pertinence 0.167 < 0.5)"
       ]
     }
   ],
@@ -101,5 +154,5 @@
     "devforum",
     "github"
   ],
-  "finished_utc": "2026-11-27T23:29:06+00:00"
+  "finished_utc": "2026-11-28T07:52:11+00:00"
 }

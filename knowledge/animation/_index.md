@@ -2,7 +2,7 @@
 
 Classement : statut, puis confiance, puis niveau de la source (1 = doc officielle). Les fiches rejetées sont en bas, gardées pour l'historique.
 
-## Documenté (15)
+## Documenté (17)
 
 - [[animation/c5e3853e32ee-animation-editor|Animation Editor]] — niv. 1 · conf. moyenne — « You can move these joints to [create poses](#create-poses) and then smoothly animate the rig from pose to pose. »
 - [[animation/901178697d43-animation-graph-editor|Animation Graph Editor]] — niv. 1 · conf. moyenne — « - **Animation Graph Editor**: Use this tool to take those clips and organize them into a logic tree to drive sophisticated gameplay behavior… »
@@ -13,14 +13,16 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[animation/8a2ae33e44e7-import-emotes|Import emotes]] — niv. 1 · conf. moyenne — « description: "Use the Animation Editor to import and convert animations into emotes." »
 - [[animation/9214ce5c650c-import-into-studio|Import into Studio]] — niv. 1 · conf. moyenne — « Studio's Importer lets you import 3D assets into your projects, such as avatar clothing, accessories, and Roblox's [template heads](/docs/en… »
 - [[animation/431b23ac4fb9-rig-a-humanoid-model|Rig a humanoid model]] — niv. 1 · conf. moyenne — « Models made up of multiple meshes require additional steps to rig in a third-party modeling tool such as [Blender](https://www.blender.org) … »
+- [[animation/53c44795646f-start-learning-with-tutorials|Start learning with tutorials]] — niv. 1 · conf. moyenne — « - Learn how to set global and local lighting properties to enhance [indoor](/docs/en-us/tutorials/use-case-tutorials/lighting/enhance-indoor… »
 - [[animation/e638bf90fc40-exported-an-animation-only-for-it-to-be-a-keyframe|Exported an animation, only for it to be a "KeyframeSequence"]] — niv. 1 · conf. faible — « How would I export my Moon Animator 2 animation into The inbuild roblox’s animation rather than a “KeyframeSequence”. »
+- [[animation/b13f0888058c-any-good-tutorial-to-make-realistic-trees|Any good tutorial to make Realistic Trees?]] — niv. 2 · conf. faible — « Unfortunately Roblox Studio does not support as many details, but you can play with the settings to reduce the number of vertices. »
 - [[animation/1a66b4f33bae-blender-export-trouble|Blender export trouble]] — niv. 2 · conf. faible — « I have made a barrel in Blender and want to export it into Roblox Studio. »
 - [[animation/c8a336cbfc57-how-do-you-export-roblox-animations-into-blender|How do you export Roblox animations into blender]] — niv. 2 · conf. faible — « I’ve developed a plugin for Roblox that can export any Roblox rig into Blender and generate a Blender Armature (rig) equivalent to the Roblo… »
 - [[animation/2b0a19448bca-how-export-this-animation-from-blender-to-roblox|How export this *** animation from blender to roblox]] — niv. 2 · conf. faible — « So , i have no idea how export thoses animations from blender to roblox, i somehow made one time for died animation but i dont know what i d… »
 - [[animation/6b1aec16f010-how-to-export-from-blender-with-color|How to export from blender with color?]] — niv. 2 · conf. faible — « I was wondering how I can color a mesh in blender with multiple colors, and be able to import it into roblox studio. »
 - [[animation/b69331a599eb-how-to-export-textures-from-blender|How to export textures from blender?]] — niv. 2 · conf. faible — « He doesn’t have roblox studio so I have to export the textures. »
 
-## Candidat (28)
+## Candidat (30)
 
 - [[animation/31039f3b0285-class-keyframe|Class: Keyframe]] — niv. 1 · conf. faible — « [Keyframe](/docs/reference/engine/classes/Keyframe.md) names can be set in the Roblox Animation Editor when »
 - [[animation/30313273c7d0-class-keyframesequence|Class: KeyframeSequence]] — niv. 1 · conf. faible — « - **Property `Loop`** (`boolean`): Determines whether the animation stored in this AnimationClip is »
@@ -30,7 +32,9 @@ Classement : statut, puis confiance, puis niveau de la source (1 = doc officiell
 - [[animation/a1e8285a8e0c-is-it-possible-to-set-animation-priority-in-moon-a|Is it possible to set animation priority in moon animator?]] — niv. 1 · conf. faible — « So just asking if I can set animation priority in it »
 - [[animation/c4ec9a89a5d5-next-steps|Next steps]] — niv. 1 · conf. faible — « - [Animation lesson](/docs/en-us/tutorials/curriculums/animator.md) — Learn how to **create keyframes for various poses**, then loop them in… »
 - [[animation/fb9fb728a09f-setting-the-animation-priority-of-a-single-keyfram|Setting the animation priority of a single keyframe]] — niv. 1 · conf. faible — « Thus, is there a way to set the animation priority of a single keyframe (e.g. »
+- [[animation/bd4862e0125e-tutorials|Tutorials]] — niv. 1 · conf. faible — « [<h5>Import into Studio</h5>](/docs/en-us/art/accessories/creating-rigid/importing.md) »
 - [[animation/0b316a523626-work-with-the-animation-editor|Work with the Animation Editor]] — niv. 1 · conf. faible — « description: "Explains how to work with the Animation Editor to create a custom animation." »
+- [[animation/cce01531011d-animating-fps-viewmodel-arms|Animating fps viewmodel arms]] — niv. 2 · conf. faible — « I always make every element of my viewmodels anchored and only move the model by :SetPrimaryPartCFrame() and animation utilizing AnimationCo… »
 - [[animation/d2d2f8df3bea-animation-editor-messing-up-on-import|Animation Editor messing up on import]] — niv. 2 · conf. faible — « The weird thing is that it plays fine in online mode, but hitting Play in the animator looks different (making me assume the import is faili… »
 - [[animation/e5c1be2df836-blender-export-failed|Blender export failed]] — niv. 2 · conf. faible — « That’s probably because your character model is far away from the center point in Studio—to fix this, import the model again and go to the t… »
 - [[traversal/8650ce849d209e7acff7-building-a-parkour-system-cuz-i-m-bored-devlo|Building a parkour system cuz i'm bored(devlog)]] — niv. 2 · conf. faible

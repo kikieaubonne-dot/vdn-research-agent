@@ -4,7 +4,7 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 
 | Domaine | Validées | Reproduites | Documentées | Candidates | Rejetées |
 |---|---:|---:|---:|---:|---:|
-| [[animation/_index|animation]] | 0 | 0 | 15 | 28 | 8 |
+| [[animation/_index|animation]] | 0 | 0 | 17 | 30 | 8 |
 | [[architecture/_index|architecture]] | 0 | 0 | 0 | 1 | 9 |
 | [[characters/_index|characters]] | 0 | 0 | 2 | 1 | 9 |
 | [[forest/_index|forest]] | 0 | 0 | 9 | 12 | 12 |
@@ -13,7 +13,7 @@ Une fiche = une source/technique. Statuts : candidat → documenté → reprodui
 | [[performance/_index|performance]] | 0 | 0 | 10 | 13 | 0 |
 | [[rendering/_index|rendering]] | 0 | 0 | 20 | 9 | 0 |
 | [[snow/_index|snow]] | 0 | 0 | 15 | 14 | 0 |
-| [[terrain/_index|terrain]] | 0 | 0 | 13 | 23 | 0 |
+| [[terrain/_index|terrain]] | 0 | 0 | 13 | 24 | 0 |
 | [[vegetation/_index|vegetation]] | 0 | 0 | 7 | 5 | 4 |
 
-Total : 310 fiches. Mis à jour le 2026-11-27.
+Total : 315 fiches. Mis à jour le 2026-11-28.

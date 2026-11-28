@@ -4507,11 +4507,30 @@
       "depth": 1,
       "parent": "039742376eb01a03",
       "reason": "lacune : aucune etape exploitable (vdn-7ce009e766f3)",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T07:12:33+00:00",
-      "updated": "2026-11-21T07:12:33+00:00",
-      "result": null
+      "updated": "2026-11-28T07:51:45+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 3,
+        "rejected": 5,
+        "duplicates": 3,
+        "updated": 0,
+        "notes": [
+          "vdn-bd4862e0125e",
+          "vdn-53c44795646f",
+          "vdn-b13f0888058c"
+        ],
+        "followups": [
+          "Keyframe tutorial step by step implementation tutorial code",
+          "Keyframe tutorial Roblox Studio implementation compatibility"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795852292.8824894,
+      "finished_ts": 1795852305.479382
     },
     "3ccf366f6c814c91": {
       "key": "3ccf366f6c814c91",
@@ -4715,11 +4734,27 @@
       "depth": 1,
       "parent": "2db072073b5322ec",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-21T21:41:03+00:00",
-      "updated": "2026-11-21T21:41:03+00:00",
-      "result": null
+      "updated": "2026-11-28T07:51:56+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 1,
+        "rejected": 7,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [
+          "vdn-cce01531011d"
+        ],
+        "followups": [
+          "arms Motor6D viewmodel settings"
+        ],
+        "errors": 0
+      },
+      "started_ts": 1795852305.4868994,
+      "finished_ts": 1795852316.649686
     },
     "a604388b4162012b": {
       "key": "a604388b4162012b",
@@ -5093,11 +5128,25 @@
       "depth": 1,
       "parent": "81f23bb09d9de9a5",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-23T20:16:55+00:00",
-      "updated": "2026-11-23T20:16:55+00:00",
-      "result": null
+      "updated": "2026-11-28T07:52:00+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 2,
+        "created": 1,
+        "rejected": 1,
+        "duplicates": 10,
+        "updated": 0,
+        "notes": [
+          "vdn-c354c7432bf0"
+        ],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795852316.6569774,
+      "finished_ts": 1795852320.5110478
     },
     "4bb40ec2ebc1224d": {
       "key": "4bb40ec2ebc1224d",
@@ -5108,11 +5157,23 @@
       "depth": 1,
       "parent": "9a7dbdf69f016311",
       "reason": "sources pertinentes mais sans etapes techniques suffisantes",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "created": "2026-11-24T04:51:13+00:00",
-      "updated": "2026-11-24T04:51:13+00:00",
-      "result": null
+      "updated": "2026-11-28T07:52:11+00:00",
+      "result": {
+        "returned": 12,
+        "fetched": 8,
+        "created": 0,
+        "rejected": 8,
+        "duplicates": 1,
+        "updated": 0,
+        "notes": [],
+        "followups": [],
+        "errors": 0
+      },
+      "started_ts": 1795852320.5180988,
+      "finished_ts": 1795852331.0982738
     },
     "4c599817396ee7e3": {
       "key": "4c599817396ee7e3",
@@ -5968,11 +6029,56 @@
       "created": "2026-11-27T23:29:06+00:00",
       "updated": "2026-11-27T23:29:06+00:00",
       "result": null
+    },
+    "5867cee219c61be5": {
+      "key": "5867cee219c61be5",
+      "topic": "blender_animation",
+      "query": "Keyframe tutorial step by step implementation tutorial code",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "ea1603d9e154c0e3",
+      "reason": "sources pertinentes mais sans etapes techniques suffisantes",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-28T07:51:45+00:00",
+      "updated": "2026-11-28T07:51:45+00:00",
+      "result": null
+    },
+    "f34d3d96cc05f688": {
+      "key": "f34d3d96cc05f688",
+      "topic": "blender_animation",
+      "query": "Keyframe tutorial Roblox Studio implementation compatibility",
+      "priority": 7.0,
+      "origin": "relance_lacune",
+      "depth": 2,
+      "parent": "ea1603d9e154c0e3",
+      "reason": "compatibilite Roblox non etablie",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-28T07:51:45+00:00",
+      "updated": "2026-11-28T07:51:45+00:00",
+      "result": null
+    },
+    "2cb711f8970ec860": {
+      "key": "2cb711f8970ec860",
+      "topic": "fp_hands",
+      "query": "arms Motor6D viewmodel settings",
+      "priority": 7.0,
+      "origin": "relance",
+      "depth": 2,
+      "parent": "5c521d8f5dd87d1a",
+      "reason": "lacune : aucun parametre chiffre dans la source (vdn-cce01531011d)",
+      "status": "pending",
+      "attempts": 0,
+      "created": "2026-11-28T07:51:56+00:00",
+      "updated": "2026-11-28T07:51:56+00:00",
+      "result": null
     }
   },
   "daily": {
-    "date": "2026-11-27",
-    "items": 12,
-    "fetch": 78
+    "date": "2026-11-28",
+    "items": 4,
+    "fetch": 26
   }
 }

@@ -1239,6 +1239,26 @@
   "https://github.com/pavilion4games/heightbridge-blender-terrain3d": {
    "id": "vdn-adf4e96a6572",
    "path": "knowledge/terrain/adf4e96a6572-pavilion4games-heightbridge-blender-terrain3d-blen.md"
+  },
+  "https://create.roblox.com/docs/avatar/tutorials": {
+   "id": "vdn-bd4862e0125e",
+   "path": "knowledge/animation/bd4862e0125e-tutorials.md"
+  },
+  "https://create.roblox.com/docs/tutorials": {
+   "id": "vdn-53c44795646f",
+   "path": "knowledge/animation/53c44795646f-start-learning-with-tutorials.md"
+  },
+  "https://devforum.roblox.com/t/551742": {
+   "id": "vdn-b13f0888058c",
+   "path": "knowledge/animation/b13f0888058c-any-good-tutorial-to-make-realistic-trees.md"
+  },
+  "https://devforum.roblox.com/t/1122319": {
+   "id": "vdn-cce01531011d",
+   "path": "knowledge/animation/cce01531011d-animating-fps-viewmodel-arms.md"
+  },
+  "https://devforum.roblox.com/t/1020579": {
+   "id": "vdn-c354c7432bf0",
+   "path": "knowledge/terrain/c354c7432bf0-how-i-can-import-massive-map-with-heightmap.md"
   }
  },
  "fingerprints": {
@@ -2650,6 +2670,18 @@
   "8d28674a78ea7894": "vdn-adf4e96a6572",
   "0f00fa7f8cb0209f": "vdn-adf4e96a6572",
   "3099f59860f7f371": "vdn-adf4e96a6572",
-  "49edbe5d6d3eaa4f": "vdn-adf4e96a6572"
+  "49edbe5d6d3eaa4f": "vdn-adf4e96a6572",
+  "c0dd569a0a00b64d": "vdn-53c44795646f",
+  "32842c844c512908": "vdn-53c44795646f",
+  "dcc861845c216bb5": "vdn-53c44795646f",
+  "5ff3f8e13601f055": "vdn-53c44795646f",
+  "d6648fe2e828f2c6": "vdn-b13f0888058c",
+  "46f1415982da7911": "vdn-b13f0888058c",
+  "072ce7af41299751": "vdn-b13f0888058c",
+  "644ce5590b234b9d": "vdn-b13f0888058c",
+  "23a89c533d8176be": "vdn-cce01531011d",
+  "298c8b77cfd36fd6": "vdn-cce01531011d",
+  "9daf9a41b49b309e": "vdn-c354c7432bf0",
+  "ae8f5b70ebb43a92": "vdn-f111a03b775d"
  }
 }
